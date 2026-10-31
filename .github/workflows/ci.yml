@@ -49,9 +49,9 @@ jobs:
         run: |
           $mpl = '3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04'
           $strict = '9eb48619fbc193ab7bb327b090cfcc703000265b83e670f81f231d0b1c43c56e'
-          function H($p) { (Get-FileHash $p -Algorithm SHA256).Hash.ToLowerInvariant() }
-          if ((H LICENSE) -ne $mpl) { throw 'LICENSE is not the official MPL 2.0 text' }
-          foreach ($f in 'lab/sdk/LICENSE','lab/samples/LICENSE') { if ((H $f) -ne $strict) { throw "$f changed: update this check together with LICENSING.md" } }
+          function Get-LicenseSha256($path) { (Get-FileHash -LiteralPath $path -Algorithm SHA256).Hash.ToLowerInvariant() }
+          if ((Get-LicenseSha256 LICENSE) -ne $mpl) { throw 'LICENSE is not the official MPL 2.0 text' }
+          foreach ($f in 'lab/sdk/LICENSE','lab/samples/LICENSE') { if ((Get-LicenseSha256 $f) -ne $strict) { throw "$f changed: update this check together with LICENSING.md" } }
 
       - name: Upload test results
         if: always()
