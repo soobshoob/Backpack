@@ -805,12 +805,18 @@ public class Phase2ETests
                     w.Width = width;
                     w.Height = height;
                     w.UpdateLayout();
+                    // The native off-screen HWND can be constrained by a hosted runner's virtual screen.
+                    // This test checks logical content layout at each requested size, independent of that screen.
+                    var layoutRoot = (FrameworkElement)w.Content;
+                    layoutRoot.Measure(new Size(width, height));
+                    layoutRoot.Arrange(new Rect(0, 0, width, height));
+                    layoutRoot.UpdateLayout();
                     var card = w.PreviewCard!;
                     var page = w.Cards;
                     Assert.Equal(width >= 1200, w.PreviewOnRight);
                     // Превью закреплено в обеих компоновках: вне прокручиваемой области и не пересекается с ней.
-                    var c = card.TransformToAncestor(w).TransformBounds(new Rect(card.RenderSize));
-                    var a = w.ScrollArea!.TransformToAncestor(w).TransformBounds(new Rect(w.ScrollArea.RenderSize));
+                    var c = card.TransformToAncestor(layoutRoot).TransformBounds(new Rect(card.RenderSize));
+                    var a = w.ScrollArea!.TransformToAncestor(layoutRoot).TransformBounds(new Rect(w.ScrollArea.RenderSize));
                     Assert.False(Rect.Intersect(c, a) is { IsEmpty: false, Width: > 0.5, Height: > 0.5 }, $"{width}×{height}: {a} ∩ {c}");
                     Assert.False(page.IsAncestorOf(card));
                     if (w.PreviewOnRight)

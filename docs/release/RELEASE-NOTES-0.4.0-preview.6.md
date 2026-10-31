@@ -15,7 +15,7 @@ the state before publication; these repository and GitHub notes include the publ
 - **Resize and rotate selected shapes.** Corner and side handles, a rotation knob, matching pointers; Shift keeps proportions or snaps rotation to 15°, Alt resizes from the centre, Esc cancels the drag. One drag is one undo step. Line thickness stays the same; text scales as a whole; numbered marks only move.
 - **Plugin icons.** A plugin's author picks an icon in `manifest.json` (`"symbol"`, one of the icons built into Backpack); you can choose your own on the plugin page (“Display” → “Choose an icon”, with search). Your choice is stored by plugin ID and survives updates. The six plugins from the creator have distinct icons; the star is used only for “In the menu”.
 - **App icon = the website logo.** The icon is drawn from the exact geometry of the website's backpack mark, in sizes 16–256.
-- **Repository preparation** (local only, nothing published): README, build and contribution guides, security policy, licensing boundaries, GitHub Actions for pull-request checks and tagged releases, a plugin catalog that accepts entries by pull request (`registry/`), and a funding template. What still needs the owner is listed in `docs/release/GITHUB-SETUP.md`.
+- **Publication tooling:** README, build and contribution guides, security policy, licensing boundaries, GitHub Actions for pull-request checks and tagged releases, a schema-valid empty plugin catalog (`registry/`), and an inactive funding template. Publication setup is described in `docs/release/GITHUB-SETUP.md`; the website is not deployed.
 
 ## Fixed
 
@@ -35,6 +35,6 @@ the state before publication; these repository and GitHub notes include the publ
 - The package is unsigned. No update address is configured.
 - The help is not translated into the 16 new languages (English text with a notice).
 - The display stall was not reproduced: if keys stop showing, run `Backpack.exe --display-trace=%USERPROFILE%\Desktop\backpack-display.tsv`, keep it running until it happens, and send the file (it holds counters and stages, no key names).
-- The GitHub workflows were checked for syntax and by running their scripts locally; they have not run on GitHub yet.
+- Ordinary GitHub CI does not replace interactive desktop checks for input/privacy, hover, monitors and DPI. The first prerelease uses the verified local ZIP; automatic release creation is skipped for this tag to avoid duplicate publication.
 - Hardware Fn has still not been traced with a physical key press (see preview.5 notes).
 - Plugins run in their own process but are not sandboxed: turn on only plugins you trust.
