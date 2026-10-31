@@ -1,0 +1,54 @@
+{
+  "store": {
+    "enabled": true,
+    "published": true,
+    "url": "https://apps.microsoft.com/detail/9FIXTURE0001"
+  },
+  "github": {
+    "owner": "backpack-fixture",
+    "repository": "test-repo",
+    "artifact": {
+      "filenameTemplate": "Backpack-{version}-win-x64.zip",
+      "platform": "Windows 10 / 11",
+      "architecture": "x64",
+      "packageType": "portable-zip",
+      "checksumFilename": "SHA256SUMS.txt"
+    },
+    "cacheMinutes": 10
+  },
+  "registry": {
+    "url": "https://raw.githubusercontent.com/backpack-fixture/test-repo/main/plugins/index.json",
+    "catalogGithubUrl": "https://github.com/backpack-fixture/test-repo/blob/main/plugins/index.json",
+    "contributeUrl": "https://github.com/backpack-fixture/test-repo/compare",
+    "cacheMinutes": 5
+  },
+  "support": {
+    "monobank": {
+      "enabled": true,
+      "url": null
+    },
+    "buyMeACoffee": {
+      "enabled": true,
+      "url": null
+    }
+  },
+  "licensing": {
+    "releases": {
+      "0.4.0-preview.4": {
+        "name": "PolyForm Strict 1.0.0",
+        "url": "https://polyformproject.org/licenses/strict/1.0.0",
+        "signature": "unsigned"
+      }
+    },
+    "sdk": {
+      "name": "PolyForm Strict 1.0.0",
+      "url": "https://polyformproject.org/licenses/strict/1.0.0",
+      "decisionPending": true
+    },
+    "examples": {
+      "name": "PolyForm Strict 1.0.0",
+      "url": "https://polyformproject.org/licenses/strict/1.0.0",
+      "decisionPending": true
+    }
+  }
+}

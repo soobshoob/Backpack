@@ -1,0 +1,416 @@
+{
+  "content": {
+    "title": "Backpack — Klare Aktionen. Eigene Werkzeuge.",
+    "description": "Machen Sie Präsentationen, Unterricht und Bildschirmaufnahmen verständlicher. Zeigen Sie jede Taste und jeden Klick. Wählen Sie zusätzliche Werkzeuge als unabhängige Plugins — oder erkunden Sie die Entwicklung eigener Erweiterungen.",
+    "nav": [
+      "Funktionen",
+      "Werkzeuge",
+      "Download",
+      "Hilfe"
+    ],
+    "skip": "Zum Inhalt",
+    "menu": "Menü",
+    "language": "Sprache",
+    "close": "Menü schließen",
+    "sceneNote": [
+      "Jede Aktion",
+      "klar zeigen."
+    ],
+    "toolkit": "WERKZEUGE",
+    "previewLabel": "Vorschau",
+    "signedLabel": "Digital signiert",
+    "unsignedLabel": "Nicht signiert",
+    "publishedLabel": "Veröffentlicht",
+    "unpublishedLabel": "Nicht veröffentlicht",
+    "eyebrow": "Das Wichtige sichtbar machen.",
+    "badge": "Neuer Name. Dieselbe Liebe zum Detail.",
+    "hero": [
+      "Jede Aktion",
+      "auf dem Bildschirm",
+      "klar zeigen."
+    ],
+    "intro": "Machen Sie Präsentationen, Unterricht und Bildschirmaufnahmen verständlicher. Zeigen Sie jede Taste und jeden Klick.",
+    "primary": "Werkzeuge entdecken",
+    "secondary": "Versionsstatus",
+    "platform": "Windows 10 / 11 · x64 · Vorschau",
+    "pause": "Animationen pausieren",
+    "play": "Animationen abspielen",
+    "reduced": "Bewegung reduziert",
+    "categories": [
+      "Tastendrücke",
+      "Mausanzeige",
+      "Plugins",
+      "EIGENES WERKZEUG ERSTELLEN",
+      "Profile und Stile"
+    ],
+    "overviewTag": "IN BACKPACK INTEGRIERT",
+    "overviewTitle": [
+      "Alles, was Sie brauchen.",
+      "Genau dort, wo es hilft."
+    ],
+    "overviewText": "Tasten und Mausvisualisierung bilden den Kern von Backpack. Ihr Publikum folgt jeder Aktion.",
+    "explore": "Werkzeuge entdecken",
+    "interface": "Demonstration des neuen Modells",
+    "interfaceNote": "Simulierter Ablauf der geplanten Oberfläche. Import und Vertrauen sind in preview.4 implementiert; die Szene ist kein Screenshot oder Nachweis, dass alle Plugins fertig sind.",
+    "home": "Start",
+    "appearance": "Darstellung",
+    "keys": "Tasten und Kürzel",
+    "mouse": "Maus",
+    "focus": "Fokus",
+    "drawing": "Zeichnen",
+    "profiles": "Profile",
+    "lens": "Lupe",
+    "dimming": "Umgebung abdunkeln",
+    "zoom": "Vergrößerung",
+    "size": "Bereichsgröße",
+    "radius": "Eckenradius",
+    "border": "Rahmenfarbe",
+    "tray": "Hintergrund unter Rahmen",
+    "toolsTag": "WERKZEUGE",
+    "toolsTitle": "Beginnen Sie mit dem Wesentlichen.",
+    "toolsText": "Simulierte Eingabe. Geschützte Tastendrücke werden niemals gezeigt. Tastatur und Bildschirm werden nicht erfasst.",
+    "preview": "In geprüfter Vorschau",
+    "development": "In Entwicklung",
+    "concept": "Konzeptdemo",
+    "cards": [
+      [
+        "Tastendrücke",
+        "Jedes Kürzel klar erkennbar.",
+        "Lesbare Tastenkappen, natürliche Kombinationen und fünf Darstellungen."
+      ],
+      [
+        "Mausanzeige",
+        "Ein Zeiger, dem man folgen kann.",
+        "Linksklick, Rechtsklick und Scrollrichtung auf einer Anzeige neben dem Zeiger."
+      ],
+      [
+        "Lupe",
+        "Lupe",
+        "Eine separate vergrößerte Ansicht eines gewählten Bereichs verschieben."
+      ],
+      [
+        "Zeichnen",
+        "Zeichnen",
+        "Temporäre Notizen, Formen und Text während Ihrer Erklärung."
+      ],
+      [
+        "Eingabeprivatsphäre — getrennt betrachtet.",
+        "Eingabeprivatsphäre — getrennt betrachtet.",
+        "Die geprüfte Vorschau verbirgt Tasten bei erkannter geschützter Eingabe. Die Erkennung hat Grenzen und eine bekannte verzögerte Fokusmeldung: vor sensibler Eingabe manuell ausblenden. Vertrauen in Plugin-Code ist davon getrennt."
+      ],
+      [
+        "Profile und Stile",
+        "Ihre Einrichtung bleibt Ihre.",
+        "Darstellung, gespeicherte Profile, Eingabeprivatsphäre und Pluginverwaltung sind Anwendungsinfrastruktur, keine separaten Plugins."
+      ]
+    ],
+    "styles": [
+      "Hell",
+      "Dunkel",
+      "Smaragd"
+    ],
+    "renderers": [
+      "PBT",
+      "Minimal",
+      "Laptop"
+    ],
+    "chooseStyle": "Darstellung",
+    "chooseProfile": "Profile",
+    "chooseFocus": "Fokus",
+    "dimNote": "Plugin im Paket geprüft · Backpack 0.4.0-preview.4 / SDK 1.1. Noch kein öffentliches Paket",
+    "numberNote": "Demonstration des neuen Modells",
+    "safe": "Geschütztes Feld",
+    "ordinary": "Nachricht",
+    "privacyNote": "Die geprüfte Vorschau verbirgt Tasten bei erkannter geschützter Eingabe. Die Erkennung hat Grenzen und eine bekannte verzögerte Fokusmeldung: vor sensibler Eingabe manuell ausblenden. Vertrauen in Plugin-Code ist davon getrennt.",
+    "pluginTitle": "Die passenden Werkzeuge für Ihre Geschichte.",
+    "pluginText": "Die Erweiterungen des Backpack-Autors lassen sich unabhängig hinzufügen und dienen zugleich als Beispiele für künftige eigene Plugins.",
+    "downloadTag": "Zuletzt geprüftes Paket",
+    "downloadTitle": [
+      "Ein klarerer Bildschirm.",
+      "Eine bessere Erklärung."
+    ],
+    "downloadText": "Noch kein öffentliches Paket",
+    "preparing": "Öffentlicher Download wird vorbereitet",
+    "packageLabel": "Zuletzt geprüftes Paket",
+    "unsigned": "Nicht signiert · Nicht veröffentlicht",
+    "release": "Versionshinweise lesen",
+    "download": "Für Windows herunterladen",
+    "checksum": "SHA-256 des geprüften Pakets",
+    "checksumNote": "Kennzeichnet das lokal geprüfte Paket. Diese Website verteilt kein Programmpaket.",
+    "license": "Lizenz",
+    "helpTag": "Hilfe",
+    "helpTitle": "Vor Ihrer nächsten Präsentation.",
+    "faq": [
+      [
+        "Was gehört zur Anwendung?",
+        "Tasten und Mausvisualisierung bilden den Kern von Backpack. Ihr Publikum folgt jeder Aktion. Lupe, Fokus, Zeigerlupe, Timer — Plugin im Paket geprüft · Backpack 0.4.0-preview.4 / SDK 1.1. Zeichnen, Layoutanzeige — Plugin geplant. Darstellung, gespeicherte Profile, Eingabeprivatsphäre und Pluginverwaltung sind Anwendungsinfrastruktur, keine separaten Plugins."
+      ],
+      [
+        "Sind Backpack und Plugins herunterladbar?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Noch kein öffentliches Paket Lupe, Fokus, Zeigerlupe, Timer — Plugin im Paket geprüft · Backpack 0.4.0-preview.4 / SDK 1.1. Zeichnen, Layoutanzeige — Plugin geplant."
+      ],
+      [
+        "Wie werden Erweiterungen installiert?",
+        "Plugins → Plugin importieren → .bppkg. Import prüft und entpackt ohne Codeausführung oder Vertrauensfreigabe. Neue und aktualisierte Plugins sind aus; erstes Einschalten erfordert die Vertrauensbestätigung."
+      ],
+      [
+        "Sind Plugins sicher isoliert?",
+        "Nur vertrauenswürdige Quellen verwenden. Separate Prozesse laufen mit Benutzerrechten und begrenzen Fehler, sind aber keine Sandbox. Manifestfähigkeiten begrenzen die Backpack-Schnittstelle, nicht alle Systemzugriffe."
+      ],
+      [
+        "Wie beginne ich ein eigenes Werkzeug?",
+        "F1 → Plugins erklärt Vertrag, Lebenszyklus, Befehle, Einstellungen, Lokalisierung und Timer-Build. Ausführliche Anleitungen und funktionierende Beispiele werden vorbereitet; die neuen SDK-Bedingungen sollen die freie Erstellung eigener Plugins ermöglichen. Öffentliche Links folgen."
+      ],
+      [
+        "Schützt Eingabeprivatsphäre jedes Feld?",
+        "Keine universelle Erkennung zugesichert. Geschützte und unbekannte Eingaben können verborgen werden, asynchrone Fokuserkennung hat Grenzen. Vor sensibler Eingabe manuell ausblenden. Pluginvertrauen separat entscheiden."
+      ],
+      [
+        "Welche Systeme und Lizenz gelten?",
+        "Geprüftes Paket für Windows 10/11 x64, mit .NET. Backpack verwendet PolyForm Strict 1.0.0 und ist nicht Open Source. Die SDK-/Beispielbedingungen werden aktualisiert."
+      ]
+    ],
+    "footer": "Kleine Werkzeuge. Klare Geschichten.",
+    "author": "Erstellt von",
+    "back": "Nach oben",
+    "notice": "Demonstration des neuen Modells",
+    "madeIn": "Hergestellt in der Ukraine.",
+    "program": {
+      "settings": "App-Einstellungen",
+      "privacy": "Datenschutz",
+      "about": "Über",
+      "importPlugin": "Plugin importieren",
+      "view": "Ansicht",
+      "cards": "Karten",
+      "list": "Liste",
+      "duration": "Dauer",
+      "minutes": "Minuten",
+      "seconds": "Sekunden",
+      "commands": "Befehle"
+    },
+    "carousel": {
+      "previous": "Zurück",
+      "next": "Weiter"
+    }
+  },
+  "demo": {
+    "cursorTag": "Zeigerlupe",
+    "cursorTitle": "Zeigerlupe",
+    "cursorDescription": "Details mit einer Lupe verfolgen, die dem Zeiger folgt.",
+    "cursorCaption": "Lupe um den Zeiger · 2,5×",
+    "windowTag": "Lupe",
+    "windowTitle": "Lupe",
+    "windowDescription": "Eine separate vergrößerte Ansicht eines gewählten Bereichs verschieben.",
+    "windowLabel": "Lupe",
+    "windowCaption": "Separates, bewegliches Lupenfenster · 2,5×",
+    "profileHeading": "Ein Werkzeugkasten. Ihr eigener Stil.",
+    "rightShift": "Rechte Umschalttaste",
+    "layoutCode": "DE",
+    "families": [
+      "Flach",
+      "Laptop",
+      "PBT",
+      "Minimal",
+      "3D"
+    ],
+    "familyPresets": [
+      "Flach",
+      "Laptop",
+      "PBT",
+      "Minimal",
+      "3D"
+    ],
+    "profiles": [
+      "Creme",
+      "Graphit",
+      "Minze"
+    ],
+    "profileNames": [
+      "PBT · Creme",
+      "Flach · Graphit",
+      "3D · Minze"
+    ],
+    "mouseStyles": [
+      "Kontur",
+      "Gefüllt",
+      "Retro"
+    ],
+    "mouseNames": [
+      "Kontur",
+      "Gefüllt",
+      "Retro"
+    ],
+    "mouseStyle": "Mausanzeige",
+    "normalField": "Nachricht",
+    "passwordField": "Geschütztes Feld",
+    "safePhrase": "Hallo Team",
+    "returnPhrase": "Neue Idee",
+    "privacySteps": [
+      "Nachrichtenfeld auswählen",
+      "Nur normale Tastendrücke werden gezeigt",
+      "Schutz vor dem ersten Passwortzeichen",
+      "Neuer Text. Nur neue Tastendrücke."
+    ],
+    "mouseSteps": [
+      "Element auswählen",
+      "Kontextmenü öffnen",
+      "Durch die Liste scrollen"
+    ],
+    "selected": "Ausgewählt",
+    "context": [
+      "Öffnen",
+      "Kopieren",
+      "Details"
+    ],
+    "board": [
+      "Designnotizen",
+      "Bildschirmwerkzeuge",
+      "Nächste Lektion"
+    ],
+    "boardTag": "PROJEKT",
+    "boardHeading": "Eine klare Idee",
+    "boardRows": [
+      "Tastenkürzel",
+      "Fokusbereich",
+      "Nächster Schritt"
+    ],
+    "lensScale": "Live-Vergrößerung",
+    "drawSteps": [
+      "Pfeilwerkzeug wählen",
+      "Erst eine Linie, dann eine Form zeichnen"
+    ],
+    "interfaceSteps": [
+      "Vergrößerungsregler ziehen",
+      "Lupenfenster zeigt den markierten Bereich",
+      "Umgebung abdunkeln"
+    ],
+    "keySequence": "Drücken. Halten. Loslassen.",
+    "keyExamples": "Eingabe · Leertaste · Zusatztasten",
+    "space": "Leertaste",
+    "shift": "Umschalt",
+    "layout": "Tastaturlayout",
+    "privacyStatic": "Simulierte Eingabe. Geschützte Tastendrücke werden niemals gezeigt. Tastatur und Bildschirm werden nicht erfasst."
+  },
+  "model": {
+    "title": "Backpack — Klare Aktionen. Eigene Werkzeuge.",
+    "intro": "Machen Sie Präsentationen, Unterricht und Bildschirmaufnahmen verständlicher. Zeigen Sie jede Taste und jeden Klick.",
+    "extension": "Wählen Sie zusätzliche Werkzeuge als unabhängige Plugins — oder erkunden Sie die Entwicklung eigener Erweiterungen.",
+    "coreTag": "IN BACKPACK INTEGRIERT",
+    "coreTitle": "Beginnen Sie mit dem Wesentlichen.",
+    "coreText": "Tasten und Mausvisualisierung bilden den Kern von Backpack. Ihr Publikum folgt jeder Aktion.",
+    "pluginsTag": "PLUGINS DES AUTORS",
+    "pluginsTitle": "Die passenden Werkzeuge für Ihre Geschichte.",
+    "pluginsText": "Die Erweiterungen des Backpack-Autors lassen sich unabhängig hinzufügen und dienen zugleich als Beispiele für künftige eigene Plugins.",
+    "transitionNote": "Lupe, Fokus, Zeigerlupe, Timer — Plugin im Paket geprüft · Backpack 0.4.0-preview.4 / SDK 1.1. Zeichnen, Layoutanzeige — Plugin geplant.",
+    "builtin": "Integriert",
+    "authorPlugin": "Plugin des Autors",
+    "notPublished": "Noch kein öffentliches Paket",
+    "byAuthor": "Autor",
+    "statuses": {
+      "planned": "Plugin geplant",
+      "source": "Plugin im Quellcode",
+      "verified": "Plugin im Paket geprüft"
+    },
+    "availability": {
+      "planned": "Das Werkzeug funktioniert in preview.4. Ein eigenständiges Plugin ist noch nicht implementiert oder verpackt.",
+      "source": "Lupe, Fokus, Zeigerlupe, Timer — Plugin im Paket geprüft · Backpack 0.4.0-preview.4 / SDK 1.1. Zeichnen, Layoutanzeige — Plugin geplant.",
+      "verified": "Plugin im Paket geprüft · Backpack 0.4.0-preview.4 / SDK 1.1. Noch kein öffentliches Paket"
+    },
+    "pluginNames": [
+      "Zeichnen",
+      "Layoutanzeige",
+      "Lupe",
+      "Fokus",
+      "Zeigerlupe",
+      "Timer"
+    ],
+    "pluginBenefits": [
+      "Temporäre Notizen, Formen und Text während Ihrer Erklärung.",
+      "Den Wechsel der Eingabesprache sichtbar machen.",
+      "Eine separate vergrößerte Ansicht eines gewählten Bereichs verschieben.",
+      "Die Umgebung abdunkeln, den gewählten Bereich in Originalgröße klar lassen.",
+      "Details mit einer Lupe verfolgen, die dem Zeiger folgt.",
+      "Countdown über dem Bildschirm, mit Pause und Fortsetzen."
+    ],
+    "developerTag": "EIGENES WERKZEUG ERSTELLEN",
+    "developerTitle": "Ihre Aufgabe. Ihr nächstes Werkzeug.",
+    "developerText": "Die Autoren-Plugins zeigen den Vertrag mit Backpack. Detaillierte Anleitungen und funktionierende Beispiele werden auf Grundlage des Timers vorbereitet.",
+    "developerSteps": [
+      [
+        "Befehle und Lebenszyklus",
+        "Das SDK verbindet Start, Stopp und Befehle mit Backpack. Befehlen können Tastenkürzel zugewiesen werden."
+      ],
+      [
+        "Einstellungen und Oberfläche",
+        "Das Manifest beschreibt Einstellungen; Backpack zeichnet Bedienelemente und Overlay-Panels. Panelfarben sind explizite Parameter, keine zugesicherte automatische Theme-API."
+      ],
+      [
+        "Lokalisierung und Beispiele",
+        "Lokalisierte Manifesttexte und Context.Locale unterstützen die App-Sprachen. Die Hilfe erklärt Timer, Build, Verpackung und .bppkg-Import."
+      ]
+    ],
+    "docsNotice": "F1 → Plugins erklärt Vertrag, Build und Import. Öffentliche Links zu SDK-Dokumentation und Beispielquellen fehlen noch.",
+    "licenseNote": "Die SDK-Bedingungen werden aktualisiert, damit Sie eigene Plugins frei erstellen können. Detaillierte Schritt-für-Schritt-Anleitungen für Build und Import sowie funktionierende Beispiele werden vorbereitet.",
+    "applicationTag": "TEIL DER ANWENDUNG",
+    "applicationTitle": "Ihre Einrichtung bleibt Ihre.",
+    "applicationText": "Darstellung, gespeicherte Profile, Eingabeprivatsphäre und Pluginverwaltung sind Anwendungsinfrastruktur, keine separaten Plugins.",
+    "privacyTitle": "Eingabeprivatsphäre — getrennt betrachtet.",
+    "privacyText": "Die geprüfte Vorschau verbirgt Tasten bei erkannter geschützter Eingabe. Die Erkennung hat Grenzen und eine bekannte verzögerte Fokusmeldung: vor sensibler Eingabe manuell ausblenden. Vertrauen in Plugin-Code ist davon getrennt.",
+    "workflowTitle": "Demonstration des neuen Modells",
+    "workflowNote": "Simulierter Ablauf der geplanten Oberfläche. Import und Vertrauen sind in preview.4 implementiert; die Szene ist kein Screenshot oder Nachweis, dass alle Plugins fertig sind.",
+    "workflowSteps": [
+      "Mit integrierten Tasten und Maus beginnen",
+      "Pluginbereich öffnen",
+      "Timer des Autors wählen",
+      "Vertrauen bestätigen und einschalten",
+      "Das zusätzliche Werkzeug erscheint"
+    ],
+    "coreTab": "Integriert",
+    "pluginsTab": "Plugins",
+    "enable": "Einschalten",
+    "trust": "Nur Code aus vertrauenswürdigen Quellen einschalten. Ein separater Prozess ist keine Sandbox.",
+    "enabled": "Aktiviert",
+    "start": "Start",
+    "pause": "Pause",
+    "resume": "Fortsetzen",
+    "reset": "Zurücksetzen",
+    "finished": "Beendet",
+    "timerCaption": "Simulierter Countdown · Pause · Fortsetzen",
+    "layoutCaption": "Simulierter Wechsel der Eingabesprache",
+    "layoutSequence": [
+      "English",
+      "Українська",
+      "Deutsch"
+    ],
+    "faq": [
+      [
+        "Was gehört zur Anwendung?",
+        "Tasten und Mausvisualisierung bilden den Kern von Backpack. Ihr Publikum folgt jeder Aktion. Lupe, Fokus, Zeigerlupe, Timer — Plugin im Paket geprüft · Backpack 0.4.0-preview.4 / SDK 1.1. Zeichnen, Layoutanzeige — Plugin geplant. Darstellung, gespeicherte Profile, Eingabeprivatsphäre und Pluginverwaltung sind Anwendungsinfrastruktur, keine separaten Plugins."
+      ],
+      [
+        "Sind Backpack und Plugins herunterladbar?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Noch kein öffentliches Paket Lupe, Fokus, Zeigerlupe, Timer — Plugin im Paket geprüft · Backpack 0.4.0-preview.4 / SDK 1.1. Zeichnen, Layoutanzeige — Plugin geplant."
+      ],
+      [
+        "Wie werden Erweiterungen installiert?",
+        "Plugins → Plugin importieren → .bppkg. Import prüft und entpackt ohne Codeausführung oder Vertrauensfreigabe. Neue und aktualisierte Plugins sind aus; erstes Einschalten erfordert die Vertrauensbestätigung."
+      ],
+      [
+        "Sind Plugins sicher isoliert?",
+        "Nur vertrauenswürdige Quellen verwenden. Separate Prozesse laufen mit Benutzerrechten und begrenzen Fehler, sind aber keine Sandbox. Manifestfähigkeiten begrenzen die Backpack-Schnittstelle, nicht alle Systemzugriffe."
+      ],
+      [
+        "Wie beginne ich ein eigenes Werkzeug?",
+        "F1 → Plugins erklärt Vertrag, Lebenszyklus, Befehle, Einstellungen, Lokalisierung und Timer-Build. Ausführliche Anleitungen und funktionierende Beispiele werden vorbereitet; die neuen SDK-Bedingungen sollen die freie Erstellung eigener Plugins ermöglichen. Öffentliche Links folgen."
+      ],
+      [
+        "Schützt Eingabeprivatsphäre jedes Feld?",
+        "Keine universelle Erkennung zugesichert. Geschützte und unbekannte Eingaben können verborgen werden, asynchrone Fokuserkennung hat Grenzen. Vor sensibler Eingabe manuell ausblenden. Pluginvertrauen separat entscheiden."
+      ],
+      [
+        "Welche Systeme und Lizenz gelten?",
+        "Geprüftes Paket für Windows 10/11 x64, mit .NET. Backpack verwendet PolyForm Strict 1.0.0 und ist nicht Open Source. Die SDK-/Beispielbedingungen werden aktualisiert."
+      ]
+    ]
+  }
+}

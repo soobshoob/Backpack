@@ -1,0 +1,12 @@
+<Window x:Class="KeyOverlay.Lab.App.OverlayWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:w="clr-namespace:KeyOverlay.Visual.Windows;assembly=KeyOverlay.Visual"
+        Title="KeyOverlay.Lab Overlay"
+        Width="1000" Height="140"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        ResizeMode="NoResize" ShowInTaskbar="False" ShowActivated="False"
+        Topmost="True" Focusable="False" IsHitTestVisible="False">
+    <!-- Кейкапы рисует OverlayPresenter (KeyOverlay.Visual); полоса во всю ширину рабочей области, группу размещает AnchorPanel. -->
+    <w:AnchorPanel x:Name="Host" Focusable="False" />
+</Window>

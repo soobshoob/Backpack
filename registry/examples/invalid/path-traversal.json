@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "plugins": [
+    {
+      "id": "com.example.traversal",
+      "slug": "traversal",
+      "name": {
+        "en": "Fixture timer (test data)"
+      },
+      "author": {
+        "name": "Example author",
+        "url": "https://example.com/author"
+      },
+      "summary": {
+        "en": "Test fixture for the registry checks. Not a real plugin."
+      },
+      "description": {
+        "en": "This entry exists only to test the registry validation. The URL uses the reserved example.com domain."
+      },
+      "version": "1.0.0",
+      "category": "productivity",
+      "tags": [
+        "test"
+      ],
+      "distribution": {
+        "kind": "package",
+        "url": "https://example.com/plugins/com.example.traversal-1.0.0.bppkg",
+        "sha256": "228dcca5275a2e8f860f11025a020ff3ff5f391fbf33739daeea57d88c203415"
+      },
+      "compatibility": {
+        "minBackpack": "0.4.0-preview.6",
+        "sdk": "1.2",
+        "platforms": [
+          "windows-x64"
+        ]
+      },
+      "license": {
+        "name": "MIT",
+        "url": "https://opensource.org/license/mit"
+      }
+    }
+  ]
+}

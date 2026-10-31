@@ -1,0 +1,62 @@
+# Проверка pull request и веток: сборка .NET/WPF и тесты. Ничего не публикует, секретов не использует, права — только чтение.
+# Код из стороннего PR выполняется здесь (это обычная сборка), поэтому у workflow нет прав записи и токена с правами публикации.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-test:
+    name: Build and test (windows-x64)
+    runs-on: windows-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-dotnet@a98b56852c35b8e3190ac28c8c2271da59106c68 # v6.0.0
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Build
+        run: dotnet build lab/KeyOverlay.Lab.slnx -c Release
+
+      # Тесты WPF создают окна вне экрана; на hosted runner есть интерактивный рабочий стол Windows.
+      - name: Test
+        run: dotnet test lab/KeyOverlay.Lab.slnx -c Release --no-build --logger "trx;LogFileName=results.trx"
+
+      - name: Build the plugins from the creator
+        shell: pwsh
+        run: |
+          foreach ($p in 'Drawing','LayoutIndicator','CursorZoom','Lens','Focus','PresentationTimer') {
+            dotnet build "lab/samples/$p/$p.csproj" -c Release
+            if ($LASTEXITCODE -ne 0) { throw "$p" }
+          }
+
+      - name: Licence files are the unchanged official texts
+        shell: pwsh
+        run: |
+          $mpl = '3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04'
+          $strict = '9eb48619fbc193ab7bb327b090cfcc703000265b83e670f81f231d0b1c43c56e'
+          function H($p) { (Get-FileHash $p -Algorithm SHA256).Hash.ToLowerInvariant() }
+          if ((H LICENSE) -ne $mpl) { throw 'LICENSE is not the official MPL 2.0 text' }
+          foreach ($f in 'lab/sdk/LICENSE','lab/samples/LICENSE') { if ((H $f) -ne $strict) { throw "$f changed: update this check together with LICENSING.md" } }
+
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: test-results
+          path: '**/TestResults/*.trx'
+          retention-days: 14

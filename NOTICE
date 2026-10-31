@@ -1,0 +1,15 @@
+Backpack
+Copyright soobshoob (https://github.com/soobshoob)
+
+The Backpack core is licensed under the Mozilla Public License 2.0 (from version 0.4.0-preview.6).
+The full license text is in the LICENSE file and at https://www.mozilla.org/MPL/2.0/
+Which parts the license covers: LICENSING.md (in the package: LICENSE-STATUS.md).
+
+The plugin SDK (Backpack.Sdk) and the plugins from the creator are licensed separately under the
+PolyForm Strict License 1.0.0 until the owner decides on their terms: Licenses\PolyForm-Strict-1.0.0.txt
+in the package, lab/sdk/LICENSE and lab/samples/LICENSE in the repository.
+
+Earlier packages (up to 0.4.0-preview.5) were released under the PolyForm Strict License 1.0.0 and keep it.
+
+Third-party components shipped with Backpack keep their own licenses; see THIRD-PARTY-NOTICES.md
+and the Licenses folder of the program package.

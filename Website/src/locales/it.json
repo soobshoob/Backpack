@@ -1,0 +1,416 @@
+{
+  "content": {
+    "title": "Backpack — Azioni chiare. Strumenti tuoi.",
+    "description": "Rendi più semplici da seguire presentazioni, lezioni e registrazioni. Mostra ogni tasto e clic. Aggiungi strumenti come plugin indipendenti o scopri come crearne uno per le tue esigenze.",
+    "nav": [
+      "Funzioni",
+      "Strumenti",
+      "Scarica",
+      "Aiuto"
+    ],
+    "skip": "Vai al contenuto",
+    "menu": "Menu",
+    "language": "Lingua",
+    "close": "Chiudi menu",
+    "sceneNote": [
+      "Ogni azione",
+      "più chiara."
+    ],
+    "toolkit": "STRUMENTI",
+    "previewLabel": "Anteprima",
+    "signedLabel": "Firmato digitalmente",
+    "unsignedLabel": "Non firmato",
+    "publishedLabel": "Pubblicato",
+    "unpublishedLabel": "Non pubblicato",
+    "eyebrow": "Rendi visibile ciò che conta.",
+    "badge": "Un nuovo nome. La stessa cura dei dettagli.",
+    "hero": [
+      "Ogni azione",
+      "sullo schermo",
+      "più chiara."
+    ],
+    "intro": "Rendi più semplici da seguire presentazioni, lezioni e registrazioni. Mostra ogni tasto e clic.",
+    "primary": "Scopri gli strumenti",
+    "secondary": "Stato della versione",
+    "platform": "Windows 10 / 11 · x64 · Anteprima",
+    "pause": "Sospendi animazioni",
+    "play": "Riproduci animazioni",
+    "reduced": "Movimento ridotto",
+    "categories": [
+      "Pressioni dei tasti",
+      "Indicatore del mouse",
+      "Plugin",
+      "CREA IL TUO STRUMENTO",
+      "Profili e stili"
+    ],
+    "overviewTag": "INTEGRATO IN BACKPACK",
+    "overviewTitle": [
+      "Tutto ciò che serve.",
+      "Proprio dove serve."
+    ],
+    "overviewText": "Tasti e visualizzazione del mouse sono i due strumenti al centro di Backpack.",
+    "explore": "Scopri gli strumenti",
+    "interface": "Dimostrazione del nuovo modello",
+    "interfaceNote": "Percorso simulato dell’interfaccia prevista. Importazione e fiducia sono implementate in preview.4; la scena non è uno screenshot né prova che tutti i plugin siano pronti.",
+    "home": "Home",
+    "appearance": "Aspetto",
+    "keys": "Tasti e combinazioni",
+    "mouse": "Mouse",
+    "focus": "Messa a fuoco",
+    "drawing": "Disegno",
+    "profiles": "Profili",
+    "lens": "Lente",
+    "dimming": "Oscura lo sfondo",
+    "zoom": "Ingrandimento",
+    "size": "Dimensione dell’area",
+    "radius": "Raggio degli angoli",
+    "border": "Colore della cornice",
+    "tray": "Mantieni lo sfondo sotto la cornice",
+    "toolsTag": "STRUMENTI",
+    "toolsTitle": "Parti dall’essenziale.",
+    "toolsText": "Inserimento simulato. I tasti protetti non vengono mai mostrati. Tastiera e schermo non vengono acquisiti.",
+    "preview": "Nell’anteprima verificata",
+    "development": "In sviluppo",
+    "concept": "Dimostrazione concettuale",
+    "cards": [
+      [
+        "Pressioni dei tasti",
+        "Ogni scorciatoia, perfettamente chiara.",
+        "Tasti leggibili, combinazioni naturali e cinque stili di visualizzazione."
+      ],
+      [
+        "Indicatore del mouse",
+        "Un puntatore facile da seguire.",
+        "Clic sinistro, destro e direzione di scorrimento in un indicatore vicino al puntatore."
+      ],
+      [
+        "Lente",
+        "Lente",
+        "Sposta una vista ingrandita separata dell’area scelta."
+      ],
+      [
+        "Disegno",
+        "Disegno",
+        "Note, forme e testo temporanei durante la spiegazione."
+      ],
+      [
+        "Privacy dell’inserimento, a parte.",
+        "Privacy dell’inserimento, a parte.",
+        "L’anteprima verificata nasconde i tasti quando rileva un inserimento protetto. Ci sono limiti e una nota condizione di competizione nelle notifiche del focus: nascondi manualmente prima dei dati sensibili. La fiducia nel codice è distinta."
+      ],
+      [
+        "Profili e stili",
+        "Una configurazione che resta tua.",
+        "Aspetto, profili salvati, privacy dell’inserimento e gestione dei plugin sono infrastruttura, non plugin separati."
+      ]
+    ],
+    "styles": [
+      "Chiaro",
+      "Scuro",
+      "Smeraldo"
+    ],
+    "renderers": [
+      "PBT",
+      "Minimo",
+      "Portatile"
+    ],
+    "chooseStyle": "Aspetto",
+    "chooseProfile": "Profili",
+    "chooseFocus": "Messa a fuoco",
+    "dimNote": "Plugin verificato nel pacchetto · Backpack 0.4.0-preview.4 / SDK 1.1. Pacchetto pubblico non ancora disponibile",
+    "numberNote": "Dimostrazione del nuovo modello",
+    "safe": "Campo protetto",
+    "ordinary": "Messaggio",
+    "privacyNote": "L’anteprima verificata nasconde i tasti quando rileva un inserimento protetto. Ci sono limiti e una nota condizione di competizione nelle notifiche del focus: nascondi manualmente prima dei dati sensibili. La fiducia nel codice è distinta.",
+    "pluginTitle": "Gli strumenti per la tua storia.",
+    "pluginText": "Le estensioni dell’autore di Backpack si aggiungono indipendentemente e offrono esempi per futuri plugin personali.",
+    "downloadTag": "Ultimo pacchetto verificato",
+    "downloadTitle": [
+      "Uno schermo più chiaro.",
+      "Una spiegazione migliore."
+    ],
+    "downloadText": "Pacchetto pubblico non ancora disponibile",
+    "preparing": "Download pubblico in preparazione",
+    "packageLabel": "Ultimo pacchetto verificato",
+    "unsigned": "Non firmato · Non pubblicato",
+    "release": "Leggi le note di rilascio",
+    "download": "Scarica per Windows",
+    "checksum": "SHA-256 del pacchetto verificato",
+    "checksumNote": "Identifica il pacchetto verificato localmente. Il sito non distribuisce alcun pacchetto.",
+    "license": "Licenza",
+    "helpTag": "Aiuto",
+    "helpTitle": "Prima della prossima presentazione.",
+    "faq": [
+      [
+        "Cosa comprende l’applicazione?",
+        "Tasti e visualizzazione del mouse sono i due strumenti al centro di Backpack. Lente, Messa a fuoco, Lente del cursore, Timer — Plugin verificato nel pacchetto · Backpack 0.4.0-preview.4 / SDK 1.1. Disegno, Indicatore di disposizione — Plugin previsto. Aspetto, profili salvati, privacy dell’inserimento e gestione dei plugin sono infrastruttura, non plugin separati."
+      ],
+      [
+        "Si possono scaricare Backpack e i plugin?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Pacchetto pubblico non ancora disponibile Lente, Messa a fuoco, Lente del cursore, Timer — Plugin verificato nel pacchetto · Backpack 0.4.0-preview.4 / SDK 1.1. Disegno, Indicatore di disposizione — Plugin previsto."
+      ],
+      [
+        "Come si installano le estensioni?",
+        "Plugin → Importa plugin → .bppkg. L’importazione verifica ed estrae senza eseguire codice o concedere fiducia. Plugin nuovi o aggiornati sono disattivati; la prima attivazione richiede conferma."
+      ],
+      [
+        "I plugin sono isolati in sicurezza?",
+        "Usa fonti fidate. I processi separati hanno i tuoi diritti e aiutano a gestire i guasti, ma non sono sandbox. Le capacità del manifesto limitano l’interfaccia Backpack, non tutte le azioni nel sistema."
+      ],
+      [
+        "Come inizio uno strumento?",
+        "F1 → Plugin spiega contratto, ciclo di vita, comandi, impostazioni, lingue e compilazione del timer. Si preparano guide dettagliate ed esempi funzionanti; le nuove condizioni SDK permetteranno di creare liberamente propri plugin. I collegamenti pubblici seguiranno."
+      ],
+      [
+        "La privacy protegge ogni campo?",
+        "Nessun rilevamento universale promesso. Inserimenti protetti o sconosciuti possono essere nascosti, ma il rilevamento asincrono del focus ha limiti. Nascondi prima dei dati sensibili. La fiducia nei plugin è separata."
+      ],
+      [
+        "Quali sistemi e licenza?",
+        "Pacchetto verificato per Windows 10/11 x64 con .NET. Backpack usa PolyForm Strict 1.0.0 e non è open source. Le condizioni SDK/esempi vengono aggiornate."
+      ]
+    ],
+    "footer": "Piccoli strumenti. Storie più chiare.",
+    "author": "Creato da",
+    "back": "Torna in alto",
+    "notice": "Dimostrazione del nuovo modello",
+    "madeIn": "Realizzato in Ucraina.",
+    "program": {
+      "settings": "Impostazioni applicazione",
+      "privacy": "Privacy",
+      "about": "Informazioni",
+      "importPlugin": "Importa estensione",
+      "view": "Vista",
+      "cards": "Schede",
+      "list": "Elenco",
+      "duration": "Durata",
+      "minutes": "Minuti",
+      "seconds": "Secondi",
+      "commands": "Comandi"
+    },
+    "carousel": {
+      "previous": "Precedente",
+      "next": "Successivo"
+    }
+  },
+  "demo": {
+    "cursorTag": "Lente del cursore",
+    "cursorTitle": "Lente del cursore",
+    "cursorDescription": "Ingrandisci i dettagli con una lente che segue il puntatore.",
+    "cursorCaption": "Lente intorno al puntatore · 2,5×",
+    "windowTag": "Lente",
+    "windowTitle": "Lente",
+    "windowDescription": "Sposta una vista ingrandita separata dell’area scelta.",
+    "windowLabel": "Lente",
+    "windowCaption": "Finestra di ingrandimento separata e mobile · 2,5×",
+    "profileHeading": "Un insieme di strumenti. Il tuo stile.",
+    "rightShift": "Maiusc destro",
+    "layoutCode": "IT",
+    "families": [
+      "Profilo basso",
+      "Portatile",
+      "PBT",
+      "Minimo",
+      "3D"
+    ],
+    "familyPresets": [
+      "Profilo basso",
+      "Portatile",
+      "PBT",
+      "Minimo",
+      "3D"
+    ],
+    "profiles": [
+      "Crema",
+      "Grafite",
+      "Menta"
+    ],
+    "profileNames": [
+      "PBT · Crema",
+      "Profilo basso · Grafite",
+      "3D · Menta"
+    ],
+    "mouseStyles": [
+      "Contorno",
+      "Pieno",
+      "Retrò"
+    ],
+    "mouseNames": [
+      "Contorno",
+      "Pieno",
+      "Retrò"
+    ],
+    "mouseStyle": "Indicatore del mouse",
+    "normalField": "Messaggio",
+    "passwordField": "Campo protetto",
+    "safePhrase": "Ciao gruppo",
+    "returnPhrase": "Nuova idea",
+    "privacySteps": [
+      "Seleziona il campo messaggio",
+      "Vengono mostrati solo i tasti normali",
+      "Protezione prima del primo simbolo della password",
+      "Nuovo testo. Solo nuovi tasti."
+    ],
+    "mouseSteps": [
+      "Seleziona un elemento",
+      "Apri il menu contestuale",
+      "Scorri l’elenco"
+    ],
+    "selected": "Selezionato",
+    "context": [
+      "Apri",
+      "Copia",
+      "Dettagli"
+    ],
+    "board": [
+      "Note di progetto",
+      "Strumenti schermo",
+      "Prossima lezione"
+    ],
+    "boardTag": "PROGETTO",
+    "boardHeading": "Un’idea più chiara",
+    "boardRows": [
+      "Scorciatoie",
+      "Area di messa a fuoco",
+      "Passo successivo"
+    ],
+    "lensScale": "Ingrandimento dal vivo",
+    "drawSteps": [
+      "Scegli lo strumento freccia",
+      "Disegna una linea, poi una forma"
+    ],
+    "interfaceSteps": [
+      "Sposta il cursore di ingrandimento",
+      "La lente mostra l’area evidenziata",
+      "Oscura lo sfondo"
+    ],
+    "keySequence": "Premi. Tieni. Rilascia.",
+    "keyExamples": "Invio · Spazio · modificatori",
+    "space": "Spazio",
+    "shift": "Maiusc",
+    "layout": "Disposizione tastiera",
+    "privacyStatic": "Inserimento simulato. I tasti protetti non vengono mai mostrati. Tastiera e schermo non vengono acquisiti."
+  },
+  "model": {
+    "title": "Backpack — Azioni chiare. Strumenti tuoi.",
+    "intro": "Rendi più semplici da seguire presentazioni, lezioni e registrazioni. Mostra ogni tasto e clic.",
+    "extension": "Aggiungi strumenti come plugin indipendenti o scopri come crearne uno per le tue esigenze.",
+    "coreTag": "INTEGRATO IN BACKPACK",
+    "coreTitle": "Parti dall’essenziale.",
+    "coreText": "Tasti e visualizzazione del mouse sono i due strumenti al centro di Backpack.",
+    "pluginsTag": "PLUGIN DELL’AUTORE",
+    "pluginsTitle": "Gli strumenti per la tua storia.",
+    "pluginsText": "Le estensioni dell’autore di Backpack si aggiungono indipendentemente e offrono esempi per futuri plugin personali.",
+    "transitionNote": "Lente, Messa a fuoco, Lente del cursore, Timer — Plugin verificato nel pacchetto · Backpack 0.4.0-preview.4 / SDK 1.1. Disegno, Indicatore di disposizione — Plugin previsto.",
+    "builtin": "Integrato",
+    "authorPlugin": "Plugin dell’autore",
+    "notPublished": "Pacchetto pubblico non ancora disponibile",
+    "byAuthor": "Autore",
+    "statuses": {
+      "planned": "Plugin previsto",
+      "source": "Plugin nel codice sorgente",
+      "verified": "Plugin verificato nel pacchetto"
+    },
+    "availability": {
+      "planned": "Lo strumento funziona in preview.4, ma il plugin indipendente non è ancora implementato né impacchettato.",
+      "source": "Lente, Messa a fuoco, Lente del cursore, Timer — Plugin verificato nel pacchetto · Backpack 0.4.0-preview.4 / SDK 1.1. Disegno, Indicatore di disposizione — Plugin previsto.",
+      "verified": "Plugin verificato nel pacchetto · Backpack 0.4.0-preview.4 / SDK 1.1. Pacchetto pubblico non ancora disponibile"
+    },
+    "pluginNames": [
+      "Disegno",
+      "Indicatore di disposizione",
+      "Lente",
+      "Messa a fuoco",
+      "Lente del cursore",
+      "Timer"
+    ],
+    "pluginBenefits": [
+      "Note, forme e testo temporanei durante la spiegazione.",
+      "Mostra il cambio di lingua di inserimento.",
+      "Sposta una vista ingrandita separata dell’area scelta.",
+      "Oscura i dintorni lasciando chiara l’area alle dimensioni originali.",
+      "Ingrandisci i dettagli con una lente che segue il puntatore.",
+      "Mostra un conto alla rovescia, poi sospendilo e riprendilo."
+    ],
+    "developerTag": "CREA IL TUO STRUMENTO",
+    "developerTitle": "La tua esigenza. Il tuo prossimo strumento.",
+    "developerText": "I plugin dell’autore illustrano il contratto con Backpack. Si preparano istruzioni dettagliate ed esempi funzionanti a partire dal timer.",
+    "developerSteps": [
+      [
+        "Comandi e ciclo di vita",
+        "Il SDK collega avvio, arresto e comandi a Backpack. Ai comandi si possono assegnare scorciatoie."
+      ],
+      [
+        "Impostazioni e interfaccia",
+        "Il manifesto descrive le impostazioni; Backpack crea controlli e pannelli sovrapposti. I colori sono parametri espliciti, non un’API automatica dei temi garantita."
+      ],
+      [
+        "Localizzazione ed esempi",
+        "Etichette localizzate e Context.Locale supportano le lingue dell’applicazione. La guida spiega timer, compilazione, pacchetti e importazione .bppkg."
+      ]
+    ],
+    "docsNotice": "F1 → Plugin spiega contratto, compilazione e importazione. I collegamenti pubblici a documentazione SDK e sorgenti degli esempi non sono ancora configurati.",
+    "licenseNote": "Le condizioni del SDK vengono aggiornate per consentire di creare liberamente i propri plugin. Si preparano guide dettagliate, passo dopo passo, per compilazione e importazione ed esempi funzionanti.",
+    "applicationTag": "PARTE DELL’APPLICAZIONE",
+    "applicationTitle": "Una configurazione che resta tua.",
+    "applicationText": "Aspetto, profili salvati, privacy dell’inserimento e gestione dei plugin sono infrastruttura, non plugin separati.",
+    "privacyTitle": "Privacy dell’inserimento, a parte.",
+    "privacyText": "L’anteprima verificata nasconde i tasti quando rileva un inserimento protetto. Ci sono limiti e una nota condizione di competizione nelle notifiche del focus: nascondi manualmente prima dei dati sensibili. La fiducia nel codice è distinta.",
+    "workflowTitle": "Dimostrazione del nuovo modello",
+    "workflowNote": "Percorso simulato dell’interfaccia prevista. Importazione e fiducia sono implementate in preview.4; la scena non è uno screenshot né prova che tutti i plugin siano pronti.",
+    "workflowSteps": [
+      "Parti da tasti e mouse integrati",
+      "Apri la sezione plugin",
+      "Scegli il timer dell’autore",
+      "Conferma la fiducia e attiva",
+      "Appare lo strumento aggiuntivo"
+    ],
+    "coreTab": "Integrato",
+    "pluginsTab": "Plugin",
+    "enable": "Attiva",
+    "trust": "Attiva solo codice da fonti fidate. Un processo separato non è una sandbox.",
+    "enabled": "Attivato",
+    "start": "Avvia",
+    "pause": "Pausa",
+    "resume": "Riprendi",
+    "reset": "Reimposta",
+    "finished": "Terminato",
+    "timerCaption": "Conto alla rovescia simulato · pausa · ripresa",
+    "layoutCaption": "Cambio simulato della lingua di inserimento",
+    "layoutSequence": [
+      "English",
+      "Українська",
+      "Deutsch"
+    ],
+    "faq": [
+      [
+        "Cosa comprende l’applicazione?",
+        "Tasti e visualizzazione del mouse sono i due strumenti al centro di Backpack. Lente, Messa a fuoco, Lente del cursore, Timer — Plugin verificato nel pacchetto · Backpack 0.4.0-preview.4 / SDK 1.1. Disegno, Indicatore di disposizione — Plugin previsto. Aspetto, profili salvati, privacy dell’inserimento e gestione dei plugin sono infrastruttura, non plugin separati."
+      ],
+      [
+        "Si possono scaricare Backpack e i plugin?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Pacchetto pubblico non ancora disponibile Lente, Messa a fuoco, Lente del cursore, Timer — Plugin verificato nel pacchetto · Backpack 0.4.0-preview.4 / SDK 1.1. Disegno, Indicatore di disposizione — Plugin previsto."
+      ],
+      [
+        "Come si installano le estensioni?",
+        "Plugin → Importa plugin → .bppkg. L’importazione verifica ed estrae senza eseguire codice o concedere fiducia. Plugin nuovi o aggiornati sono disattivati; la prima attivazione richiede conferma."
+      ],
+      [
+        "I plugin sono isolati in sicurezza?",
+        "Usa fonti fidate. I processi separati hanno i tuoi diritti e aiutano a gestire i guasti, ma non sono sandbox. Le capacità del manifesto limitano l’interfaccia Backpack, non tutte le azioni nel sistema."
+      ],
+      [
+        "Come inizio uno strumento?",
+        "F1 → Plugin spiega contratto, ciclo di vita, comandi, impostazioni, lingue e compilazione del timer. Si preparano guide dettagliate ed esempi funzionanti; le nuove condizioni SDK permetteranno di creare liberamente propri plugin. I collegamenti pubblici seguiranno."
+      ],
+      [
+        "La privacy protegge ogni campo?",
+        "Nessun rilevamento universale promesso. Inserimenti protetti o sconosciuti possono essere nascosti, ma il rilevamento asincrono del focus ha limiti. Nascondi prima dei dati sensibili. La fiducia nei plugin è separata."
+      ],
+      [
+        "Quali sistemi e licenza?",
+        "Pacchetto verificato per Windows 10/11 x64 con .NET. Backpack usa PolyForm Strict 1.0.0 e non è open source. Le condizioni SDK/esempi vengono aggiornate."
+      ]
+    ]
+  }
+}

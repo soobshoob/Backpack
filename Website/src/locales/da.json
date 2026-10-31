@@ -1,0 +1,416 @@
+{
+  "content": {
+    "title": "Backpack — Tydelige handlinger. Egne værktøjer.",
+    "description": "Gør præsentationer, lektioner og skærmoptagelser lettere at følge. Vis hver tast og hvert klik. Tilføj værktøjer som uafhængige plugins, eller lær at skabe dit eget.",
+    "nav": [
+      "Funktioner",
+      "Værktøjer",
+      "Hent",
+      "Hjælp"
+    ],
+    "skip": "Gå til indhold",
+    "menu": "Menu",
+    "language": "Sprog",
+    "close": "Luk menu",
+    "sceneNote": [
+      "Hver handling",
+      "tydeligt vist."
+    ],
+    "toolkit": "VÆRKTØJER",
+    "previewLabel": "Forhåndsvisning",
+    "signedLabel": "Digitalt signeret",
+    "unsignedLabel": "Usigneret",
+    "publishedLabel": "Udgivet",
+    "unpublishedLabel": "Ikke udgivet",
+    "eyebrow": "Gør det vigtige synligt.",
+    "badge": "Et nyt navn. Samme sans for detaljer.",
+    "hero": [
+      "Hver handling",
+      "på skærmen",
+      "tydeligt vist."
+    ],
+    "intro": "Gør præsentationer, lektioner og skærmoptagelser lettere at følge. Vis hver tast og hvert klik.",
+    "primary": "Udforsk værktøjerne",
+    "secondary": "Versionsstatus",
+    "platform": "Windows 10 / 11 · x64 · Forhåndsvisning",
+    "pause": "Sæt animationer på pause",
+    "play": "Afspil animationer",
+    "reduced": "Reduceret bevægelse",
+    "categories": [
+      "Tastetryk",
+      "Museindikator",
+      "Plugins",
+      "SKAB DIT EGET VÆRKTØJ",
+      "Profiler og stilarter"
+    ],
+    "overviewTag": "INDBYGGET I BACKPACK",
+    "overviewTitle": [
+      "Alt, hvad du behøver.",
+      "Lige der, hvor du behøver det."
+    ],
+    "overviewText": "Taster og musevisualisering er de to værktøjer i Backpacks kerne.",
+    "explore": "Udforsk værktøjerne",
+    "interface": "Demonstration af den nye model",
+    "interfaceNote": "Simuleret gennemgang af det planlagte interface. Import og tillid findes i preview.4; scenen er intet skærmbillede eller bevis på, at alle plugins er klar.",
+    "home": "Start",
+    "appearance": "Udseende",
+    "keys": "Taster og genveje",
+    "mouse": "Mus",
+    "focus": "Fokus",
+    "drawing": "Tegning",
+    "profiles": "Profiler",
+    "lens": "Lup",
+    "dimming": "Dæmp omgivelserne",
+    "zoom": "Forstørrelse",
+    "size": "Områdets størrelse",
+    "radius": "Hjørneradius",
+    "border": "Rammefarve",
+    "tray": "Bevar baggrunden under rammen",
+    "toolsTag": "VÆRKTØJER",
+    "toolsTitle": "Start med det vigtigste.",
+    "toolsText": "Simuleret indtastning. Beskyttede taster vises aldrig. Tastatur og skærm registreres ikke.",
+    "preview": "I verificeret forhåndsvisning",
+    "development": "Under udvikling",
+    "concept": "Konceptdemo",
+    "cards": [
+      [
+        "Tastetryk",
+        "Hver genvej, helt tydelig.",
+        "Læsbare taster, naturlige kombinationer og fem visningsstile."
+      ],
+      [
+        "Museindikator",
+        "En markør, der er let at følge.",
+        "Venstreklik, højreklik og rulleretning i en indikator ved siden af markøren."
+      ],
+      [
+        "Lup",
+        "Lup",
+        "Flyt en separat forstørret visning af et valgt område."
+      ],
+      [
+        "Tegning",
+        "Tegning",
+        "Midlertidige noter, former og tekst, mens du forklarer."
+      ],
+      [
+        "Indtastningsbeskyttelse, særskilt.",
+        "Indtastningsbeskyttelse, særskilt.",
+        "Den verificerede version skjuler taster ved registreret beskyttet indtastning. Registreringen har grænser og en kendt kapløbstilstand ved fokusbeskeder: skjul manuelt før følsom indtastning. Tillid til kode er en særskilt beslutning."
+      ],
+      [
+        "Profiler og stilarter",
+        "En opsætning, der forbliver din.",
+        "Udseende, gemte profiler, indtastningsbeskyttelse og pluginstyring er infrastruktur, ikke separate plugins."
+      ]
+    ],
+    "styles": [
+      "Lys",
+      "Mørk",
+      "Smaragd"
+    ],
+    "renderers": [
+      "PBT",
+      "Minimal",
+      "Bærbar"
+    ],
+    "chooseStyle": "Udseende",
+    "chooseProfile": "Profiler",
+    "chooseFocus": "Fokus",
+    "dimNote": "Plugin verificeret i pakken · Backpack 0.4.0-preview.4 / SDK 1.1. Offentlig pakke endnu ikke tilgængelig",
+    "numberNote": "Demonstration af den nye model",
+    "safe": "Beskyttet felt",
+    "ordinary": "Besked",
+    "privacyNote": "Den verificerede version skjuler taster ved registreret beskyttet indtastning. Registreringen har grænser og en kendt kapløbstilstand ved fokusbeskeder: skjul manuelt før følsom indtastning. Tillid til kode er en særskilt beslutning.",
+    "pluginTitle": "Værktøjerne til din fortælling.",
+    "pluginText": "Backpack-forfatterens udvidelser tilføjes uafhængigt og fungerer som eksempler på fremtidige egne plugins.",
+    "downloadTag": "Senest verificerede pakke",
+    "downloadTitle": [
+      "En tydeligere skærm.",
+      "En bedre forklaring."
+    ],
+    "downloadText": "Offentlig pakke endnu ikke tilgængelig",
+    "preparing": "Offentlig download forberedes",
+    "packageLabel": "Senest verificerede pakke",
+    "unsigned": "Usigneret · Ikke udgivet",
+    "release": "Læs udgivelsesnoter",
+    "download": "Hent til Windows",
+    "checksum": "Den verificerede pakkes SHA-256",
+    "checksumNote": "Identificerer den lokalt verificerede pakke. Webstedet distribuerer ingen programpakke.",
+    "license": "Licens",
+    "helpTag": "Hjælp",
+    "helpTitle": "Før din næste præsentation.",
+    "faq": [
+      [
+        "Hvad indeholder programmet?",
+        "Taster og musevisualisering er de to værktøjer i Backpacks kerne. Lup, Fokus, Markørlup, Timer — Plugin verificeret i pakken · Backpack 0.4.0-preview.4 / SDK 1.1. Tegning, Layoutindikator — Plugin planlagt. Udseende, gemte profiler, indtastningsbeskyttelse og pluginstyring er infrastruktur, ikke separate plugins."
+      ],
+      [
+        "Kan Backpack og plugins hentes?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Offentlig pakke endnu ikke tilgængelig Lup, Fokus, Markørlup, Timer — Plugin verificeret i pakken · Backpack 0.4.0-preview.4 / SDK 1.1. Tegning, Layoutindikator — Plugin planlagt."
+      ],
+      [
+        "Hvordan installeres udvidelser?",
+        "Plugins → Importér plugin → .bppkg. Import kontrollerer og pakker ud uden at køre kode eller give tillid. Nye og opdaterede plugins er slået fra; første aktivering kræver bekræftelse."
+      ],
+      [
+        "Er plugins sikkert isolerede?",
+        "Brug betroede kilder. Separate processer har dine rettigheder og hjælper ved fejl, men er ikke en sandkasse. Manifestets egenskaber begrænser Backpack-grænsefladen, ikke alle handlinger på computeren."
+      ],
+      [
+        "Hvordan starter jeg et værktøj?",
+        "F1 → Plugins beskriver kontrakt, livscyklus, kommandoer, indstillinger, sprog og timerbygning. Detaljerede vejledninger og fungerende eksempler forberedes; SDK-vilkårene skal give frihed til egne plugins. Offentlige links mangler endnu."
+      ],
+      [
+        "Beskytter privatlivsfunktionen alle felter?",
+        "Ingen universel registrering loves. Beskyttet eller ukendt indtastning kan skjules, men asynkron fokusregistrering har grænser. Skjul før følsomme data. Tillid til plugins er særskilt."
+      ],
+      [
+        "Hvilke systemer og licens gælder?",
+        "Verificeret pakke til Windows 10/11 x64 med .NET. PolyForm Strict 1.0.0, ikke open source. SDK-/eksempelvilkårene opdateres."
+      ]
+    ],
+    "footer": "Små værktøjer. Tydeligere historier.",
+    "author": "Lavet af",
+    "back": "Til toppen",
+    "notice": "Demonstration af den nye model",
+    "madeIn": "Fremstillet i Ukraine.",
+    "program": {
+      "settings": "Appindstillinger",
+      "privacy": "Privatliv",
+      "about": "Om",
+      "importPlugin": "Importér udvidelse",
+      "view": "Visning",
+      "cards": "Kort",
+      "list": "Liste",
+      "duration": "Varighed",
+      "minutes": "Minutter",
+      "seconds": "Sekunder",
+      "commands": "Kommandoer"
+    },
+    "carousel": {
+      "previous": "Forrige",
+      "next": "Næste"
+    }
+  },
+  "demo": {
+    "cursorTag": "Markørlup",
+    "cursorTitle": "Markørlup",
+    "cursorDescription": "Forstør detaljer med en lup, der følger markøren.",
+    "cursorCaption": "Lup omkring markøren · 2,5×",
+    "windowTag": "Lup",
+    "windowTitle": "Lup",
+    "windowDescription": "Flyt en separat forstørret visning af et valgt område.",
+    "windowLabel": "Lup",
+    "windowCaption": "Separat flytbart forstørrelsesvindue · 2,5×",
+    "profileHeading": "Én værktøjskasse. Dit udseende.",
+    "rightShift": "Højre Skift",
+    "layoutCode": "DA",
+    "families": [
+      "Lav profil",
+      "Bærbar",
+      "PBT",
+      "Minimal",
+      "3D"
+    ],
+    "familyPresets": [
+      "Lav profil",
+      "Bærbar",
+      "PBT",
+      "Minimal",
+      "3D"
+    ],
+    "profiles": [
+      "Creme",
+      "Grafit",
+      "Mynte"
+    ],
+    "profileNames": [
+      "PBT · Creme",
+      "Lav profil · Grafit",
+      "3D · Mynte"
+    ],
+    "mouseStyles": [
+      "Omrids",
+      "Udfyldt",
+      "Retro"
+    ],
+    "mouseNames": [
+      "Omrids",
+      "Udfyldt",
+      "Retro"
+    ],
+    "mouseStyle": "Museindikator",
+    "normalField": "Besked",
+    "passwordField": "Beskyttet felt",
+    "safePhrase": "Hej hold",
+    "returnPhrase": "Ny idé",
+    "privacySteps": [
+      "Vælg beskedfeltet",
+      "Kun almindelige tastetryk vises",
+      "Beskyttelse før det første adgangskodetegn",
+      "Ny tekst. Kun nye tastetryk."
+    ],
+    "mouseSteps": [
+      "Vælg et element",
+      "Åbn genvejsmenuen",
+      "Rul gennem listen"
+    ],
+    "selected": "Valgt",
+    "context": [
+      "Åbn",
+      "Kopiér",
+      "Detaljer"
+    ],
+    "board": [
+      "Designnoter",
+      "Skærmværktøjer",
+      "Næste lektion"
+    ],
+    "boardTag": "PROJEKT",
+    "boardHeading": "En tydeligere idé",
+    "boardRows": [
+      "Genveje",
+      "Fokusområde",
+      "Næste trin"
+    ],
+    "lensScale": "Direkte forstørrelse",
+    "drawSteps": [
+      "Vælg pileværktøjet",
+      "Tegn en linje og derefter en figur"
+    ],
+    "interfaceSteps": [
+      "Træk i forstørrelsesskyderen",
+      "Forstørrelsesvinduet viser det markerede område",
+      "Dæmp omgivelserne"
+    ],
+    "keySequence": "Tryk. Hold. Slip.",
+    "keyExamples": "Enter · Mellemrum · modifikationstaster",
+    "space": "Mellemrum",
+    "shift": "Skift",
+    "layout": "Tastaturlayout",
+    "privacyStatic": "Simuleret indtastning. Beskyttede taster vises aldrig. Tastatur og skærm registreres ikke."
+  },
+  "model": {
+    "title": "Backpack — Tydelige handlinger. Egne værktøjer.",
+    "intro": "Gør præsentationer, lektioner og skærmoptagelser lettere at følge. Vis hver tast og hvert klik.",
+    "extension": "Tilføj værktøjer som uafhængige plugins, eller lær at skabe dit eget.",
+    "coreTag": "INDBYGGET I BACKPACK",
+    "coreTitle": "Start med det vigtigste.",
+    "coreText": "Taster og musevisualisering er de to værktøjer i Backpacks kerne.",
+    "pluginsTag": "FORFATTERENS PLUGINS",
+    "pluginsTitle": "Værktøjerne til din fortælling.",
+    "pluginsText": "Backpack-forfatterens udvidelser tilføjes uafhængigt og fungerer som eksempler på fremtidige egne plugins.",
+    "transitionNote": "Lup, Fokus, Markørlup, Timer — Plugin verificeret i pakken · Backpack 0.4.0-preview.4 / SDK 1.1. Tegning, Layoutindikator — Plugin planlagt.",
+    "builtin": "Indbygget",
+    "authorPlugin": "Forfatterens plugin",
+    "notPublished": "Offentlig pakke endnu ikke tilgængelig",
+    "byAuthor": "Forfatter",
+    "statuses": {
+      "planned": "Plugin planlagt",
+      "source": "Plugin i kildekoden",
+      "verified": "Plugin verificeret i pakken"
+    },
+    "availability": {
+      "planned": "Værktøjet fungerer i preview.4, men det uafhængige plugin er endnu ikke implementeret eller pakket.",
+      "source": "Lup, Fokus, Markørlup, Timer — Plugin verificeret i pakken · Backpack 0.4.0-preview.4 / SDK 1.1. Tegning, Layoutindikator — Plugin planlagt.",
+      "verified": "Plugin verificeret i pakken · Backpack 0.4.0-preview.4 / SDK 1.1. Offentlig pakke endnu ikke tilgængelig"
+    },
+    "pluginNames": [
+      "Tegning",
+      "Layoutindikator",
+      "Lup",
+      "Fokus",
+      "Markørlup",
+      "Timer"
+    ],
+    "pluginBenefits": [
+      "Midlertidige noter, former og tekst, mens du forklarer.",
+      "Gør skift af indtastningssprog synligt.",
+      "Flyt en separat forstørret visning af et valgt område.",
+      "Dæmp omgivelserne, og bevar området tydeligt i original størrelse.",
+      "Forstør detaljer med en lup, der følger markøren.",
+      "Vis en nedtælling, sæt på pause og fortsæt."
+    ],
+    "developerTag": "SKAB DIT EGET VÆRKTØJ",
+    "developerTitle": "Din opgave. Dit næste værktøj.",
+    "developerText": "Forfatterens plugins viser kontrakten med Backpack. Detaljerede instruktioner forberedes med timereksemplet som udgangspunkt.",
+    "developerSteps": [
+      [
+        "Kommandoer og livscyklus",
+        "SDK forbinder start, stop og kommandoer med Backpack. Kommandoer kan få tastaturgenveje."
+      ],
+      [
+        "Indstillinger og interface",
+        "Manifestet beskriver indstillinger; Backpack tegner kontroller og overlejringspaneler. Farver er udtrykkelige parametre, ikke en lovet automatisk tema-API."
+      ],
+      [
+        "Lokalisering og eksempler",
+        "Oversatte etiketter og Context.Locale understøtter appens sprog. Hjælpen forklarer timer, bygning, pakning og .bppkg-import."
+      ]
+    ],
+    "docsNotice": "F1 → Plugins beskriver kontrakt, bygning og import. Offentlige links til SDK-dokumentation og eksempelkode er endnu ikke konfigureret.",
+    "licenseNote": "SDK-vilkårene opdateres for at gøre det muligt frit at skabe egne plugins. Detaljerede trinvis bygge- og importvejledninger samt fungerende eksempler forberedes.",
+    "applicationTag": "DEL AF PROGRAMMET",
+    "applicationTitle": "En opsætning, der forbliver din.",
+    "applicationText": "Udseende, gemte profiler, indtastningsbeskyttelse og pluginstyring er infrastruktur, ikke separate plugins.",
+    "privacyTitle": "Indtastningsbeskyttelse, særskilt.",
+    "privacyText": "Den verificerede version skjuler taster ved registreret beskyttet indtastning. Registreringen har grænser og en kendt kapløbstilstand ved fokusbeskeder: skjul manuelt før følsom indtastning. Tillid til kode er en særskilt beslutning.",
+    "workflowTitle": "Demonstration af den nye model",
+    "workflowNote": "Simuleret gennemgang af det planlagte interface. Import og tillid findes i preview.4; scenen er intet skærmbillede eller bevis på, at alle plugins er klar.",
+    "workflowSteps": [
+      "Start med indbyggede taster og mus",
+      "Åbn plugins",
+      "Vælg forfatterens timer",
+      "Bekræft tillid, og slå til",
+      "Det ekstra værktøj vises"
+    ],
+    "coreTab": "Indbygget",
+    "pluginsTab": "Plugins",
+    "enable": "Slå til",
+    "trust": "Aktivér kun kode fra betroede kilder. En separat proces er ikke en sandkasse.",
+    "enabled": "Aktiveret",
+    "start": "Start",
+    "pause": "Pause",
+    "resume": "Fortsæt",
+    "reset": "Nulstil",
+    "finished": "Færdig",
+    "timerCaption": "Simuleret nedtælling · pause · fortsæt",
+    "layoutCaption": "Simuleret skift af indtastningssprog",
+    "layoutSequence": [
+      "English",
+      "Українська",
+      "Deutsch"
+    ],
+    "faq": [
+      [
+        "Hvad indeholder programmet?",
+        "Taster og musevisualisering er de to værktøjer i Backpacks kerne. Lup, Fokus, Markørlup, Timer — Plugin verificeret i pakken · Backpack 0.4.0-preview.4 / SDK 1.1. Tegning, Layoutindikator — Plugin planlagt. Udseende, gemte profiler, indtastningsbeskyttelse og pluginstyring er infrastruktur, ikke separate plugins."
+      ],
+      [
+        "Kan Backpack og plugins hentes?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Offentlig pakke endnu ikke tilgængelig Lup, Fokus, Markørlup, Timer — Plugin verificeret i pakken · Backpack 0.4.0-preview.4 / SDK 1.1. Tegning, Layoutindikator — Plugin planlagt."
+      ],
+      [
+        "Hvordan installeres udvidelser?",
+        "Plugins → Importér plugin → .bppkg. Import kontrollerer og pakker ud uden at køre kode eller give tillid. Nye og opdaterede plugins er slået fra; første aktivering kræver bekræftelse."
+      ],
+      [
+        "Er plugins sikkert isolerede?",
+        "Brug betroede kilder. Separate processer har dine rettigheder og hjælper ved fejl, men er ikke en sandkasse. Manifestets egenskaber begrænser Backpack-grænsefladen, ikke alle handlinger på computeren."
+      ],
+      [
+        "Hvordan starter jeg et værktøj?",
+        "F1 → Plugins beskriver kontrakt, livscyklus, kommandoer, indstillinger, sprog og timerbygning. Detaljerede vejledninger og fungerende eksempler forberedes; SDK-vilkårene skal give frihed til egne plugins. Offentlige links mangler endnu."
+      ],
+      [
+        "Beskytter privatlivsfunktionen alle felter?",
+        "Ingen universel registrering loves. Beskyttet eller ukendt indtastning kan skjules, men asynkron fokusregistrering har grænser. Skjul før følsomme data. Tillid til plugins er særskilt."
+      ],
+      [
+        "Hvilke systemer og licens gælder?",
+        "Verificeret pakke til Windows 10/11 x64 med .NET. PolyForm Strict 1.0.0, ikke open source. SDK-/eksempelvilkårene opdateres."
+      ]
+    ]
+  }
+}

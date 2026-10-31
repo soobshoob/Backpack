@@ -1,0 +1,62 @@
+# Сборка
+bin/
+obj/
+TestResults/
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.rsuser
+*.binlog
+*.log
+
+# Личные материалы автора (снимки экрана, вкладки браузера) — не публикуются
+references/
+
+# Исследовательские материалы, скачанные извне (не исходники проекта)
+research/keyviz/
+research/deps/
+research/issues/
+
+# Локальные экспорты диагностики стенда (только в корне и в lab/; схемы в docs/settings — исходники)
+*.keyoverlay-lab.json
+/keyoverlay-lab-*.json
+/lab/keyoverlay-lab-*.json
+
+# Пакеты выпуска (собираются tools/package-release.ps1)
+artifacts/
+
+# Системные файлы
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Phase 4I (подготовка к GitHub): рабочие журналы, временные файлы и большие артефакты проверки — не публикуются.
+# Файлы не удалены, только исключены из репозитория. Список — docs/release/REPOSITORY-CONTENTS.md.
+/TEMP/
+/research/deps/
+/lab/docs/*Handoff*.md
+/lab/docs/Phase4I-Progress.md
+/lab/docs/Phase1B-Experiment-Log.md
+/lab/docs/*-images/
+/docs/review/
+/Website/node_modules/
+/Website/dist/
+/Website/.pnpm-store/
+/Website/qa/.chrome-test-*/
+*.bppkg
+!/registry/examples/**/*.bppkg
+/lab/SettingsWindow.cs
+/lab/SettingsWindow.Pages.cs
+
+# Publication: QA captures/build fixtures and workstation-specific review tooling stay local.
+/Website/qa/
+/Website/scripts/compare-model.mjs
+/research/
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.pfx
+*.key

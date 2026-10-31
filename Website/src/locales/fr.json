@@ -1,0 +1,416 @@
+{
+  "content": {
+    "title": "Backpack — Des actions claires. Vos propres outils.",
+    "description": "Rendez présentations, cours et enregistrements d’écran plus faciles à suivre. Montrez chaque touche et clic. Ajoutez des outils sous forme de plugins indépendants ou découvrez comment créer le vôtre.",
+    "nav": [
+      "Fonctions",
+      "Outils",
+      "Télécharger",
+      "Aide"
+    ],
+    "skip": "Aller au contenu",
+    "menu": "Menu",
+    "language": "Langue",
+    "close": "Fermer le menu",
+    "sceneNote": [
+      "Chaque action",
+      "en toute clarté."
+    ],
+    "toolkit": "OUTILS",
+    "previewLabel": "Aperçu",
+    "signedLabel": "Signé numériquement",
+    "unsignedLabel": "Non signé",
+    "publishedLabel": "Publié",
+    "unpublishedLabel": "Non publié",
+    "eyebrow": "Rendez l’essentiel visible.",
+    "badge": "Un nouveau nom. Le même souci du détail.",
+    "hero": [
+      "Chaque action",
+      "à l’écran",
+      "en toute clarté."
+    ],
+    "intro": "Rendez présentations, cours et enregistrements d’écran plus faciles à suivre. Montrez chaque touche et clic.",
+    "primary": "Découvrir les outils",
+    "secondary": "État de la version",
+    "platform": "Windows 10 / 11 · x64 · Aperçu",
+    "pause": "Suspendre les animations",
+    "play": "Lire les animations",
+    "reduced": "Mouvements réduits",
+    "categories": [
+      "Frappes au clavier",
+      "Indicateur de souris",
+      "Plugins",
+      "CRÉER VOTRE OUTIL",
+      "Profils et styles"
+    ],
+    "overviewTag": "INTÉGRÉ À BACKPACK",
+    "overviewTitle": [
+      "Tout ce qu’il vous faut.",
+      "Là où il vous le faut."
+    ],
+    "overviewText": "Les touches et la visualisation de la souris sont les deux outils du cœur de Backpack.",
+    "explore": "Découvrir les outils",
+    "interface": "Démonstration du nouveau modèle",
+    "interfaceNote": "Parcours simulé de l’interface cible. Import et confiance sont implémentés dans preview.4 ; cette scène n’est ni une capture ni une preuve que tous les plugins sont prêts.",
+    "home": "Accueil",
+    "appearance": "Apparence",
+    "keys": "Touches et raccourcis",
+    "mouse": "Souris",
+    "focus": "Mise en évidence",
+    "drawing": "Dessin",
+    "profiles": "Profils",
+    "lens": "Loupe",
+    "dimming": "Assombrir l’entourage",
+    "zoom": "Grossissement",
+    "size": "Taille de la zone",
+    "radius": "Rayon des coins",
+    "border": "Couleur du cadre",
+    "tray": "Conserver le fond sous le cadre",
+    "toolsTag": "OUTILS",
+    "toolsTitle": "Commencez par l’essentiel.",
+    "toolsText": "Saisie simulée. Les frappes protégées ne sont jamais affichées. Le clavier et l’écran ne sont pas capturés.",
+    "preview": "Dans l’aperçu vérifié",
+    "development": "En développement",
+    "concept": "Démonstration conceptuelle",
+    "cards": [
+      [
+        "Frappes au clavier",
+        "Chaque raccourci, parfaitement lisible.",
+        "Des touches lisibles, des combinaisons naturelles et cinq styles de rendu."
+      ],
+      [
+        "Indicateur de souris",
+        "Un pointeur facile à suivre.",
+        "Clic gauche, clic droit et sens de défilement dans un indicateur près du pointeur."
+      ],
+      [
+        "Loupe",
+        "Loupe",
+        "Déplacez une vue agrandie distincte d’une zone choisie."
+      ],
+      [
+        "Dessin",
+        "Dessin",
+        "Ajoutez des notes, formes et textes temporaires pendant l’explication."
+      ],
+      [
+        "La confidentialité de saisie, à part.",
+        "La confidentialité de saisie, à part.",
+        "L’aperçu vérifié masque les touches lorsqu’une saisie protégée est détectée. La détection a des limites et une course connue des notifications de focus : masquez manuellement avant toute saisie sensible. La confiance dans le code est distincte."
+      ],
+      [
+        "Profils et styles",
+        "Une configuration qui vous appartient.",
+        "Apparence, profils enregistrés, confidentialité de saisie et gestion des plugins sont une infrastructure, pas des plugins séparés."
+      ]
+    ],
+    "styles": [
+      "Clair",
+      "Sombre",
+      "Émeraude"
+    ],
+    "renderers": [
+      "PBT",
+      "Minimal",
+      "Portable"
+    ],
+    "chooseStyle": "Apparence",
+    "chooseProfile": "Profils",
+    "chooseFocus": "Mise en évidence",
+    "dimNote": "Plugin vérifié dans le paquet · Backpack 0.4.0-preview.4 / SDK 1.1. Paquet public indisponible",
+    "numberNote": "Démonstration du nouveau modèle",
+    "safe": "Champ protégé",
+    "ordinary": "Message",
+    "privacyNote": "L’aperçu vérifié masque les touches lorsqu’une saisie protégée est détectée. La détection a des limites et une course connue des notifications de focus : masquez manuellement avant toute saisie sensible. La confiance dans le code est distincte.",
+    "pluginTitle": "Les outils adaptés à votre récit.",
+    "pluginText": "Les extensions de l’auteur de Backpack s’ajoutent indépendamment et servent d’exemples pour de futurs plugins personnels.",
+    "downloadTag": "Dernier paquet vérifié",
+    "downloadTitle": [
+      "Un écran plus clair.",
+      "Une meilleure explication."
+    ],
+    "downloadText": "Paquet public indisponible",
+    "preparing": "Le téléchargement public se prépare",
+    "packageLabel": "Dernier paquet vérifié",
+    "unsigned": "Non signé · Non publié",
+    "release": "Lire les notes de version",
+    "download": "Télécharger pour Windows",
+    "checksum": "SHA-256 du paquet vérifié",
+    "checksumNote": "Identifie le paquet vérifié localement. Aucun paquet n’est distribué par ce site.",
+    "license": "Licence",
+    "helpTag": "Aide",
+    "helpTitle": "Avant votre prochaine présentation.",
+    "faq": [
+      [
+        "Que contient l’application ?",
+        "Les touches et la visualisation de la souris sont les deux outils du cœur de Backpack. Loupe, Mise en évidence, Loupe du pointeur, Minuteur — Plugin vérifié dans le paquet · Backpack 0.4.0-preview.4 / SDK 1.1. Dessin, Indicateur de disposition — Plugin prévu. Apparence, profils enregistrés, confidentialité de saisie et gestion des plugins sont une infrastructure, pas des plugins séparés."
+      ],
+      [
+        "Peut-on télécharger Backpack et les plugins ?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Paquet public indisponible Loupe, Mise en évidence, Loupe du pointeur, Minuteur — Plugin vérifié dans le paquet · Backpack 0.4.0-preview.4 / SDK 1.1. Dessin, Indicateur de disposition — Plugin prévu."
+      ],
+      [
+        "Comment installer les extensions ?",
+        "Plugins → Importer un plugin → .bppkg. L’import vérifie et extrait sans exécuter de code ni accorder la confiance. Tout plugin nouveau ou mis à jour est désactivé ; sa première activation exige confirmation."
+      ],
+      [
+        "Les plugins sont-ils isolés en sécurité ?",
+        "Utilisez des sources fiables. Les processus séparés ont vos droits et facilitent la gestion des pannes, mais ne sont pas des bacs à sable. Les capacités du manifeste limitent l’interface Backpack, pas toutes les actions système."
+      ],
+      [
+        "Comment commencer un outil ?",
+        "F1 → Plugins explique contrat, cycle de vie, commandes, réglages, langues et compilation du minuteur. Des guides détaillés et exemples fonctionnels sont préparés ; les nouvelles conditions SDK permettront de créer librement vos plugins. Les liens publics suivront."
+      ],
+      [
+        "La confidentialité protège-t-elle tous les champs ?",
+        "Aucune détection universelle n’est promise. Les saisies protégées ou inconnues peuvent être masquées ; la détection asynchrone du focus a des limites. Masquez avant une saisie sensible. La confiance des plugins est distincte."
+      ],
+      [
+        "Quels systèmes et quelle licence ?",
+        "Paquet vérifié pour Windows 10/11 x64 avec .NET. Backpack utilise PolyForm Strict 1.0.0 et n’est pas open source. Les conditions SDK/exemples sont en cours de mise à jour."
+      ]
+    ],
+    "footer": "Petits outils. Histoires plus claires.",
+    "author": "Créé par",
+    "back": "Retour en haut",
+    "notice": "Démonstration du nouveau modèle",
+    "madeIn": "Fabriqué en Ukraine.",
+    "program": {
+      "settings": "Paramètres de l’application",
+      "privacy": "Confidentialité",
+      "about": "À propos",
+      "importPlugin": "Importer une extension",
+      "view": "Affichage",
+      "cards": "Cartes",
+      "list": "Liste",
+      "duration": "Durée",
+      "minutes": "Minutes",
+      "seconds": "Secondes",
+      "commands": "Commandes"
+    },
+    "carousel": {
+      "previous": "Précédent",
+      "next": "Suivant"
+    }
+  },
+  "demo": {
+    "cursorTag": "Loupe du pointeur",
+    "cursorTitle": "Loupe du pointeur",
+    "cursorDescription": "Agrandissez les détails avec une loupe suivant le pointeur.",
+    "cursorCaption": "Loupe autour du pointeur · 2,5×",
+    "windowTag": "Loupe",
+    "windowTitle": "Loupe",
+    "windowDescription": "Déplacez une vue agrandie distincte d’une zone choisie.",
+    "windowLabel": "Loupe",
+    "windowCaption": "Fenêtre de loupe distincte et mobile · 2,5×",
+    "profileHeading": "Une boîte à outils. Votre style.",
+    "rightShift": "Maj droite",
+    "layoutCode": "FR",
+    "families": [
+      "Profil bas",
+      "Portable",
+      "PBT",
+      "Minimal",
+      "3D"
+    ],
+    "familyPresets": [
+      "Profil bas",
+      "Portable",
+      "PBT",
+      "Minimal",
+      "3D"
+    ],
+    "profiles": [
+      "Crème",
+      "Graphite",
+      "Menthe"
+    ],
+    "profileNames": [
+      "PBT · Crème",
+      "Profil bas · Graphite",
+      "3D · Menthe"
+    ],
+    "mouseStyles": [
+      "Contour",
+      "Plein",
+      "Rétro"
+    ],
+    "mouseNames": [
+      "Contour",
+      "Plein",
+      "Rétro"
+    ],
+    "mouseStyle": "Indicateur de souris",
+    "normalField": "Message",
+    "passwordField": "Champ protégé",
+    "safePhrase": "Bonjour",
+    "returnPhrase": "Autre idée",
+    "privacySteps": [
+      "Sélectionner le champ de message",
+      "Seules les frappes ordinaires s’affichent",
+      "Protection avant le premier symbole du mot de passe",
+      "Nouveau texte. Nouvelles frappes uniquement."
+    ],
+    "mouseSteps": [
+      "Sélectionner un élément",
+      "Ouvrir le menu contextuel",
+      "Faire défiler la liste"
+    ],
+    "selected": "Sélectionné",
+    "context": [
+      "Ouvrir",
+      "Copier",
+      "Détails"
+    ],
+    "board": [
+      "Notes de conception",
+      "Outils d’écran",
+      "Leçon suivante"
+    ],
+    "boardTag": "PROJET",
+    "boardHeading": "Une idée plus claire",
+    "boardRows": [
+      "Raccourcis",
+      "Zone de mise en évidence",
+      "Étape suivante"
+    ],
+    "lensScale": "Grossissement en direct",
+    "drawSteps": [
+      "Choisir l’outil flèche",
+      "Tracer une ligne, puis une forme"
+    ],
+    "interfaceSteps": [
+      "Déplacer le curseur de grossissement",
+      "La loupe montre la zone marquée",
+      "Assombrir l’entourage"
+    ],
+    "keySequence": "Appuyez. Maintenez. Relâchez.",
+    "keyExamples": "Entrée · Espace · modificateurs",
+    "space": "Espace",
+    "shift": "Maj",
+    "layout": "Disposition du clavier",
+    "privacyStatic": "Saisie simulée. Les frappes protégées ne sont jamais affichées. Le clavier et l’écran ne sont pas capturés."
+  },
+  "model": {
+    "title": "Backpack — Des actions claires. Vos propres outils.",
+    "intro": "Rendez présentations, cours et enregistrements d’écran plus faciles à suivre. Montrez chaque touche et clic.",
+    "extension": "Ajoutez des outils sous forme de plugins indépendants ou découvrez comment créer le vôtre.",
+    "coreTag": "INTÉGRÉ À BACKPACK",
+    "coreTitle": "Commencez par l’essentiel.",
+    "coreText": "Les touches et la visualisation de la souris sont les deux outils du cœur de Backpack.",
+    "pluginsTag": "PLUGINS DE L’AUTEUR",
+    "pluginsTitle": "Les outils adaptés à votre récit.",
+    "pluginsText": "Les extensions de l’auteur de Backpack s’ajoutent indépendamment et servent d’exemples pour de futurs plugins personnels.",
+    "transitionNote": "Loupe, Mise en évidence, Loupe du pointeur, Minuteur — Plugin vérifié dans le paquet · Backpack 0.4.0-preview.4 / SDK 1.1. Dessin, Indicateur de disposition — Plugin prévu.",
+    "builtin": "Intégré",
+    "authorPlugin": "Plugin de l’auteur",
+    "notPublished": "Paquet public indisponible",
+    "byAuthor": "Auteur",
+    "statuses": {
+      "planned": "Plugin prévu",
+      "source": "Plugin dans les sources",
+      "verified": "Plugin vérifié dans le paquet"
+    },
+    "availability": {
+      "planned": "L’outil fonctionne dans preview.4, mais son plugin indépendant n’est ni implémenté ni empaqueté.",
+      "source": "Loupe, Mise en évidence, Loupe du pointeur, Minuteur — Plugin vérifié dans le paquet · Backpack 0.4.0-preview.4 / SDK 1.1. Dessin, Indicateur de disposition — Plugin prévu.",
+      "verified": "Plugin vérifié dans le paquet · Backpack 0.4.0-preview.4 / SDK 1.1. Paquet public indisponible"
+    },
+    "pluginNames": [
+      "Dessin",
+      "Indicateur de disposition",
+      "Loupe",
+      "Mise en évidence",
+      "Loupe du pointeur",
+      "Minuteur"
+    ],
+    "pluginBenefits": [
+      "Ajoutez des notes, formes et textes temporaires pendant l’explication.",
+      "Montrez le changement de langue de saisie.",
+      "Déplacez une vue agrandie distincte d’une zone choisie.",
+      "Assombrissez l’entourage en gardant la zone choisie claire à sa taille originale.",
+      "Agrandissez les détails avec une loupe suivant le pointeur.",
+      "Affichez un compte à rebours, mettez-le en pause et reprenez-le."
+    ],
+    "developerTag": "CRÉER VOTRE OUTIL",
+    "developerTitle": "Votre tâche. Votre prochain outil.",
+    "developerText": "Les plugins de l’auteur illustrent le contrat avec Backpack. Des instructions détaillées et des exemples fonctionnels sont en préparation à partir du minuteur.",
+    "developerSteps": [
+      [
+        "Commandes et cycle de vie",
+        "Le SDK relie démarrage, arrêt et commandes à Backpack. Les commandes acceptent des raccourcis."
+      ],
+      [
+        "Réglages et interface",
+        "Le manifeste décrit les réglages ; Backpack dessine leurs contrôles et les panneaux. Les couleurs sont des paramètres explicites, pas une API de thème automatique garantie."
+      ],
+      [
+        "Localisation et exemples",
+        "Les libellés localisés et Context.Locale suivent les langues de l’application. L’aide explique le minuteur, la compilation, l’empaquetage et l’import .bppkg."
+      ]
+    ],
+    "docsNotice": "F1 → Plugins décrit le contrat, la compilation et l’import. Aucun lien public vers la documentation SDK ou les sources d’exemples n’est configuré.",
+    "licenseNote": "Les conditions du SDK sont mises à jour pour permettre de créer librement vos propres plugins. Des guides détaillés étape par étape pour la compilation et l’import, ainsi que des exemples fonctionnels, sont en préparation.",
+    "applicationTag": "PARTIE DE L’APPLICATION",
+    "applicationTitle": "Une configuration qui vous appartient.",
+    "applicationText": "Apparence, profils enregistrés, confidentialité de saisie et gestion des plugins sont une infrastructure, pas des plugins séparés.",
+    "privacyTitle": "La confidentialité de saisie, à part.",
+    "privacyText": "L’aperçu vérifié masque les touches lorsqu’une saisie protégée est détectée. La détection a des limites et une course connue des notifications de focus : masquez manuellement avant toute saisie sensible. La confiance dans le code est distincte.",
+    "workflowTitle": "Démonstration du nouveau modèle",
+    "workflowNote": "Parcours simulé de l’interface cible. Import et confiance sont implémentés dans preview.4 ; cette scène n’est ni une capture ni une preuve que tous les plugins sont prêts.",
+    "workflowSteps": [
+      "Commencer avec touches et souris intégrées",
+      "Ouvrir les plugins",
+      "Choisir le minuteur de l’auteur",
+      "Confirmer la confiance et activer",
+      "L’outil supplémentaire apparaît"
+    ],
+    "coreTab": "Intégré",
+    "pluginsTab": "Plugins",
+    "enable": "Activer",
+    "trust": "Activez seulement du code de source fiable. Un processus séparé n’est pas un bac à sable.",
+    "enabled": "Activé",
+    "start": "Démarrer",
+    "pause": "Pause",
+    "resume": "Reprendre",
+    "reset": "Réinitialiser",
+    "finished": "Terminé",
+    "timerCaption": "Compte à rebours simulé · pause · reprise",
+    "layoutCaption": "Changement de langue de saisie simulé",
+    "layoutSequence": [
+      "English",
+      "Українська",
+      "Deutsch"
+    ],
+    "faq": [
+      [
+        "Que contient l’application ?",
+        "Les touches et la visualisation de la souris sont les deux outils du cœur de Backpack. Loupe, Mise en évidence, Loupe du pointeur, Minuteur — Plugin vérifié dans le paquet · Backpack 0.4.0-preview.4 / SDK 1.1. Dessin, Indicateur de disposition — Plugin prévu. Apparence, profils enregistrés, confidentialité de saisie et gestion des plugins sont une infrastructure, pas des plugins séparés."
+      ],
+      [
+        "Peut-on télécharger Backpack et les plugins ?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Paquet public indisponible Loupe, Mise en évidence, Loupe du pointeur, Minuteur — Plugin vérifié dans le paquet · Backpack 0.4.0-preview.4 / SDK 1.1. Dessin, Indicateur de disposition — Plugin prévu."
+      ],
+      [
+        "Comment installer les extensions ?",
+        "Plugins → Importer un plugin → .bppkg. L’import vérifie et extrait sans exécuter de code ni accorder la confiance. Tout plugin nouveau ou mis à jour est désactivé ; sa première activation exige confirmation."
+      ],
+      [
+        "Les plugins sont-ils isolés en sécurité ?",
+        "Utilisez des sources fiables. Les processus séparés ont vos droits et facilitent la gestion des pannes, mais ne sont pas des bacs à sable. Les capacités du manifeste limitent l’interface Backpack, pas toutes les actions système."
+      ],
+      [
+        "Comment commencer un outil ?",
+        "F1 → Plugins explique contrat, cycle de vie, commandes, réglages, langues et compilation du minuteur. Des guides détaillés et exemples fonctionnels sont préparés ; les nouvelles conditions SDK permettront de créer librement vos plugins. Les liens publics suivront."
+      ],
+      [
+        "La confidentialité protège-t-elle tous les champs ?",
+        "Aucune détection universelle n’est promise. Les saisies protégées ou inconnues peuvent être masquées ; la détection asynchrone du focus a des limites. Masquez avant une saisie sensible. La confiance des plugins est distincte."
+      ],
+      [
+        "Quels systèmes et quelle licence ?",
+        "Paquet vérifié pour Windows 10/11 x64 avec .NET. Backpack utilise PolyForm Strict 1.0.0 et n’est pas open source. Les conditions SDK/exemples sont en cours de mise à jour."
+      ]
+    ]
+  }
+}

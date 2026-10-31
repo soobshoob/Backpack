@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/KeyOverlay.Lab.App/KeyOverlay.Lab.App.csproj" />
+    <Project Path="src/KeyOverlay.Lab.Core/KeyOverlay.Lab.Core.csproj" />
+    <Project Path="src/KeyOverlay.Lab.Win32/KeyOverlay.Lab.Win32.csproj" />
+    <Project Path="src/KeyOverlay.Visual/KeyOverlay.Visual.csproj" />
+  </Folder>
+  <Folder Name="/sdk/">
+    <Project Path="sdk/Backpack.Sdk/Backpack.Sdk.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/KeyOverlay.Lab.Core.Tests/KeyOverlay.Lab.Core.Tests.csproj" />
+    <Project Path="tests/KeyOverlay.Visual.Tests/KeyOverlay.Visual.Tests.csproj" />
+  </Folder>
+</Solution>

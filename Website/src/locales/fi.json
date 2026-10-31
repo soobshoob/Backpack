@@ -1,0 +1,416 @@
+{
+  "content": {
+    "title": "Backpack — Selkeät toiminnot. Omat työkalut.",
+    "description": "Tee esityksistä, oppitunneista ja näytön tallenteista helpommin seurattavia. Näytä jokainen näppäin ja napsautus. Lisää työkaluja itsenäisinä lisäosina tai tutustu oman tekemiseen.",
+    "nav": [
+      "Ominaisuudet",
+      "Työkalut",
+      "Lataa",
+      "Ohje"
+    ],
+    "skip": "Siirry sisältöön",
+    "menu": "Valikko",
+    "language": "Kieli",
+    "close": "Sulje valikko",
+    "sceneNote": [
+      "Jokainen toiminto",
+      "selkeästi esiin."
+    ],
+    "toolkit": "TYÖKALUT",
+    "previewLabel": "Esiversio",
+    "signedLabel": "Digitaalisesti allekirjoitettu",
+    "unsignedLabel": "Allekirjoittamaton",
+    "publishedLabel": "Julkaistu",
+    "unpublishedLabel": "Julkaisematon",
+    "eyebrow": "Tee tärkeä näkyväksi.",
+    "badge": "Uusi nimi. Sama huolellisuus.",
+    "hero": [
+      "Jokainen toiminto",
+      "näytöllä",
+      "selkeästi esiin."
+    ],
+    "intro": "Tee esityksistä, oppitunneista ja näytön tallenteista helpommin seurattavia. Näytä jokainen näppäin ja napsautus.",
+    "primary": "Tutustu työkaluihin",
+    "secondary": "Julkaisun tila",
+    "platform": "Windows 10 / 11 · x64 · Esiversio",
+    "pause": "Keskeytä animaatiot",
+    "play": "Toista animaatiot",
+    "reduced": "Vähennetty liike",
+    "categories": [
+      "Näppäinpainallukset",
+      "Hiiren ilmaisin",
+      "Lisäosat",
+      "TEE OMA TYÖKALU",
+      "Profiilit ja tyylit"
+    ],
+    "overviewTag": "BACKPACKIN SISÄINEN",
+    "overviewTitle": [
+      "Kaikki tarvitsemasi.",
+      "Juuri oikeassa paikassa."
+    ],
+    "overviewText": "Näppäimet ja hiiren havainnollistus ovat Backpackin ytimen kaksi työkalua.",
+    "explore": "Tutustu työkaluihin",
+    "interface": "Uuden mallin esittely",
+    "interfaceNote": "Tavoitekäyttöliittymän simuloitu kierros. Tuonti ja luottamus on toteutettu preview.4:ssa; kohtaus ei ole kuvakaappaus tai todiste kaikkien lisäosien valmiudesta.",
+    "home": "Etusivu",
+    "appearance": "Ulkoasu",
+    "keys": "Näppäimet ja yhdistelmät",
+    "mouse": "Hiiri",
+    "focus": "Kohdistus",
+    "drawing": "Piirtäminen",
+    "profiles": "Profiilit",
+    "lens": "Suurennuslasi",
+    "dimming": "Himmennä ympäristö",
+    "zoom": "Suurennus",
+    "size": "Alueen koko",
+    "radius": "Kulmien säde",
+    "border": "Kehyksen väri",
+    "tray": "Säilytä tausta kehyksen alla",
+    "toolsTag": "TYÖKALUT",
+    "toolsTitle": "Aloita olennaisesta.",
+    "toolsText": "Simuloitu syöttö. Suojattuja painalluksia ei koskaan näytetä. Näppäimistöä tai näyttöä ei tallenneta.",
+    "preview": "Tarkistetussa esiversiossa",
+    "development": "Kehitteillä",
+    "concept": "Konseptiesittely",
+    "cards": [
+      [
+        "Näppäinpainallukset",
+        "Jokainen pikanäppäin selkeästi.",
+        "Luettavat näppäimet, luontevat yhdistelmät ja viisi esitystyyliä."
+      ],
+      [
+        "Hiiren ilmaisin",
+        "Osoitin, jota on helppo seurata.",
+        "Vasen ja oikea napsautus sekä vierityssuunta osoittimen vieressä olevassa ilmaisimessa."
+      ],
+      [
+        "Suurennuslasi",
+        "Suurennuslasi",
+        "Siirrä valitun alueen erillistä suurennettua näkymää."
+      ],
+      [
+        "Piirtäminen",
+        "Piirtäminen",
+        "Tilapäiset muistiinpanot, muodot ja teksti selityksen aikana."
+      ],
+      [
+        "Syötön yksityisyys erikseen.",
+        "Syötön yksityisyys erikseen.",
+        "Tarkistettu versio piilottaa näppäimet tunnistaessaan suojatun syötön. Tunnistuksessa on rajoja ja tunnettu kohdistusilmoitusten kilpailutilanne: piilota käsin ennen arkaluonteista syöttöä. Luottamus koodiin on eri päätös."
+      ],
+      [
+        "Profiilit ja tyylit",
+        "Asetukset pysyvät ominasi.",
+        "Ulkoasu, tallennetut profiilit, syötön yksityisyys ja lisäosien hallinta ovat infrastruktuuria, eivät erillisiä lisäosia."
+      ]
+    ],
+    "styles": [
+      "Vaalea",
+      "Tumma",
+      "Smaragdi"
+    ],
+    "renderers": [
+      "PBT",
+      "Minimaalinen",
+      "Kannettava"
+    ],
+    "chooseStyle": "Ulkoasu",
+    "chooseProfile": "Profiilit",
+    "chooseFocus": "Kohdistus",
+    "dimNote": "Lisäosa tarkistettu paketissa · Backpack 0.4.0-preview.4 / SDK 1.1. Julkista pakettia ei vielä ole",
+    "numberNote": "Uuden mallin esittely",
+    "safe": "Suojattu kenttä",
+    "ordinary": "Viesti",
+    "privacyNote": "Tarkistettu versio piilottaa näppäimet tunnistaessaan suojatun syötön. Tunnistuksessa on rajoja ja tunnettu kohdistusilmoitusten kilpailutilanne: piilota käsin ennen arkaluonteista syöttöä. Luottamus koodiin on eri päätös.",
+    "pluginTitle": "Työkalut tarinaasi varten.",
+    "pluginText": "Backpackin tekijän laajennukset lisätään erikseen, ja ne toimivat esimerkkeinä tuleville omille lisäosille.",
+    "downloadTag": "Viimeisin tarkistettu paketti",
+    "downloadTitle": [
+      "Selkeämpi näyttö.",
+      "Parempi selitys."
+    ],
+    "downloadText": "Julkista pakettia ei vielä ole",
+    "preparing": "Julkista latausta valmistellaan",
+    "packageLabel": "Viimeisin tarkistettu paketti",
+    "unsigned": "Allekirjoittamaton · Julkaisematon",
+    "release": "Lue julkaisutiedot",
+    "download": "Lataa Windowsille",
+    "checksum": "Tarkistetun paketin SHA-256",
+    "checksumNote": "Tunnistaa paikallisesti tarkistetun paketin. Sivusto ei jaa ohjelmapakettia.",
+    "license": "Lisenssi",
+    "helpTag": "Ohje",
+    "helpTitle": "Ennen seuraavaa esitystä.",
+    "faq": [
+      [
+        "Mitä sovellus sisältää?",
+        "Näppäimet ja hiiren havainnollistus ovat Backpackin ytimen kaksi työkalua. Suurennuslasi, Kohdistus, Osoittimen suurennuslasi, Ajastin — Lisäosa tarkistettu paketissa · Backpack 0.4.0-preview.4 / SDK 1.1. Piirtäminen, Asetteluilmaisin — Lisäosa suunnitteilla. Ulkoasu, tallennetut profiilit, syötön yksityisyys ja lisäosien hallinta ovat infrastruktuuria, eivät erillisiä lisäosia."
+      ],
+      [
+        "Voinko ladata Backpackin ja lisäosat?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Julkista pakettia ei vielä ole Suurennuslasi, Kohdistus, Osoittimen suurennuslasi, Ajastin — Lisäosa tarkistettu paketissa · Backpack 0.4.0-preview.4 / SDK 1.1. Piirtäminen, Asetteluilmaisin — Lisäosa suunnitteilla."
+      ],
+      [
+        "Miten laajennukset asennetaan?",
+        "Lisäosat → Tuo lisäosa → .bppkg. Tuonti tarkistaa ja purkaa suorittamatta koodia tai antamatta luottamusta. Uudet ja päivitetyt lisäosat ovat pois käytöstä; ensimmäinen käyttö vaatii vahvistuksen."
+      ],
+      [
+        "Ovatko lisäosat turvallisesti eristettyjä?",
+        "Käytä luotettavia lähteitä. Erilliset prosessit toimivat oikeuksillasi ja auttavat virheiden hallinnassa, mutta eivät ole hiekkalaatikko. Manifestin kyvyt rajoittavat Backpackin rajapintaa, eivät kaikkia järjestelmätoimia."
+      ],
+      [
+        "Mistä aloitan oman työkalun?",
+        "F1 → Lisäosat kuvaa sopimuksen, elinkaaren, komennot, asetukset, kielet ja ajastimen kääntämisen. Tarkkoja ohjeita ja toimivia esimerkkejä valmistellaan; SDK-ehdot tulevat mahdollistamaan omien lisäosien vapaan tekemisen. Julkiset linkit puuttuvat vielä."
+      ],
+      [
+        "Suojaako yksityisyys kaikki kentät?",
+        "Yleistä tunnistusta ei luvata. Suojattu tai tuntematon syöttö voidaan piilottaa, mutta asynkronisessa kohdistustunnistuksessa on rajoja. Piilota ennen arkaluonteista syöttöä. Lisäosiin luottaminen on eri päätös."
+      ],
+      [
+        "Mitkä järjestelmät ja lisenssi?",
+        "Tarkistettu paketti Windows 10/11 x64:lle, .NET mukana. PolyForm Strict 1.0.0, ei avoin lähdekoodi. SDK:n ja esimerkkien ehtoja päivitetään."
+      ]
+    ],
+    "footer": "Pienet työkalut. Selkeämmät tarinat.",
+    "author": "Tekijä",
+    "back": "Takaisin alkuun",
+    "notice": "Uuden mallin esittely",
+    "madeIn": "Valmistettu Ukrainassa.",
+    "program": {
+      "settings": "Sovelluksen asetukset",
+      "privacy": "Yksityisyys",
+      "about": "Tietoja",
+      "importPlugin": "Tuo lisäosa",
+      "view": "Näkymä",
+      "cards": "Kortit",
+      "list": "Luettelo",
+      "duration": "Kesto",
+      "minutes": "Minuutit",
+      "seconds": "Sekunnit",
+      "commands": "Komennot"
+    },
+    "carousel": {
+      "previous": "Edellinen",
+      "next": "Seuraava"
+    }
+  },
+  "demo": {
+    "cursorTag": "Osoittimen suurennuslasi",
+    "cursorTitle": "Osoittimen suurennuslasi",
+    "cursorDescription": "Suurenna yksityiskohtia osoitinta seuraavalla suurennuslasilla.",
+    "cursorCaption": "Suurennuslasi osoittimen ympärillä · 2,5×",
+    "windowTag": "Suurennuslasi",
+    "windowTitle": "Suurennuslasi",
+    "windowDescription": "Siirrä valitun alueen erillistä suurennettua näkymää.",
+    "windowLabel": "Suurennuslasi",
+    "windowCaption": "Erillinen siirrettävä suurennusikkuna · 2,5×",
+    "profileHeading": "Yksi työkalupakki. Oma ulkoasusi.",
+    "rightShift": "Oikea vaihtonäppäin",
+    "layoutCode": "FI",
+    "families": [
+      "Matala",
+      "Kannettava",
+      "PBT",
+      "Minimaalinen",
+      "3D"
+    ],
+    "familyPresets": [
+      "Matala",
+      "Kannettava",
+      "PBT",
+      "Minimaalinen",
+      "3D"
+    ],
+    "profiles": [
+      "Kerma",
+      "Grafiitti",
+      "Minttu"
+    ],
+    "profileNames": [
+      "PBT · Kerma",
+      "Matala · Grafiitti",
+      "3D · Minttu"
+    ],
+    "mouseStyles": [
+      "Ääriviiva",
+      "Täytetty",
+      "Retro"
+    ],
+    "mouseNames": [
+      "Ääriviiva",
+      "Täytetty",
+      "Retro"
+    ],
+    "mouseStyle": "Hiiren ilmaisin",
+    "normalField": "Viesti",
+    "passwordField": "Suojattu kenttä",
+    "safePhrase": "Hei tiimi",
+    "returnPhrase": "Uusi idea",
+    "privacySteps": [
+      "Valitse viestikenttä",
+      "Vain tavalliset painallukset näytetään",
+      "Suojaus ennen ensimmäistä salasanamerkkiä",
+      "Uusi teksti. Vain uudet painallukset."
+    ],
+    "mouseSteps": [
+      "Valitse kohde",
+      "Avaa pikavalikko",
+      "Vieritä luetteloa"
+    ],
+    "selected": "Valittu",
+    "context": [
+      "Avaa",
+      "Kopioi",
+      "Tiedot"
+    ],
+    "board": [
+      "Suunnittelumuistiinpanot",
+      "Näyttötyökalut",
+      "Seuraava oppitunti"
+    ],
+    "boardTag": "PROJEKTI",
+    "boardHeading": "Selkeämpi ajatus",
+    "boardRows": [
+      "Pikanäppäimet",
+      "Kohdistusalue",
+      "Seuraava vaihe"
+    ],
+    "lensScale": "Reaaliaikainen suurennus",
+    "drawSteps": [
+      "Valitse nuolityökalu",
+      "Piirrä viiva ja sitten muoto"
+    ],
+    "interfaceSteps": [
+      "Vedä suurennuksen liukusäädintä",
+      "Suurennusikkuna näyttää merkityn alueen",
+      "Himmennä ympäristö"
+    ],
+    "keySequence": "Paina. Pidä. Vapauta.",
+    "keyExamples": "Enter · Välilyönti · muuntonäppäimet",
+    "space": "Välilyönti",
+    "shift": "Vaihto",
+    "layout": "Näppäimistöasettelu",
+    "privacyStatic": "Simuloitu syöttö. Suojattuja painalluksia ei koskaan näytetä. Näppäimistöä tai näyttöä ei tallenneta."
+  },
+  "model": {
+    "title": "Backpack — Selkeät toiminnot. Omat työkalut.",
+    "intro": "Tee esityksistä, oppitunneista ja näytön tallenteista helpommin seurattavia. Näytä jokainen näppäin ja napsautus.",
+    "extension": "Lisää työkaluja itsenäisinä lisäosina tai tutustu oman tekemiseen.",
+    "coreTag": "BACKPACKIN SISÄINEN",
+    "coreTitle": "Aloita olennaisesta.",
+    "coreText": "Näppäimet ja hiiren havainnollistus ovat Backpackin ytimen kaksi työkalua.",
+    "pluginsTag": "TEKIJÄN LISÄOSAT",
+    "pluginsTitle": "Työkalut tarinaasi varten.",
+    "pluginsText": "Backpackin tekijän laajennukset lisätään erikseen, ja ne toimivat esimerkkeinä tuleville omille lisäosille.",
+    "transitionNote": "Suurennuslasi, Kohdistus, Osoittimen suurennuslasi, Ajastin — Lisäosa tarkistettu paketissa · Backpack 0.4.0-preview.4 / SDK 1.1. Piirtäminen, Asetteluilmaisin — Lisäosa suunnitteilla.",
+    "builtin": "Sisäinen",
+    "authorPlugin": "Tekijän lisäosa",
+    "notPublished": "Julkista pakettia ei vielä ole",
+    "byAuthor": "Tekijä",
+    "statuses": {
+      "planned": "Lisäosa suunnitteilla",
+      "source": "Lisäosa lähdekoodissa",
+      "verified": "Lisäosa tarkistettu paketissa"
+    },
+    "availability": {
+      "planned": "Työkalu toimii preview.4:ssa, mutta itsenäistä lisäosaa ei vielä ole toteutettu tai paketoitu.",
+      "source": "Suurennuslasi, Kohdistus, Osoittimen suurennuslasi, Ajastin — Lisäosa tarkistettu paketissa · Backpack 0.4.0-preview.4 / SDK 1.1. Piirtäminen, Asetteluilmaisin — Lisäosa suunnitteilla.",
+      "verified": "Lisäosa tarkistettu paketissa · Backpack 0.4.0-preview.4 / SDK 1.1. Julkista pakettia ei vielä ole"
+    },
+    "pluginNames": [
+      "Piirtäminen",
+      "Asetteluilmaisin",
+      "Suurennuslasi",
+      "Kohdistus",
+      "Osoittimen suurennuslasi",
+      "Ajastin"
+    ],
+    "pluginBenefits": [
+      "Tilapäiset muistiinpanot, muodot ja teksti selityksen aikana.",
+      "Tee syöttökielen vaihto näkyväksi.",
+      "Siirrä valitun alueen erillistä suurennettua näkymää.",
+      "Himmennä ympäristö ja säilytä alue selkeänä alkuperäiskoossa.",
+      "Suurenna yksityiskohtia osoitinta seuraavalla suurennuslasilla.",
+      "Näytä lähtölaskenta, keskeytä ja jatka tarpeen mukaan."
+    ],
+    "developerTag": "TEE OMA TYÖKALU",
+    "developerTitle": "Oma tehtäväsi. Seuraava työkalusi.",
+    "developerText": "Tekijän lisäosat esittelevät Backpackin sopimuksen. Ajastinesimerkin pohjalta valmistellaan yksityiskohtaisia ohjeita.",
+    "developerSteps": [
+      [
+        "Komennot ja elinkaari",
+        "SDK yhdistää käynnistyksen, pysäytyksen ja komennot Backpackiin. Komentoihin voi liittää pikanäppäimiä."
+      ],
+      [
+        "Asetukset ja käyttöliittymä",
+        "Manifesti kuvaa asetukset; Backpack piirtää säätimet ja peittopaneelit. Värit ovat erillisiä parametreja, ei luvattu automaattinen teema-API."
+      ],
+      [
+        "Lokalisointi ja esimerkit",
+        "Lokalisoidut tekstit ja Context.Locale tukevat sovelluksen kieliä. Ohje käsittelee ajastinta, kääntämistä, paketointia ja .bppkg-tuontia."
+      ]
+    ],
+    "docsNotice": "F1 → Lisäosat kuvaa sopimuksen, kääntämisen ja tuonnin. Julkisia SDK-ohjeiden tai esimerkkilähteiden linkkejä ei vielä ole.",
+    "licenseNote": "SDK:n ehtoja päivitetään mahdollistamaan omien lisäosien vapaa luominen. Yksityiskohtaisia vaiheittaisia kääntämis- ja tuontiohjeita sekä toimivia esimerkkejä valmistellaan.",
+    "applicationTag": "OSA SOVELLUSTA",
+    "applicationTitle": "Asetukset pysyvät ominasi.",
+    "applicationText": "Ulkoasu, tallennetut profiilit, syötön yksityisyys ja lisäosien hallinta ovat infrastruktuuria, eivät erillisiä lisäosia.",
+    "privacyTitle": "Syötön yksityisyys erikseen.",
+    "privacyText": "Tarkistettu versio piilottaa näppäimet tunnistaessaan suojatun syötön. Tunnistuksessa on rajoja ja tunnettu kohdistusilmoitusten kilpailutilanne: piilota käsin ennen arkaluonteista syöttöä. Luottamus koodiin on eri päätös.",
+    "workflowTitle": "Uuden mallin esittely",
+    "workflowNote": "Tavoitekäyttöliittymän simuloitu kierros. Tuonti ja luottamus on toteutettu preview.4:ssa; kohtaus ei ole kuvakaappaus tai todiste kaikkien lisäosien valmiudesta.",
+    "workflowSteps": [
+      "Aloita sisäisillä näppäimillä ja hiirellä",
+      "Avaa lisäosat",
+      "Valitse tekijän ajastin",
+      "Vahvista luottamus ja ota käyttöön",
+      "Lisätyökalu ilmestyy"
+    ],
+    "coreTab": "Sisäinen",
+    "pluginsTab": "Lisäosat",
+    "enable": "Ota käyttöön",
+    "trust": "Ota käyttöön vain luotettavien lähteiden koodia. Erillinen prosessi ei ole hiekkalaatikko.",
+    "enabled": "Käytössä",
+    "start": "Aloita",
+    "pause": "Tauko",
+    "resume": "Jatka",
+    "reset": "Nollaa",
+    "finished": "Valmis",
+    "timerCaption": "Simuloitu lähtölaskenta · tauko · jatko",
+    "layoutCaption": "Simuloitu syöttökielen vaihto",
+    "layoutSequence": [
+      "English",
+      "Українська",
+      "Deutsch"
+    ],
+    "faq": [
+      [
+        "Mitä sovellus sisältää?",
+        "Näppäimet ja hiiren havainnollistus ovat Backpackin ytimen kaksi työkalua. Suurennuslasi, Kohdistus, Osoittimen suurennuslasi, Ajastin — Lisäosa tarkistettu paketissa · Backpack 0.4.0-preview.4 / SDK 1.1. Piirtäminen, Asetteluilmaisin — Lisäosa suunnitteilla. Ulkoasu, tallennetut profiilit, syötön yksityisyys ja lisäosien hallinta ovat infrastruktuuria, eivät erillisiä lisäosia."
+      ],
+      [
+        "Voinko ladata Backpackin ja lisäosat?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Julkista pakettia ei vielä ole Suurennuslasi, Kohdistus, Osoittimen suurennuslasi, Ajastin — Lisäosa tarkistettu paketissa · Backpack 0.4.0-preview.4 / SDK 1.1. Piirtäminen, Asetteluilmaisin — Lisäosa suunnitteilla."
+      ],
+      [
+        "Miten laajennukset asennetaan?",
+        "Lisäosat → Tuo lisäosa → .bppkg. Tuonti tarkistaa ja purkaa suorittamatta koodia tai antamatta luottamusta. Uudet ja päivitetyt lisäosat ovat pois käytöstä; ensimmäinen käyttö vaatii vahvistuksen."
+      ],
+      [
+        "Ovatko lisäosat turvallisesti eristettyjä?",
+        "Käytä luotettavia lähteitä. Erilliset prosessit toimivat oikeuksillasi ja auttavat virheiden hallinnassa, mutta eivät ole hiekkalaatikko. Manifestin kyvyt rajoittavat Backpackin rajapintaa, eivät kaikkia järjestelmätoimia."
+      ],
+      [
+        "Mistä aloitan oman työkalun?",
+        "F1 → Lisäosat kuvaa sopimuksen, elinkaaren, komennot, asetukset, kielet ja ajastimen kääntämisen. Tarkkoja ohjeita ja toimivia esimerkkejä valmistellaan; SDK-ehdot tulevat mahdollistamaan omien lisäosien vapaan tekemisen. Julkiset linkit puuttuvat vielä."
+      ],
+      [
+        "Suojaako yksityisyys kaikki kentät?",
+        "Yleistä tunnistusta ei luvata. Suojattu tai tuntematon syöttö voidaan piilottaa, mutta asynkronisessa kohdistustunnistuksessa on rajoja. Piilota ennen arkaluonteista syöttöä. Lisäosiin luottaminen on eri päätös."
+      ],
+      [
+        "Mitkä järjestelmät ja lisenssi?",
+        "Tarkistettu paketti Windows 10/11 x64:lle, .NET mukana. PolyForm Strict 1.0.0, ei avoin lähdekoodi. SDK:n ja esimerkkien ehtoja päivitetään."
+      ]
+    ]
+  }
+}

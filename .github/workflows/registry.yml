@@ -1,0 +1,76 @@
+# Проверка PR в каталог плагинов (registry/). Безопасность:
+# - событие pull_request (не pull_request_target): у PR из форка нет секретов и токена с правом записи;
+# - permissions: только чтение; persist-credentials: false;
+# - проверяющий код берётся из БАЗОВОГО коммита (trusted/), а реестр из PR (pr/) — только как данные: скрипты и зависимости
+#   из PR не запускаются, код плагинов не скачивается для запуска (пакеты только читаются как ZIP из памяти);
+# - merge — вручную владельцем после просмотра; автоматического merge нет.
+name: Plugin registry
+
+on:
+  pull_request:
+    paths:
+      - 'registry/**'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate registry entry (no plugin code runs)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Trusted tooling (base commit)
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: trusted
+          persist-credentials: false
+
+      - name: Pull request content (data only)
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: pr
+          persist-credentials: false
+
+      - name: Only registry/index.json may change in a catalog PR
+        working-directory: pr
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+        run: |
+          git fetch --no-tags --depth=1 origin "$BASE"
+          changed=$(git diff --name-only "$BASE" HEAD)
+          echo "$changed"
+          other=$(echo "$changed" | grep -v '^registry/index.json$' || true)
+          if [ -n "$other" ]; then
+            echo "::warning::This PR changes files other than registry/index.json; the owner must review them separately:"
+            echo "$other"
+          fi
+
+      - name: Schema copy matches the website contract
+        run: cmp trusted/registry/schema/registry-v1.schema.json trusted/Website/public/registry.schema.json
+
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '22'
+
+      - uses: pnpm/action-setup@ea17c68df8912ef543352723c149a84f56e3d413 # v6.1.0
+        with:
+          package_json_file: trusted/Website/package.json
+          run_install: false
+
+      - name: Install the website validator dependencies (trusted lockfile, no install scripts)
+        working-directory: trusted/Website
+        run: pnpm install --frozen-lockfile --ignore-scripts
+
+      - name: Semantic validation (the website's own validateRegistry)
+        run: node trusted/tools/registry/validate-registry.mjs trusted/Website pr/registry/index.json
+
+      - name: Structure and packages (size limits, SHA-256, safe ZIP paths, manifest ID and version)
+        shell: pwsh
+        run: ./trusted/tools/registry/Test-RegistryPackages.ps1 -Index pr/registry/index.json -Schema trusted/registry/schema/registry-v1.schema.json
+
+      - name: Reminder
+        if: always()
+        run: echo "::notice::Passing these checks does not mean the plugin is safe. The owner reviews the entry, the package and the license before merging."

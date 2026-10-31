@@ -1,0 +1,416 @@
+{
+  "content": {
+    "title": "Backpack — Aiškūs veiksmai. Nuosavi įrankiai.",
+    "description": "Padėkite lengviau sekti pristatymus, pamokas ir ekrano įrašus. Rodykite kiekvieną klavišą ir spustelėjimą. Pridėkite įrankių kaip nepriklausomų papildinių arba sužinokite, kaip sukurti savą.",
+    "nav": [
+      "Galimybės",
+      "Įrankiai",
+      "Atsisiųsti",
+      "Pagalba"
+    ],
+    "skip": "Pereiti prie turinio",
+    "menu": "Meniu",
+    "language": "Kalba",
+    "close": "Uždaryti meniu",
+    "sceneNote": [
+      "Kiekvienas veiksmas",
+      "aiškiai matomas."
+    ],
+    "toolkit": "ĮRANKIAI",
+    "previewLabel": "Peržiūros versija",
+    "signedLabel": "Pasirašyta skaitmeniniu parašu",
+    "unsignedLabel": "Nepasirašyta",
+    "publishedLabel": "Paskelbta",
+    "unpublishedLabel": "Nepaskelbta",
+    "eyebrow": "Parodykite tai, kas svarbu.",
+    "badge": "Naujas vardas. Tas pats dėmesys detalėms.",
+    "hero": [
+      "Kiekvienas veiksmas",
+      "ekrane",
+      "aiškiai matomas."
+    ],
+    "intro": "Padėkite lengviau sekti pristatymus, pamokas ir ekrano įrašus. Rodykite kiekvieną klavišą ir spustelėjimą.",
+    "primary": "Atrasti įrankius",
+    "secondary": "Leidimo būsena",
+    "platform": "Windows 10 / 11 · x64 · Peržiūros versija",
+    "pause": "Pristabdyti animacijas",
+    "play": "Paleisti animacijas",
+    "reduced": "Sumažintas judėjimas",
+    "categories": [
+      "Klavišų paspaudimai",
+      "Pelės indikatorius",
+      "Papildiniai",
+      "SUKURKITE SAVO ĮRANKĮ",
+      "Profiliai ir stiliai"
+    ],
+    "overviewTag": "ĮDIEGTA Į BACKPACK",
+    "overviewTitle": [
+      "Viskas, ko reikia.",
+      "Būtent ten, kur reikia."
+    ],
+    "overviewText": "Klavišai ir pelės vizualizacija yra du pagrindiniai Backpack branduolio įrankiai.",
+    "explore": "Atrasti įrankius",
+    "interface": "Naujo modelio demonstracija",
+    "interfaceNote": "Numatomos sąsajos imitacija. Importas ir pasitikėjimas įgyvendinti preview.4; scena nėra ekrano kopija ar visų papildinių parengties įrodymas.",
+    "home": "Pradžia",
+    "appearance": "Išvaizda",
+    "keys": "Klavišai ir deriniai",
+    "mouse": "Pelė",
+    "focus": "Dėmesys",
+    "drawing": "Piešimas",
+    "profiles": "Profiliai",
+    "lens": "Didintuvas",
+    "dimming": "Pritemdyti aplinką",
+    "zoom": "Didinimas",
+    "size": "Srities dydis",
+    "radius": "Kampų spindulys",
+    "border": "Rėmelio spalva",
+    "tray": "Išlaikyti foną po rėmeliu",
+    "toolsTag": "ĮRANKIAI",
+    "toolsTitle": "Pradėkite nuo svarbiausio.",
+    "toolsText": "Simuliuojama įvestis. Apsaugoti paspaudimai niekada nerodomi. Klaviatūra ir ekranas nefiksuojami.",
+    "preview": "Patikrintoje peržiūros versijoje",
+    "development": "Kuriama",
+    "concept": "Koncepcijos demonstracija",
+    "cards": [
+      [
+        "Klavišų paspaudimai",
+        "Kiekvienas derinys aiškiai matomas.",
+        "Įskaitomi klavišai, natūralūs deriniai ir penki rodymo stiliai."
+      ],
+      [
+        "Pelės indikatorius",
+        "Žymeklis, kurį lengva sekti.",
+        "Kairysis ir dešinysis spustelėjimas bei slinkimo kryptis indikatoriuje šalia žymeklio."
+      ],
+      [
+        "Didintuvas",
+        "Didintuvas",
+        "Perkelkite atskirą padidintą pasirinktos srities vaizdą."
+      ],
+      [
+        "Piešimas",
+        "Piešimas",
+        "Laikinos pastabos, figūros ir tekstas aiškinant mintį."
+      ],
+      [
+        "Įvesties privatumas — atskirai.",
+        "Įvesties privatumas — atskirai.",
+        "Patikrinta versija slepia klavišus aptikusi apsaugotą įvestį. Aptikimas turi ribas ir žinomą fokusavimo pranešimų lenktynių būseną: prieš jautrią įvestį slėpkite rankiniu būdu. Pasitikėjimas kodu yra atskiras sprendimas."
+      ],
+      [
+        "Profiliai ir stiliai",
+        "Nustatymai, kurie lieka jūsų.",
+        "Išvaizda, išsaugoti profiliai, įvesties privatumas ir papildinių valdymas yra infrastruktūra, ne atskiri papildiniai."
+      ]
+    ],
+    "styles": [
+      "Šviesus",
+      "Tamsus",
+      "Smaragdinis"
+    ],
+    "renderers": [
+      "PBT",
+      "Minimalus",
+      "Nešiojamasis"
+    ],
+    "chooseStyle": "Išvaizda",
+    "chooseProfile": "Profiliai",
+    "chooseFocus": "Dėmesys",
+    "dimNote": "Papildinys patikrintas pakete · Backpack 0.4.0-preview.4 / SDK 1.1. Viešo paketo dar nėra",
+    "numberNote": "Naujo modelio demonstracija",
+    "safe": "Apsaugotas laukas",
+    "ordinary": "Pranešimas",
+    "privacyNote": "Patikrinta versija slepia klavišus aptikusi apsaugotą įvestį. Aptikimas turi ribas ir žinomą fokusavimo pranešimų lenktynių būseną: prieš jautrią įvestį slėpkite rankiniu būdu. Pasitikėjimas kodu yra atskiras sprendimas.",
+    "pluginTitle": "Įrankiai jūsų pasakojimui.",
+    "pluginText": "Backpack autoriaus plėtiniai pridedami nepriklausomai ir yra pavyzdžiai būsimiems nuosaviems papildiniams.",
+    "downloadTag": "Paskutinis patikrintas paketas",
+    "downloadTitle": [
+      "Aiškesnis ekranas.",
+      "Geresnis paaiškinimas."
+    ],
+    "downloadText": "Viešo paketo dar nėra",
+    "preparing": "Ruošiamas viešas atsisiuntimas",
+    "packageLabel": "Paskutinis patikrintas paketas",
+    "unsigned": "Nepasirašyta · Nepaskelbta",
+    "release": "Skaityti leidimo pastabas",
+    "download": "Atsisiųsti Windows versiją",
+    "checksum": "Patikrinto paketo SHA-256",
+    "checksumNote": "Atpažįsta vietoje patikrintą paketą. Ši svetainė programos paketo neplatina.",
+    "license": "Licencija",
+    "helpTag": "Pagalba",
+    "helpTitle": "Prieš kitą pristatymą.",
+    "faq": [
+      [
+        "Kas įeina į programą?",
+        "Klavišai ir pelės vizualizacija yra du pagrindiniai Backpack branduolio įrankiai. Didintuvas, Dėmesys, Didintuvas prie žymeklio, Laikmatis — Papildinys patikrintas pakete · Backpack 0.4.0-preview.4 / SDK 1.1. Piešimas, Išdėstymo indikatorius — Papildinys planuojamas. Išvaizda, išsaugoti profiliai, įvesties privatumas ir papildinių valdymas yra infrastruktūra, ne atskiri papildiniai."
+      ],
+      [
+        "Ar galima atsisiųsti Backpack ir papildinius?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Viešo paketo dar nėra Didintuvas, Dėmesys, Didintuvas prie žymeklio, Laikmatis — Papildinys patikrintas pakete · Backpack 0.4.0-preview.4 / SDK 1.1. Piešimas, Išdėstymo indikatorius — Papildinys planuojamas."
+      ],
+      [
+        "Kaip diegiami plėtiniai?",
+        "Papildiniai → Importuoti papildinį → .bppkg. Importas tikrina ir išpakuoja nevykdydamas kodo ir nesuteikdamas pasitikėjimo. Nauji ar atnaujinti papildiniai išjungti; pirmas įjungimas reikalauja patvirtinimo."
+      ],
+      [
+        "Ar papildiniai saugiai izoliuoti?",
+        "Naudokite patikimus šaltinius. Atskiri procesai turi jūsų teises ir padeda valdyti gedimus, bet nėra saugi smėlio dėžė. Manifesto galimybės riboja Backpack sąsają, ne visus kodo veiksmus sistemoje."
+      ],
+      [
+        "Nuo ko pradėti savą įrankį?",
+        "F1 → Papildiniai aiškina sutartį, ciklą, komandas, nustatymus, kalbas ir laikmačio kūrimą. Rengiami išsamūs vadovai ir veikiantys pavyzdžiai; SDK sąlygos leis laisvai kurti savo papildinius. Viešų nuorodų dar nėra."
+      ],
+      [
+        "Ar privatumas apsaugo kiekvieną lauką?",
+        "Universalus aptikimas nežadamas. Apsaugota ar nežinoma įvestis gali būti slepiama, bet asinchroninis fokusavimo aptikimas turi ribas. Prieš jautrią įvestį slėpkite rankiniu būdu. Pasitikėjimas papildiniais yra atskiras."
+      ],
+      [
+        "Kokios sistemos ir licencija?",
+        "Patikrintas paketas skirtas Windows 10/11 x64, įtrauktas .NET. PolyForm Strict 1.0.0, ne atvirasis kodas. SDK ir pavyzdžių sąlygos atnaujinamos."
+      ]
+    ],
+    "footer": "Maži įrankiai. Aiškesnės istorijos.",
+    "author": "Autorius",
+    "back": "Į viršų",
+    "notice": "Naujo modelio demonstracija",
+    "madeIn": "Pagaminta Ukrainoje.",
+    "program": {
+      "settings": "Programos nustatymai",
+      "privacy": "Privatumas",
+      "about": "Apie",
+      "importPlugin": "Importuoti papildinį",
+      "view": "Rodinys",
+      "cards": "Kortelės",
+      "list": "Sąrašas",
+      "duration": "Trukmė",
+      "minutes": "Minutės",
+      "seconds": "Sekundės",
+      "commands": "Komandos"
+    },
+    "carousel": {
+      "previous": "Ankstesni",
+      "next": "Kiti"
+    }
+  },
+  "demo": {
+    "cursorTag": "Didintuvas prie žymeklio",
+    "cursorTitle": "Didintuvas prie žymeklio",
+    "cursorDescription": "Didinkite detales didintuvu, kuris seka žymeklį.",
+    "cursorCaption": "Didintuvas aplink žymeklį · 2,5×",
+    "windowTag": "Didintuvas",
+    "windowTitle": "Didintuvas",
+    "windowDescription": "Perkelkite atskirą padidintą pasirinktos srities vaizdą.",
+    "windowLabel": "Didintuvas",
+    "windowCaption": "Atskiras perkeliamas didinimo langas · 2,5×",
+    "profileHeading": "Vienas įrankių rinkinys. Jūsų išvaizda.",
+    "rightShift": "Dešinysis Shift",
+    "layoutCode": "LT",
+    "families": [
+      "Žemas profilis",
+      "Nešiojamasis",
+      "PBT",
+      "Minimalus",
+      "3D"
+    ],
+    "familyPresets": [
+      "Žemas profilis",
+      "Nešiojamasis",
+      "PBT",
+      "Minimalus",
+      "3D"
+    ],
+    "profiles": [
+      "Kreminė",
+      "Grafito",
+      "Mėtų"
+    ],
+    "profileNames": [
+      "PBT · Kreminė",
+      "Žemas profilis · Grafito",
+      "3D · Mėtų"
+    ],
+    "mouseStyles": [
+      "Kontūras",
+      "Vientisas",
+      "Retro"
+    ],
+    "mouseNames": [
+      "Kontūras",
+      "Vientisas",
+      "Retro"
+    ],
+    "mouseStyle": "Pelės indikatorius",
+    "normalField": "Pranešimas",
+    "passwordField": "Apsaugotas laukas",
+    "safePhrase": "Labas komandai",
+    "returnPhrase": "Nauja mintis",
+    "privacySteps": [
+      "Pasirinkite pranešimo lauką",
+      "Rodomi tik įprasti paspaudimai",
+      "Apsauga prieš pirmą slaptažodžio simbolį",
+      "Naujas tekstas. Tik nauji paspaudimai."
+    ],
+    "mouseSteps": [
+      "Pasirinkite elementą",
+      "Atidarykite kontekstinį meniu",
+      "Slinkite sąrašu"
+    ],
+    "selected": "Pasirinkta",
+    "context": [
+      "Atidaryti",
+      "Kopijuoti",
+      "Išsamiau"
+    ],
+    "board": [
+      "Dizaino pastabos",
+      "Ekrano įrankiai",
+      "Kita pamoka"
+    ],
+    "boardTag": "PROJEKTAS",
+    "boardHeading": "Aiškesnė mintis",
+    "boardRows": [
+      "Spartieji klavišai",
+      "Dėmesio sritis",
+      "Kitas žingsnis"
+    ],
+    "lensScale": "Tiesioginis didinimas",
+    "drawSteps": [
+      "Pasirinkite rodyklės įrankį",
+      "Nubrėžkite liniją, tada figūrą"
+    ],
+    "interfaceSteps": [
+      "Vilkite didinimo slankiklį",
+      "Didinimo lange rodoma pažymėta sritis",
+      "Pritemdykite aplinką"
+    ],
+    "keySequence": "Paspauskite. Laikykite. Atleiskite.",
+    "keyExamples": "Enter · Tarpas · modifikatoriai",
+    "space": "Tarpas",
+    "shift": "Shift",
+    "layout": "Klaviatūros išdėstymas",
+    "privacyStatic": "Simuliuojama įvestis. Apsaugoti paspaudimai niekada nerodomi. Klaviatūra ir ekranas nefiksuojami."
+  },
+  "model": {
+    "title": "Backpack — Aiškūs veiksmai. Nuosavi įrankiai.",
+    "intro": "Padėkite lengviau sekti pristatymus, pamokas ir ekrano įrašus. Rodykite kiekvieną klavišą ir spustelėjimą.",
+    "extension": "Pridėkite įrankių kaip nepriklausomų papildinių arba sužinokite, kaip sukurti savą.",
+    "coreTag": "ĮDIEGTA Į BACKPACK",
+    "coreTitle": "Pradėkite nuo svarbiausio.",
+    "coreText": "Klavišai ir pelės vizualizacija yra du pagrindiniai Backpack branduolio įrankiai.",
+    "pluginsTag": "AUTORIAUS PAPILDINIAI",
+    "pluginsTitle": "Įrankiai jūsų pasakojimui.",
+    "pluginsText": "Backpack autoriaus plėtiniai pridedami nepriklausomai ir yra pavyzdžiai būsimiems nuosaviems papildiniams.",
+    "transitionNote": "Didintuvas, Dėmesys, Didintuvas prie žymeklio, Laikmatis — Papildinys patikrintas pakete · Backpack 0.4.0-preview.4 / SDK 1.1. Piešimas, Išdėstymo indikatorius — Papildinys planuojamas.",
+    "builtin": "Įdiegta",
+    "authorPlugin": "Autoriaus papildinys",
+    "notPublished": "Viešo paketo dar nėra",
+    "byAuthor": "Autorius",
+    "statuses": {
+      "planned": "Papildinys planuojamas",
+      "source": "Papildinys pirminiame kode",
+      "verified": "Papildinys patikrintas pakete"
+    },
+    "availability": {
+      "planned": "Įrankis veikia preview.4, bet nepriklausomas papildinys dar nesukurtas ir nesupakuotas.",
+      "source": "Didintuvas, Dėmesys, Didintuvas prie žymeklio, Laikmatis — Papildinys patikrintas pakete · Backpack 0.4.0-preview.4 / SDK 1.1. Piešimas, Išdėstymo indikatorius — Papildinys planuojamas.",
+      "verified": "Papildinys patikrintas pakete · Backpack 0.4.0-preview.4 / SDK 1.1. Viešo paketo dar nėra"
+    },
+    "pluginNames": [
+      "Piešimas",
+      "Išdėstymo indikatorius",
+      "Didintuvas",
+      "Dėmesys",
+      "Didintuvas prie žymeklio",
+      "Laikmatis"
+    ],
+    "pluginBenefits": [
+      "Laikinos pastabos, figūros ir tekstas aiškinant mintį.",
+      "Parodykite įvesties kalbos pasikeitimą.",
+      "Perkelkite atskirą padidintą pasirinktos srities vaizdą.",
+      "Pritemdykite aplinką, palikdami sritį aiškią pradiniu masteliu.",
+      "Didinkite detales didintuvu, kuris seka žymeklį.",
+      "Rodykite atgalinį laiką, pristabdykite ir tęskite."
+    ],
+    "developerTag": "SUKURKITE SAVO ĮRANKĮ",
+    "developerTitle": "Jūsų užduotis. Kitas jūsų įrankis.",
+    "developerText": "Autoriaus papildiniai parodo sąsajos sutartį su Backpack. Pagal laikmačio pavyzdį rengiamos išsamios instrukcijos.",
+    "developerSteps": [
+      [
+        "Komandos ir gyvavimo ciklas",
+        "SDK susieja paleidimą, stabdymą ir komandas su Backpack. Komandoms galima priskirti sparčiuosius klavišus."
+      ],
+      [
+        "Nustatymai ir sąsaja",
+        "Manifestas aprašo nustatymus; Backpack piešia valdiklius ir ekrano skydelius. Spalvos nurodomos parametrais, automatinė temų API nežadama."
+      ],
+      [
+        "Lokalizacija ir pavyzdžiai",
+        "Lokalizuoti užrašai ir Context.Locale palaiko programos kalbas. Pagalba aiškina laikmatį, kūrimą, pakavimą ir .bppkg importą."
+      ]
+    ],
+    "docsNotice": "F1 → Papildiniai aprašo sutartį, kūrimą ir importą. Viešos SDK dokumentacijos ir pavyzdžių kodo nuorodos dar nenustatytos.",
+    "licenseNote": "SDK sąlygos atnaujinamos, kad būtų galima laisvai kurti savus papildinius. Rengiami išsamūs nuoseklūs kūrimo ir importo vadovai bei veikiantys pavyzdžiai.",
+    "applicationTag": "PROGRAMOS DALIS",
+    "applicationTitle": "Nustatymai, kurie lieka jūsų.",
+    "applicationText": "Išvaizda, išsaugoti profiliai, įvesties privatumas ir papildinių valdymas yra infrastruktūra, ne atskiri papildiniai.",
+    "privacyTitle": "Įvesties privatumas — atskirai.",
+    "privacyText": "Patikrinta versija slepia klavišus aptikusi apsaugotą įvestį. Aptikimas turi ribas ir žinomą fokusavimo pranešimų lenktynių būseną: prieš jautrią įvestį slėpkite rankiniu būdu. Pasitikėjimas kodu yra atskiras sprendimas.",
+    "workflowTitle": "Naujo modelio demonstracija",
+    "workflowNote": "Numatomos sąsajos imitacija. Importas ir pasitikėjimas įgyvendinti preview.4; scena nėra ekrano kopija ar visų papildinių parengties įrodymas.",
+    "workflowSteps": [
+      "Pradėkite nuo įdiegtų klavišų ir pelės",
+      "Atidarykite papildinius",
+      "Pasirinkite autoriaus laikmatį",
+      "Patvirtinkite pasitikėjimą ir įjunkite",
+      "Pasirodo papildomas įrankis"
+    ],
+    "coreTab": "Įdiegta",
+    "pluginsTab": "Papildiniai",
+    "enable": "Įjungti",
+    "trust": "Įjunkite tik patikimų šaltinių kodą. Atskiras procesas nėra saugi smėlio dėžė.",
+    "enabled": "Įjungta",
+    "start": "Pradėti",
+    "pause": "Pauzė",
+    "resume": "Tęsti",
+    "reset": "Atkurti",
+    "finished": "Baigta",
+    "timerCaption": "Imituojamas atgalinis laikas · pauzė · tęsimas",
+    "layoutCaption": "Imituojamas įvesties kalbos keitimas",
+    "layoutSequence": [
+      "English",
+      "Українська",
+      "Deutsch"
+    ],
+    "faq": [
+      [
+        "Kas įeina į programą?",
+        "Klavišai ir pelės vizualizacija yra du pagrindiniai Backpack branduolio įrankiai. Didintuvas, Dėmesys, Didintuvas prie žymeklio, Laikmatis — Papildinys patikrintas pakete · Backpack 0.4.0-preview.4 / SDK 1.1. Piešimas, Išdėstymo indikatorius — Papildinys planuojamas. Išvaizda, išsaugoti profiliai, įvesties privatumas ir papildinių valdymas yra infrastruktūra, ne atskiri papildiniai."
+      ],
+      [
+        "Ar galima atsisiųsti Backpack ir papildinius?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Viešo paketo dar nėra Didintuvas, Dėmesys, Didintuvas prie žymeklio, Laikmatis — Papildinys patikrintas pakete · Backpack 0.4.0-preview.4 / SDK 1.1. Piešimas, Išdėstymo indikatorius — Papildinys planuojamas."
+      ],
+      [
+        "Kaip diegiami plėtiniai?",
+        "Papildiniai → Importuoti papildinį → .bppkg. Importas tikrina ir išpakuoja nevykdydamas kodo ir nesuteikdamas pasitikėjimo. Nauji ar atnaujinti papildiniai išjungti; pirmas įjungimas reikalauja patvirtinimo."
+      ],
+      [
+        "Ar papildiniai saugiai izoliuoti?",
+        "Naudokite patikimus šaltinius. Atskiri procesai turi jūsų teises ir padeda valdyti gedimus, bet nėra saugi smėlio dėžė. Manifesto galimybės riboja Backpack sąsają, ne visus kodo veiksmus sistemoje."
+      ],
+      [
+        "Nuo ko pradėti savą įrankį?",
+        "F1 → Papildiniai aiškina sutartį, ciklą, komandas, nustatymus, kalbas ir laikmačio kūrimą. Rengiami išsamūs vadovai ir veikiantys pavyzdžiai; SDK sąlygos leis laisvai kurti savo papildinius. Viešų nuorodų dar nėra."
+      ],
+      [
+        "Ar privatumas apsaugo kiekvieną lauką?",
+        "Universalus aptikimas nežadamas. Apsaugota ar nežinoma įvestis gali būti slepiama, bet asinchroninis fokusavimo aptikimas turi ribas. Prieš jautrią įvestį slėpkite rankiniu būdu. Pasitikėjimas papildiniais yra atskiras."
+      ],
+      [
+        "Kokios sistemos ir licencija?",
+        "Patikrintas paketas skirtas Windows 10/11 x64, įtrauktas .NET. PolyForm Strict 1.0.0, ne atvirasis kodas. SDK ir pavyzdžių sąlygos atnaujinamos."
+      ]
+    ]
+  }
+}

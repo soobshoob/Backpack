@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "plugins": [
+    {
+      "id": "com.example.bomb",
+      "slug": "bomb",
+      "name": {
+        "en": "Fixture timer (test data)"
+      },
+      "author": {
+        "name": "Example author",
+        "url": "https://example.com/author"
+      },
+      "summary": {
+        "en": "Test fixture for the registry checks. Not a real plugin."
+      },
+      "description": {
+        "en": "This entry exists only to test the registry validation. The URL uses the reserved example.com domain."
+      },
+      "version": "1.0.0",
+      "category": "productivity",
+      "tags": [
+        "test"
+      ],
+      "distribution": {
+        "kind": "package",
+        "url": "https://example.com/plugins/com.example.bomb-1.0.0.bppkg",
+        "sha256": "59f55402e37a35c5b0fc5250433f3abb2efda830bd2ff49ef9775cc8362aac65"
+      },
+      "compatibility": {
+        "minBackpack": "0.4.0-preview.6",
+        "sdk": "1.2",
+        "platforms": [
+          "windows-x64"
+        ]
+      },
+      "license": {
+        "name": "MIT",
+        "url": "https://opensource.org/license/mit"
+      }
+    }
+  ]
+}

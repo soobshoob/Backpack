@@ -1,0 +1,7 @@
+packages:
+  - '.'
+storeDir: .pnpm-store
+nodeLinker: hoisted
+packageImportMethod: copy
+allowBuilds:
+  esbuild: true

@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <!-- Один исполняемый файл для пользователя и стенда: инструменты стенда включаются только параметром lab (см. LabOptions). -->
+    <AssemblyName>Backpack</AssemblyName>
+    <Title>Backpack</Title>
+    <!-- NotifyIcon для значка в области уведомлений; типы WinForms подключаются только явно (без глобального using). -->
+    <UseWindowsForms>true</UseWindowsForms>
+    <!-- WFO0003 рассчитан на WinForms-приложения; это WPF-приложение, DPI (PerMonitorV2) задаётся манифестом. -->
+    <NoWarn>$(NoWarn);WFO0003</NoWarn>
+    <ApplicationIcon>Assets\Backpack.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <AssemblyMetadata Include="KeyOverlayChannel" Value="$(KeyOverlayChannel)" />
+    <AssemblyMetadata Include="KeyOverlayReleaseDate" Value="$(KeyOverlayReleaseDate)" />
+    <AssemblyMetadata Include="KeyOverlayUpdateRepository" Value="$(KeyOverlayUpdateRepository)" />
+    <AssemblyMetadata Include="KeyOverlayLicense" Value="$(KeyOverlayLicense)" />
+    <AssemblyMetadata Include="KeyOverlayLicenseUrl" Value="$(KeyOverlayLicenseUrl)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Remove="System.Windows.Forms" />
+    <Using Remove="System.Drawing" />
+    <Resource Include="Assets\Backpack.ico" />
+    <Resource Include="Assets\BackpackTray.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KeyOverlay.Lab.Core\KeyOverlay.Lab.Core.csproj" />
+    <ProjectReference Include="..\KeyOverlay.Lab.Win32\KeyOverlay.Lab.Win32.csproj" />
+    <ProjectReference Include="..\KeyOverlay.Visual\KeyOverlay.Visual.csproj" />
+  </ItemGroup>
+
+</Project>

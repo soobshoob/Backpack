@@ -1,0 +1,17 @@
+import {validateRegistry,type RegistryPlugin} from './registry';import {safeHttps,versionPattern} from './validation';
+export interface EntryDraft{id:string;slug:string;name:string;summary:string;description:string;category:string;version:string;minVersion:string;sdk:string;author:string;authorUrl:string;license:string;licenseUrl:string;repository:string;kind:'package'|'release';packageUrl:string;sha256:string;tags:string;capabilities:string;iconUrl:string;imageUrls:string;platforms:string[]}
+export const emptyEntry:EntryDraft={id:'',slug:'',name:'',summary:'',description:'',category:'tools',version:'',minVersion:'0.4.0-preview.4',sdk:'1.1',author:'',authorUrl:'',license:'',licenseUrl:'',repository:'',kind:'package',packageUrl:'',sha256:'',tags:'',capabilities:'',iconUrl:'',imageUrls:'',platforms:['windows-x64']};
+const list=(value:string)=>value.split(',').map(v=>v.trim()).filter(Boolean);
+export function prepareRegistryEntry(d:EntryDraft):{entry?:RegistryPlugin;errors:Record<string,'required'|'version'|'url'|'hashError'|'invalid'>}{
+ const errors:Record<string,'required'|'version'|'url'|'hashError'|'invalid'>={};
+ for(const key of ['id','slug','name','summary','description','version','minVersion','sdk','author','license','packageUrl'] as const)if(!d[key].trim())errors[key]='required';
+ if(!/^[a-z0-9]+(?:[.-][a-z0-9]+)+$/.test(d.id))errors.id=d.id?'invalid':'required';if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(d.slug)||['publish','_route'].includes(d.slug))errors.slug=d.slug?'invalid':'required';
+ for(const key of ['version','minVersion'] as const)if(d[key]&&!versionPattern.test(d[key]))errors[key]='version';if(d.sdk&&!/^\d+\.\d+$/.test(d.sdk))errors.sdk='version';if(!d.platforms.length)errors.platforms='required';
+ for(const key of ['authorUrl','licenseUrl','repository','iconUrl','packageUrl'] as const)if(d[key]&&!safeHttps(d[key]))errors[key]='url';
+ if(safeHttps(d.packageUrl)&&d.kind==='package'&&!/\.bppkg$/i.test(new URL(d.packageUrl).pathname))errors.packageUrl='url';if(d.kind==='release'&&safeHttps(d.packageUrl)&&/\.(bppkg|zip|exe|msi)$/i.test(new URL(d.packageUrl).pathname))errors.packageUrl='url';if(d.iconUrl&&safeHttps(d.iconUrl)&&!imageUrl(d.iconUrl))errors.iconUrl='url';
+ const images=d.imageUrls.split(/\r?\n/).map(v=>v.trim()).filter(Boolean);if(images.length>5||images.some(v=>!safeHttps(v)||!imageUrl(v)))errors.imageUrls='url';if(d.kind==='package'&&d.sha256&&!/^[a-fA-F0-9]{64}$/.test(d.sha256))errors.sha256='hashError';
+ if(Object.keys(errors).length)return {errors};
+ const input={id:d.id,slug:d.slug,name:{en:d.name.trim()},summary:{en:d.summary.trim()},description:{en:d.description.trim()},category:d.category,version:d.version,author:{name:d.author.trim(),...(d.authorUrl?{url:d.authorUrl}:{})},license:{name:d.license.trim(),...(d.licenseUrl?{url:d.licenseUrl}:{})},distribution:{kind:d.kind,url:d.packageUrl,...(d.kind==='package'&&d.sha256?{sha256:d.sha256.toLowerCase()}:{})},compatibility:{minBackpack:d.minVersion,sdk:d.sdk,platforms:d.platforms},tags:list(d.tags),capabilities:list(d.capabilities),...(d.repository?{repositoryUrl:d.repository}:{}),...(d.iconUrl?{icon:d.iconUrl}:{}),...(images.length?{images:images.map((url,i)=>({url,alt:{en:`${d.name} — ${i+1}`}}))}:{})};
+ try{return {entry:validateRegistry({schemaVersion:1,plugins:[input]}).plugins[0],errors:{}};}catch{return{errors:{name:'invalid'}};}
+}
+function imageUrl(value:string){return /\.(png|jpe?g|webp)$/i.test(new URL(value).pathname);}

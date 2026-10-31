@@ -1,0 +1,416 @@
+{
+  "content": {
+    "title": "Backpack — Clear actions. Tools of your own.",
+    "description": "Make presentations, lessons and screen recordings easier to follow. Show each key and click clearly. Choose extra tools as independent plugins — or explore how to build one for your own task.",
+    "nav": [
+      "Features",
+      "Tools",
+      "Download",
+      "Help"
+    ],
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "language": "Language",
+    "close": "Close menu",
+    "sceneNote": [
+      "See every",
+      "little action."
+    ],
+    "toolkit": "TOOLKIT",
+    "previewLabel": "Preview",
+    "signedLabel": "Digitally signed",
+    "unsignedLabel": "Unsigned",
+    "publishedLabel": "Published",
+    "unpublishedLabel": "Not published",
+    "eyebrow": "YOUR SCREEN. A LITTLE CLEARER.",
+    "badge": "A new identity. The same attention to detail.",
+    "hero": [
+      "Make every action",
+      "on screen",
+      "count."
+    ],
+    "intro": "Make presentations, lessons and screen recordings easier to follow. Show each key and click clearly.",
+    "primary": "Explore the toolkit",
+    "secondary": "Release status",
+    "platform": "Windows 10 / 11 · x64 · Preview",
+    "pause": "Pause animations",
+    "play": "Play animations",
+    "reduced": "Reduced motion enabled",
+    "categories": [
+      "Keystrokes",
+      "Mouse indicator",
+      "Plugins",
+      "CREATE YOUR OWN TOOL",
+      "Profiles & styles"
+    ],
+    "overviewTag": "BUILT INTO BACKPACK",
+    "overviewTitle": [
+      "Everything you need.",
+      "Right where you need it."
+    ],
+    "overviewText": "Keys and mouse visualization are the two tools at the heart of Backpack. Keep your audience with you, one action at a time.",
+    "explore": "Try the demonstrations",
+    "interface": "Demonstration of the new model",
+    "interfaceNote": "A synthetic walkthrough of the intended interface. Import and trust are implemented in preview.4; this scene is not a screenshot or proof that every catalog plugin is ready.",
+    "home": "Home",
+    "appearance": "Appearance",
+    "keys": "Keys & combinations",
+    "mouse": "Mouse",
+    "focus": "Focus",
+    "drawing": "Drawing",
+    "profiles": "Profiles",
+    "lens": "Lens",
+    "dimming": "Dim surroundings",
+    "zoom": "Magnification",
+    "size": "Area size",
+    "radius": "Corner radius",
+    "border": "Frame color",
+    "tray": "Keep background under frame",
+    "toolsTag": "A TOOLKIT THAT GETS OUT OF YOUR WAY",
+    "toolsTitle": "Start with the essentials.",
+    "toolsText": "These browser demonstrations use simulated actions. Your keyboard and screen are never captured.",
+    "preview": "In verified preview",
+    "development": "In development",
+    "concept": "Concept demonstration",
+    "cards": [
+      [
+        "Keystrokes",
+        "Every shortcut, perfectly clear.",
+        "Readable keycaps, natural combinations and five renderers. Make the next step easy to follow."
+      ],
+      [
+        "Mouse indicator",
+        "A cursor worth following.",
+        "Left click, right click and scroll direction — shown on a small indicator beside the pointer."
+      ],
+      [
+        "Lens",
+        "Lens",
+        "Move a separate magnified view of a selected screen area."
+      ],
+      [
+        "Drawing",
+        "Drawing",
+        "Make temporary notes, shapes and text over your screen while explaining an idea."
+      ],
+      [
+        "Input privacy, separately.",
+        "Input privacy, separately.",
+        "The verified preview hides displayed keys when protected input is detected. Detection has limitations and a known focus-notification race: hide the overlay manually before sensitive input. This is separate from trusting plugin code."
+      ],
+      [
+        "Profiles & styles",
+        "A setup that stays yours.",
+        "Appearance, saved profiles, input privacy and plugin management belong to the application. They are infrastructure, not separate plugins."
+      ]
+    ],
+    "styles": [
+      "Light",
+      "Dark",
+      "Emerald"
+    ],
+    "renderers": [
+      "PBT",
+      "Minimal",
+      "Laptop"
+    ],
+    "chooseStyle": "Keycap style",
+    "chooseProfile": "Profile appearance",
+    "chooseFocus": "Focus mode",
+    "dimNote": "Plugin verified in package · Backpack 0.4.0-preview.4 / SDK 1.1. Public package not yet available",
+    "numberNote": "Demonstration of the new model",
+    "safe": "Protected input · simulation",
+    "ordinary": "Ordinary input · simulation",
+    "privacyNote": "The verified preview hides displayed keys when protected input is detected. Detection has limitations and a known focus-notification race: hide the overlay manually before sensitive input. This is separate from trusting plugin code.",
+    "pluginTitle": "Add the tools your story needs.",
+    "pluginText": "Pick a tool and add it independently. These extensions by the Backpack author are useful additions and reference examples for future plugin development.",
+    "downloadTag": "READY WHEN YOU ARE. ALMOST.",
+    "downloadTitle": [
+      "A clearer screen.",
+      "A better explanation."
+    ],
+    "downloadText": "Public package not yet available",
+    "preparing": "Public download is being prepared",
+    "packageLabel": "Last verified package",
+    "unsigned": "Unsigned · not published",
+    "release": "Read release notes",
+    "download": "Download for Windows",
+    "checksum": "Verified package SHA-256",
+    "checksumNote": "Identifies the local verified package; no package is distributed by this website.",
+    "license": "License",
+    "helpTag": "A FEW USEFUL ANSWERS",
+    "helpTitle": "Before your next presentation.",
+    "faq": [
+      [
+        "What comes with the application?",
+        "Keys and mouse visualization are the two tools at the heart of Backpack. Keep your audience with you, one action at a time. Lens, Focus, Cursor magnifier, Timer — Plugin verified in package · Backpack 0.4.0-preview.4 / SDK 1.1. Drawing, Layout indicator — Plugin planned. Appearance, saved profiles, input privacy and plugin management belong to the application. They are infrastructure, not separate plugins."
+      ],
+      [
+        "Can I download Backpack or these plugins?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Public package not yet available Lens, Focus, Cursor magnifier, Timer — Plugin verified in package · Backpack 0.4.0-preview.4 / SDK 1.1. Drawing, Layout indicator — Plugin planned."
+      ],
+      [
+        "How are extensions installed and enabled?",
+        "In the verified preview: Plugins → Import a plugin → select .bppkg. Import validates and unpacks the package without running code or granting trust. A new or updated plugin starts disabled. First enable requires the application’s trust confirmation."
+      ],
+      [
+        "Are plugins isolated safely?",
+        "Install only from trusted sources. Plugins run in separate user-rights processes; that helps manage faults but is not a security sandbox. Manifest capabilities limit the Backpack interface, not everything the plugin can do on the computer."
+      ],
+      [
+        "Where do I start making a tool?",
+        "Start with the author’s presentation timer. A detailed guide with working examples will cover the contract, lifecycle, commands, settings, localization, building and .bppkg import. Current instructions are in F1 → Plugins. Public SDK/source links and updated SDK terms are being prepared."
+      ],
+      [
+        "Does key privacy protect every field?",
+        "No universal detection is promised. Protected and unknown input can be hidden, but asynchronous focus detection has limitations. Manually hide the overlay before sensitive input. Plugin trust is a separate decision."
+      ],
+      [
+        "Which systems and license apply?",
+        "The verified package targets Windows 10/11 x64 and includes .NET. Backpack is under PolyForm Strict 1.0.0; it is not open source. SDK terms are being updated for freely creating plugins."
+      ]
+    ],
+    "footer": "Small tools. Clearer stories.",
+    "author": "Made by",
+    "back": "Back to top",
+    "notice": "Demonstration of the new model",
+    "madeIn": "Made in Ukraine.",
+    "program": {
+      "settings": "App settings",
+      "privacy": "Privacy",
+      "about": "About",
+      "importPlugin": "Import a plugin",
+      "view": "View",
+      "cards": "Cards",
+      "list": "List",
+      "duration": "Duration",
+      "minutes": "Minutes",
+      "seconds": "Seconds",
+      "commands": "Commands"
+    },
+    "carousel": {
+      "previous": "Previous",
+      "next": "Next"
+    }
+  },
+  "demo": {
+    "cursorTag": "Cursor magnifier",
+    "cursorTitle": "Cursor magnifier",
+    "cursorDescription": "Bring details closer with a magnifier that follows your pointer.",
+    "cursorCaption": "Lens around the pointer · 2.5×",
+    "windowTag": "Lens",
+    "windowTitle": "Lens",
+    "windowDescription": "Move a separate magnified view of a selected screen area.",
+    "windowLabel": "Magnifier",
+    "windowCaption": "Separate, movable magnifier · 2.5×",
+    "profileHeading": "One toolkit. Your own look.",
+    "rightShift": "Right Shift",
+    "layoutCode": "EN",
+    "families": [
+      "Low profile",
+      "Laptop",
+      "PBT",
+      "Minimal",
+      "3D"
+    ],
+    "familyPresets": [
+      "Low profile · classic",
+      "Laptop · silver",
+      "PBT · cream",
+      "Minimal · light text",
+      "3D · lavender"
+    ],
+    "profiles": [
+      "Cream",
+      "Graphite",
+      "Mint"
+    ],
+    "profileNames": [
+      "PBT · cream",
+      "Low profile · graphite",
+      "3D · mint"
+    ],
+    "mouseStyles": [
+      "Outline",
+      "Solid",
+      "Retro"
+    ],
+    "mouseNames": [
+      "Outline · light",
+      "Solid · dark",
+      "Retro · blue-grey"
+    ],
+    "mouseStyle": "Mouse indicator style",
+    "normalField": "Message",
+    "passwordField": "Protected field",
+    "safePhrase": "Hello team",
+    "returnPhrase": "Next idea",
+    "privacySteps": [
+      "Select the message field",
+      "Only ordinary keystrokes are shown",
+      "Protection before the first password symbol",
+      "New text. Only new keystrokes."
+    ],
+    "mouseSteps": [
+      "Select an item",
+      "Open a context menu",
+      "Scroll through the list"
+    ],
+    "selected": "Selected",
+    "context": [
+      "Open",
+      "Copy",
+      "Details"
+    ],
+    "board": [
+      "Design notes",
+      "Screen tools",
+      "Next lesson"
+    ],
+    "boardTag": "PROJECT",
+    "boardHeading": "A clearer idea",
+    "boardRows": [
+      "Shortcuts",
+      "Focus area",
+      "Next step"
+    ],
+    "lensScale": "Live magnification",
+    "drawSteps": [
+      "Choose the arrow tool",
+      "Draw a path, then a shape"
+    ],
+    "interfaceSteps": [
+      "Drag the magnification slider",
+      "Magnifier window shows the marked area",
+      "Dim the surroundings"
+    ],
+    "keySequence": "Press. Hold. Release.",
+    "keyExamples": "Enter · Space · modifiers",
+    "space": "Space",
+    "shift": "Shift",
+    "layout": "Keyboard layout",
+    "privacyStatic": "Synthetic input. Protected keystrokes are never shown."
+  },
+  "model": {
+    "title": "Backpack — Clear actions. Tools of your own.",
+    "intro": "Make presentations, lessons and screen recordings easier to follow. Show each key and click clearly.",
+    "extension": "Choose extra tools as independent plugins — or explore how to build one for your own task.",
+    "coreTag": "BUILT INTO BACKPACK",
+    "coreTitle": "Start with the essentials.",
+    "coreText": "Keys and mouse visualization are the two tools at the heart of Backpack. Keep your audience with you, one action at a time.",
+    "pluginsTag": "PLUGINS BY THE AUTHOR",
+    "pluginsTitle": "Add the tools your story needs.",
+    "pluginsText": "Pick a tool and add it independently. These extensions by the Backpack author are useful additions and reference examples for future plugin development.",
+    "transitionNote": "Lens, Focus, Cursor magnifier, Timer — Plugin verified in package · Backpack 0.4.0-preview.4 / SDK 1.1. Drawing, Layout indicator — Plugin planned.",
+    "builtin": "Built in",
+    "authorPlugin": "Author plugin",
+    "notPublished": "Public package not yet available",
+    "byAuthor": "Author",
+    "statuses": {
+      "planned": "Plugin planned",
+      "source": "Plugin in source",
+      "verified": "Plugin verified in package"
+    },
+    "availability": {
+      "planned": "The tool works in preview.4, but its independent plugin is not yet implemented or packaged.",
+      "source": "Lens, Focus, Cursor magnifier, Timer — Plugin verified in package · Backpack 0.4.0-preview.4 / SDK 1.1. Drawing, Layout indicator — Plugin planned.",
+      "verified": "Plugin verified in package · Backpack 0.4.0-preview.4 / SDK 1.1. Public package not yet available"
+    },
+    "pluginNames": [
+      "Drawing",
+      "Layout indicator",
+      "Lens",
+      "Focus",
+      "Cursor magnifier",
+      "Timer"
+    ],
+    "pluginBenefits": [
+      "Make temporary notes, shapes and text over your screen while explaining an idea.",
+      "Make a change of input language visible without interrupting your lesson.",
+      "Move a separate magnified view of a selected screen area.",
+      "Dim the surroundings while keeping the chosen area clear at its original size.",
+      "Bring details closer with a magnifier that follows your pointer.",
+      "Keep a countdown over the screen, then pause and continue when you need to."
+    ],
+    "developerTag": "CREATE YOUR OWN TOOL",
+    "developerTitle": "Your task. Your next tool.",
+    "developerText": "Build tools freely for your own tasks. The author’s plugins show how Backpack can be extended, and a detailed step-by-step guide with working examples is being prepared.",
+    "developerSteps": [
+      [
+        "Commands and lifecycle",
+        "The SDK connects a plugin’s start, stop and commands to Backpack. Commands can be assigned shortcuts."
+      ],
+      [
+        "Settings and interface",
+        "The manifest describes settings; Backpack builds their controls and draws overlay panels. Panel colors are explicit parameters, not a promised automatic theme API."
+      ],
+      [
+        "Localization and examples",
+        "Localized manifest labels and Context.Locale support the app’s languages. The included help explains the timer sample, building, packaging and .bppkg import."
+      ]
+    ],
+    "docsNotice": "In the application, open F1 → Plugins for the available contract, build and import instructions. Public SDK documentation and example-source links are not configured yet.",
+    "licenseNote": "SDK terms are being updated to support freely creating your own plugins. The current package still uses its existing license; the updated terms, detailed build/import instructions and working examples are coming.",
+    "applicationTag": "PART OF THE APPLICATION",
+    "applicationTitle": "A setup that stays yours.",
+    "applicationText": "Appearance, saved profiles, input privacy and plugin management belong to the application. They are infrastructure, not separate plugins.",
+    "privacyTitle": "Input privacy, separately.",
+    "privacyText": "The verified preview hides displayed keys when protected input is detected. Detection has limitations and a known focus-notification race: hide the overlay manually before sensitive input. This is separate from trusting plugin code.",
+    "workflowTitle": "Demonstration of the new model",
+    "workflowNote": "A synthetic walkthrough of the intended interface. Import and trust are implemented in preview.4; this scene is not a screenshot or proof that every catalog plugin is ready.",
+    "workflowSteps": [
+      "Start with built-in keys and mouse",
+      "Open the plugin section",
+      "Choose the author’s timer",
+      "Confirm trust, then turn it on",
+      "The additional tool appears in the scene"
+    ],
+    "coreTab": "Built in",
+    "pluginsTab": "Plugins",
+    "enable": "Turn on",
+    "trust": "Only enable code from a source you trust. A separate process is not a sandbox.",
+    "enabled": "Enabled",
+    "start": "Start",
+    "pause": "Pause",
+    "resume": "Continue",
+    "reset": "Reset",
+    "finished": "Finished",
+    "timerCaption": "Synthetic countdown · pause · continue",
+    "layoutCaption": "Synthetic input-language change",
+    "layoutSequence": [
+      "English",
+      "Українська",
+      "Deutsch"
+    ],
+    "faq": [
+      [
+        "What comes with the application?",
+        "Keys and mouse visualization are the two tools at the heart of Backpack. Keep your audience with you, one action at a time. Lens, Focus, Cursor magnifier, Timer — Plugin verified in package · Backpack 0.4.0-preview.4 / SDK 1.1. Drawing, Layout indicator — Plugin planned. Appearance, saved profiles, input privacy and plugin management belong to the application. They are infrastructure, not separate plugins."
+      ],
+      [
+        "Can I download Backpack or these plugins?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Public package not yet available Lens, Focus, Cursor magnifier, Timer — Plugin verified in package · Backpack 0.4.0-preview.4 / SDK 1.1. Drawing, Layout indicator — Plugin planned."
+      ],
+      [
+        "How are extensions installed and enabled?",
+        "In the verified preview: Plugins → Import a plugin → select .bppkg. Import validates and unpacks the package without running code or granting trust. A new or updated plugin starts disabled. First enable requires the application’s trust confirmation."
+      ],
+      [
+        "Are plugins isolated safely?",
+        "Install only from trusted sources. Plugins run in separate user-rights processes; that helps manage faults but is not a security sandbox. Manifest capabilities limit the Backpack interface, not everything the plugin can do on the computer."
+      ],
+      [
+        "Where do I start making a tool?",
+        "Start with the author’s presentation timer. A detailed guide with working examples will cover the contract, lifecycle, commands, settings, localization, building and .bppkg import. Current instructions are in F1 → Plugins. Public SDK/source links and updated SDK terms are being prepared."
+      ],
+      [
+        "Does key privacy protect every field?",
+        "No universal detection is promised. Protected and unknown input can be hidden, but asynchronous focus detection has limitations. Manually hide the overlay before sensitive input. Plugin trust is a separate decision."
+      ],
+      [
+        "Which systems and license apply?",
+        "The verified package targets Windows 10/11 x64 and includes .NET. Backpack is under PolyForm Strict 1.0.0; it is not open source. SDK terms are being updated for freely creating plugins."
+      ]
+    ]
+  }
+}

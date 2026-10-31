@@ -1,0 +1,2 @@
+import { defineConfig } from 'vite';
+export default defineConfig(({mode})=>({ base: '/',cacheDir:mode==='integration-test'?'node_modules/.vite-integration-test':'node_modules/.vite', resolve:{alias:mode==='integration-test'?[{find:/^\.\/settings\.json$/,replacement:decodeURIComponent(new URL('./tests/fixtures/integrations.json',import.meta.url).pathname).replace(/^\/([A-Za-z]:)/,'$1')}]:[]},build: { outDir: 'dist' }, server: { watch: { ignored: ['**/qa/**', '**/.pnpm-store/**', '**/dist/**'] } } }));

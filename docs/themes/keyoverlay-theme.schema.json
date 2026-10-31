@@ -1,0 +1,531 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://keyoverlay.invalid/schema/keyoverlay-theme-1.schema.json",
+  "title": "KeyOverlay theme, format version 1",
+  "description": "Пользовательская тема KeyOverlay: только визуальные параметры. Тема не содержит источника захвата, фильтров, горячих клавиш, выбора монитора, позиции на экране и исполняемого кода. Схема строгая (additionalProperties: false) и предназначена для авторов; загрузчик приложения мягче: неизвестные поля игнорирует с предупреждением (см. research/Phase2A-Customization-and-Help-Spec.md, §3.6). Все размеры — в DIP (1/96 дюйма) при масштабе 100 %, если не указано иное. Цвета — #RRGGBB или #RRGGBBAA (альфа в конце, как в CSS; в WPF порядок #AARRGGBB, приложение конвертирует).",
+  "type": "object",
+  "required": [
+    "format",
+    "formatVersion",
+    "id",
+    "name",
+    "keycap"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "description": "Необязательная ссылка на схему для редакторов. Приложением не используется и ничего не загружает.",
+      "type": "string",
+      "maxLength": 512
+    },
+    "format": {
+      "description": "Маркер формата. Позволяет отличить тему KeyOverlay от экспорта Keyviz и других JSON.",
+      "const": "keyoverlay-theme"
+    },
+    "formatVersion": {
+      "description": "Мажорная версия формата. Версия 1 — эта схема. Файл с большей версией приложение не загружает и сообщает об этом; добавочные необязательные поля в пределах версии 1 допустимы.",
+      "const": 1
+    },
+    "id": {
+      "description": "Стабильный идентификатор темы: строчные латинские буквы, цифры, точка и дефис. Не меняется при переименовании. Для собственных тем рекомендуется префикс автора: «ivan.night».",
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9.-]{1,62}[a-z0-9]$"
+    },
+    "name": {
+      "description": "Отображаемое название.",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 500
+    },
+    "author": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "version": {
+      "description": "Версия самой темы (не формата), semver без префикса v.",
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "license": {
+      "description": "Условия использования темы, например «CC0-1.0» или «MIT». Только информационное поле.",
+      "type": "string",
+      "maxLength": 64
+    },
+    "keycap": {
+      "$ref": "#/$defs/keycap"
+    },
+    "colors": {
+      "$ref": "#/$defs/colors"
+    },
+    "text": {
+      "$ref": "#/$defs/text"
+    },
+    "layout": {
+      "$ref": "#/$defs/layout"
+    },
+    "modifier": {
+      "$ref": "#/$defs/modifier"
+    },
+    "border": {
+      "$ref": "#/$defs/border"
+    },
+    "group": {
+      "$ref": "#/$defs/group"
+    },
+    "animation": {
+      "$ref": "#/$defs/animation"
+    },
+    "mouse": {
+      "$ref": "#/$defs/mouse"
+    },
+    "languageIndicator": {
+      "$ref": "#/$defs/languageIndicator"
+    },
+    "extensions": {
+      "description": "Произвольные данные сторонних инструментов. Приложение их не интерпретирует, сохраняет при дублировании и экспорте. Ничего отсюда не исполняется и не загружается.",
+      "type": "object"
+    }
+  },
+  "$defs": {
+    "twoLabels": {
+      "description": "Геометрия двух подписей на кейкапе (settings v9). Размеры — доли стандартного размера подписи (пропорционален грани кейкапа). Сдвиг — от безопасной точки у выбранного угла лицевой поверхности, в долях её ширины и высоты, положительный — к центру.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "mainSize": { "type": "number", "minimum": 0.5, "maximum": 1.0 },
+        "secondarySize": { "type": "number", "minimum": 0.25, "maximum": 0.7 },
+        "corner": { "enum": [ "top-left", "top-right", "bottom-left", "bottom-right" ] },
+        "offsetX": { "type": "number", "minimum": -0.15, "maximum": 0.35 },
+        "offsetY": { "type": "number", "minimum": -0.15, "maximum": 0.35 }
+      }
+    },
+    "color": {
+      "description": "#RRGGBB или #RRGGBBAA (альфа последней). Именованные цвета, rgb(), oklch() и т. п. не принимаются.",
+      "type": "string",
+      "pattern": "^#([0-9A-Fa-f]{6}|[0-9A-Fa-f]{8})$"
+    },
+    "alignment9": {
+      "type": "string",
+      "enum": [
+        "top-left",
+        "top-center",
+        "top-right",
+        "center-left",
+        "center",
+        "center-right",
+        "bottom-left",
+        "bottom-center",
+        "bottom-right"
+      ]
+    },
+    "keycap": {
+      "type": "object",
+      "required": [
+        "style"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "style": {
+          "description": "Встроенный способ отрисовки кейкапа. Это не тема: тема лишь выбирает стиль и задаёт его параметры. Внешние стили (XAML, DLL) не поддерживаются. volumetric — собственный объёмный рендер KeyOverlay (вид спереди-сверху, Phase 2E), в Keyviz его нет.",
+          "type": "string",
+          "enum": [
+            "lowprofile",
+            "laptop",
+            "pbt",
+            "minimal",
+            "volumetric",
+            "neon"
+          ]
+        },
+        "size": {
+          "description": "Базовый размер S (размер шрифта подписи), DIP. Из него выводятся высота кейкапа, отступы, зазоры, радиусы. По умолчанию 32.",
+          "type": "number",
+          "minimum": 8,
+          "maximum": 128
+        },
+        "volEnterShape": {
+          "description": "Только volumetric: Enter в виде буквы «Г». По умолчанию true.",
+          "type": "boolean"
+        },
+        "twoLabels": {
+          "$ref": "#/$defs/twoLabels"
+        },
+        "styleId": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9.-]{1,62}[a-z0-9]$",
+          "description": "Идентификатор стиля кейкапа, с которого начато оформление (встроенный keyoverlay.* или пользовательский). Только ссылка: параметры всегда записаны полностью."
+        }
+      }
+    },
+    "colors": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "primary": {
+          "description": "Основной цвет кейкапа (верхняя грань lowprofile, фон laptop, внутренняя часть pbt). По умолчанию #FFFFFF.",
+          "$ref": "#/$defs/color"
+        },
+        "secondary": {
+          "description": "Вторичный цвет («юбка» lowprofile, корпус pbt). laptop и minimal не используют. По умолчанию #1A1A1A.",
+          "$ref": "#/$defs/color"
+        },
+        "useGradient": {
+          "description": "Градиенты laptop и pbt. lowprofile и minimal не используют. По умолчанию true.",
+          "type": "boolean"
+        }
+      }
+    },
+    "font": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "families": {
+          "description": "Список семейств по приоритету. Используется первое установленное в системе или поставляемое с приложением. Файлы шрифтов тема не содержит и не загружает. Если ни одно не найдено — встроенный шрифт по умолчанию.",
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 8,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64
+          }
+        },
+        "weight": {
+          "description": "Начертание основной подписи (100–900). По умолчанию 400.",
+          "type": "integer",
+          "minimum": 100,
+          "maximum": 900
+        },
+        "secondaryWeight": {
+          "description": "Начертание второй строки у клавиш с символом (например «2» под «@»). По умолчанию 600.",
+          "type": "integer",
+          "minimum": 100,
+          "maximum": 900
+        }
+      }
+    },
+    "text": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "color": {
+          "description": "Цвет подписи и иконок. По умолчанию #000000.",
+          "$ref": "#/$defs/color"
+        },
+        "caps": {
+          "description": "Регистр подписи. По умолчанию capitalize.",
+          "type": "string",
+          "enum": [
+            "uppercase",
+            "capitalize",
+            "lowercase"
+          ]
+        },
+        "variant": {
+          "description": "text — полная подпись; text-short — короткая (Ctrl вместо Control); icon — только иконка, где она есть. По умолчанию text-short.",
+          "type": "string",
+          "enum": [
+            "text",
+            "text-short",
+            "icon"
+          ]
+        },
+        "alignment": {
+          "description": "Выравнивание содержимого внутри кейкапа. По умолчанию center.",
+          "$ref": "#/$defs/alignment9"
+        },
+        "labelSet": {
+          "description": "Набор обозначений клавиш: названия и символы, как на клавиатурах Windows, macOS или Linux (Win/Cmd/Super, Enter/Return, Alt/Option). Меняет только подписи, не назначение клавиш. По умолчанию windows.",
+          "type": "string",
+          "enum": [
+            "windows",
+            "macos",
+            "linux"
+          ]
+        },
+        "font": {
+          "$ref": "#/$defs/font"
+        }
+      }
+    },
+    "layout": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "showIcon": {
+          "description": "Иконки у модификаторов и спецклавиш. По умолчанию true.",
+          "type": "boolean"
+        },
+        "showSymbol": {
+          "description": "Второй символ у цифр и знаков (@ над 2). По умолчанию true.",
+          "type": "boolean"
+        },
+        "showPressCount": {
+          "description": "Бейдж счётчика повторов (кроме minimal). По умолчанию true.",
+          "type": "boolean"
+        },
+        "sideMarkers": {
+          "description": "Мелкие метки «R» у правых модификаторов и «num» у цифрового блока. По умолчанию true.",
+          "type": "boolean"
+        },
+        "iconAlignment": {
+          "description": "Горизонтальное выравнивание иконки и подписи у модификаторов. По умолчанию end.",
+          "type": "string",
+          "enum": [
+            "start",
+            "center",
+            "end"
+          ]
+        }
+      }
+    },
+    "modifier": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "highlight": {
+          "description": "Отдельные цвета для модификаторов. По умолчанию false.",
+          "type": "boolean"
+        },
+        "primary": {
+          "description": "По умолчанию #3A86FF.",
+          "$ref": "#/$defs/color"
+        },
+        "secondary": {
+          "description": "По умолчанию #000000.",
+          "$ref": "#/$defs/color"
+        },
+        "text": {
+          "description": "По умолчанию #000000.",
+          "$ref": "#/$defs/color"
+        },
+        "border": {
+          "description": "По умолчанию #000000.",
+          "$ref": "#/$defs/color"
+        }
+      }
+    },
+    "border": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "description": "По умолчанию true.",
+          "type": "boolean"
+        },
+        "width": {
+          "description": "Толщина рамки, DIP. По умолчанию 2.",
+          "type": "number",
+          "minimum": 0.5,
+          "maximum": 16
+        },
+        "color": {
+          "description": "По умолчанию #1A1A1A.",
+          "$ref": "#/$defs/color"
+        },
+        "radius": {
+          "description": "Скругление как доля от 0 до 1 (не DIP). Радиус кейкапа = radius × S × 1.25, фона группы = radius × S × 1.75. По умолчанию 0.5.",
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "glow": {
+          "description": "Свечение Neon (Phase 4I): 0 — выключено, 1 — максимум. Только у рендера neon. По умолчанию 0.",
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    },
+    "group": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "background": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "description": "Подложка под группой кейкапов. По умолчанию true.",
+              "type": "boolean"
+            },
+            "color": {
+              "description": "По умолчанию #FFFFFF99.",
+              "$ref": "#/$defs/color"
+            },
+            "material": {
+              "description": "Материал подложки (Phase 4H). fill — заливка цветом (по умолчанию, не записывается); clear — без заливки, тонкий контур цвета подложки. acrylic и mica на окнах оверлея недоступны: читаются, но действует fill.",
+              "type": "string",
+              "enum": ["fill", "clear", "acrylic", "mica"]
+            }
+          }
+        }
+      }
+    },
+    "animation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "description": "Появление и исчезновение кейкапа. По умолчанию fade.",
+          "type": "string",
+          "enum": [
+            "none",
+            "fade",
+            "zoom",
+            "float",
+            "slide"
+          ]
+        },
+        "durationMs": {
+          "description": "Длительность появления и исчезновения, мс. Перестройка ряда — durationMs / 3, появление бейджа — durationMs / 2. Анимация нажатия фиксирована (100 мс). По умолчанию 250.",
+          "type": "integer",
+          "minimum": 50,
+          "maximum": 1000
+        },
+        "press": {
+          "description": "Анимация нажатия (100 мс). false — грань опускается сразу. По умолчанию true.",
+          "type": "boolean"
+        }
+      }
+    },
+    "mouse": {
+      "description": "Только внешний вид. Включение кругов, индикатора и их смещение — общие настройки приложения.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "clickColor": {
+          "description": "Цвет кольца клика. По умолчанию #009DFF.",
+          "$ref": "#/$defs/color"
+        },
+        "clickSize": {
+          "description": "Диаметр кольца, DIP. По умолчанию 150.",
+          "type": "number",
+          "minimum": 20,
+          "maximum": 400
+        },
+        "indicatorSize": {
+          "description": "Высота индикатора кнопок мыши, DIP. По умолчанию 50.",
+          "type": "number",
+          "minimum": 16,
+          "maximum": 200
+        },
+        "indicatorBackground": {
+          "description": "Подложка индикатора. По умолчанию #00000080.",
+          "$ref": "#/$defs/color"
+        },
+        "indicatorMaterial": {
+          "description": "Материал подложки значка мыши (Phase 4H), как group.background.material. По умолчанию fill (не записывается).",
+          "type": "string",
+          "enum": ["fill", "clear", "acrylic", "mica"]
+        },
+        "indicatorForeground": {
+          "description": "Контур мыши. По умолчанию #FFFFFF.",
+          "$ref": "#/$defs/color"
+        },
+        "indicatorAccent": {
+          "description": "Активная кнопка или колесо. По умолчанию #00FF6A.",
+          "$ref": "#/$defs/color"
+        },
+        "renderer": {
+          "description": "Способ отрисовки значка мыши (Phase 2E): outline, solid, retro, sketch. По умолчанию outline.",
+          "type": "string",
+          "enum": [
+            "outline",
+            "solid",
+            "retro",
+            "sketch",
+            "neon"
+          ]
+        },
+        "body": {
+          "description": "Заливка корпуса (solid — цвет частей задаёт indicatorForeground; retro — базовый цвет корпуса). Не задан — прозрачный.",
+          "$ref": "#/$defs/color"
+        },
+        "wheelArrow": {
+          "description": "Цвет стрелки прокрутки. По умолчанию #38BDF8.",
+          "$ref": "#/$defs/color"
+        },
+        "wheelPulseMs": {
+          "description": "Сколько показывается стрелка после последнего импульса колеса, мс. По умолчанию 450.",
+          "type": "integer",
+          "minimum": 100,
+          "maximum": 2000
+        },
+        "outlineWidth": {
+          "description": "Толщина контура значка мыши (сетка 40×56) у всех семейств. По умолчанию 2.6.",
+          "type": "number",
+          "minimum": 0.5,
+          "maximum": 6
+        },
+        "solidOutline": {
+          "description": "Контур корпуса у сплошного семейства (нет поля — без контура).",
+          "$ref": "#/$defs/color"
+        },
+        "glow": {
+          "description": "Свечение значка мыши neon (Phase 4I): 0 — выключено, 1 — максимум. Нет поля — 0.",
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "styleId": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9.-]{1,62}[a-z0-9]$",
+          "description": "Идентификатор стиля мыши (ссылка; параметры записаны полностью)."
+        }
+      }
+    },
+    "languageIndicator": {
+      "description": "Оформление индикатора раскладки. Включение, длительность и позиция — общие настройки. Если раздел не задан, цвета берутся из colors/text/border темы.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "background": {
+          "$ref": "#/$defs/color"
+        },
+        "foreground": {
+          "$ref": "#/$defs/color"
+        },
+        "border": {
+          "$ref": "#/$defs/color"
+        },
+        "textSize": {
+          "description": "Размер кода языка, DIP. По умолчанию 36 (собственное оформление) или 1.125·S (наследование).",
+          "type": "number",
+          "minimum": 12,
+          "maximum": 160
+        },
+        "borderWidth": {
+          "description": "Толщина рамки, DIP; 0 — без рамки. По умолчанию 1.",
+          "type": "number",
+          "minimum": 0,
+          "maximum": 16
+        },
+        "radius": {
+          "description": "Скругление как доля половины высоты, 0…1 (1 — «пилюля»). По умолчанию 0.5.",
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "showLayoutName": {
+          "description": "always — всегда показывать название раскладки под кодом языка; ambiguous — только если у языка установлено несколько раскладок; never. По умолчанию ambiguous.",
+          "type": "string",
+          "enum": [
+            "always",
+            "ambiguous",
+            "never"
+          ]
+        },
+        "styleId": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9.-]{1,62}[a-z0-9]$",
+          "description": "Идентификатор стиля индикатора (ссылка; параметры записаны полностью)."
+        }
+      }
+    }
+  }
+}

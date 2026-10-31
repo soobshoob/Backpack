@@ -1,0 +1,416 @@
+{
+  "content": {
+    "title": "Backpack — Czytelne działania. Własne narzędzia.",
+    "description": "Ułatw śledzenie prezentacji, lekcji i nagrań ekranu. Pokazuj każdy klawisz i kliknięcie. Dodawaj narzędzia jako niezależne wtyczki lub poznaj sposób tworzenia własnych.",
+    "nav": [
+      "Funkcje",
+      "Narzędzia",
+      "Pobierz",
+      "Pomoc"
+    ],
+    "skip": "Przejdź do treści",
+    "menu": "Menu",
+    "language": "Język",
+    "close": "Zamknij menu",
+    "sceneNote": [
+      "Każda czynność",
+      "wyraźnie widoczna."
+    ],
+    "toolkit": "NARZĘDZIA",
+    "previewLabel": "Wersja testowa",
+    "signedLabel": "Podpis cyfrowy",
+    "unsignedLabel": "Bez podpisu",
+    "publishedLabel": "Opublikowano",
+    "unpublishedLabel": "Nie opublikowano",
+    "eyebrow": "Pokaż to, co ważne.",
+    "badge": "Nowa nazwa. Ta sama dbałość o szczegóły.",
+    "hero": [
+      "Każda czynność",
+      "na ekranie",
+      "wyraźnie widoczna."
+    ],
+    "intro": "Ułatw śledzenie prezentacji, lekcji i nagrań ekranu. Pokazuj każdy klawisz i kliknięcie.",
+    "primary": "Poznaj narzędzia",
+    "secondary": "Stan wydania",
+    "platform": "Windows 10 / 11 · x64 · Wersja testowa",
+    "pause": "Wstrzymaj animacje",
+    "play": "Odtwórz animacje",
+    "reduced": "Ograniczony ruch",
+    "categories": [
+      "Naciśnięcia klawiszy",
+      "Wskaźnik myszy",
+      "Wtyczki",
+      "STWÓRZ WŁASNE NARZĘDZIE",
+      "Profile i style"
+    ],
+    "overviewTag": "WBUDOWANE W BACKPACK",
+    "overviewTitle": [
+      "Wszystko, czego potrzebujesz.",
+      "Dokładnie tam, gdzie trzeba."
+    ],
+    "overviewText": "Klawisze i wizualizacja myszy to dwa narzędzia tworzące rdzeń Backpack.",
+    "explore": "Poznaj narzędzia",
+    "interface": "Demonstracja nowego modelu",
+    "interfaceNote": "Symulacja docelowego interfejsu. Import i zaufanie działają w preview.4; scena nie jest zrzutem ani dowodem gotowości wszystkich wtyczek.",
+    "home": "Start",
+    "appearance": "Wygląd",
+    "keys": "Klawisze i skróty",
+    "mouse": "Mysz",
+    "focus": "Skupienie uwagi",
+    "drawing": "Rysowanie",
+    "profiles": "Profile",
+    "lens": "Lupa",
+    "dimming": "Przyciemnij otoczenie",
+    "zoom": "Powiększenie",
+    "size": "Rozmiar obszaru",
+    "radius": "Promień narożników",
+    "border": "Kolor ramki",
+    "tray": "Zachowaj tło pod ramką",
+    "toolsTag": "NARZĘDZIA",
+    "toolsTitle": "Zacznij od podstaw.",
+    "toolsText": "Symulowane wpisywanie. Chronione klawisze nigdy nie są pokazywane. Klawiatura i ekran nie są przechwytywane.",
+    "preview": "W zweryfikowanej wersji",
+    "development": "W rozwoju",
+    "concept": "Demonstracja koncepcji",
+    "cards": [
+      [
+        "Naciśnięcia klawiszy",
+        "Każdy skrót idealnie czytelny.",
+        "Czytelne klawisze, naturalne kombinacje i pięć stylów wyświetlania."
+      ],
+      [
+        "Wskaźnik myszy",
+        "Kursor, za którym łatwo nadążyć.",
+        "Lewy i prawy przycisk oraz kierunek przewijania na wskaźniku obok kursora."
+      ],
+      [
+        "Lupa",
+        "Lupa",
+        "Przesuwaj osobny powiększony widok wybranego obszaru."
+      ],
+      [
+        "Rysowanie",
+        "Rysowanie",
+        "Tymczasowe notatki, kształty i tekst podczas wyjaśniania."
+      ],
+      [
+        "Prywatność wpisywania — osobno.",
+        "Prywatność wpisywania — osobno.",
+        "Zweryfikowana wersja ukrywa klawisze po wykryciu chronionego wpisywania. Detekcja ma ograniczenia i znany wyścig powiadomień o fokusie: ukrywaj nakładkę ręcznie przed poufnymi danymi. Zaufanie do kodu to oddzielna decyzja."
+      ],
+      [
+        "Profile i style",
+        "Ustawienia, które pozostają Twoje.",
+        "Wygląd, zapisane profile, prywatność wpisywania i zarządzanie wtyczkami są infrastrukturą aplikacji, nie osobnymi wtyczkami."
+      ]
+    ],
+    "styles": [
+      "Jasny",
+      "Ciemny",
+      "Szmaragdowy"
+    ],
+    "renderers": [
+      "PBT",
+      "Minimalny",
+      "Laptop"
+    ],
+    "chooseStyle": "Wygląd",
+    "chooseProfile": "Profile",
+    "chooseFocus": "Skupienie uwagi",
+    "dimNote": "Wtyczka zweryfikowana w pakiecie · Backpack 0.4.0-preview.4 / SDK 1.1. Pakiet publiczny jeszcze niedostępny",
+    "numberNote": "Demonstracja nowego modelu",
+    "safe": "Chronione pole",
+    "ordinary": "Wiadomość",
+    "privacyNote": "Zweryfikowana wersja ukrywa klawisze po wykryciu chronionego wpisywania. Detekcja ma ograniczenia i znany wyścig powiadomień o fokusie: ukrywaj nakładkę ręcznie przed poufnymi danymi. Zaufanie do kodu to oddzielna decyzja.",
+    "pluginTitle": "Narzędzia potrzebne Twojej historii.",
+    "pluginText": "Rozszerzenia autora Backpack dodaje się niezależnie. Są też przykładami dla przyszłych własnych wtyczek.",
+    "downloadTag": "Ostatni zweryfikowany pakiet",
+    "downloadTitle": [
+      "Czytelniejszy ekran.",
+      "Lepsze wyjaśnienie."
+    ],
+    "downloadText": "Pakiet publiczny jeszcze niedostępny",
+    "preparing": "Trwa przygotowanie publicznego pobierania",
+    "packageLabel": "Ostatni zweryfikowany pakiet",
+    "unsigned": "Bez podpisu · Nie opublikowano",
+    "release": "Przeczytaj informacje o wydaniu",
+    "download": "Pobierz dla Windows",
+    "checksum": "SHA-256 zweryfikowanego pakietu",
+    "checksumNote": "Identyfikuje lokalnie zweryfikowany pakiet. Witryna nie udostępnia pakietu programu.",
+    "license": "Licencja",
+    "helpTag": "Pomoc",
+    "helpTitle": "Przed kolejną prezentacją.",
+    "faq": [
+      [
+        "Co zawiera aplikacja?",
+        "Klawisze i wizualizacja myszy to dwa narzędzia tworzące rdzeń Backpack. Lupa, Skupienie uwagi, Lupa przy kursorze, Minutnik — Wtyczka zweryfikowana w pakiecie · Backpack 0.4.0-preview.4 / SDK 1.1. Rysowanie, Wskaźnik układu — Wtyczka planowana. Wygląd, zapisane profile, prywatność wpisywania i zarządzanie wtyczkami są infrastrukturą aplikacji, nie osobnymi wtyczkami."
+      ],
+      [
+        "Czy mogę pobrać Backpack i wtyczki?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Pakiet publiczny jeszcze niedostępny Lupa, Skupienie uwagi, Lupa przy kursorze, Minutnik — Wtyczka zweryfikowana w pakiecie · Backpack 0.4.0-preview.4 / SDK 1.1. Rysowanie, Wskaźnik układu — Wtyczka planowana."
+      ],
+      [
+        "Jak instaluje się rozszerzenia?",
+        "Wtyczki → Importuj wtyczkę → .bppkg. Import sprawdza i rozpakowuje bez wykonywania kodu lub nadawania zaufania. Nowe i aktualizowane wtyczki są wyłączone; pierwsze włączenie wymaga potwierdzenia."
+      ],
+      [
+        "Czy wtyczki są bezpiecznie izolowane?",
+        "Korzystaj z zaufanych źródeł. Osobne procesy mają Twoje uprawnienia i pomagają obsługiwać awarie, ale nie są piaskownicą. Możliwości manifestu ograniczają interfejs Backpack, nie wszystkie działania kodu w systemie."
+      ],
+      [
+        "Od czego zacząć własne narzędzie?",
+        "F1 → Wtyczki opisuje kontrakt, cykl życia, polecenia, ustawienia, języki i budowanie minutnika. Powstają szczegółowe poradniki i działające przykłady; nowe warunki SDK pozwolą swobodnie tworzyć własne wtyczki. Publiczne łącza pojawią się później."
+      ],
+      [
+        "Czy prywatność chroni każde pole?",
+        "Brak obietnicy uniwersalnej detekcji. Chronione lub nieznane wpisywanie może być ukrywane, ale asynchroniczna detekcja fokusu ma ograniczenia. Ukrywaj nakładkę przed poufnymi danymi. Zaufanie do wtyczek jest osobną decyzją."
+      ],
+      [
+        "Jakie systemy i licencja?",
+        "Zweryfikowany pakiet dla Windows 10/11 x64 z .NET. Backpack używa PolyForm Strict 1.0.0 i nie jest open source. Warunki SDK/przykładów są aktualizowane."
+      ]
+    ],
+    "footer": "Małe narzędzia. Czytelniejsze historie.",
+    "author": "Autor",
+    "back": "Na górę",
+    "notice": "Demonstracja nowego modelu",
+    "madeIn": "Wyprodukowano w Ukrainie.",
+    "program": {
+      "settings": "Ustawienia aplikacji",
+      "privacy": "Prywatność",
+      "about": "O programie",
+      "importPlugin": "Importuj wtyczkę",
+      "view": "Widok",
+      "cards": "Karty",
+      "list": "Lista",
+      "duration": "Czas",
+      "minutes": "Minuty",
+      "seconds": "Sekundy",
+      "commands": "Polecenia"
+    },
+    "carousel": {
+      "previous": "Poprzednie",
+      "next": "Następne"
+    }
+  },
+  "demo": {
+    "cursorTag": "Lupa przy kursorze",
+    "cursorTitle": "Lupa przy kursorze",
+    "cursorDescription": "Przybliżaj szczegóły lupą podążającą za kursorem.",
+    "cursorCaption": "Lupa wokół kursora · 2,5×",
+    "windowTag": "Lupa",
+    "windowTitle": "Lupa",
+    "windowDescription": "Przesuwaj osobny powiększony widok wybranego obszaru.",
+    "windowLabel": "Lupa",
+    "windowCaption": "Osobne, przesuwane okno lupy · 2,5×",
+    "profileHeading": "Jeden zestaw narzędzi. Twój wygląd.",
+    "rightShift": "Prawy Shift",
+    "layoutCode": "PL",
+    "families": [
+      "Niski profil",
+      "Laptop",
+      "PBT",
+      "Minimalny",
+      "3D"
+    ],
+    "familyPresets": [
+      "Niski profil",
+      "Laptop",
+      "PBT",
+      "Minimalny",
+      "3D"
+    ],
+    "profiles": [
+      "Kremowy",
+      "Grafitowy",
+      "Miętowy"
+    ],
+    "profileNames": [
+      "PBT · Kremowy",
+      "Niski profil · Grafitowy",
+      "3D · Miętowy"
+    ],
+    "mouseStyles": [
+      "Kontur",
+      "Pełny",
+      "Retro"
+    ],
+    "mouseNames": [
+      "Kontur",
+      "Pełny",
+      "Retro"
+    ],
+    "mouseStyle": "Wskaźnik myszy",
+    "normalField": "Wiadomość",
+    "passwordField": "Chronione pole",
+    "safePhrase": "Witajcie",
+    "returnPhrase": "Nowy pomysł",
+    "privacySteps": [
+      "Wybierz pole wiadomości",
+      "Widoczne są tylko zwykłe klawisze",
+      "Ochrona przed pierwszym znakiem hasła",
+      "Nowy tekst. Tylko nowe klawisze."
+    ],
+    "mouseSteps": [
+      "Wybierz element",
+      "Otwórz menu kontekstowe",
+      "Przewiń listę"
+    ],
+    "selected": "Wybrano",
+    "context": [
+      "Otwórz",
+      "Kopiuj",
+      "Szczegóły"
+    ],
+    "board": [
+      "Notatki projektowe",
+      "Narzędzia ekranowe",
+      "Następna lekcja"
+    ],
+    "boardTag": "PROJEKT",
+    "boardHeading": "Czytelny pomysł",
+    "boardRows": [
+      "Skróty",
+      "Obszar uwagi",
+      "Następny krok"
+    ],
+    "lensScale": "Powiększenie na żywo",
+    "drawSteps": [
+      "Wybierz narzędzie strzałki",
+      "Narysuj linię, a potem kształt"
+    ],
+    "interfaceSteps": [
+      "Przesuń suwak powiększenia",
+      "Okno lupy pokazuje zaznaczony obszar",
+      "Przyciemnij otoczenie"
+    ],
+    "keySequence": "Naciśnij. Przytrzymaj. Puść.",
+    "keyExamples": "Enter · Spacja · modyfikatory",
+    "space": "Spacja",
+    "shift": "Shift",
+    "layout": "Układ klawiatury",
+    "privacyStatic": "Symulowane wpisywanie. Chronione klawisze nigdy nie są pokazywane. Klawiatura i ekran nie są przechwytywane."
+  },
+  "model": {
+    "title": "Backpack — Czytelne działania. Własne narzędzia.",
+    "intro": "Ułatw śledzenie prezentacji, lekcji i nagrań ekranu. Pokazuj każdy klawisz i kliknięcie.",
+    "extension": "Dodawaj narzędzia jako niezależne wtyczki lub poznaj sposób tworzenia własnych.",
+    "coreTag": "WBUDOWANE W BACKPACK",
+    "coreTitle": "Zacznij od podstaw.",
+    "coreText": "Klawisze i wizualizacja myszy to dwa narzędzia tworzące rdzeń Backpack.",
+    "pluginsTag": "WTYCZKI AUTORA",
+    "pluginsTitle": "Narzędzia potrzebne Twojej historii.",
+    "pluginsText": "Rozszerzenia autora Backpack dodaje się niezależnie. Są też przykładami dla przyszłych własnych wtyczek.",
+    "transitionNote": "Lupa, Skupienie uwagi, Lupa przy kursorze, Minutnik — Wtyczka zweryfikowana w pakiecie · Backpack 0.4.0-preview.4 / SDK 1.1. Rysowanie, Wskaźnik układu — Wtyczka planowana.",
+    "builtin": "Wbudowane",
+    "authorPlugin": "Wtyczka autora",
+    "notPublished": "Pakiet publiczny jeszcze niedostępny",
+    "byAuthor": "Autor",
+    "statuses": {
+      "planned": "Wtyczka planowana",
+      "source": "Wtyczka w kodzie źródłowym",
+      "verified": "Wtyczka zweryfikowana w pakiecie"
+    },
+    "availability": {
+      "planned": "Narzędzie działa w preview.4, lecz niezależna wtyczka nie jest jeszcze zaimplementowana ani spakowana.",
+      "source": "Lupa, Skupienie uwagi, Lupa przy kursorze, Minutnik — Wtyczka zweryfikowana w pakiecie · Backpack 0.4.0-preview.4 / SDK 1.1. Rysowanie, Wskaźnik układu — Wtyczka planowana.",
+      "verified": "Wtyczka zweryfikowana w pakiecie · Backpack 0.4.0-preview.4 / SDK 1.1. Pakiet publiczny jeszcze niedostępny"
+    },
+    "pluginNames": [
+      "Rysowanie",
+      "Wskaźnik układu",
+      "Lupa",
+      "Skupienie uwagi",
+      "Lupa przy kursorze",
+      "Minutnik"
+    ],
+    "pluginBenefits": [
+      "Tymczasowe notatki, kształty i tekst podczas wyjaśniania.",
+      "Pokaż zmianę języka wprowadzania.",
+      "Przesuwaj osobny powiększony widok wybranego obszaru.",
+      "Przyciemnij otoczenie, pozostawiając obszar czytelny w pierwotnej skali.",
+      "Przybliżaj szczegóły lupą podążającą za kursorem.",
+      "Wyświetl odliczanie, zatrzymaj je i wznów."
+    ],
+    "developerTag": "STWÓRZ WŁASNE NARZĘDZIE",
+    "developerTitle": "Twoje zadanie. Twoje następne narzędzie.",
+    "developerText": "Wtyczki autora pokazują kontrakt z Backpack. Na podstawie minutnika powstają szczegółowe instrukcje i działające przykłady.",
+    "developerSteps": [
+      [
+        "Polecenia i cykl życia",
+        "SDK łączy uruchamianie, zatrzymywanie i polecenia z Backpack. Poleceniom można przypisać skróty."
+      ],
+      [
+        "Ustawienia i interfejs",
+        "Manifest opisuje ustawienia; Backpack tworzy kontrolki i panele nakładek. Kolory są jawnymi parametrami, bez obietnicy automatycznego API motywów."
+      ],
+      [
+        "Lokalizacja i przykłady",
+        "Tłumaczenia manifestu i Context.Locale obsługują języki aplikacji. Pomoc opisuje minutnik, budowanie, pakowanie i import .bppkg."
+      ]
+    ],
+    "docsNotice": "F1 → Wtyczki opisuje kontrakt, budowanie i import. Publiczne łącza do dokumentacji SDK i kodu przykładów nie są jeszcze skonfigurowane.",
+    "licenseNote": "Warunki SDK są aktualizowane, aby umożliwić swobodne tworzenie własnych wtyczek. Powstają szczegółowe instrukcje budowania i importu krok po kroku oraz działające przykłady.",
+    "applicationTag": "CZĘŚĆ APLIKACJI",
+    "applicationTitle": "Ustawienia, które pozostają Twoje.",
+    "applicationText": "Wygląd, zapisane profile, prywatność wpisywania i zarządzanie wtyczkami są infrastrukturą aplikacji, nie osobnymi wtyczkami.",
+    "privacyTitle": "Prywatność wpisywania — osobno.",
+    "privacyText": "Zweryfikowana wersja ukrywa klawisze po wykryciu chronionego wpisywania. Detekcja ma ograniczenia i znany wyścig powiadomień o fokusie: ukrywaj nakładkę ręcznie przed poufnymi danymi. Zaufanie do kodu to oddzielna decyzja.",
+    "workflowTitle": "Demonstracja nowego modelu",
+    "workflowNote": "Symulacja docelowego interfejsu. Import i zaufanie działają w preview.4; scena nie jest zrzutem ani dowodem gotowości wszystkich wtyczek.",
+    "workflowSteps": [
+      "Zacznij od wbudowanych klawiszy i myszy",
+      "Otwórz sekcję wtyczek",
+      "Wybierz minutnik autora",
+      "Potwierdź zaufanie i włącz",
+      "Pojawia się dodatkowe narzędzie"
+    ],
+    "coreTab": "Wbudowane",
+    "pluginsTab": "Wtyczki",
+    "enable": "Włącz",
+    "trust": "Włączaj wyłącznie kod z zaufanych źródeł. Osobny proces nie jest bezpieczną piaskownicą.",
+    "enabled": "Włączono",
+    "start": "Start",
+    "pause": "Pauza",
+    "resume": "Wznów",
+    "reset": "Resetuj",
+    "finished": "Zakończono",
+    "timerCaption": "Symulowane odliczanie · pauza · wznowienie",
+    "layoutCaption": "Symulowana zmiana języka wprowadzania",
+    "layoutSequence": [
+      "English",
+      "Українська",
+      "Deutsch"
+    ],
+    "faq": [
+      [
+        "Co zawiera aplikacja?",
+        "Klawisze i wizualizacja myszy to dwa narzędzia tworzące rdzeń Backpack. Lupa, Skupienie uwagi, Lupa przy kursorze, Minutnik — Wtyczka zweryfikowana w pakiecie · Backpack 0.4.0-preview.4 / SDK 1.1. Rysowanie, Wskaźnik układu — Wtyczka planowana. Wygląd, zapisane profile, prywatność wpisywania i zarządzanie wtyczkami są infrastrukturą aplikacji, nie osobnymi wtyczkami."
+      ],
+      [
+        "Czy mogę pobrać Backpack i wtyczki?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Pakiet publiczny jeszcze niedostępny Lupa, Skupienie uwagi, Lupa przy kursorze, Minutnik — Wtyczka zweryfikowana w pakiecie · Backpack 0.4.0-preview.4 / SDK 1.1. Rysowanie, Wskaźnik układu — Wtyczka planowana."
+      ],
+      [
+        "Jak instaluje się rozszerzenia?",
+        "Wtyczki → Importuj wtyczkę → .bppkg. Import sprawdza i rozpakowuje bez wykonywania kodu lub nadawania zaufania. Nowe i aktualizowane wtyczki są wyłączone; pierwsze włączenie wymaga potwierdzenia."
+      ],
+      [
+        "Czy wtyczki są bezpiecznie izolowane?",
+        "Korzystaj z zaufanych źródeł. Osobne procesy mają Twoje uprawnienia i pomagają obsługiwać awarie, ale nie są piaskownicą. Możliwości manifestu ograniczają interfejs Backpack, nie wszystkie działania kodu w systemie."
+      ],
+      [
+        "Od czego zacząć własne narzędzie?",
+        "F1 → Wtyczki opisuje kontrakt, cykl życia, polecenia, ustawienia, języki i budowanie minutnika. Powstają szczegółowe poradniki i działające przykłady; nowe warunki SDK pozwolą swobodnie tworzyć własne wtyczki. Publiczne łącza pojawią się później."
+      ],
+      [
+        "Czy prywatność chroni każde pole?",
+        "Brak obietnicy uniwersalnej detekcji. Chronione lub nieznane wpisywanie może być ukrywane, ale asynchroniczna detekcja fokusu ma ograniczenia. Ukrywaj nakładkę przed poufnymi danymi. Zaufanie do wtyczek jest osobną decyzją."
+      ],
+      [
+        "Jakie systemy i licencja?",
+        "Zweryfikowany pakiet dla Windows 10/11 x64 z .NET. Backpack używa PolyForm Strict 1.0.0 i nie jest open source. Warunki SDK/przykładów są aktualizowane."
+      ]
+    ]
+  }
+}

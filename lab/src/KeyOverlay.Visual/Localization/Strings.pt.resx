@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Строки интерфейса KeyOverlay (en). Ключи стабильны и не переводятся; переводятся только значения целыми фразами. -->
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="About.Author" xml:space="preserve"><value>Autor</value></data>
+  <data name="About.AutoCheck" xml:space="preserve"><value>Verificar automaticamente</value></data>
+  <data name="About.AutoCheckHint" xml:space="preserve"><value>Uma vez por dia enquanto o Backpack está a funcionar. Apenas um pedido ao GitHub; as definições e o que escreve nunca são enviados.</value></data>
+  <data name="About.Channel" xml:space="preserve"><value>Canal</value></data>
+  <data name="About.ChannelHint" xml:space="preserve"><value>Estável nunca oferece versões de pré-visualização.</value></data>
+  <data name="About.Check" xml:space="preserve"><value>Verificar</value></data>
+  <data name="About.Checking" xml:space="preserve"><value>A verificar…</value></data>
+  <data name="About.CheckNow" xml:space="preserve"><value>Verificar agora</value></data>
+  <data name="About.License" xml:space="preserve"><value>Licença</value></data>
+  <data name="About.LicenseHint" xml:space="preserve"><value>Núcleo do Backpack. Texto completo: o ficheiro LICENSE junto ao programa e no repositório de código; o aviso de direitos de autor está em NOTICE. O SDK de plugins e os plugins do criador têm condições próprias (LICENSE-STATUS.md). O botão abre a página oficial.</value></data>
+  <data name="About.LicenseNone" xml:space="preserve"><value>O autor ainda não escolheu a licença do projeto.</value></data>
+  <data name="About.LicenseNotChosen" xml:space="preserve"><value>ainda não escolhida</value></data>
+  <data name="About.NotConfigured" xml:space="preserve"><value>não configurado</value></data>
+  <data name="About.OpenDownload" xml:space="preserve"><value>Abrir a página de transferência</value></data>
+  <data name="About.OpenLink.Message" xml:space="preserve"><value>Abrir no navegador?
+{0}</value></data>
+  <data name="About.OpenLink.Title" xml:space="preserve"><value>Abrir ligação</value></data>
+  <data name="About.ReleaseDate" xml:space="preserve"><value>Data de lançamento</value></data>
+  <data name="About.ReleaseDateNone" xml:space="preserve"><value>Compilação de desenvolvimento: não há data de lançamento.</value></data>
+  <data name="About.ReleaseTitle" xml:space="preserve"><value>Versão {0} ({1})</value></data>
+  <data name="About.ThirdParty" xml:space="preserve"><value>Componentes de terceiros</value></data>
+  <data name="About.ThirdPartyLine" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="About.ThirdPartyNote" xml:space="preserve"><value>Os textos das licenças estão na pasta Licenses junto ao programa.</value></data>
+  <data name="About.Title" xml:space="preserve"><value>Backpack</value></data>
+  <data name="About.UpdateNote" xml:space="preserve"><value>O Backpack nunca transfere nem executa atualizações por si: a página de transferência abre no navegador.</value></data>
+  <data name="About.Updates" xml:space="preserve"><value>Atualizações</value></data>
+  <data name="About.UpdateSource" xml:space="preserve"><value>Origem das versões</value></data>
+  <data name="About.UpdateSourceNone" xml:space="preserve"><value>Nesta compilação não está definido o repositório de versões, por isso as atualizações não podem ser verificadas.</value></data>
+  <data name="About.Version" xml:space="preserve"><value>Versão</value></data>
+  <data name="About.VersionLine" xml:space="preserve"><value>Versão {0} · {1}</value></data>
+  <data name="Anchor.BottomCenter" xml:space="preserve"><value>Em baixo ao centro</value></data>
+  <data name="Anchor.BottomLeft" xml:space="preserve"><value>Em baixo à esquerda</value></data>
+  <data name="Anchor.BottomRight" xml:space="preserve"><value>Em baixo à direita</value></data>
+  <data name="Anchor.Center" xml:space="preserve"><value>Centro</value></data>
+  <data name="Anchor.CenterLeft" xml:space="preserve"><value>Ao meio à esquerda</value></data>
+  <data name="Anchor.CenterRight" xml:space="preserve"><value>Ao meio à direita</value></data>
+  <data name="Anchor.TopCenter" xml:space="preserve"><value>Em cima ao centro</value></data>
+  <data name="Anchor.TopLeft" xml:space="preserve"><value>Em cima à esquerda</value></data>
+  <data name="Anchor.TopRight" xml:space="preserve"><value>Em cima à direita</value></data>
+  <data name="App.Home.Animation" xml:space="preserve"><value>Animação de demonstração</value></data>
+  <data name="App.Home.AnimationHint" xml:space="preserve"><value>A curta demonstração em ciclo do Início. Também fica em pausa quando as animações do Windows estão desativadas.</value></data>
+  <data name="App.Home.Title" xml:space="preserve"><value>Página inicial</value></data>
+  <data name="App.Language" xml:space="preserve"><value>Idioma da interface</value></data>
+  <data name="App.Language.Hint" xml:space="preserve"><value>Idioma das janelas, menus e ajuda. Não altera a disposição do teclado nem os rótulos das teclas.</value></data>
+  <data name="App.Language.System" xml:space="preserve"><value>Sistema</value></data>
+  <data name="App.Language.Title" xml:space="preserve"><value>Idioma</value></data>
+  <data name="App.Theme" xml:space="preserve"><value>Claro ou escuro</value></data>
+  <data name="App.Theme.Dark" xml:space="preserve"><value>Escuro</value></data>
+  <data name="App.Theme.Hint" xml:space="preserve"><value>Janelas claras ou escuras do Backpack. As teclas, o indicador e o rato mantêm as suas próprias cores.</value></data>
+  <data name="App.Theme.Light" xml:space="preserve"><value>Claro</value></data>
+  <data name="App.Theme.System" xml:space="preserve"><value>Sistema</value></data>
+  <data name="App.Tray.Close" xml:space="preserve"><value>Ao fechar a janela principal</value></data>
+  <data name="App.Tray.Close.Exit" xml:space="preserve"><value>Sair</value></data>
+  <data name="App.Tray.Close.ToTray" xml:space="preserve"><value>Ocultar na área de notificação</value></data>
+  <data name="App.Tray.CloseHint" xml:space="preserve"><value>O × da janela de diagnóstico. Fechar a janela de definições nunca sai do programa.</value></data>
+  <data name="App.Tray.Hint" xml:space="preserve"><value>Clique no ícone da área de notificação para mostrar as janelas; clique direito para os interruptores rápidos e «Sair».</value></data>
+  <data name="App.Tray.Note" xml:space="preserve"><value>O Windows decide se o ícone fica na barra de tarefas ou sob a seta ^. O Backpack não inicia com o Windows.</value></data>
+  <data name="App.Tray.Title" xml:space="preserve"><value>Área de notificação</value></data>
+  <data name="Appearance.Anim.Duration" xml:space="preserve"><value>Duração</value></data>
+  <data name="Appearance.Anim.EnterExit" xml:space="preserve"><value>Aparecer e desaparecer</value></data>
+  <data name="Appearance.Anim.Press" xml:space="preserve"><value>Animação ao premir</value></data>
+  <data name="Appearance.Anim.PressHint" xml:space="preserve"><value>A tecla desce ligeiramente enquanto está premida.</value></data>
+  <data name="Appearance.Anim.Title" xml:space="preserve"><value>Animação</value></data>
+  <data name="Appearance.Colors.AlphaHint" xml:space="preserve"><value>Os dois últimos dígitos de #RRGGBBAA definem a opacidade.</value></data>
+  <data name="Appearance.Colors.Background" xml:space="preserve"><value>Fundo da linha</value></data>
+  <data name="Appearance.Colors.BackgroundColor" xml:space="preserve"><value>Cor do fundo</value></data>
+  <data name="Appearance.Colors.Border" xml:space="preserve"><value>Contorno</value></data>
+  <data name="Appearance.Colors.BorderColor" xml:space="preserve"><value>Cor do contorno</value></data>
+  <data name="Appearance.Colors.BorderWidth" xml:space="preserve"><value>Espessura do contorno</value></data>
+  <data name="Appearance.Colors.Face" xml:space="preserve"><value>Face da tecla</value></data>
+  <data name="Appearance.Colors.Skirt" xml:space="preserve"><value>Lateral da tecla</value></data>
+  <data name="Appearance.Colors.SkirtHint" xml:space="preserve"><value>A aresta inferior que dá profundidade à tecla.</value></data>
+  <data name="Appearance.Colors.Text" xml:space="preserve"><value>Rótulo</value></data>
+  <data name="Appearance.Colors.Title" xml:space="preserve"><value>Cores</value></data>
+  <data name="Appearance.Gradient" xml:space="preserve"><value>Gradiente</value></data>
+  <data name="Appearance.GradientHint" xml:space="preserve"><value>Apenas portátil e PBT.</value></data>
+  <data name="Appearance.Keycap.Hint" xml:space="preserve"><value>Tamanho e arredondamento dos cantos.</value></data>
+  <data name="Appearance.Keycap.Radius" xml:space="preserve"><value>Arredondamento</value></data>
+  <data name="Appearance.Keycap.RadiusHint" xml:space="preserve"><value>0 — cantos retos, 1 — arredondamento máximo.</value></data>
+  <data name="Appearance.Keycap.Size" xml:space="preserve"><value>Tamanho</value></data>
+  <data name="Appearance.Keycap.SizeHint" xml:space="preserve"><value>Altura da tecla em píxeis independentes do dispositivo.</value></data>
+  <data name="Appearance.Keycap.Title" xml:space="preserve"><value>Tecla</value></data>
+  <data name="Appearance.Labels.Hint" xml:space="preserve"><value>Como as teclas modificadoras e especiais são nomeadas nas teclas.</value></data>
+  <data name="Appearance.Labels.Mixed" xml:space="preserve"><value>Misto</value></data>
+  <data name="Appearance.Labels.Mode" xml:space="preserve"><value>Estilo dos rótulos</value></data>
+  <data name="Appearance.Labels.ModeHint" xml:space="preserve"><value>Misto: um símbolo e o nome quando cabe; apenas símbolos; ou apenas texto.</value></data>
+  <data name="Appearance.Labels.Set" xml:space="preserve"><value>Conjunto de rótulos</value></data>
+  <data name="Appearance.Labels.SetHint" xml:space="preserve"><value>Nomes como nos teclados Windows, macOS ou Linux. A disposição do teclado não muda.</value></data>
+  <data name="Appearance.Labels.Symbols" xml:space="preserve"><value>Símbolos</value></data>
+  <data name="Appearance.Labels.Text" xml:space="preserve"><value>Texto</value></data>
+  <data name="Appearance.Labels.Title" xml:space="preserve"><value>Rótulos das teclas</value></data>
+  <data name="Appearance.Markers" xml:space="preserve"><value>Marcas esquerda/direita</value></data>
+  <data name="Appearance.MarkersHint" xml:space="preserve"><value>Pequenas marcas «R» e «num» em Ctrl, Shift, Alt e Win da direita e nas teclas do teclado numérico.</value></data>
+  <data name="Appearance.PressCount" xml:space="preserve"><value>Contador de toques</value></data>
+  <data name="Appearance.PressCountHint" xml:space="preserve"><value>Um distintivo «2», «3»… quando uma tecla é premida de novo enquanto a combinação está mantida.</value></data>
+  <data name="Appearance.Renderer" xml:space="preserve"><value>Representação</value></data>
+  <data name="Appearance.Renderer.Hint" xml:space="preserve"><value>A geometria da tecla. Uma predefinição ou estilo acima define-a com as cores; aqui altera apenas a geometria.</value></data>
+  <data name="Appearance.Renderer.Title" xml:space="preserve"><value>Método de desenho</value></data>
+  <data name="Appearance.RendererHint" xml:space="preserve"><value>As cores e os tamanhos mantêm-se.</value></data>
+  <data name="Appearance.VolEnter" xml:space="preserve"><value>Enter em forma de L</value></data>
+  <data name="Appearance.VolEnterHint" xml:space="preserve"><value>Apenas 3D. As outras teclas mantêm formas quadradas ou longas compactas.</value></data>
+  <data name="Color.Alpha" xml:space="preserve"><value>Opacidade</value></data>
+  <data name="Color.Expected" xml:space="preserve"><value>Cor como #RRGGBB</value></data>
+  <data name="Color.ExpectedAlpha" xml:space="preserve"><value>Cor como #RRGGBB ou #RRGGBBAA (o último par é a opacidade)</value></data>
+  <data name="Color.Hue" xml:space="preserve"><value>Matiz</value></data>
+  <data name="Color.OpenPalette" xml:space="preserve"><value>Abrir a paleta</value></data>
+  <data name="Color.SaturationValue" xml:space="preserve"><value>Saturação e brilho</value></data>
+  <data name="Common.Example" xml:space="preserve"><value>Exemplo</value></data>
+  <data name="Common.NoAnimation" xml:space="preserve"><value>Sem animação</value></data>
+  <data name="Common.OffsetDown" xml:space="preserve"><value>Deslocamento para baixo</value></data>
+  <data name="Common.OffsetDownHint" xml:space="preserve"><value>Valores negativos movem para cima.</value></data>
+  <data name="Common.OffsetRight" xml:space="preserve"><value>Deslocamento para a direita</value></data>
+  <data name="Common.OffsetRightHint" xml:space="preserve"><value>Valores negativos movem para a esquerda.</value></data>
+  <data name="Common.Open" xml:space="preserve"><value>Abrir</value></data>
+  <data name="Common.Show" xml:space="preserve"><value>Mostrar</value></data>
+  <data name="Common.Smooth" xml:space="preserve"><value>Suave</value></data>
+  <data name="Demo.Combos.Text" xml:space="preserve"><value>As letras isoladas ficam ocultas; Ctrl + Shift + K e Ctrl + clique são mostrados.</value></data>
+  <data name="Demo.Combos.Title" xml:space="preserve"><value>Só combinações</value></data>
+  <data name="Demo.Labels.Text" xml:space="preserve"><value>Modificadores com símbolos e marcas R, um nome longo substituído por um símbolo, o contador de toques e um botão do rato.</value></data>
+  <data name="Demo.Labels.Title" xml:space="preserve"><value>Rótulos das teclas</value></data>
+  <data name="Demo.Layout.Text" xml:space="preserve"><value>Assim fica o rótulo quando o idioma de introdução muda. O indicador real acompanha a janela ativa.</value></data>
+  <data name="Demo.Layout.Title" xml:space="preserve"><value>Indicador de disposição</value></data>
+  <data name="Demo.MouseCursor.Text" xml:space="preserve"><value>O ícone segue o ponteiro e realça o botão premido; o círculo marca o clique.</value></data>
+  <data name="Demo.MouseCursor.Title" xml:space="preserve"><value>Rato junto ao ponteiro</value></data>
+  <data name="Demo.Note" xml:space="preserve"><value>Exemplo com dados inventados. O que escreve não é usado e as definições não mudam.</value></data>
+  <data name="Demo.Position.Text" xml:space="preserve"><value>A linha de teclas percorre os nove pontos do ecrã; a margem até às extremidades mantém-se.</value></data>
+  <data name="Demo.Position.Title" xml:space="preserve"><value>Posição no ecrã</value></data>
+  <data name="Demo.TrailFade.Text" xml:space="preserve"><value>As letras largadas ficam um instante e desvanecem no lugar, por isso uma palavra fica visível por pouco tempo.</value></data>
+  <data name="Demo.TrailFade.Title" xml:space="preserve"><value>Rasto que desvanece</value></data>
+  <data name="Demo.TrailNone.Text" xml:space="preserve"><value>Cada nova letra substitui a anterior; só a tecla atual está no ecrã.</value></data>
+  <data name="Demo.TrailNone.Title" xml:space="preserve"><value>Escrita calma</value></data>
+  <data name="Demo.WindowTitle" xml:space="preserve"><value>Backpack — exemplo</value></data>
+  <data name="Diag.BuildError" xml:space="preserve"><value>Não foi possível criar o diagnóstico: {0}</value></data>
+  <data name="Diag.Checklist" xml:space="preserve"><value>1. A sobreposição no fundo do ecrã não toma o foco: escreva no Bloco de Notas — o cursor fica no Bloco de Notas.
+2. Clique numa tecla da sobreposição — o clique chega à janela por baixo.
+3. Prima e largue A — a tecla aparece e desvanece após o tempo de permanência.
+4. Mantenha A durante 3 s — uma tecla premida sem distintivo; «Repeats» aumenta no diagnóstico.
+5. Ctrl+Shift+K — «Ctrl Shift K» (marcas E/D em cima); largue K e prima-a de novo mantendo os modificadores — distintivo «2» em K.
+6. Shift/Ctrl/Alt da esquerda e da direita têm marcas diferentes (E/D). Enter e Enter numérico distinguem-se (o segundo tem a marca Num).
+7. Escreva depressa uma palavra com teclas sobrepostas — as letras não se juntam numa «combinação».
+8. Alt+Tab para outra janela e de volta — a sobreposição não está na lista do Alt+Tab nem na barra de tarefas.
+9. «Ocultar sobreposição» → espere 5 s → não volta sozinha; «Mostrar sobreposição» repõe-na.
+10. Exporte o JSON e abra o ficheiro: apenas contadores e percentis, sem rótulos nem códigos de tecla.
+11. (X8) Inicie com --ring=8: «Congelar a interface 3 s»; durante esse tempo, prima e largue todas as teclas. Depois: época de perdas &gt; 0, ressincronização feita, «premidas agora» = 0, nenhuma tecla presa na sobreposição.
+Aspeto, disposição, ajuda: «Definições…» e «Ajuda (F1)»; F1 funciona nesta janela, nas definições e na ajuda.
+Para compare: os mesmos passos; compare EventsTotal e Comparator por classe. Uma diferença é uma observação, não um veredito.</value></data>
+  <data name="Diag.ChecklistHide" xml:space="preserve"><value>Ocultar a lista de verificação</value></data>
+  <data name="Diag.ChecklistShow" xml:space="preserve"><value>Mostrar a lista de verificação</value></data>
+  <data name="Diag.ChecklistTitle" xml:space="preserve"><value>Lista de verificação manual (5–10 min)</value></data>
+  <data name="Diag.Compare" xml:space="preserve"><value>Comparação (janela ±{0:F0} ms, transbordos {1}) — uma observação, não prova de falha:</value></data>
+  <data name="Diag.CompareClass" xml:space="preserve"><value>   {0,-10} coincidentes {1,7}   só Raw {2,6}   só LL {3,6}</value></data>
+  <data name="Diag.Def.CaptureToModel" xml:space="preserve"><value>O fio de captura recebeu o evento → o evento foi aplicado ao modelo no fio da interface (não é o tempo até ao píxel)</value></data>
+  <data name="Diag.Def.LowLevelCallback" xml:space="preserve"><value>LL: duração da chamada de retorno do hook (entrada → antes de CallNextHookEx)</value></data>
+  <data name="Diag.Def.ModelToUiApply" xml:space="preserve"><value>Modelo alterado → propriedades da sobreposição atualizadas no fio da interface (antes da composição e da saída do quadro, não é o tempo até ao píxel)</value></data>
+  <data name="Diag.Def.RawInputMessage" xml:space="preserve"><value>Raw Input: tratamento de um WM_INPUT (entrada no manipulador → saída)</value></data>
+  <data name="Diag.Exit" xml:space="preserve"><value>Sair</value></data>
+  <data name="Diag.Export" xml:space="preserve"><value>Exportar JSON agregado…</value></data>
+  <data name="Diag.Finding" xml:space="preserve"><value>   {0,-10} {1,-32} ×{2}</value></data>
+  <data name="Diag.FindingActive" xml:space="preserve"><value>   {0,-10} {1,-32} ×{2}  (ativo)</value></data>
+  <data name="Diag.Findings" xml:space="preserve"><value>Constatações (Sinal / Suspeita — sem ações automáticas / Confirmado):</value></data>
+  <data name="Diag.FindingsNone" xml:space="preserve"><value>   nenhuma</value></data>
+  <data name="Diag.Freeze" xml:space="preserve"><value>Congelar a interface 3 s</value></data>
+  <data name="Diag.FreezeHint" xml:space="preserve"><value>X8: bloqueia apenas o fio da interface da bancada; os fios de captura continuam a funcionar. Para um transbordo, inicie com --ring=8.</value></data>
+  <data name="Diag.Help" xml:space="preserve"><value>Ajuda (F1)</value></data>
+  <data name="Diag.Hidden" xml:space="preserve"><value>oculta</value></data>
+  <data name="Diag.HideOverlay" xml:space="preserve"><value>Ocultar sobreposição</value></data>
+  <data name="Diag.Latency" xml:space="preserve"><value>      n={0}  p50 {1}  p95 {2}  p99 {3}  max {4}</value></data>
+  <data name="Diag.Layout.Line" xml:space="preserve"><value>Disposição: {0}; última consulta: {1}; última decisão: {2}</value></data>
+  <data name="Diag.Layout.NotStarted" xml:space="preserve"><value>não iniciado</value></data>
+  <data name="Diag.Layout.Off" xml:space="preserve"><value>desligado</value></data>
+  <data name="Diag.Layout.Polling" xml:space="preserve"><value>a observar</value></data>
+  <data name="Diag.Layout.Samples" xml:space="preserve"><value>   consultas {0}: sem janela {1}, sem HKL {2}, janelas do Backpack {3}; referências {4}; mostrado numa janela {5}, ao mudar {6}, oculto pela definição {7}</value></data>
+  <data name="Diag.Layout.Source" xml:space="preserve"><value>   Origem do HKL: fio da janela com foco {0}, janela ativa {1}, proprietário da janela {2}; fio do foco ≠ fio da janela: {3}; HKL do foco ≠ HKL do proprietário: {4}</value></data>
+  <data name="Diag.ModeFromSettings" xml:space="preserve"><value>Modo: {0}, fonte principal: {1}, permanência: {2} ms (das definições)</value></data>
+  <data name="Diag.ModeOverride" xml:space="preserve"><value>Modo: {0}, fonte principal: {1}, permanência: {2} ms (--linger-ms)</value></data>
+  <data name="Diag.Mouse" xml:space="preserve"><value>Rato junto ao ponteiro: {0}, janela {1}, movimentos {2}</value></data>
+  <data name="Diag.NoPixel" xml:space="preserve"><value>   (a bancada não mede o tempo até um píxel visível)</value></data>
+  <data name="Diag.Off" xml:space="preserve"><value>desligado</value></data>
+  <data name="Diag.On" xml:space="preserve"><value>ligado</value></data>
+  <data name="Diag.Over1s" xml:space="preserve"><value>&gt;1 s</value></data>
+  <data name="Diag.Overlay" xml:space="preserve"><value>Sobreposição: deve estar visível={0}, visível={1}, sempre visível={2}, minimizada={3}, num monitor={4}, recuperações {5} (recusadas {6})</value></data>
+  <data name="Diag.Reconcile" xml:space="preserve"><value>Conciliação (heurística): passagens {0}, contexto não fiável {1}, sem controlo positivo {2}, VK ambíguo {3}, Down confirmado {4}</value></data>
+  <data name="Diag.Reset" xml:space="preserve"><value>Repor estado</value></data>
+  <data name="Diag.ResetHint" xml:space="preserve"><value>Reposição manual: todas as teclas da fonte principal passam a Up e a sobreposição é limpa.</value></data>
+  <data name="Diag.Seconds" xml:space="preserve"><value>{0} s</value></data>
+  <data name="Diag.Settings" xml:space="preserve"><value>Definições…</value></data>
+  <data name="Diag.ShowOverlay" xml:space="preserve"><value>Mostrar sobreposição</value></data>
+  <data name="Diag.Src.Applied" xml:space="preserve"><value>   aplicados {0}, duplicados ignorados {1}; premidas agora {2}, Unknown {3}</value></data>
+  <data name="Diag.Src.Events" xml:space="preserve"><value>   eventos {0}, repetições {1}, ignorados {2}, movimentos do rato {3}, roda {4}, dispositivos removidos {5}</value></data>
+  <data name="Diag.Src.Ring" xml:space="preserve"><value>   anel {0}/{1}, época de perdas {2}, pedidos de ressincronização {3} (repetidos {4}), instantâneos {5}/{6}, corrigidos por instantâneo {7}</value></data>
+  <data name="Diag.Src.SinceLast" xml:space="preserve"><value>   desde o último evento: {0}</value></data>
+  <data name="Diag.Src.Unknown" xml:space="preserve"><value>   → Unknown {0}, resolvidos por evento {1}, Down obsoleto (heurística) {2}, conciliação Up {3} / Down {4}, largadas ao remover o dispositivo {5}</value></data>
+  <data name="Diag.StartNote" xml:space="preserve"><value>Início: {0}</value></data>
+  <data name="Diag.System" xml:space="preserve"><value>Sistema: bloqueio {0}, desbloqueio {1}, mudança de ambiente de trabalho {2}, suspensão {3}, retoma {4}, mudança de ecrã {5}</value></data>
+  <data name="Diag.ToTray" xml:space="preserve"><value>Minimizar para a área de notificação</value></data>
+  <data name="Diag.Uptime" xml:space="preserve"><value>Tempo ativo: {0:F1} s   Modo: {1}   Principal: {2}</value></data>
+  <data name="Diag.UpToMs" xml:space="preserve"><value>≤{0:0.#} ms</value></data>
+  <data name="Diag.UpToUs" xml:space="preserve"><value>≤{0} µs</value></data>
+  <data name="Diag.Us" xml:space="preserve"><value>{0} µs</value></data>
+  <data name="Diag.Visible" xml:space="preserve"><value>visível</value></data>
+  <data name="Diag.WindowTitle" xml:space="preserve"><value>Backpack.Lab — diagnóstico</value></data>
+  <data name="Dialog.Cancel" xml:space="preserve"><value>Cancelar</value></data>
+  <data name="Dialog.Ok" xml:space="preserve"><value>OK</value></data>
+  <data name="Draw.Clear" xml:space="preserve"><value>Limpar tudo</value></data>
+  <data name="Draw.CloseMenu" xml:space="preserve"><value>Fechar o menu (Esc)</value></data>
+  <data name="Draw.Color" xml:space="preserve"><value>Cor</value></data>
+  <data name="Draw.Dash" xml:space="preserve"><value>Traço</value></data>
+  <data name="Draw.Dash.Dashed" xml:space="preserve"><value>Tracejado</value></data>
+  <data name="Draw.Dash.Dotted" xml:space="preserve"><value>Pontilhado</value></data>
+  <data name="Draw.Dash.Solid" xml:space="preserve"><value>Contínuo</value></data>
+  <data name="Draw.Defaults.Title" xml:space="preserve"><value>Predefinições das ferramentas</value></data>
+  <data name="Draw.Edge" xml:space="preserve"><value>Extremidade</value></data>
+  <data name="Draw.Edge.Bottom" xml:space="preserve"><value>Em baixo</value></data>
+  <data name="Draw.Edge.Left" xml:space="preserve"><value>Esquerda</value></data>
+  <data name="Draw.Edge.Right" xml:space="preserve"><value>Direita</value></data>
+  <data name="Draw.Edge.Top" xml:space="preserve"><value>Em cima</value></data>
+  <data name="Draw.EdgeHint" xml:space="preserve"><value>Leve o ponteiro a esta extremidade e mantenha-o um instante para mostrar a barra de ferramentas.</value></data>
+  <data name="Draw.Exit" xml:space="preserve"><value>Sair do desenho (Esc)</value></data>
+  <data name="Draw.Fade" xml:space="preserve"><value>Desvanecer após</value></data>
+  <data name="Draw.FadeHint" xml:space="preserve"><value>0 — manter até sair do modo de desenho.</value></data>
+  <data name="Draw.FadeOff" xml:space="preserve"><value>Os desenhos ficam até sair (clique: desvanecer após 5 s)</value></data>
+  <data name="Draw.FadeOn" xml:space="preserve"><value>Os desenhos desvanecem após {0} s (clique: manter até sair)</value></data>
+  <data name="Draw.Hint" xml:space="preserve"><value>Desenhe sobre o ambiente de trabalho ao vivo. Os desenhos são temporários; só as capturas que fizer são guardadas.</value></data>
+  <data name="Draw.Mode.AutoHide" xml:space="preserve"><value>Ocultar automaticamente numa extremidade</value></data>
+  <data name="Draw.Mode.Docked" xml:space="preserve"><value>Sempre visível</value></data>
+  <data name="Draw.Mode.RadialOnly" xml:space="preserve"><value>Apenas menu radial</value></data>
+  <data name="Draw.MoveText" xml:space="preserve"><value>Arraste para mover o texto</value></data>
+  <data name="Draw.MoveToolbar" xml:space="preserve"><value>Arraste para mover a barra de ferramentas</value></data>
+  <data name="Draw.NextColor" xml:space="preserve"><value>Cor seguinte</value></data>
+  <data name="Draw.Note" xml:space="preserve"><value>Os desenhos são temporários e nunca são guardados; o ecrã não é gravado.</value></data>
+  <data name="Draw.Opacity" xml:space="preserve"><value>Opacidade: total / 60 %</value></data>
+  <data name="Draw.Position" xml:space="preserve"><value>Posição da barra de ferramentas</value></data>
+  <data name="Draw.PositionHint" xml:space="preserve"><value>Arraste a barra de ferramentas pela pega ⋮⋮ enquanto desenha; o local é memorizado.</value></data>
+  <data name="Draw.PositionReset" xml:space="preserve"><value>Voltar para cima ao centro</value></data>
+  <data name="Draw.PreviewText" xml:space="preserve"><value>Exemplo</value></data>
+  <data name="Draw.RadialNote" xml:space="preserve"><value>O menu radial ({0} ou clique direito) tem todas as ferramentas, anular, refazer, captura e saída — o desenho nunca depende da barra de ferramentas.</value></data>
+  <data name="Draw.RadialOnlyHint" xml:space="preserve"><value>Clique direito ou atalho do menu radial — ferramentas · Esc — sair</value></data>
+  <data name="Draw.Redo" xml:space="preserve"><value>Refazer (Ctrl+Y)</value></data>
+  <data name="Draw.Run" xml:space="preserve"><value>Iniciar</value></data>
+  <data name="Draw.Screenshot" xml:space="preserve"><value>Captura de ecrã</value></data>
+  <data name="Draw.Shot.Action" xml:space="preserve"><value>Captura de ecrã</value></data>
+  <data name="Draw.Shot.After" xml:space="preserve"><value>Depois da captura</value></data>
+  <data name="Draw.Shot.AfterHint" xml:space="preserve"><value>Se a gravação falhar, os desenhos nunca são removidos.</value></data>
+  <data name="Draw.Shot.Choose" xml:space="preserve"><value>Escolher…</value></data>
+  <data name="Draw.Shot.Clear" xml:space="preserve"><value>Limpar os desenhos</value></data>
+  <data name="Draw.Shot.Copy" xml:space="preserve"><value>Copiar</value></data>
+  <data name="Draw.Shot.Exit" xml:space="preserve"><value>Terminar o desenho</value></data>
+  <data name="Draw.Shot.Folder" xml:space="preserve"><value>Pasta</value></data>
+  <data name="Draw.Shot.Hint" xml:space="preserve"><value>{0} ou 📷 no modo de desenho: o ecrã com os seus desenhos, sem barra de ferramentas nem menu.</value></data>
+  <data name="Draw.Shot.Keep" xml:space="preserve"><value>Manter os desenhos</value></data>
+  <data name="Draw.Shot.Note" xml:space="preserve"><value>PNG com a data e a hora no nome; o monitor com o desenho, em píxeis reais.</value></data>
+  <data name="Draw.Shot.Save" xml:space="preserve"><value>Guardar em ficheiro</value></data>
+  <data name="Draw.Shot.SaveCopy" xml:space="preserve"><value>Guardar e copiar</value></data>
+  <data name="Draw.Shot.Title" xml:space="preserve"><value>Capturas de ecrã</value></data>
+  <data name="Draw.ShotCopied" xml:space="preserve"><value>Captura copiada para a área de transferência</value></data>
+  <data name="Draw.ShotFailed" xml:space="preserve"><value>A captura não foi guardada ({0}); os desenhos mantêm-se.</value></data>
+  <data name="Draw.ShotSaved" xml:space="preserve"><value>Guardada: {0}</value></data>
+  <data name="Draw.ShotSavedCopied" xml:space="preserve"><value>Guardada e copiada: {0}</value></data>
+  <data name="Draw.TextSize" xml:space="preserve"><value>Tamanho do texto</value></data>
+  <data name="Draw.TextSizeHint" xml:space="preserve"><value>Para a ferramenta Texto; − e + na barra alteram-no enquanto escreve.</value></data>
+  <data name="Draw.Thicker" xml:space="preserve"><value>Mais espesso</value></data>
+  <data name="Draw.Thickness" xml:space="preserve"><value>Espessura</value></data>
+  <data name="Draw.Thinner" xml:space="preserve"><value>Mais fino</value></data>
+  <data name="Draw.Title" xml:space="preserve"><value>Desenho temporário</value></data>
+  <data name="Draw.Tool.Arrow" xml:space="preserve"><value>Seta</value></data>
+  <data name="Draw.Tool.Ellipse" xml:space="preserve"><value>Elipse</value></data>
+  <data name="Draw.Tool.Line" xml:space="preserve"><value>Linha reta</value></data>
+  <data name="Draw.Tool.Pen" xml:space="preserve"><value>Caneta</value></data>
+  <data name="Draw.Tool.Rectangle" xml:space="preserve"><value>Retângulo</value></data>
+  <data name="Draw.Tool.Text" xml:space="preserve"><value>Texto (Ctrl+Enter — concluir, Esc — cancelar)</value></data>
+  <data name="Draw.Toolbar.Hint" xml:space="preserve"><value>Guardado no perfil.</value></data>
+  <data name="Draw.Toolbar.Title" xml:space="preserve"><value>Barra de ferramentas</value></data>
+  <data name="Draw.ToolbarMode" xml:space="preserve"><value>Barra de ferramentas</value></data>
+  <data name="Draw.Undo" xml:space="preserve"><value>Anular (Ctrl+Z)</value></data>
+  <data name="Help.AnchorMissing" xml:space="preserve"><value>A secção «{0}» não foi encontrada nesta página.</value></data>
+  <data name="Help.Back" xml:space="preserve"><value>← Voltar</value></data>
+  <data name="Help.DemoHint" xml:space="preserve"><value>Abre um exemplo seguro com teclas inventadas</value></data>
+  <data name="Help.External.Message" xml:space="preserve"><value>Esta ligação sai da ajuda e vai abrir no navegador:
+{0}</value></data>
+  <data name="Help.External.Title" xml:space="preserve"><value>Abrir uma página web?</value></data>
+  <data name="Help.Forward" xml:space="preserve"><value>Avançar →</value></data>
+  <data name="Help.ImageActual" xml:space="preserve"><value>Tamanho real</value></data>
+  <data name="Help.ImageFit" xml:space="preserve"><value>Ajustar à janela</value></data>
+  <data name="Help.ImageTitle" xml:space="preserve"><value>Imagem da ajuda</value></data>
+  <data name="Help.ImageZoomHint" xml:space="preserve"><value>Clique para ampliar</value></data>
+  <data name="Help.NothingFound" xml:space="preserve"><value>Nada encontrado</value></data>
+  <data name="Help.Search" xml:space="preserve"><value>Pesquisar na ajuda</value></data>
+  <data name="Help.WindowTitle" xml:space="preserve"><value>Ajuda do Backpack — {0}</value></data>
+  <data name="Help.ZoomIn" xml:space="preserve"><value>Texto maior</value></data>
+  <data name="Help.ZoomOut" xml:space="preserve"><value>Texto menor</value></data>
+  <data name="HelpSection.Diag.Title" xml:space="preserve"><value>Verificações</value></data>
+  <data name="HelpSection.Diagnostics" xml:space="preserve"><value>Janela de diagnóstico</value></data>
+  <data name="HelpSection.DiagnosticsHint" xml:space="preserve"><value>Contadores das fontes de captura e a lista de verificação manual.</value></data>
+  <data name="HelpSection.LayoutIndicator" xml:space="preserve"><value>Indicador de disposição</value></data>
+  <data name="HelpSection.LoadProblem" xml:space="preserve"><value>Ao carregar: {0}</value></data>
+  <data name="HelpSection.Migrated" xml:space="preserve"><value>As definições foram atualizadas a partir do formato {0}; o ficheiro antigo foi guardado como settings.v1.bak.json.</value></data>
+  <data name="HelpSection.OverlayExample" xml:space="preserve"><value>Exemplo na sobreposição</value></data>
+  <data name="HelpSection.OverlayExampleHint" xml:space="preserve"><value>Reproduz teclas inventadas na sobreposição real durante alguns segundos. O que escreve não é usado.</value></data>
+  <data name="HelpSection.ResetAll" xml:space="preserve"><value>Repor todas as definições</value></data>
+  <data name="HelpSection.ResetAllButton" xml:space="preserve"><value>Repor tudo</value></data>
+  <data name="HelpSection.ResetAllConfirm" xml:space="preserve"><value>Repor todas as definições para os valores predefinidos? Os perfis guardados não serão alterados.</value></data>
+  <data name="HelpSection.ResetAllHint" xml:space="preserve"><value>Repõe cada secção nos valores predefinidos. Os perfis guardados ficam como estão.</value></data>
+  <data name="HelpSection.Settings.Title" xml:space="preserve"><value>Ficheiro de definições</value></data>
+  <data name="HelpSection.SettingsFile" xml:space="preserve"><value>As definições são guardadas automaticamente: {0}</value></data>
+  <data name="Home.CombosHint" xml:space="preserve"><value>Ocultar a escrita normal e mostrar só combinações.</value></data>
+  <data name="Home.DemoToggle" xml:space="preserve"><value>Pausar ou reproduzir a demonstração</value></data>
+  <data name="Home.Display" xml:space="preserve"><value>Mostrar teclas, indicador de disposição e rato</value></data>
+  <data name="Home.DisplayHint" xml:space="preserve"><value>Atalho: {0}. Ao voltar a mostrar, os toques antigos não regressam.</value></data>
+  <data name="Home.Draw" xml:space="preserve"><value>Desenho temporário</value></data>
+  <data name="Home.F.Keys" xml:space="preserve"><value>Teclas</value></data>
+  <data name="Home.F.KeysHint" xml:space="preserve"><value>Teclas em cinco estilos de desenho, combinações, rótulos para Windows, macOS e Linux.</value></data>
+  <data name="Home.F.Mouse" xml:space="preserve"><value>Rato</value></data>
+  <data name="Home.F.MouseHint" xml:space="preserve"><value>Cliques, deslocamento e botões laterais num ícone junto ao ponteiro; uma lupa à volta.</value></data>
+  <data name="Home.F.MouseOff" xml:space="preserve"><value>Ocultar junto ao ponteiro</value></data>
+  <data name="Home.F.MouseOn" xml:space="preserve"><value>Mostrar junto ao ponteiro</value></data>
+  <data name="Home.F.Settings" xml:space="preserve"><value>Definições</value></data>
+  <data name="Home.F.Style" xml:space="preserve"><value>Escolher um estilo</value></data>
+  <data name="Home.OpenProfiles" xml:space="preserve"><value>Perfis…</value></data>
+  <data name="Home.Pause" xml:space="preserve"><value>Pausar a demonstração</value></data>
+  <data name="Home.Play" xml:space="preserve"><value>Reproduzir a demonstração</value></data>
+  <data name="Home.Start" xml:space="preserve"><value>Iniciar</value></data>
+  <data name="Home.State.Hint" xml:space="preserve"><value>O que está no ecrã agora. A captura continua quando a apresentação está oculta.</value></data>
+  <data name="Home.State.Title" xml:space="preserve"><value>Apresentação</value></data>
+  <data name="Home.ToolHint" xml:space="preserve"><value>Atalho: {0}. Esc para sair.</value></data>
+  <data name="Home.Welcome" xml:space="preserve"><value>Ferramentas para apresentações, tutoriais e demonstrações no ecrã: teclas e rato no ecrã, desenho com passos numerados e plugins de foco, lupa e temporizador.</value></data>
+  <data name="Home.WelcomeHint" xml:space="preserve"><value>A demonstração usa dados inventados — sem introdução real nem captura de ecrã.</value></data>
+  <data name="Hotkeys.Clear" xml:space="preserve"><value>Remover</value></data>
+  <data name="Hotkeys.Default" xml:space="preserve"><value>Predefinição</value></data>
+  <data name="Hotkeys.Draw" xml:space="preserve"><value>Modo de desenho</value></data>
+  <data name="Hotkeys.Hide.Hint" xml:space="preserve"><value>A captura continua; ao voltar a mostrar não há toques antigos.</value></data>
+  <data name="Hotkeys.Hide.Indicator" xml:space="preserve"><value>Indicador de disposição</value></data>
+  <data name="Hotkeys.Hide.Keycaps" xml:space="preserve"><value>Teclas</value></data>
+  <data name="Hotkeys.Hide.Mouse" xml:space="preserve"><value>Rato junto ao ponteiro</value></data>
+  <data name="Hotkeys.Hide.Title" xml:space="preserve"><value>O que «ocultar a apresentação» oculta</value></data>
+  <data name="Hotkeys.Hint" xml:space="preserve"><value>Definições deste computador: importar um perfil não as altera. Clique num campo e prima a combinação.</value></data>
+  <data name="Hotkeys.Lens" xml:space="preserve"><value>Lupa ao vivo</value></data>
+  <data name="Hotkeys.Note" xml:space="preserve"><value>F1 fica restrito às janelas do Backpack. Um atalho global interceta apenas a sua combinação; a restante introdução não é bloqueada. Manter as teclas premidas não repete a ação.</value></data>
+  <data name="Hotkeys.NotSet" xml:space="preserve"><value>não definido</value></data>
+  <data name="Hotkeys.PressKeys" xml:space="preserve"><value>Prima uma combinação…</value></data>
+  <data name="Hotkeys.Radial" xml:space="preserve"><value>Menu radial (no modo de desenho)</value></data>
+  <data name="Hotkeys.Recording" xml:space="preserve"><value>A gravar: prima as teclas; Esc — cancelar, Retrocesso — remover.</value></data>
+  <data name="Hotkeys.Screenshot" xml:space="preserve"><value>Captura de ecrã (no modo de desenho)</value></data>
+  <data name="Hotkeys.ScreenshotNote" xml:space="preserve"><value>A tecla de captura só funciona no modo de desenho, por isso é permitida uma tecla isolada como F2.</value></data>
+  <data name="Hotkeys.Status.Busy" xml:space="preserve"><value>Ocupado por outro programa. Escolha outra combinação.</value></data>
+  <data name="Hotkeys.Status.Conflict" xml:space="preserve"><value>Já usado por outra ação do Backpack.</value></data>
+  <data name="Hotkeys.Status.Failed" xml:space="preserve"><value>O Windows não registou a combinação.</value></data>
+  <data name="Hotkeys.Status.Invalid" xml:space="preserve"><value>Precisa de Ctrl, Alt ou Win mais outra tecla.</value></data>
+  <data name="Hotkeys.Status.NotSet" xml:space="preserve"><value>Não definido.</value></data>
+  <data name="Hotkeys.Status.Registered" xml:space="preserve"><value>Ativo.</value></data>
+  <data name="Hotkeys.Status.Reserved" xml:space="preserve"><value>Reservado pelo Windows (por exemplo Win+Espaço, Alt+Tab).</value></data>
+  <data name="Hotkeys.Status.Suspended" xml:space="preserve"><value>Em pausa enquanto se grava uma combinação.</value></data>
+  <data name="Hotkeys.Status.WaitingForMode" xml:space="preserve"><value>Ativo só durante o desenho; caso contrário, a tecla fica para outros programas.</value></data>
+  <data name="Hotkeys.Title" xml:space="preserve"><value>Atalhos globais</value></data>
+  <data name="Hotkeys.ToggleDisplay" xml:space="preserve"><value>Mostrar ou ocultar a apresentação</value></data>
+  <data name="Keys.AnyHeldMs" xml:space="preserve"><value>Limiar de simultaneidade</value></data>
+  <data name="Keys.AnyHeldMsHint" xml:space="preserve"><value>Quanto tempo a primeira tecla tem de estar premida antes de outras se juntarem. 0 — sem limiar.</value></data>
+  <data name="Keys.ChordNote" xml:space="preserve"><value>Uma combinação mantém-se junta enquanto qualquer das suas teclas estiver premida; letras escritas depressa com sobreposição não se juntam numa combinação.</value></data>
+  <data name="Keys.Chords" xml:space="preserve"><value>Juntar teclas</value></data>
+  <data name="Keys.Chords.AnyHeld" xml:space="preserve"><value>Quaisquer teclas premidas em conjunto</value></data>
+  <data name="Keys.Chords.Hint" xml:space="preserve"><value>Independente de «Todas as teclas / Só combinações».</value></data>
+  <data name="Keys.Chords.Limits" xml:space="preserve"><value>O Backpack mostra o que o teclado e o Windows comunicam. Algumas combinações são apanhadas primeiro pelo Windows ou por outras aplicações, e alguns teclados não as conseguem comunicar.</value></data>
+  <data name="Keys.Chords.Modifiers" xml:space="preserve"><value>Com Ctrl, Alt, Shift, Win</value></data>
+  <data name="Keys.Chords.Note" xml:space="preserve"><value>As teclas só formam um grupo se forem mesmo premidas em conjunto durante mais tempo do que o limiar; toques sobrepostos ao escrever depressa ficam separados.</value></data>
+  <data name="Keys.Chords.Title" xml:space="preserve"><value>O que forma uma combinação</value></data>
+  <data name="Keys.Filter" xml:space="preserve"><value>Teclas</value></data>
+  <data name="Keys.Filter.All" xml:space="preserve"><value>Todas as teclas</value></data>
+  <data name="Keys.Filter.Combos" xml:space="preserve"><value>Só combinações</value></data>
+  <data name="Keys.FilterHint" xml:space="preserve"><value>«Só combinações» oculta a escrita normal e mostra as teclas premidas com Ctrl, Alt ou Win.</value></data>
+  <data name="Keys.Linger" xml:space="preserve"><value>Permanência após largar</value></data>
+  <data name="Keys.LingerHint" xml:space="preserve"><value>Quanto tempo as últimas teclas ficam visíveis depois de as largar.</value></data>
+  <data name="Keys.MouseInRow" xml:space="preserve"><value>Botões do rato na linha</value></data>
+  <data name="Keys.MouseInRowHint" xml:space="preserve"><value>Os cliques aparecem junto às teclas, por exemplo Ctrl + botão esquerdo.</value></data>
+  <data name="Keys.MouseLabels" xml:space="preserve"><value>Rótulo do botão do rato</value></data>
+  <data name="Keys.MouseLabels.Icon" xml:space="preserve"><value>Ícone</value></data>
+  <data name="Keys.MouseLabels.Text" xml:space="preserve"><value>Texto</value></data>
+  <data name="Keys.MouseLabelsHint" xml:space="preserve"><value>Um ícone de rato desenhado ou uma palavra.</value></data>
+  <data name="Keys.Show.Title" xml:space="preserve"><value>O que mostrar</value></data>
+  <data name="Keys.Trail" xml:space="preserve"><value>Rasto</value></data>
+  <data name="Keys.Trail.Fade" xml:space="preserve"><value>Rasto que desvanece</value></data>
+  <data name="Keys.Trail.None" xml:space="preserve"><value>Calmo</value></data>
+  <data name="Keys.TrailHint" xml:space="preserve"><value>Calmo: cada nova letra substitui a anterior. Rasto: as letras largadas ficam um instante e desvanecem no lugar.</value></data>
+  <data name="Keys.Typing.Title" xml:space="preserve"><value>Escrita</value></data>
+  <data name="Layout.Anchor" xml:space="preserve"><value>Ponto do ecrã</value></data>
+  <data name="Layout.Animation" xml:space="preserve"><value>Animação</value></data>
+  <data name="Layout.Background" xml:space="preserve"><value>Fundo</value></data>
+  <data name="Layout.BorderColor" xml:space="preserve"><value>Cor do contorno</value></data>
+  <data name="Layout.BorderWidth" xml:space="preserve"><value>Espessura do contorno</value></data>
+  <data name="Layout.BorderWidthHint" xml:space="preserve"><value>0 — sem contorno.</value></data>
+  <data name="Layout.Duration" xml:space="preserve"><value>Mostrar durante</value></data>
+  <data name="Layout.Enable" xml:space="preserve"><value>Mostrar o indicador</value></data>
+  <data name="Layout.ExampleDetail" xml:space="preserve"><value>Exemplo</value></data>
+  <data name="Layout.Hint" xml:space="preserve"><value>Um rótulo curto como «EN» ou «UK» quando o idioma de introdução da janela ativa muda.</value></data>
+  <data name="Layout.Look.Title" xml:space="preserve"><value>Aspeto do indicador</value></data>
+  <data name="Layout.OnSwitch" xml:space="preserve"><value>Ao mudar de janela</value></data>
+  <data name="Layout.OnSwitchHint" xml:space="preserve"><value>Mostrar também o rótulo ao mudar para uma janela com outro idioma.</value></data>
+  <data name="Layout.Position.Title" xml:space="preserve"><value>Posição do indicador</value></data>
+  <data name="Layout.Radius" xml:space="preserve"><value>Arredondamento</value></data>
+  <data name="Layout.RadiusHint" xml:space="preserve"><value>0 — cantos retos, 1 — forma de pílula.</value></data>
+  <data name="Layout.ShowExample" xml:space="preserve"><value>Mostrar exemplo</value></data>
+  <data name="Layout.Style" xml:space="preserve"><value>Origem do aspeto</value></data>
+  <data name="Layout.Style.Custom" xml:space="preserve"><value>Estilo próprio</value></data>
+  <data name="Layout.Style.Inherit" xml:space="preserve"><value>Como as teclas</value></data>
+  <data name="Layout.StyleHint" xml:space="preserve"><value>«Como as teclas» segue as cores das teclas. «Estilo próprio» usa os parâmetros abaixo; escolha uma predefinição no catálogo acima.</value></data>
+  <data name="Layout.TextColor" xml:space="preserve"><value>Cor do texto</value></data>
+  <data name="Layout.TextSize" xml:space="preserve"><value>Tamanho do texto</value></data>
+  <data name="Layout.Title" xml:space="preserve"><value>Indicador de disposição</value></data>
+  <data name="Layout.Where" xml:space="preserve"><value>Onde</value></data>
+  <data name="Layout.Where.Above" xml:space="preserve"><value>Acima da linha de teclas</value></data>
+  <data name="Layout.Where.Screen" xml:space="preserve"><value>Ponto do ecrã</value></data>
+  <data name="LayoutStatus.Baseline" xml:space="preserve"><value>A observar o idioma de introdução da janela ativa; o idioma atual está memorizado, ainda sem alterações. Mostrado: {0}.</value></data>
+  <data name="LayoutStatus.Off" xml:space="preserve"><value>Desligado.</value></data>
+  <data name="LayoutStatus.Shown" xml:space="preserve"><value>A observar o idioma de introdução da janela ativa; a última alteração foi mostrada. Mostrado: {0}.</value></data>
+  <data name="LayoutStatus.Suppressed" xml:space="preserve"><value>A observar o idioma de introdução da janela ativa; a última alteração ao mudar de janela não foi mostrada (conforme definido). Mostrado: {0}.</value></data>
+  <data name="LayoutStatus.Unchanged" xml:space="preserve"><value>A observar o idioma de introdução da janela ativa; o idioma não mudou. Mostrado: {0}.</value></data>
+  <data name="LayoutStatus.Waiting" xml:space="preserve"><value>À espera da primeira janela ativa de outro programa. Mostrado: {0}.</value></data>
+  <data name="Lens.HotkeyButton" xml:space="preserve"><value>Atalhos…</value></data>
+  <data name="Lens.SelectHint" xml:space="preserve"><value>Arraste um retângulo para a lupa. Clique — tamanho predefinido. Esc ou clique direito — cancelar.</value></data>
+  <data name="Lens.Unavailable" xml:space="preserve"><value>O ecrã não está disponível para a lupa neste momento</value></data>
+  <data name="Mouse.Body" xml:space="preserve"><value>Cor do corpo</value></data>
+  <data name="Mouse.BodyHint" xml:space="preserve"><value>Contorno, retro e esboço. Transparente — sem preenchimento.</value></data>
+  <data name="Mouse.Circle" xml:space="preserve"><value>Mostrar o círculo de clique</value></data>
+  <data name="Mouse.Circle.Title" xml:space="preserve"><value>Círculo de clique</value></data>
+  <data name="Mouse.CircleColor" xml:space="preserve"><value>Cor do círculo</value></data>
+  <data name="Mouse.CircleOpacity" xml:space="preserve"><value>Opacidade do círculo</value></data>
+  <data name="Mouse.CircleSize" xml:space="preserve"><value>Tamanho do círculo</value></data>
+  <data name="Mouse.Cursor.Enable" xml:space="preserve"><value>Mostrar junto ao ponteiro</value></data>
+  <data name="Mouse.Cursor.EnableHint" xml:space="preserve"><value>Um pequeno ícone de rato e um círculo de clique seguem o ponteiro. Os cliques passam para a janela por baixo.</value></data>
+  <data name="Mouse.Cursor.Title" xml:space="preserve"><value>Rato junto ao ponteiro</value></data>
+  <data name="Mouse.Icon" xml:space="preserve"><value>Mostrar o ícone</value></data>
+  <data name="Mouse.Icon.Title" xml:space="preserve"><value>Ícone do rato</value></data>
+  <data name="Mouse.IconBackground" xml:space="preserve"><value>Preenchimento</value></data>
+  <data name="Mouse.IconHint" xml:space="preserve"><value>O botão premido é realçado no ícone.</value></data>
+  <data name="Mouse.IconSize" xml:space="preserve"><value>Tamanho do ícone</value></data>
+  <data name="Mouse.InRow.Note" xml:space="preserve"><value>Os botões do rato também podem aparecer na linha de teclas junto aos modificadores — veja «Teclas e combinações».</value></data>
+  <data name="Mouse.InRow.Title" xml:space="preserve"><value>Rato na linha de teclas</value></data>
+  <data name="Mouse.Look.Hint" xml:space="preserve"><value>Um toque altera só a sua própria parte do ícone.</value></data>
+  <data name="Mouse.Look.Title" xml:space="preserve"><value>Ícone do rato</value></data>
+  <data name="Mouse.OffsetRightHint" xml:space="preserve"><value>Distância à ponta do ponteiro; valores negativos colocam-no à esquerda.</value></data>
+  <data name="Mouse.Outline" xml:space="preserve"><value>Contorno</value></data>
+  <data name="Mouse.Pressed" xml:space="preserve"><value>Botão premido</value></data>
+  <data name="Mouse.Renderer" xml:space="preserve"><value>Método de desenho</value></data>
+  <data name="Mouse.SideButtons" xml:space="preserve"><value>Botões laterais</value></data>
+  <data name="Mouse.SideButtons.Hidden" xml:space="preserve"><value>Ocultos</value></data>
+  <data name="Mouse.SideButtons.Left" xml:space="preserve"><value>Esquerda</value></data>
+  <data name="Mouse.SideButtons.Note" xml:space="preserve"><value>Mostrados: X1 (recuar) e X2 (avançar). Botões reatribuídos pelo controlador do rato não chegam ao Backpack como botões separados.</value></data>
+  <data name="Mouse.SideButtons.One" xml:space="preserve"><value>Um</value></data>
+  <data name="Mouse.SideButtons.Right" xml:space="preserve"><value>Direita</value></data>
+  <data name="Mouse.SideButtons.Side" xml:space="preserve"><value>Lado</value></data>
+  <data name="Mouse.SideButtons.Two" xml:space="preserve"><value>Dois</value></data>
+  <data name="Mouse.SideButtonsHint" xml:space="preserve"><value>Defina de acordo com o seu rato.</value></data>
+  <data name="Mouse.Wheel.Color" xml:space="preserve"><value>Cor da seta</value></data>
+  <data name="Mouse.Wheel.Duration" xml:space="preserve"><value>A seta permanece</value></data>
+  <data name="Mouse.Wheel.DurationHint" xml:space="preserve"><value>Após o último passo de deslocamento.</value></data>
+  <data name="Mouse.Wheel.Hint" xml:space="preserve"><value>Uma seta na roda mostra a direção do deslocamento, incluindo horizontal se o rato a comunicar.</value></data>
+  <data name="Mouse.Wheel.Note" xml:space="preserve"><value>Deslocar e premir o botão do meio são eventos diferentes. A seta aparece no ícone do rato junto ao ponteiro; a linha de teclas não mostra o deslocamento.</value></data>
+  <data name="Mouse.Wheel.Title" xml:space="preserve"><value>Deslocamento</value></data>
+  <data name="MouseRenderer.Outline" xml:space="preserve"><value>Contorno</value></data>
+  <data name="MouseRenderer.Retro" xml:space="preserve"><value>Retro</value></data>
+  <data name="MouseRenderer.Sketch" xml:space="preserve"><value>Esboço</value></data>
+  <data name="MouseRenderer.Solid" xml:space="preserve"><value>Sólido</value></data>
+  <data name="Note.DataMigrated" xml:space="preserve"><value>As definições e os perfis foram copiados da antiga pasta Backpack.Lab; os ficheiros antigos foram mantidos.</value></data>
+  <data name="Note.Migrated" xml:space="preserve"><value>definições: atualizadas do formato {0} para {1}</value></data>
+  <data name="Note.PortableUnavailable" xml:space="preserve"><value>O marcador portátil foi encontrado, mas a pasta junto ao programa não permite escrita; as definições ficam em %APPDATA%\Backpack.</value></data>
+  <data name="Note.PrefsUnreadable" xml:space="preserve"><value>não foi possível ler as preferências da aplicação (app.json); são usados os valores predefinidos</value></data>
+  <data name="Note.SettingsProblem" xml:space="preserve"><value>definições: {0}</value></data>
+  <data name="Note.SourceFailed" xml:space="preserve"><value>{0}: falha ao iniciar no passo «{1}», Win32 {2}</value></data>
+  <data name="Note.SourceReady" xml:space="preserve"><value>{0}: pronto</value></data>
+  <data name="Outcome.Baseline" xml:space="preserve"><value>valor inicial memorizado</value></data>
+  <data name="Outcome.NoForeground" xml:space="preserve"><value>nenhuma janela ativa</value></data>
+  <data name="Outcome.NotStarted" xml:space="preserve"><value>ainda nenhuma</value></data>
+  <data name="Outcome.OwnWindow" xml:space="preserve"><value>uma janela do Backpack (não contada)</value></data>
+  <data name="Outcome.ShownInWindow" xml:space="preserve"><value>mostrado: alteração na janela</value></data>
+  <data name="Outcome.ShownWindowSwitch" xml:space="preserve"><value>mostrado: mudança para uma janela com outro idioma</value></data>
+  <data name="Outcome.SuppressedWindowSwitch" xml:space="preserve"><value>não mostrado: mudança entre janelas (desligado nas definições)</value></data>
+  <data name="Outcome.Unavailable" xml:space="preserve"><value>disposição indisponível</value></data>
+  <data name="Outcome.Unchanged" xml:space="preserve"><value>sem alteração</value></data>
+  <data name="Outcome.Unconfirmed" xml:space="preserve"><value>à espera de confirmação por uma segunda consulta</value></data>
+  <data name="Position.Anchor" xml:space="preserve"><value>Ponto do ecrã</value></data>
+  <data name="Position.EdgeX" xml:space="preserve"><value>A partir da extremidade lateral</value></data>
+  <data name="Position.EdgeXHint" xml:space="preserve"><value>Usado nos pontos esquerdo e direito.</value></data>
+  <data name="Position.EdgeY" xml:space="preserve"><value>A partir da extremidade superior ou inferior</value></data>
+  <data name="Position.EdgeYHint" xml:space="preserve"><value>Usado nos pontos de cima e de baixo.</value></data>
+  <data name="Position.Hint" xml:space="preserve"><value>Escolha um ponto do ecrã e depois ajuste a distância às extremidades.</value></data>
+  <data name="Position.Note" xml:space="preserve"><value>A linha fica dentro da área de trabalho do monitor principal, acima da barra de tarefas.</value></data>
+  <data name="Position.PreviewLabel" xml:space="preserve"><value>teclas</value></data>
+  <data name="Position.Reset" xml:space="preserve"><value>Posição predefinida</value></data>
+  <data name="Position.ResetButton" xml:space="preserve"><value>Em baixo ao centro</value></data>
+  <data name="Position.Title" xml:space="preserve"><value>Posição da linha de teclas</value></data>
+  <data name="Profile.Error.Id" xml:space="preserve"><value>O identificador do perfil está em falta ou é inválido.</value></data>
+  <data name="Profile.Error.Missing" xml:space="preserve"><value>O ficheiro do perfil não foi encontrado.</value></data>
+  <data name="Profile.Error.Name" xml:space="preserve"><value>O nome do perfil está em falta ou tem mais de 64 caracteres.</value></data>
+  <data name="Profile.Error.Newer" xml:space="preserve"><value>O perfil foi criado por uma versão mais recente (formato {0}).</value></data>
+  <data name="Profile.Error.NoSettings" xml:space="preserve"><value>O perfil não tem secção de definições.</value></data>
+  <data name="Profile.Error.NotProfile" xml:space="preserve"><value>Este não é um ficheiro de perfil do Backpack.</value></data>
+  <data name="Profile.Error.NoVersion" xml:space="preserve"><value>A versão do formato do perfil está em falta.</value></data>
+  <data name="Profile.Error.ReadFailed" xml:space="preserve"><value>Não foi possível ler o ficheiro do perfil ({0}).</value></data>
+  <data name="Profile.Error.Styles" xml:space="preserve"><value>A lista «styles» está danificada ou é demasiado longa (no máximo 16 estilos).</value></data>
+  <data name="Profile.Error.Syntax" xml:space="preserve"><value>O ficheiro não é JSON válido (linha {0}).</value></data>
+  <data name="Profile.Error.TooLarge" xml:space="preserve"><value>O ficheiro é demasiado grande para um perfil (mais de 256 KB).</value></data>
+  <data name="Profile.Error.Unsupported" xml:space="preserve"><value>Versão de formato de perfil não suportada: {0}.</value></data>
+  <data name="Profiles.Active" xml:space="preserve"><value>Perfil</value></data>
+  <data name="Profiles.Active.Title" xml:space="preserve"><value>Perfil atual</value></data>
+  <data name="Profiles.All.Title" xml:space="preserve"><value>Todos os perfis</value></data>
+  <data name="Profiles.CopyName" xml:space="preserve"><value>{0} — cópia</value></data>
+  <data name="Profiles.DefaultName" xml:space="preserve"><value>Principal</value></data>
+  <data name="Profiles.Delete" xml:space="preserve"><value>Eliminar</value></data>
+  <data name="Profiles.Delete.Message" xml:space="preserve"><value>Eliminar o perfil «{0}»? Isto não pode ser anulado.</value></data>
+  <data name="Profiles.Delete.Title" xml:space="preserve"><value>Eliminar perfil</value></data>
+  <data name="Profiles.DeleteActiveHint" xml:space="preserve"><value>O perfil em uso não pode ser eliminado. Carregue primeiro outro perfil.</value></data>
+  <data name="Profiles.Duplicate" xml:space="preserve"><value>Duplicar</value></data>
+  <data name="Profiles.Error.Name" xml:space="preserve"><value>Introduza um nome com 1 a 64 caracteres.</value></data>
+  <data name="Profiles.Export" xml:space="preserve"><value>Exportar…</value></data>
+  <data name="Profiles.FileDialogNote" xml:space="preserve"><value>As caixas de diálogo de ficheiros do Windows seguem o tema e o idioma do Windows, não as definições do Backpack.</value></data>
+  <data name="Profiles.FileFilter" xml:space="preserve"><value>Perfil do Backpack</value></data>
+  <data name="Profiles.Import" xml:space="preserve"><value>Importar…</value></data>
+  <data name="Profiles.Imported.Later" xml:space="preserve"><value>Mais tarde</value></data>
+  <data name="Profiles.Imported.Message" xml:space="preserve"><value>O perfil «{0}» foi adicionado à lista. Carregá-lo agora?</value></data>
+  <data name="Profiles.Imported.Title" xml:space="preserve"><value>Perfil importado</value></data>
+  <data name="Profiles.ImportFailed.Message" xml:space="preserve"><value>O ficheiro não foi importado porque tem problemas. Nada foi alterado.</value></data>
+  <data name="Profiles.ImportFailed.Title" xml:space="preserve"><value>Perfil não importado</value></data>
+  <data name="Profiles.IncludesNote" xml:space="preserve"><value>Um perfil guarda o aspeto e o comportamento da apresentação, o rato, o indicador de esquema e a posição. O idioma, o tema e o comportamento na área de notificação são comuns.</value></data>
+  <data name="Profiles.IsActive" xml:space="preserve"><value>Em uso agora</value></data>
+  <data name="Profiles.Load" xml:space="preserve"><value>Carregar</value></data>
+  <data name="Profiles.LoadFailed.Message" xml:space="preserve"><value>O ficheiro de perfil tem problemas. As definições atuais não foram alteradas.</value></data>
+  <data name="Profiles.LoadFailed.Title" xml:space="preserve"><value>Perfil não carregado</value></data>
+  <data name="Profiles.NameLabel" xml:space="preserve"><value>Nome do perfil</value></data>
+  <data name="Profiles.New" xml:space="preserve"><value>Novo perfil</value></data>
+  <data name="Profiles.New.Title" xml:space="preserve"><value>Novo perfil</value></data>
+  <data name="Profiles.NewName" xml:space="preserve"><value>Novo perfil</value></data>
+  <data name="Profiles.Rename" xml:space="preserve"><value>Mudar o nome</value></data>
+  <data name="Profiles.Rename.Title" xml:space="preserve"><value>Mudar o nome do perfil</value></data>
+  <data name="Renderer.Laptop" xml:space="preserve"><value>Portátil</value></data>
+  <data name="Renderer.LowProfile" xml:space="preserve"><value>Perfil baixo</value></data>
+  <data name="Renderer.Minimal" xml:space="preserve"><value>Mínimo</value></data>
+  <data name="Renderer.Pbt" xml:space="preserve"><value>PBT</value></data>
+  <data name="Renderer.Volumetric" xml:space="preserve"><value>3D (vista frontal)</value></data>
+  <data name="Settings.HelpButton" xml:space="preserve"><value>Ajuda</value></data>
+  <data name="Settings.Nav.About" xml:space="preserve"><value>Acerca de</value></data>
+  <data name="Settings.Nav.Appearance" xml:space="preserve"><value>Estilo das teclas</value></data>
+  <data name="Settings.Nav.Application" xml:space="preserve"><value>Definições da aplicação</value></data>
+  <data name="Settings.Nav.Drawing" xml:space="preserve"><value>Desenho</value></data>
+  <data name="Settings.Nav.Help" xml:space="preserve"><value>Ajuda e diagnóstico</value></data>
+  <data name="Settings.Nav.HelpPage" xml:space="preserve"><value>Ajuda</value></data>
+  <data name="Settings.Nav.Home" xml:space="preserve"><value>Início</value></data>
+  <data name="Settings.Nav.Hotkeys" xml:space="preserve"><value>Comandos e atalhos</value></data>
+  <data name="Settings.Nav.Keys" xml:space="preserve"><value>Teclas</value></data>
+  <data name="Settings.Nav.Layout" xml:space="preserve"><value>Esquema do teclado</value></data>
+  <data name="Settings.Nav.Lens" xml:space="preserve"><value>Lupa em direto</value></data>
+  <data name="Settings.Nav.Mouse" xml:space="preserve"><value>Rato</value></data>
+  <data name="Settings.Nav.Position" xml:space="preserve"><value>Posição e monitores</value></data>
+  <data name="Settings.Nav.Profiles" xml:space="preserve"><value>Perfis</value></data>
+  <data name="Settings.Nav.SettingsGroup" xml:space="preserve"><value>Definições</value></data>
+  <data name="Settings.Problem.Bool" xml:space="preserve"><value>{0}: espera-se true ou false; é usado {1}.</value></data>
+  <data name="Settings.Problem.Color" xml:space="preserve"><value>{0}: «{1}» não é uma cor; é usado {2}.</value></data>
+  <data name="Settings.Problem.Corrupt" xml:space="preserve"><value>O ficheiro de definições não é um JSON válido (linha {0}); são usadas as definições predefinidas e o ficheiro é guardado como settings.unreadable.bak.json.</value></data>
+  <data name="Settings.Problem.Enum" xml:space="preserve"><value>{0}: «{1}» não é um de {2}; é usado o valor predefinido.</value></data>
+  <data name="Settings.Problem.Integer" xml:space="preserve"><value>{0}: espera-se um número inteiro; é usado {1}.</value></data>
+  <data name="Settings.Problem.Newer" xml:space="preserve"><value>As definições foram guardadas por uma versão mais recente (formato {0}); são usadas as definições predefinidas e o ficheiro não é substituído.</value></data>
+  <data name="Settings.Problem.NoFormat" xml:space="preserve"><value>O ficheiro não é um ficheiro de definições do Backpack; são usadas as definições predefinidas.</value></data>
+  <data name="Settings.Problem.NotObject" xml:space="preserve"><value>O ficheiro de definições não contém um objeto JSON; são usadas as definições predefinidas.</value></data>
+  <data name="Settings.Problem.NotSection" xml:space="preserve"><value>«{0}» tem de ser um objeto; são usados os valores predefinidos.</value></data>
+  <data name="Settings.Problem.NoVersion" xml:space="preserve"><value>Falta a versão do formato das definições; são usadas as definições predefinidas.</value></data>
+  <data name="Settings.Problem.Number" xml:space="preserve"><value>{0}: espera-se um número; é usado {1}.</value></data>
+  <data name="Settings.Problem.Range" xml:space="preserve"><value>{0}: {1} está fora de {2}…{3}; é usado {4}.</value></data>
+  <data name="Settings.Problem.ReadFailed" xml:space="preserve"><value>Não foi possível ler o ficheiro de definições ({0}); são usadas as definições predefinidas.</value></data>
+  <data name="Settings.Problem.SaveFailed" xml:space="preserve"><value>Não foi possível guardar as definições ({0}).</value></data>
+  <data name="Settings.Problem.StyleId" xml:space="preserve"><value>{0}: «{1}» não é um identificador de estilo válido; a referência é removida e os parâmetros são mantidos.</value></data>
+  <data name="Settings.Problem.UnknownField" xml:space="preserve"><value>O campo desconhecido «{0}» foi ignorado.</value></data>
+  <data name="Settings.Problem.Unsupported" xml:space="preserve"><value>Versão do formato de definições não suportada: {0}; são usadas as definições predefinidas.</value></data>
+  <data name="Settings.ResetSection" xml:space="preserve"><value>Repor secção</value></data>
+  <data name="Settings.ToTray" xml:space="preserve"><value>Minimizar para a área de notificação</value></data>
+  <data name="Settings.ToTrayHint" xml:space="preserve"><value>Oculta todas as janelas do Backpack; a apresentação continua a funcionar. Traga-as de volta com o ícone da área de notificação.</value></data>
+  <data name="Settings.WindowTitle" xml:space="preserve"><value>Backpack</value></data>
+  <data name="Style.Error.Id" xml:space="preserve"><value>O identificador do estilo é inválido.</value></data>
+  <data name="Style.Error.Kind" xml:space="preserve"><value>Tipo de estilo desconhecido (esperado keycap, indicator ou mouse).</value></data>
+  <data name="Style.Error.Newer" xml:space="preserve"><value>O estilo foi criado por um Backpack mais recente (formato {0}). Atualize o Backpack para o usar.</value></data>
+  <data name="Style.Error.NoLook" xml:space="preserve"><value>O estilo não tem secção «look».</value></data>
+  <data name="Style.Error.NotStyle" xml:space="preserve"><value>Este não é um ficheiro de estilo do Backpack.</value></data>
+  <data name="Style.Error.TooLarge" xml:space="preserve"><value>O ficheiro de estilo é demasiado grande (mais de 64 KB).</value></data>
+  <data name="Style.ImportedName" xml:space="preserve"><value>{0} (importado)</value></data>
+  <data name="Style.IndicatorAccent" xml:space="preserve"><value>Destaque</value></data>
+  <data name="Style.IndicatorDark" xml:space="preserve"><value>Pílula escura</value></data>
+  <data name="Style.IndicatorLight" xml:space="preserve"><value>Pílula clara</value></data>
+  <data name="Style.IndicatorOutline" xml:space="preserve"><value>Contorno</value></data>
+  <data name="Style.LaptopMidnight" xml:space="preserve"><value>Portátil — meia-noite</value></data>
+  <data name="Style.LaptopSilver" xml:space="preserve"><value>Portátil — prateado</value></data>
+  <data name="Style.LowProfileClassic" xml:space="preserve"><value>Perfil baixo — clássico</value></data>
+  <data name="Style.LowProfileGraphite" xml:space="preserve"><value>Perfil baixo — grafite</value></data>
+  <data name="Style.MinimalInk" xml:space="preserve"><value>Mínimo — tinta</value></data>
+  <data name="Style.MinimalLight" xml:space="preserve"><value>Mínimo — texto claro</value></data>
+  <data name="Style.MouseOutlineDark" xml:space="preserve"><value>Contorno — escuro</value></data>
+  <data name="Style.MouseOutlineLight" xml:space="preserve"><value>Contorno — claro</value></data>
+  <data name="Style.MouseRetroBeige" xml:space="preserve"><value>Retro — bege</value></data>
+  <data name="Style.MouseRetroBlueGrey" xml:space="preserve"><value>Retro — cinzento-azulado</value></data>
+  <data name="Style.MouseRetroGraphite" xml:space="preserve"><value>Retro — grafite</value></data>
+  <data name="Style.MouseRetroSage" xml:space="preserve"><value>Retro — salva suave</value></data>
+  <data name="Style.MouseSketchChalk" xml:space="preserve"><value>Esboço — giz</value></data>
+  <data name="Style.MouseSketchInk" xml:space="preserve"><value>Esboço — tinta</value></data>
+  <data name="Style.MouseSolidDark" xml:space="preserve"><value>Sólido — escuro</value></data>
+  <data name="Style.MouseSolidLight" xml:space="preserve"><value>Sólido — claro</value></data>
+  <data name="Style.PbtCream" xml:space="preserve"><value>PBT — creme</value></data>
+  <data name="Style.PbtOcean" xml:space="preserve"><value>PBT — oceano</value></data>
+  <data name="Style.VolLavender" xml:space="preserve"><value>3D — lavanda</value></data>
+  <data name="Style.VolMint" xml:space="preserve"><value>3D — menta</value></data>
+  <data name="Style.VolRose" xml:space="preserve"><value>3D — rosa</value></data>
+  <data name="Styles.Apply" xml:space="preserve"><value>Aplicar</value></data>
+  <data name="Styles.BuiltIn" xml:space="preserve"><value>integrado</value></data>
+  <data name="Styles.Delete.Message" xml:space="preserve"><value>Eliminar o estilo «{0}»? Os perfis que o usam mantêm o aspeto: os parâmetros estão guardados no perfil.</value></data>
+  <data name="Styles.Delete.Title" xml:space="preserve"><value>Eliminar estilo</value></data>
+  <data name="Styles.Duplicate" xml:space="preserve"><value>Duplicar</value></data>
+  <data name="Styles.FileFilter" xml:space="preserve"><value>Estilo do Backpack</value></data>
+  <data name="Styles.FolderFailed" xml:space="preserve"><value>Não foi possível abrir a pasta {0}.</value></data>
+  <data name="Styles.Imported.Added" xml:space="preserve"><value>O estilo «{0}» foi adicionado ao catálogo.</value></data>
+  <data name="Styles.Imported.OtherKind" xml:space="preserve"><value>O estilo «{0}» foi adicionado ao catálogo de outro elemento (teclas, indicador ou rato).</value></data>
+  <data name="Styles.Imported.Present" xml:space="preserve"><value>O estilo «{0}» já está no catálogo; não foi criada nenhuma cópia.</value></data>
+  <data name="Styles.Imported.Renamed" xml:space="preserve"><value>Já existe um estilo com o mesmo identificador, mas com outros parâmetros. O importado foi guardado como «{0}»; nada foi substituído.</value></data>
+  <data name="Styles.Imported.Title" xml:space="preserve"><value>Estilo importado</value></data>
+  <data name="Styles.ImportFailed.Title" xml:space="preserve"><value>Estilo não importado</value></data>
+  <data name="Styles.Indicator.Hint" xml:space="preserve"><value>Estilos do indicador integrados e próprios. O plugin também pode usar o aspeto das teclas.</value></data>
+  <data name="Styles.Indicator.Title" xml:space="preserve"><value>Estilos do indicador de esquema</value></data>
+  <data name="Styles.InheritHint" xml:space="preserve"><value>cores das teclas</value></data>
+  <data name="Styles.Keycap.Hint" xml:space="preserve"><value>Um estilo é um conjunto guardado de parâmetros de aspeto. Os estilos integrados não mudam: ao editar, é criada uma cópia sua quando guardar.</value></data>
+  <data name="Styles.Keycap.Title" xml:space="preserve"><value>Estilos das teclas</value></data>
+  <data name="Styles.Mine" xml:space="preserve"><value>meu</value></data>
+  <data name="Styles.Mouse.Hint" xml:space="preserve"><value>Aspeto do ícone do rato junto ao ponteiro e na fila. Os botões laterais definem-se abaixo e não mudam com o estilo.</value></data>
+  <data name="Styles.Mouse.Title" xml:space="preserve"><value>Estilos do rato</value></data>
+  <data name="Styles.NewName" xml:space="preserve"><value>O meu estilo</value></data>
+  <data name="Styles.OpenFolder" xml:space="preserve"><value>Abrir a pasta de estilos</value></data>
+  <data name="Styles.Restore" xml:space="preserve"><value>Restaurar</value></data>
+  <data name="Styles.RestoreHint" xml:space="preserve"><value>Voltar aos parâmetros do estilo selecionado.</value></data>
+  <data name="Styles.Save" xml:space="preserve"><value>Guardar estilo</value></data>
+  <data name="Styles.SaveAsNew" xml:space="preserve"><value>Guardar como novo…</value></data>
+  <data name="Styles.Skipped" xml:space="preserve"><value>Ficheiros de estilo danificados ou não suportados ignorados: {0}. Não foram eliminados.</value></data>
+  <data name="Styles.Status.Custom" xml:space="preserve"><value>Parâmetros próprios (fora do catálogo).</value></data>
+  <data name="Styles.Status.Inherit" xml:space="preserve"><value>As cores são tiradas das teclas.</value></data>
+  <data name="Styles.Status.Missing" xml:space="preserve"><value>O estilo deste perfil não está no catálogo deste computador; os parâmetros mantêm-se no perfil.</value></data>
+  <data name="Styles.Status.Modified" xml:space="preserve"><value>Baseado em {0} • alterado. Guarde-o como estilo seu ou restaure o original.</value></data>
+  <data name="Styles.Status.Selected" xml:space="preserve"><value>Selecionado: {0}.</value></data>
+  <data name="Tray.CombosOnly" xml:space="preserve"><value>Só combinações</value></data>
+  <data name="Tray.Exit" xml:space="preserve"><value>Sair do Backpack</value></data>
+  <data name="Tray.FirstHide.Exit" xml:space="preserve"><value>Sair em vez disso</value></data>
+  <data name="Tray.FirstHide.Message" xml:space="preserve"><value>A janela está oculta; a apresentação continua a funcionar.
+
+O ícone do Backpack está na área de notificação da barra de tarefas. O Windows pode colocá-lo entre os ícones ocultos (seta ^).
+
+Clique no ícone para trazer as janelas de volta. Com o botão direito tem alternâncias rápidas e «Sair do Backpack».
+
+Pode fazer com que × saia da aplicação em Definições → Aplicação.</value></data>
+  <data name="Tray.FirstHide.Ok" xml:space="preserve"><value>Entendido</value></data>
+  <data name="Tray.FirstHide.Title" xml:space="preserve"><value>O Backpack continua em execução</value></data>
+  <data name="Tray.Help" xml:space="preserve"><value>Ajuda</value></data>
+  <data name="Tray.LayoutIndicator" xml:space="preserve"><value>Indicador de esquema</value></data>
+  <data name="Tray.MouseCircle" xml:space="preserve"><value>Círculo de clique no ponteiro</value></data>
+  <data name="Tray.MouseIcon" xml:space="preserve"><value>Ícone do rato no ponteiro</value></data>
+  <data name="Tray.MouseInRow" xml:space="preserve"><value>Botões do rato na fila</value></data>
+  <data name="Tray.OpenSettings" xml:space="preserve"><value>Abrir o Backpack</value></data>
+  <data name="Tray.Profile" xml:space="preserve"><value>Perfil: {0}</value></data>
+  <data name="Tray.ShowOverlay" xml:space="preserve"><value>Mostrar a apresentação</value></data>
+  <data name="Tray.ShowWindows" xml:space="preserve"><value>Mostrar as janelas do Backpack</value></data>
+  <data name="Tray.Tooltip" xml:space="preserve"><value>Backpack</value></data>
+  <data name="Tray.TooltipHidden" xml:space="preserve"><value>Backpack — apresentação oculta</value></data>
+  <data name="Unit.Ms" xml:space="preserve"><value>ms</value></data>
+  <data name="Unit.Sec" xml:space="preserve"><value>s</value></data>
+  <data name="Update.Available" xml:space="preserve"><value>A versão {0} está disponível.</value></data>
+  <data name="Update.BadResponse" xml:space="preserve"><value>O GitHub devolveu uma resposta inesperada.</value></data>
+  <data name="Update.Failed" xml:space="preserve"><value>A verificação falhou.</value></data>
+  <data name="Update.NoPackage" xml:space="preserve"><value>A versão {0} existe, mas ainda não tem pacote para Windows x64.</value></data>
+  <data name="Update.NotConfigured" xml:space="preserve"><value>A origem das versões não está configurada.</value></data>
+  <data name="Update.Offline" xml:space="preserve"><value>Sem ligação ao GitHub.</value></data>
+  <data name="Update.RateLimited" xml:space="preserve"><value>O GitHub limitou o número de pedidos. Tente novamente mais tarde.</value></data>
+  <data name="Update.Timeout" xml:space="preserve"><value>O GitHub não respondeu a tempo.</value></data>
+  <data name="Update.UpToDate" xml:space="preserve"><value>Tem a versão mais recente deste canal.</value></data>
+  <data name="Note.ThemeMigrated" xml:space="preserve"><value>O tema das janelas é agora Backpack Emerald. Para voltar ao aspeto anterior: Definições da aplicação → Tema de cores → Clássico.</value></data>
+  <data name="Note.PrivacyFailed" xml:space="preserve"><value>A privacidade dinâmica não conseguiu vigiar o foco de entrada ({0}, erro {1}); a apresentação das teclas fica oculta enquanto a privacidade estiver ativa.</value></data>
+  <data name="Privacy.Status.Password" xml:space="preserve"><value>Campo protegido</value></data>
+  <data name="Privacy.Status.BlockedApp" xml:space="preserve"><value>Oculto para esta aplicação</value></data>
+  <data name="Privacy.Status.Checking" xml:space="preserve"><value>A verificar</value></data>
+  <data name="Privacy.Status.NoData" xml:space="preserve"><value>Sem dados</value></data>
+  <data name="Settings.Problem.Value" xml:space="preserve"><value>{0}: foi ignorada uma entrada inválida.</value></data>
+  <data name="Theme.Emerald" xml:space="preserve"><value>Backpack Emerald</value></data>
+  <data name="Theme.Classic" xml:space="preserve"><value>Clássico</value></data>
+  <data name="Theme.Sapphire" xml:space="preserve"><value>Safira</value></data>
+  <data name="Theme.Amber" xml:space="preserve"><value>Âmbar</value></data>
+  <data name="Settings.Nav.Focus" xml:space="preserve"><value>Foco</value></data>
+  <data name="Settings.Nav.Plugins" xml:space="preserve"><value>Plugins</value></data>
+  <data name="Tool.Enabled.Title" xml:space="preserve"><value>Ferramenta</value></data>
+  <data name="Tool.Enabled.Hint" xml:space="preserve"><value>Desativar uma ferramenta fecha as janelas, termina o modo e liberta os atalhos. As definições são mantidas.</value></data>
+  <data name="Tool.Enabled" xml:space="preserve"><value>Ferramenta ativada</value></data>
+  <data name="Keys.More.Title" xml:space="preserve"><value>Aspeto e posicionamento</value></data>
+  <data name="Keys.OpenStyle" xml:space="preserve"><value>Estilo das teclas</value></data>
+  <data name="Keys.OpenPosition" xml:space="preserve"><value>Posição e monitores</value></data>
+  <data name="Monitors.Keycaps.Title" xml:space="preserve"><value>Monitores para as teclas</value></data>
+  <data name="Monitors.Hint" xml:space="preserve"><value>A posição e as margens contam-se a partir da área de trabalho de cada monitor, na sua própria escala.</value></data>
+  <data name="Monitors.Mode" xml:space="preserve"><value>Onde mostrar</value></data>
+  <data name="Monitors.ModeHint" xml:space="preserve"><value>«Sob o ponteiro» é o monitor onde está agora o ponteiro do rato, não o monitor da janela ativa.</value></data>
+  <data name="Monitors.Primary" xml:space="preserve"><value>Principal</value></data>
+  <data name="Monitors.Selected" xml:space="preserve"><value>Selecionado</value></data>
+  <data name="Monitors.Multiple" xml:space="preserve"><value>Vários</value></data>
+  <data name="Monitors.UnderCursor" xml:space="preserve"><value>Sob o ponteiro</value></data>
+  <data name="Monitors.PrimaryWord" xml:space="preserve"><value>principal</value></data>
+  <data name="Monitors.Missing" xml:space="preserve"><value>«{0}» não está ligado agora — é usado o monitor principal. A escolha é mantida para quando voltar.</value></data>
+  <data name="Monitors.Note" xml:space="preserve"><value>Uma única fonte de entrada serve todas as janelas. Passar para outro monitor não reinicia a animação nem perde teclas premidas.</value></data>
+  <data name="Monitors.Indicator.Title" xml:space="preserve"><value>Monitores para o indicador de esquema</value></data>
+  <data name="Monitors.Indicator.Inherit" xml:space="preserve"><value>Os mesmos monitores das teclas</value></data>
+  <data name="Monitors.Indicator.InheritHint" xml:space="preserve"><value>Desative para escolher os monitores do indicador separadamente.</value></data>
+  <data name="Monitors.Indicator.Own" xml:space="preserve"><value>Monitores do indicador</value></data>
+  <data name="Draw.Tool.SmartPen" xml:space="preserve"><value>Caneta inteligente</value></data>
+  <data name="Draw.Tool.Marker" xml:space="preserve"><value>Marcas numeradas</value></data>
+  <data name="Draw.Smart.Title" xml:space="preserve"><value>Caneta inteligente e marcas numeradas</value></data>
+  <data name="Draw.Smart.Hint" xml:space="preserve"><value>Ambas as ferramentas estão na barra de desenho.</value></data>
+  <data name="Draw.Smart.Note" xml:space="preserve"><value>Uma linha, elipse ou retângulo nítidos tornam-se uma forma limpa; o resto fica como desenhado. Anular devolve o traço original.</value></data>
+  <data name="Draw.Markers.Start" xml:space="preserve"><value>Primeiro número</value></data>
+  <data name="Draw.Markers.StartHint" xml:space="preserve"><value>Usado na próxima série de marcas.</value></data>
+  <data name="Draw.Markers.Size" xml:space="preserve"><value>Tamanho da marca</value></data>
+  <data name="Draw.Markers.Note" xml:space="preserve"><value>Clique para colocar o número seguinte, arraste para o mover. Anular mantém a numeração coerente.</value></data>
+  <data name="App.Palette.Title" xml:space="preserve"><value>Tema de cores</value></data>
+  <data name="App.Palette.Hint" xml:space="preserve"><value>Cores das janelas do Backpack. Independente do modo claro ou escuro e dos estilos das ferramentas (teclas, moldura do Foco).</value></data>
+  <data name="App.Palette" xml:space="preserve"><value>Cores</value></data>
+  <data name="App.ReducedMotion" xml:space="preserve"><value>Reduzir movimento</value></data>
+  <data name="App.ReducedMotionHint" xml:space="preserve"><value>A demonstração do Início não é reproduzida sozinha.</value></data>
+  <data name="Privacy.Title" xml:space="preserve"><value>Privacidade dinâmica</value></data>
+  <data name="Privacy.Hint" xml:space="preserve"><value>As teclas não são mostradas enquanto o foco de entrada estiver num campo protegido ou numa aplicação oculta.</value></data>
+  <data name="Privacy.Enable" xml:space="preserve"><value>Ocultar a entrada em campos protegidos</value></data>
+  <data name="Privacy.EnableHint" xml:space="preserve"><value>Usa apenas o sinalizador IsPassword do elemento com foco. O conteúdo dos campos, a área de transferência e os títulos das janelas não são lidos.</value></data>
+  <data name="Privacy.Badge" xml:space="preserve"><value>Mostrar um cadeado no ecrã</value></data>
+  <data name="Privacy.BadgeHint" xml:space="preserve"><value>Aparece um pequeno cadeado com o motivo quando a entrada foi ocultada. Sem contagem e sem comprimento.</value></data>
+  <data name="Privacy.Status" xml:space="preserve"><value>Agora</value></data>
+  <data name="Privacy.Status.Allowed" xml:space="preserve"><value>Apresentação permitida</value></data>
+  <data name="Privacy.AddApp" xml:space="preserve"><value>Ocultar para uma aplicação</value></data>
+  <data name="Privacy.AddAppHint" xml:space="preserve"><value>Nome do ficheiro do programa, por exemplo keepass.exe.</value></data>
+  <data name="Privacy.AddAppButton" xml:space="preserve"><value>Adicionar</value></data>
+  <data name="Privacy.RemoveApp" xml:space="preserve"><value>Remover</value></data>
+  <data name="Privacy.Limits" xml:space="preserve"><value>O Windows não tem uma forma universal de reconhecer campos de palavra-passe. As aplicações cujos controlos não comunicam IsPassword não podem ser protegidas automaticamente; quando o estado é desconhecido, a apresentação fica fechada. Adicione essas aplicações à lista ou use «Mostrar ou ocultar a apresentação».</value></data>
+  <data name="Privacy.ManualHide" xml:space="preserve"><value>A ocultação manual mantém-se: o comando «Mostrar ou ocultar a apresentação».</value></data>
+  <data name="Focus.EditHint" xml:space="preserve"><value>Arraste dentro da lupa para a mover, dentro da moldura tracejada da origem para mover a origem, na margem direita ou inferior para redimensionar. Esc ou Enter — concluído.</value></data>
+  <data name="Focus.Mode.Lens" xml:space="preserve"><value>Lupa</value></data>
+  <data name="Commands.Category.App" xml:space="preserve"><value>Aplicação</value></data>
+  <data name="Commands.Category.Keys" xml:space="preserve"><value>Teclas</value></data>
+  <data name="Commands.Category.Mouse" xml:space="preserve"><value>Rato</value></data>
+  <data name="Commands.Category.Layout" xml:space="preserve"><value>Esquema do teclado</value></data>
+  <data name="Commands.Category.Drawing" xml:space="preserve"><value>Desenho</value></data>
+  <data name="Commands.Category.Settings" xml:space="preserve"><value>Abrir definições</value></data>
+  <data name="Commands.Category.Plugins" xml:space="preserve"><value>Plugins</value></data>
+  <data name="Commands.AppOpen" xml:space="preserve"><value>Abrir o Backpack</value></data>
+  <data name="Commands.ProfileNext" xml:space="preserve"><value>Carregar o perfil seguinte</value></data>
+  <data name="Commands.Drawing" xml:space="preserve"><value>Desenho</value></data>
+  <data name="Commands.MarkersReset" xml:space="preserve"><value>Repor a numeração</value></data>
+  <data name="Commands.Scope.Global" xml:space="preserve"><value>global</value></data>
+  <data name="Commands.Scope.Local" xml:space="preserve"><value>nas janelas do Backpack</value></data>
+  <data name="Commands.Scope.Tool" xml:space="preserve"><value>só dentro da ferramenta</value></data>
+  <data name="Commands.LocalOnly" xml:space="preserve"><value>fixo</value></data>
+  <data name="Commands.Rules.Title" xml:space="preserve"><value>Regras</value></data>
+  <data name="Commands.Rules" xml:space="preserve"><value>Os atalhos globais precisam de Ctrl, Alt ou Win. Os atalhos de ferramenta só funcionam enquanto a ferramenta está ativa (aí são permitidas F2–F24 sozinhas). Manter uma tecla premida não repete um comando; um atalho nunca salta uma confirmação.</value></data>
+  <data name="Plugins.BuiltIn.Title" xml:space="preserve"><value>Ferramentas integradas</value></data>
+  <data name="Plugins.BuiltIn.Hint" xml:space="preserve"><value>As teclas e o rato junto ao ponteiro fazem parte do Backpack; tudo o resto é um plugin.</value></data>
+  <data name="Plugins.On" xml:space="preserve"><value>ligado</value></data>
+  <data name="Plugins.Off" xml:space="preserve"><value>desligado</value></data>
+  <data name="Plugins.External.Title" xml:space="preserve"><value>Plugins externos</value></data>
+  <data name="Plugins.External.Hint" xml:space="preserve"><value>A estrela mostra um plugin no menu lateral. Não o ativa nem o remove.</value></data>
+  <data name="Plugins.TrustNote" xml:space="preserve"><value>Um plugin é um programa que é executado com os seus direitos de utilizador num processo próprio. O Backpack limita o que lhe passa (sem entrada oculta, sem conteúdo de campos, sem ecrã), mas não o pode proteger de código malicioso. Ative apenas plugins de uma fonte em que confia.</value></data>
+  <data name="Plugins.SafeMode" xml:space="preserve"><value>Arranque seguro: os plugins não são iniciados nesta sessão (--no-plugins).</value></data>
+  <data name="Plugins.Favorite" xml:space="preserve"><value>No menu</value></data>
+  <data name="Plugins.Details" xml:space="preserve"><value>Detalhes</value></data>
+  <data name="Plugins.Enable" xml:space="preserve"><value>Ativar</value></data>
+  <data name="Plugins.Disable" xml:space="preserve"><value>Desativar</value></data>
+  <data name="Plugins.Remove" xml:space="preserve"><value>Remover</value></data>
+  <data name="Plugins.Update" xml:space="preserve"><value>Atualizar a partir de um ficheiro</value></data>
+  <data name="Plugins.Import" xml:space="preserve"><value>Importar um plugin</value></data>
+  <data name="Plugins.FileFilter" xml:space="preserve"><value>Plugin do Backpack</value></data>
+  <data name="Plugins.Imported" xml:space="preserve"><value>«{0}» está instalado e desativado. Abra-o para rever os detalhes e ativá-lo.</value></data>
+  <data name="Plugins.Updated" xml:space="preserve"><value>«{0}» foi atualizado de {1} para {2} e fica desativado até o voltar a ativar.</value></data>
+  <data name="Plugins.ImportFailed" xml:space="preserve"><value>O pacote não foi instalado:</value></data>
+  <data name="Plugins.Trust.Title" xml:space="preserve"><value>Ativar um plugin</value></data>
+  <data name="Plugins.Trust.Message" xml:space="preserve"><value>«{0}» de {1} é um programa. Será executado num processo próprio com os seus direitos de utilizador. O Backpack não o pode proteger de código malicioso num plugin. Ative-o apenas se confiar na sua origem.</value></data>
+  <data name="Plugins.Trust.Yes" xml:space="preserve"><value>Confio, ativar</value></data>
+  <data name="Plugins.Remove.Title" xml:space="preserve"><value>Remover um plugin</value></data>
+  <data name="Plugins.Remove.Message" xml:space="preserve"><value>Remover «{0}» e as respetivas definições?</value></data>
+  <data name="Plugins.Id" xml:space="preserve"><value>ID</value></data>
+  <data name="Plugins.Author" xml:space="preserve"><value>Autor</value></data>
+  <data name="Plugins.Version" xml:space="preserve"><value>Versão</value></data>
+  <data name="Plugins.License" xml:space="preserve"><value>Licença</value></data>
+  <data name="Plugins.Capabilities" xml:space="preserve"><value>Capacidades</value></data>
+  <data name="Plugins.Cap.commands" xml:space="preserve"><value>comandos</value></data>
+  <data name="Plugins.Cap.settings" xml:space="preserve"><value>página de definições</value></data>
+  <data name="Plugins.Cap.overlay.panel" xml:space="preserve"><value>painel no ecrã</value></data>
+  <data name="Plugins.Cap.input.visible" xml:space="preserve"><value>teclas visíveis (após o filtro de privacidade)</value></data>
+  <data name="Plugins.Cap.screen" xml:space="preserve"><value>ecrã (não concedido nesta versão)</value></data>
+  <data name="Plugins.Settings.Title" xml:space="preserve"><value>Definições do plugin</value></data>
+  <data name="Plugins.Commands.Title" xml:space="preserve"><value>Comandos do plugin</value></data>
+  <data name="Plugins.Commands.Hint" xml:space="preserve"><value>Disponíveis enquanto o plugin estiver ativado. Os atalhos atribuem-se em Comandos e atalhos.</value></data>
+  <data name="Plugins.StartFailed" xml:space="preserve"><value>Não foi possível iniciar o plugin «{0}».</value></data>
+  <data name="Plugins.AutoDisabled" xml:space="preserve"><value>O plugin «{0}» falhou repetidamente e foi desativado.</value></data>
+  <data name="Home.F.DrawHint" xml:space="preserve"><value>Setas, formas, texto e passos numerados sobre qualquer aplicação; a caneta inteligente endireita as formas. Atalho: {0}.</value></data>
+  <data name="Commands.DisplayToggle" xml:space="preserve"><value>Mostrar ou ocultar a apresentação</value></data>
+  <data name="Commands.Radial" xml:space="preserve"><value>Menu radial</value></data>
+  <data name="Commands.MouseHighlight" xml:space="preserve"><value>Realce do ponteiro</value></data>
+  <data name="Commands.Migrated.Title" xml:space="preserve"><value>Os atalhos foram movidos para comandos</value></data>
+  <data name="Commands.Migrated" xml:space="preserve"><value>Os atalhos de versões anteriores são mantidos como comandos. A lupa no ponteiro, a Lupa e o Foco são agora plugins; os atalhos passam para eles quando os importa na página Plugins.</value></data>
+  <data name="Draw.Tool.RoundedRectangle" xml:space="preserve"><value>Retângulo arredondado</value></data>
+  <data name="Draw.Tool.Polygon" xml:space="preserve"><value>Polígono regular</value></data>
+  <data name="Draw.Tool.Select" xml:space="preserve"><value>Selecionar e mover</value></data>
+  <data name="Draw.Category.Draw" xml:space="preserve"><value>Desenhar</value></data>
+  <data name="Draw.Category.Shapes" xml:space="preserve"><value>Formas</value></data>
+  <data name="Draw.Category.Annotate" xml:space="preserve"><value>Texto e marcas</value></data>
+  <data name="Window.Minimize" xml:space="preserve"><value>Minimizar</value></data>
+  <data name="Window.Maximize" xml:space="preserve"><value>Maximizar ou restaurar</value></data>
+  <data name="Window.Close" xml:space="preserve"><value>Fechar</value></data>
+  <data name="Settings.Back" xml:space="preserve"><value>Voltar</value></data>
+  <data name="Settings.ExpandGroup" xml:space="preserve"><value>Mostrar ou ocultar as páginas de «{0}»</value></data>
+  <data name="Settings.Nav.CursorZoom" xml:space="preserve"><value>Lupa no ponteiro</value></data>
+  <data name="Settings.Nav.Interface" xml:space="preserve"><value>Aparência</value></data>
+  <data name="Settings.Nav.Privacy" xml:space="preserve"><value>Privacidade</value></data>
+  <data name="App.More.Title" xml:space="preserve"><value>Mais nesta secção</value></data>
+  <data name="App.More.Hint" xml:space="preserve"><value>Estas páginas também estão no menu à esquerda, em Definições da aplicação.</value></data>
+  <data name="Material.Title" xml:space="preserve"><value>Material das janelas</value></data>
+  <data name="Material.Hint" xml:space="preserve"><value>Aplica-se a todas as janelas do Backpack: a própria janela, o painel lateral, os cartões, os menus e as caixas de diálogo. O texto e os controlos ficam sempre opacos.</value></data>
+  <data name="Material.Kind" xml:space="preserve"><value>Material</value></data>
+  <data name="Material.Opaque" xml:space="preserve"><value>Opaco</value></data>
+  <data name="Material.Mica" xml:space="preserve"><value>Mica</value></data>
+  <data name="Material.Acrylic" xml:space="preserve"><value>Acrílico</value></data>
+  <data name="Material.Opaque.Hint" xml:space="preserve"><value>Superfícies sólidas: a opção mais legível, funciona em todo o lado.</value></data>
+  <data name="Material.Mica.Hint" xml:space="preserve"><value>Material de sistema do Windows: a cor do ambiente de trabalho transparece suavemente.</value></data>
+  <data name="Material.Acrylic.Hint" xml:space="preserve"><value>Material de sistema do Windows: uma vista desfocada do que está atrás da janela.</value></data>
+  <data name="Material.Intensity" xml:space="preserve"><value>Transparência</value></data>
+  <data name="Material.IntensityHint" xml:space="preserve"><value>Quanto o material transparece através das superfícies.</value></data>
+  <data name="Material.Active" xml:space="preserve"><value>Em uso agora: {0}.</value></data>
+  <data name="Material.Fallback.NotSupported" xml:space="preserve"><value>O Mica e o Acrílico requerem o Windows 11 versão 22H2 ou posterior. Neste computador é usado o aspeto opaco.</value></data>
+  <data name="Material.Fallback.TransparencyOff" xml:space="preserve"><value>Os efeitos de transparência estão desativados no Windows (Personalização → Cores). É usado o aspeto opaco até os ativar.</value></data>
+  <data name="Material.Fallback.HighContrast" xml:space="preserve"><value>O contraste elevado está ativo: o Backpack usa superfícies opacas e sem brilho.</value></data>
+  <data name="Material.Note" xml:space="preserve"><value>Os menus e as descrições são janelas pop-up separadas; o Windows não lhes dá o material de sistema, por isso usam um preenchimento denso.</value></data>
+  <data name="Glow.Title" xml:space="preserve"><value>Brilho de destaque</value></data>
+  <data name="Glow.Enable" xml:space="preserve"><value>Brilho dos elementos de destaque</value></data>
+  <data name="Glow.EnableHint" xml:space="preserve"><value>Um brilho suave à volta dos botões principais, dos interruptores, do item de menu selecionado e do ponto da marca. O texto mantém a nitidez.</value></data>
+  <data name="Glow.NotGem" xml:space="preserve"><value>Disponível nos temas de pedras preciosas (Backpack Emerald, Safira, Âmbar) e no estilo Backpack Neon com qualquer tema.</value></data>
+  <data name="Glow.Intensity" xml:space="preserve"><value>Intensidade do brilho</value></data>
+  <data name="Fonts.Ui.Title" xml:space="preserve"><value>Tipo de letra dos títulos</value></data>
+  <data name="Fonts.Ui" xml:space="preserve"><value>Títulos e nome do programa</value></data>
+  <data name="Fonts.UiHint" xml:space="preserve"><value>Títulos de páginas e cartões e o nome «Backpack». Todo o restante texto fica no tipo de letra padrão para legibilidade. Guardado no perfil.</value></data>
+  <data name="Fonts.UiNote" xml:space="preserve"><value>Ambos os tipos de letra estão integrados e não são instalados no Windows.</value></data>
+  <data name="Fonts.Keycap.Title" xml:space="preserve"><value>Tipo de letra das teclas</value></data>
+  <data name="Fonts.Keycap" xml:space="preserve"><value>Tipo de letra das etiquetas das teclas</value></data>
+  <data name="Fonts.KeycapHint" xml:space="preserve"><value>Independente do tipo de letra da interface; Padrão é o Inter integrado. Guardado no perfil.</value></data>
+  <data name="Fonts.KeycapNote" xml:space="preserve"><value>Os símbolos das teclas (Shift, Enter, setas) são desenhos e não dependem do tipo de letra. Os carateres que faltam no Spectral vêm do Inter ou do Segoe UI.</value></data>
+  <data name="Labels.Secondary.Title" xml:space="preserve"><value>Segundo esquema nas teclas</value></data>
+  <data name="Labels.Secondary.TitleHint" xml:space="preserve"><value>A etiqueta grande fica em inglês; um pequeno caráter de outro esquema aparece no canto escolhido (inferior direito por predefinição).</value></data>
+  <data name="Labels.Secondary" xml:space="preserve"><value>Etiqueta adicional</value></data>
+  <data name="Labels.SecondaryHint" xml:space="preserve"><value>Esquema ativo — o esquema da aplicação em que escreve. Quando é inglês, nada é acrescentado.</value></data>
+  <data name="Labels.Secondary.Off" xml:space="preserve"><value>Desativada</value></data>
+  <data name="Labels.Secondary.ActiveLayout" xml:space="preserve"><value>Esquema ativo</value></data>
+  <data name="Labels.Secondary.FixedLayout" xml:space="preserve"><value>Esquema escolhido</value></data>
+  <data name="Labels.Layout" xml:space="preserve"><value>Esquema</value></data>
+  <data name="Labels.LayoutHint" xml:space="preserve"><value>Esquemas instalados no Windows.</value></data>
+  <data name="Labels.LayoutMissing" xml:space="preserve"><value>O esquema {0} não está instalado neste computador: não são mostradas etiquetas adicionais.</value></data>
+  <data name="Labels.SecondaryNote" xml:space="preserve"><value>A etiqueta é o que está impresso na tecla, sem Shift, Caps Lock ou AltGr; uma tecla morta mostra o seu acento. Teclas sem um caráter claro (IME, teclas de serviço, teclado numérico) não têm etiqueta. Ler a etiqueta nunca altera o estado do teclado de nenhuma aplicação. A privacidade aplica-se primeiro: as teclas ocultas não têm etiqueta nenhuma.</value></data>
+  <data name="Preview.BoardTitle" xml:space="preserve"><value>Uma ideia mais clara</value></data>
+  <data name="Preview.FocusLens" xml:space="preserve"><value>Lupa móvel separada · {0}×</value></data>
+  <data name="Preview.FocusDim" xml:space="preserve"><value>Envolvente escurecida em {0} %</value></data>
+  <data name="Preview.NormalField" xml:space="preserve"><value>Mensagem</value></data>
+  <data name="Preview.ProtectedField" xml:space="preserve"><value>Campo protegido</value></data>
+  <data name="Preview.SafePhrase" xml:space="preserve"><value>Olá, equipa</value></data>
+  <data name="Preview.ReturnPhrase" xml:space="preserve"><value>Próxima ideia</value></data>
+  <data name="Preview.PrivacyNormal" xml:space="preserve"><value>Simulação · campo comum: as teclas são mostradas como de costume.</value></data>
+  <data name="Preview.PrivacyProtected" xml:space="preserve"><value>Simulação · campo protegido: nada é mostrado, nem mais tarde.</value></data>
+  <data name="Radial.Name" xml:space="preserve"><value>Menu radial</value></data>
+  <data name="Radial.Back" xml:space="preserve"><value>Voltar ao anel principal</value></data>
+  <data name="Radial.Show" xml:space="preserve"><value>Mostrar no ecrã</value></data>
+  <data name="Draw.Category.Edit" xml:space="preserve"><value>Editar</value></data>
+  <data name="Draw.More" xml:space="preserve"><value>Mais</value></data>
+  <data name="Draw.Expand" xml:space="preserve"><value>Barra completa</value></data>
+  <data name="Draw.Compact" xml:space="preserve"><value>Barra compacta</value></data>
+  <data name="Draw.CustomColor" xml:space="preserve"><value>Qualquer cor (HEX e transparência)</value></data>
+  <data name="Draw.Stroke" xml:space="preserve"><value>Linha: espessura e estilo</value></data>
+  <data name="Draw.Radius" xml:space="preserve"><value>Raio dos cantos</value></data>
+  <data name="Draw.RadiusLess" xml:space="preserve"><value>Raio dos cantos menor</value></data>
+  <data name="Draw.RadiusMore" xml:space="preserve"><value>Raio dos cantos maior</value></data>
+  <data name="Draw.Sides" xml:space="preserve"><value>Número de vértices</value></data>
+  <data name="Draw.SidesLess" xml:space="preserve"><value>Menos vértices</value></data>
+  <data name="Draw.SidesMore" xml:space="preserve"><value>Mais vértices</value></data>
+  <data name="Focus.LensLabel" xml:space="preserve"><value>Lupa · {0}×</value></data>
+  <data name="Mouse.Circle.Hint" xml:space="preserve"><value>Aparece à volta do ponteiro enquanto um botão do rato está premido.</value></data>
+  <data name="Mouse.Highlight.Title" xml:space="preserve"><value>Realce do ponteiro</value></data>
+  <data name="Mouse.Highlight" xml:space="preserve"><value>Realçar o ponteiro</value></data>
+  <data name="Mouse.HighlightHint" xml:space="preserve"><value>Um brilho suave que segue sempre o ponteiro, para que o público não o perca.</value></data>
+  <data name="Mouse.HighlightColor" xml:space="preserve"><value>Cor do realce</value></data>
+  <data name="Mouse.HighlightSize" xml:space="preserve"><value>Tamanho do realce</value></data>
+  <data name="Fonts.Standard" xml:space="preserve"><value>Padrão</value></data>
+  <data name="Settings.Menu" xml:space="preserve"><value>Menu</value></data>
+  <data name="Settings.HelpButtonHint" xml:space="preserve"><value>Ajuda sobre esta página (F1); pesquisa e todos os temas lá dentro</value></data>
+  <data name="Profiles.AutosaveHint" xml:space="preserve"><value>As alterações são aplicadas de imediato e guardadas automaticamente neste perfil.</value></data>
+  <data name="Profiles.ExportCurrent" xml:space="preserve"><value>Exportar o perfil atual…</value></data>
+  <data name="Profiles.Retry" xml:space="preserve"><value>Tentar novamente</value></data>
+  <data name="Profiles.SaveFailed.Title" xml:space="preserve"><value>Não foi possível guardar as alterações</value></data>
+  <data name="Profiles.Error.SaveFailed" xml:space="preserve"><value>O perfil «{0}» não foi escrito ({1}). As alterações estão aplicadas e mantêm-se até à próxima tentativa.</value></data>
+  <data name="Profiles.Error.ExportFailed" xml:space="preserve"><value>Não foi possível escrever o ficheiro ({0}). O perfil em si não mudou.</value></data>
+  <data name="Profiles.WorkingCopyName" xml:space="preserve"><value>{0} — a minha cópia</value></data>
+  <data name="Profiles.WorkingCopyNote" xml:space="preserve"><value>O perfil anterior é só de leitura, por isso as suas alterações foram para uma cópia de trabalho: «{0}». O original fica inalterado.</value></data>
+  <data name="Note.ProfilesAutosave" xml:space="preserve"><value>perfis: as alterações são agora guardadas automaticamente. As definições aplicadas foram guardadas em «{0}»; a versão guardada anteriormente é mantida como «{1}»</value></data>
+  <data name="Privacy.Apps.Title" xml:space="preserve"><value>Sempre oculto nestas aplicações</value></data>
+  <data name="Privacy.Limits.Title" xml:space="preserve"><value>O que a privacidade pode e não pode fazer</value></data>
+  <data name="Plugins.View" xml:space="preserve"><value>Vista</value></data>
+  <data name="Plugins.View.Cards" xml:space="preserve"><value>Cartões</value></data>
+  <data name="Plugins.View.List" xml:space="preserve"><value>Lista</value></data>
+  <data name="Plugins.Installed.Title" xml:space="preserve"><value>Plugins instalados</value></data>
+  <data name="Plugins.None.Title" xml:space="preserve"><value>Ainda não há plugins</value></data>
+  <data name="Plugins.None" xml:space="preserve"><value>Importe um pacote .bppkg para adicionar um plugin. A importação não executa o código: um plugin só inicia depois de o ativar e confirmar que confia nele.</value></data>
+  <data name="Plugins.VersionAuthor" xml:space="preserve"><value>Versão {0} · {1}</value></data>
+  <data name="Plugins.State.Failed" xml:space="preserve"><value>Erro: o processo do plugin parou</value></data>
+  <data name="Plugins.FavoriteHint" xml:space="preserve"><value>Mostrar este plugin no menu à esquerda</value></data>
+  <data name="Plugins.State.Crashed" xml:space="preserve"><value>Erro: desativado após falhas repetidas</value></data>
+  <data name="Focus.Grip.Lens" xml:space="preserve"><value>Lupa</value></data>
+  <data name="Focus.Grip.Area" xml:space="preserve"><value>Área</value></data>
+  <data name="Focus.Grip.Source" xml:space="preserve"><value>Origem</value></data>
+  <data name="Focus.Grip.Resize" xml:space="preserve"><value>Tamanho</value></data>
+  <data name="Focus.EditHintFollow" xml:space="preserve"><value>Arraste dentro da moldura para a mover (a lupa amplia o que está por baixo), na margem direita ou inferior para redimensionar. Esc ou Enter — concluído.</value></data>
+  <data name="Help.Contents" xml:space="preserve"><value>Índice</value></data>
+  <data name="Draw.Palette.Neon" xml:space="preserve"><value>Cores néon</value></data>
+  <data name="Draw.Palette.Classic" xml:space="preserve"><value>Cores clássicas</value></data>
+  <data name="Hotkeys.Status.Unavailable" xml:space="preserve"><value>Guardado, mas o comando está desativado agora (ferramenta ou plugin desativado). Volta a funcionar quando for ativado.</value></data>
+  <data name="Preview.Timer" xml:space="preserve"><value>Temporizador</value></data>
+  <data name="Home.F.Tools" xml:space="preserve"><value>Ferramentas de desenho e apresentação</value></data>
+  <data name="Home.F.ToolsHint" xml:space="preserve"><value>O desenho, o indicador de esquema, a lupa no ponteiro, a Lupa, o Foco e o temporizador são plugins do criador. Já estão no catálogo — ative os que precisar.</value></data>
+  <data name="Home.F.Open" xml:space="preserve"><value>Abrir plugins</value></data>
+  <data name="Plugins.Command.Hold" xml:space="preserve"><value>Funciona enquanto premido</value></data>
+  <data name="Plugins.Command.Off" xml:space="preserve"><value>Disponível depois de ativar o plugin.</value></data>
+  <data name="Plugins.Bundled.Title" xml:space="preserve"><value>Plugins do criador não instalados</value></data>
+  <data name="Plugins.Bundled.Hint" xml:space="preserve"><value>Vêm com o Backpack. Um plugin que removeu não é adicionado de novo sozinho; adicione-o aqui. As definições e os atalhos das antigas ferramentas integradas são transferidos. Depois ative cada um — o Backpack pede-lhe primeiro que confirme a confiança.</value></data>
+  <data name="Plugins.Bundled.Import" xml:space="preserve"><value>Adicionar de novo</value></data>
+  <data name="Plugins.Bundled.Done" xml:space="preserve"><value>Adicionado: {0}. Ative os plugins nos respetivos cartões.</value></data>
+  <data name="Draw.OpacityValue" xml:space="preserve"><value>Opacidade: {0} %</value></data>
+  <data name="Mouse.OutlineWidth" xml:space="preserve"><value>Espessura do contorno</value></data>
+  <data name="Mouse.SolidOutline" xml:space="preserve"><value>Contorno</value></data>
+  <data name="Mouse.SolidOutlineHint" xml:space="preserve"><value>Um contorno à volta do corpo preenchido.</value></data>
+  <data name="Mouse.SolidOutlineColor" xml:space="preserve"><value>Cor do contorno</value></data>
+  <data name="Labels.Corner" xml:space="preserve"><value>Canto</value></data>
+  <data name="Labels.Corner.TopLeft" xml:space="preserve"><value>Superior esquerdo</value></data>
+  <data name="Labels.Corner.TopRight" xml:space="preserve"><value>Superior direito</value></data>
+  <data name="Labels.Corner.BottomLeft" xml:space="preserve"><value>Inferior esquerdo</value></data>
+  <data name="Labels.Corner.BottomRight" xml:space="preserve"><value>Inferior direito</value></data>
+  <data name="Labels.Size" xml:space="preserve"><value>Tamanho da etiqueta adicional</value></data>
+  <data name="Labels.SizeHint" xml:space="preserve"><value>Proporção do tamanho padrão da etiqueta.</value></data>
+  <data name="Labels.OffsetX" xml:space="preserve"><value>Deslocamento horizontal</value></data>
+  <data name="Labels.OffsetY" xml:space="preserve"><value>Deslocamento vertical</value></data>
+  <data name="Plugins.Cap.overlay.magnifier" xml:space="preserve"><value>lupa desenhada pelo Backpack (nenhuma imagem do ecrã é passada ao plugin)</value></data>
+  <data name="Plugins.Cap.overlay.dim" xml:space="preserve"><value>escurecimento à volta de uma área, desenhado pelo Backpack</value></data>
+  <data name="Labels.MainSize" xml:space="preserve"><value>Tamanho da etiqueta principal</value></data>
+  <data name="Labels.MainSizeHint" xml:space="preserve"><value>Proporção do tamanho padrão da etiqueta; no modo de duas etiquetas a letra principal é um pouco menor.</value></data>
+  <data name="Labels.OffsetHint" xml:space="preserve"><value>A partir do ponto seguro no canto escolhido; valores positivos deslocam para o centro da face da tecla.</value></data>
+  <data name="Styles.Why.NoSelection" xml:space="preserve"><value>Nenhum estilo selecionado.</value></data>
+  <data name="Styles.Why.NotModified" xml:space="preserve"><value>Nada mudou desde que o estilo foi aplicado.</value></data>
+  <data name="Styles.Why.BuiltIn" xml:space="preserve"><value>Os estilos integrados não podem ser renomeados nem eliminados; guarde uma cópia em vez disso.</value></data>
+  <data name="Surface.Title" xml:space="preserve"><value>Estilo das superfícies</value></data>
+  <data name="Surface.TitleHint" xml:space="preserve"><value>O aspeto dos cartões, campos e contornos. Independente do modo claro ou escuro, do tema de cores e do material.</value></data>
+  <data name="Surface.Kind" xml:space="preserve"><value>Estilo</value></data>
+  <data name="Surface.Standard" xml:space="preserve"><value>Padrão</value></data>
+  <data name="Surface.LiquidGlass" xml:space="preserve"><value>Liquid Glass</value></data>
+  <data name="Surface.Neon" xml:space="preserve"><value>Backpack Neon</value></data>
+  <data name="Surface.Standard.Hint" xml:space="preserve"><value>Cartões calmos com contornos neutros suaves.</value></data>
+  <data name="Surface.LiquidGlass.Hint" xml:space="preserve"><value>Cartões de vidro com um reflexo e contornos em gradiente claro. É o aspeto do Backpack, não um efeito de sistema do Windows; com Mica ou Acrílico o material transparece.</value></data>
+  <data name="Surface.Neon.Hint" xml:space="preserve"><value>A base mais escura, contornos finos na cor de brilho do tema e um brilho suave nos elementos ativos. Os cartões ficam calmos, os campos mais nítidos, a seleção a mais brilhante. O texto não brilha.</value></data>
+  <data name="Surface.HighContrast" xml:space="preserve"><value>O contraste elevado está ativo: é usado o estilo padrão até ser desativado.</value></data>
+  <data name="Backdrop.Kind" xml:space="preserve"><value>Material</value></data>
+  <data name="Backdrop.Fill" xml:space="preserve"><value>Preenchimento</value></data>
+  <data name="Backdrop.Clear" xml:space="preserve"><value>Transparente</value></data>
+  <data name="Backdrop.Acrylic" xml:space="preserve"><value>Acrílico</value></data>
+  <data name="Backdrop.Mica" xml:space="preserve"><value>Mica</value></data>
+  <data name="Backdrop.Fill.Hint" xml:space="preserve"><value>O fundo é preenchido com a sua cor; a transparência é o alfa da cor.</value></data>
+  <data name="Backdrop.Clear.Hint" xml:space="preserve"><value>Sem preenchimento: o que está atrás fica totalmente visível, a forma é mantida por um contorno fino na cor do fundo. O tamanho e o arredondamento não mudam.</value></data>
+  <data name="Backdrop.Fallback" xml:space="preserve"><value>O material guardado {0} não está disponível para sobreposições — é usado o preenchimento.</value></data>
+  <data name="Backdrop.SystemNote" xml:space="preserve"><value>O Acrílico e o Mica não são oferecidos aqui: nas janelas de sobreposição que deixam passar cliques, o Windows aplica-os a todo o retângulo da janela, sem arredondamento e sem desvanecer com as teclas. As etiquetas e os indicadores de botões nunca ficam desfocados.</value></data>
+  <data name="Backdrop.Keycaps.Title" xml:space="preserve"><value>Material do fundo</value></data>
+  <data name="Backdrop.Keycaps.Hint" xml:space="preserve"><value>O fundo atrás do grupo de teclas. Guardado no estilo das teclas e no perfil.</value></data>
+  <data name="Backdrop.Mouse.Title" xml:space="preserve"><value>Material do fundo do ícone</value></data>
+  <data name="Backdrop.Mouse.Hint" xml:space="preserve"><value>O fundo atrás do ícone do rato junto ao ponteiro. Guardado no estilo do rato e no perfil.</value></data>
+  <data name="Common.More" xml:space="preserve"><value>Mais</value></data>
+  <data name="Settings.Nav.IndicatorStyle" xml:space="preserve"><value>Estilo do indicador</value></data>
+  <data name="IndicatorStyle.Title" xml:space="preserve"><value>Estilo do indicador de esquema</value></data>
+  <data name="IndicatorStyle.Hint" xml:space="preserve"><value>O aspeto que o plugin Indicador de esquema usa quando o seu Aspeto está definido como «Estilo do indicador». Quando e onde aparece define-se na página do plugin.</value></data>
+  <data name="App.Shot.Hint" xml:space="preserve"><value>As capturas de ecrã feitas na tela de desenho são guardadas aqui.</value></data>
+  <data name="Plugins.Creator" xml:space="preserve"><value>Do criador</value></data>
+  <data name="Plugins.Creator.Hint" xml:space="preserve"><value>Fornecido com esta versão do Backpack: o pacote instalado corresponde ao índice de entrega pela soma de verificação SHA-256. Não é uma assinatura criptográfica do editor.</value></data>
+  <data name="Note.ToolsArePlugins" xml:space="preserve"><value>O desenho e o indicador de esquema são agora plugins: {0}. As suas definições e atalhos foram transferidos. Ficam desativados até os ativar em Plugins.</value></data>
+  <data name="Plugins.Cap.overlay.draw" xml:space="preserve"><value>tela de desenho desenhada pelo Backpack (o plugin não recebe desenhos nem imagens do ecrã)</value></data>
+  <data name="Plugins.Cap.overlay.indicator" xml:space="preserve"><value>indicador sobre o ecrã desenhado pelo Backpack</value></data>
+  <data name="Plugins.Cap.input.layout" xml:space="preserve"><value>alterações do esquema do teclado (sem teclas premidas)</value></data>
+  <data name="Plugins.Display.Title" xml:space="preserve"><value>Apresentação</value></data>
+  <data name="Plugins.Symbol" xml:space="preserve"><value>Ícone</value></data>
+  <data name="Plugins.Symbol.HintAuthor" xml:space="preserve"><value>O ícone do autor. É mostrado no menu, no cartão e no cabeçalho da página.</value></data>
+  <data name="Plugins.Symbol.HintUser" xml:space="preserve"><value>A sua escolha. Mantém-se quando o plugin é atualizado.</value></data>
+  <data name="Plugins.Symbol.Change" xml:space="preserve"><value>Escolher um ícone</value></data>
+  <data name="Plugins.Symbol.Reset" xml:space="preserve"><value>Usar o ícone do autor</value></data>
+  <data name="Plugins.Symbol.IsAuthor" xml:space="preserve"><value>O ícone do autor já está em uso</value></data>
+  <data name="Plugins.Symbol.Search" xml:space="preserve"><value>Pesquisar ícones</value></data>
+  <data name="Plugins.Symbol.NoMatch" xml:space="preserve"><value>Nenhum ícone corresponde. Experimente outra palavra, por exemplo caneta, temporizador ou pesquisa.</value></data>
+  <data name="Renderer.Neon" xml:space="preserve"><value>Néon</value></data>
+  <data name="MouseRenderer.Neon" xml:space="preserve"><value>Néon</value></data>
+  <data name="Appearance.Glow" xml:space="preserve"><value>Brilho</value></data>
+  <data name="Appearance.GlowHint" xml:space="preserve"><value>Brilho suave à volta da tecla; fica mais forte enquanto a tecla está premida. 0 desativa-o.</value></data>
+  <data name="Mouse.GlowHint" xml:space="preserve"><value>Brilho suave à volta do ícone do rato; fica mais forte enquanto um botão está premido. 0 desativa-o.</value></data>
+  <data name="Draw.AngleLabels.On" xml:space="preserve"><value>Amplitude do ângulo: sempre mostrada (clique para a mostrar só ao desenhar)</value></data>
+  <data name="Draw.AngleLabels.Off" xml:space="preserve"><value>Amplitude do ângulo: mostrada só ao desenhar (clique para a manter no ecrã)</value></data>
+  <data name="Draw.Hint.Box" xml:space="preserve"><value>Shift — quadrado ou círculo · Alt — a partir do centro</value></data>
+  <data name="Draw.Hint.Line" xml:space="preserve"><value>Shift — direção em passos de 15°</value></data>
+  <data name="Draw.Hint.Polygon" xml:space="preserve"><value>Arraste a partir do centro · Shift — rotação em passos de 15°</value></data>
+  <data name="Draw.Hint.Select" xml:space="preserve"><value>Cantos e lados — tamanho · pega superior — rodar · Shift — manter proporções · Alt — a partir do centro · Esc — cancelar</value></data>
+  <data name="Draw.Hint.SmartPen" xml:space="preserve"><value>São reconhecidas linhas, formas, arcos e ângulos; a amplitude do ângulo aparece enquanto o botão está premido</value></data>
+  <data name="Help.NotTranslated" xml:space="preserve"><value>A ajuda ainda não está traduzida para este idioma; é mostrada a ajuda em inglês.</value></data>
+  <data name="About.MadeIn" xml:space="preserve"><value>Feito na Ucrânia</value></data>
+</root>

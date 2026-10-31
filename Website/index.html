@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#080D0B"/><title>Backpack — Clear actions. Tools of your own.</title><meta name="description" content="Make presentations, lessons and screen recordings clearer with built-in keys and mouse visualization. Add independent author plugins and explore creating your own tools."/><meta property="og:title" content="Backpack — Clear actions. Tools of your own."/><meta property="og:description" content="Clear keys and clicks for presentations. Independent plugins for the tools you need."/><meta property="og:type" content="website"/><link rel="icon" type="image/svg+xml" href="/favicon.svg"/></head><body><noscript><style>.demo-tabs{display:none!important}.language-picker{display:none!important}@media(max-width:600px){.header{height:auto!important;min-height:80px;flex-wrap:wrap;padding-block:20px}.navigation{display:flex!important;position:static;order:3;width:100%;flex-wrap:wrap;gap:18px}.navigation a{font-size:12px!important}.menu-button,.motion-button,.language,.language-picker,.switcher{display:none!important}}</style></noscript><script>if (location.protocol === 'file:') {
+  const language = navigator.language.slice(0, 2);
+  const copy = {
+    uk: ['Відкрийте Backpack через локальний сервер', 'У папці Website запустіть Start-Website.cmd подвійним клацанням. Сайт відкриється у браузері автоматично. Залиште вікно запуску відкритим.', 'Або виконайте в цій папці:'],
+    en: ['Open Backpack through a local server', 'Double-click Start-Website.cmd in the Website folder. The website will open automatically. Keep the launcher window open.', 'Or run this command in that folder:'],
+  };
+  const text = copy[language] || copy.en;
+  document.documentElement.lang = copy[language] ? language : 'en';
+  document.body.style.cssText = 'margin:0;background:#080d0b;color:#f2f5f3;font:16px/1.7 system-ui,sans-serif;padding:clamp(24px,7vw,100px)';
+  const help = document.createElement('section');
+  help.style.cssText = 'max-width:720px;margin:5vh auto;padding:32px;border:1px solid #315b43;border-radius:18px;background:#111513';
+  const brand = document.createElement('div');
+  brand.textContent = 'Backpack';
+  brand.style.cssText = 'color:#31c99a;font-weight:700;font-size:24px';
+  const heading = document.createElement('h1');
+  heading.textContent = text[0];
+  heading.style.cssText = 'font-size:30px;line-height:1.25';
+  const description = document.createElement('p');
+  description.textContent = text[1];
+  const alternative = document.createElement('p');
+  alternative.textContent = text[2];
+  const command = document.createElement('code');
+  command.textContent = 'node node_modules/vite/bin/vite.js --host 127.0.0.1 --open';
+  command.style.cssText = 'display:block;color:#31c99a;overflow-wrap:anywhere';
+  help.append(brand, heading, description, alternative, command);
+  document.body.prepend(help);
+}
+</script><div id="root"></div><script type="module" src="/src/main.tsx"></script></body></html>
+
+
+

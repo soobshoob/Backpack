@@ -1,0 +1,7 @@
+export const versionPattern=/^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-(?:0|[1-9]\d*|\d*[A-Za-z-][0-9A-Za-z-]*)(?:\.(?:0|[1-9]\d*|\d*[A-Za-z-][0-9A-Za-z-]*))*)?(?:\+[0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*)?$/;
+export function safeHttps(value:unknown):value is string{
+ if(typeof value!=='string'||value.length>2048)return false;
+ try{const u=new URL(value),h=u.hostname.toLowerCase();return u.protocol==='https:'&&!u.username&&!u.password&&!u.port&&h.includes('.')&&!h.includes(':')&&!/^\d+(\.\d+){3}$/.test(h)&&!['localhost','local','internal','test','invalid'].some(s=>h===s||h.endsWith('.'+s))&&!/[\u0000-\u0020\\]/.test(value);}catch{return false;}
+}
+export function compareVersions(a:string,b:string){const parts=(s:string)=>s.split('+')[0].split('-'),[an,ap]=parts(a),[bn,bp]=parts(b);for(let i=0;i<3;i++){const d=Number(an.split('.')[i])-Number(bn.split('.')[i]);if(d)return Math.sign(d);}if(ap===undefined||bp===undefined)return ap===bp?0:ap===undefined?1:-1;const aa=ap.split('.'),bb=bp.split('.');for(let i=0;i<Math.max(aa.length,bb.length);i++){if(aa[i]===bb[i])continue;if(aa[i]===undefined)return-1;if(bb[i]===undefined)return 1;const x=aa[i],y=bb[i],nx=/^\d+$/.test(x),ny=/^\d+$/.test(y);if(nx&&ny)return Number(x)>Number(y)?1:-1;if(nx!==ny)return nx?-1:1;return x>y?1:-1;}return 0;}
+export class SourceError extends Error{constructor(public kind:string,public detail=kind,public retryAt?:number){super(detail);this.name='SourceError';}}

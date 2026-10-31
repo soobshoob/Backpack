@@ -1,0 +1,22 @@
+{
+  "$schema": "../keyoverlay-theme.schema.json",
+  "format": "keyoverlay-theme",
+  "formatVersion": 1,
+  "id": "examples.paper-minimal",
+  "name": "Бумага, минимал",
+  "description": "Стиль minimal: только текст и иконки на светлой полупрозрачной подложке, без кейкапов и бейджа счётчика. Подходит для записи туториалов поверх документов.",
+  "author": "KeyOverlay",
+  "version": "1.0.0",
+  "license": "CC0-1.0",
+  "keycap": { "style": "minimal", "size": 28 },
+  "text": {
+    "color": "#202124",
+    "caps": "capitalize",
+    "variant": "icon",
+    "font": { "families": ["Segoe UI Variable Text", "Segoe UI"], "weight": 500 }
+  },
+  "layout": { "showIcon": true, "showSymbol": false },
+  "border": { "enabled": false, "radius": 0.6 },
+  "group": { "background": { "enabled": true, "color": "#FAF7F0E6" } },
+  "animation": { "type": "zoom", "durationMs": 180 }
+}

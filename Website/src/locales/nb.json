@@ -1,0 +1,416 @@
+{
+  "content": {
+    "title": "Backpack — Tydelige handlinger. Egne verktøy.",
+    "description": "Gjør presentasjoner, timer og skjermopptak lettere å følge. Vis hver tast og hvert klikk. Legg til verktøy som uavhengige programtillegg, eller lær å lage ditt eget.",
+    "nav": [
+      "Funksjoner",
+      "Verktøy",
+      "Last ned",
+      "Hjelp"
+    ],
+    "skip": "Gå til innhold",
+    "menu": "Meny",
+    "language": "Språk",
+    "close": "Lukk meny",
+    "sceneNote": [
+      "Hver handling",
+      "tydelig vist."
+    ],
+    "toolkit": "VERKTØY",
+    "previewLabel": "Forhåndsversjon",
+    "signedLabel": "Digitalt signert",
+    "unsignedLabel": "Usignert",
+    "publishedLabel": "Publisert",
+    "unpublishedLabel": "Ikke publisert",
+    "eyebrow": "Gjør det viktige synlig.",
+    "badge": "Et nytt navn. Samme sans for detaljer.",
+    "hero": [
+      "Hver handling",
+      "på skjermen",
+      "tydelig vist."
+    ],
+    "intro": "Gjør presentasjoner, timer og skjermopptak lettere å følge. Vis hver tast og hvert klikk.",
+    "primary": "Utforsk verktøyene",
+    "secondary": "Versjonsstatus",
+    "platform": "Windows 10 / 11 · x64 · Forhåndsversjon",
+    "pause": "Sett animasjoner på pause",
+    "play": "Spill av animasjoner",
+    "reduced": "Redusert bevegelse",
+    "categories": [
+      "Tastetrykk",
+      "Museindikator",
+      "Programtillegg",
+      "LAG DITT EGET VERKTØY",
+      "Profiler og stiler"
+    ],
+    "overviewTag": "INNEBYGD I BACKPACK",
+    "overviewTitle": [
+      "Alt du trenger.",
+      "Akkurat der du trenger det."
+    ],
+    "overviewText": "Taster og musevisualisering er de to verktøyene i kjernen av Backpack.",
+    "explore": "Utforsk verktøyene",
+    "interface": "Demonstrasjon av den nye modellen",
+    "interfaceNote": "Simulert gjennomgang av planlagt grensesnitt. Import og tillit finnes i preview.4; scenen er ikke et skjermbilde eller bevis for at alle tillegg er klare.",
+    "home": "Hjem",
+    "appearance": "Utseende",
+    "keys": "Taster og snarveier",
+    "mouse": "Mus",
+    "focus": "Fokus",
+    "drawing": "Tegning",
+    "profiles": "Profiler",
+    "lens": "Lupe",
+    "dimming": "Demp omgivelsene",
+    "zoom": "Forstørrelse",
+    "size": "Områdestørrelse",
+    "radius": "Hjørneradius",
+    "border": "Rammefarge",
+    "tray": "Behold bakgrunnen under rammen",
+    "toolsTag": "VERKTØY",
+    "toolsTitle": "Begynn med det viktigste.",
+    "toolsText": "Simulerte inndata. Beskyttede taster vises aldri. Tastatur og skjerm registreres ikke.",
+    "preview": "I verifisert forhåndsversjon",
+    "development": "Under utvikling",
+    "concept": "Konseptdemo",
+    "cards": [
+      [
+        "Tastetrykk",
+        "Hver snarvei, helt tydelig.",
+        "Lesbare taster, naturlige kombinasjoner og fem visningsstiler."
+      ],
+      [
+        "Museindikator",
+        "En peker det er lett å følge.",
+        "Venstreklikk, høyreklikk og rulleretning i en indikator ved siden av pekeren."
+      ],
+      [
+        "Lupe",
+        "Lupe",
+        "Flytt en separat forstørret visning av valgt område."
+      ],
+      [
+        "Tegning",
+        "Tegning",
+        "Midlertidige notater, former og tekst mens du forklarer."
+      ],
+      [
+        "Inndatapersonvern, særskilt.",
+        "Inndatapersonvern, særskilt.",
+        "Den verifiserte versjonen skjuler taster ved registrert beskyttet inndata. Registreringen har grenser og en kjent kappløpstilstand ved fokusmeldinger: skjul manuelt før sensitive inndata. Tillit til kode er en egen beslutning."
+      ],
+      [
+        "Profiler og stiler",
+        "Et oppsett som forblir ditt.",
+        "Utseende, lagrede profiler, inndatapersonvern og administrasjon av tillegg er infrastruktur, ikke separate tillegg."
+      ]
+    ],
+    "styles": [
+      "Lys",
+      "Mørk",
+      "Smaragd"
+    ],
+    "renderers": [
+      "PBT",
+      "Minimal",
+      "Bærbar"
+    ],
+    "chooseStyle": "Utseende",
+    "chooseProfile": "Profiler",
+    "chooseFocus": "Fokus",
+    "dimNote": "Tillegg verifisert i pakken · Backpack 0.4.0-preview.4 / SDK 1.1. Offentlig pakke er ikke tilgjengelig ennå",
+    "numberNote": "Demonstrasjon av den nye modellen",
+    "safe": "Beskyttet felt",
+    "ordinary": "Melding",
+    "privacyNote": "Den verifiserte versjonen skjuler taster ved registrert beskyttet inndata. Registreringen har grenser og en kjent kappløpstilstand ved fokusmeldinger: skjul manuelt før sensitive inndata. Tillit til kode er en egen beslutning.",
+    "pluginTitle": "Verktøyene til din fortelling.",
+    "pluginText": "Backpack-opphaverens utvidelser legges til uavhengig og fungerer som eksempler på fremtidige egne tillegg.",
+    "downloadTag": "Sist verifiserte pakke",
+    "downloadTitle": [
+      "En tydeligere skjerm.",
+      "En bedre forklaring."
+    ],
+    "downloadText": "Offentlig pakke er ikke tilgjengelig ennå",
+    "preparing": "Offentlig nedlasting forberedes",
+    "packageLabel": "Sist verifiserte pakke",
+    "unsigned": "Usignert · Ikke publisert",
+    "release": "Les versjonsmerknader",
+    "download": "Last ned for Windows",
+    "checksum": "Den verifiserte pakkens SHA-256",
+    "checksumNote": "Identifiserer den lokalt verifiserte pakken. Nettstedet distribuerer ingen programpakke.",
+    "license": "Lisens",
+    "helpTag": "Hjelp",
+    "helpTitle": "Før neste presentasjon.",
+    "faq": [
+      [
+        "Hva følger med programmet?",
+        "Taster og musevisualisering er de to verktøyene i kjernen av Backpack. Lupe, Fokus, Pekerlupe, Timer — Tillegg verifisert i pakken · Backpack 0.4.0-preview.4 / SDK 1.1. Tegning, Oppsettindikator — Planlagt tillegg. Utseende, lagrede profiler, inndatapersonvern og administrasjon av tillegg er infrastruktur, ikke separate tillegg."
+      ],
+      [
+        "Kan Backpack og tillegg lastes ned?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Offentlig pakke er ikke tilgjengelig ennå Lupe, Fokus, Pekerlupe, Timer — Tillegg verifisert i pakken · Backpack 0.4.0-preview.4 / SDK 1.1. Tegning, Oppsettindikator — Planlagt tillegg."
+      ],
+      [
+        "Hvordan installeres utvidelser?",
+        "Programtillegg → Importer → .bppkg. Import kontrollerer og pakker ut uten kodekjøring eller tillit. Nye og oppdaterte tillegg er avslått; første aktivering krever bekreftelse."
+      ],
+      [
+        "Er tillegg sikkert isolert?",
+        "Bruk pålitelige kilder. Separate prosesser har dine rettigheter og hjelper ved feil, men er ingen sandkasse. Manifestets funksjoner begrenser Backpack-grensesnittet, ikke alle handlinger på maskinen."
+      ],
+      [
+        "Hvordan begynner jeg et verktøy?",
+        "F1 → Programtillegg beskriver kontrakt, livssyklus, kommandoer, innstillinger, språk og timerbygging. Detaljerte veiledninger og fungerende eksempler forberedes; SDK-vilkårene skal gi frihet til egne tillegg. Offentlige lenker mangler ennå."
+      ],
+      [
+        "Beskytter personvern alle felt?",
+        "Ingen universell registrering loves. Beskyttet eller ukjent inndata kan skjules, men asynkron fokusregistrering har grenser. Skjul før sensitive data. Tillit til tillegg er separat."
+      ],
+      [
+        "Hvilke systemer og lisens gjelder?",
+        "Verifisert pakke for Windows 10/11 x64 med .NET. PolyForm Strict 1.0.0, ikke åpen kildekode. SDK-/eksempelvilkårene oppdateres."
+      ]
+    ],
+    "footer": "Små verktøy. Tydeligere historier.",
+    "author": "Laget av",
+    "back": "Til toppen",
+    "notice": "Demonstrasjon av den nye modellen",
+    "madeIn": "Laget i Ukraina.",
+    "program": {
+      "settings": "Appinnstillinger",
+      "privacy": "Personvern",
+      "about": "Om",
+      "importPlugin": "Importer utvidelse",
+      "view": "Visning",
+      "cards": "Kort",
+      "list": "Liste",
+      "duration": "Varighet",
+      "minutes": "Minutter",
+      "seconds": "Sekunder",
+      "commands": "Kommandoer"
+    },
+    "carousel": {
+      "previous": "Forrige",
+      "next": "Neste"
+    }
+  },
+  "demo": {
+    "cursorTag": "Pekerlupe",
+    "cursorTitle": "Pekerlupe",
+    "cursorDescription": "Forstørr detaljer med en lupe som følger pekeren.",
+    "cursorCaption": "Lupe rundt pekeren · 2,5×",
+    "windowTag": "Lupe",
+    "windowTitle": "Lupe",
+    "windowDescription": "Flytt en separat forstørret visning av valgt område.",
+    "windowLabel": "Lupe",
+    "windowCaption": "Eget flyttbart forstørrelsesvindu · 2,5×",
+    "profileHeading": "Én verktøykasse. Ditt utseende.",
+    "rightShift": "Høyre Skift",
+    "layoutCode": "NO",
+    "families": [
+      "Lav profil",
+      "Bærbar",
+      "PBT",
+      "Minimal",
+      "3D"
+    ],
+    "familyPresets": [
+      "Lav profil",
+      "Bærbar",
+      "PBT",
+      "Minimal",
+      "3D"
+    ],
+    "profiles": [
+      "Krem",
+      "Grafitt",
+      "Mynte"
+    ],
+    "profileNames": [
+      "PBT · Krem",
+      "Lav profil · Grafitt",
+      "3D · Mynte"
+    ],
+    "mouseStyles": [
+      "Omriss",
+      "Fylt",
+      "Retro"
+    ],
+    "mouseNames": [
+      "Omriss",
+      "Fylt",
+      "Retro"
+    ],
+    "mouseStyle": "Museindikator",
+    "normalField": "Melding",
+    "passwordField": "Beskyttet felt",
+    "safePhrase": "Hei team",
+    "returnPhrase": "Ny idé",
+    "privacySteps": [
+      "Velg meldingsfeltet",
+      "Bare vanlige tastetrykk vises",
+      "Beskyttelse før det første passordtegnet",
+      "Ny tekst. Bare nye tastetrykk."
+    ],
+    "mouseSteps": [
+      "Velg et element",
+      "Åpne hurtigmenyen",
+      "Rull gjennom listen"
+    ],
+    "selected": "Valgt",
+    "context": [
+      "Åpne",
+      "Kopier",
+      "Detaljer"
+    ],
+    "board": [
+      "Designnotater",
+      "Skjermverktøy",
+      "Neste leksjon"
+    ],
+    "boardTag": "PROSJEKT",
+    "boardHeading": "En tydeligere idé",
+    "boardRows": [
+      "Snarveier",
+      "Fokusområde",
+      "Neste trinn"
+    ],
+    "lensScale": "Direkte forstørrelse",
+    "drawSteps": [
+      "Velg pilverktøyet",
+      "Tegn en linje og deretter en form"
+    ],
+    "interfaceSteps": [
+      "Dra forstørrelsesglidebryteren",
+      "Forstørrelsesvinduet viser det markerte området",
+      "Demp omgivelsene"
+    ],
+    "keySequence": "Trykk. Hold. Slipp.",
+    "keyExamples": "Enter · Mellomrom · modifikatorer",
+    "space": "Mellomrom",
+    "shift": "Skift",
+    "layout": "Tastaturoppsett",
+    "privacyStatic": "Simulerte inndata. Beskyttede taster vises aldri. Tastatur og skjerm registreres ikke."
+  },
+  "model": {
+    "title": "Backpack — Tydelige handlinger. Egne verktøy.",
+    "intro": "Gjør presentasjoner, timer og skjermopptak lettere å følge. Vis hver tast og hvert klikk.",
+    "extension": "Legg til verktøy som uavhengige programtillegg, eller lær å lage ditt eget.",
+    "coreTag": "INNEBYGD I BACKPACK",
+    "coreTitle": "Begynn med det viktigste.",
+    "coreText": "Taster og musevisualisering er de to verktøyene i kjernen av Backpack.",
+    "pluginsTag": "OPPHAVERENS PROGRAMTILLEGG",
+    "pluginsTitle": "Verktøyene til din fortelling.",
+    "pluginsText": "Backpack-opphaverens utvidelser legges til uavhengig og fungerer som eksempler på fremtidige egne tillegg.",
+    "transitionNote": "Lupe, Fokus, Pekerlupe, Timer — Tillegg verifisert i pakken · Backpack 0.4.0-preview.4 / SDK 1.1. Tegning, Oppsettindikator — Planlagt tillegg.",
+    "builtin": "Innebygd",
+    "authorPlugin": "Opphaverens tillegg",
+    "notPublished": "Offentlig pakke er ikke tilgjengelig ennå",
+    "byAuthor": "Opphaver",
+    "statuses": {
+      "planned": "Planlagt tillegg",
+      "source": "Tillegg i kildekoden",
+      "verified": "Tillegg verifisert i pakken"
+    },
+    "availability": {
+      "planned": "Verktøyet fungerer i preview.4, men det uavhengige tillegget er ikke implementert eller pakket ennå.",
+      "source": "Lupe, Fokus, Pekerlupe, Timer — Tillegg verifisert i pakken · Backpack 0.4.0-preview.4 / SDK 1.1. Tegning, Oppsettindikator — Planlagt tillegg.",
+      "verified": "Tillegg verifisert i pakken · Backpack 0.4.0-preview.4 / SDK 1.1. Offentlig pakke er ikke tilgjengelig ennå"
+    },
+    "pluginNames": [
+      "Tegning",
+      "Oppsettindikator",
+      "Lupe",
+      "Fokus",
+      "Pekerlupe",
+      "Timer"
+    ],
+    "pluginBenefits": [
+      "Midlertidige notater, former og tekst mens du forklarer.",
+      "Gjør bytte av inndataspråk synlig.",
+      "Flytt en separat forstørret visning av valgt område.",
+      "Demp omgivelsene og hold området tydelig i opprinnelig størrelse.",
+      "Forstørr detaljer med en lupe som følger pekeren.",
+      "Vis en nedtelling, sett på pause og fortsett."
+    ],
+    "developerTag": "LAG DITT EGET VERKTØY",
+    "developerTitle": "Din oppgave. Ditt neste verktøy.",
+    "developerText": "Opphaverens tillegg viser kontrakten med Backpack. Detaljerte instruksjoner forberedes med timereksemplet som utgangspunkt.",
+    "developerSteps": [
+      [
+        "Kommandoer og livssyklus",
+        "SDK knytter start, stopp og kommandoer til Backpack. Kommandoer kan få hurtigtaster."
+      ],
+      [
+        "Innstillinger og grensesnitt",
+        "Manifestet beskriver innstillinger; Backpack tegner kontroller og overleggspaneler. Farger er uttrykkelige parametere, ikke et lovet automatisk tema-API."
+      ],
+      [
+        "Lokalisering og eksempler",
+        "Oversatte etiketter og Context.Locale støtter appens språk. Hjelpen forklarer timer, bygging, pakking og .bppkg-import."
+      ]
+    ],
+    "docsNotice": "F1 → Programtillegg beskriver kontrakt, bygging og import. Offentlige lenker til SDK-dokumentasjon og eksempelkode er ennå ikke konfigurert.",
+    "licenseNote": "SDK-vilkårene oppdateres for å gjøre det mulig å lage egne tillegg fritt. Detaljerte trinnvise bygge- og importveiledninger og fungerende eksempler forberedes.",
+    "applicationTag": "DEL AV PROGRAMMET",
+    "applicationTitle": "Et oppsett som forblir ditt.",
+    "applicationText": "Utseende, lagrede profiler, inndatapersonvern og administrasjon av tillegg er infrastruktur, ikke separate tillegg.",
+    "privacyTitle": "Inndatapersonvern, særskilt.",
+    "privacyText": "Den verifiserte versjonen skjuler taster ved registrert beskyttet inndata. Registreringen har grenser og en kjent kappløpstilstand ved fokusmeldinger: skjul manuelt før sensitive inndata. Tillit til kode er en egen beslutning.",
+    "workflowTitle": "Demonstrasjon av den nye modellen",
+    "workflowNote": "Simulert gjennomgang av planlagt grensesnitt. Import og tillit finnes i preview.4; scenen er ikke et skjermbilde eller bevis for at alle tillegg er klare.",
+    "workflowSteps": [
+      "Start med innebygde taster og mus",
+      "Åpne programtillegg",
+      "Velg opphaverens timer",
+      "Bekreft tillit og slå på",
+      "Det ekstra verktøyet vises"
+    ],
+    "coreTab": "Innebygd",
+    "pluginsTab": "Programtillegg",
+    "enable": "Slå på",
+    "trust": "Aktiver bare kode fra pålitelige kilder. En separat prosess er ikke en sandkasse.",
+    "enabled": "Aktivert",
+    "start": "Start",
+    "pause": "Pause",
+    "resume": "Fortsett",
+    "reset": "Tilbakestill",
+    "finished": "Ferdig",
+    "timerCaption": "Simulert nedtelling · pause · fortsett",
+    "layoutCaption": "Simulert bytte av inndataspråk",
+    "layoutSequence": [
+      "English",
+      "Українська",
+      "Deutsch"
+    ],
+    "faq": [
+      [
+        "Hva følger med programmet?",
+        "Taster og musevisualisering er de to verktøyene i kjernen av Backpack. Lupe, Fokus, Pekerlupe, Timer — Tillegg verifisert i pakken · Backpack 0.4.0-preview.4 / SDK 1.1. Tegning, Oppsettindikator — Planlagt tillegg. Utseende, lagrede profiler, inndatapersonvern og administrasjon av tillegg er infrastruktur, ikke separate tillegg."
+      ],
+      [
+        "Kan Backpack og tillegg lastes ned?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Offentlig pakke er ikke tilgjengelig ennå Lupe, Fokus, Pekerlupe, Timer — Tillegg verifisert i pakken · Backpack 0.4.0-preview.4 / SDK 1.1. Tegning, Oppsettindikator — Planlagt tillegg."
+      ],
+      [
+        "Hvordan installeres utvidelser?",
+        "Programtillegg → Importer → .bppkg. Import kontrollerer og pakker ut uten kodekjøring eller tillit. Nye og oppdaterte tillegg er avslått; første aktivering krever bekreftelse."
+      ],
+      [
+        "Er tillegg sikkert isolert?",
+        "Bruk pålitelige kilder. Separate prosesser har dine rettigheter og hjelper ved feil, men er ingen sandkasse. Manifestets funksjoner begrenser Backpack-grensesnittet, ikke alle handlinger på maskinen."
+      ],
+      [
+        "Hvordan begynner jeg et verktøy?",
+        "F1 → Programtillegg beskriver kontrakt, livssyklus, kommandoer, innstillinger, språk og timerbygging. Detaljerte veiledninger og fungerende eksempler forberedes; SDK-vilkårene skal gi frihet til egne tillegg. Offentlige lenker mangler ennå."
+      ],
+      [
+        "Beskytter personvern alle felt?",
+        "Ingen universell registrering loves. Beskyttet eller ukjent inndata kan skjules, men asynkron fokusregistrering har grenser. Skjul før sensitive data. Tillit til tillegg er separat."
+      ],
+      [
+        "Hvilke systemer og lisens gjelder?",
+        "Verifisert pakke for Windows 10/11 x64 med .NET. PolyForm Strict 1.0.0, ikke åpen kildekode. SDK-/eksempelvilkårene oppdateres."
+      ]
+    ]
+  }
+}

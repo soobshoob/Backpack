@@ -1,0 +1,10 @@
+# Пример .github/FUNDING.yml (кнопка «Sponsor» на GitHub). НЕ АКТИВЕН: GitHub читает только файл с именем FUNDING.yml.
+# Формат проверен по docs.github.com («Displaying a sponsor button in your repository», 31.10.2026):
+#   buy_me_a_coffee — ИМЯ пользователя Buy Me a Coffee (не адрес страницы);
+#   custom — до четырёх полных адресов; адрес с двоеточием — в кавычках.
+# Monobank отдельной платформы в FUNDING.yml не имеет — указывается через custom (адрес «Банки» send.monobank.ua/jar/...).
+# Заполните реальными значениями владельца, удалите комментарии и переименуйте файл в FUNDING.yml.
+# Вымышленные аккаунты и адреса-заглушки не подставлены намеренно.
+
+buy_me_a_coffee: REPLACE_WITH_BUYMEACOFFEE_USERNAME
+custom: ["REPLACE_WITH_MONOBANK_JAR_URL"]

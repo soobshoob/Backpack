@@ -1,0 +1,416 @@
+{
+  "content": {
+    "title": "Backpack — Jasné akce. Vlastní nástroje.",
+    "description": "Zpřehledněte prezentace, výuku a záznamy obrazovky. Ukažte každou klávesu a kliknutí. Přidejte nástroje jako nezávislé doplňky nebo objevte tvorbu vlastního.",
+    "nav": [
+      "Funkce",
+      "Nástroje",
+      "Stáhnout",
+      "Nápověda"
+    ],
+    "skip": "Přejít k obsahu",
+    "menu": "Nabídka",
+    "language": "Jazyk",
+    "close": "Zavřít nabídku",
+    "sceneNote": [
+      "Každá akce",
+      "jasně viditelná."
+    ],
+    "toolkit": "NÁSTROJE",
+    "previewLabel": "Náhled",
+    "signedLabel": "Digitálně podepsáno",
+    "unsignedLabel": "Nepodepsáno",
+    "publishedLabel": "Zveřejněno",
+    "unpublishedLabel": "Nezveřejněno",
+    "eyebrow": "Zviditelněte to důležité.",
+    "badge": "Nové jméno. Stejný smysl pro detail.",
+    "hero": [
+      "Každá akce",
+      "na obrazovce",
+      "jasně viditelná."
+    ],
+    "intro": "Zpřehledněte prezentace, výuku a záznamy obrazovky. Ukažte každou klávesu a kliknutí.",
+    "primary": "Prozkoumat nástroje",
+    "secondary": "Stav vydání",
+    "platform": "Windows 10 / 11 · x64 · Náhled",
+    "pause": "Pozastavit animace",
+    "play": "Spustit animace",
+    "reduced": "Omezený pohyb",
+    "categories": [
+      "Stisky kláves",
+      "Ukazatel myši",
+      "Doplňky",
+      "VYTVOŘTE VLASTNÍ NÁSTROJ",
+      "Profily a styly"
+    ],
+    "overviewTag": "VESTAVĚNO DO BACKPACK",
+    "overviewTitle": [
+      "Vše, co potřebujete.",
+      "Přesně tam, kde to potřebujete."
+    ],
+    "overviewText": "Klávesy a vizualizace myši jsou dva nástroje tvořící jádro Backpack.",
+    "explore": "Prozkoumat nástroje",
+    "interface": "Ukázka nového modelu",
+    "interfaceNote": "Simulovaný průchod cílovým rozhraním. Import a důvěra jsou implementovány v preview.4; scéna není snímkem ani důkazem připravenosti všech doplňků.",
+    "home": "Domů",
+    "appearance": "Vzhled",
+    "keys": "Klávesy a zkratky",
+    "mouse": "Myš",
+    "focus": "Zaměření",
+    "drawing": "Kreslení",
+    "profiles": "Profily",
+    "lens": "Lupa",
+    "dimming": "Ztmavit okolí",
+    "zoom": "Zvětšení",
+    "size": "Velikost oblasti",
+    "radius": "Poloměr rohů",
+    "border": "Barva rámečku",
+    "tray": "Zachovat pozadí pod rámečkem",
+    "toolsTag": "NÁSTROJE",
+    "toolsTitle": "Začněte tím podstatným.",
+    "toolsText": "Simulované zadávání. Chráněné klávesy se nikdy nezobrazují. Klávesnice ani obrazovka se nezachytávají.",
+    "preview": "V ověřeném náhledu",
+    "development": "Ve vývoji",
+    "concept": "Ukázka konceptu",
+    "cards": [
+      [
+        "Stisky kláves",
+        "Každá zkratka dokonale čitelná.",
+        "Čitelné klávesy, přirozené kombinace a pět stylů zobrazení."
+      ],
+      [
+        "Ukazatel myši",
+        "Kurzor, který lze snadno sledovat.",
+        "Levé a pravé kliknutí i směr posouvání na ukazateli vedle kurzoru."
+      ],
+      [
+        "Lupa",
+        "Lupa",
+        "Přesouvejte samostatný zvětšený pohled na vybranou oblast."
+      ],
+      [
+        "Kreslení",
+        "Kreslení",
+        "Dočasné poznámky, tvary a text při vysvětlování."
+      ],
+      [
+        "Soukromí zadávání samostatně.",
+        "Soukromí zadávání samostatně.",
+        "Ověřená verze skryje klávesy při zjištění chráněného zadávání. Detekce má limity a známý souběh oznámení fokusu: před citlivým zadáváním ručně skryjte zobrazení. Důvěra v kód je jiné rozhodnutí."
+      ],
+      [
+        "Profily a styly",
+        "Nastavení, která zůstávají vaše.",
+        "Vzhled, uložené profily, soukromí zadávání a správa doplňků jsou infrastruktura aplikace, nikoli samostatné doplňky."
+      ]
+    ],
+    "styles": [
+      "Světlý",
+      "Tmavý",
+      "Smaragdový"
+    ],
+    "renderers": [
+      "PBT",
+      "Minimální",
+      "Notebook"
+    ],
+    "chooseStyle": "Vzhled",
+    "chooseProfile": "Profily",
+    "chooseFocus": "Zaměření",
+    "dimNote": "Doplněk ověřen v balíčku · Backpack 0.4.0-preview.4 / SDK 1.1. Veřejný balíček zatím není dostupný",
+    "numberNote": "Ukázka nového modelu",
+    "safe": "Chráněné pole",
+    "ordinary": "Zpráva",
+    "privacyNote": "Ověřená verze skryje klávesy při zjištění chráněného zadávání. Detekce má limity a známý souběh oznámení fokusu: před citlivým zadáváním ručně skryjte zobrazení. Důvěra v kód je jiné rozhodnutí.",
+    "pluginTitle": "Nástroje pro váš příběh.",
+    "pluginText": "Rozšíření autora Backpack se přidávají samostatně a slouží jako příklady pro budoucí vlastní doplňky.",
+    "downloadTag": "Poslední ověřený balíček",
+    "downloadTitle": [
+      "Přehlednější obrazovka.",
+      "Lepší vysvětlení."
+    ],
+    "downloadText": "Veřejný balíček zatím není dostupný",
+    "preparing": "Veřejné stažení se připravuje",
+    "packageLabel": "Poslední ověřený balíček",
+    "unsigned": "Nepodepsáno · Nezveřejněno",
+    "release": "Číst poznámky k vydání",
+    "download": "Stáhnout pro Windows",
+    "checksum": "SHA-256 ověřeného balíčku",
+    "checksumNote": "Určuje místně ověřený balíček. Tento web žádný balíček nedistribuuje.",
+    "license": "Licence",
+    "helpTag": "Nápověda",
+    "helpTitle": "Před další prezentací.",
+    "faq": [
+      [
+        "Co je součástí aplikace?",
+        "Klávesy a vizualizace myši jsou dva nástroje tvořící jádro Backpack. Lupa, Zaměření, Lupa u kurzoru, Časovač — Doplněk ověřen v balíčku · Backpack 0.4.0-preview.4 / SDK 1.1. Kreslení, Ukazatel rozložení — Doplněk plánován. Vzhled, uložené profily, soukromí zadávání a správa doplňků jsou infrastruktura aplikace, nikoli samostatné doplňky."
+      ],
+      [
+        "Lze Backpack a doplňky stáhnout?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Veřejný balíček zatím není dostupný Lupa, Zaměření, Lupa u kurzoru, Časovač — Doplněk ověřen v balíčku · Backpack 0.4.0-preview.4 / SDK 1.1. Kreslení, Ukazatel rozložení — Doplněk plánován."
+      ],
+      [
+        "Jak se rozšíření instalují?",
+        "Doplňky → Importovat doplněk → .bppkg. Import kontroluje a rozbaluje bez spuštění kódu či udělení důvěry. Nové i aktualizované doplňky jsou vypnuté; první zapnutí vyžaduje potvrzení."
+      ],
+      [
+        "Jsou doplňky bezpečně izolovány?",
+        "Používejte důvěryhodné zdroje. Oddělené procesy mají vaše práva a pomáhají zvládat chyby, ale nejsou sandbox. Možnosti manifestu omezují rozhraní Backpack, ne všechny činnosti kódu v systému."
+      ],
+      [
+        "Jak začít vlastní nástroj?",
+        "F1 → Doplňky vysvětluje kontrakt, životní cyklus, příkazy, nastavení, jazyky a sestavení časovače. Připravují se podrobné návody a funkční příklady; nové podmínky SDK umožní volnou tvorbu vlastních doplňků. Veřejné odkazy budou doplněny."
+      ],
+      [
+        "Chrání soukromí každé pole?",
+        "Univerzální detekce se neslibuje. Chráněné či neznámé zadávání může být skryto, ale asynchronní detekce fokusu má limity. Před citlivým zadáváním ručně skryjte zobrazení. Důvěra v doplňky je samostatná."
+      ],
+      [
+        "Jaké systémy a licence?",
+        "Ověřený balíček pro Windows 10/11 x64 s .NET. Backpack používá PolyForm Strict 1.0.0 a není open source. Podmínky SDK/příkladů se aktualizují."
+      ]
+    ],
+    "footer": "Malé nástroje. Jasnější příběhy.",
+    "author": "Autor",
+    "back": "Zpět nahoru",
+    "notice": "Ukázka nového modelu",
+    "madeIn": "Vyrobeno na Ukrajině.",
+    "program": {
+      "settings": "Nastavení aplikace",
+      "privacy": "Soukromí",
+      "about": "O aplikaci",
+      "importPlugin": "Importovat doplněk",
+      "view": "Zobrazení",
+      "cards": "Karty",
+      "list": "Seznam",
+      "duration": "Doba",
+      "minutes": "Minuty",
+      "seconds": "Sekundy",
+      "commands": "Příkazy"
+    },
+    "carousel": {
+      "previous": "Předchozí",
+      "next": "Další"
+    }
+  },
+  "demo": {
+    "cursorTag": "Lupa u kurzoru",
+    "cursorTitle": "Lupa u kurzoru",
+    "cursorDescription": "Přibližte detaily lupou sledující kurzor.",
+    "cursorCaption": "Lupa kolem kurzoru · 2,5×",
+    "windowTag": "Lupa",
+    "windowTitle": "Lupa",
+    "windowDescription": "Přesouvejte samostatný zvětšený pohled na vybranou oblast.",
+    "windowLabel": "Lupa",
+    "windowCaption": "Samostatné pohyblivé okno lupy · 2,5×",
+    "profileHeading": "Jedna sada nástrojů. Váš vzhled.",
+    "rightShift": "Pravý Shift",
+    "layoutCode": "CS",
+    "families": [
+      "Nízký profil",
+      "Notebook",
+      "PBT",
+      "Minimální",
+      "3D"
+    ],
+    "familyPresets": [
+      "Nízký profil",
+      "Notebook",
+      "PBT",
+      "Minimální",
+      "3D"
+    ],
+    "profiles": [
+      "Krémová",
+      "Grafitová",
+      "Mátová"
+    ],
+    "profileNames": [
+      "PBT · Krémová",
+      "Nízký profil · Grafitová",
+      "3D · Mátová"
+    ],
+    "mouseStyles": [
+      "Obrys",
+      "Plný",
+      "Retro"
+    ],
+    "mouseNames": [
+      "Obrys",
+      "Plný",
+      "Retro"
+    ],
+    "mouseStyle": "Ukazatel myši",
+    "normalField": "Zpráva",
+    "passwordField": "Chráněné pole",
+    "safePhrase": "Ahoj týme",
+    "returnPhrase": "Nový nápad",
+    "privacySteps": [
+      "Vyberte pole zprávy",
+      "Zobrazují se jen běžné stisky",
+      "Ochrana před prvním znakem hesla",
+      "Nový text. Jen nové stisky."
+    ],
+    "mouseSteps": [
+      "Vyberte položku",
+      "Otevřete místní nabídku",
+      "Posuňte seznam"
+    ],
+    "selected": "Vybráno",
+    "context": [
+      "Otevřít",
+      "Kopírovat",
+      "Podrobnosti"
+    ],
+    "board": [
+      "Návrhové poznámky",
+      "Nástroje obrazovky",
+      "Další lekce"
+    ],
+    "boardTag": "PROJEKT",
+    "boardHeading": "Jasnější myšlenka",
+    "boardRows": [
+      "Zkratky",
+      "Oblast zaměření",
+      "Další krok"
+    ],
+    "lensScale": "Živé zvětšení",
+    "drawSteps": [
+      "Vyberte nástroj šipky",
+      "Nakreslete čáru a pak tvar"
+    ],
+    "interfaceSteps": [
+      "Přesuňte posuvník zvětšení",
+      "Okno lupy ukazuje označenou oblast",
+      "Ztmavte okolí"
+    ],
+    "keySequence": "Stisknout. Podržet. Uvolnit.",
+    "keyExamples": "Enter · Mezerník · modifikátory",
+    "space": "Mezerník",
+    "shift": "Shift",
+    "layout": "Rozložení klávesnice",
+    "privacyStatic": "Simulované zadávání. Chráněné klávesy se nikdy nezobrazují. Klávesnice ani obrazovka se nezachytávají."
+  },
+  "model": {
+    "title": "Backpack — Jasné akce. Vlastní nástroje.",
+    "intro": "Zpřehledněte prezentace, výuku a záznamy obrazovky. Ukažte každou klávesu a kliknutí.",
+    "extension": "Přidejte nástroje jako nezávislé doplňky nebo objevte tvorbu vlastního.",
+    "coreTag": "VESTAVĚNO DO BACKPACK",
+    "coreTitle": "Začněte tím podstatným.",
+    "coreText": "Klávesy a vizualizace myši jsou dva nástroje tvořící jádro Backpack.",
+    "pluginsTag": "DOPLŇKY AUTORA",
+    "pluginsTitle": "Nástroje pro váš příběh.",
+    "pluginsText": "Rozšíření autora Backpack se přidávají samostatně a slouží jako příklady pro budoucí vlastní doplňky.",
+    "transitionNote": "Lupa, Zaměření, Lupa u kurzoru, Časovač — Doplněk ověřen v balíčku · Backpack 0.4.0-preview.4 / SDK 1.1. Kreslení, Ukazatel rozložení — Doplněk plánován.",
+    "builtin": "Vestavěno",
+    "authorPlugin": "Doplněk autora",
+    "notPublished": "Veřejný balíček zatím není dostupný",
+    "byAuthor": "Autor",
+    "statuses": {
+      "planned": "Doplněk plánován",
+      "source": "Doplněk ve zdrojovém kódu",
+      "verified": "Doplněk ověřen v balíčku"
+    },
+    "availability": {
+      "planned": "Nástroj funguje v preview.4, ale samostatný doplněk zatím není implementován ani zabalen.",
+      "source": "Lupa, Zaměření, Lupa u kurzoru, Časovač — Doplněk ověřen v balíčku · Backpack 0.4.0-preview.4 / SDK 1.1. Kreslení, Ukazatel rozložení — Doplněk plánován.",
+      "verified": "Doplněk ověřen v balíčku · Backpack 0.4.0-preview.4 / SDK 1.1. Veřejný balíček zatím není dostupný"
+    },
+    "pluginNames": [
+      "Kreslení",
+      "Ukazatel rozložení",
+      "Lupa",
+      "Zaměření",
+      "Lupa u kurzoru",
+      "Časovač"
+    ],
+    "pluginBenefits": [
+      "Dočasné poznámky, tvary a text při vysvětlování.",
+      "Zviditelněte změnu jazyka zadávání.",
+      "Přesouvejte samostatný zvětšený pohled na vybranou oblast.",
+      "Ztmavte okolí a ponechte oblast čitelnou v původní velikosti.",
+      "Přibližte detaily lupou sledující kurzor.",
+      "Odpočítávejte na obrazovce, pozastavte a pokračujte."
+    ],
+    "developerTag": "VYTVOŘTE VLASTNÍ NÁSTROJ",
+    "developerTitle": "Váš úkol. Váš další nástroj.",
+    "developerText": "Doplňky autora ukazují kontrakt s Backpack. Podle časovače se připravují podrobné návody a funkční příklady.",
+    "developerSteps": [
+      [
+        "Příkazy a životní cyklus",
+        "SDK propojuje spuštění, zastavení a příkazy s Backpack. Příkazům lze přiřadit zkratky."
+      ],
+      [
+        "Nastavení a rozhraní",
+        "Manifest popisuje nastavení; Backpack vykresluje ovládací prvky a překryvné panely. Barvy jsou výslovné parametry, nikoli slíbené automatické API motivů."
+      ],
+      [
+        "Lokalizace a příklady",
+        "Přeložené popisky a Context.Locale podporují jazyky aplikace. Nápověda vysvětluje časovač, sestavení, balení a import .bppkg."
+      ]
+    ],
+    "docsNotice": "F1 → Doplňky obsahuje kontrakt, sestavení a import. Veřejné odkazy na dokumentaci SDK a kód příkladů zatím nejsou nastavené.",
+    "licenseNote": "Podmínky SDK se aktualizují, aby umožnily volnou tvorbu vlastních doplňků. Připravují se podrobné návody k sestavení a importu krok za krokem i funkční příklady.",
+    "applicationTag": "SOUČÁST APLIKACE",
+    "applicationTitle": "Nastavení, která zůstávají vaše.",
+    "applicationText": "Vzhled, uložené profily, soukromí zadávání a správa doplňků jsou infrastruktura aplikace, nikoli samostatné doplňky.",
+    "privacyTitle": "Soukromí zadávání samostatně.",
+    "privacyText": "Ověřená verze skryje klávesy při zjištění chráněného zadávání. Detekce má limity a známý souběh oznámení fokusu: před citlivým zadáváním ručně skryjte zobrazení. Důvěra v kód je jiné rozhodnutí.",
+    "workflowTitle": "Ukázka nového modelu",
+    "workflowNote": "Simulovaný průchod cílovým rozhraním. Import a důvěra jsou implementovány v preview.4; scéna není snímkem ani důkazem připravenosti všech doplňků.",
+    "workflowSteps": [
+      "Začněte vestavěnými klávesami a myší",
+      "Otevřete doplňky",
+      "Vyberte časovač autora",
+      "Potvrďte důvěru a zapněte",
+      "Další nástroj se objeví"
+    ],
+    "coreTab": "Vestavěné",
+    "pluginsTab": "Doplňky",
+    "enable": "Zapnout",
+    "trust": "Zapínejte jen kód z důvěryhodných zdrojů. Samostatný proces není bezpečná izolace.",
+    "enabled": "Zapnuto",
+    "start": "Start",
+    "pause": "Pauza",
+    "resume": "Pokračovat",
+    "reset": "Obnovit",
+    "finished": "Dokončeno",
+    "timerCaption": "Simulované odpočítávání · pauza · pokračování",
+    "layoutCaption": "Simulovaná změna jazyka zadávání",
+    "layoutSequence": [
+      "English",
+      "Українська",
+      "Deutsch"
+    ],
+    "faq": [
+      [
+        "Co je součástí aplikace?",
+        "Klávesy a vizualizace myši jsou dva nástroje tvořící jádro Backpack. Lupa, Zaměření, Lupa u kurzoru, Časovač — Doplněk ověřen v balíčku · Backpack 0.4.0-preview.4 / SDK 1.1. Kreslení, Ukazatel rozložení — Doplněk plánován. Vzhled, uložené profily, soukromí zadávání a správa doplňků jsou infrastruktura aplikace, nikoli samostatné doplňky."
+      ],
+      [
+        "Lze Backpack a doplňky stáhnout?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Veřejný balíček zatím není dostupný Lupa, Zaměření, Lupa u kurzoru, Časovač — Doplněk ověřen v balíčku · Backpack 0.4.0-preview.4 / SDK 1.1. Kreslení, Ukazatel rozložení — Doplněk plánován."
+      ],
+      [
+        "Jak se rozšíření instalují?",
+        "Doplňky → Importovat doplněk → .bppkg. Import kontroluje a rozbaluje bez spuštění kódu či udělení důvěry. Nové i aktualizované doplňky jsou vypnuté; první zapnutí vyžaduje potvrzení."
+      ],
+      [
+        "Jsou doplňky bezpečně izolovány?",
+        "Používejte důvěryhodné zdroje. Oddělené procesy mají vaše práva a pomáhají zvládat chyby, ale nejsou sandbox. Možnosti manifestu omezují rozhraní Backpack, ne všechny činnosti kódu v systému."
+      ],
+      [
+        "Jak začít vlastní nástroj?",
+        "F1 → Doplňky vysvětluje kontrakt, životní cyklus, příkazy, nastavení, jazyky a sestavení časovače. Připravují se podrobné návody a funkční příklady; nové podmínky SDK umožní volnou tvorbu vlastních doplňků. Veřejné odkazy budou doplněny."
+      ],
+      [
+        "Chrání soukromí každé pole?",
+        "Univerzální detekce se neslibuje. Chráněné či neznámé zadávání může být skryto, ale asynchronní detekce fokusu má limity. Před citlivým zadáváním ručně skryjte zobrazení. Důvěra v doplňky je samostatná."
+      ],
+      [
+        "Jaké systémy a licence?",
+        "Ověřený balíček pro Windows 10/11 x64 s .NET. Backpack používá PolyForm Strict 1.0.0 a není open source. Podmínky SDK/příkladů se aktualizují."
+      ]
+    ]
+  }
+}

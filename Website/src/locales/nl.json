@@ -1,0 +1,416 @@
+{
+  "content": {
+    "title": "Backpack — Duidelijke acties. Eigen hulpmiddelen.",
+    "description": "Maak presentaties, lessen en schermopnamen makkelijker te volgen. Toon elke toets en klik. Voeg hulpmiddelen toe als onafhankelijke plugins of ontdek hoe u er zelf een kunt maken.",
+    "nav": [
+      "Functies",
+      "Hulpmiddelen",
+      "Downloaden",
+      "Help"
+    ],
+    "skip": "Naar de inhoud",
+    "menu": "Menu",
+    "language": "Taal",
+    "close": "Menu sluiten",
+    "sceneNote": [
+      "Elke actie",
+      "helder in beeld."
+    ],
+    "toolkit": "HULPMIDDELEN",
+    "previewLabel": "Voorvertoning",
+    "signedLabel": "Digitaal ondertekend",
+    "unsignedLabel": "Niet ondertekend",
+    "publishedLabel": "Gepubliceerd",
+    "unpublishedLabel": "Niet gepubliceerd",
+    "eyebrow": "Maak het belangrijke zichtbaar.",
+    "badge": "Een nieuwe naam. Dezelfde aandacht voor detail.",
+    "hero": [
+      "Elke actie",
+      "op het scherm",
+      "helder in beeld."
+    ],
+    "intro": "Maak presentaties, lessen en schermopnamen makkelijker te volgen. Toon elke toets en klik.",
+    "primary": "Ontdek de hulpmiddelen",
+    "secondary": "Versiestatus",
+    "platform": "Windows 10 / 11 · x64 · Voorvertoning",
+    "pause": "Animaties pauzeren",
+    "play": "Animaties afspelen",
+    "reduced": "Minder beweging ingeschakeld",
+    "categories": [
+      "Toetsaanslagen",
+      "Muisindicator",
+      "Plugins",
+      "MAAK UW EIGEN HULPMIDDEL",
+      "Profielen en stijlen"
+    ],
+    "overviewTag": "INGEBOUWD IN BACKPACK",
+    "overviewTitle": [
+      "Alles wat u nodig hebt.",
+      "Precies waar het helpt."
+    ],
+    "overviewText": "Toetsen en muisvisualisatie zijn de twee hulpmiddelen in de kern van Backpack.",
+    "explore": "Ontdek de hulpmiddelen",
+    "interface": "Demonstratie van het nieuwe model",
+    "interfaceNote": "Gesimuleerde rondleiding door de beoogde interface. Import en vertrouwen bestaan in preview.4; de scène is geen schermafbeelding of bewijs dat alle plugins klaar zijn.",
+    "home": "Start",
+    "appearance": "Weergave",
+    "keys": "Toetsen en combinaties",
+    "mouse": "Muis",
+    "focus": "Focus",
+    "drawing": "Tekenen",
+    "profiles": "Profielen",
+    "lens": "Vergrootglas",
+    "dimming": "Omgeving dimmen",
+    "zoom": "Vergroting",
+    "size": "Gebiedsgrootte",
+    "radius": "Hoekafronding",
+    "border": "Kaderkleur",
+    "tray": "Achtergrond onder kader behouden",
+    "toolsTag": "HULPMIDDELEN",
+    "toolsTitle": "Begin met de basis.",
+    "toolsText": "Gesimuleerde invoer. Beschermde toetsen worden nooit getoond. Toetsenbord en scherm worden niet vastgelegd.",
+    "preview": "In geverifieerde voorvertoning",
+    "development": "In ontwikkeling",
+    "concept": "Conceptdemonstratie",
+    "cards": [
+      [
+        "Toetsaanslagen",
+        "Elke sneltoets duidelijk in beeld.",
+        "Leesbare toetsen, natuurlijke combinaties en vijf weergavestijlen."
+      ],
+      [
+        "Muisindicator",
+        "Een aanwijzer om te volgen.",
+        "Links klikken, rechts klikken en de scrollrichting op een indicator naast de aanwijzer."
+      ],
+      [
+        "Vergrootglas",
+        "Vergrootglas",
+        "Verplaats een afzonderlijk vergroot beeld van het gekozen gebied."
+      ],
+      [
+        "Tekenen",
+        "Tekenen",
+        "Tijdelijke notities, vormen en tekst tijdens uw uitleg."
+      ],
+      [
+        "Invoerprivacy, afzonderlijk.",
+        "Invoerprivacy, afzonderlijk.",
+        "De geverifieerde versie verbergt toetsen bij gedetecteerde beschermde invoer. Detectie kent grenzen en een bekende race met focusmeldingen: verberg handmatig vóór gevoelige invoer. Vertrouwen in code is een aparte keuze."
+      ],
+      [
+        "Profielen en stijlen",
+        "Instellingen die van u blijven.",
+        "Weergave, opgeslagen profielen, invoerprivacy en pluginbeheer zijn infrastructuur, geen losse plugins."
+      ]
+    ],
+    "styles": [
+      "Licht",
+      "Donker",
+      "Smaragd"
+    ],
+    "renderers": [
+      "PBT",
+      "Minimaal",
+      "Laptop"
+    ],
+    "chooseStyle": "Weergave",
+    "chooseProfile": "Profielen",
+    "chooseFocus": "Focus",
+    "dimNote": "Plugin in pakket geverifieerd · Backpack 0.4.0-preview.4 / SDK 1.1. Openbaar pakket nog niet beschikbaar",
+    "numberNote": "Demonstratie van het nieuwe model",
+    "safe": "Beschermd veld",
+    "ordinary": "Bericht",
+    "privacyNote": "De geverifieerde versie verbergt toetsen bij gedetecteerde beschermde invoer. Detectie kent grenzen en een bekende race met focusmeldingen: verberg handmatig vóór gevoelige invoer. Vertrouwen in code is een aparte keuze.",
+    "pluginTitle": "De hulpmiddelen voor uw verhaal.",
+    "pluginText": "Uitbreidingen van de Backpack-auteur zijn apart toe te voegen en dienen als voorbeelden voor toekomstige eigen plugins.",
+    "downloadTag": "Laatst geverifieerd pakket",
+    "downloadTitle": [
+      "Een helderder scherm.",
+      "Een betere uitleg."
+    ],
+    "downloadText": "Openbaar pakket nog niet beschikbaar",
+    "preparing": "Openbare download wordt voorbereid",
+    "packageLabel": "Laatst geverifieerd pakket",
+    "unsigned": "Niet ondertekend · Niet gepubliceerd",
+    "release": "Versieopmerkingen lezen",
+    "download": "Downloaden voor Windows",
+    "checksum": "SHA-256 van geverifieerd pakket",
+    "checksumNote": "Identificeert het lokaal geverifieerde pakket. Deze website verspreidt geen pakket.",
+    "license": "Licentie",
+    "helpTag": "Help",
+    "helpTitle": "Voor uw volgende presentatie.",
+    "faq": [
+      [
+        "Wat hoort bij de toepassing?",
+        "Toetsen en muisvisualisatie zijn de twee hulpmiddelen in de kern van Backpack. Vergrootglas, Focus, Cursorvergrootglas, Timer — Plugin in pakket geverifieerd · Backpack 0.4.0-preview.4 / SDK 1.1. Tekenen, Indelingsindicator — Plugin gepland. Weergave, opgeslagen profielen, invoerprivacy en pluginbeheer zijn infrastructuur, geen losse plugins."
+      ],
+      [
+        "Kan ik Backpack en plugins downloaden?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Openbaar pakket nog niet beschikbaar Vergrootglas, Focus, Cursorvergrootglas, Timer — Plugin in pakket geverifieerd · Backpack 0.4.0-preview.4 / SDK 1.1. Tekenen, Indelingsindicator — Plugin gepland."
+      ],
+      [
+        "Hoe installeer ik uitbreidingen?",
+        "Plugins → Plugin importeren → .bppkg. Import controleert en pakt uit zonder code te starten of vertrouwen te geven. Nieuwe en bijgewerkte plugins staan uit; eerste inschakeling vraagt bevestiging."
+      ],
+      [
+        "Zijn plugins veilig geïsoleerd?",
+        "Gebruik vertrouwde bronnen. Aparte processen hebben uw rechten en helpen fouten afhandelen, maar zijn geen sandbox. Manifestmogelijkheden beperken de Backpack-interface, niet alle acties op de computer."
+      ],
+      [
+        "Hoe begin ik een hulpmiddel?",
+        "F1 → Plugins behandelt contract, levenscyclus, opdrachten, instellingen, talen en timerbouw. Gedetailleerde gidsen en werkende voorbeelden worden voorbereid; de nieuwe SDK-voorwaarden zullen het vrij maken van eigen plugins mogelijk maken. Openbare links volgen."
+      ],
+      [
+        "Beschermt privacy elk veld?",
+        "Geen universele detectie beloofd. Beschermde of onbekende invoer kan verborgen worden, maar asynchrone focusdetectie heeft grenzen. Verberg vóór gevoelige invoer. Pluginvertrouwen is een afzonderlijk besluit."
+      ],
+      [
+        "Welke systemen en licentie?",
+        "Geverifieerd pakket voor Windows 10/11 x64 met .NET. Backpack gebruikt PolyForm Strict 1.0.0 en is geen open source. SDK-/voorbeeldvoorwaarden worden bijgewerkt."
+      ]
+    ],
+    "footer": "Kleine hulpmiddelen. Heldere verhalen.",
+    "author": "Gemaakt door",
+    "back": "Naar boven",
+    "notice": "Demonstratie van het nieuwe model",
+    "madeIn": "Gemaakt in Oekraïne.",
+    "program": {
+      "settings": "App-instellingen",
+      "privacy": "Privacy",
+      "about": "Over",
+      "importPlugin": "Plugin importeren",
+      "view": "Weergave",
+      "cards": "Kaarten",
+      "list": "Lijst",
+      "duration": "Duur",
+      "minutes": "Minuten",
+      "seconds": "Seconden",
+      "commands": "Opdrachten"
+    },
+    "carousel": {
+      "previous": "Vorige",
+      "next": "Volgende"
+    }
+  },
+  "demo": {
+    "cursorTag": "Cursorvergrootglas",
+    "cursorTitle": "Cursorvergrootglas",
+    "cursorDescription": "Vergroot details met een vergrootglas dat de aanwijzer volgt.",
+    "cursorCaption": "Vergrootglas rond de aanwijzer · 2,5×",
+    "windowTag": "Vergrootglas",
+    "windowTitle": "Vergrootglas",
+    "windowDescription": "Verplaats een afzonderlijk vergroot beeld van het gekozen gebied.",
+    "windowLabel": "Vergrootglas",
+    "windowCaption": "Apart, verplaatsbaar vergrootvenster · 2,5×",
+    "profileHeading": "Eén gereedschapskist. Uw eigen stijl.",
+    "rightShift": "Rechter Shift",
+    "layoutCode": "NL",
+    "families": [
+      "Laag profiel",
+      "Laptop",
+      "PBT",
+      "Minimaal",
+      "3D"
+    ],
+    "familyPresets": [
+      "Laag profiel",
+      "Laptop",
+      "PBT",
+      "Minimaal",
+      "3D"
+    ],
+    "profiles": [
+      "Crème",
+      "Grafiet",
+      "Munt"
+    ],
+    "profileNames": [
+      "PBT · Crème",
+      "Laag profiel · Grafiet",
+      "3D · Munt"
+    ],
+    "mouseStyles": [
+      "Omtrek",
+      "Gevuld",
+      "Retro"
+    ],
+    "mouseNames": [
+      "Omtrek",
+      "Gevuld",
+      "Retro"
+    ],
+    "mouseStyle": "Muisindicator",
+    "normalField": "Bericht",
+    "passwordField": "Beschermd veld",
+    "safePhrase": "Hallo team",
+    "returnPhrase": "Nieuw idee",
+    "privacySteps": [
+      "Berichtveld selecteren",
+      "Alleen normale toetsaanslagen worden getoond",
+      "Bescherming vóór het eerste wachtwoordteken",
+      "Nieuwe tekst. Alleen nieuwe toetsen."
+    ],
+    "mouseSteps": [
+      "Een item selecteren",
+      "Contextmenu openen",
+      "Door de lijst scrollen"
+    ],
+    "selected": "Geselecteerd",
+    "context": [
+      "Openen",
+      "Kopiëren",
+      "Details"
+    ],
+    "board": [
+      "Ontwerpnotities",
+      "Schermhulpmiddelen",
+      "Volgende les"
+    ],
+    "boardTag": "PROJECT",
+    "boardHeading": "Een helder idee",
+    "boardRows": [
+      "Sneltoetsen",
+      "Focusgebied",
+      "Volgende stap"
+    ],
+    "lensScale": "Live vergroting",
+    "drawSteps": [
+      "Pijlgereedschap kiezen",
+      "Teken een lijn en daarna een vorm"
+    ],
+    "interfaceSteps": [
+      "Vergrotingsschuif verplaatsen",
+      "Vergrootvenster toont het gemarkeerde gebied",
+      "Omgeving dimmen"
+    ],
+    "keySequence": "Druk. Houd vast. Laat los.",
+    "keyExamples": "Enter · Spatie · modificatietoetsen",
+    "space": "Spatie",
+    "shift": "Shift",
+    "layout": "Toetsenbordindeling",
+    "privacyStatic": "Gesimuleerde invoer. Beschermde toetsen worden nooit getoond. Toetsenbord en scherm worden niet vastgelegd."
+  },
+  "model": {
+    "title": "Backpack — Duidelijke acties. Eigen hulpmiddelen.",
+    "intro": "Maak presentaties, lessen en schermopnamen makkelijker te volgen. Toon elke toets en klik.",
+    "extension": "Voeg hulpmiddelen toe als onafhankelijke plugins of ontdek hoe u er zelf een kunt maken.",
+    "coreTag": "INGEBOUWD IN BACKPACK",
+    "coreTitle": "Begin met de basis.",
+    "coreText": "Toetsen en muisvisualisatie zijn de twee hulpmiddelen in de kern van Backpack.",
+    "pluginsTag": "PLUGINS VAN DE AUTEUR",
+    "pluginsTitle": "De hulpmiddelen voor uw verhaal.",
+    "pluginsText": "Uitbreidingen van de Backpack-auteur zijn apart toe te voegen en dienen als voorbeelden voor toekomstige eigen plugins.",
+    "transitionNote": "Vergrootglas, Focus, Cursorvergrootglas, Timer — Plugin in pakket geverifieerd · Backpack 0.4.0-preview.4 / SDK 1.1. Tekenen, Indelingsindicator — Plugin gepland.",
+    "builtin": "Ingebouwd",
+    "authorPlugin": "Plugin van de auteur",
+    "notPublished": "Openbaar pakket nog niet beschikbaar",
+    "byAuthor": "Auteur",
+    "statuses": {
+      "planned": "Plugin gepland",
+      "source": "Plugin in broncode",
+      "verified": "Plugin in pakket geverifieerd"
+    },
+    "availability": {
+      "planned": "Het hulpmiddel werkt in preview.4; de onafhankelijke plugin is nog niet geïmplementeerd of verpakt.",
+      "source": "Vergrootglas, Focus, Cursorvergrootglas, Timer — Plugin in pakket geverifieerd · Backpack 0.4.0-preview.4 / SDK 1.1. Tekenen, Indelingsindicator — Plugin gepland.",
+      "verified": "Plugin in pakket geverifieerd · Backpack 0.4.0-preview.4 / SDK 1.1. Openbaar pakket nog niet beschikbaar"
+    },
+    "pluginNames": [
+      "Tekenen",
+      "Indelingsindicator",
+      "Vergrootglas",
+      "Focus",
+      "Cursorvergrootglas",
+      "Timer"
+    ],
+    "pluginBenefits": [
+      "Tijdelijke notities, vormen en tekst tijdens uw uitleg.",
+      "Maak een wisseling van invoertaal zichtbaar.",
+      "Verplaats een afzonderlijk vergroot beeld van het gekozen gebied.",
+      "Dim de omgeving en houd het gebied helder op de oorspronkelijke grootte.",
+      "Vergroot details met een vergrootglas dat de aanwijzer volgt.",
+      "Toon een aftelling, pauzeer en hervat wanneer nodig."
+    ],
+    "developerTag": "MAAK UW EIGEN HULPMIDDEL",
+    "developerTitle": "Uw taak. Uw volgende hulpmiddel.",
+    "developerText": "De auteursplugins tonen het contract met Backpack. Gedetailleerde instructies en werkende voorbeelden worden voorbereid op basis van de timer.",
+    "developerSteps": [
+      [
+        "Opdrachten en levenscyclus",
+        "De SDK verbindt starten, stoppen en opdrachten met Backpack. Opdrachten kunnen sneltoetsen krijgen."
+      ],
+      [
+        "Instellingen en interface",
+        "Het manifest beschrijft instellingen; Backpack tekent bedieningselementen en overlaypanelen. Kleuren zijn expliciete parameters, geen gegarandeerde automatische thema-API."
+      ],
+      [
+        "Lokalisatie en voorbeelden",
+        "Vertaalde manifestlabels en Context.Locale ondersteunen de app-talen. De help behandelt timer, bouwen, verpakken en .bppkg-import."
+      ]
+    ],
+    "docsNotice": "F1 → Plugins bevat contract-, bouw- en importinstructies. Openbare links naar SDK-documentatie en voorbeeldbronnen ontbreken nog.",
+    "licenseNote": "De SDK-voorwaarden worden bijgewerkt om het vrij maken van eigen plugins mogelijk te maken. Gedetailleerde stapsgewijze bouw- en importinstructies en werkende voorbeelden worden voorbereid.",
+    "applicationTag": "ONDERDEEL VAN DE TOEPASSING",
+    "applicationTitle": "Instellingen die van u blijven.",
+    "applicationText": "Weergave, opgeslagen profielen, invoerprivacy en pluginbeheer zijn infrastructuur, geen losse plugins.",
+    "privacyTitle": "Invoerprivacy, afzonderlijk.",
+    "privacyText": "De geverifieerde versie verbergt toetsen bij gedetecteerde beschermde invoer. Detectie kent grenzen en een bekende race met focusmeldingen: verberg handmatig vóór gevoelige invoer. Vertrouwen in code is een aparte keuze.",
+    "workflowTitle": "Demonstratie van het nieuwe model",
+    "workflowNote": "Gesimuleerde rondleiding door de beoogde interface. Import en vertrouwen bestaan in preview.4; de scène is geen schermafbeelding of bewijs dat alle plugins klaar zijn.",
+    "workflowSteps": [
+      "Begin met ingebouwde toetsen en muis",
+      "Open de pluginsectie",
+      "Kies de timer van de auteur",
+      "Bevestig vertrouwen en schakel in",
+      "Het extra hulpmiddel verschijnt"
+    ],
+    "coreTab": "Ingebouwd",
+    "pluginsTab": "Plugins",
+    "enable": "Inschakelen",
+    "trust": "Schakel alleen code van vertrouwde bronnen in. Een apart proces is geen sandbox.",
+    "enabled": "Ingeschakeld",
+    "start": "Start",
+    "pause": "Pauze",
+    "resume": "Hervatten",
+    "reset": "Herstellen",
+    "finished": "Voltooid",
+    "timerCaption": "Gesimuleerde aftelling · pauze · hervatten",
+    "layoutCaption": "Gesimuleerde wisseling van invoertaal",
+    "layoutSequence": [
+      "English",
+      "Українська",
+      "Deutsch"
+    ],
+    "faq": [
+      [
+        "Wat hoort bij de toepassing?",
+        "Toetsen en muisvisualisatie zijn de twee hulpmiddelen in de kern van Backpack. Vergrootglas, Focus, Cursorvergrootglas, Timer — Plugin in pakket geverifieerd · Backpack 0.4.0-preview.4 / SDK 1.1. Tekenen, Indelingsindicator — Plugin gepland. Weergave, opgeslagen profielen, invoerprivacy en pluginbeheer zijn infrastructuur, geen losse plugins."
+      ],
+      [
+        "Kan ik Backpack en plugins downloaden?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Openbaar pakket nog niet beschikbaar Vergrootglas, Focus, Cursorvergrootglas, Timer — Plugin in pakket geverifieerd · Backpack 0.4.0-preview.4 / SDK 1.1. Tekenen, Indelingsindicator — Plugin gepland."
+      ],
+      [
+        "Hoe installeer ik uitbreidingen?",
+        "Plugins → Plugin importeren → .bppkg. Import controleert en pakt uit zonder code te starten of vertrouwen te geven. Nieuwe en bijgewerkte plugins staan uit; eerste inschakeling vraagt bevestiging."
+      ],
+      [
+        "Zijn plugins veilig geïsoleerd?",
+        "Gebruik vertrouwde bronnen. Aparte processen hebben uw rechten en helpen fouten afhandelen, maar zijn geen sandbox. Manifestmogelijkheden beperken de Backpack-interface, niet alle acties op de computer."
+      ],
+      [
+        "Hoe begin ik een hulpmiddel?",
+        "F1 → Plugins behandelt contract, levenscyclus, opdrachten, instellingen, talen en timerbouw. Gedetailleerde gidsen en werkende voorbeelden worden voorbereid; de nieuwe SDK-voorwaarden zullen het vrij maken van eigen plugins mogelijk maken. Openbare links volgen."
+      ],
+      [
+        "Beschermt privacy elk veld?",
+        "Geen universele detectie beloofd. Beschermde of onbekende invoer kan verborgen worden, maar asynchrone focusdetectie heeft grenzen. Verberg vóór gevoelige invoer. Pluginvertrouwen is een afzonderlijk besluit."
+      ],
+      [
+        "Welke systemen en licentie?",
+        "Geverifieerd pakket voor Windows 10/11 x64 met .NET. Backpack gebruikt PolyForm Strict 1.0.0 en is geen open source. SDK-/voorbeeldvoorwaarden worden bijgewerkt."
+      ]
+    ]
+  }
+}

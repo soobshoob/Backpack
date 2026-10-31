@@ -1,0 +1,19 @@
+{
+  "$schema": "../keyoverlay-theme.schema.json",
+  "format": "keyoverlay-theme",
+  "formatVersion": 1,
+  "id": "examples.graphite-night",
+  "name": "Графит, ночь",
+  "description": "Тёмный lowprofile для светлых и пёстрых фонов: графитовые клавиши, тёплая подпись, модификаторы выделены бирюзовым. Поля, которых нет в файле, берутся из значений по умолчанию.",
+  "author": "KeyOverlay",
+  "version": "1.0.0",
+  "license": "CC0-1.0",
+  "keycap": { "style": "lowprofile", "size": 30 },
+  "colors": { "primary": "#2E3138", "secondary": "#16181C" },
+  "text": { "color": "#F2E6D0", "caps": "uppercase" },
+  "modifier": { "highlight": true, "primary": "#1F6F78", "secondary": "#0E3A3F", "text": "#E8FFFB", "border": "#0E3A3F" },
+  "border": { "width": 1.5, "color": "#0B0C0E", "radius": 0.35 },
+  "group": { "background": { "enabled": true, "color": "#0B0C0ECC" } },
+  "animation": { "type": "float", "durationMs": 200 },
+  "languageIndicator": { "background": "#16181CE6", "foreground": "#F2E6D0", "border": "#1F6F78", "textSize": 36, "showLayoutName": "ambiguous" }
+}

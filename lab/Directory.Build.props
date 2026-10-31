@@ -1,0 +1,32 @@
+<Project>
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <IsPackable>false</IsPackable>
+    <!-- Стенд: без телеметрии сборки и без генерации дампов. -->
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+
+    <!--
+      Версия выпуска (SemVer). Канал и дата выпуска попадают в метаданные исполняемого файла и показываются в «О программе».
+      Дата выпуска задаётся явно (скрипт упаковки, -ReleaseDate), а не берётся из времени сборки; пустая — сборка разработчика.
+      Репозиторий обновлений («владелец/репозиторий» GitHub) задаёт владелец; пустой — «источник обновлений не настроен».
+    -->
+    <VersionPrefix>0.4.0</VersionPrefix>
+    <VersionSuffix>preview.6</VersionSuffix>
+    <KeyOverlayChannel>Preview</KeyOverlayChannel>
+    <KeyOverlayReleaseDate></KeyOverlayReleaseDate>
+    <KeyOverlayUpdateRepository></KeyOverlayUpdateRepository>
+    <!-- Лицензия ядра (Phase 4I): Mozilla Public License 2.0 — официальный текст в LICENSE (корень), область — LICENSING.md.
+         SDK (lab/sdk) и плагины от создателя (lab/samples) переопределяют это в своих проектах: до решения владельца — PolyForm Strict. -->
+    <KeyOverlayLicense>Mozilla Public License 2.0</KeyOverlayLicense>
+    <KeyOverlayLicenseUrl>https://www.mozilla.org/MPL/2.0/</KeyOverlayLicenseUrl>
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+    <Deterministic>true</Deterministic>
+    <Authors>soobshoob</Authors>
+    <Product>Backpack</Product>
+    <Copyright>Copyright soobshoob</Copyright>
+  </PropertyGroup>
+</Project>

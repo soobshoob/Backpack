@@ -1,0 +1,416 @@
+{
+  "content": {
+    "title": "Backpack — Tydliga handlingar. Egna verktyg.",
+    "description": "Gör presentationer, lektioner och skärminspelningar lättare att följa. Visa varje tangent och klick. Lägg till verktyg som fristående insticksprogram eller upptäck hur du skapar ett eget.",
+    "nav": [
+      "Funktioner",
+      "Verktyg",
+      "Hämta",
+      "Hjälp"
+    ],
+    "skip": "Till innehållet",
+    "menu": "Meny",
+    "language": "Språk",
+    "close": "Stäng menyn",
+    "sceneNote": [
+      "Varje handling",
+      "tydligt visad."
+    ],
+    "toolkit": "VERKTYG",
+    "previewLabel": "Förhandsversion",
+    "signedLabel": "Digitalt signerad",
+    "unsignedLabel": "Osignerad",
+    "publishedLabel": "Publicerad",
+    "unpublishedLabel": "Ej publicerad",
+    "eyebrow": "Gör det viktiga synligt.",
+    "badge": "Ett nytt namn. Samma känsla för detaljer.",
+    "hero": [
+      "Varje handling",
+      "på skärmen",
+      "tydligt visad."
+    ],
+    "intro": "Gör presentationer, lektioner och skärminspelningar lättare att följa. Visa varje tangent och klick.",
+    "primary": "Utforska verktygen",
+    "secondary": "Versionsstatus",
+    "platform": "Windows 10 / 11 · x64 · Förhandsversion",
+    "pause": "Pausa animationer",
+    "play": "Spela animationer",
+    "reduced": "Minskad rörelse",
+    "categories": [
+      "Tangenttryckningar",
+      "Musindikator",
+      "Insticksprogram",
+      "SKAPA DITT EGET VERKTYG",
+      "Profiler och stilar"
+    ],
+    "overviewTag": "INBYGGT I BACKPACK",
+    "overviewTitle": [
+      "Allt du behöver.",
+      "Precis där du behöver det."
+    ],
+    "overviewText": "Tangenter och musvisualisering är de två verktygen i Backpacks kärna.",
+    "explore": "Utforska verktygen",
+    "interface": "Demonstration av den nya modellen",
+    "interfaceNote": "Simulerad genomgång av målgränssnittet. Import och tillit finns i preview.4; scenen är ingen skärmbild eller bevis för att alla tillägg är klara.",
+    "home": "Start",
+    "appearance": "Utseende",
+    "keys": "Tangenter och kombinationer",
+    "mouse": "Mus",
+    "focus": "Fokus",
+    "drawing": "Ritning",
+    "profiles": "Profiler",
+    "lens": "Förstoringsglas",
+    "dimming": "Mörklägg omgivningen",
+    "zoom": "Förstoring",
+    "size": "Områdets storlek",
+    "radius": "Hörnradie",
+    "border": "Ramfärg",
+    "tray": "Behåll bakgrunden under ramen",
+    "toolsTag": "VERKTYG",
+    "toolsTitle": "Börja med det viktigaste.",
+    "toolsText": "Simulerad inmatning. Skyddade tangenter visas aldrig. Tangentbord och skärm fångas inte.",
+    "preview": "I verifierad förhandsversion",
+    "development": "Under utveckling",
+    "concept": "Konceptdemo",
+    "cards": [
+      [
+        "Tangenttryckningar",
+        "Varje kortkommando, tydligt visat.",
+        "Läsbara tangenter, naturliga kombinationer och fem visningsstilar."
+      ],
+      [
+        "Musindikator",
+        "En pekare som är lätt att följa.",
+        "Vänsterklick, högerklick och rullningsriktning i en indikator bredvid pekaren."
+      ],
+      [
+        "Förstoringsglas",
+        "Förstoringsglas",
+        "Flytta en separat förstorad vy av valt område."
+      ],
+      [
+        "Ritning",
+        "Ritning",
+        "Tillfälliga anteckningar, former och text medan du förklarar."
+      ],
+      [
+        "Inmatningsintegritet, separat.",
+        "Inmatningsintegritet, separat.",
+        "Den verifierade versionen döljer tangenter vid upptäckt skyddad inmatning. Upptäckten har begränsningar och en känd kapplöpning i fokusmeddelanden: dölj manuellt före känslig inmatning. Tillit till kod är ett separat beslut."
+      ],
+      [
+        "Profiler och stilar",
+        "En uppsättning som förblir din.",
+        "Utseende, sparade profiler, inmatningsintegritet och hantering av insticksprogram är infrastruktur, inte separata tillägg."
+      ]
+    ],
+    "styles": [
+      "Ljus",
+      "Mörk",
+      "Smaragd"
+    ],
+    "renderers": [
+      "PBT",
+      "Minimal",
+      "Bärbar"
+    ],
+    "chooseStyle": "Utseende",
+    "chooseProfile": "Profiler",
+    "chooseFocus": "Fokus",
+    "dimNote": "Insticksprogram verifierat i paket · Backpack 0.4.0-preview.4 / SDK 1.1. Offentligt paket saknas ännu",
+    "numberNote": "Demonstration av den nya modellen",
+    "safe": "Skyddat fält",
+    "ordinary": "Meddelande",
+    "privacyNote": "Den verifierade versionen döljer tangenter vid upptäckt skyddad inmatning. Upptäckten har begränsningar och en känd kapplöpning i fokusmeddelanden: dölj manuellt före känslig inmatning. Tillit till kod är ett separat beslut.",
+    "pluginTitle": "Verktygen för din berättelse.",
+    "pluginText": "Backpack-upphovspersonens tillägg läggs till oberoende och fungerar som exempel för framtida egna insticksprogram.",
+    "downloadTag": "Senast verifierade paket",
+    "downloadTitle": [
+      "En tydligare skärm.",
+      "En bättre förklaring."
+    ],
+    "downloadText": "Offentligt paket saknas ännu",
+    "preparing": "Offentlig nedladdning förbereds",
+    "packageLabel": "Senast verifierade paket",
+    "unsigned": "Osignerad · Ej publicerad",
+    "release": "Läs versionsinformation",
+    "download": "Hämta för Windows",
+    "checksum": "Verifierat pakets SHA-256",
+    "checksumNote": "Identifierar det lokalt verifierade paketet. Webbplatsen distribuerar inget programpaket.",
+    "license": "Licens",
+    "helpTag": "Hjälp",
+    "helpTitle": "Inför nästa presentation.",
+    "faq": [
+      [
+        "Vad ingår i programmet?",
+        "Tangenter och musvisualisering är de två verktygen i Backpacks kärna. Förstoringsglas, Fokus, Pekarlupp, Timer — Insticksprogram verifierat i paket · Backpack 0.4.0-preview.4 / SDK 1.1. Ritning, Layoutindikator — Insticksprogram planerat. Utseende, sparade profiler, inmatningsintegritet och hantering av insticksprogram är infrastruktur, inte separata tillägg."
+      ],
+      [
+        "Kan Backpack och tilläggen hämtas?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Offentligt paket saknas ännu Förstoringsglas, Fokus, Pekarlupp, Timer — Insticksprogram verifierat i paket · Backpack 0.4.0-preview.4 / SDK 1.1. Ritning, Layoutindikator — Insticksprogram planerat."
+      ],
+      [
+        "Hur installeras tillägg?",
+        "Insticksprogram → Importera → .bppkg. Import kontrollerar och packar upp utan kodkörning eller tillit. Nya och uppdaterade tillägg är avstängda; första aktivering kräver bekräftelse."
+      ],
+      [
+        "Är tilläggen säkert isolerade?",
+        "Använd betrodda källor. Separata processer har dina rättigheter och hjälper vid fel, men är ingen sandlåda. Manifestets förmågor begränsar Backpack-gränssnittet, inte alla systemåtgärder."
+      ],
+      [
+        "Hur börjar jag ett verktyg?",
+        "F1 → Insticksprogram beskriver kontrakt, livscykel, kommandon, inställningar, språk och timerbygge. Detaljerade guider och fungerande exempel förbereds; SDK-villkoren ska möjliggöra fritt skapande av egna tillägg. Offentliga länkar saknas ännu."
+      ],
+      [
+        "Skyddar integritet alla fält?",
+        "Ingen universell upptäckt utlovas. Skyddad eller okänd inmatning kan döljas, men asynkron fokusupptäckt har begränsningar. Dölj före känslig inmatning. Tillit till tillägg är separat."
+      ],
+      [
+        "Vilka system och licens gäller?",
+        "Verifierat paket för Windows 10/11 x64 med .NET. PolyForm Strict 1.0.0, inte öppen källkod. SDK-/exempelvillkoren håller på att uppdateras."
+      ]
+    ],
+    "footer": "Små verktyg. Tydligare berättelser.",
+    "author": "Skapad av",
+    "back": "Till toppen",
+    "notice": "Demonstration av den nya modellen",
+    "madeIn": "Tillverkat i Ukraina.",
+    "program": {
+      "settings": "Appinställningar",
+      "privacy": "Integritet",
+      "about": "Om",
+      "importPlugin": "Importera tillägg",
+      "view": "Visa",
+      "cards": "Kort",
+      "list": "Lista",
+      "duration": "Varaktighet",
+      "minutes": "Minuter",
+      "seconds": "Sekunder",
+      "commands": "Kommandon"
+    },
+    "carousel": {
+      "previous": "Föregående",
+      "next": "Nästa"
+    }
+  },
+  "demo": {
+    "cursorTag": "Pekarlupp",
+    "cursorTitle": "Pekarlupp",
+    "cursorDescription": "Förstora detaljer med en lupp som följer pekaren.",
+    "cursorCaption": "Lupp runt pekaren · 2,5×",
+    "windowTag": "Förstoringsglas",
+    "windowTitle": "Förstoringsglas",
+    "windowDescription": "Flytta en separat förstorad vy av valt område.",
+    "windowLabel": "Förstoringsglas",
+    "windowCaption": "Separat flyttbart förstoringsfönster · 2,5×",
+    "profileHeading": "En verktygslåda. Ditt utseende.",
+    "rightShift": "Höger Skift",
+    "layoutCode": "SV",
+    "families": [
+      "Låg profil",
+      "Bärbar",
+      "PBT",
+      "Minimal",
+      "3D"
+    ],
+    "familyPresets": [
+      "Låg profil",
+      "Bärbar",
+      "PBT",
+      "Minimal",
+      "3D"
+    ],
+    "profiles": [
+      "Kräm",
+      "Grafit",
+      "Mynta"
+    ],
+    "profileNames": [
+      "PBT · Kräm",
+      "Låg profil · Grafit",
+      "3D · Mynta"
+    ],
+    "mouseStyles": [
+      "Kontur",
+      "Fylld",
+      "Retro"
+    ],
+    "mouseNames": [
+      "Kontur",
+      "Fylld",
+      "Retro"
+    ],
+    "mouseStyle": "Musindikator",
+    "normalField": "Meddelande",
+    "passwordField": "Skyddat fält",
+    "safePhrase": "Hej laget",
+    "returnPhrase": "Ny idé",
+    "privacySteps": [
+      "Välj meddelandefältet",
+      "Endast vanliga tangenttryckningar visas",
+      "Skydd före det första lösenordstecknet",
+      "Ny text. Endast nya tangenttryckningar."
+    ],
+    "mouseSteps": [
+      "Välj ett objekt",
+      "Öppna snabbmenyn",
+      "Rulla genom listan"
+    ],
+    "selected": "Vald",
+    "context": [
+      "Öppna",
+      "Kopiera",
+      "Detaljer"
+    ],
+    "board": [
+      "Designanteckningar",
+      "Skärmverktyg",
+      "Nästa lektion"
+    ],
+    "boardTag": "PROJEKT",
+    "boardHeading": "En tydligare idé",
+    "boardRows": [
+      "Kortkommandon",
+      "Fokusområde",
+      "Nästa steg"
+    ],
+    "lensScale": "Direktförstoring",
+    "drawSteps": [
+      "Välj pilverktyget",
+      "Rita en linje och sedan en form"
+    ],
+    "interfaceSteps": [
+      "Dra reglaget för förstoring",
+      "Förstoringsfönstret visar det markerade området",
+      "Mörklägg omgivningen"
+    ],
+    "keySequence": "Tryck. Håll. Släpp.",
+    "keyExamples": "Retur · Mellanslag · modifierare",
+    "space": "Mellanslag",
+    "shift": "Skift",
+    "layout": "Tangentbordslayout",
+    "privacyStatic": "Simulerad inmatning. Skyddade tangenter visas aldrig. Tangentbord och skärm fångas inte."
+  },
+  "model": {
+    "title": "Backpack — Tydliga handlingar. Egna verktyg.",
+    "intro": "Gör presentationer, lektioner och skärminspelningar lättare att följa. Visa varje tangent och klick.",
+    "extension": "Lägg till verktyg som fristående insticksprogram eller upptäck hur du skapar ett eget.",
+    "coreTag": "INBYGGT I BACKPACK",
+    "coreTitle": "Börja med det viktigaste.",
+    "coreText": "Tangenter och musvisualisering är de två verktygen i Backpacks kärna.",
+    "pluginsTag": "UPPHOVSPERSONENS INSTICKSPROGRAM",
+    "pluginsTitle": "Verktygen för din berättelse.",
+    "pluginsText": "Backpack-upphovspersonens tillägg läggs till oberoende och fungerar som exempel för framtida egna insticksprogram.",
+    "transitionNote": "Förstoringsglas, Fokus, Pekarlupp, Timer — Insticksprogram verifierat i paket · Backpack 0.4.0-preview.4 / SDK 1.1. Ritning, Layoutindikator — Insticksprogram planerat.",
+    "builtin": "Inbyggt",
+    "authorPlugin": "Upphovspersonens tillägg",
+    "notPublished": "Offentligt paket saknas ännu",
+    "byAuthor": "Upphovsperson",
+    "statuses": {
+      "planned": "Insticksprogram planerat",
+      "source": "Insticksprogram i källkod",
+      "verified": "Insticksprogram verifierat i paket"
+    },
+    "availability": {
+      "planned": "Verktyget fungerar i preview.4, men det fristående insticksprogrammet är ännu inte implementerat eller paketerat.",
+      "source": "Förstoringsglas, Fokus, Pekarlupp, Timer — Insticksprogram verifierat i paket · Backpack 0.4.0-preview.4 / SDK 1.1. Ritning, Layoutindikator — Insticksprogram planerat.",
+      "verified": "Insticksprogram verifierat i paket · Backpack 0.4.0-preview.4 / SDK 1.1. Offentligt paket saknas ännu"
+    },
+    "pluginNames": [
+      "Ritning",
+      "Layoutindikator",
+      "Förstoringsglas",
+      "Fokus",
+      "Pekarlupp",
+      "Timer"
+    ],
+    "pluginBenefits": [
+      "Tillfälliga anteckningar, former och text medan du förklarar.",
+      "Gör bytet av inmatningsspråk synligt.",
+      "Flytta en separat förstorad vy av valt område.",
+      "Mörklägg omgivningen och håll området tydligt i originalstorlek.",
+      "Förstora detaljer med en lupp som följer pekaren.",
+      "Visa en nedräkning, pausa och fortsätt vid behov."
+    ],
+    "developerTag": "SKAPA DITT EGET VERKTYG",
+    "developerTitle": "Din uppgift. Ditt nästa verktyg.",
+    "developerText": "Upphovspersonens tillägg visar kontraktet med Backpack. Detaljerade instruktioner förbereds med timerexemplet som utgångspunkt.",
+    "developerSteps": [
+      [
+        "Kommandon och livscykel",
+        "SDK kopplar start, stopp och kommandon till Backpack. Kommandon kan få kortkommandon."
+      ],
+      [
+        "Inställningar och gränssnitt",
+        "Manifestet beskriver inställningar; Backpack ritar kontroller och överläggspaneler. Färger är uttryckliga parametrar, inte ett utlovat automatiskt tema-API."
+      ],
+      [
+        "Lokalisering och exempel",
+        "Lokaliserade etiketter och Context.Locale stöder appens språk. Hjälpen beskriver timer, bygge, paketering och .bppkg-import."
+      ]
+    ],
+    "docsNotice": "F1 → Insticksprogram beskriver kontrakt, bygge och import. Offentliga länkar till SDK-dokumentation och exempelkällor är ännu inte konfigurerade.",
+    "licenseNote": "SDK-villkoren uppdateras för att möjliggöra fritt skapande av egna insticksprogram. Detaljerade stegvisa bygg- och importguider samt fungerande exempel förbereds.",
+    "applicationTag": "DEL AV PROGRAMMET",
+    "applicationTitle": "En uppsättning som förblir din.",
+    "applicationText": "Utseende, sparade profiler, inmatningsintegritet och hantering av insticksprogram är infrastruktur, inte separata tillägg.",
+    "privacyTitle": "Inmatningsintegritet, separat.",
+    "privacyText": "Den verifierade versionen döljer tangenter vid upptäckt skyddad inmatning. Upptäckten har begränsningar och en känd kapplöpning i fokusmeddelanden: dölj manuellt före känslig inmatning. Tillit till kod är ett separat beslut.",
+    "workflowTitle": "Demonstration av den nya modellen",
+    "workflowNote": "Simulerad genomgång av målgränssnittet. Import och tillit finns i preview.4; scenen är ingen skärmbild eller bevis för att alla tillägg är klara.",
+    "workflowSteps": [
+      "Börja med inbyggda tangenter och mus",
+      "Öppna insticksprogrammen",
+      "Välj upphovspersonens timer",
+      "Bekräfta tillit och slå på",
+      "Det extra verktyget visas"
+    ],
+    "coreTab": "Inbyggt",
+    "pluginsTab": "Insticksprogram",
+    "enable": "Slå på",
+    "trust": "Aktivera bara kod från betrodda källor. En separat process är ingen sandlåda.",
+    "enabled": "Aktiverat",
+    "start": "Starta",
+    "pause": "Paus",
+    "resume": "Fortsätt",
+    "reset": "Återställ",
+    "finished": "Klart",
+    "timerCaption": "Simulerad nedräkning · paus · fortsätt",
+    "layoutCaption": "Simulerat byte av inmatningsspråk",
+    "layoutSequence": [
+      "English",
+      "Українська",
+      "Deutsch"
+    ],
+    "faq": [
+      [
+        "Vad ingår i programmet?",
+        "Tangenter och musvisualisering är de två verktygen i Backpacks kärna. Förstoringsglas, Fokus, Pekarlupp, Timer — Insticksprogram verifierat i paket · Backpack 0.4.0-preview.4 / SDK 1.1. Ritning, Layoutindikator — Insticksprogram planerat. Utseende, sparade profiler, inmatningsintegritet och hantering av insticksprogram är infrastruktur, inte separata tillägg."
+      ],
+      [
+        "Kan Backpack och tilläggen hämtas?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Offentligt paket saknas ännu Förstoringsglas, Fokus, Pekarlupp, Timer — Insticksprogram verifierat i paket · Backpack 0.4.0-preview.4 / SDK 1.1. Ritning, Layoutindikator — Insticksprogram planerat."
+      ],
+      [
+        "Hur installeras tillägg?",
+        "Insticksprogram → Importera → .bppkg. Import kontrollerar och packar upp utan kodkörning eller tillit. Nya och uppdaterade tillägg är avstängda; första aktivering kräver bekräftelse."
+      ],
+      [
+        "Är tilläggen säkert isolerade?",
+        "Använd betrodda källor. Separata processer har dina rättigheter och hjälper vid fel, men är ingen sandlåda. Manifestets förmågor begränsar Backpack-gränssnittet, inte alla systemåtgärder."
+      ],
+      [
+        "Hur börjar jag ett verktyg?",
+        "F1 → Insticksprogram beskriver kontrakt, livscykel, kommandon, inställningar, språk och timerbygge. Detaljerade guider och fungerande exempel förbereds; SDK-villkoren ska möjliggöra fritt skapande av egna tillägg. Offentliga länkar saknas ännu."
+      ],
+      [
+        "Skyddar integritet alla fält?",
+        "Ingen universell upptäckt utlovas. Skyddad eller okänd inmatning kan döljas, men asynkron fokusupptäckt har begränsningar. Dölj före känslig inmatning. Tillit till tillägg är separat."
+      ],
+      [
+        "Vilka system och licens gäller?",
+        "Verifierat paket för Windows 10/11 x64 med .NET. PolyForm Strict 1.0.0, inte öppen källkod. SDK-/exempelvillkoren håller på att uppdateras."
+      ]
+    ]
+  }
+}

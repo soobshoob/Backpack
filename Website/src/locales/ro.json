@@ -1,0 +1,416 @@
+{
+  "content": {
+    "title": "Backpack — Acțiuni clare. Instrumentele tale.",
+    "description": "Fă prezentările, lecțiile și înregistrările mai ușor de urmărit. Arată fiecare tastă și clic. Adaugă instrumente ca pluginuri independente sau descoperă cum să creezi unul propriu.",
+    "nav": [
+      "Funcții",
+      "Instrumente",
+      "Descarcă",
+      "Ajutor"
+    ],
+    "skip": "Sari la conținut",
+    "menu": "Meniu",
+    "language": "Limbă",
+    "close": "Închide meniul",
+    "sceneNote": [
+      "Fiecare acțiune",
+      "mai clară."
+    ],
+    "toolkit": "INSTRUMENTE",
+    "previewLabel": "Previzualizare",
+    "signedLabel": "Semnat digital",
+    "unsignedLabel": "Nesemnat",
+    "publishedLabel": "Publicat",
+    "unpublishedLabel": "Nepublicat",
+    "eyebrow": "Fă vizibil ceea ce contează.",
+    "badge": "Un nume nou. Aceeași atenție la detalii.",
+    "hero": [
+      "Fiecare acțiune",
+      "pe ecran",
+      "mai clară."
+    ],
+    "intro": "Fă prezentările, lecțiile și înregistrările mai ușor de urmărit. Arată fiecare tastă și clic.",
+    "primary": "Descoperă instrumentele",
+    "secondary": "Starea versiunii",
+    "platform": "Windows 10 / 11 · x64 · Previzualizare",
+    "pause": "Întrerupe animațiile",
+    "play": "Pornește animațiile",
+    "reduced": "Mișcare redusă",
+    "categories": [
+      "Apăsări de taste",
+      "Indicator de mouse",
+      "Pluginuri",
+      "CREEAZĂ PROPRIUL INSTRUMENT",
+      "Profiluri și stiluri"
+    ],
+    "overviewTag": "INTEGRAT ÎN BACKPACK",
+    "overviewTitle": [
+      "Tot ce îți trebuie.",
+      "Exact acolo unde trebuie."
+    ],
+    "overviewText": "Tastele și vizualizarea mouse-ului sunt cele două instrumente din nucleul Backpack.",
+    "explore": "Descoperă instrumentele",
+    "interface": "Demonstrația noului model",
+    "interfaceNote": "Parcurs simulat al interfeței țintă. Importul și încrederea sunt implementate în preview.4; scena nu este o captură sau dovada că toate pluginurile sunt gata.",
+    "home": "Acasă",
+    "appearance": "Aspect",
+    "keys": "Taste și combinații",
+    "mouse": "Mouse",
+    "focus": "Focalizare",
+    "drawing": "Desen",
+    "profiles": "Profiluri",
+    "lens": "Lupă",
+    "dimming": "Întunecă împrejurimile",
+    "zoom": "Mărire",
+    "size": "Dimensiunea zonei",
+    "radius": "Raza colțurilor",
+    "border": "Culoarea ramei",
+    "tray": "Păstrează fundalul sub ramă",
+    "toolsTag": "INSTRUMENTE",
+    "toolsTitle": "Începe cu esențialul.",
+    "toolsText": "Introducere simulată. Tastele protejate nu sunt niciodată afișate. Tastatura și ecranul nu sunt capturate.",
+    "preview": "În versiunea verificată",
+    "development": "În dezvoltare",
+    "concept": "Demonstrație de concept",
+    "cards": [
+      [
+        "Apăsări de taste",
+        "Fiecare scurtătură, perfect clară.",
+        "Taste lizibile, combinații naturale și cinci stiluri de afișare."
+      ],
+      [
+        "Indicator de mouse",
+        "Un cursor ușor de urmărit.",
+        "Clic stânga, dreapta și direcția derulării pe un indicator lângă cursor."
+      ],
+      [
+        "Lupă",
+        "Lupă",
+        "Mută o vedere mărită separată a zonei alese."
+      ],
+      [
+        "Desen",
+        "Desen",
+        "Note, forme și text temporare în timpul explicației."
+      ],
+      [
+        "Confidențialitatea introducerii, separat.",
+        "Confidențialitatea introducerii, separat.",
+        "Versiunea verificată ascunde tastele când detectează introducere protejată. Există limite și o condiție de concurență cunoscută a notificărilor de focalizare: ascunde manual înainte de date sensibile. Încrederea în cod este o decizie distinctă."
+      ],
+      [
+        "Profiluri și stiluri",
+        "O configurație care rămâne a ta.",
+        "Aspectul, profilurile salvate, confidențialitatea introducerii și gestionarea pluginurilor sunt infrastructură, nu pluginuri separate."
+      ]
+    ],
+    "styles": [
+      "Deschis",
+      "Închis",
+      "Smarald"
+    ],
+    "renderers": [
+      "PBT",
+      "Minimal",
+      "Laptop"
+    ],
+    "chooseStyle": "Aspect",
+    "chooseProfile": "Profiluri",
+    "chooseFocus": "Focalizare",
+    "dimNote": "Plugin verificat în pachet · Backpack 0.4.0-preview.4 / SDK 1.1. Pachet public încă indisponibil",
+    "numberNote": "Demonstrația noului model",
+    "safe": "Câmp protejat",
+    "ordinary": "Mesaj",
+    "privacyNote": "Versiunea verificată ascunde tastele când detectează introducere protejată. Există limite și o condiție de concurență cunoscută a notificărilor de focalizare: ascunde manual înainte de date sensibile. Încrederea în cod este o decizie distinctă.",
+    "pluginTitle": "Instrumentele potrivite poveștii tale.",
+    "pluginText": "Extensiile autorului Backpack se adaugă independent și sunt exemple pentru viitoare pluginuri proprii.",
+    "downloadTag": "Ultimul pachet verificat",
+    "downloadTitle": [
+      "Un ecran mai clar.",
+      "O explicație mai bună."
+    ],
+    "downloadText": "Pachet public încă indisponibil",
+    "preparing": "Se pregătește descărcarea publică",
+    "packageLabel": "Ultimul pachet verificat",
+    "unsigned": "Nesemnat · Nepublicat",
+    "release": "Citește notele versiunii",
+    "download": "Descarcă pentru Windows",
+    "checksum": "SHA-256 al pachetului verificat",
+    "checksumNote": "Identifică pachetul verificat local. Acest site nu distribuie niciun pachet.",
+    "license": "Licență",
+    "helpTag": "Ajutor",
+    "helpTitle": "Înaintea următoarei prezentări.",
+    "faq": [
+      [
+        "Ce include aplicația?",
+        "Tastele și vizualizarea mouse-ului sunt cele două instrumente din nucleul Backpack. Lupă, Focalizare, Lupă la cursor, Cronometru — Plugin verificat în pachet · Backpack 0.4.0-preview.4 / SDK 1.1. Desen, Indicator de aranjament — Plugin planificat. Aspectul, profilurile salvate, confidențialitatea introducerii și gestionarea pluginurilor sunt infrastructură, nu pluginuri separate."
+      ],
+      [
+        "Pot descărca Backpack și pluginurile?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Pachet public încă indisponibil Lupă, Focalizare, Lupă la cursor, Cronometru — Plugin verificat în pachet · Backpack 0.4.0-preview.4 / SDK 1.1. Desen, Indicator de aranjament — Plugin planificat."
+      ],
+      [
+        "Cum se instalează extensiile?",
+        "Pluginuri → Importă plugin → .bppkg. Importul verifică și extrage fără executare de cod sau acordarea încrederii. Pluginurile noi sau actualizate sunt dezactivate; prima activare cere confirmare."
+      ],
+      [
+        "Sunt pluginurile izolate sigur?",
+        "Folosește surse de încredere. Procesele separate au drepturile tale și ajută la gestionarea erorilor, dar nu sunt un mediu izolat de securitate. Capacitățile limitează interfața Backpack, nu toate acțiunile codului în sistem."
+      ],
+      [
+        "Cum încep un instrument?",
+        "F1 → Pluginuri explică contractul, ciclul de viață, comenzile, setările, limbile și compilarea cronometrului. Se pregătesc ghiduri detaliate și exemple funcționale; condițiile SDK vor permite crearea liberă a propriilor pluginuri. Legăturile publice lipsesc încă."
+      ],
+      [
+        "Confidențialitatea protejează orice câmp?",
+        "Nu se promite detecție universală. Introducerea protejată sau necunoscută poate fi ascunsă, dar detectarea asincronă a focalizării are limite. Ascunde înainte de date sensibile. Încrederea în pluginuri este separată."
+      ],
+      [
+        "Ce sisteme și licență se aplică?",
+        "Pachet verificat pentru Windows 10/11 x64 cu .NET. PolyForm Strict 1.0.0, nu este open source. Condițiile SDK/exemplelor sunt în curs de actualizare."
+      ]
+    ],
+    "footer": "Instrumente mici. Povești mai clare.",
+    "author": "Creat de",
+    "back": "Înapoi sus",
+    "notice": "Demonstrația noului model",
+    "madeIn": "Fabricat în Ucraina.",
+    "program": {
+      "settings": "Setări aplicație",
+      "privacy": "Confidențialitate",
+      "about": "Despre",
+      "importPlugin": "Importă extensie",
+      "view": "Vizualizare",
+      "cards": "Carduri",
+      "list": "Listă",
+      "duration": "Durată",
+      "minutes": "Minute",
+      "seconds": "Secunde",
+      "commands": "Comenzi"
+    },
+    "carousel": {
+      "previous": "Anterior",
+      "next": "Următor"
+    }
+  },
+  "demo": {
+    "cursorTag": "Lupă la cursor",
+    "cursorTitle": "Lupă la cursor",
+    "cursorDescription": "Apropie detaliile cu o lupă care urmărește cursorul.",
+    "cursorCaption": "Lupă în jurul cursorului · 2,5×",
+    "windowTag": "Lupă",
+    "windowTitle": "Lupă",
+    "windowDescription": "Mută o vedere mărită separată a zonei alese.",
+    "windowLabel": "Lupă",
+    "windowCaption": "Fereastră de mărire separată și mobilă · 2,5×",
+    "profileHeading": "Un set de instrumente. Aspectul tău.",
+    "rightShift": "Shift dreapta",
+    "layoutCode": "RO",
+    "families": [
+      "Profil jos",
+      "Laptop",
+      "PBT",
+      "Minimal",
+      "3D"
+    ],
+    "familyPresets": [
+      "Profil jos",
+      "Laptop",
+      "PBT",
+      "Minimal",
+      "3D"
+    ],
+    "profiles": [
+      "Crem",
+      "Grafit",
+      "Mentă"
+    ],
+    "profileNames": [
+      "PBT · Crem",
+      "Profil jos · Grafit",
+      "3D · Mentă"
+    ],
+    "mouseStyles": [
+      "Contur",
+      "Plin",
+      "Retro"
+    ],
+    "mouseNames": [
+      "Contur",
+      "Plin",
+      "Retro"
+    ],
+    "mouseStyle": "Indicator de mouse",
+    "normalField": "Mesaj",
+    "passwordField": "Câmp protejat",
+    "safePhrase": "Salut echipă",
+    "returnPhrase": "Idee nouă",
+    "privacySteps": [
+      "Selectează câmpul mesajului",
+      "Se afișează doar apăsări obișnuite",
+      "Protecție înaintea primului simbol al parolei",
+      "Text nou. Doar apăsări noi."
+    ],
+    "mouseSteps": [
+      "Selectează un element",
+      "Deschide meniul contextual",
+      "Derulează lista"
+    ],
+    "selected": "Selectat",
+    "context": [
+      "Deschide",
+      "Copiază",
+      "Detalii"
+    ],
+    "board": [
+      "Note de proiectare",
+      "Instrumente de ecran",
+      "Lecția următoare"
+    ],
+    "boardTag": "PROIECT",
+    "boardHeading": "O idee mai clară",
+    "boardRows": [
+      "Scurtături",
+      "Zona de focalizare",
+      "Pasul următor"
+    ],
+    "lensScale": "Mărire în timp real",
+    "drawSteps": [
+      "Alege instrumentul săgeată",
+      "Desenează o linie, apoi o formă"
+    ],
+    "interfaceSteps": [
+      "Mută glisorul de mărire",
+      "Fereastra lupă arată zona marcată",
+      "Întunecă împrejurimile"
+    ],
+    "keySequence": "Apasă. Ține. Eliberează.",
+    "keyExamples": "Enter · Spațiu · modificatori",
+    "space": "Spațiu",
+    "shift": "Shift",
+    "layout": "Aranjament tastatură",
+    "privacyStatic": "Introducere simulată. Tastele protejate nu sunt niciodată afișate. Tastatura și ecranul nu sunt capturate."
+  },
+  "model": {
+    "title": "Backpack — Acțiuni clare. Instrumentele tale.",
+    "intro": "Fă prezentările, lecțiile și înregistrările mai ușor de urmărit. Arată fiecare tastă și clic.",
+    "extension": "Adaugă instrumente ca pluginuri independente sau descoperă cum să creezi unul propriu.",
+    "coreTag": "INTEGRAT ÎN BACKPACK",
+    "coreTitle": "Începe cu esențialul.",
+    "coreText": "Tastele și vizualizarea mouse-ului sunt cele două instrumente din nucleul Backpack.",
+    "pluginsTag": "PLUGINURILE AUTORULUI",
+    "pluginsTitle": "Instrumentele potrivite poveștii tale.",
+    "pluginsText": "Extensiile autorului Backpack se adaugă independent și sunt exemple pentru viitoare pluginuri proprii.",
+    "transitionNote": "Lupă, Focalizare, Lupă la cursor, Cronometru — Plugin verificat în pachet · Backpack 0.4.0-preview.4 / SDK 1.1. Desen, Indicator de aranjament — Plugin planificat.",
+    "builtin": "Integrat",
+    "authorPlugin": "Plugin al autorului",
+    "notPublished": "Pachet public încă indisponibil",
+    "byAuthor": "Autor",
+    "statuses": {
+      "planned": "Plugin planificat",
+      "source": "Plugin în codul-sursă",
+      "verified": "Plugin verificat în pachet"
+    },
+    "availability": {
+      "planned": "Instrumentul funcționează în preview.4, dar pluginul independent nu este încă implementat sau împachetat.",
+      "source": "Lupă, Focalizare, Lupă la cursor, Cronometru — Plugin verificat în pachet · Backpack 0.4.0-preview.4 / SDK 1.1. Desen, Indicator de aranjament — Plugin planificat.",
+      "verified": "Plugin verificat în pachet · Backpack 0.4.0-preview.4 / SDK 1.1. Pachet public încă indisponibil"
+    },
+    "pluginNames": [
+      "Desen",
+      "Indicator de aranjament",
+      "Lupă",
+      "Focalizare",
+      "Lupă la cursor",
+      "Cronometru"
+    ],
+    "pluginBenefits": [
+      "Note, forme și text temporare în timpul explicației.",
+      "Fă vizibilă schimbarea limbii de introducere.",
+      "Mută o vedere mărită separată a zonei alese.",
+      "Întunecă împrejurimile, păstrând zona clară la dimensiunea originală.",
+      "Apropie detaliile cu o lupă care urmărește cursorul.",
+      "Afișează numărătoarea inversă, întrerupe și continuă."
+    ],
+    "developerTag": "CREEAZĂ PROPRIUL INSTRUMENT",
+    "developerTitle": "Sarcina ta. Următorul tău instrument.",
+    "developerText": "Pluginurile autorului ilustrează contractul cu Backpack. Se pregătesc instrucțiuni detaliate pornind de la exemplul cronometrului.",
+    "developerSteps": [
+      [
+        "Comenzi și ciclu de viață",
+        "SDK conectează pornirea, oprirea și comenzile cu Backpack. Comenzilor li se pot atribui scurtături."
+      ],
+      [
+        "Setări și interfață",
+        "Manifestul descrie setările; Backpack desenează controalele și panourile suprapuse. Culorile sunt parametri expliciți, nu un API automat de teme garantat."
+      ],
+      [
+        "Localizare și exemple",
+        "Etichetele localizate și Context.Locale acceptă limbile aplicației. Ajutorul explică cronometrul, compilarea, împachetarea și importul .bppkg."
+      ]
+    ],
+    "docsNotice": "F1 → Pluginuri explică contractul, compilarea și importul. Legăturile publice către documentația SDK și sursele exemplelor nu sunt încă configurate.",
+    "licenseNote": "Condițiile SDK sunt actualizate pentru a permite crearea liberă a propriilor pluginuri. Se pregătesc ghiduri detaliate, pas cu pas, pentru compilare și import, precum și exemple funcționale.",
+    "applicationTag": "PARTE A APLICAȚIEI",
+    "applicationTitle": "O configurație care rămâne a ta.",
+    "applicationText": "Aspectul, profilurile salvate, confidențialitatea introducerii și gestionarea pluginurilor sunt infrastructură, nu pluginuri separate.",
+    "privacyTitle": "Confidențialitatea introducerii, separat.",
+    "privacyText": "Versiunea verificată ascunde tastele când detectează introducere protejată. Există limite și o condiție de concurență cunoscută a notificărilor de focalizare: ascunde manual înainte de date sensibile. Încrederea în cod este o decizie distinctă.",
+    "workflowTitle": "Demonstrația noului model",
+    "workflowNote": "Parcurs simulat al interfeței țintă. Importul și încrederea sunt implementate în preview.4; scena nu este o captură sau dovada că toate pluginurile sunt gata.",
+    "workflowSteps": [
+      "Începe cu tastele și mouse-ul integrate",
+      "Deschide pluginurile",
+      "Alege cronometrul autorului",
+      "Confirmă încrederea și activează",
+      "Apare instrumentul suplimentar"
+    ],
+    "coreTab": "Integrat",
+    "pluginsTab": "Pluginuri",
+    "enable": "Activează",
+    "trust": "Activează numai cod din surse de încredere. Un proces separat nu este un mediu izolat de securitate.",
+    "enabled": "Activat",
+    "start": "Start",
+    "pause": "Pauză",
+    "resume": "Continuă",
+    "reset": "Resetează",
+    "finished": "Încheiat",
+    "timerCaption": "Numărătoare simulată · pauză · continuare",
+    "layoutCaption": "Schimbare simulată a limbii de introducere",
+    "layoutSequence": [
+      "English",
+      "Українська",
+      "Deutsch"
+    ],
+    "faq": [
+      [
+        "Ce include aplicația?",
+        "Tastele și vizualizarea mouse-ului sunt cele două instrumente din nucleul Backpack. Lupă, Focalizare, Lupă la cursor, Cronometru — Plugin verificat în pachet · Backpack 0.4.0-preview.4 / SDK 1.1. Desen, Indicator de aranjament — Plugin planificat. Aspectul, profilurile salvate, confidențialitatea introducerii și gestionarea pluginurilor sunt infrastructură, nu pluginuri separate."
+      ],
+      [
+        "Pot descărca Backpack și pluginurile?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Pachet public încă indisponibil Lupă, Focalizare, Lupă la cursor, Cronometru — Plugin verificat în pachet · Backpack 0.4.0-preview.4 / SDK 1.1. Desen, Indicator de aranjament — Plugin planificat."
+      ],
+      [
+        "Cum se instalează extensiile?",
+        "Pluginuri → Importă plugin → .bppkg. Importul verifică și extrage fără executare de cod sau acordarea încrederii. Pluginurile noi sau actualizate sunt dezactivate; prima activare cere confirmare."
+      ],
+      [
+        "Sunt pluginurile izolate sigur?",
+        "Folosește surse de încredere. Procesele separate au drepturile tale și ajută la gestionarea erorilor, dar nu sunt un mediu izolat de securitate. Capacitățile limitează interfața Backpack, nu toate acțiunile codului în sistem."
+      ],
+      [
+        "Cum încep un instrument?",
+        "F1 → Pluginuri explică contractul, ciclul de viață, comenzile, setările, limbile și compilarea cronometrului. Se pregătesc ghiduri detaliate și exemple funcționale; condițiile SDK vor permite crearea liberă a propriilor pluginuri. Legăturile publice lipsesc încă."
+      ],
+      [
+        "Confidențialitatea protejează orice câmp?",
+        "Nu se promite detecție universală. Introducerea protejată sau necunoscută poate fi ascunsă, dar detectarea asincronă a focalizării are limite. Ascunde înainte de date sensibile. Încrederea în pluginuri este separată."
+      ],
+      [
+        "Ce sisteme și licență se aplică?",
+        "Pachet verificat pentru Windows 10/11 x64 cu .NET. PolyForm Strict 1.0.0, nu este open source. Condițiile SDK/exemplelor sunt în curs de actualizare."
+      ]
+    ]
+  }
+}

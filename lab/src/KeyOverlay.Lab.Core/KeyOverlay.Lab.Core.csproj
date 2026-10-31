@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Чистая логика: события, идентичность клавиш, транспорт, модель, диагностика. Без WPF и Win32. -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="KeyOverlay.Lab.Core.Tests" />
+  </ItemGroup>
+
+</Project>

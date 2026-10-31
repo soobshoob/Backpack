@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Строки интерфейса KeyOverlay (en). Ключи стабильны и не переводятся; переводятся только значения целыми фразами. -->
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="About.Author" xml:space="preserve"><value>Forfatter</value></data>
+  <data name="About.AutoCheck" xml:space="preserve"><value>Se etter automatisk</value></data>
+  <data name="About.AutoCheckHint" xml:space="preserve"><value>Én gang om dagen mens Backpack kjører. Bare en forespørsel til GitHub; innstillinger og inntasting sendes aldri.</value></data>
+  <data name="About.Channel" xml:space="preserve"><value>Kanal</value></data>
+  <data name="About.ChannelHint" xml:space="preserve"><value>Stabil tilbyr aldri forhåndsversjoner.</value></data>
+  <data name="About.Check" xml:space="preserve"><value>Se etter</value></data>
+  <data name="About.Checking" xml:space="preserve"><value>Ser etter…</value></data>
+  <data name="About.CheckNow" xml:space="preserve"><value>Se etter nå</value></data>
+  <data name="About.License" xml:space="preserve"><value>Lisens</value></data>
+  <data name="About.LicenseHint" xml:space="preserve"><value>Kjernen i Backpack. Full tekst: filen LICENSE ved siden av programmet og i kildekodelageret; opphavsrettsmerknaden står i NOTICE. SDK-en for programtillegg og skaperens programtillegg har egne vilkår (LICENSE-STATUS.md). Knappen åpner den offisielle siden.</value></data>
+  <data name="About.LicenseNone" xml:space="preserve"><value>Forfatteren har ennå ikke valgt prosjektets lisens.</value></data>
+  <data name="About.LicenseNotChosen" xml:space="preserve"><value>ikke valgt ennå</value></data>
+  <data name="About.NotConfigured" xml:space="preserve"><value>ikke satt opp</value></data>
+  <data name="About.OpenDownload" xml:space="preserve"><value>Åpne nedlastingssiden</value></data>
+  <data name="About.OpenLink.Message" xml:space="preserve"><value>Åpne i nettleseren?
+{0}</value></data>
+  <data name="About.OpenLink.Title" xml:space="preserve"><value>Åpne lenke</value></data>
+  <data name="About.ReleaseDate" xml:space="preserve"><value>Utgivelsesdato</value></data>
+  <data name="About.ReleaseDateNone" xml:space="preserve"><value>Utviklerversjon: det finnes ingen utgivelsesdato.</value></data>
+  <data name="About.ReleaseTitle" xml:space="preserve"><value>Versjon {0} ({1})</value></data>
+  <data name="About.ThirdParty" xml:space="preserve"><value>Komponenter fra tredjeparter</value></data>
+  <data name="About.ThirdPartyLine" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="About.ThirdPartyNote" xml:space="preserve"><value>Lisenstekstene ligger i mappen Licenses ved siden av programmet.</value></data>
+  <data name="About.Title" xml:space="preserve"><value>Backpack</value></data>
+  <data name="About.UpdateNote" xml:space="preserve"><value>Backpack laster aldri ned eller kjører oppdateringer på egen hånd: nedlastingssiden åpnes i nettleseren.</value></data>
+  <data name="About.Updates" xml:space="preserve"><value>Oppdateringer</value></data>
+  <data name="About.UpdateSource" xml:space="preserve"><value>Kilde for versjoner</value></data>
+  <data name="About.UpdateSourceNone" xml:space="preserve"><value>I denne versjonen er det ikke angitt et lager med versjoner, så oppdateringer kan ikke kontrolleres.</value></data>
+  <data name="About.Version" xml:space="preserve"><value>Versjon</value></data>
+  <data name="About.VersionLine" xml:space="preserve"><value>Versjon {0} · {1}</value></data>
+  <data name="Anchor.BottomCenter" xml:space="preserve"><value>Nederst i midten</value></data>
+  <data name="Anchor.BottomLeft" xml:space="preserve"><value>Nederst til venstre</value></data>
+  <data name="Anchor.BottomRight" xml:space="preserve"><value>Nederst til høyre</value></data>
+  <data name="Anchor.Center" xml:space="preserve"><value>Midten</value></data>
+  <data name="Anchor.CenterLeft" xml:space="preserve"><value>Midt til venstre</value></data>
+  <data name="Anchor.CenterRight" xml:space="preserve"><value>Midt til høyre</value></data>
+  <data name="Anchor.TopCenter" xml:space="preserve"><value>Øverst i midten</value></data>
+  <data name="Anchor.TopLeft" xml:space="preserve"><value>Øverst til venstre</value></data>
+  <data name="Anchor.TopRight" xml:space="preserve"><value>Øverst til høyre</value></data>
+  <data name="App.Home.Animation" xml:space="preserve"><value>Demoanimasjon</value></data>
+  <data name="App.Home.AnimationHint" xml:space="preserve"><value>Den korte demoen i sløyfe på Start. Den står også på pause når Windows-animasjoner er slått av.</value></data>
+  <data name="App.Home.Title" xml:space="preserve"><value>Startside</value></data>
+  <data name="App.Language" xml:space="preserve"><value>Språk i grensesnittet</value></data>
+  <data name="App.Language.Hint" xml:space="preserve"><value>Språk for vinduer, menyer og hjelp. Tastaturoppsettet og tastemerkene endres ikke.</value></data>
+  <data name="App.Language.System" xml:space="preserve"><value>System</value></data>
+  <data name="App.Language.Title" xml:space="preserve"><value>Språk</value></data>
+  <data name="App.Theme" xml:space="preserve"><value>Lyst eller mørkt</value></data>
+  <data name="App.Theme.Dark" xml:space="preserve"><value>Mørkt</value></data>
+  <data name="App.Theme.Hint" xml:space="preserve"><value>Lyse eller mørke vinduer i Backpack. Tastene, indikatoren og musen beholder sine egne farger.</value></data>
+  <data name="App.Theme.Light" xml:space="preserve"><value>Lyst</value></data>
+  <data name="App.Theme.System" xml:space="preserve"><value>System</value></data>
+  <data name="App.Tray.Close" xml:space="preserve"><value>Lukking av hovedvinduet</value></data>
+  <data name="App.Tray.Close.Exit" xml:space="preserve"><value>Avslutt</value></data>
+  <data name="App.Tray.Close.ToTray" xml:space="preserve"><value>Skjul i varslingsområdet</value></data>
+  <data name="App.Tray.CloseHint" xml:space="preserve"><value>× i diagnosevinduet. Å lukke innstillingsvinduet avslutter aldri programmet.</value></data>
+  <data name="App.Tray.Hint" xml:space="preserve"><value>Klikk på ikonet i varslingsområdet for å vise vinduene; høyreklikk for hurtigbrytere og «Avslutt».</value></data>
+  <data name="App.Tray.Note" xml:space="preserve"><value>Windows bestemmer om ikonet er på oppgavelinjen eller under pilen ^. Backpack starter ikke sammen med Windows.</value></data>
+  <data name="App.Tray.Title" xml:space="preserve"><value>Varslingsområde</value></data>
+  <data name="Appearance.Anim.Duration" xml:space="preserve"><value>Varighet</value></data>
+  <data name="Appearance.Anim.EnterExit" xml:space="preserve"><value>Vises og forsvinner</value></data>
+  <data name="Appearance.Anim.Press" xml:space="preserve"><value>Trykkanimasjon</value></data>
+  <data name="Appearance.Anim.PressHint" xml:space="preserve"><value>Tasten synker litt mens den holdes nede.</value></data>
+  <data name="Appearance.Anim.Title" xml:space="preserve"><value>Animasjon</value></data>
+  <data name="Appearance.Colors.AlphaHint" xml:space="preserve"><value>De to siste sifrene i #RRGGBBAA angir dekkevnen.</value></data>
+  <data name="Appearance.Colors.Background" xml:space="preserve"><value>Radens bakgrunn</value></data>
+  <data name="Appearance.Colors.BackgroundColor" xml:space="preserve"><value>Bakgrunnsfarge</value></data>
+  <data name="Appearance.Colors.Border" xml:space="preserve"><value>Omriss</value></data>
+  <data name="Appearance.Colors.BorderColor" xml:space="preserve"><value>Omrissfarge</value></data>
+  <data name="Appearance.Colors.BorderWidth" xml:space="preserve"><value>Omrissbredde</value></data>
+  <data name="Appearance.Colors.Face" xml:space="preserve"><value>Tastens overside</value></data>
+  <data name="Appearance.Colors.Skirt" xml:space="preserve"><value>Tastens side</value></data>
+  <data name="Appearance.Colors.SkirtHint" xml:space="preserve"><value>Den nederste kanten som gir tasten dybde.</value></data>
+  <data name="Appearance.Colors.Text" xml:space="preserve"><value>Etikett</value></data>
+  <data name="Appearance.Colors.Title" xml:space="preserve"><value>Farger</value></data>
+  <data name="Appearance.Gradient" xml:space="preserve"><value>Overgang</value></data>
+  <data name="Appearance.GradientHint" xml:space="preserve"><value>Bare bærbar og PBT.</value></data>
+  <data name="Appearance.Keycap.Hint" xml:space="preserve"><value>Størrelse og avrunding av hjørner.</value></data>
+  <data name="Appearance.Keycap.Radius" xml:space="preserve"><value>Avrunding</value></data>
+  <data name="Appearance.Keycap.RadiusHint" xml:space="preserve"><value>0 — skarpe hjørner, 1 — størst mulig avrunding.</value></data>
+  <data name="Appearance.Keycap.Size" xml:space="preserve"><value>Størrelse</value></data>
+  <data name="Appearance.Keycap.SizeHint" xml:space="preserve"><value>Tastens høyde i enhetsuavhengige piksler.</value></data>
+  <data name="Appearance.Keycap.Title" xml:space="preserve"><value>Tast</value></data>
+  <data name="Appearance.Labels.Hint" xml:space="preserve"><value>Hvordan modifikator- og spesialtaster navngis på tastene.</value></data>
+  <data name="Appearance.Labels.Mixed" xml:space="preserve"><value>Blandet</value></data>
+  <data name="Appearance.Labels.Mode" xml:space="preserve"><value>Etikettstil</value></data>
+  <data name="Appearance.Labels.ModeHint" xml:space="preserve"><value>Blandet: et symbol og navnet der det får plass; bare symboler; eller bare tekst.</value></data>
+  <data name="Appearance.Labels.Set" xml:space="preserve"><value>Etikettsett</value></data>
+  <data name="Appearance.Labels.SetHint" xml:space="preserve"><value>Navn som på Windows-, macOS- eller Linux-tastaturer. Tastaturoppsettet endres ikke.</value></data>
+  <data name="Appearance.Labels.Symbols" xml:space="preserve"><value>Symboler</value></data>
+  <data name="Appearance.Labels.Text" xml:space="preserve"><value>Tekst</value></data>
+  <data name="Appearance.Labels.Title" xml:space="preserve"><value>Tastemerker</value></data>
+  <data name="Appearance.Markers" xml:space="preserve"><value>Venstre/høyre-merker</value></data>
+  <data name="Appearance.MarkersHint" xml:space="preserve"><value>Små merker «R» og «num» på høyre Ctrl, Shift, Alt, Win og på tastene på talltastaturet.</value></data>
+  <data name="Appearance.PressCount" xml:space="preserve"><value>Trykkteller</value></data>
+  <data name="Appearance.PressCountHint" xml:space="preserve"><value>Et merke «2», «3»… når en tast trykkes igjen mens kombinasjonen holdes.</value></data>
+  <data name="Appearance.Renderer" xml:space="preserve"><value>Gjengivelse</value></data>
+  <data name="Appearance.Renderer.Hint" xml:space="preserve"><value>Tastens form. En forhåndsinnstilling eller stil ovenfor angir den sammen med fargene; her endres bare formen.</value></data>
+  <data name="Appearance.Renderer.Title" xml:space="preserve"><value>Tegnemetode</value></data>
+  <data name="Appearance.RendererHint" xml:space="preserve"><value>Farger og størrelser forblir som de er.</value></data>
+  <data name="Appearance.VolEnter" xml:space="preserve"><value>L-formet Enter</value></data>
+  <data name="Appearance.VolEnterHint" xml:space="preserve"><value>Bare 3D. Andre taster beholder firkantede eller kompakte lange former.</value></data>
+  <data name="Color.Alpha" xml:space="preserve"><value>Dekkevne</value></data>
+  <data name="Color.Expected" xml:space="preserve"><value>Farge som #RRGGBB</value></data>
+  <data name="Color.ExpectedAlpha" xml:space="preserve"><value>Farge som #RRGGBB eller #RRGGBBAA (det siste paret er dekkevnen)</value></data>
+  <data name="Color.Hue" xml:space="preserve"><value>Fargetone</value></data>
+  <data name="Color.OpenPalette" xml:space="preserve"><value>Åpne paletten</value></data>
+  <data name="Color.SaturationValue" xml:space="preserve"><value>Metning og lysstyrke</value></data>
+  <data name="Common.Example" xml:space="preserve"><value>Eksempel</value></data>
+  <data name="Common.NoAnimation" xml:space="preserve"><value>Ingen animasjon</value></data>
+  <data name="Common.OffsetDown" xml:space="preserve"><value>Forskyvning nedover</value></data>
+  <data name="Common.OffsetDownHint" xml:space="preserve"><value>Negative verdier flytter oppover.</value></data>
+  <data name="Common.OffsetRight" xml:space="preserve"><value>Forskyvning mot høyre</value></data>
+  <data name="Common.OffsetRightHint" xml:space="preserve"><value>Negative verdier flytter mot venstre.</value></data>
+  <data name="Common.Open" xml:space="preserve"><value>Åpne</value></data>
+  <data name="Common.Show" xml:space="preserve"><value>Vis</value></data>
+  <data name="Common.Smooth" xml:space="preserve"><value>Myk</value></data>
+  <data name="Demo.Combos.Text" xml:space="preserve"><value>Enkeltbokstaver skjules; Ctrl + Shift + K og Ctrl + klikk vises.</value></data>
+  <data name="Demo.Combos.Title" xml:space="preserve"><value>Bare kombinasjoner</value></data>
+  <data name="Demo.Labels.Text" xml:space="preserve"><value>Modifikatorer med symboler og R-merker, et langt navn erstattet av et symbol, trykktelleren og en museknapp.</value></data>
+  <data name="Demo.Labels.Title" xml:space="preserve"><value>Tastemerker</value></data>
+  <data name="Demo.Layout.Text" xml:space="preserve"><value>Slik ser etiketten ut når inndataspråket bytter. Den ekte indikatoren følger det aktive vinduet.</value></data>
+  <data name="Demo.Layout.Title" xml:space="preserve"><value>Oppsettindikator</value></data>
+  <data name="Demo.MouseCursor.Text" xml:space="preserve"><value>Ikonet følger pekeren og fremhever den trykte knappen; sirkelen markerer klikket.</value></data>
+  <data name="Demo.MouseCursor.Title" xml:space="preserve"><value>Mus ved pekeren</value></data>
+  <data name="Demo.Note" xml:space="preserve"><value>Eksempel med oppdiktede data. Inntastingen din brukes ikke, og innstillingene endres ikke.</value></data>
+  <data name="Demo.Position.Text" xml:space="preserve"><value>Tasteraden går gjennom skjermens ni punkter; avstanden til kantene forblir den samme.</value></data>
+  <data name="Demo.Position.Title" xml:space="preserve"><value>Plassering på skjermen</value></data>
+  <data name="Demo.TrailFade.Text" xml:space="preserve"><value>Slupne bokstaver blir stående et øyeblikk og blekner på stedet, så et ord vises kort.</value></data>
+  <data name="Demo.TrailFade.Title" xml:space="preserve"><value>Bleknende spor</value></data>
+  <data name="Demo.TrailNone.Text" xml:space="preserve"><value>Hver ny bokstav erstatter den forrige; bare den gjeldende tasten vises.</value></data>
+  <data name="Demo.TrailNone.Title" xml:space="preserve"><value>Rolig skriving</value></data>
+  <data name="Demo.WindowTitle" xml:space="preserve"><value>Backpack — eksempel</value></data>
+  <data name="Diag.BuildError" xml:space="preserve"><value>Diagnosen kunne ikke bygges: {0}</value></data>
+  <data name="Diag.Checklist" xml:space="preserve"><value>1. Overlegget nederst på skjermen tar ikke fokus: skriv i Notisblokk — markøren blir i Notisblokk.
+2. Klikk på en tast i overlegget — klikket når vinduet under.
+3. Trykk A og slipp — tasten vises og blekner etter visningstiden.
+4. Hold A i 3 s — én trykt tast uten merke; «Repeats» øker i diagnosen.
+5. Ctrl+Shift+K — «Ctrl Shift K» (V/H-merker øverst); slipp K og trykk igjen mens modifikatorene holdes — merket «2» på K.
+6. Venstre og høyre Shift/Ctrl/Alt har ulike merker (V/H). Enter og Num Enter er forskjellige (den andre har Num-merket).
+7. Skriv et ord raskt med overlappende taster — bokstavene slås ikke sammen til en «kombinasjon».
+8. Alt+Tab til et annet vindu og tilbake — overlegget er ikke i Alt+Tab-listen eller på oppgavelinjen.
+9. «Skjul overlegg» → vent 5 s → det kommer ikke tilbake av seg selv; «Vis overlegg» henter det tilbake.
+10. Eksporter JSON og åpne filen: bare tellere og persentiler, ingen etiketter eller tastekoder.
+11. (X8) Start med --ring=8: «Frys grensesnittet i 3 s»; trykk og slipp alle tastene i mellomtiden. Etterpå: tapsepoke &gt; 0, resynkronisering utført, «trykt nå» = 0, ingen fastlåste taster i overlegget.
+Utseende, oppsett, hjelp: «Innstillinger…» og «Hjelp (F1)»; F1 virker i dette vinduet, i innstillingene og i hjelpen.
+For compare: de samme trinnene; sammenlign EventsTotal og Comparator per klasse. En forskjell er en observasjon, ikke en dom.</value></data>
+  <data name="Diag.ChecklistHide" xml:space="preserve"><value>Skjul sjekklisten</value></data>
+  <data name="Diag.ChecklistShow" xml:space="preserve"><value>Vis sjekklisten</value></data>
+  <data name="Diag.ChecklistTitle" xml:space="preserve"><value>Manuell sjekkliste (5–10 min)</value></data>
+  <data name="Diag.Compare" xml:space="preserve"><value>Sammenligning (vindu ±{0:F0} ms, overløp {1}) — en observasjon, ikke bevis på feil:</value></data>
+  <data name="Diag.CompareClass" xml:space="preserve"><value>   {0,-10} samsvarende {1,7}   bare Raw {2,6}   bare LL {3,6}</value></data>
+  <data name="Diag.Def.CaptureToModel" xml:space="preserve"><value>Opptakstråden fikk hendelsen → hendelsen ble brukt på modellen i grensesnitttråden (ikke tiden til pikselen)</value></data>
+  <data name="Diag.Def.LowLevelCallback" xml:space="preserve"><value>LL: varighet for hook-tilbakekallet (inngang → før CallNextHookEx)</value></data>
+  <data name="Diag.Def.ModelToUiApply" xml:space="preserve"><value>Modell endret → overleggets egenskaper oppdatert i grensesnitttråden (før komposisjon og bildeutlevering, ikke tiden til pikselen)</value></data>
+  <data name="Diag.Def.RawInputMessage" xml:space="preserve"><value>Raw Input: behandling av én WM_INPUT (inngang i behandleren → utgang)</value></data>
+  <data name="Diag.Exit" xml:space="preserve"><value>Avslutt</value></data>
+  <data name="Diag.Export" xml:space="preserve"><value>Eksporter samlet JSON…</value></data>
+  <data name="Diag.Finding" xml:space="preserve"><value>   {0,-10} {1,-32} ×{2}</value></data>
+  <data name="Diag.FindingActive" xml:space="preserve"><value>   {0,-10} {1,-32} ×{2}  (aktiv)</value></data>
+  <data name="Diag.Findings" xml:space="preserve"><value>Funn (Signal / Mistanke — ingen automatiske handlinger / Bekreftet):</value></data>
+  <data name="Diag.FindingsNone" xml:space="preserve"><value>   ingen</value></data>
+  <data name="Diag.Freeze" xml:space="preserve"><value>Frys grensesnittet i 3 s</value></data>
+  <data name="Diag.FreezeHint" xml:space="preserve"><value>X8: blokkerer bare testbenkens grensesnitttråd; opptakstrådene fortsetter. For et overløp, start med --ring=8.</value></data>
+  <data name="Diag.Help" xml:space="preserve"><value>Hjelp (F1)</value></data>
+  <data name="Diag.Hidden" xml:space="preserve"><value>skjult</value></data>
+  <data name="Diag.HideOverlay" xml:space="preserve"><value>Skjul overlegg</value></data>
+  <data name="Diag.Latency" xml:space="preserve"><value>      n={0}  p50 {1}  p95 {2}  p99 {3}  max {4}</value></data>
+  <data name="Diag.Layout.Line" xml:space="preserve"><value>Oppsett: {0}; siste avlesning: {1}; siste avgjørelse: {2}</value></data>
+  <data name="Diag.Layout.NotStarted" xml:space="preserve"><value>ikke startet</value></data>
+  <data name="Diag.Layout.Off" xml:space="preserve"><value>av</value></data>
+  <data name="Diag.Layout.Polling" xml:space="preserve"><value>overvåkes</value></data>
+  <data name="Diag.Layout.Samples" xml:space="preserve"><value>   avlesninger {0}: intet vindu {1}, ingen HKL {2}, Backpack-vinduer {3}; utgangsverdier {4}; vist i et vindu {5}, ved bytte {6}, skjult av innstillingen {7}</value></data>
+  <data name="Diag.Layout.Source" xml:space="preserve"><value>   HKL-kilde: tråd for vinduet med fokus {0}, aktivt vindu {1}, vinduets eier {2}; fokustråd ≠ vindustråd: {3}; fokus-HKL ≠ eier-HKL: {4}</value></data>
+  <data name="Diag.ModeFromSettings" xml:space="preserve"><value>Modus: {0}, hovedkilde: {1}, visningstid: {2} ms (fra innstillingene)</value></data>
+  <data name="Diag.ModeOverride" xml:space="preserve"><value>Modus: {0}, hovedkilde: {1}, visningstid: {2} ms (--linger-ms)</value></data>
+  <data name="Diag.Mouse" xml:space="preserve"><value>Mus ved pekeren: {0}, vindu {1}, bevegelser {2}</value></data>
+  <data name="Diag.NoPixel" xml:space="preserve"><value>   (testbenken måler ikke tiden til en synlig piksel)</value></data>
+  <data name="Diag.Off" xml:space="preserve"><value>av</value></data>
+  <data name="Diag.On" xml:space="preserve"><value>på</value></data>
+  <data name="Diag.Over1s" xml:space="preserve"><value>&gt;1 s</value></data>
+  <data name="Diag.Overlay" xml:space="preserve"><value>Overlegg: skal være synlig={0}, synlig={1}, øverst={2}, minimert={3}, på en skjerm={4}, gjenopprettinger {5} (avvist {6})</value></data>
+  <data name="Diag.Reconcile" xml:space="preserve"><value>Avstemming (heuristikk): kjøringer {0}, ikke-klarert kontekst {1}, ingen positiv kontroll {2}, tvetydig VK {3}, bekreftet Down {4}</value></data>
+  <data name="Diag.Reset" xml:space="preserve"><value>Tilbakestill tilstanden</value></data>
+  <data name="Diag.ResetHint" xml:space="preserve"><value>Manuell tilbakestilling: alle tastene i hovedkilden blir Up, og overlegget tømmes.</value></data>
+  <data name="Diag.Seconds" xml:space="preserve"><value>{0} s</value></data>
+  <data name="Diag.Settings" xml:space="preserve"><value>Innstillinger…</value></data>
+  <data name="Diag.ShowOverlay" xml:space="preserve"><value>Vis overlegg</value></data>
+  <data name="Diag.Src.Applied" xml:space="preserve"><value>   brukt {0}, hoppet over duplikater {1}; trykt nå {2}, Unknown {3}</value></data>
+  <data name="Diag.Src.Events" xml:space="preserve"><value>   hendelser {0}, gjentakelser {1}, ignorert {2}, musebevegelser {3}, hjul {4}, fjernede enheter {5}</value></data>
+  <data name="Diag.Src.Ring" xml:space="preserve"><value>   ring {0}/{1}, tapsepoke {2}, forespørsler om resynkronisering {3} (gjentatt {4}), øyeblikksbilder {5}/{6}, rettet av øyeblikksbilde {7}</value></data>
+  <data name="Diag.Src.SinceLast" xml:space="preserve"><value>   siden siste hendelse: {0}</value></data>
+  <data name="Diag.Src.Unknown" xml:space="preserve"><value>   → Unknown {0}, løst av hendelse {1}, utdatert Down (heuristikk) {2}, avstemming Up {3} / Down {4}, sluppet ved fjerning av enhet {5}</value></data>
+  <data name="Diag.StartNote" xml:space="preserve"><value>Start: {0}</value></data>
+  <data name="Diag.System" xml:space="preserve"><value>System: låsing {0}, opplåsing {1}, skrivebordsbytte {2}, hvilemodus {3}, oppvåkning {4}, skjermendring {5}</value></data>
+  <data name="Diag.ToTray" xml:space="preserve"><value>Minimer til varslingsområdet</value></data>
+  <data name="Diag.Uptime" xml:space="preserve"><value>Driftstid: {0:F1} s   Modus: {1}   Hoved: {2}</value></data>
+  <data name="Diag.UpToMs" xml:space="preserve"><value>≤{0:0.#} ms</value></data>
+  <data name="Diag.UpToUs" xml:space="preserve"><value>≤{0} µs</value></data>
+  <data name="Diag.Us" xml:space="preserve"><value>{0} µs</value></data>
+  <data name="Diag.Visible" xml:space="preserve"><value>synlig</value></data>
+  <data name="Diag.WindowTitle" xml:space="preserve"><value>Backpack.Lab — diagnose</value></data>
+  <data name="Dialog.Cancel" xml:space="preserve"><value>Avbryt</value></data>
+  <data name="Dialog.Ok" xml:space="preserve"><value>OK</value></data>
+  <data name="Draw.Clear" xml:space="preserve"><value>Fjern alt</value></data>
+  <data name="Draw.CloseMenu" xml:space="preserve"><value>Lukk menyen (Esc)</value></data>
+  <data name="Draw.Color" xml:space="preserve"><value>Farge</value></data>
+  <data name="Draw.Dash" xml:space="preserve"><value>Linje</value></data>
+  <data name="Draw.Dash.Dashed" xml:space="preserve"><value>Stiplet</value></data>
+  <data name="Draw.Dash.Dotted" xml:space="preserve"><value>Prikket</value></data>
+  <data name="Draw.Dash.Solid" xml:space="preserve"><value>Heltrukket</value></data>
+  <data name="Draw.Defaults.Title" xml:space="preserve"><value>Standardinnstillinger for verktøyene</value></data>
+  <data name="Draw.Edge" xml:space="preserve"><value>Kant</value></data>
+  <data name="Draw.Edge.Bottom" xml:space="preserve"><value>Nederst</value></data>
+  <data name="Draw.Edge.Left" xml:space="preserve"><value>Venstre</value></data>
+  <data name="Draw.Edge.Right" xml:space="preserve"><value>Høyre</value></data>
+  <data name="Draw.Edge.Top" xml:space="preserve"><value>Øverst</value></data>
+  <data name="Draw.EdgeHint" xml:space="preserve"><value>Før pekeren til denne kanten og hold den der et øyeblikk for å vise verktøylinjen.</value></data>
+  <data name="Draw.Exit" xml:space="preserve"><value>Avslutt tegning (Esc)</value></data>
+  <data name="Draw.Fade" xml:space="preserve"><value>Blekne etter</value></data>
+  <data name="Draw.FadeHint" xml:space="preserve"><value>0 — behold til du forlater tegnemodus.</value></data>
+  <data name="Draw.FadeOff" xml:space="preserve"><value>Tegningene blir til du avslutter (klikk: blekne etter 5 s)</value></data>
+  <data name="Draw.FadeOn" xml:space="preserve"><value>Tegningene blekner etter {0} s (klikk: behold til avslutning)</value></data>
+  <data name="Draw.Hint" xml:space="preserve"><value>Tegn over det levende skrivebordet. Tegninger er midlertidige; bare skjermbilder du tar, lagres.</value></data>
+  <data name="Draw.Mode.AutoHide" xml:space="preserve"><value>Skjul automatisk ved en kant</value></data>
+  <data name="Draw.Mode.Docked" xml:space="preserve"><value>Alltid synlig</value></data>
+  <data name="Draw.Mode.RadialOnly" xml:space="preserve"><value>Bare radialmeny</value></data>
+  <data name="Draw.MoveText" xml:space="preserve"><value>Dra for å flytte teksten</value></data>
+  <data name="Draw.MoveToolbar" xml:space="preserve"><value>Dra for å flytte verktøylinjen</value></data>
+  <data name="Draw.NextColor" xml:space="preserve"><value>Neste farge</value></data>
+  <data name="Draw.Note" xml:space="preserve"><value>Tegninger er midlertidige og lagres aldri; skjermen tas ikke opp.</value></data>
+  <data name="Draw.Opacity" xml:space="preserve"><value>Dekkevne: full / 60 %</value></data>
+  <data name="Draw.Position" xml:space="preserve"><value>Verktøylinjens plassering</value></data>
+  <data name="Draw.PositionHint" xml:space="preserve"><value>Dra verktøylinjen i håndtaket ⋮⋮ mens du tegner; plassen huskes.</value></data>
+  <data name="Draw.PositionReset" xml:space="preserve"><value>Tilbake til øverst i midten</value></data>
+  <data name="Draw.PreviewText" xml:space="preserve"><value>Eksempel</value></data>
+  <data name="Draw.RadialNote" xml:space="preserve"><value>Radialmenyen ({0} eller høyreklikk) har alle verktøy, angre, gjør om, skjermbilde og avslutt — tegning avhenger aldri av verktøylinjen.</value></data>
+  <data name="Draw.RadialOnlyHint" xml:space="preserve"><value>Høyreklikk eller snarveien til radialmenyen — verktøy · Esc — avslutt</value></data>
+  <data name="Draw.Redo" xml:space="preserve"><value>Gjør om (Ctrl+Y)</value></data>
+  <data name="Draw.Run" xml:space="preserve"><value>Start</value></data>
+  <data name="Draw.Screenshot" xml:space="preserve"><value>Skjermbilde</value></data>
+  <data name="Draw.Shot.Action" xml:space="preserve"><value>Skjermbilde</value></data>
+  <data name="Draw.Shot.After" xml:space="preserve"><value>Etter skjermbildet</value></data>
+  <data name="Draw.Shot.AfterHint" xml:space="preserve"><value>Hvis lagringen mislykkes, fjernes tegningene aldri.</value></data>
+  <data name="Draw.Shot.Choose" xml:space="preserve"><value>Velg…</value></data>
+  <data name="Draw.Shot.Clear" xml:space="preserve"><value>Fjern tegningene</value></data>
+  <data name="Draw.Shot.Copy" xml:space="preserve"><value>Kopier</value></data>
+  <data name="Draw.Shot.Exit" xml:space="preserve"><value>Avslutt tegningen</value></data>
+  <data name="Draw.Shot.Folder" xml:space="preserve"><value>Mappe</value></data>
+  <data name="Draw.Shot.Hint" xml:space="preserve"><value>{0} eller 📷 i tegnemodus: skjermen med tegningene dine, uten verktøylinje og meny.</value></data>
+  <data name="Draw.Shot.Keep" xml:space="preserve"><value>Behold tegningene</value></data>
+  <data name="Draw.Shot.Note" xml:space="preserve"><value>PNG med dato og klokkeslett i navnet; skjermen med tegningen, i ekte piksler.</value></data>
+  <data name="Draw.Shot.Save" xml:space="preserve"><value>Lagre i fil</value></data>
+  <data name="Draw.Shot.SaveCopy" xml:space="preserve"><value>Lagre og kopier</value></data>
+  <data name="Draw.Shot.Title" xml:space="preserve"><value>Skjermbilder</value></data>
+  <data name="Draw.ShotCopied" xml:space="preserve"><value>Skjermbildet ble kopiert til utklippstavlen</value></data>
+  <data name="Draw.ShotFailed" xml:space="preserve"><value>Skjermbildet ble ikke lagret ({0}); tegningene beholdes.</value></data>
+  <data name="Draw.ShotSaved" xml:space="preserve"><value>Lagret: {0}</value></data>
+  <data name="Draw.ShotSavedCopied" xml:space="preserve"><value>Lagret og kopiert: {0}</value></data>
+  <data name="Draw.TextSize" xml:space="preserve"><value>Tekststørrelse</value></data>
+  <data name="Draw.TextSizeHint" xml:space="preserve"><value>For tekstverktøyet; − og + på verktøylinjen endrer den mens du skriver.</value></data>
+  <data name="Draw.Thicker" xml:space="preserve"><value>Tykkere</value></data>
+  <data name="Draw.Thickness" xml:space="preserve"><value>Tykkelse</value></data>
+  <data name="Draw.Thinner" xml:space="preserve"><value>Tynnere</value></data>
+  <data name="Draw.Title" xml:space="preserve"><value>Midlertidig tegning</value></data>
+  <data name="Draw.Tool.Arrow" xml:space="preserve"><value>Pil</value></data>
+  <data name="Draw.Tool.Ellipse" xml:space="preserve"><value>Ellipse</value></data>
+  <data name="Draw.Tool.Line" xml:space="preserve"><value>Rett linje</value></data>
+  <data name="Draw.Tool.Pen" xml:space="preserve"><value>Penn</value></data>
+  <data name="Draw.Tool.Rectangle" xml:space="preserve"><value>Rektangel</value></data>
+  <data name="Draw.Tool.Text" xml:space="preserve"><value>Tekst (Ctrl+Enter — ferdig, Esc — avbryt)</value></data>
+  <data name="Draw.Toolbar.Hint" xml:space="preserve"><value>Lagres i profilen.</value></data>
+  <data name="Draw.Toolbar.Title" xml:space="preserve"><value>Verktøylinje</value></data>
+  <data name="Draw.ToolbarMode" xml:space="preserve"><value>Verktøylinje</value></data>
+  <data name="Draw.Undo" xml:space="preserve"><value>Angre (Ctrl+Z)</value></data>
+  <data name="Help.AnchorMissing" xml:space="preserve"><value>Delen «{0}» ble ikke funnet på denne siden.</value></data>
+  <data name="Help.Back" xml:space="preserve"><value>← Tilbake</value></data>
+  <data name="Help.DemoHint" xml:space="preserve"><value>Åpner et trygt eksempel med oppdiktede taster</value></data>
+  <data name="Help.External.Message" xml:space="preserve"><value>Denne lenken går ut av hjelpen og åpnes i nettleseren:
+{0}</value></data>
+  <data name="Help.External.Title" xml:space="preserve"><value>Åpne en nettside?</value></data>
+  <data name="Help.Forward" xml:space="preserve"><value>Fremover →</value></data>
+  <data name="Help.ImageActual" xml:space="preserve"><value>Faktisk størrelse</value></data>
+  <data name="Help.ImageFit" xml:space="preserve"><value>Tilpass vinduet</value></data>
+  <data name="Help.ImageTitle" xml:space="preserve"><value>Bilde fra hjelpen</value></data>
+  <data name="Help.ImageZoomHint" xml:space="preserve"><value>Klikk for å forstørre</value></data>
+  <data name="Help.NothingFound" xml:space="preserve"><value>Ingenting funnet</value></data>
+  <data name="Help.Search" xml:space="preserve"><value>Søk i hjelpen</value></data>
+  <data name="Help.WindowTitle" xml:space="preserve"><value>Backpack-hjelp — {0}</value></data>
+  <data name="Help.ZoomIn" xml:space="preserve"><value>Større tekst</value></data>
+  <data name="Help.ZoomOut" xml:space="preserve"><value>Mindre tekst</value></data>
+  <data name="HelpSection.Diag.Title" xml:space="preserve"><value>Kontroller</value></data>
+  <data name="HelpSection.Diagnostics" xml:space="preserve"><value>Diagnosevindu</value></data>
+  <data name="HelpSection.DiagnosticsHint" xml:space="preserve"><value>Tellere for opptakskildene og den manuelle sjekklisten.</value></data>
+  <data name="HelpSection.LayoutIndicator" xml:space="preserve"><value>Oppsettsindikator</value></data>
+  <data name="HelpSection.LoadProblem" xml:space="preserve"><value>Ved innlasting: {0}</value></data>
+  <data name="HelpSection.Migrated" xml:space="preserve"><value>Innstillingene ble oppdatert fra format {0}; den gamle filen er beholdt som settings.v1.bak.json.</value></data>
+  <data name="HelpSection.OverlayExample" xml:space="preserve"><value>Eksempel på overlegget</value></data>
+  <data name="HelpSection.OverlayExampleHint" xml:space="preserve"><value>Spiller av oppdiktede taster på det ekte overlegget i noen sekunder. Det du skriver, brukes ikke.</value></data>
+  <data name="HelpSection.ResetAll" xml:space="preserve"><value>Tilbakestill alle innstillinger</value></data>
+  <data name="HelpSection.ResetAllButton" xml:space="preserve"><value>Tilbakestill alt</value></data>
+  <data name="HelpSection.ResetAllConfirm" xml:space="preserve"><value>Tilbakestille alle innstillinger til standard? Lagrede profiler endres ikke.</value></data>
+  <data name="HelpSection.ResetAllHint" xml:space="preserve"><value>Setter hver del tilbake til standard. Lagrede profiler forblir som de er.</value></data>
+  <data name="HelpSection.Settings.Title" xml:space="preserve"><value>Innstillingsfil</value></data>
+  <data name="HelpSection.SettingsFile" xml:space="preserve"><value>Innstillingene lagres automatisk: {0}</value></data>
+  <data name="Home.CombosHint" xml:space="preserve"><value>Skjul vanlig skriving, og vis bare kombinasjoner.</value></data>
+  <data name="Home.DemoToggle" xml:space="preserve"><value>Sett demoen på pause eller spill den av</value></data>
+  <data name="Home.Display" xml:space="preserve"><value>Vis taster, oppsettsindikator og mus</value></data>
+  <data name="Home.DisplayHint" xml:space="preserve"><value>Snarvei: {0}. Når visningen vises igjen, kommer ikke gamle trykk tilbake.</value></data>
+  <data name="Home.Draw" xml:space="preserve"><value>Midlertidig tegning</value></data>
+  <data name="Home.F.Keys" xml:space="preserve"><value>Taster</value></data>
+  <data name="Home.F.KeysHint" xml:space="preserve"><value>Taster i fem tegnestiler, kombinasjoner, etiketter for Windows, macOS og Linux.</value></data>
+  <data name="Home.F.Mouse" xml:space="preserve"><value>Mus</value></data>
+  <data name="Home.F.MouseHint" xml:space="preserve"><value>Klikk, rulling og sideknapper på et ikon ved pekeren; et forstørrelsesglass rundt den.</value></data>
+  <data name="Home.F.MouseOff" xml:space="preserve"><value>Skjul ved pekeren</value></data>
+  <data name="Home.F.MouseOn" xml:space="preserve"><value>Vis ved pekeren</value></data>
+  <data name="Home.F.Settings" xml:space="preserve"><value>Innstillinger</value></data>
+  <data name="Home.F.Style" xml:space="preserve"><value>Velg en stil</value></data>
+  <data name="Home.OpenProfiles" xml:space="preserve"><value>Profiler…</value></data>
+  <data name="Home.Pause" xml:space="preserve"><value>Sett demoen på pause</value></data>
+  <data name="Home.Play" xml:space="preserve"><value>Spill av demoen</value></data>
+  <data name="Home.Start" xml:space="preserve"><value>Start</value></data>
+  <data name="Home.State.Hint" xml:space="preserve"><value>Det som er på skjermen nå. Opptaket fortsetter mens visningen er skjult.</value></data>
+  <data name="Home.State.Title" xml:space="preserve"><value>Visning</value></data>
+  <data name="Home.ToolHint" xml:space="preserve"><value>Snarvei: {0}. Esc avslutter.</value></data>
+  <data name="Home.Welcome" xml:space="preserve"><value>Verktøy for presentasjoner, veiledninger og skjermdemoer: taster og mus på skjermen, tegning med nummererte trinn og programtillegg for fokus, forstørrelsesglass og tidtaker.</value></data>
+  <data name="Home.WelcomeHint" xml:space="preserve"><value>Demoen bruker oppdiktede data — ingen ekte inndata og ingen skjermopptak.</value></data>
+  <data name="Hotkeys.Clear" xml:space="preserve"><value>Fjern</value></data>
+  <data name="Hotkeys.Default" xml:space="preserve"><value>Standard</value></data>
+  <data name="Hotkeys.Draw" xml:space="preserve"><value>Tegnemodus</value></data>
+  <data name="Hotkeys.Hide.Hint" xml:space="preserve"><value>Opptaket fortsetter; når visningen vises igjen, er det ingen gamle trykk.</value></data>
+  <data name="Hotkeys.Hide.Indicator" xml:space="preserve"><value>Oppsettsindikator</value></data>
+  <data name="Hotkeys.Hide.Keycaps" xml:space="preserve"><value>Taster</value></data>
+  <data name="Hotkeys.Hide.Mouse" xml:space="preserve"><value>Mus ved pekeren</value></data>
+  <data name="Hotkeys.Hide.Title" xml:space="preserve"><value>Hva «skjul visningen» skjuler</value></data>
+  <data name="Hotkeys.Hint" xml:space="preserve"><value>Innstillinger for denne datamaskinen: import av en profil endrer dem ikke. Klikk i et felt og trykk på kombinasjonen.</value></data>
+  <data name="Hotkeys.Lens" xml:space="preserve"><value>Direkte forstørrelsesglass</value></data>
+  <data name="Hotkeys.Note" xml:space="preserve"><value>F1 holder seg innenfor Backpacks vinduer. En global snarvei fanger bare sin egen kombinasjon; andre inndata blokkeres ikke. Å holde tastene nede gjentar ikke handlingen.</value></data>
+  <data name="Hotkeys.NotSet" xml:space="preserve"><value>ikke angitt</value></data>
+  <data name="Hotkeys.PressKeys" xml:space="preserve"><value>Trykk på en kombinasjon…</value></data>
+  <data name="Hotkeys.Radial" xml:space="preserve"><value>Sirkelmeny (i tegnemodus)</value></data>
+  <data name="Hotkeys.Recording" xml:space="preserve"><value>Opptak: trykk på tastene; Esc — avbryt, Backspace — fjern.</value></data>
+  <data name="Hotkeys.Screenshot" xml:space="preserve"><value>Skjermbilde (i tegnemodus)</value></data>
+  <data name="Hotkeys.ScreenshotNote" xml:space="preserve"><value>Skjermbildetasten virker bare i tegnemodus, så en enkelt tast som F2 er tillatt.</value></data>
+  <data name="Hotkeys.Status.Busy" xml:space="preserve"><value>Brukes av et annet program. Velg en annen kombinasjon.</value></data>
+  <data name="Hotkeys.Status.Conflict" xml:space="preserve"><value>Brukes allerede av en annen Backpack-handling.</value></data>
+  <data name="Hotkeys.Status.Failed" xml:space="preserve"><value>Windows registrerte ikke kombinasjonen.</value></data>
+  <data name="Hotkeys.Status.Invalid" xml:space="preserve"><value>Krever Ctrl, Alt eller Win pluss en annen tast.</value></data>
+  <data name="Hotkeys.Status.NotSet" xml:space="preserve"><value>Ikke angitt.</value></data>
+  <data name="Hotkeys.Status.Registered" xml:space="preserve"><value>Aktiv.</value></data>
+  <data name="Hotkeys.Status.Reserved" xml:space="preserve"><value>Reservert av Windows (for eksempel Win+Mellomrom, Alt+Tab).</value></data>
+  <data name="Hotkeys.Status.Suspended" xml:space="preserve"><value>Satt på pause mens en kombinasjon tas opp.</value></data>
+  <data name="Hotkeys.Status.WaitingForMode" xml:space="preserve"><value>Bare aktiv under tegning; ellers blir tasten værende hos andre programmer.</value></data>
+  <data name="Hotkeys.Title" xml:space="preserve"><value>Globale snarveier</value></data>
+  <data name="Hotkeys.ToggleDisplay" xml:space="preserve"><value>Vis eller skjul visningen</value></data>
+  <data name="Keys.AnyHeldMs" xml:space="preserve"><value>Samtidighetsterskel</value></data>
+  <data name="Keys.AnyHeldMsHint" xml:space="preserve"><value>Hvor lenge den første tasten må holdes før andre blir med. 0 — ingen terskel.</value></data>
+  <data name="Keys.ChordNote" xml:space="preserve"><value>En kombinasjon holdes samlet så lenge en av tastene er nede; bokstaver som skrives raskt og overlappende, slås ikke sammen til en kombinasjon.</value></data>
+  <data name="Keys.Chords" xml:space="preserve"><value>Slå sammen taster</value></data>
+  <data name="Keys.Chords.AnyHeld" xml:space="preserve"><value>Vilkårlige taster holdt samtidig</value></data>
+  <data name="Keys.Chords.Hint" xml:space="preserve"><value>Uavhengig av «Alle taster / Bare kombinasjoner».</value></data>
+  <data name="Keys.Chords.Limits" xml:space="preserve"><value>Backpack viser det tastaturet og Windows rapporterer. Noen kombinasjoner fanges først av Windows eller andre apper, og noen tastaturer kan ikke rapportere dem.</value></data>
+  <data name="Keys.Chords.Modifiers" xml:space="preserve"><value>Med Ctrl, Alt, Shift, Win</value></data>
+  <data name="Keys.Chords.Note" xml:space="preserve"><value>Taster danner en gruppe bare når de virkelig holdes sammen lenger enn terskelen; overlappende trykk ved rask skriving holdes atskilt.</value></data>
+  <data name="Keys.Chords.Title" xml:space="preserve"><value>Hva som danner en kombinasjon</value></data>
+  <data name="Keys.Filter" xml:space="preserve"><value>Taster</value></data>
+  <data name="Keys.Filter.All" xml:space="preserve"><value>Alle taster</value></data>
+  <data name="Keys.Filter.Combos" xml:space="preserve"><value>Bare kombinasjoner</value></data>
+  <data name="Keys.FilterHint" xml:space="preserve"><value>«Bare kombinasjoner» skjuler vanlig skriving og viser taster som trykkes sammen med Ctrl, Alt eller Win.</value></data>
+  <data name="Keys.Linger" xml:space="preserve"><value>Blir værende etter slipp</value></data>
+  <data name="Keys.LingerHint" xml:space="preserve"><value>Hvor lenge de siste tastene er synlige etter at du slipper dem.</value></data>
+  <data name="Keys.MouseInRow" xml:space="preserve"><value>Museknapper i raden</value></data>
+  <data name="Keys.MouseInRowHint" xml:space="preserve"><value>Klikk vises ved siden av tastene, for eksempel Ctrl + venstre knapp.</value></data>
+  <data name="Keys.MouseLabels" xml:space="preserve"><value>Etikett for museknapp</value></data>
+  <data name="Keys.MouseLabels.Icon" xml:space="preserve"><value>Ikon</value></data>
+  <data name="Keys.MouseLabels.Text" xml:space="preserve"><value>Tekst</value></data>
+  <data name="Keys.MouseLabelsHint" xml:space="preserve"><value>Et tegnet museikon eller et ord.</value></data>
+  <data name="Keys.Show.Title" xml:space="preserve"><value>Hva som vises</value></data>
+  <data name="Keys.Trail" xml:space="preserve"><value>Spor</value></data>
+  <data name="Keys.Trail.Fade" xml:space="preserve"><value>Falmende spor</value></data>
+  <data name="Keys.Trail.None" xml:space="preserve"><value>Rolig</value></data>
+  <data name="Keys.TrailHint" xml:space="preserve"><value>Rolig: hver nye bokstav erstatter den forrige. Spor: slupne bokstaver blir værende et øyeblikk og falmer på stedet.</value></data>
+  <data name="Keys.Typing.Title" xml:space="preserve"><value>Skriving</value></data>
+  <data name="Layout.Anchor" xml:space="preserve"><value>Skjermpunkt</value></data>
+  <data name="Layout.Animation" xml:space="preserve"><value>Animasjon</value></data>
+  <data name="Layout.Background" xml:space="preserve"><value>Bakgrunn</value></data>
+  <data name="Layout.BorderColor" xml:space="preserve"><value>Konturfarge</value></data>
+  <data name="Layout.BorderWidth" xml:space="preserve"><value>Konturtykkelse</value></data>
+  <data name="Layout.BorderWidthHint" xml:space="preserve"><value>0 — ingen kontur.</value></data>
+  <data name="Layout.Duration" xml:space="preserve"><value>Vis i</value></data>
+  <data name="Layout.Enable" xml:space="preserve"><value>Vis indikator</value></data>
+  <data name="Layout.ExampleDetail" xml:space="preserve"><value>Eksempel</value></data>
+  <data name="Layout.Hint" xml:space="preserve"><value>En kort etikett som «EN» eller «UK» når inndataspråket i det aktive vinduet endres.</value></data>
+  <data name="Layout.Look.Title" xml:space="preserve"><value>Indikatorens utseende</value></data>
+  <data name="Layout.OnSwitch" xml:space="preserve"><value>Ved vindusbytte</value></data>
+  <data name="Layout.OnSwitchHint" xml:space="preserve"><value>Vis etiketten også når du bytter til et vindu med et annet språk.</value></data>
+  <data name="Layout.Position.Title" xml:space="preserve"><value>Indikatorens plassering</value></data>
+  <data name="Layout.Radius" xml:space="preserve"><value>Avrunding</value></data>
+  <data name="Layout.RadiusHint" xml:space="preserve"><value>0 — skarpe hjørner, 1 — pilleform.</value></data>
+  <data name="Layout.ShowExample" xml:space="preserve"><value>Vis eksempel</value></data>
+  <data name="Layout.Style" xml:space="preserve"><value>Kilde for utseende</value></data>
+  <data name="Layout.Style.Custom" xml:space="preserve"><value>Egen stil</value></data>
+  <data name="Layout.Style.Inherit" xml:space="preserve"><value>Som tastene</value></data>
+  <data name="Layout.StyleHint" xml:space="preserve"><value>«Som tastene» følger tastenes farger. «Egen stil» bruker parameterne nedenfor; velg en forhåndsinnstilling i katalogen ovenfor.</value></data>
+  <data name="Layout.TextColor" xml:space="preserve"><value>Tekstfarge</value></data>
+  <data name="Layout.TextSize" xml:space="preserve"><value>Tekststørrelse</value></data>
+  <data name="Layout.Title" xml:space="preserve"><value>Oppsettsindikator</value></data>
+  <data name="Layout.Where" xml:space="preserve"><value>Hvor</value></data>
+  <data name="Layout.Where.Above" xml:space="preserve"><value>Over tasteraden</value></data>
+  <data name="Layout.Where.Screen" xml:space="preserve"><value>Skjermpunkt</value></data>
+  <data name="LayoutStatus.Baseline" xml:space="preserve"><value>Inndataspråket i det aktive vinduet overvåkes; gjeldende språk er husket, ingen endringer ennå. Vist: {0}.</value></data>
+  <data name="LayoutStatus.Off" xml:space="preserve"><value>Av.</value></data>
+  <data name="LayoutStatus.Shown" xml:space="preserve"><value>Inndataspråket i det aktive vinduet overvåkes; den siste endringen ble vist. Vist: {0}.</value></data>
+  <data name="LayoutStatus.Suppressed" xml:space="preserve"><value>Inndataspråket i det aktive vinduet overvåkes; den siste endringen ved vindusbytte ble ikke vist (etter innstillingen). Vist: {0}.</value></data>
+  <data name="LayoutStatus.Unchanged" xml:space="preserve"><value>Inndataspråket i det aktive vinduet overvåkes; språket er ikke endret. Vist: {0}.</value></data>
+  <data name="LayoutStatus.Waiting" xml:space="preserve"><value>Venter på det første aktive vinduet fra et annet program. Vist: {0}.</value></data>
+  <data name="Lens.HotkeyButton" xml:space="preserve"><value>Snarveier…</value></data>
+  <data name="Lens.SelectHint" xml:space="preserve"><value>Dra et rektangel for forstørrelsesglasset. Klikk — standardstørrelse. Esc eller høyreklikk — avbryt.</value></data>
+  <data name="Lens.Unavailable" xml:space="preserve"><value>Skjermen er ikke tilgjengelig for forstørrelsesglasset akkurat nå</value></data>
+  <data name="Mouse.Body" xml:space="preserve"><value>Kroppsfarge</value></data>
+  <data name="Mouse.BodyHint" xml:space="preserve"><value>Kontur, retro og skisse. Gjennomsiktig — ingen fyll.</value></data>
+  <data name="Mouse.Circle" xml:space="preserve"><value>Vis klikksirkel</value></data>
+  <data name="Mouse.Circle.Title" xml:space="preserve"><value>Klikksirkel</value></data>
+  <data name="Mouse.CircleColor" xml:space="preserve"><value>Sirkelfarge</value></data>
+  <data name="Mouse.CircleOpacity" xml:space="preserve"><value>Sirkelens dekkevne</value></data>
+  <data name="Mouse.CircleSize" xml:space="preserve"><value>Sirkelstørrelse</value></data>
+  <data name="Mouse.Cursor.Enable" xml:space="preserve"><value>Vis ved pekeren</value></data>
+  <data name="Mouse.Cursor.EnableHint" xml:space="preserve"><value>Et lite museikon og en klikksirkel følger pekeren. Klikk går gjennom til vinduet under.</value></data>
+  <data name="Mouse.Cursor.Title" xml:space="preserve"><value>Mus ved pekeren</value></data>
+  <data name="Mouse.Icon" xml:space="preserve"><value>Vis ikon</value></data>
+  <data name="Mouse.Icon.Title" xml:space="preserve"><value>Museikon</value></data>
+  <data name="Mouse.IconBackground" xml:space="preserve"><value>Fyll</value></data>
+  <data name="Mouse.IconHint" xml:space="preserve"><value>Den nedtrykte knappen fremheves på ikonet.</value></data>
+  <data name="Mouse.IconSize" xml:space="preserve"><value>Ikonstørrelse</value></data>
+  <data name="Mouse.InRow.Note" xml:space="preserve"><value>Museknapper kan også vises i tasteraden ved siden av modifikatorer — se «Taster og kombinasjoner».</value></data>
+  <data name="Mouse.InRow.Title" xml:space="preserve"><value>Mus i tasteraden</value></data>
+  <data name="Mouse.Look.Hint" xml:space="preserve"><value>Et trykk endrer bare sin egen del av ikonet.</value></data>
+  <data name="Mouse.Look.Title" xml:space="preserve"><value>Museikon</value></data>
+  <data name="Mouse.OffsetRightHint" xml:space="preserve"><value>Avstand fra pekerens spiss; negative verdier plasserer det til venstre.</value></data>
+  <data name="Mouse.Outline" xml:space="preserve"><value>Kontur</value></data>
+  <data name="Mouse.Pressed" xml:space="preserve"><value>Nedtrykt knapp</value></data>
+  <data name="Mouse.Renderer" xml:space="preserve"><value>Tegnemåte</value></data>
+  <data name="Mouse.SideButtons" xml:space="preserve"><value>Sideknapper</value></data>
+  <data name="Mouse.SideButtons.Hidden" xml:space="preserve"><value>Skjult</value></data>
+  <data name="Mouse.SideButtons.Left" xml:space="preserve"><value>Venstre</value></data>
+  <data name="Mouse.SideButtons.Note" xml:space="preserve"><value>Vises: X1 (tilbake) og X2 (fremover). Knapper som musedriveren har tilordnet på nytt, når ikke Backpack som egne knapper.</value></data>
+  <data name="Mouse.SideButtons.One" xml:space="preserve"><value>Én</value></data>
+  <data name="Mouse.SideButtons.Right" xml:space="preserve"><value>Høyre</value></data>
+  <data name="Mouse.SideButtons.Side" xml:space="preserve"><value>Side</value></data>
+  <data name="Mouse.SideButtons.Two" xml:space="preserve"><value>To</value></data>
+  <data name="Mouse.SideButtonsHint" xml:space="preserve"><value>Still inn etter musen din.</value></data>
+  <data name="Mouse.Wheel.Color" xml:space="preserve"><value>Pilfarge</value></data>
+  <data name="Mouse.Wheel.Duration" xml:space="preserve"><value>Pilen blir værende</value></data>
+  <data name="Mouse.Wheel.DurationHint" xml:space="preserve"><value>Etter det siste rulletrinnet.</value></data>
+  <data name="Mouse.Wheel.Hint" xml:space="preserve"><value>En pil i hjulet viser rulleretningen, også vannrett hvis musen rapporterer det.</value></data>
+  <data name="Mouse.Wheel.Note" xml:space="preserve"><value>Rulling og trykk på midtknappen er ulike hendelser. Pilen vises på museikonet ved pekeren; tasteraden viser ikke rulling.</value></data>
+  <data name="Mouse.Wheel.Title" xml:space="preserve"><value>Rulling</value></data>
+  <data name="MouseRenderer.Outline" xml:space="preserve"><value>Kontur</value></data>
+  <data name="MouseRenderer.Retro" xml:space="preserve"><value>Retro</value></data>
+  <data name="MouseRenderer.Sketch" xml:space="preserve"><value>Skisse</value></data>
+  <data name="MouseRenderer.Solid" xml:space="preserve"><value>Fylt</value></data>
+  <data name="Note.DataMigrated" xml:space="preserve"><value>Innstillinger og profiler ble kopiert fra den tidligere mappen Backpack.Lab; de gamle filene er beholdt.</value></data>
+  <data name="Note.Migrated" xml:space="preserve"><value>innstillinger: oppdatert fra format {0} til {1}</value></data>
+  <data name="Note.PortableUnavailable" xml:space="preserve"><value>Den bærbare markøren ble funnet, men mappen ved siden av programmet er ikke skrivbar; innstillingene lagres i %APPDATA%\Backpack.</value></data>
+  <data name="Note.PrefsUnreadable" xml:space="preserve"><value>appinnstillingene (app.json) kunne ikke leses; standardverdier brukes</value></data>
+  <data name="Note.SettingsProblem" xml:space="preserve"><value>innstillinger: {0}</value></data>
+  <data name="Note.SourceFailed" xml:space="preserve"><value>{0}: oppstart mislyktes i trinnet «{1}», Win32 {2}</value></data>
+  <data name="Note.SourceReady" xml:space="preserve"><value>{0}: klar</value></data>
+  <data name="Outcome.Baseline" xml:space="preserve"><value>startverdi husket</value></data>
+  <data name="Outcome.NoForeground" xml:space="preserve"><value>ingen aktivt vindu</value></data>
+  <data name="Outcome.NotStarted" xml:space="preserve"><value>ingen ennå</value></data>
+  <data name="Outcome.OwnWindow" xml:space="preserve"><value>et Backpack-vindu (telles ikke)</value></data>
+  <data name="Outcome.ShownInWindow" xml:space="preserve"><value>vist: endring i vinduet</value></data>
+  <data name="Outcome.ShownWindowSwitch" xml:space="preserve"><value>vist: bytte til et vindu med et annet språk</value></data>
+  <data name="Outcome.SuppressedWindowSwitch" xml:space="preserve"><value>ikke vist: bytte mellom vinduer (slått av i innstillingene)</value></data>
+  <data name="Outcome.Unavailable" xml:space="preserve"><value>oppsett ikke tilgjengelig</value></data>
+  <data name="Outcome.Unchanged" xml:space="preserve"><value>ingen endring</value></data>
+  <data name="Outcome.Unconfirmed" xml:space="preserve"><value>venter på bekreftelse fra en andre avlesning</value></data>
+  <data name="Position.Anchor" xml:space="preserve"><value>Skjermpunkt</value></data>
+  <data name="Position.EdgeX" xml:space="preserve"><value>Fra sidekanten</value></data>
+  <data name="Position.EdgeXHint" xml:space="preserve"><value>Brukes for punktene til venstre og høyre.</value></data>
+  <data name="Position.EdgeY" xml:space="preserve"><value>Fra topp- eller bunnkanten</value></data>
+  <data name="Position.EdgeYHint" xml:space="preserve"><value>Brukes for punktene øverst og nederst.</value></data>
+  <data name="Position.Hint" xml:space="preserve"><value>Velg et skjermpunkt, og finjuster deretter avstanden fra kantene.</value></data>
+  <data name="Position.Note" xml:space="preserve"><value>Raden holder seg innenfor arbeidsområdet på hovedskjermen, over oppgavelinjen.</value></data>
+  <data name="Position.PreviewLabel" xml:space="preserve"><value>taster</value></data>
+  <data name="Position.Reset" xml:space="preserve"><value>Standardplassering</value></data>
+  <data name="Position.ResetButton" xml:space="preserve"><value>Nederst i midten</value></data>
+  <data name="Position.Title" xml:space="preserve"><value>Plassering av tasteraden</value></data>
+  <data name="Profile.Error.Id" xml:space="preserve"><value>Profil-ID mangler eller er ugyldig.</value></data>
+  <data name="Profile.Error.Missing" xml:space="preserve"><value>Profilfilen ble ikke funnet.</value></data>
+  <data name="Profile.Error.Name" xml:space="preserve"><value>Profilnavnet mangler eller er lengre enn 64 tegn.</value></data>
+  <data name="Profile.Error.Newer" xml:space="preserve"><value>Profilen ble opprettet av en nyere versjon (format {0}).</value></data>
+  <data name="Profile.Error.NoSettings" xml:space="preserve"><value>Profilen har ingen innstillingsdel.</value></data>
+  <data name="Profile.Error.NotProfile" xml:space="preserve"><value>Dette er ikke en Backpack-profilfil.</value></data>
+  <data name="Profile.Error.NoVersion" xml:space="preserve"><value>Profilens formatversjon mangler.</value></data>
+  <data name="Profile.Error.ReadFailed" xml:space="preserve"><value>Profilfilen kunne ikke leses ({0}).</value></data>
+  <data name="Profile.Error.Styles" xml:space="preserve"><value>Listen «styles» er skadet eller for lang (høyst 16 stiler).</value></data>
+  <data name="Profile.Error.Syntax" xml:space="preserve"><value>Filen er ikke gyldig JSON (linje {0}).</value></data>
+  <data name="Profile.Error.TooLarge" xml:space="preserve"><value>Filen er for stor for en profil (mer enn 256 KB).</value></data>
+  <data name="Profile.Error.Unsupported" xml:space="preserve"><value>Profilformatversjonen støttes ikke: {0}.</value></data>
+  <data name="Profiles.Active" xml:space="preserve"><value>Profil</value></data>
+  <data name="Profiles.Active.Title" xml:space="preserve"><value>Gjeldende profil</value></data>
+  <data name="Profiles.All.Title" xml:space="preserve"><value>Alle profiler</value></data>
+  <data name="Profiles.CopyName" xml:space="preserve"><value>{0} — kopi</value></data>
+  <data name="Profiles.DefaultName" xml:space="preserve"><value>Hoved</value></data>
+  <data name="Profiles.Delete" xml:space="preserve"><value>Slett</value></data>
+  <data name="Profiles.Delete.Message" xml:space="preserve"><value>Slette profilen «{0}»? Dette kan ikke angres.</value></data>
+  <data name="Profiles.Delete.Title" xml:space="preserve"><value>Slett profil</value></data>
+  <data name="Profiles.DeleteActiveHint" xml:space="preserve"><value>Profilen som er i bruk, kan ikke slettes. Last inn en annen profil først.</value></data>
+  <data name="Profiles.Duplicate" xml:space="preserve"><value>Dupliser</value></data>
+  <data name="Profiles.Error.Name" xml:space="preserve"><value>Skriv inn et navn på 1–64 tegn.</value></data>
+  <data name="Profiles.Export" xml:space="preserve"><value>Eksporter…</value></data>
+  <data name="Profiles.FileDialogNote" xml:space="preserve"><value>Windows-fildialoger følger Windows-temaet og -språket, ikke Backpack-innstillingene.</value></data>
+  <data name="Profiles.FileFilter" xml:space="preserve"><value>Backpack-profil</value></data>
+  <data name="Profiles.Import" xml:space="preserve"><value>Importer…</value></data>
+  <data name="Profiles.Imported.Later" xml:space="preserve"><value>Senere</value></data>
+  <data name="Profiles.Imported.Message" xml:space="preserve"><value>Profilen «{0}» ble lagt til i listen. Laste den inn nå?</value></data>
+  <data name="Profiles.Imported.Title" xml:space="preserve"><value>Profil importert</value></data>
+  <data name="Profiles.ImportFailed.Message" xml:space="preserve"><value>Filen ble ikke importert fordi den har problemer. Ingenting ble endret.</value></data>
+  <data name="Profiles.ImportFailed.Title" xml:space="preserve"><value>Profilen ble ikke importert</value></data>
+  <data name="Profiles.IncludesNote" xml:space="preserve"><value>En profil lagrer visningens utseende og oppførsel, musen, oppsettsindikatoren og plasseringen. Språk, tema og oppførsel i varslingsområdet er felles.</value></data>
+  <data name="Profiles.IsActive" xml:space="preserve"><value>I bruk nå</value></data>
+  <data name="Profiles.Load" xml:space="preserve"><value>Last inn</value></data>
+  <data name="Profiles.LoadFailed.Message" xml:space="preserve"><value>Profilfilen har problemer. Gjeldende innstillinger ble ikke endret.</value></data>
+  <data name="Profiles.LoadFailed.Title" xml:space="preserve"><value>Profilen ble ikke lastet inn</value></data>
+  <data name="Profiles.NameLabel" xml:space="preserve"><value>Profilnavn</value></data>
+  <data name="Profiles.New" xml:space="preserve"><value>Ny profil</value></data>
+  <data name="Profiles.New.Title" xml:space="preserve"><value>Ny profil</value></data>
+  <data name="Profiles.NewName" xml:space="preserve"><value>Ny profil</value></data>
+  <data name="Profiles.Rename" xml:space="preserve"><value>Gi nytt navn</value></data>
+  <data name="Profiles.Rename.Title" xml:space="preserve"><value>Gi profilen nytt navn</value></data>
+  <data name="Renderer.Laptop" xml:space="preserve"><value>Bærbar</value></data>
+  <data name="Renderer.LowProfile" xml:space="preserve"><value>Lav profil</value></data>
+  <data name="Renderer.Minimal" xml:space="preserve"><value>Minimal</value></data>
+  <data name="Renderer.Pbt" xml:space="preserve"><value>PBT</value></data>
+  <data name="Renderer.Volumetric" xml:space="preserve"><value>3D (sett forfra)</value></data>
+  <data name="Settings.HelpButton" xml:space="preserve"><value>Hjelp</value></data>
+  <data name="Settings.Nav.About" xml:space="preserve"><value>Om</value></data>
+  <data name="Settings.Nav.Appearance" xml:space="preserve"><value>Tastestil</value></data>
+  <data name="Settings.Nav.Application" xml:space="preserve"><value>Appinnstillinger</value></data>
+  <data name="Settings.Nav.Drawing" xml:space="preserve"><value>Tegning</value></data>
+  <data name="Settings.Nav.Help" xml:space="preserve"><value>Hjelp og diagnostikk</value></data>
+  <data name="Settings.Nav.HelpPage" xml:space="preserve"><value>Hjelp</value></data>
+  <data name="Settings.Nav.Home" xml:space="preserve"><value>Start</value></data>
+  <data name="Settings.Nav.Hotkeys" xml:space="preserve"><value>Kommandoer og snarveier</value></data>
+  <data name="Settings.Nav.Keys" xml:space="preserve"><value>Taster</value></data>
+  <data name="Settings.Nav.Layout" xml:space="preserve"><value>Tastaturoppsett</value></data>
+  <data name="Settings.Nav.Lens" xml:space="preserve"><value>Direkte forstørrelsesglass</value></data>
+  <data name="Settings.Nav.Mouse" xml:space="preserve"><value>Mus</value></data>
+  <data name="Settings.Nav.Position" xml:space="preserve"><value>Plassering og skjermer</value></data>
+  <data name="Settings.Nav.Profiles" xml:space="preserve"><value>Profiler</value></data>
+  <data name="Settings.Nav.SettingsGroup" xml:space="preserve"><value>Innstillinger</value></data>
+  <data name="Settings.Problem.Bool" xml:space="preserve"><value>{0}: true eller false forventes; {1} brukes.</value></data>
+  <data name="Settings.Problem.Color" xml:space="preserve"><value>{0}: «{1}» er ikke en farge; {2} brukes.</value></data>
+  <data name="Settings.Problem.Corrupt" xml:space="preserve"><value>Innstillingsfilen er ikke gyldig JSON (linje {0}); standardinnstillingene brukes, og filen beholdes som settings.unreadable.bak.json.</value></data>
+  <data name="Settings.Problem.Enum" xml:space="preserve"><value>{0}: «{1}» er ikke en av {2}; standardverdien brukes.</value></data>
+  <data name="Settings.Problem.Integer" xml:space="preserve"><value>{0}: et heltall forventes; {1} brukes.</value></data>
+  <data name="Settings.Problem.Newer" xml:space="preserve"><value>Innstillingene ble lagret av en nyere versjon (format {0}); standardinnstillingene brukes, og filen overskrives ikke.</value></data>
+  <data name="Settings.Problem.NoFormat" xml:space="preserve"><value>Filen er ikke en Backpack-innstillingsfil; standardinnstillingene brukes.</value></data>
+  <data name="Settings.Problem.NotObject" xml:space="preserve"><value>Innstillingsfilen inneholder ikke et JSON-objekt; standardinnstillingene brukes.</value></data>
+  <data name="Settings.Problem.NotSection" xml:space="preserve"><value>«{0}» må være et objekt; standardverdier brukes for det.</value></data>
+  <data name="Settings.Problem.NoVersion" xml:space="preserve"><value>Formatversjonen for innstillingene mangler; standardinnstillingene brukes.</value></data>
+  <data name="Settings.Problem.Number" xml:space="preserve"><value>{0}: et tall forventes; {1} brukes.</value></data>
+  <data name="Settings.Problem.Range" xml:space="preserve"><value>{0}: {1} er utenfor {2}…{3}; {4} brukes.</value></data>
+  <data name="Settings.Problem.ReadFailed" xml:space="preserve"><value>Innstillingsfilen kunne ikke leses ({0}); standardinnstillingene brukes.</value></data>
+  <data name="Settings.Problem.SaveFailed" xml:space="preserve"><value>Innstillingene kunne ikke lagres ({0}).</value></data>
+  <data name="Settings.Problem.StyleId" xml:space="preserve"><value>{0}: «{1}» er ikke en gyldig stil-ID; referansen fjernes, parameterne beholdes.</value></data>
+  <data name="Settings.Problem.UnknownField" xml:space="preserve"><value>Det ukjente feltet «{0}» ble ignorert.</value></data>
+  <data name="Settings.Problem.Unsupported" xml:space="preserve"><value>Formatversjonen for innstillinger støttes ikke: {0}; standardinnstillingene brukes.</value></data>
+  <data name="Settings.ResetSection" xml:space="preserve"><value>Tilbakestill delen</value></data>
+  <data name="Settings.ToTray" xml:space="preserve"><value>Minimer til varslingsområdet</value></data>
+  <data name="Settings.ToTrayHint" xml:space="preserve"><value>Skjuler alle Backpack-vinduer; visningen fortsetter å virke. Hent dem tilbake med ikonet i varslingsområdet.</value></data>
+  <data name="Settings.WindowTitle" xml:space="preserve"><value>Backpack</value></data>
+  <data name="Style.Error.Id" xml:space="preserve"><value>Stil-ID-en er ugyldig.</value></data>
+  <data name="Style.Error.Kind" xml:space="preserve"><value>Ukjent stiltype (keycap, indicator eller mouse forventes).</value></data>
+  <data name="Style.Error.Newer" xml:space="preserve"><value>Stilen ble laget av en nyere Backpack (format {0}). Oppdater Backpack for å bruke den.</value></data>
+  <data name="Style.Error.NoLook" xml:space="preserve"><value>Stilen har ingen «look»-del.</value></data>
+  <data name="Style.Error.NotStyle" xml:space="preserve"><value>Dette er ikke en Backpack-stilfil.</value></data>
+  <data name="Style.Error.TooLarge" xml:space="preserve"><value>Stilfilen er for stor (mer enn 64 KB).</value></data>
+  <data name="Style.ImportedName" xml:space="preserve"><value>{0} (importert)</value></data>
+  <data name="Style.IndicatorAccent" xml:space="preserve"><value>Aksent</value></data>
+  <data name="Style.IndicatorDark" xml:space="preserve"><value>Mørk pille</value></data>
+  <data name="Style.IndicatorLight" xml:space="preserve"><value>Lys pille</value></data>
+  <data name="Style.IndicatorOutline" xml:space="preserve"><value>Kontur</value></data>
+  <data name="Style.LaptopMidnight" xml:space="preserve"><value>Bærbar — midnatt</value></data>
+  <data name="Style.LaptopSilver" xml:space="preserve"><value>Bærbar — sølv</value></data>
+  <data name="Style.LowProfileClassic" xml:space="preserve"><value>Lav profil — klassisk</value></data>
+  <data name="Style.LowProfileGraphite" xml:space="preserve"><value>Lav profil — grafitt</value></data>
+  <data name="Style.MinimalInk" xml:space="preserve"><value>Minimal — blekk</value></data>
+  <data name="Style.MinimalLight" xml:space="preserve"><value>Minimal — lys tekst</value></data>
+  <data name="Style.MouseOutlineDark" xml:space="preserve"><value>Kontur — mørk</value></data>
+  <data name="Style.MouseOutlineLight" xml:space="preserve"><value>Kontur — lys</value></data>
+  <data name="Style.MouseRetroBeige" xml:space="preserve"><value>Retro — beige</value></data>
+  <data name="Style.MouseRetroBlueGrey" xml:space="preserve"><value>Retro — blågrå</value></data>
+  <data name="Style.MouseRetroGraphite" xml:space="preserve"><value>Retro — grafitt</value></data>
+  <data name="Style.MouseRetroSage" xml:space="preserve"><value>Retro — dempet salvie</value></data>
+  <data name="Style.MouseSketchChalk" xml:space="preserve"><value>Skisse — kritt</value></data>
+  <data name="Style.MouseSketchInk" xml:space="preserve"><value>Skisse — blekk</value></data>
+  <data name="Style.MouseSolidDark" xml:space="preserve"><value>Fylt — mørk</value></data>
+  <data name="Style.MouseSolidLight" xml:space="preserve"><value>Fylt — lys</value></data>
+  <data name="Style.PbtCream" xml:space="preserve"><value>PBT — krem</value></data>
+  <data name="Style.PbtOcean" xml:space="preserve"><value>PBT — hav</value></data>
+  <data name="Style.VolLavender" xml:space="preserve"><value>3D — lavendel</value></data>
+  <data name="Style.VolMint" xml:space="preserve"><value>3D — mint</value></data>
+  <data name="Style.VolRose" xml:space="preserve"><value>3D — rosa</value></data>
+  <data name="Styles.Apply" xml:space="preserve"><value>Bruk</value></data>
+  <data name="Styles.BuiltIn" xml:space="preserve"><value>innebygd</value></data>
+  <data name="Styles.Delete.Message" xml:space="preserve"><value>Slette stilen «{0}»? Profiler som bruker den, beholder utseendet: parameterne er lagret i profilen.</value></data>
+  <data name="Styles.Delete.Title" xml:space="preserve"><value>Slett stil</value></data>
+  <data name="Styles.Duplicate" xml:space="preserve"><value>Dupliser</value></data>
+  <data name="Styles.FileFilter" xml:space="preserve"><value>Backpack-stil</value></data>
+  <data name="Styles.FolderFailed" xml:space="preserve"><value>Kunne ikke åpne mappen {0}.</value></data>
+  <data name="Styles.Imported.Added" xml:space="preserve"><value>Stilen «{0}» ble lagt til i katalogen.</value></data>
+  <data name="Styles.Imported.OtherKind" xml:space="preserve"><value>Stilen «{0}» ble lagt til i katalogen for et annet element (taster, indikator eller mus).</value></data>
+  <data name="Styles.Imported.Present" xml:space="preserve"><value>Stilen «{0}» finnes allerede i katalogen; ingen kopi ble laget.</value></data>
+  <data name="Styles.Imported.Renamed" xml:space="preserve"><value>Det finnes allerede en stil med samme ID, men andre parametere. Den importerte ble lagret som «{0}»; ingenting ble overskrevet.</value></data>
+  <data name="Styles.Imported.Title" xml:space="preserve"><value>Stil importert</value></data>
+  <data name="Styles.ImportFailed.Title" xml:space="preserve"><value>Stilen ble ikke importert</value></data>
+  <data name="Styles.Indicator.Hint" xml:space="preserve"><value>Innebygde og egne indikatorstiler. Programtillegget kan også bruke tastenes utseende i stedet.</value></data>
+  <data name="Styles.Indicator.Title" xml:space="preserve"><value>Stiler for oppsettsindikatoren</value></data>
+  <data name="Styles.InheritHint" xml:space="preserve"><value>farger fra tastene</value></data>
+  <data name="Styles.Keycap.Hint" xml:space="preserve"><value>En stil er et lagret sett med utseendeparametere. Innebygde stiler endres ikke: redigering lager din egen kopi når du lagrer.</value></data>
+  <data name="Styles.Keycap.Title" xml:space="preserve"><value>Tastestiler</value></data>
+  <data name="Styles.Mine" xml:space="preserve"><value>egen</value></data>
+  <data name="Styles.Mouse.Hint" xml:space="preserve"><value>Utseendet til museikonet ved pekeren og i raden. Sideknapper stilles inn nedenfor og endres ikke med stilen.</value></data>
+  <data name="Styles.Mouse.Title" xml:space="preserve"><value>Musestiler</value></data>
+  <data name="Styles.NewName" xml:space="preserve"><value>Min stil</value></data>
+  <data name="Styles.OpenFolder" xml:space="preserve"><value>Åpne stilmappen</value></data>
+  <data name="Styles.Restore" xml:space="preserve"><value>Gjenopprett</value></data>
+  <data name="Styles.RestoreHint" xml:space="preserve"><value>Gå tilbake til parameterne for den valgte stilen.</value></data>
+  <data name="Styles.Save" xml:space="preserve"><value>Lagre stil</value></data>
+  <data name="Styles.SaveAsNew" xml:space="preserve"><value>Lagre som ny…</value></data>
+  <data name="Styles.Skipped" xml:space="preserve"><value>Skadede stilfiler eller stilfiler som ikke støttes, ble hoppet over: {0}. De ble ikke slettet.</value></data>
+  <data name="Styles.Status.Custom" xml:space="preserve"><value>Egne parametere (ikke fra katalogen).</value></data>
+  <data name="Styles.Status.Inherit" xml:space="preserve"><value>Fargene hentes fra tastene.</value></data>
+  <data name="Styles.Status.Missing" xml:space="preserve"><value>Stilen til denne profilen finnes ikke i katalogen på denne datamaskinen; parameterne beholdes i profilen.</value></data>
+  <data name="Styles.Status.Modified" xml:space="preserve"><value>Basert på {0} • endret. Lagre den som egen stil, eller gjenopprett originalen.</value></data>
+  <data name="Styles.Status.Selected" xml:space="preserve"><value>Valgt: {0}.</value></data>
+  <data name="Tray.CombosOnly" xml:space="preserve"><value>Bare kombinasjoner</value></data>
+  <data name="Tray.Exit" xml:space="preserve"><value>Avslutt Backpack</value></data>
+  <data name="Tray.FirstHide.Exit" xml:space="preserve"><value>Avslutt i stedet</value></data>
+  <data name="Tray.FirstHide.Message" xml:space="preserve"><value>Vinduet er skjult; visningen fortsetter å virke.
+
+Backpack-ikonet er i varslingsområdet på oppgavelinjen. Windows kan legge det blant de skjulte ikonene (pilen ^).
+
+Klikk på ikonet for å hente vinduene tilbake. Høyreklikk for raske brytere og «Avslutt Backpack».
+
+Du kan la × avslutte i stedet under Innstillinger → Program.</value></data>
+  <data name="Tray.FirstHide.Ok" xml:space="preserve"><value>Skjønner</value></data>
+  <data name="Tray.FirstHide.Title" xml:space="preserve"><value>Backpack kjører fortsatt</value></data>
+  <data name="Tray.Help" xml:space="preserve"><value>Hjelp</value></data>
+  <data name="Tray.LayoutIndicator" xml:space="preserve"><value>Oppsettsindikator</value></data>
+  <data name="Tray.MouseCircle" xml:space="preserve"><value>Klikksirkel ved pekeren</value></data>
+  <data name="Tray.MouseIcon" xml:space="preserve"><value>Museikon ved pekeren</value></data>
+  <data name="Tray.MouseInRow" xml:space="preserve"><value>Museknapper i raden</value></data>
+  <data name="Tray.OpenSettings" xml:space="preserve"><value>Åpne Backpack</value></data>
+  <data name="Tray.Profile" xml:space="preserve"><value>Profil: {0}</value></data>
+  <data name="Tray.ShowOverlay" xml:space="preserve"><value>Vis visningen</value></data>
+  <data name="Tray.ShowWindows" xml:space="preserve"><value>Vis Backpack-vinduer</value></data>
+  <data name="Tray.Tooltip" xml:space="preserve"><value>Backpack</value></data>
+  <data name="Tray.TooltipHidden" xml:space="preserve"><value>Backpack — visningen er skjult</value></data>
+  <data name="Unit.Ms" xml:space="preserve"><value>ms</value></data>
+  <data name="Unit.Sec" xml:space="preserve"><value>s</value></data>
+  <data name="Update.Available" xml:space="preserve"><value>Versjon {0} er tilgjengelig.</value></data>
+  <data name="Update.BadResponse" xml:space="preserve"><value>GitHub ga et uventet svar.</value></data>
+  <data name="Update.Failed" xml:space="preserve"><value>Kontrollen mislyktes.</value></data>
+  <data name="Update.NoPackage" xml:space="preserve"><value>Versjon {0} finnes, men har ennå ingen pakke for Windows x64.</value></data>
+  <data name="Update.NotConfigured" xml:space="preserve"><value>Kilden for utgivelser er ikke konfigurert.</value></data>
+  <data name="Update.Offline" xml:space="preserve"><value>Ingen tilkobling til GitHub.</value></data>
+  <data name="Update.RateLimited" xml:space="preserve"><value>GitHub begrenset antallet forespørsler. Prøv igjen senere.</value></data>
+  <data name="Update.Timeout" xml:space="preserve"><value>GitHub svarte ikke i tide.</value></data>
+  <data name="Update.UpToDate" xml:space="preserve"><value>Du har den nyeste versjonen for denne kanalen.</value></data>
+  <data name="Note.ThemeMigrated" xml:space="preserve"><value>Vindustemaet er nå Backpack Emerald. Tilbake til forrige utseende: Appinnstillinger → Fargetema → Klassisk.</value></data>
+  <data name="Note.PrivacyFailed" xml:space="preserve"><value>Dynamisk personvern kunne ikke overvåke inndatafokus ({0}, feil {1}); tastevisningen forblir skjult mens personvern er på.</value></data>
+  <data name="Privacy.Status.Password" xml:space="preserve"><value>Beskyttet felt</value></data>
+  <data name="Privacy.Status.BlockedApp" xml:space="preserve"><value>Skjult for denne appen</value></data>
+  <data name="Privacy.Status.Checking" xml:space="preserve"><value>Kontrollerer</value></data>
+  <data name="Privacy.Status.NoData" xml:space="preserve"><value>Ingen data</value></data>
+  <data name="Settings.Problem.Value" xml:space="preserve"><value>{0}: en ugyldig oppføring ble hoppet over.</value></data>
+  <data name="Theme.Emerald" xml:space="preserve"><value>Backpack Emerald</value></data>
+  <data name="Theme.Classic" xml:space="preserve"><value>Klassisk</value></data>
+  <data name="Theme.Sapphire" xml:space="preserve"><value>Safir</value></data>
+  <data name="Theme.Amber" xml:space="preserve"><value>Rav</value></data>
+  <data name="Settings.Nav.Focus" xml:space="preserve"><value>Fokus</value></data>
+  <data name="Settings.Nav.Plugins" xml:space="preserve"><value>Programtillegg</value></data>
+  <data name="Tool.Enabled.Title" xml:space="preserve"><value>Verktøy</value></data>
+  <data name="Tool.Enabled.Hint" xml:space="preserve"><value>Når et verktøy slås av, lukkes vinduene, modusen avsluttes og snarveiene frigjøres. Innstillingene beholdes.</value></data>
+  <data name="Tool.Enabled" xml:space="preserve"><value>Verktøyet er på</value></data>
+  <data name="Keys.More.Title" xml:space="preserve"><value>Utseende og plassering</value></data>
+  <data name="Keys.OpenStyle" xml:space="preserve"><value>Tastestil</value></data>
+  <data name="Keys.OpenPosition" xml:space="preserve"><value>Plassering og skjermer</value></data>
+  <data name="Monitors.Keycaps.Title" xml:space="preserve"><value>Skjermer for tastene</value></data>
+  <data name="Monitors.Hint" xml:space="preserve"><value>Plassering og marger regnes fra arbeidsområdet på hver skjerm, i dens egen skalering.</value></data>
+  <data name="Monitors.Mode" xml:space="preserve"><value>Hvor den vises</value></data>
+  <data name="Monitors.ModeHint" xml:space="preserve"><value>«Under pekeren» er skjermen der musepekeren er nå, ikke skjermen med det aktive vinduet.</value></data>
+  <data name="Monitors.Primary" xml:space="preserve"><value>Primær</value></data>
+  <data name="Monitors.Selected" xml:space="preserve"><value>Valgt</value></data>
+  <data name="Monitors.Multiple" xml:space="preserve"><value>Flere</value></data>
+  <data name="Monitors.UnderCursor" xml:space="preserve"><value>Under pekeren</value></data>
+  <data name="Monitors.PrimaryWord" xml:space="preserve"><value>primær</value></data>
+  <data name="Monitors.Missing" xml:space="preserve"><value>«{0}» er ikke tilkoblet nå — primærskjermen brukes i stedet. Valget beholdes til den kommer tilbake.</value></data>
+  <data name="Monitors.Note" xml:space="preserve"><value>Én inndatakilde betjener alle vinduer. Å flytte til en annen skjerm starter ikke animasjonen på nytt og slipper ikke nedholdte taster.</value></data>
+  <data name="Monitors.Indicator.Title" xml:space="preserve"><value>Skjermer for oppsettsindikatoren</value></data>
+  <data name="Monitors.Indicator.Inherit" xml:space="preserve"><value>Samme skjermer som tastene</value></data>
+  <data name="Monitors.Indicator.InheritHint" xml:space="preserve"><value>Slå av for å velge skjermer for indikatoren separat.</value></data>
+  <data name="Monitors.Indicator.Own" xml:space="preserve"><value>Indikatorens skjermer</value></data>
+  <data name="Draw.Tool.SmartPen" xml:space="preserve"><value>Smart penn</value></data>
+  <data name="Draw.Tool.Marker" xml:space="preserve"><value>Nummererte merker</value></data>
+  <data name="Draw.Smart.Title" xml:space="preserve"><value>Smart penn og nummererte merker</value></data>
+  <data name="Draw.Smart.Hint" xml:space="preserve"><value>Begge verktøyene er på tegneverktøylinjen.</value></data>
+  <data name="Draw.Smart.Note" xml:space="preserve"><value>En tydelig linje, ellipse eller et rektangel blir en pen figur; alt annet blir som tegnet. Angre gir tilbake det opprinnelige strøket.</value></data>
+  <data name="Draw.Markers.Start" xml:space="preserve"><value>Første nummer</value></data>
+  <data name="Draw.Markers.StartHint" xml:space="preserve"><value>Brukes for neste serie med merker.</value></data>
+  <data name="Draw.Markers.Size" xml:space="preserve"><value>Merkestørrelse</value></data>
+  <data name="Draw.Markers.Note" xml:space="preserve"><value>Klikk for å plassere neste nummer, dra for å flytte det. Angre holder nummereringen konsekvent.</value></data>
+  <data name="App.Palette.Title" xml:space="preserve"><value>Fargetema</value></data>
+  <data name="App.Palette.Hint" xml:space="preserve"><value>Farger i Backpack-vinduene. Uavhengig av lys eller mørk modus og av verktøyenes stiler (taster, Fokus-ramme).</value></data>
+  <data name="App.Palette" xml:space="preserve"><value>Farger</value></data>
+  <data name="App.ReducedMotion" xml:space="preserve"><value>Reduser bevegelse</value></data>
+  <data name="App.ReducedMotionHint" xml:space="preserve"><value>Demoen på Start spilles ikke av av seg selv.</value></data>
+  <data name="Privacy.Title" xml:space="preserve"><value>Dynamisk personvern</value></data>
+  <data name="Privacy.Hint" xml:space="preserve"><value>Taster vises ikke mens inndatafokus er i et beskyttet felt eller i en skjult app.</value></data>
+  <data name="Privacy.Enable" xml:space="preserve"><value>Skjul inndata i beskyttede felt</value></data>
+  <data name="Privacy.EnableHint" xml:space="preserve"><value>Bruker bare IsPassword-flagget til elementet med fokus. Feltinnhold, utklippstavle og vindustitler leses ikke.</value></data>
+  <data name="Privacy.Badge" xml:space="preserve"><value>Vis en lås på skjermen</value></data>
+  <data name="Privacy.BadgeHint" xml:space="preserve"><value>En liten lås med årsaken vises når inndata er skjult. Ingen antall og ingen lengde.</value></data>
+  <data name="Privacy.Status" xml:space="preserve"><value>Nå</value></data>
+  <data name="Privacy.Status.Allowed" xml:space="preserve"><value>Visning tillatt</value></data>
+  <data name="Privacy.AddApp" xml:space="preserve"><value>Skjul for en app</value></data>
+  <data name="Privacy.AddAppHint" xml:space="preserve"><value>Filnavnet til programmet, for eksempel keepass.exe.</value></data>
+  <data name="Privacy.AddAppButton" xml:space="preserve"><value>Legg til</value></data>
+  <data name="Privacy.RemoveApp" xml:space="preserve"><value>Fjern</value></data>
+  <data name="Privacy.Limits" xml:space="preserve"><value>Windows har ingen universell måte å gjenkjenne passordfelt på. Apper der kontrollene ikke rapporterer IsPassword, kan ikke beskyttes automatisk; når tilstanden er ukjent, forblir visningen lukket. Legg til slike apper i listen, eller bruk «Vis eller skjul visningen».</value></data>
+  <data name="Privacy.ManualHide" xml:space="preserve"><value>Manuell skjuling er som før: kommandoen «Vis eller skjul visningen».</value></data>
+  <data name="Focus.EditHint" xml:space="preserve"><value>Dra inne i forstørrelsesglasset for å flytte det, inne i den stiplede kilderammen for å flytte kilden, i høyre eller nederste kant for å endre størrelse. Esc eller Enter — ferdig.</value></data>
+  <data name="Focus.Mode.Lens" xml:space="preserve"><value>Forstørrelsesglass</value></data>
+  <data name="Commands.Category.App" xml:space="preserve"><value>App</value></data>
+  <data name="Commands.Category.Keys" xml:space="preserve"><value>Taster</value></data>
+  <data name="Commands.Category.Mouse" xml:space="preserve"><value>Mus</value></data>
+  <data name="Commands.Category.Layout" xml:space="preserve"><value>Tastaturoppsett</value></data>
+  <data name="Commands.Category.Drawing" xml:space="preserve"><value>Tegning</value></data>
+  <data name="Commands.Category.Settings" xml:space="preserve"><value>Åpne innstillinger</value></data>
+  <data name="Commands.Category.Plugins" xml:space="preserve"><value>Programtillegg</value></data>
+  <data name="Commands.AppOpen" xml:space="preserve"><value>Åpne Backpack</value></data>
+  <data name="Commands.ProfileNext" xml:space="preserve"><value>Last inn neste profil</value></data>
+  <data name="Commands.Drawing" xml:space="preserve"><value>Tegning</value></data>
+  <data name="Commands.MarkersReset" xml:space="preserve"><value>Tilbakestill nummereringen</value></data>
+  <data name="Commands.Scope.Global" xml:space="preserve"><value>global</value></data>
+  <data name="Commands.Scope.Local" xml:space="preserve"><value>i Backpack-vinduer</value></data>
+  <data name="Commands.Scope.Tool" xml:space="preserve"><value>bare i verktøyet</value></data>
+  <data name="Commands.LocalOnly" xml:space="preserve"><value>fast</value></data>
+  <data name="Commands.Rules.Title" xml:space="preserve"><value>Regler</value></data>
+  <data name="Commands.Rules" xml:space="preserve"><value>Globale snarveier krever Ctrl, Alt eller Win. Verktøysnarveier virker bare mens verktøyet er aktivt (der er F2–F24 alene tillatt). Å holde nede en tast gjentar ikke en kommando; en snarvei hopper aldri over en bekreftelse.</value></data>
+  <data name="Plugins.BuiltIn.Title" xml:space="preserve"><value>Innebygde verktøy</value></data>
+  <data name="Plugins.BuiltIn.Hint" xml:space="preserve"><value>Taster og musen ved pekeren er en del av Backpack; alt annet er programtillegg.</value></data>
+  <data name="Plugins.On" xml:space="preserve"><value>på</value></data>
+  <data name="Plugins.Off" xml:space="preserve"><value>av</value></data>
+  <data name="Plugins.External.Title" xml:space="preserve"><value>Eksterne programtillegg</value></data>
+  <data name="Plugins.External.Hint" xml:space="preserve"><value>Stjernen viser et programtillegg i sidemenyen. Den slår ikke tillegget på og fjerner det ikke.</value></data>
+  <data name="Plugins.TrustNote" xml:space="preserve"><value>Et programtillegg er et program som kjører med brukerrettighetene dine i en egen prosess. Backpack begrenser hva det sender til tillegget (ingen skjulte inndata, ikke feltinnhold, ikke skjermen), men kan ikke beskytte deg mot skadelig kode. Slå bare på programtillegg fra en kilde du stoler på.</value></data>
+  <data name="Plugins.SafeMode" xml:space="preserve"><value>Sikker oppstart: programtillegg startes ikke i denne økten (--no-plugins).</value></data>
+  <data name="Plugins.Favorite" xml:space="preserve"><value>I menyen</value></data>
+  <data name="Plugins.Details" xml:space="preserve"><value>Detaljer</value></data>
+  <data name="Plugins.Enable" xml:space="preserve"><value>Slå på</value></data>
+  <data name="Plugins.Disable" xml:space="preserve"><value>Slå av</value></data>
+  <data name="Plugins.Remove" xml:space="preserve"><value>Fjern</value></data>
+  <data name="Plugins.Update" xml:space="preserve"><value>Oppdater fra en fil</value></data>
+  <data name="Plugins.Import" xml:space="preserve"><value>Importer et programtillegg</value></data>
+  <data name="Plugins.FileFilter" xml:space="preserve"><value>Backpack-programtillegg</value></data>
+  <data name="Plugins.Imported" xml:space="preserve"><value>«{0}» er installert og slått av. Åpne det for å se gjennom detaljene og slå det på.</value></data>
+  <data name="Plugins.Updated" xml:space="preserve"><value>«{0}» ble oppdatert fra {1} til {2} og er slått av til du slår det på igjen.</value></data>
+  <data name="Plugins.ImportFailed" xml:space="preserve"><value>Pakken ble ikke installert:</value></data>
+  <data name="Plugins.Trust.Title" xml:space="preserve"><value>Slå på et programtillegg</value></data>
+  <data name="Plugins.Trust.Message" xml:space="preserve"><value>«{0}» fra {1} er et program. Det kjører i en egen prosess med brukerrettighetene dine. Backpack kan ikke beskytte deg mot skadelig kode i et programtillegg. Slå det bare på hvis du stoler på kilden.</value></data>
+  <data name="Plugins.Trust.Yes" xml:space="preserve"><value>Jeg stoler på det, slå på</value></data>
+  <data name="Plugins.Remove.Title" xml:space="preserve"><value>Fjern et programtillegg</value></data>
+  <data name="Plugins.Remove.Message" xml:space="preserve"><value>Fjerne «{0}» og innstillingene?</value></data>
+  <data name="Plugins.Id" xml:space="preserve"><value>ID</value></data>
+  <data name="Plugins.Author" xml:space="preserve"><value>Utvikler</value></data>
+  <data name="Plugins.Version" xml:space="preserve"><value>Versjon</value></data>
+  <data name="Plugins.License" xml:space="preserve"><value>Lisens</value></data>
+  <data name="Plugins.Capabilities" xml:space="preserve"><value>Funksjoner</value></data>
+  <data name="Plugins.Cap.commands" xml:space="preserve"><value>kommandoer</value></data>
+  <data name="Plugins.Cap.settings" xml:space="preserve"><value>innstillingsside</value></data>
+  <data name="Plugins.Cap.overlay.panel" xml:space="preserve"><value>panel på skjermen</value></data>
+  <data name="Plugins.Cap.input.visible" xml:space="preserve"><value>synlige taster (etter personvernfilteret)</value></data>
+  <data name="Plugins.Cap.screen" xml:space="preserve"><value>skjerm (ikke gitt i denne versjonen)</value></data>
+  <data name="Plugins.Settings.Title" xml:space="preserve"><value>Innstillinger for programtillegget</value></data>
+  <data name="Plugins.Commands.Title" xml:space="preserve"><value>Kommandoer for programtillegget</value></data>
+  <data name="Plugins.Commands.Hint" xml:space="preserve"><value>Tilgjengelige mens programtillegget er på. Snarveier tildeles under Kommandoer og snarveier.</value></data>
+  <data name="Plugins.StartFailed" xml:space="preserve"><value>Programtillegget «{0}» kunne ikke startes.</value></data>
+  <data name="Plugins.AutoDisabled" xml:space="preserve"><value>Programtillegget «{0}» krasjet gjentatte ganger og ble slått av.</value></data>
+  <data name="Home.F.DrawHint" xml:space="preserve"><value>Piler, figurer, tekst og nummererte trinn over hvilken som helst app; den smarte pennen retter ut figurer. Snarvei: {0}.</value></data>
+  <data name="Commands.DisplayToggle" xml:space="preserve"><value>Vis eller skjul visningen</value></data>
+  <data name="Commands.Radial" xml:space="preserve"><value>Sirkelmeny</value></data>
+  <data name="Commands.MouseHighlight" xml:space="preserve"><value>Pekermarkering</value></data>
+  <data name="Commands.Migrated.Title" xml:space="preserve"><value>Snarveier er flyttet til kommandoer</value></data>
+  <data name="Commands.Migrated" xml:space="preserve"><value>Snarveier fra tidligere versjoner beholdes som kommandoer. Forstørrelsesglass ved pekeren, Forstørrelsesglass og Fokus er nå programtillegg; snarveiene deres blir med når du importerer dem på siden Programtillegg.</value></data>
+  <data name="Draw.Tool.RoundedRectangle" xml:space="preserve"><value>Avrundet rektangel</value></data>
+  <data name="Draw.Tool.Polygon" xml:space="preserve"><value>Regulær mangekant</value></data>
+  <data name="Draw.Tool.Select" xml:space="preserve"><value>Merk og flytt</value></data>
+  <data name="Draw.Category.Draw" xml:space="preserve"><value>Tegn</value></data>
+  <data name="Draw.Category.Shapes" xml:space="preserve"><value>Figurer</value></data>
+  <data name="Draw.Category.Annotate" xml:space="preserve"><value>Tekst og merker</value></data>
+  <data name="Window.Minimize" xml:space="preserve"><value>Minimer</value></data>
+  <data name="Window.Maximize" xml:space="preserve"><value>Maksimer eller gjenopprett</value></data>
+  <data name="Window.Close" xml:space="preserve"><value>Lukk</value></data>
+  <data name="Settings.Back" xml:space="preserve"><value>Tilbake</value></data>
+  <data name="Settings.ExpandGroup" xml:space="preserve"><value>Vis eller skjul sidene under «{0}»</value></data>
+  <data name="Settings.Nav.CursorZoom" xml:space="preserve"><value>Forstørrelsesglass ved pekeren</value></data>
+  <data name="Settings.Nav.Interface" xml:space="preserve"><value>Utseende</value></data>
+  <data name="Settings.Nav.Privacy" xml:space="preserve"><value>Personvern</value></data>
+  <data name="App.More.Title" xml:space="preserve"><value>Mer i denne delen</value></data>
+  <data name="App.More.Hint" xml:space="preserve"><value>Disse sidene finnes også i menyen til venstre, under Appinnstillinger.</value></data>
+  <data name="Material.Title" xml:space="preserve"><value>Vindusmateriale</value></data>
+  <data name="Material.Hint" xml:space="preserve"><value>Gjelder alle Backpack-vinduer: selve vinduet, sidepanelet, kort, menyer og dialogbokser. Tekst og kontroller forblir alltid ugjennomsiktige.</value></data>
+  <data name="Material.Kind" xml:space="preserve"><value>Materiale</value></data>
+  <data name="Material.Opaque" xml:space="preserve"><value>Ugjennomsiktig</value></data>
+  <data name="Material.Mica" xml:space="preserve"><value>Mica</value></data>
+  <data name="Material.Acrylic" xml:space="preserve"><value>Akryl</value></data>
+  <data name="Material.Opaque.Hint" xml:space="preserve"><value>Faste flater: det mest lesbare valget, virker overalt.</value></data>
+  <data name="Material.Mica.Hint" xml:space="preserve"><value>Windows-systemmateriale: skrivebordsfargen skinner mykt gjennom.</value></data>
+  <data name="Material.Acrylic.Hint" xml:space="preserve"><value>Windows-systemmateriale: en uskarp visning av det som er bak vinduet.</value></data>
+  <data name="Material.Intensity" xml:space="preserve"><value>Gjennomsiktighet</value></data>
+  <data name="Material.IntensityHint" xml:space="preserve"><value>Hvor mye materialet skinner gjennom flatene.</value></data>
+  <data name="Material.Active" xml:space="preserve"><value>I bruk nå: {0}.</value></data>
+  <data name="Material.Fallback.NotSupported" xml:space="preserve"><value>Mica og Akryl krever Windows 11 versjon 22H2 eller nyere. På denne datamaskinen brukes det ugjennomsiktige utseendet.</value></data>
+  <data name="Material.Fallback.TransparencyOff" xml:space="preserve"><value>Gjennomsiktighetseffekter er slått av i Windows (Personalisering → Farger). Det ugjennomsiktige utseendet brukes til du slår dem på.</value></data>
+  <data name="Material.Fallback.HighContrast" xml:space="preserve"><value>Høy kontrast er på: Backpack bruker ugjennomsiktige flater og ingen glød.</value></data>
+  <data name="Material.Note" xml:space="preserve"><value>Menyer og verktøytips er egne hurtigvinduer; Windows gir dem ikke systemmaterialet, så de har tett fyll.</value></data>
+  <data name="Glow.Title" xml:space="preserve"><value>Aksentglød</value></data>
+  <data name="Glow.Enable" xml:space="preserve"><value>Glød rundt aksentelementer</value></data>
+  <data name="Glow.EnableHint" xml:space="preserve"><value>En myk glød rundt hovedknapper, brytere, det valgte menyelementet og merkevareprikken. Teksten holder seg skarp.</value></data>
+  <data name="Glow.NotGem" xml:space="preserve"><value>Tilgjengelig i edelsteintemaene (Backpack Emerald, Safir, Rav) og i stilen Backpack Neon med hvilket som helst tema.</value></data>
+  <data name="Glow.Intensity" xml:space="preserve"><value>Glødens styrke</value></data>
+  <data name="Fonts.Ui.Title" xml:space="preserve"><value>Skrift for overskrifter</value></data>
+  <data name="Fonts.Ui" xml:space="preserve"><value>Overskrifter og programnavn</value></data>
+  <data name="Fonts.UiHint" xml:space="preserve"><value>Side- og kortoverskrifter og navnet «Backpack». All annen tekst holdes i standardskriften for lesbarhetens skyld. Lagres i profilen.</value></data>
+  <data name="Fonts.UiNote" xml:space="preserve"><value>Begge skriftene er innebygd og ikke installert i Windows.</value></data>
+  <data name="Fonts.Keycap.Title" xml:space="preserve"><value>Skrift for taster</value></data>
+  <data name="Fonts.Keycap" xml:space="preserve"><value>Skrift for tasteetiketter</value></data>
+  <data name="Fonts.KeycapHint" xml:space="preserve"><value>Uavhengig av skriften i grensesnittet; Standard er den innebygde Inter. Lagres i profilen.</value></data>
+  <data name="Fonts.KeycapNote" xml:space="preserve"><value>Tastesymboler (Shift, Enter, piler) er tegninger og avhenger ikke av skriften. Tegn som mangler i Spectral, hentes fra Inter eller Segoe UI.</value></data>
+  <data name="Labels.Secondary.Title" xml:space="preserve"><value>Andre oppsett på tastene</value></data>
+  <data name="Labels.Secondary.TitleHint" xml:space="preserve"><value>Den store etiketten forblir engelsk; et lite tegn fra et annet oppsett vises i det valgte hjørnet (nederst til høyre som standard).</value></data>
+  <data name="Labels.Secondary" xml:space="preserve"><value>Ekstra etikett</value></data>
+  <data name="Labels.SecondaryHint" xml:space="preserve"><value>Aktivt oppsett — oppsettet i appen du skriver i. Når det er engelsk, legges ingenting til.</value></data>
+  <data name="Labels.Secondary.Off" xml:space="preserve"><value>Av</value></data>
+  <data name="Labels.Secondary.ActiveLayout" xml:space="preserve"><value>Aktivt oppsett</value></data>
+  <data name="Labels.Secondary.FixedLayout" xml:space="preserve"><value>Valgt oppsett</value></data>
+  <data name="Labels.Layout" xml:space="preserve"><value>Oppsett</value></data>
+  <data name="Labels.LayoutHint" xml:space="preserve"><value>Oppsett installert i Windows.</value></data>
+  <data name="Labels.LayoutMissing" xml:space="preserve"><value>Oppsettet {0} er ikke installert på denne datamaskinen: ingen ekstra etiketter vises.</value></data>
+  <data name="Labels.SecondaryNote" xml:space="preserve"><value>Etiketten er det som er trykt på tasten, uten Shift, Caps Lock eller AltGr; en død tast viser aksenten sin. Taster uten ett tydelig tegn (IME, tjenestetaster, talltastatur) får ingen etikett. Å lese etiketten endrer aldri tastaturtilstanden i noen app. Personvern gjelder først: skjulte taster får ingen etiketter i det hele tatt.</value></data>
+  <data name="Preview.BoardTitle" xml:space="preserve"><value>En klarere idé</value></data>
+  <data name="Preview.FocusLens" xml:space="preserve"><value>Eget flyttbart forstørrelsesglass · {0}×</value></data>
+  <data name="Preview.FocusDim" xml:space="preserve"><value>Omgivelsene dempet med {0} %</value></data>
+  <data name="Preview.NormalField" xml:space="preserve"><value>Melding</value></data>
+  <data name="Preview.ProtectedField" xml:space="preserve"><value>Beskyttet felt</value></data>
+  <data name="Preview.SafePhrase" xml:space="preserve"><value>Hei, teamet</value></data>
+  <data name="Preview.ReturnPhrase" xml:space="preserve"><value>Neste idé</value></data>
+  <data name="Preview.PrivacyNormal" xml:space="preserve"><value>Simulering · vanlig felt: tastene vises som vanlig.</value></data>
+  <data name="Preview.PrivacyProtected" xml:space="preserve"><value>Simulering · beskyttet felt: ingenting vises, heller ikke senere.</value></data>
+  <data name="Radial.Name" xml:space="preserve"><value>Sirkelmeny</value></data>
+  <data name="Radial.Back" xml:space="preserve"><value>Tilbake til hovedringen</value></data>
+  <data name="Radial.Show" xml:space="preserve"><value>Vis på skjermen</value></data>
+  <data name="Draw.Category.Edit" xml:space="preserve"><value>Rediger</value></data>
+  <data name="Draw.More" xml:space="preserve"><value>Mer</value></data>
+  <data name="Draw.Expand" xml:space="preserve"><value>Full verktøylinje</value></data>
+  <data name="Draw.Compact" xml:space="preserve"><value>Kompakt verktøylinje</value></data>
+  <data name="Draw.CustomColor" xml:space="preserve"><value>Hvilken som helst farge (HEX og gjennomsiktighet)</value></data>
+  <data name="Draw.Stroke" xml:space="preserve"><value>Linje: tykkelse og stil</value></data>
+  <data name="Draw.Radius" xml:space="preserve"><value>Hjørneradius</value></data>
+  <data name="Draw.RadiusLess" xml:space="preserve"><value>Mindre hjørneradius</value></data>
+  <data name="Draw.RadiusMore" xml:space="preserve"><value>Større hjørneradius</value></data>
+  <data name="Draw.Sides" xml:space="preserve"><value>Antall hjørner</value></data>
+  <data name="Draw.SidesLess" xml:space="preserve"><value>Færre hjørner</value></data>
+  <data name="Draw.SidesMore" xml:space="preserve"><value>Flere hjørner</value></data>
+  <data name="Focus.LensLabel" xml:space="preserve"><value>Forstørrelsesglass · {0}×</value></data>
+  <data name="Mouse.Circle.Hint" xml:space="preserve"><value>Vises rundt pekeren mens en museknapp er trykket ned.</value></data>
+  <data name="Mouse.Highlight.Title" xml:space="preserve"><value>Pekermarkering</value></data>
+  <data name="Mouse.Highlight" xml:space="preserve"><value>Marker pekeren</value></data>
+  <data name="Mouse.HighlightHint" xml:space="preserve"><value>En myk glød som alltid følger pekeren, så seerne ikke mister den.</value></data>
+  <data name="Mouse.HighlightColor" xml:space="preserve"><value>Markeringsfarge</value></data>
+  <data name="Mouse.HighlightSize" xml:space="preserve"><value>Markeringsstørrelse</value></data>
+  <data name="Fonts.Standard" xml:space="preserve"><value>Standard</value></data>
+  <data name="Settings.Menu" xml:space="preserve"><value>Meny</value></data>
+  <data name="Settings.HelpButtonHint" xml:space="preserve"><value>Hjelp om denne siden (F1); søk og alle emner inni</value></data>
+  <data name="Profiles.AutosaveHint" xml:space="preserve"><value>Endringer brukes med en gang og lagres automatisk i denne profilen.</value></data>
+  <data name="Profiles.ExportCurrent" xml:space="preserve"><value>Eksporter gjeldende profil…</value></data>
+  <data name="Profiles.Retry" xml:space="preserve"><value>Prøv igjen</value></data>
+  <data name="Profiles.SaveFailed.Title" xml:space="preserve"><value>Endringene kunne ikke lagres</value></data>
+  <data name="Profiles.Error.SaveFailed" xml:space="preserve"><value>Profilen «{0}» ble ikke skrevet ({1}). Endringene er tatt i bruk og beholdes til neste forsøk.</value></data>
+  <data name="Profiles.Error.ExportFailed" xml:space="preserve"><value>Filen kunne ikke skrives ({0}). Selve profilen er ikke endret.</value></data>
+  <data name="Profiles.WorkingCopyName" xml:space="preserve"><value>{0} — min kopi</value></data>
+  <data name="Profiles.WorkingCopyNote" xml:space="preserve"><value>Den forrige profilen er skrivebeskyttet, så endringene dine gikk til en arbeidskopi: «{0}». Originalen forblir uendret.</value></data>
+  <data name="Note.ProfilesAutosave" xml:space="preserve"><value>profiler: endringer lagres nå automatisk. De brukte innstillingene ble lagret i «{0}»; den tidligere lagrede versjonen beholdes som «{1}»</value></data>
+  <data name="Privacy.Apps.Title" xml:space="preserve"><value>Alltid skjult i disse appene</value></data>
+  <data name="Privacy.Limits.Title" xml:space="preserve"><value>Hva personvern kan og ikke kan gjøre</value></data>
+  <data name="Plugins.View" xml:space="preserve"><value>Visning</value></data>
+  <data name="Plugins.View.Cards" xml:space="preserve"><value>Kort</value></data>
+  <data name="Plugins.View.List" xml:space="preserve"><value>Liste</value></data>
+  <data name="Plugins.Installed.Title" xml:space="preserve"><value>Installerte programtillegg</value></data>
+  <data name="Plugins.None.Title" xml:space="preserve"><value>Ingen programtillegg ennå</value></data>
+  <data name="Plugins.None" xml:space="preserve"><value>Importer en .bppkg-pakke for å legge til et programtillegg. Import kjører ikke koden: et programtillegg starter først når du slår det på og bekrefter at du stoler på det.</value></data>
+  <data name="Plugins.VersionAuthor" xml:space="preserve"><value>Versjon {0} · {1}</value></data>
+  <data name="Plugins.State.Failed" xml:space="preserve"><value>Feil: prosessen til programtillegget stoppet</value></data>
+  <data name="Plugins.FavoriteHint" xml:space="preserve"><value>Vis dette programtillegget i menyen til venstre</value></data>
+  <data name="Plugins.State.Crashed" xml:space="preserve"><value>Feil: slått av etter gjentatte krasj</value></data>
+  <data name="Focus.Grip.Lens" xml:space="preserve"><value>Forstørrelsesglass</value></data>
+  <data name="Focus.Grip.Area" xml:space="preserve"><value>Område</value></data>
+  <data name="Focus.Grip.Source" xml:space="preserve"><value>Kilde</value></data>
+  <data name="Focus.Grip.Resize" xml:space="preserve"><value>Størrelse</value></data>
+  <data name="Focus.EditHintFollow" xml:space="preserve"><value>Dra inne i rammen for å flytte den (forstørrelsesglasset forstørrer det som er under), i høyre eller nederste kant for å endre størrelse. Esc eller Enter — ferdig.</value></data>
+  <data name="Help.Contents" xml:space="preserve"><value>Innhold</value></data>
+  <data name="Draw.Palette.Neon" xml:space="preserve"><value>Neonfarger</value></data>
+  <data name="Draw.Palette.Classic" xml:space="preserve"><value>Klassiske farger</value></data>
+  <data name="Hotkeys.Status.Unavailable" xml:space="preserve"><value>Lagret, men kommandoen er av nå (verktøy eller programtillegg deaktivert). Den virker igjen når det slås på.</value></data>
+  <data name="Preview.Timer" xml:space="preserve"><value>Tidtaker</value></data>
+  <data name="Home.F.Tools" xml:space="preserve"><value>Tegne- og presentasjonsverktøy</value></data>
+  <data name="Home.F.ToolsHint" xml:space="preserve"><value>Tegning, oppsettsindikator, forstørrelsesglass ved pekeren, forstørrelsesglass, fokus og tidtaker er programtillegg fra skaperen. De er allerede i katalogen — slå på dem du trenger.</value></data>
+  <data name="Home.F.Open" xml:space="preserve"><value>Åpne programtillegg</value></data>
+  <data name="Plugins.Command.Hold" xml:space="preserve"><value>Virker mens den holdes nede</value></data>
+  <data name="Plugins.Command.Off" xml:space="preserve"><value>Tilgjengelig etter at programtillegget er slått på.</value></data>
+  <data name="Plugins.Bundled.Title" xml:space="preserve"><value>Programtillegg fra skaperen som ikke er installert</value></data>
+  <data name="Plugins.Bundled.Hint" xml:space="preserve"><value>De følger med Backpack. Et programtillegg du har fjernet, legges ikke til igjen av seg selv; legg det til her. Innstillinger og snarveier fra de tidligere innebygde verktøyene overføres. Slå deretter på hvert av dem — Backpack ber deg først bekrefte at du stoler på dem.</value></data>
+  <data name="Plugins.Bundled.Import" xml:space="preserve"><value>Legg til igjen</value></data>
+  <data name="Plugins.Bundled.Done" xml:space="preserve"><value>Lagt til: {0}. Slå på programtilleggene på kortene deres.</value></data>
+  <data name="Draw.OpacityValue" xml:space="preserve"><value>Dekkevne: {0} %</value></data>
+  <data name="Mouse.OutlineWidth" xml:space="preserve"><value>Konturtykkelse</value></data>
+  <data name="Mouse.SolidOutline" xml:space="preserve"><value>Kontur</value></data>
+  <data name="Mouse.SolidOutlineHint" xml:space="preserve"><value>En kontur rundt den fylte kroppen.</value></data>
+  <data name="Mouse.SolidOutlineColor" xml:space="preserve"><value>Konturfarge</value></data>
+  <data name="Labels.Corner" xml:space="preserve"><value>Hjørne</value></data>
+  <data name="Labels.Corner.TopLeft" xml:space="preserve"><value>Øverst til venstre</value></data>
+  <data name="Labels.Corner.TopRight" xml:space="preserve"><value>Øverst til høyre</value></data>
+  <data name="Labels.Corner.BottomLeft" xml:space="preserve"><value>Nederst til venstre</value></data>
+  <data name="Labels.Corner.BottomRight" xml:space="preserve"><value>Nederst til høyre</value></data>
+  <data name="Labels.Size" xml:space="preserve"><value>Størrelse på ekstra etikett</value></data>
+  <data name="Labels.SizeHint" xml:space="preserve"><value>Andel av etikettens standardstørrelse.</value></data>
+  <data name="Labels.OffsetX" xml:space="preserve"><value>Vannrett forskyvning</value></data>
+  <data name="Labels.OffsetY" xml:space="preserve"><value>Loddrett forskyvning</value></data>
+  <data name="Plugins.Cap.overlay.magnifier" xml:space="preserve"><value>forstørrelsesglass tegnet av Backpack (ingen skjermbilder sendes til programtillegget)</value></data>
+  <data name="Plugins.Cap.overlay.dim" xml:space="preserve"><value>demping rundt et område, tegnet av Backpack</value></data>
+  <data name="Labels.MainSize" xml:space="preserve"><value>Størrelse på hovedetikett</value></data>
+  <data name="Labels.MainSizeHint" xml:space="preserve"><value>Andel av etikettens standardstørrelse; i modus med to etiketter er hovedbokstaven litt mindre.</value></data>
+  <data name="Labels.OffsetHint" xml:space="preserve"><value>Fra det trygge punktet i det valgte hjørnet; positive verdier flytter mot midten av tasteflaten.</value></data>
+  <data name="Styles.Why.NoSelection" xml:space="preserve"><value>Ingen stil er valgt.</value></data>
+  <data name="Styles.Why.NotModified" xml:space="preserve"><value>Ingenting er endret siden stilen ble brukt.</value></data>
+  <data name="Styles.Why.BuiltIn" xml:space="preserve"><value>Innebygde stiler kan ikke gis nytt navn eller slettes; lagre en kopi i stedet.</value></data>
+  <data name="Surface.Title" xml:space="preserve"><value>Flatestil</value></data>
+  <data name="Surface.TitleHint" xml:space="preserve"><value>Hvordan kort, felt og kanter ser ut. Uavhengig av lys eller mørk modus, fargetemaet og materialet.</value></data>
+  <data name="Surface.Kind" xml:space="preserve"><value>Stil</value></data>
+  <data name="Surface.Standard" xml:space="preserve"><value>Standard</value></data>
+  <data name="Surface.LiquidGlass" xml:space="preserve"><value>Liquid Glass</value></data>
+  <data name="Surface.Neon" xml:space="preserve"><value>Backpack Neon</value></data>
+  <data name="Surface.Standard.Hint" xml:space="preserve"><value>Rolige kort med myke nøytrale kanter.</value></data>
+  <data name="Surface.LiquidGlass.Hint" xml:space="preserve"><value>Glasskort med et høylys og lyse gradientkanter. Dette er Backpack-utseendet, ikke en Windows-systemeffekt; med Mica eller Akryl skinner materialet gjennom.</value></data>
+  <data name="Surface.Neon.Hint" xml:space="preserve"><value>Den mørkeste basen, tynne kanter i temaets glødfarge og en myk glød på aktive elementer. Kortene forblir rolige, feltene tydeligere, markeringen er klarest. Teksten gløder ikke.</value></data>
+  <data name="Surface.HighContrast" xml:space="preserve"><value>Høy kontrast er på: standardstilen brukes til den slås av.</value></data>
+  <data name="Backdrop.Kind" xml:space="preserve"><value>Materiale</value></data>
+  <data name="Backdrop.Fill" xml:space="preserve"><value>Fyll</value></data>
+  <data name="Backdrop.Clear" xml:space="preserve"><value>Gjennomsiktig</value></data>
+  <data name="Backdrop.Acrylic" xml:space="preserve"><value>Akryl</value></data>
+  <data name="Backdrop.Mica" xml:space="preserve"><value>Mica</value></data>
+  <data name="Backdrop.Fill.Hint" xml:space="preserve"><value>Bakgrunnen fylles med sin farge; gjennomsiktigheten er fargens alfa.</value></data>
+  <data name="Backdrop.Clear.Hint" xml:space="preserve"><value>Ingen fyll: det som er bak, forblir helt synlig, formen holdes av en tynn kontur i bakgrunnsfargen. Størrelse og avrunding endres ikke.</value></data>
+  <data name="Backdrop.Fallback" xml:space="preserve"><value>Det lagrede materialet {0} er ikke tilgjengelig for overlegg — fyllet brukes.</value></data>
+  <data name="Backdrop.SystemNote" xml:space="preserve"><value>Akryl og Mica tilbys ikke her: på overleggsvinduer som slipper klikk gjennom, bruker Windows dem på hele vindusrektangelet, uten avrunding og uten å tones ut med tastene. Etiketter og knappeindikatorer blir aldri uskarpe.</value></data>
+  <data name="Backdrop.Keycaps.Title" xml:space="preserve"><value>Bakgrunnens materiale</value></data>
+  <data name="Backdrop.Keycaps.Hint" xml:space="preserve"><value>Bakgrunnen bak tastegruppen. Lagres i tastestilen og profilen.</value></data>
+  <data name="Backdrop.Mouse.Title" xml:space="preserve"><value>Materiale for ikonbakgrunnen</value></data>
+  <data name="Backdrop.Mouse.Hint" xml:space="preserve"><value>Bakgrunnen bak museikonet ved pekeren. Lagres i musestilen og profilen.</value></data>
+  <data name="Common.More" xml:space="preserve"><value>Mer</value></data>
+  <data name="Settings.Nav.IndicatorStyle" xml:space="preserve"><value>Indikatorstil</value></data>
+  <data name="IndicatorStyle.Title" xml:space="preserve"><value>Stil for oppsettsindikatoren</value></data>
+  <data name="IndicatorStyle.Hint" xml:space="preserve"><value>Utseendet som programtillegget Oppsettsindikator bruker når Utseende er satt til «Indikatorstil». Når og hvor den vises, stilles inn på siden til programtillegget.</value></data>
+  <data name="App.Shot.Hint" xml:space="preserve"><value>Skjermbilder tatt på tegnelerretet lagres her.</value></data>
+  <data name="Plugins.Creator" xml:space="preserve"><value>Fra skaperen</value></data>
+  <data name="Plugins.Creator.Hint" xml:space="preserve"><value>Levert med denne versjonen av Backpack: den installerte pakken samsvarer med leveringsindeksen etter SHA-256-kontrollsummen. Dette er ikke en kryptografisk utgiversignatur.</value></data>
+  <data name="Note.ToolsArePlugins" xml:space="preserve"><value>Tegning og oppsettsindikatoren er nå programtillegg: {0}. Innstillingene og snarveiene dine er overført. De forblir av til du slår dem på under Programtillegg.</value></data>
+  <data name="Plugins.Cap.overlay.draw" xml:space="preserve"><value>tegnelerret tegnet av Backpack (programtillegget får verken tegninger eller skjermbilder)</value></data>
+  <data name="Plugins.Cap.overlay.indicator" xml:space="preserve"><value>indikator over skjermen tegnet av Backpack</value></data>
+  <data name="Plugins.Cap.input.layout" xml:space="preserve"><value>endringer i tastaturoppsett (ingen tastetrykk)</value></data>
+  <data name="Plugins.Display.Title" xml:space="preserve"><value>Visning</value></data>
+  <data name="Plugins.Symbol" xml:space="preserve"><value>Ikon</value></data>
+  <data name="Plugins.Symbol.HintAuthor" xml:space="preserve"><value>Utviklerens ikon. Det vises i menyen, på kortet og i sidetoppen.</value></data>
+  <data name="Plugins.Symbol.HintUser" xml:space="preserve"><value>Ditt valg. Det beholdes når programtillegget oppdateres.</value></data>
+  <data name="Plugins.Symbol.Change" xml:space="preserve"><value>Velg et ikon</value></data>
+  <data name="Plugins.Symbol.Reset" xml:space="preserve"><value>Bruk utviklerens ikon</value></data>
+  <data name="Plugins.Symbol.IsAuthor" xml:space="preserve"><value>Utviklerens ikon er allerede i bruk</value></data>
+  <data name="Plugins.Symbol.Search" xml:space="preserve"><value>Søk etter ikoner</value></data>
+  <data name="Plugins.Symbol.NoMatch" xml:space="preserve"><value>Ingen ikoner passer. Prøv et annet ord, for eksempel penn, tidtaker eller søk.</value></data>
+  <data name="Renderer.Neon" xml:space="preserve"><value>Neon</value></data>
+  <data name="MouseRenderer.Neon" xml:space="preserve"><value>Neon</value></data>
+  <data name="Appearance.Glow" xml:space="preserve"><value>Glød</value></data>
+  <data name="Appearance.GlowHint" xml:space="preserve"><value>Myk glød rundt tasten; den blir sterkere mens tasten er trykket ned. 0 slår den av.</value></data>
+  <data name="Mouse.GlowHint" xml:space="preserve"><value>Myk glød rundt museikonet; den blir sterkere mens en knapp er trykket ned. 0 slår den av.</value></data>
+  <data name="Draw.AngleLabels.On" xml:space="preserve"><value>Vinkelstørrelse: vises alltid (klikk for å vise den bare under tegning)</value></data>
+  <data name="Draw.AngleLabels.Off" xml:space="preserve"><value>Vinkelstørrelse: vises bare under tegning (klikk for å beholde den på skjermen)</value></data>
+  <data name="Draw.Hint.Box" xml:space="preserve"><value>Shift — kvadrat eller sirkel · Alt — fra midten</value></data>
+  <data name="Draw.Hint.Line" xml:space="preserve"><value>Shift — retning i trinn på 15°</value></data>
+  <data name="Draw.Hint.Polygon" xml:space="preserve"><value>Dra fra midten · Shift — rotasjon i trinn på 15°</value></data>
+  <data name="Draw.Hint.Select" xml:space="preserve"><value>Hjørner og sider — størrelse · øverste håndtak — roter · Shift — behold proporsjoner · Alt — fra midten · Esc — avbryt</value></data>
+  <data name="Draw.Hint.SmartPen" xml:space="preserve"><value>Linjer, figurer, buer og vinkler gjenkjennes; vinkelstørrelsen vises mens knappen holdes nede</value></data>
+  <data name="Help.NotTranslated" xml:space="preserve"><value>Hjelpen er ennå ikke oversatt til dette språket; den engelske hjelpen vises.</value></data>
+  <data name="About.MadeIn" xml:space="preserve"><value>Laget i Ukraina</value></data>
+</root>

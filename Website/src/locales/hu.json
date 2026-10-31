@@ -1,0 +1,416 @@
+{
+  "content": {
+    "title": "Backpack — Világos műveletek. Saját eszközök.",
+    "description": "Tegye követhetőbbé a bemutatókat, órákat és képernyőfelvételeket. Mutasson minden billentyűt és kattintást. Adjon hozzá önálló bővítményeket, vagy ismerje meg saját eszköze elkészítését.",
+    "nav": [
+      "Funkciók",
+      "Eszközök",
+      "Letöltés",
+      "Súgó"
+    ],
+    "skip": "Ugrás a tartalomra",
+    "menu": "Menü",
+    "language": "Nyelv",
+    "close": "Menü bezárása",
+    "sceneNote": [
+      "Minden művelet",
+      "tisztán látható."
+    ],
+    "toolkit": "ESZKÖZÖK",
+    "previewLabel": "Előzetes",
+    "signedLabel": "Digitálisan aláírva",
+    "unsignedLabel": "Nincs aláírva",
+    "publishedLabel": "Közzétéve",
+    "unpublishedLabel": "Nincs közzétéve",
+    "eyebrow": "Tegye láthatóvá a lényeget.",
+    "badge": "Új név. Ugyanaz a figyelem a részletekre.",
+    "hero": [
+      "Minden művelet",
+      "a képernyőn",
+      "tisztán látható."
+    ],
+    "intro": "Tegye követhetőbbé a bemutatókat, órákat és képernyőfelvételeket. Mutasson minden billentyűt és kattintást.",
+    "primary": "Eszközök felfedezése",
+    "secondary": "Kiadás állapota",
+    "platform": "Windows 10 / 11 · x64 · Előzetes",
+    "pause": "Animációk szüneteltetése",
+    "play": "Animációk lejátszása",
+    "reduced": "Csökkentett mozgás",
+    "categories": [
+      "Billentyűleütések",
+      "Egérjelző",
+      "Bővítmények",
+      "KÉSZÍTSEN SAJÁT ESZKÖZT",
+      "Profilok és stílusok"
+    ],
+    "overviewTag": "A BACKPACK RÉSZE",
+    "overviewTitle": [
+      "Minden, amire szüksége van.",
+      "Pontosan ott, ahol kell."
+    ],
+    "overviewText": "A billentyűk és az egér megjelenítése a Backpack két alapvető eszköze.",
+    "explore": "Eszközök felfedezése",
+    "interface": "Az új modell bemutatója",
+    "interfaceNote": "A tervezett felület szimulált bejárása. Import és bizalom működik a preview.4-ban; a jelenet nem képernyőkép és nem bizonyítja minden bővítmény kész állapotát.",
+    "home": "Kezdőlap",
+    "appearance": "Megjelenés",
+    "keys": "Billentyűk és kombinációk",
+    "mouse": "Egér",
+    "focus": "Kiemelés",
+    "drawing": "Rajzolás",
+    "profiles": "Profilok",
+    "lens": "Nagyító",
+    "dimming": "Környezet sötétítése",
+    "zoom": "Nagyítás",
+    "size": "Terület mérete",
+    "radius": "Saroksugár",
+    "border": "Keret színe",
+    "tray": "Háttér megtartása a keret alatt",
+    "toolsTag": "ESZKÖZÖK",
+    "toolsTitle": "Kezdje az alapokkal.",
+    "toolsText": "Szimulált bevitel. A védett billentyűk sosem láthatók. Nincs billentyűzet- vagy képernyőrögzítés.",
+    "preview": "Az ellenőrzött előzetesben",
+    "development": "Fejlesztés alatt",
+    "concept": "Koncepcióbemutató",
+    "cards": [
+      [
+        "Billentyűleütések",
+        "Minden gyorsbillentyű jól látható.",
+        "Olvasható billentyűk, természetes kombinációk és öt megjelenítési stílus."
+      ],
+      [
+        "Egérjelző",
+        "Könnyen követhető mutató.",
+        "Bal és jobb kattintás, valamint görgetési irány egy kis jelzőn a mutató mellett."
+      ],
+      [
+        "Nagyító",
+        "Nagyító",
+        "Mozgassa a kijelölt terület külön nagyított nézetét."
+      ],
+      [
+        "Rajzolás",
+        "Rajzolás",
+        "Ideiglenes jegyzetek, alakzatok és szöveg magyarázat közben."
+      ],
+      [
+        "A bevitel adatvédelme külön téma.",
+        "A bevitel adatvédelme külön téma.",
+        "Az ellenőrzött verzió elrejti a billentyűket, ha védett bevitelt észlel. Vannak korlátok és ismert versenyhelyzet a fókuszértesítéseknél: érzékeny bevitel előtt kézzel rejtse el a kijelzést. A kódba vetett bizalom külön döntés."
+      ],
+      [
+        "Profilok és stílusok",
+        "Beállítások, amelyek az Önéi maradnak.",
+        "Megjelenés, mentett profilok, beviteli adatvédelem és bővítménykezelés alkalmazás-infrastruktúra, nem külön bővítmény."
+      ]
+    ],
+    "styles": [
+      "Világos",
+      "Sötét",
+      "Smaragd"
+    ],
+    "renderers": [
+      "PBT",
+      "Minimális",
+      "Laptop"
+    ],
+    "chooseStyle": "Megjelenés",
+    "chooseProfile": "Profilok",
+    "chooseFocus": "Kiemelés",
+    "dimNote": "Csomagban ellenőrzött bővítmény · Backpack 0.4.0-preview.4 / SDK 1.1. Nyilvános csomag még nincs",
+    "numberNote": "Az új modell bemutatója",
+    "safe": "Védett mező",
+    "ordinary": "Üzenet",
+    "privacyNote": "Az ellenőrzött verzió elrejti a billentyűket, ha védett bevitelt észlel. Vannak korlátok és ismert versenyhelyzet a fókuszértesítéseknél: érzékeny bevitel előtt kézzel rejtse el a kijelzést. A kódba vetett bizalom külön döntés.",
+    "pluginTitle": "Eszközök a történetéhez.",
+    "pluginText": "A Backpack szerzőjének bővítményei külön adhatók hozzá, és példát mutatnak a jövőbeli saját eszközökhöz.",
+    "downloadTag": "Utolsó ellenőrzött csomag",
+    "downloadTitle": [
+      "Áttekinthetőbb képernyő.",
+      "Jobb magyarázat."
+    ],
+    "downloadText": "Nyilvános csomag még nincs",
+    "preparing": "A nyilvános letöltés előkészítés alatt",
+    "packageLabel": "Utolsó ellenőrzött csomag",
+    "unsigned": "Nincs aláírva · Nincs közzétéve",
+    "release": "Kiadási megjegyzések",
+    "download": "Letöltés Windowsra",
+    "checksum": "Az ellenőrzött csomag SHA-256 értéke",
+    "checksumNote": "A helyben ellenőrzött csomagot azonosítja. A webhely nem terjeszt programcsomagot.",
+    "license": "Licenc",
+    "helpTag": "Súgó",
+    "helpTitle": "A következő bemutató előtt.",
+    "faq": [
+      [
+        "Mit tartalmaz az alkalmazás?",
+        "A billentyűk és az egér megjelenítése a Backpack két alapvető eszköze. Nagyító, Kiemelés, Kurzornagyító, Időzítő — Csomagban ellenőrzött bővítmény · Backpack 0.4.0-preview.4 / SDK 1.1. Rajzolás, Kiosztásjelző — Tervezett bővítmény. Megjelenés, mentett profilok, beviteli adatvédelem és bővítménykezelés alkalmazás-infrastruktúra, nem külön bővítmény."
+      ],
+      [
+        "Letölthető a Backpack és a bővítmények?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Nyilvános csomag még nincs Nagyító, Kiemelés, Kurzornagyító, Időzítő — Csomagban ellenőrzött bővítmény · Backpack 0.4.0-preview.4 / SDK 1.1. Rajzolás, Kiosztásjelző — Tervezett bővítmény."
+      ],
+      [
+        "Hogyan telepíthetők a bővítmények?",
+        "Bővítmények → Importálás → .bppkg. Az import ellenőriz és kicsomagol kódfuttatás vagy bizalom megadása nélkül. Új vagy frissített bővítmény kikapcsolva marad; az első bekapcsolás megerősítést kér."
+      ],
+      [
+        "Biztonságosan elszigeteltek a bővítmények?",
+        "Megbízható forrást használjon. A külön folyamatok a felhasználó jogaival futnak, és segítenek a hibakezelésben, de nem homokozók. A manifeszt képességei a Backpack felületét korlátozzák, nem minden rendszerműveletet."
+      ],
+      [
+        "Hol kezdjem saját eszközömet?",
+        "F1 → Bővítmények: szerződés, életciklus, parancsok, beállítások, nyelvek és időzítőfordítás. Részletes útmutatók és működő példák készülnek; az SDK feltételei a szabad saját bővítménykészítést fogják lehetővé tenni. Nyilvános hivatkozások még nincsenek."
+      ],
+      [
+        "Minden mezőt véd az adatvédelem?",
+        "Nincs univerzális felismerési ígéret. Védett vagy ismeretlen bevitel elrejthető, de az aszinkron fókuszfelismerés korlátozott. Érzékeny bevitel előtt kézzel rejtse el. A bővítménybizalom külön döntés."
+      ],
+      [
+        "Milyen rendszerek és licenc?",
+        "Ellenőrzött csomag Windows 10/11 x64 rendszerhez, .NET-tel. PolyForm Strict 1.0.0, nem nyílt forrású. Az SDK és példák feltételeinek frissítése folyamatban van."
+      ]
+    ],
+    "footer": "Kis eszközök. Világosabb történetek.",
+    "author": "Készítette",
+    "back": "Vissza a tetejére",
+    "notice": "Az új modell bemutatója",
+    "madeIn": "Ukrajnában készült.",
+    "program": {
+      "settings": "Alkalmazásbeállítások",
+      "privacy": "Adatvédelem",
+      "about": "Névjegy",
+      "importPlugin": "Bővítmény importálása",
+      "view": "Nézet",
+      "cards": "Kártyák",
+      "list": "Lista",
+      "duration": "Időtartam",
+      "minutes": "Perc",
+      "seconds": "Másodperc",
+      "commands": "Parancsok"
+    },
+    "carousel": {
+      "previous": "Előző",
+      "next": "Következő"
+    }
+  },
+  "demo": {
+    "cursorTag": "Kurzornagyító",
+    "cursorTitle": "Kurzornagyító",
+    "cursorDescription": "Nagyítsa a részleteket a mutatót követő nagyítóval.",
+    "cursorCaption": "Nagyító a mutató körül · 2,5×",
+    "windowTag": "Nagyító",
+    "windowTitle": "Nagyító",
+    "windowDescription": "Mozgassa a kijelölt terület külön nagyított nézetét.",
+    "windowLabel": "Nagyító",
+    "windowCaption": "Külön mozgatható nagyítóablak · 2,5×",
+    "profileHeading": "Egy eszköztár. Saját megjelenés.",
+    "rightShift": "Jobb Shift",
+    "layoutCode": "HU",
+    "families": [
+      "Alacsony profil",
+      "Laptop",
+      "PBT",
+      "Minimális",
+      "3D"
+    ],
+    "familyPresets": [
+      "Alacsony profil",
+      "Laptop",
+      "PBT",
+      "Minimális",
+      "3D"
+    ],
+    "profiles": [
+      "Krém",
+      "Grafit",
+      "Menta"
+    ],
+    "profileNames": [
+      "PBT · Krém",
+      "Alacsony profil · Grafit",
+      "3D · Menta"
+    ],
+    "mouseStyles": [
+      "Körvonal",
+      "Tömör",
+      "Retró"
+    ],
+    "mouseNames": [
+      "Körvonal",
+      "Tömör",
+      "Retró"
+    ],
+    "mouseStyle": "Egérjelző",
+    "normalField": "Üzenet",
+    "passwordField": "Védett mező",
+    "safePhrase": "Szia csapat",
+    "returnPhrase": "Új ötlet",
+    "privacySteps": [
+      "Üzenetmező kiválasztása",
+      "Csak a szokásos leütések láthatók",
+      "Védelem az első jelszókarakter előtt",
+      "Új szöveg. Csak új leütések."
+    ],
+    "mouseSteps": [
+      "Elem kiválasztása",
+      "Helyi menü megnyitása",
+      "Lista görgetése"
+    ],
+    "selected": "Kijelölve",
+    "context": [
+      "Megnyitás",
+      "Másolás",
+      "Részletek"
+    ],
+    "board": [
+      "Tervezési jegyzetek",
+      "Képernyőeszközök",
+      "Következő lecke"
+    ],
+    "boardTag": "PROJEKT",
+    "boardHeading": "Világosabb ötlet",
+    "boardRows": [
+      "Gyorsbillentyűk",
+      "Kiemelt terület",
+      "Következő lépés"
+    ],
+    "lensScale": "Élő nagyítás",
+    "drawSteps": [
+      "Nyíleszköz kiválasztása",
+      "Először vonal, majd alakzat rajzolása"
+    ],
+    "interfaceSteps": [
+      "Nagyítási csúszka húzása",
+      "A nagyítóablak a megjelölt területet mutatja",
+      "Környezet sötétítése"
+    ],
+    "keySequence": "Lenyomás. Tartás. Felengedés.",
+    "keyExamples": "Enter · Szóköz · módosítók",
+    "space": "Szóköz",
+    "shift": "Shift",
+    "layout": "Billentyűzetkiosztás",
+    "privacyStatic": "Szimulált bevitel. A védett billentyűk sosem láthatók. Nincs billentyűzet- vagy képernyőrögzítés."
+  },
+  "model": {
+    "title": "Backpack — Világos műveletek. Saját eszközök.",
+    "intro": "Tegye követhetőbbé a bemutatókat, órákat és képernyőfelvételeket. Mutasson minden billentyűt és kattintást.",
+    "extension": "Adjon hozzá önálló bővítményeket, vagy ismerje meg saját eszköze elkészítését.",
+    "coreTag": "A BACKPACK RÉSZE",
+    "coreTitle": "Kezdje az alapokkal.",
+    "coreText": "A billentyűk és az egér megjelenítése a Backpack két alapvető eszköze.",
+    "pluginsTag": "A SZERZŐ BŐVÍTMÉNYEI",
+    "pluginsTitle": "Eszközök a történetéhez.",
+    "pluginsText": "A Backpack szerzőjének bővítményei külön adhatók hozzá, és példát mutatnak a jövőbeli saját eszközökhöz.",
+    "transitionNote": "Nagyító, Kiemelés, Kurzornagyító, Időzítő — Csomagban ellenőrzött bővítmény · Backpack 0.4.0-preview.4 / SDK 1.1. Rajzolás, Kiosztásjelző — Tervezett bővítmény.",
+    "builtin": "Beépített",
+    "authorPlugin": "A szerző bővítménye",
+    "notPublished": "Nyilvános csomag még nincs",
+    "byAuthor": "Szerző",
+    "statuses": {
+      "planned": "Tervezett bővítmény",
+      "source": "Bővítmény a forráskódban",
+      "verified": "Csomagban ellenőrzött bővítmény"
+    },
+    "availability": {
+      "planned": "Az eszköz működik a preview.4-ban, de önálló bővítménye még nincs megvalósítva vagy csomagolva.",
+      "source": "Nagyító, Kiemelés, Kurzornagyító, Időzítő — Csomagban ellenőrzött bővítmény · Backpack 0.4.0-preview.4 / SDK 1.1. Rajzolás, Kiosztásjelző — Tervezett bővítmény.",
+      "verified": "Csomagban ellenőrzött bővítmény · Backpack 0.4.0-preview.4 / SDK 1.1. Nyilvános csomag még nincs"
+    },
+    "pluginNames": [
+      "Rajzolás",
+      "Kiosztásjelző",
+      "Nagyító",
+      "Kiemelés",
+      "Kurzornagyító",
+      "Időzítő"
+    ],
+    "pluginBenefits": [
+      "Ideiglenes jegyzetek, alakzatok és szöveg magyarázat közben.",
+      "Tegye láthatóvá a beviteli nyelv változását.",
+      "Mozgassa a kijelölt terület külön nagyított nézetét.",
+      "Sötétítse a környezetet, a terület eredeti méretben maradjon tiszta.",
+      "Nagyítsa a részleteket a mutatót követő nagyítóval.",
+      "Mutasson visszaszámlálást, szüneteltesse és folytassa."
+    ],
+    "developerTag": "KÉSZÍTSEN SAJÁT ESZKÖZT",
+    "developerTitle": "Saját feladat. Saját következő eszköz.",
+    "developerText": "A szerző bővítményei megmutatják a Backpack szerződését. Az időzítő példájához részletes útmutatók készülnek.",
+    "developerSteps": [
+      [
+        "Parancsok és életciklus",
+        "Az SDK az indítást, leállítást és parancsokat kapcsolja a Backpackhez. A parancsokhoz gyorsbillentyűk rendelhetők."
+      ],
+      [
+        "Beállítások és felület",
+        "A manifeszt leírja a beállításokat; a Backpack rajzolja a vezérlőket és paneleket. A színek külön paraméterek, automatikus téma-API nincs ígérve."
+      ],
+      [
+        "Honosítás és példák",
+        "A honosított feliratok és a Context.Locale támogatják az alkalmazás nyelveit. A súgó leírja az időzítőt, fordítást, csomagolást és .bppkg-importot."
+      ]
+    ],
+    "docsNotice": "Az F1 → Bővítmények leírja a szerződést, fordítást és importálást. Nyilvános SDK-dokumentáció és példaforrás-hivatkozás még nincs.",
+    "licenseNote": "Az SDK feltételeit frissítik, hogy saját bővítményeket szabadon lehessen készíteni. Részletes, lépésenkénti fordítási és importálási útmutató, valamint működő példák készülnek.",
+    "applicationTag": "AZ ALKALMAZÁS RÉSZE",
+    "applicationTitle": "Beállítások, amelyek az Önéi maradnak.",
+    "applicationText": "Megjelenés, mentett profilok, beviteli adatvédelem és bővítménykezelés alkalmazás-infrastruktúra, nem külön bővítmény.",
+    "privacyTitle": "A bevitel adatvédelme külön téma.",
+    "privacyText": "Az ellenőrzött verzió elrejti a billentyűket, ha védett bevitelt észlel. Vannak korlátok és ismert versenyhelyzet a fókuszértesítéseknél: érzékeny bevitel előtt kézzel rejtse el a kijelzést. A kódba vetett bizalom külön döntés.",
+    "workflowTitle": "Az új modell bemutatója",
+    "workflowNote": "A tervezett felület szimulált bejárása. Import és bizalom működik a preview.4-ban; a jelenet nem képernyőkép és nem bizonyítja minden bővítmény kész állapotát.",
+    "workflowSteps": [
+      "Kezdés a beépített billentyűkkel és egérrel",
+      "Bővítmények megnyitása",
+      "A szerző időzítőjének kiválasztása",
+      "Bizalom megerősítése és bekapcsolás",
+      "Megjelenik a további eszköz"
+    ],
+    "coreTab": "Beépített",
+    "pluginsTab": "Bővítmények",
+    "enable": "Bekapcsolás",
+    "trust": "Csak megbízható forrás kódját kapcsolja be. A külön folyamat nem biztonságos homokozó.",
+    "enabled": "Bekapcsolva",
+    "start": "Indítás",
+    "pause": "Szünet",
+    "resume": "Folytatás",
+    "reset": "Visszaállítás",
+    "finished": "Befejeződött",
+    "timerCaption": "Szimulált visszaszámlálás · szünet · folytatás",
+    "layoutCaption": "Szimulált beviteli nyelvváltás",
+    "layoutSequence": [
+      "English",
+      "Українська",
+      "Deutsch"
+    ],
+    "faq": [
+      [
+        "Mit tartalmaz az alkalmazás?",
+        "A billentyűk és az egér megjelenítése a Backpack két alapvető eszköze. Nagyító, Kiemelés, Kurzornagyító, Időzítő — Csomagban ellenőrzött bővítmény · Backpack 0.4.0-preview.4 / SDK 1.1. Rajzolás, Kiosztásjelző — Tervezett bővítmény. Megjelenés, mentett profilok, beviteli adatvédelem és bővítménykezelés alkalmazás-infrastruktúra, nem külön bővítmény."
+      ],
+      [
+        "Letölthető a Backpack és a bővítmények?",
+        "Backpack 0.4.0-preview.4 · Windows 10 / 11 x64. Nyilvános csomag még nincs Nagyító, Kiemelés, Kurzornagyító, Időzítő — Csomagban ellenőrzött bővítmény · Backpack 0.4.0-preview.4 / SDK 1.1. Rajzolás, Kiosztásjelző — Tervezett bővítmény."
+      ],
+      [
+        "Hogyan telepíthetők a bővítmények?",
+        "Bővítmények → Importálás → .bppkg. Az import ellenőriz és kicsomagol kódfuttatás vagy bizalom megadása nélkül. Új vagy frissített bővítmény kikapcsolva marad; az első bekapcsolás megerősítést kér."
+      ],
+      [
+        "Biztonságosan elszigeteltek a bővítmények?",
+        "Megbízható forrást használjon. A külön folyamatok a felhasználó jogaival futnak, és segítenek a hibakezelésben, de nem homokozók. A manifeszt képességei a Backpack felületét korlátozzák, nem minden rendszerműveletet."
+      ],
+      [
+        "Hol kezdjem saját eszközömet?",
+        "F1 → Bővítmények: szerződés, életciklus, parancsok, beállítások, nyelvek és időzítőfordítás. Részletes útmutatók és működő példák készülnek; az SDK feltételei a szabad saját bővítménykészítést fogják lehetővé tenni. Nyilvános hivatkozások még nincsenek."
+      ],
+      [
+        "Minden mezőt véd az adatvédelem?",
+        "Nincs univerzális felismerési ígéret. Védett vagy ismeretlen bevitel elrejthető, de az aszinkron fókuszfelismerés korlátozott. Érzékeny bevitel előtt kézzel rejtse el. A bővítménybizalom külön döntés."
+      ],
+      [
+        "Milyen rendszerek és licenc?",
+        "Ellenőrzött csomag Windows 10/11 x64 rendszerhez, .NET-tel. PolyForm Strict 1.0.0, nem nyílt forrású. Az SDK és példák feltételeinek frissítése folyamatban van."
+      ]
+    ]
+  }
+}
