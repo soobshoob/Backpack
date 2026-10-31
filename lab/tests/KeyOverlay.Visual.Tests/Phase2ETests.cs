@@ -813,7 +813,8 @@ public class Phase2ETests
                     layoutRoot.UpdateLayout();
                     var card = w.PreviewCard!;
                     var page = w.Cards;
-                    Assert.Equal(width >= 1200, w.PreviewOnRight);
+                    Assert.True((width >= 1200) == w.PreviewOnRight,
+                        $"requested={width}x{height}; window={w.ActualWidth}x{w.ActualHeight}; root={layoutRoot.ActualWidth}x{layoutRoot.ActualHeight}; body={((FrameworkElement)w.ScrollArea!.Parent).ActualWidth}; previewRight={w.PreviewOnRight}");
                     // Превью закреплено в обеих компоновках: вне прокручиваемой области и не пересекается с ней.
                     var c = card.TransformToAncestor(layoutRoot).TransformBounds(new Rect(card.RenderSize));
                     var a = w.ScrollArea!.TransformToAncestor(layoutRoot).TransformBounds(new Rect(w.ScrollArea.RenderSize));
