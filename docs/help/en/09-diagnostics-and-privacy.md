@@ -57,4 +57,4 @@ While the overlay is hidden, presses and releases are still tracked, so no keys 
 
 ## Where the files are
 
-The folder is `%APPDATA%\Backpack`. In portable mode (the file `Backpack.portable` next to `Backpack.exe`) it is the `Data` folder next to the program. On the first start Backpack copies settings and profiles from the previous `%APPDATA%\Backpack.Lab` folder and leaves the old files in place. The lens and drawing keep nothing on disk.
+The folder is `%APPDATA%\Backpack`. In portable mode (the file `Backpack.portable` next to `Backpack.exe`) it is the `Data` folder next to the program. The lens and drawing keep nothing on disk.

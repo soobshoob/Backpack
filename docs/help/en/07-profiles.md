@@ -35,7 +35,7 @@ When Backpack 0.4.0-preview.3 starts for the first time, profiles saved by earli
 | Rename | a new name; the file and id stay the same |
 | Delete | after confirmation; the current profile cannot be deleted |
 | Export current profile… | the current state of all profile settings, including changes made a moment ago |
-| Export… | save a profile from the list to a `.keyoverlay-profile.json` file |
+| Export… | save a profile from the list to a `.backpack-profile.json` file |
 | Import… | add a profile from a file |
 
 ## Import and export
@@ -46,7 +46,7 @@ When Backpack 0.4.0-preview.3 starts for the first time, profiles saved by earli
 - Profiles are written through a temporary file: a failure while writing does not damage the previous file.
 - File dialogs are Windows system dialogs: they follow the Windows theme and language.
 
-Profiles are stored in the `profiles` folder next to the settings file (`%APPDATA%\Backpack\profiles\`). The format is described by `docs/settings/keyoverlay-lab-profile.schema.json`.
+Profiles are stored in the `profiles` folder next to the settings file (`%APPDATA%\Backpack\profiles\`). The format is described by `docs/settings/backpack-profile.schema.json`.
 
 ## Profiles and styles
 

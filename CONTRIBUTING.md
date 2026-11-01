@@ -11,8 +11,8 @@ Thank you for helping. Backpack is a Windows desktop app in C# / .NET 10 / WPF.
 ## Build and test
 
 ```powershell
-dotnet build lab/KeyOverlay.Lab.slnx -c Release
-dotnet test  lab/KeyOverlay.Lab.slnx -c Release
+dotnet build lab/Backpack.slnx -c Release
+dotnet test  lab/Backpack.slnx -c Release
 ```
 
 Warnings are errors. UI tests open windows off screen; run them on an interactive Windows desktop. The app has a lab mode
@@ -24,7 +24,7 @@ separate `--settings` file.
 - **Privacy first.** Never record typed text, key sequences, clipboard, window titles or screen content — not in logs,
   diagnostics, tests or screenshots. Synthetic input in tests goes only to the test's own window while it is in front.
 - Keep changes focused; match the surrounding code style and comment density. Comments in the code base are Russian.
-- User-visible text goes into `lab/src/KeyOverlay.Visual/Localization/Strings*.resx` for **every** supported language;
+- User-visible text goes into `lab/src/Backpack.Visual/Localization/Strings*.resx` for **every** supported language;
   do not leave English in another language file. Stable IDs, API names and settings keys are not translated.
 - New behaviour needs tests; a fixed bug needs a regression test.
 - Do not commit build output, packages, personal settings, diagnostics exports or screenshots of your real desktop.

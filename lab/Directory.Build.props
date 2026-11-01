@@ -15,14 +15,14 @@
       Репозиторий обновлений («владелец/репозиторий» GitHub) задаёт владелец; пустой — «источник обновлений не настроен».
     -->
     <VersionPrefix>0.4.0</VersionPrefix>
-    <VersionSuffix>preview.6</VersionSuffix>
-    <KeyOverlayChannel>Preview</KeyOverlayChannel>
-    <KeyOverlayReleaseDate></KeyOverlayReleaseDate>
-    <KeyOverlayUpdateRepository></KeyOverlayUpdateRepository>
+    <VersionSuffix>preview.7</VersionSuffix>
+    <BackpackChannel>Preview</BackpackChannel>
+    <BackpackReleaseDate></BackpackReleaseDate>
+    <BackpackUpdateRepository></BackpackUpdateRepository>
     <!-- Лицензия ядра (Phase 4I): Mozilla Public License 2.0 — официальный текст в LICENSE (корень), область — LICENSING.md.
          SDK (lab/sdk) и плагины от создателя (lab/samples) переопределяют это в своих проектах: до решения владельца — PolyForm Strict. -->
-    <KeyOverlayLicense>Mozilla Public License 2.0</KeyOverlayLicense>
-    <KeyOverlayLicenseUrl>https://www.mozilla.org/MPL/2.0/</KeyOverlayLicenseUrl>
+    <BackpackLicense>Mozilla Public License 2.0</BackpackLicense>
+    <BackpackLicenseUrl>https://www.mozilla.org/MPL/2.0/</BackpackLicenseUrl>
     <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
     <Deterministic>true</Deterministic>
     <Authors>soobshoob</Authors>

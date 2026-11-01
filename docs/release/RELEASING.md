@@ -8,7 +8,7 @@ workflow described below. See [GITHUB-SETUP.md](GITHUB-SETUP.md) for the single 
 
 1. Version in `lab/Directory.Build.props` (`VersionPrefix`, `VersionSuffix`; SemVer). Stable releases have no suffix.
 2. Release notes in `docs/release/RELEASE-NOTES-<version>.md` (the packaging script copies them as `RELEASE-NOTES.md`).
-3. Tests: `dotnet test lab/KeyOverlay.Lab.slnx -c Release`.
+3. Tests: `dotnet test lab/Backpack.slnx -c Release`.
 4. Check that `LICENSE` is the unchanged MPL 2.0 text, that `lab/sdk/LICENSE` and `lab/samples/LICENSE` carry the terms the owner chose for the SDK and the plugins from the creator (the package check compares all SHA-256 hashes), and that `NOTICE` names the right copyright holder. Releases are built by `.github/workflows/release.yml` from a tag (see `docs/release/GITHUB-SETUP.md`).
 
 ## Build the package

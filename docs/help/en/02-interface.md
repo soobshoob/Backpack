@@ -55,7 +55,7 @@ The first time windows go to the tray, Backpack explains where the icon is and h
 
 Check marks in the menu always show the current state. If the main window is open, it shows a change made from the menu at once, and the other way round.
 
-Windows decides whether the icon is on the taskbar or among the hidden icons. You can drag it to the taskbar or set it in the taskbar settings. Backpack does not start with Windows.
+Windows decides whether the icon is on the taskbar or among the hidden icons. You can drag it to the taskbar or set it in the taskbar settings. To start Backpack when you sign in to Windows, turn on “App settings” → “Start with Windows”: Backpack then starts in the tray, without the main window. It needs no administrator rights and also works for the portable version (the entry points to where `Backpack.exe` is now). The switch shows the real state: if the entry belongs to another copy or was turned off in the Windows list of startup apps, a note under it says so. Starting Backpack again while it is running opens the window of the running copy instead of a second one.
 
 ## Interface theme
 

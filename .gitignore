@@ -20,9 +20,9 @@ research/deps/
 research/issues/
 
 # Локальные экспорты диагностики стенда (только в корне и в lab/; схемы в docs/settings — исходники)
-*.keyoverlay-lab.json
-/keyoverlay-lab-*.json
-/lab/keyoverlay-lab-*.json
+*.backpack-lab.json
+/backpack-lab-*.json
+/lab/backpack-lab-*.json
 
 # Пакеты выпуска (собираются tools/package-release.ps1)
 artifacts/

@@ -2,7 +2,7 @@
 
 **Дата:** 2026-10-28
 **Окружение:** Windows 11 Pro 10.0.26300, экран 2560×1600 с масштабом 150 %, .NET SDK 10.0.401, сборка Debug, обычные права.
-**Основа:** `research/Phase2A-Customization-and-Help-Spec.md`, этап 1 плана §6.7. Решение владельца: продолжаем в `lab/KeyOverlay.Lab.slnx`, создаём переиспользуемый `KeyOverlay.Visual`, подключаем к `KeyOverlay.Lab.App`, продуктового решения пока нет.
+**Основа:** `research/Phase2A-Customization-and-Help-Spec.md`, этап 1 плана §6.7. Решение владельца: продолжаем в `lab/Backpack.slnx`, создаём переиспользуемый `Backpack.Visual`, подключаем к `Backpack.App`, продуктового решения пока нет.
 
 Разделы ниже разделяют: (1) что сделано, (2) что проверено автоматически или запуском, (3) что остаётся ручным, (4) ограничения.
 
@@ -14,16 +14,16 @@
 
 | Требование | Состояние | Где |
 |---|---|---|
-| Стиль lowprofile | сделано: S=32 → высота 80, грань 72, мин. ширина 72 / 80, рамка 2, радиус 20, ход +8, нажатие 100 мс, cubic-bezier(0.86, 0, 0.07, 1) | `src/KeyOverlay.Visual/Rendering/LowProfileKeycap.cs`, `LowProfileMetrics.cs` |
-| Устойчивая идентичность | сделано: `DisplayEntry.Id` в модели; `OverlayPresenter` сводит элементы по Id и не пересоздаёт их | `src/KeyOverlay.Lab.Core/Model/DisplayModel.cs`, `Rendering/OverlayPresenter.cs` |
+| Стиль lowprofile | сделано: S=32 → высота 80, грань 72, мин. ширина 72 / 80, рамка 2, радиус 20, ход +8, нажатие 100 мс, cubic-bezier(0.86, 0, 0.07, 1) | `src/Backpack.Visual/Rendering/LowProfileKeycap.cs`, `LowProfileMetrics.cs` |
+| Устойчивая идентичность | сделано: `DisplayEntry.Id` в модели; `OverlayPresenter` сводит элементы по Id и не пересоздаёт их | `src/Backpack.Core/Model/DisplayModel.cs`, `Rendering/OverlayPresenter.cs` |
 | Нажатие, отпускание, fade, без анимации | сделано: fade 250 мс easeOutQuint; none мгновенно завершает переходы и удаляет исчезающие | `OverlayPresenter.cs` |
 | Исчезновение и повтор во время exit | сделано: исчезающий кейкап той же клавиши «оживает» с текущей прозрачности, без дубля; устаревшее завершение отбрасывается по поколению фазы | `OverlayPresenter.TryCompleteExit` |
 | Подложка группы | сделано: вкл./цвет, padding 0.4·S, радиус r·1.75·S; уходит вместе с кейкапами | `OverlayPresenter.cs` |
 | Окно настроек с живым превью | сделано: 5 вкладок, превью на искусственном сценарии тем же рендером | `Settings/SettingsWindow.cs`, `Rendering/DemoScenario.cs` |
-| Сохранение настроек | сделано: формат `keyoverlay-lab-settings` v1, валидация по полям, атомарная замена, копия нечитаемого файла | `Settings/SettingsSerializer.cs`, `SettingsStore.cs` |
+| Сохранение настроек | сделано: формат `backpack-settings` v1, валидация по полям, атомарная замена, копия нечитаемого файла | `Settings/SettingsSerializer.cs`, `SettingsStore.cs` |
 | Индикатор раскладки | сделано: HKL окна переднего плана, два одинаковых опроса подряд, одно событие на изменение, свои окна пропускаются | `Layout/*` |
 | Справка F1 | сделано: `docs/help` встроен ресурсом, одно окно, оглавление, переходы, поиск с подсветкой, контекст вкладок, кнопка в диагностике | `Help/*` |
-| Inter | сделано: Inter 4.1 Regular/SemiBold/Bold из официального релиза, ресурсом сборки, лицензия OFL и хэши сохранены | `src/KeyOverlay.Visual/Fonts/` |
+| Inter | сделано: Inter 4.1 Regular/SemiBold/Bold из официального релиза, ресурсом сборки, лицензия OFL и хэши сохранены | `src/Backpack.Visual/Fonts/` |
 | Бейдж счётчика | **предварительно** (вне объёма, но нужен, чтобы не потерять проверку «K ×2» чек-листа 1B): всегда включён, без анимации появления | `LowProfileKeycap.cs` |
 
 Не входит в этап и не сделано: стили laptop/pbt/minimal, менеджер и файлы тем, импорт Keyviz, история, фильтры, иконки, символы второго ряда, выделение модификаторов, эффекты мыши, выбор монитора, перестройка ряда с анимацией. Состояние каждой строки матрицы — `research/Phase2A-Customization-and-Help-Spec.md` §2.15: **да — 25, частично — 15, нет — 31 из 71**.
@@ -31,14 +31,14 @@
 ### 1.2 Структура
 
 ```text
-lab/src/KeyOverlay.Visual/              WPF-библиотека; не ссылается на Lab.App, Lab.Core, Lab.Win32
+lab/src/Backpack.Visual/              WPF-библиотека; не ссылается на Lab.App, Lab.Core, Lab.Win32
   Rendering/  Easing (CSS cubic-bezier), LowProfileMetrics, LowProfileKeycap, OverlayPresenter, KeycapItem, DemoScenario, VisualFonts
   Settings/   ThemeColor, LabSettings, SettingsSerializer, SettingsStore, SettingsWindow
   Layout/     LayoutProbe (Win32, только чтение), LayoutChangeDetector (чистая логика), LayoutNames, LayoutIndicator
   Windows/    NoActivateWindow (свои стили no-activate/click-through), OverlayPlacement (9 якорей)
   Help/       Markdown (подмножество), HelpLibrary, HelpWindow + FlowDocumentBuilder, HelpService + HelpTopic
   Fonts/      Inter-Regular/SemiBold/Bold.ttf, Inter-LICENSE.txt, README.md (происхождение, SHA-256)
-lab/tests/KeyOverlay.Visual.Tests/     89 тестов (xunit, WPF в STA-потоках, окна на экран не выводятся)
+lab/tests/Backpack.Visual.Tests/     89 тестов (xunit, WPF в STA-потоках, окна на экран не выводятся)
 ```
 
 Изменения существующего кода:
@@ -53,11 +53,11 @@ lab/tests/KeyOverlay.Visual.Tests/     89 тестов (xunit, WPF в STA-пот
 | `App/App.xaml.cs` | хранилище настроек, индикатор, окно настроек (один экземпляр), справка, самопроверка окон при `--auto-exit-ms` | нет |
 | `App/DiagnosticsWindow.*` | кнопки «Настройки…», «Справка (F1)», F1, обновлённый чек-лист | нет |
 
-`KeyOverlay.Lab.Win32`, `Core/Transport`, `SourceModel`, `SourceReader`, `Reconciliation`, `Diagnostics` **не менялись**.
+`Backpack.Win32`, `Core/Transport`, `SourceModel`, `SourceReader`, `Reconciliation`, `Diagnostics` **не менялись**.
 
 ### 1.3 Решения, принятые по ходу
 
-- **Размещение окна и выравнивание содержимого разведены** (Phase 2A §3.3а). В 2A для этапа 1 было указано «8 позиций», а в схеме `alignment9` — 9 значений. Теперь окно оверлея имеет 9 якорей, включая центр (дополнение KeyOverlay; в UI Keyviz центр заблокирован), и хранится в настройках компьютера. Выравнивание подписи внутри кейкапа — параметр темы `text.alignment`, этап 2.
+- **Размещение окна и выравнивание содержимого разведены** (Phase 2A §3.3а). В 2A для этапа 1 было указано «8 позиций», а в схеме `alignment9` — 9 значений. Теперь окно оверлея имеет 9 якорей, включая центр (дополнение Backpack; в UI Keyviz центр заблокирован), и хранится в настройках компьютера. Выравнивание подписи внутри кейкапа — параметр темы `text.alignment`, этап 2.
 - **Окно оверлея — полоса**: ширина рабочей области минус отступы, высота по группе (+ поле под бейдж). Окно не меняет размер при каждом нажатии. Полноэкранное окно не используется (Phase 0 R9).
 - **Анимации — собственный расчёт по внедряемым часам**, тик от `CompositionTarget.Rendering` только пока анимации идут. Так тесты детерминированы, а завершение исчезновения проверяемо защищено поколением. Индикатор раскладки использует обычную `DoubleAnimation` WPF с той же защитой `Completed` поколением.
 - **Один формат цветов и единиц.** `ThemeColor` хранит `#RRGGBB`/`#RRGGBBAA` (альфа последней, как в теме) и единственный переводит в WPF `#AARRGGBB`. Раздел `appearance` файла настроек имеет форму разделов темы; тест оборачивает его в тему и проверяет по схеме.
@@ -76,14 +76,14 @@ lab/tests/KeyOverlay.Visual.Tests/     89 тестов (xunit, WPF в STA-пот
 
 | Проверка | Результат |
 |---|---|
-| `dotnet build lab/KeyOverlay.Lab.slnx --no-incremental` | успешно, **0 предупреждений, 0 ошибок** (`TreatWarningsAsErrors=true`) |
-| `dotnet test lab/KeyOverlay.Lab.slnx` | **131 из 131**: Core 42 (38 прежних + 4 новых), Visual 89 |
+| `dotnet build lab/Backpack.slnx --no-incremental` | успешно, **0 предупреждений, 0 ошибок** (`TreatWarningsAsErrors=true`) |
+| `dotnet test lab/Backpack.slnx` | **131 из 131**: Core 42 (38 прежних + 4 новых), Visual 89 |
 
 Существующие тесты не ослаблялись и не удалялись. Семь тестов `DisplayModelTests` остались без изменений; добавлены `EntryId_IsStableWhileEntryLives_AndNewAfterExpiry`, `EntryIds_AreUniqueAcrossReplacement`, `SetLinger_AppliesToAlreadyReleasedKeys_WithoutRecreatingEntries`, `CapText_KeepsSidesAndNumpadDistinguishable`.
 
 Отдельно запрошенные проверки:
 
-| Требование | Тесты (`KeyOverlay.Visual.Tests`) |
+| Требование | Тесты (`Backpack.Visual.Tests`) |
 |---|---|
 | повтор во время exit | `RepressDuringExit_RevivesSameControl_NoDuplicate_NoJump` |
 | устаревший Completed | `StaleExitCompletion_IsIgnored_AfterRevive` |
@@ -104,7 +104,7 @@ lab/tests/KeyOverlay.Visual.Tests/     89 тестов (xunit, WPF в STA-пот
 
 ### 2.2 Визуальная проверка (снимки рендера, не сравнение с Keyviz)
 
-`KEYOVERLAY_SNAPSHOTS=<папка> dotnet test lab/tests/KeyOverlay.Visual.Tests --filter Snapshots` рендерит через `RenderTargetBitmap` при 96 и 144 DPI (системный DPI не меняется). Просмотрены:
+`BACKPACK_SNAPSHOTS=<папка> dotnet test lab/tests/Backpack.Visual.Tests --filter Snapshots` рендерит через `RenderTargetBitmap` при 96 и 144 DPI (системный DPI не меняется). Просмотрены:
 
 - по умолчанию (Ctrl нажат, Shift отпущен, K с бейджем «2»): нажатая грань без видимой «юбки», у отпущенной полоса снизу, бейдж выходит за угол и не обрезается;
 - длинные подписи («Backspace», «Pg Dn», «SC E1 1D», «Num / Enter»): кейкапы расширяются, текст не обрезается;
@@ -139,10 +139,10 @@ lab/tests/KeyOverlay.Visual.Tests/     89 тестов (xunit, WPF в STA-пот
 ### 3.1 Команда запуска
 
 ```powershell
-dotnet run --project lab/src/KeyOverlay.Lab.App -- --source=raw
+dotnet run --project lab/src/Backpack.App -- --source=raw
 ```
 
-Для проверки без затрагивания своих настроек добавьте `--settings=%TEMP%\keyoverlay-check\settings.json`.
+Для проверки без затрагивания своих настроек добавьте `--settings=%TEMP%\backpack-check\settings.json`.
 
 ### 3.2 Короткий сценарий: визуал → настройки → раскладка → F1 → перезапуск
 

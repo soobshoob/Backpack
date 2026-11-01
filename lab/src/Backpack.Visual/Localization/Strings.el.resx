@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Строки интерфейса Backpack (en). Ключи стабильны и не переводятся; переводятся только значения целыми фразами. -->
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="About.Author" xml:space="preserve"><value>Δημιουργός</value></data>
+  <data name="About.AutoCheck" xml:space="preserve"><value>Αυτόματος έλεγχος</value></data>
+  <data name="About.AutoCheckHint" xml:space="preserve"><value>Μία φορά την ημέρα όσο εκτελείται το Backpack. Μόνο ένα αίτημα στο GitHub· οι ρυθμίσεις και ό,τι πληκτρολογείτε δεν αποστέλλονται ποτέ.</value></data>
+  <data name="About.Channel" xml:space="preserve"><value>Κανάλι</value></data>
+  <data name="About.ChannelHint" xml:space="preserve"><value>Το Σταθερό δεν προσφέρει ποτέ προεκδόσεις.</value></data>
+  <data name="About.Check" xml:space="preserve"><value>Έλεγχος</value></data>
+  <data name="About.Checking" xml:space="preserve"><value>Έλεγχος…</value></data>
+  <data name="About.CheckNow" xml:space="preserve"><value>Έλεγχος τώρα</value></data>
+  <data name="About.License" xml:space="preserve"><value>Άδεια</value></data>
+  <data name="About.LicenseHint" xml:space="preserve"><value>Πυρήνας του Backpack. Πλήρες κείμενο: το αρχείο LICENSE δίπλα στο πρόγραμμα και στο αποθετήριο κώδικα· η σημείωση πνευματικών δικαιωμάτων βρίσκεται στο NOTICE. Το SDK προσθέτων και τα πρόσθετα του δημιουργού έχουν ξεχωριστούς όρους (LICENSE-STATUS.md). Το κουμπί ανοίγει την επίσημη σελίδα.</value></data>
+  <data name="About.LicenseNone" xml:space="preserve"><value>Ο δημιουργός δεν έχει επιλέξει ακόμη την άδεια του έργου.</value></data>
+  <data name="About.LicenseNotChosen" xml:space="preserve"><value>δεν έχει επιλεγεί ακόμη</value></data>
+  <data name="About.NotConfigured" xml:space="preserve"><value>δεν έχει ρυθμιστεί</value></data>
+  <data name="About.OpenDownload" xml:space="preserve"><value>Άνοιγμα της σελίδας λήψης</value></data>
+  <data name="About.OpenLink.Message" xml:space="preserve"><value>Άνοιγμα στο πρόγραμμα περιήγησης;
+{0}</value></data>
+  <data name="About.OpenLink.Title" xml:space="preserve"><value>Άνοιγμα συνδέσμου</value></data>
+  <data name="About.ReleaseDate" xml:space="preserve"><value>Ημερομηνία κυκλοφορίας</value></data>
+  <data name="About.ReleaseDateNone" xml:space="preserve"><value>Έκδοση ανάπτυξης: δεν υπάρχει ημερομηνία κυκλοφορίας.</value></data>
+  <data name="About.ReleaseTitle" xml:space="preserve"><value>Έκδοση {0} ({1})</value></data>
+  <data name="About.ThirdParty" xml:space="preserve"><value>Στοιχεία τρίτων</value></data>
+  <data name="About.ThirdPartyLine" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="About.ThirdPartyNote" xml:space="preserve"><value>Τα κείμενα των αδειών βρίσκονται στον φάκελο Licenses δίπλα στο πρόγραμμα.</value></data>
+  <data name="About.Title" xml:space="preserve"><value>Backpack</value></data>
+  <data name="About.UpdateNote" xml:space="preserve"><value>Το Backpack δεν κατεβάζει ούτε εκτελεί ποτέ ενημερώσεις μόνο του: η σελίδα λήψης ανοίγει στο πρόγραμμα περιήγησης.</value></data>
+  <data name="About.Updates" xml:space="preserve"><value>Ενημερώσεις</value></data>
+  <data name="About.UpdateSource" xml:space="preserve"><value>Πηγή εκδόσεων</value></data>
+  <data name="About.UpdateSourceNone" xml:space="preserve"><value>Σε αυτή την έκδοση δεν έχει οριστεί αποθετήριο με εκδόσεις, γι’ αυτό δεν μπορεί να γίνει έλεγχος ενημερώσεων.</value></data>
+  <data name="About.Version" xml:space="preserve"><value>Έκδοση</value></data>
+  <data name="About.VersionLine" xml:space="preserve"><value>Έκδοση {0} · {1}</value></data>
+  <data name="Anchor.BottomCenter" xml:space="preserve"><value>Κάτω στο κέντρο</value></data>
+  <data name="Anchor.BottomLeft" xml:space="preserve"><value>Κάτω αριστερά</value></data>
+  <data name="Anchor.BottomRight" xml:space="preserve"><value>Κάτω δεξιά</value></data>
+  <data name="Anchor.Center" xml:space="preserve"><value>Κέντρο</value></data>
+  <data name="Anchor.CenterLeft" xml:space="preserve"><value>Στη μέση αριστερά</value></data>
+  <data name="Anchor.CenterRight" xml:space="preserve"><value>Στη μέση δεξιά</value></data>
+  <data name="Anchor.TopCenter" xml:space="preserve"><value>Πάνω στο κέντρο</value></data>
+  <data name="Anchor.TopLeft" xml:space="preserve"><value>Πάνω αριστερά</value></data>
+  <data name="Anchor.TopRight" xml:space="preserve"><value>Πάνω δεξιά</value></data>
+  <data name="App.Home.Animation" xml:space="preserve"><value>Κίνηση επίδειξης</value></data>
+  <data name="App.Home.AnimationHint" xml:space="preserve"><value>Η σύντομη επίδειξη σε επανάληψη στην Αρχική. Μένει σε παύση και όταν οι κινήσεις των Windows είναι απενεργοποιημένες.</value></data>
+  <data name="App.Home.Title" xml:space="preserve"><value>Αρχική σελίδα</value></data>
+  <data name="App.Language" xml:space="preserve"><value>Γλώσσα διεπαφής</value></data>
+  <data name="App.Language.Hint" xml:space="preserve"><value>Γλώσσα παραθύρων, μενού και βοήθειας. Δεν αλλάζει τη διάταξη πληκτρολογίου ούτε τις ετικέτες των πλήκτρων.</value></data>
+  <data name="App.Language.System" xml:space="preserve"><value>Συστήματος</value></data>
+  <data name="App.Language.Title" xml:space="preserve"><value>Γλώσσα</value></data>
+  <data name="App.Theme" xml:space="preserve"><value>Φωτεινό ή σκοτεινό</value></data>
+  <data name="App.Theme.Dark" xml:space="preserve"><value>Σκοτεινό</value></data>
+  <data name="App.Theme.Hint" xml:space="preserve"><value>Φωτεινά ή σκοτεινά παράθυρα του Backpack. Τα πλήκτρα, η ένδειξη και το ποντίκι κρατούν τα δικά τους χρώματα.</value></data>
+  <data name="App.Theme.Light" xml:space="preserve"><value>Φωτεινό</value></data>
+  <data name="App.Theme.System" xml:space="preserve"><value>Συστήματος</value></data>
+  <data name="App.Tray.Close" xml:space="preserve"><value>Κλείσιμο του κύριου παραθύρου</value></data>
+  <data name="App.Tray.Close.Exit" xml:space="preserve"><value>Έξοδος</value></data>
+  <data name="App.Tray.Close.ToTray" xml:space="preserve"><value>Απόκρυψη στην περιοχή ειδοποιήσεων</value></data>
+  <data name="App.Tray.CloseHint" xml:space="preserve"><value>Το × του παραθύρου διαγνωστικών. Το κλείσιμο του παραθύρου ρυθμίσεων δεν τερματίζει ποτέ το πρόγραμμα.</value></data>
+  <data name="App.Tray.Hint" xml:space="preserve"><value>Κάντε κλικ στο εικονίδιο της περιοχής ειδοποιήσεων για να εμφανιστούν τα παράθυρα· δεξί κλικ για γρήγορους διακόπτες και «Έξοδος».</value></data>
+  <data name="App.Tray.Note" xml:space="preserve"><value>Τα Windows αποφασίζουν αν το εικονίδιο είναι στη γραμμή εργασιών ή κάτω από το βέλος ^.</value></data>
+  <data name="App.Autostart.Title" xml:space="preserve"><value>Εκκίνηση</value></data>
+  <data name="App.Autostart" xml:space="preserve"><value>Εκκίνηση μαζί με τα Windows</value></data>
+  <data name="App.Autostart.Hint" xml:space="preserve"><value>Το Backpack ξεκινά στην περιοχή ειδοποιήσεων όταν συνδέεστε στα Windows. Δεν χρειάζονται δικαιώματα διαχειριστή.</value></data>
+  <data name="App.Autostart.OtherCopy" xml:space="preserve"><value>Η αυτόματη εκκίνηση έχει οριστεί για άλλο αντίγραφο: {0}. Ενεργοποιήστε τη για να ξεκινά αυτό το αντίγραφο.</value></data>
+  <data name="App.Autostart.Missing" xml:space="preserve"><value>Η αυτόματη εκκίνηση δείχνει σε αρχείο που δεν υπάρχει πια: {0}. Ενεργοποιήστε τη για να ξεκινά αυτό το αντίγραφο.</value></data>
+  <data name="App.Autostart.Disabled" xml:space="preserve"><value>Απενεργοποιήθηκε στη λίστα εφαρμογών εκκίνησης των Windows. Ενεργοποιήστε τη εδώ για να επιτραπεί ξανά.</value></data>
+  <data name="App.Autostart.Failed" xml:space="preserve"><value>Δεν ήταν δυνατή η αλλαγή της αυτόματης εκκίνησης ({0}).</value></data>
+  <data name="App.Tray.Title" xml:space="preserve"><value>Περιοχή ειδοποιήσεων</value></data>
+  <data name="Appearance.Anim.Duration" xml:space="preserve"><value>Διάρκεια</value></data>
+  <data name="Appearance.Anim.EnterExit" xml:space="preserve"><value>Εμφάνιση και εξαφάνιση</value></data>
+  <data name="Appearance.Anim.Press" xml:space="preserve"><value>Κίνηση πατήματος</value></data>
+  <data name="Appearance.Anim.PressHint" xml:space="preserve"><value>Το πλήκτρο κατεβαίνει λίγο όσο κρατιέται πατημένο.</value></data>
+  <data name="Appearance.Anim.Title" xml:space="preserve"><value>Κίνηση</value></data>
+  <data name="Appearance.Colors.AlphaHint" xml:space="preserve"><value>Τα δύο τελευταία ψηφία του #RRGGBBAA ορίζουν την αδιαφάνεια.</value></data>
+  <data name="Appearance.Colors.Background" xml:space="preserve"><value>Φόντο σειράς</value></data>
+  <data name="Appearance.Colors.BackgroundColor" xml:space="preserve"><value>Χρώμα φόντου</value></data>
+  <data name="Appearance.Colors.Border" xml:space="preserve"><value>Περίγραμμα</value></data>
+  <data name="Appearance.Colors.BorderColor" xml:space="preserve"><value>Χρώμα περιγράμματος</value></data>
+  <data name="Appearance.Colors.BorderWidth" xml:space="preserve"><value>Πάχος περιγράμματος</value></data>
+  <data name="Appearance.Colors.Face" xml:space="preserve"><value>Πρόσοψη πλήκτρου</value></data>
+  <data name="Appearance.Colors.Skirt" xml:space="preserve"><value>Πλευρά πλήκτρου</value></data>
+  <data name="Appearance.Colors.SkirtHint" xml:space="preserve"><value>Η κάτω άκρη που δίνει βάθος στο πλήκτρο.</value></data>
+  <data name="Appearance.Colors.Text" xml:space="preserve"><value>Ετικέτα</value></data>
+  <data name="Appearance.Colors.Title" xml:space="preserve"><value>Χρώματα</value></data>
+  <data name="Appearance.Gradient" xml:space="preserve"><value>Διαβάθμιση</value></data>
+  <data name="Appearance.GradientHint" xml:space="preserve"><value>Μόνο φορητός και PBT.</value></data>
+  <data name="Appearance.Keycap.Hint" xml:space="preserve"><value>Μέγεθος και στρογγύλεμα γωνιών.</value></data>
+  <data name="Appearance.Keycap.Radius" xml:space="preserve"><value>Στρογγύλεμα</value></data>
+  <data name="Appearance.Keycap.RadiusHint" xml:space="preserve"><value>0 — ορθές γωνίες, 1 — μέγιστο στρογγύλεμα.</value></data>
+  <data name="Appearance.Keycap.Size" xml:space="preserve"><value>Μέγεθος</value></data>
+  <data name="Appearance.Keycap.SizeHint" xml:space="preserve"><value>Ύψος του πλήκτρου σε εικονοστοιχεία ανεξάρτητα από τη συσκευή.</value></data>
+  <data name="Appearance.Keycap.Title" xml:space="preserve"><value>Πλήκτρο</value></data>
+  <data name="Appearance.Labels.Hint" xml:space="preserve"><value>Πώς ονομάζονται τα πλήκτρα τροποποίησης και τα ειδικά πλήκτρα πάνω στα πλήκτρα.</value></data>
+  <data name="Appearance.Labels.Mixed" xml:space="preserve"><value>Μικτό</value></data>
+  <data name="Appearance.Labels.Mode" xml:space="preserve"><value>Στυλ ετικετών</value></data>
+  <data name="Appearance.Labels.ModeHint" xml:space="preserve"><value>Μικτό: ένα σύμβολο και το όνομα όπου χωράει· μόνο σύμβολα· ή μόνο κείμενο.</value></data>
+  <data name="Appearance.Labels.Set" xml:space="preserve"><value>Σύνολο ετικετών</value></data>
+  <data name="Appearance.Labels.SetHint" xml:space="preserve"><value>Ονόματα όπως στα πληκτρολόγια Windows, macOS ή Linux. Η διάταξη πληκτρολογίου δεν αλλάζει.</value></data>
+  <data name="Appearance.Labels.Symbols" xml:space="preserve"><value>Σύμβολα</value></data>
+  <data name="Appearance.Labels.Text" xml:space="preserve"><value>Κείμενο</value></data>
+  <data name="Appearance.Labels.Title" xml:space="preserve"><value>Ετικέτες πλήκτρων</value></data>
+  <data name="Appearance.Markers" xml:space="preserve"><value>Σημάδια αριστερά/δεξιά</value></data>
+  <data name="Appearance.MarkersHint" xml:space="preserve"><value>Μικρά σημάδια «R» και «num» στα δεξιά Ctrl, Shift, Alt, Win και στα πλήκτρα του αριθμητικού πληκτρολογίου.</value></data>
+  <data name="Appearance.PressCount" xml:space="preserve"><value>Μετρητής πατημάτων</value></data>
+  <data name="Appearance.PressCountHint" xml:space="preserve"><value>Ένα σήμα «2», «3»… όταν ένα πλήκτρο πατιέται ξανά ενώ ο συνδυασμός κρατιέται.</value></data>
+  <data name="Appearance.Renderer" xml:space="preserve"><value>Απόδοση</value></data>
+  <data name="Appearance.Renderer.Hint" xml:space="preserve"><value>Το σχήμα του πλήκτρου. Μια προρρύθμιση ή ένα στυλ παραπάνω το ορίζει μαζί με τα χρώματα· εδώ αλλάζει μόνο το σχήμα.</value></data>
+  <data name="Appearance.Renderer.Title" xml:space="preserve"><value>Τρόπος σχεδίασης</value></data>
+  <data name="Appearance.RendererHint" xml:space="preserve"><value>Τα χρώματα και τα μεγέθη μένουν ίδια.</value></data>
+  <data name="Appearance.VolEnter" xml:space="preserve"><value>Enter σε σχήμα L</value></data>
+  <data name="Appearance.VolEnterHint" xml:space="preserve"><value>Μόνο 3D. Τα άλλα πλήκτρα κρατούν τετράγωνα ή συμπαγή μακρόστενα σχήματα.</value></data>
+  <data name="Color.Alpha" xml:space="preserve"><value>Αδιαφάνεια</value></data>
+  <data name="Color.Expected" xml:space="preserve"><value>Χρώμα ως #RRGGBB</value></data>
+  <data name="Color.ExpectedAlpha" xml:space="preserve"><value>Χρώμα ως #RRGGBB ή #RRGGBBAA (το τελευταίο ζεύγος είναι η αδιαφάνεια)</value></data>
+  <data name="Color.Hue" xml:space="preserve"><value>Απόχρωση</value></data>
+  <data name="Color.OpenPalette" xml:space="preserve"><value>Άνοιγμα παλέτας</value></data>
+  <data name="Color.SaturationValue" xml:space="preserve"><value>Κορεσμός και φωτεινότητα</value></data>
+  <data name="Common.Example" xml:space="preserve"><value>Παράδειγμα</value></data>
+  <data name="Common.NoAnimation" xml:space="preserve"><value>Χωρίς κίνηση</value></data>
+  <data name="Common.OffsetDown" xml:space="preserve"><value>Μετατόπιση προς τα κάτω</value></data>
+  <data name="Common.OffsetDownHint" xml:space="preserve"><value>Οι αρνητικές τιμές μετακινούν προς τα πάνω.</value></data>
+  <data name="Common.OffsetRight" xml:space="preserve"><value>Μετατόπιση δεξιά</value></data>
+  <data name="Common.OffsetRightHint" xml:space="preserve"><value>Οι αρνητικές τιμές μετακινούν αριστερά.</value></data>
+  <data name="Common.Open" xml:space="preserve"><value>Άνοιγμα</value></data>
+  <data name="Common.Show" xml:space="preserve"><value>Εμφάνιση</value></data>
+  <data name="Common.Smooth" xml:space="preserve"><value>Ομαλή</value></data>
+  <data name="Demo.Combos.Text" xml:space="preserve"><value>Τα μεμονωμένα γράμματα κρύβονται· τα Ctrl + Shift + K και Ctrl + κλικ εμφανίζονται.</value></data>
+  <data name="Demo.Combos.Title" xml:space="preserve"><value>Μόνο συνδυασμοί</value></data>
+  <data name="Demo.Labels.Text" xml:space="preserve"><value>Πλήκτρα τροποποίησης με σύμβολα και σημάδια R, ένα μακρύ όνομα που αντικαθίσταται από σύμβολο, ο μετρητής πατημάτων και ένα κουμπί ποντικιού.</value></data>
+  <data name="Demo.Labels.Title" xml:space="preserve"><value>Ετικέτες πλήκτρων</value></data>
+  <data name="Demo.Layout.Text" xml:space="preserve"><value>Έτσι φαίνεται η ετικέτα όταν αλλάζει η γλώσσα εισαγωγής. Η πραγματική ένδειξη παρακολουθεί το ενεργό παράθυρο.</value></data>
+  <data name="Demo.Layout.Title" xml:space="preserve"><value>Ένδειξη διάταξης</value></data>
+  <data name="Demo.MouseCursor.Text" xml:space="preserve"><value>Το εικονίδιο ακολουθεί τον δείκτη και τονίζει το πατημένο κουμπί· ο κύκλος σημειώνει το κλικ.</value></data>
+  <data name="Demo.MouseCursor.Title" xml:space="preserve"><value>Ποντίκι στον δείκτη</value></data>
+  <data name="Demo.Note" xml:space="preserve"><value>Παράδειγμα με επινοημένα δεδομένα. Ό,τι πληκτρολογείτε δεν χρησιμοποιείται και οι ρυθμίσεις δεν αλλάζουν.</value></data>
+  <data name="Demo.Position.Text" xml:space="preserve"><value>Η σειρά πλήκτρων περνά από τα εννέα σημεία της οθόνης· η απόσταση από τις άκρες μένει ίδια.</value></data>
+  <data name="Demo.Position.Title" xml:space="preserve"><value>Θέση στην οθόνη</value></data>
+  <data name="Demo.TrailFade.Text" xml:space="preserve"><value>Τα γράμματα που αφήνονται μένουν για λίγο και σβήνουν στη θέση τους, ώστε μια λέξη να φαίνεται σύντομα.</value></data>
+  <data name="Demo.TrailFade.Title" xml:space="preserve"><value>Ίχνος που σβήνει</value></data>
+  <data name="Demo.TrailNone.Text" xml:space="preserve"><value>Κάθε νέο γράμμα αντικαθιστά το προηγούμενο· στην οθόνη είναι μόνο το τρέχον πλήκτρο.</value></data>
+  <data name="Demo.TrailNone.Title" xml:space="preserve"><value>Ήρεμη πληκτρολόγηση</value></data>
+  <data name="Demo.WindowTitle" xml:space="preserve"><value>Backpack — παράδειγμα</value></data>
+  <data name="Diag.BuildError" xml:space="preserve"><value>Δεν ήταν δυνατή η δημιουργία διαγνωστικών: {0}</value></data>
+  <data name="Diag.Checklist" xml:space="preserve"><value>1. Η επικάλυψη στο κάτω μέρος της οθόνης δεν παίρνει την εστίαση: πληκτρολογήστε στο Σημειωματάριο — ο δρομέας μένει στο Σημειωματάριο.
+2. Κάντε κλικ σε ένα πλήκτρο της επικάλυψης — το κλικ φτάνει στο παράθυρο από κάτω.
+3. Πατήστε και αφήστε το A — το πλήκτρο εμφανίζεται και σβήνει μετά τον χρόνο παραμονής.
+4. Κρατήστε το A για 3 δευτ. — ένα πατημένο πλήκτρο χωρίς σήμα· το «Repeats» αυξάνεται στα διαγνωστικά.
+5. Ctrl+Shift+K — «Ctrl Shift K» (σημάδια Α/Δ επάνω)· αφήστε το K και πατήστε το ξανά κρατώντας τα πλήκτρα τροποποίησης — σήμα «2» στο K.
+6. Τα αριστερά και δεξιά Shift/Ctrl/Alt έχουν διαφορετικά σημάδια (Α/Δ). Το Enter και το Num Enter διαφέρουν (το δεύτερο έχει το σημάδι Num).
+7. Πληκτρολογήστε γρήγορα μια λέξη με πλήκτρα που επικαλύπτονται — τα γράμματα δεν ενώνονται σε «συνδυασμό».
+8. Alt+Tab σε άλλο παράθυρο και πίσω — η επικάλυψη δεν είναι στη λίστα του Alt+Tab ούτε στη γραμμή εργασιών.
+9. «Απόκρυψη επικάλυψης» → περιμένετε 5 δευτ. → δεν επιστρέφει μόνη της· η «Εμφάνιση επικάλυψης» την επαναφέρει.
+10. Εξαγάγετε JSON και ανοίξτε το αρχείο: μόνο μετρητές και εκατοστημόρια, χωρίς ετικέτες ή κωδικούς πλήκτρων.
+11. (X8) Ξεκινήστε με --ring=8: «Πάγωμα διεπαφής για 3 δευτ.»· στο μεταξύ πατήστε και αφήστε όλα τα πλήκτρα. Μετά: εποχή απωλειών &gt; 0, επανασυγχρονισμός έγινε, «πατημένα τώρα» = 0, κανένα κολλημένο πλήκτρο στην επικάλυψη.
+Εμφάνιση, διάταξη, βοήθεια: «Ρυθμίσεις…» και «Βοήθεια (F1)»· το F1 λειτουργεί σε αυτό το παράθυρο, στις ρυθμίσεις και στη βοήθεια.
+Για το compare: τα ίδια βήματα· συγκρίνετε EventsTotal και Comparator ανά κλάση. Μια διαφορά είναι παρατήρηση, όχι ετυμηγορία.</value></data>
+  <data name="Diag.ChecklistHide" xml:space="preserve"><value>Απόκρυψη λίστας ελέγχου</value></data>
+  <data name="Diag.ChecklistShow" xml:space="preserve"><value>Εμφάνιση λίστας ελέγχου</value></data>
+  <data name="Diag.ChecklistTitle" xml:space="preserve"><value>Χειροκίνητη λίστα ελέγχου (5–10 λεπτά)</value></data>
+  <data name="Diag.Compare" xml:space="preserve"><value>Σύγκριση (παράθυρο ±{0:F0} ms, υπερχειλίσεις {1}) — παρατήρηση, όχι απόδειξη βλάβης:</value></data>
+  <data name="Diag.CompareClass" xml:space="preserve"><value>   {0,-10} ταιριάζουν {1,7}   μόνο Raw {2,6}   μόνο LL {3,6}</value></data>
+  <data name="Diag.Def.CaptureToModel" xml:space="preserve"><value>Το νήμα καταγραφής έλαβε το συμβάν → το συμβάν εφαρμόστηκε στο μοντέλο στο νήμα της διεπαφής (δεν είναι ο χρόνος έως το εικονοστοιχείο)</value></data>
+  <data name="Diag.Def.LowLevelCallback" xml:space="preserve"><value>LL: διάρκεια της επανάκλησης του hook (είσοδος → πριν από το CallNextHookEx)</value></data>
+  <data name="Diag.Def.ModelToUiApply" xml:space="preserve"><value>Το μοντέλο άλλαξε → οι ιδιότητες της επικάλυψης ενημερώθηκαν στο νήμα της διεπαφής (πριν από τη σύνθεση και την έξοδο του καρέ, δεν είναι ο χρόνος έως το εικονοστοιχείο)</value></data>
+  <data name="Diag.Def.RawInputMessage" xml:space="preserve"><value>Raw Input: χειρισμός ενός WM_INPUT (είσοδος στον χειριστή → έξοδος)</value></data>
+  <data name="Diag.Exit" xml:space="preserve"><value>Έξοδος</value></data>
+  <data name="Diag.Export" xml:space="preserve"><value>Εξαγωγή συγκεντρωτικού JSON…</value></data>
+  <data name="Diag.Finding" xml:space="preserve"><value>   {0,-10} {1,-32} ×{2}</value></data>
+  <data name="Diag.FindingActive" xml:space="preserve"><value>   {0,-10} {1,-32} ×{2}  (ενεργό)</value></data>
+  <data name="Diag.Findings" xml:space="preserve"><value>Ευρήματα (Σήμα / Υποψία — χωρίς αυτόματες ενέργειες / Επιβεβαιωμένο):</value></data>
+  <data name="Diag.FindingsNone" xml:space="preserve"><value>   κανένα</value></data>
+  <data name="Diag.Freeze" xml:space="preserve"><value>Πάγωμα διεπαφής για 3 δευτ.</value></data>
+  <data name="Diag.FreezeHint" xml:space="preserve"><value>X8: μπλοκάρει μόνο το νήμα διεπαφής του πάγκου δοκιμών· τα νήματα καταγραφής συνεχίζουν. Για υπερχείλιση, ξεκινήστε με --ring=8.</value></data>
+  <data name="Diag.Help" xml:space="preserve"><value>Βοήθεια (F1)</value></data>
+  <data name="Diag.Hidden" xml:space="preserve"><value>κρυφή</value></data>
+  <data name="Diag.HideOverlay" xml:space="preserve"><value>Απόκρυψη επικάλυψης</value></data>
+  <data name="Diag.Latency" xml:space="preserve"><value>      n={0}  p50 {1}  p95 {2}  p99 {3}  max {4}</value></data>
+  <data name="Diag.Layout.Line" xml:space="preserve"><value>Διάταξη: {0}· τελευταίο ερώτημα: {1}· τελευταία απόφαση: {2}</value></data>
+  <data name="Diag.Layout.NotStarted" xml:space="preserve"><value>δεν ξεκίνησε</value></data>
+  <data name="Diag.Layout.Off" xml:space="preserve"><value>ανενεργό</value></data>
+  <data name="Diag.Layout.Polling" xml:space="preserve"><value>παρακολουθείται</value></data>
+  <data name="Diag.Layout.Samples" xml:space="preserve"><value>   ερωτήματα {0}: χωρίς παράθυρο {1}, χωρίς HKL {2}, παράθυρα Backpack {3}· σημεία αναφοράς {4}· εμφανίστηκε σε παράθυρο {5}, κατά την αλλαγή {6}, κρυφό λόγω ρύθμισης {7}</value></data>
+  <data name="Diag.Layout.Source" xml:space="preserve"><value>   Πηγή HKL: νήμα του παραθύρου με εστίαση {0}, ενεργό παράθυρο {1}, κάτοχος παραθύρου {2}· νήμα εστίασης ≠ νήμα παραθύρου: {3}· HKL εστίασης ≠ HKL κατόχου: {4}</value></data>
+  <data name="Diag.ModeFromSettings" xml:space="preserve"><value>Λειτουργία: {0}, κύρια πηγή: {1}, παραμονή: {2} ms (από τις ρυθμίσεις)</value></data>
+  <data name="Diag.ModeOverride" xml:space="preserve"><value>Λειτουργία: {0}, κύρια πηγή: {1}, παραμονή: {2} ms (--linger-ms)</value></data>
+  <data name="Diag.Mouse" xml:space="preserve"><value>Ποντίκι στον δείκτη: {0}, παράθυρο {1}, κινήσεις {2}</value></data>
+  <data name="Diag.NoPixel" xml:space="preserve"><value>   (ο πάγκος δοκιμών δεν μετρά τον χρόνο έως ένα ορατό εικονοστοιχείο)</value></data>
+  <data name="Diag.Off" xml:space="preserve"><value>ανενεργό</value></data>
+  <data name="Diag.On" xml:space="preserve"><value>ενεργό</value></data>
+  <data name="Diag.Over1s" xml:space="preserve"><value>&gt;1 δευτ.</value></data>
+  <data name="Diag.Overlay" xml:space="preserve"><value>Επικάλυψη: πρέπει να φαίνεται={0}, ορατή={1}, πάντα επάνω={2}, ελαχιστοποιημένη={3}, σε οθόνη={4}, επαναφορές {5} (απορρίφθηκαν {6})</value></data>
+  <data name="Diag.Reconcile" xml:space="preserve"><value>Συμφωνία (ευρετική): εκτελέσεις {0}, μη αξιόπιστο πλαίσιο {1}, χωρίς θετικό έλεγχο {2}, αμφίσημο VK {3}, επιβεβαιωμένο Down {4}</value></data>
+  <data name="Diag.Reset" xml:space="preserve"><value>Επαναφορά κατάστασης</value></data>
+  <data name="Diag.ResetHint" xml:space="preserve"><value>Χειροκίνητη επαναφορά: όλα τα πλήκτρα της κύριας πηγής γίνονται Up, η επικάλυψη καθαρίζει.</value></data>
+  <data name="Diag.Seconds" xml:space="preserve"><value>{0} δευτ.</value></data>
+  <data name="Diag.Settings" xml:space="preserve"><value>Ρυθμίσεις…</value></data>
+  <data name="Diag.ShowOverlay" xml:space="preserve"><value>Εμφάνιση επικάλυψης</value></data>
+  <data name="Diag.Src.Applied" xml:space="preserve"><value>   εφαρμόστηκαν {0}, παραλείφθηκαν διπλότυπα {1}· πατημένα τώρα {2}, Unknown {3}</value></data>
+  <data name="Diag.Src.Events" xml:space="preserve"><value>   συμβάντα {0}, επαναλήψεις {1}, αγνοήθηκαν {2}, κινήσεις ποντικιού {3}, ροδέλα {4}, αφαιρεμένες συσκευές {5}</value></data>
+  <data name="Diag.Src.Ring" xml:space="preserve"><value>   δακτύλιος {0}/{1}, εποχή απωλειών {2}, αιτήματα επανασυγχρονισμού {3} (επαναλήφθηκαν {4}), στιγμιότυπα {5}/{6}, διορθώθηκαν από στιγμιότυπο {7}</value></data>
+  <data name="Diag.Src.SinceLast" xml:space="preserve"><value>   από το τελευταίο συμβάν: {0}</value></data>
+  <data name="Diag.Src.Unknown" xml:space="preserve"><value>   → Unknown {0}, επιλύθηκαν με συμβάν {1}, παλιό Down (ευρετική) {2}, συμφωνία Up {3} / Down {4}, αφέθηκαν κατά την αφαίρεση συσκευής {5}</value></data>
+  <data name="Diag.StartNote" xml:space="preserve"><value>Εκκίνηση: {0}</value></data>
+  <data name="Diag.System" xml:space="preserve"><value>Σύστημα: κλείδωμα {0}, ξεκλείδωμα {1}, αλλαγή επιφάνειας εργασίας {2}, αναστολή {3}, αφύπνιση {4}, αλλαγή οθόνης {5}</value></data>
+  <data name="Diag.ToTray" xml:space="preserve"><value>Ελαχιστοποίηση στην περιοχή ειδοποιήσεων</value></data>
+  <data name="Diag.Uptime" xml:space="preserve"><value>Χρόνος λειτουργίας: {0:F1} δευτ.   Λειτουργία: {1}   Κύρια: {2}</value></data>
+  <data name="Diag.UpToMs" xml:space="preserve"><value>≤{0:0.#} ms</value></data>
+  <data name="Diag.UpToUs" xml:space="preserve"><value>≤{0} µs</value></data>
+  <data name="Diag.Us" xml:space="preserve"><value>{0} µs</value></data>
+  <data name="Diag.Visible" xml:space="preserve"><value>ορατή</value></data>
+  <data name="Diag.WindowTitle" xml:space="preserve"><value>Backpack — διαγνωστικά</value></data>
+  <data name="Dialog.Cancel" xml:space="preserve"><value>Ακύρωση</value></data>
+  <data name="Dialog.Ok" xml:space="preserve"><value>OK</value></data>
+  <data name="Draw.Clear" xml:space="preserve"><value>Εκκαθάριση όλων</value></data>
+  <data name="Draw.CloseMenu" xml:space="preserve"><value>Κλείσιμο μενού (Esc)</value></data>
+  <data name="Draw.Color" xml:space="preserve"><value>Χρώμα</value></data>
+  <data name="Draw.Dash" xml:space="preserve"><value>Γραμμή</value></data>
+  <data name="Draw.Dash.Dashed" xml:space="preserve"><value>Διακεκομμένη</value></data>
+  <data name="Draw.Dash.Dotted" xml:space="preserve"><value>Με τελείες</value></data>
+  <data name="Draw.Dash.Solid" xml:space="preserve"><value>Συνεχής</value></data>
+  <data name="Draw.Defaults.Title" xml:space="preserve"><value>Προεπιλεγμένες ρυθμίσεις εργαλείων</value></data>
+  <data name="Draw.Edge" xml:space="preserve"><value>Άκρη</value></data>
+  <data name="Draw.Edge.Bottom" xml:space="preserve"><value>Κάτω</value></data>
+  <data name="Draw.Edge.Left" xml:space="preserve"><value>Αριστερά</value></data>
+  <data name="Draw.Edge.Right" xml:space="preserve"><value>Δεξιά</value></data>
+  <data name="Draw.Edge.Top" xml:space="preserve"><value>Πάνω</value></data>
+  <data name="Draw.EdgeHint" xml:space="preserve"><value>Φέρτε τον δείκτη σε αυτή την άκρη και κρατήστε τον λίγο εκεί για να εμφανιστεί η γραμμή εργαλείων.</value></data>
+  <data name="Draw.Exit" xml:space="preserve"><value>Έξοδος από τη σχεδίαση (Esc)</value></data>
+  <data name="Draw.Fade" xml:space="preserve"><value>Σβήσιμο μετά από</value></data>
+  <data name="Draw.FadeHint" xml:space="preserve"><value>0 — διατήρηση μέχρι να βγείτε από τη λειτουργία σχεδίασης.</value></data>
+  <data name="Draw.FadeOff" xml:space="preserve"><value>Τα σχέδια μένουν μέχρι την έξοδο (κλικ: σβήσιμο μετά από 5 δευτ.)</value></data>
+  <data name="Draw.FadeOn" xml:space="preserve"><value>Τα σχέδια σβήνουν μετά από {0} δευτ. (κλικ: διατήρηση μέχρι την έξοδο)</value></data>
+  <data name="Draw.Hint" xml:space="preserve"><value>Σχεδιάστε πάνω στη ζωντανή επιφάνεια εργασίας. Τα σχέδια είναι προσωρινά· αποθηκεύονται μόνο τα στιγμιότυπα οθόνης που τραβάτε.</value></data>
+  <data name="Draw.Mode.AutoHide" xml:space="preserve"><value>Αυτόματη απόκρυψη σε άκρη</value></data>
+  <data name="Draw.Mode.Docked" xml:space="preserve"><value>Πάντα ορατή</value></data>
+  <data name="Draw.Mode.RadialOnly" xml:space="preserve"><value>Μόνο κυκλικό μενού</value></data>
+  <data name="Draw.MoveText" xml:space="preserve"><value>Σύρετε για να μετακινήσετε το κείμενο</value></data>
+  <data name="Draw.MoveToolbar" xml:space="preserve"><value>Σύρετε για να μετακινήσετε τη γραμμή εργαλείων</value></data>
+  <data name="Draw.NextColor" xml:space="preserve"><value>Επόμενο χρώμα</value></data>
+  <data name="Draw.Note" xml:space="preserve"><value>Τα σχέδια είναι προσωρινά και δεν αποθηκεύονται ποτέ· η οθόνη δεν καταγράφεται.</value></data>
+  <data name="Draw.Opacity" xml:space="preserve"><value>Αδιαφάνεια: πλήρης / 60 %</value></data>
+  <data name="Draw.Position" xml:space="preserve"><value>Θέση γραμμής εργαλείων</value></data>
+  <data name="Draw.PositionHint" xml:space="preserve"><value>Σύρετε τη γραμμή εργαλείων από τη λαβή ⋮⋮ κατά τη σχεδίαση· η θέση απομνημονεύεται.</value></data>
+  <data name="Draw.PositionReset" xml:space="preserve"><value>Επιστροφή πάνω στο κέντρο</value></data>
+  <data name="Draw.PreviewText" xml:space="preserve"><value>Παράδειγμα</value></data>
+  <data name="Draw.RadialNote" xml:space="preserve"><value>Το κυκλικό μενού ({0} ή δεξί κλικ) έχει όλα τα εργαλεία, αναίρεση, επανάληψη, στιγμιότυπο οθόνης και έξοδο — η σχεδίαση δεν εξαρτάται ποτέ από τη γραμμή εργαλείων.</value></data>
+  <data name="Draw.RadialOnlyHint" xml:space="preserve"><value>Δεξί κλικ ή συντόμευση του κυκλικού μενού — εργαλεία · Esc — έξοδος</value></data>
+  <data name="Draw.Redo" xml:space="preserve"><value>Επανάληψη (Ctrl+Y)</value></data>
+  <data name="Draw.Run" xml:space="preserve"><value>Έναρξη</value></data>
+  <data name="Draw.Screenshot" xml:space="preserve"><value>Στιγμιότυπο οθόνης</value></data>
+  <data name="Draw.Shot.Action" xml:space="preserve"><value>Στιγμιότυπο οθόνης</value></data>
+  <data name="Draw.Shot.After" xml:space="preserve"><value>Μετά το στιγμιότυπο</value></data>
+  <data name="Draw.Shot.AfterHint" xml:space="preserve"><value>Αν η αποθήκευση αποτύχει, τα σχέδια δεν αφαιρούνται ποτέ.</value></data>
+  <data name="Draw.Shot.Choose" xml:space="preserve"><value>Επιλογή…</value></data>
+  <data name="Draw.Shot.Clear" xml:space="preserve"><value>Εκκαθάριση σχεδίων</value></data>
+  <data name="Draw.Shot.Copy" xml:space="preserve"><value>Αντιγραφή</value></data>
+  <data name="Draw.Shot.Exit" xml:space="preserve"><value>Τέλος σχεδίασης</value></data>
+  <data name="Draw.Shot.Folder" xml:space="preserve"><value>Φάκελος</value></data>
+  <data name="Draw.Shot.Hint" xml:space="preserve"><value>{0} ή 📷 στη λειτουργία σχεδίασης: η οθόνη με τα σχέδιά σας, χωρίς γραμμή εργαλείων και μενού.</value></data>
+  <data name="Draw.Shot.Keep" xml:space="preserve"><value>Διατήρηση σχεδίων</value></data>
+  <data name="Draw.Shot.Note" xml:space="preserve"><value>PNG με ημερομηνία και ώρα στο όνομα· η οθόνη με το σχέδιο, σε πραγματικά εικονοστοιχεία.</value></data>
+  <data name="Draw.Shot.Save" xml:space="preserve"><value>Αποθήκευση σε αρχείο</value></data>
+  <data name="Draw.Shot.SaveCopy" xml:space="preserve"><value>Αποθήκευση και αντιγραφή</value></data>
+  <data name="Draw.Shot.Title" xml:space="preserve"><value>Στιγμιότυπα οθόνης</value></data>
+  <data name="Draw.ShotCopied" xml:space="preserve"><value>Το στιγμιότυπο αντιγράφηκε στο πρόχειρο</value></data>
+  <data name="Draw.ShotFailed" xml:space="preserve"><value>Το στιγμιότυπο δεν αποθηκεύτηκε ({0})· τα σχέδια διατηρούνται.</value></data>
+  <data name="Draw.ShotSaved" xml:space="preserve"><value>Αποθηκεύτηκε: {0}</value></data>
+  <data name="Draw.ShotSavedCopied" xml:space="preserve"><value>Αποθηκεύτηκε και αντιγράφηκε: {0}</value></data>
+  <data name="Draw.TextSize" xml:space="preserve"><value>Μέγεθος κειμένου</value></data>
+  <data name="Draw.TextSizeHint" xml:space="preserve"><value>Για το εργαλείο Κείμενο· τα − και + στη γραμμή το αλλάζουν κατά την πληκτρολόγηση.</value></data>
+  <data name="Draw.Thicker" xml:space="preserve"><value>Παχύτερη</value></data>
+  <data name="Draw.Thickness" xml:space="preserve"><value>Πάχος</value></data>
+  <data name="Draw.Thinner" xml:space="preserve"><value>Λεπτότερη</value></data>
+  <data name="Draw.Title" xml:space="preserve"><value>Προσωρινή σχεδίαση</value></data>
+  <data name="Draw.Tool.Arrow" xml:space="preserve"><value>Βέλος</value></data>
+  <data name="Draw.Tool.Ellipse" xml:space="preserve"><value>Έλλειψη</value></data>
+  <data name="Draw.Tool.Line" xml:space="preserve"><value>Ευθεία γραμμή</value></data>
+  <data name="Draw.Tool.Pen" xml:space="preserve"><value>Πένα</value></data>
+  <data name="Draw.Tool.Rectangle" xml:space="preserve"><value>Ορθογώνιο</value></data>
+  <data name="Draw.Tool.Text" xml:space="preserve"><value>Κείμενο (Ctrl+Enter — τέλος, Esc — ακύρωση)</value></data>
+  <data name="Draw.Toolbar.Hint" xml:space="preserve"><value>Αποθηκεύεται στο προφίλ.</value></data>
+  <data name="Draw.Toolbar.Title" xml:space="preserve"><value>Γραμμή εργαλείων</value></data>
+  <data name="Draw.ToolbarMode" xml:space="preserve"><value>Γραμμή εργαλείων</value></data>
+  <data name="Draw.Undo" xml:space="preserve"><value>Αναίρεση (Ctrl+Z)</value></data>
+  <data name="Help.AnchorMissing" xml:space="preserve"><value>Η ενότητα «{0}» δεν βρέθηκε σε αυτή τη σελίδα.</value></data>
+  <data name="Help.Back" xml:space="preserve"><value>← Πίσω</value></data>
+  <data name="Help.DemoHint" xml:space="preserve"><value>Ανοίγει ένα ασφαλές παράδειγμα με επινοημένα πλήκτρα</value></data>
+  <data name="Help.External.Message" xml:space="preserve"><value>Αυτός ο σύνδεσμος οδηγεί έξω από τη βοήθεια και θα ανοίξει στο πρόγραμμα περιήγησης:
+{0}</value></data>
+  <data name="Help.External.Title" xml:space="preserve"><value>Άνοιγμα ιστοσελίδας;</value></data>
+  <data name="Help.Forward" xml:space="preserve"><value>Εμπρός →</value></data>
+  <data name="Help.ImageActual" xml:space="preserve"><value>Πραγματικό μέγεθος</value></data>
+  <data name="Help.ImageFit" xml:space="preserve"><value>Προσαρμογή στο παράθυρο</value></data>
+  <data name="Help.ImageTitle" xml:space="preserve"><value>Εικόνα βοήθειας</value></data>
+  <data name="Help.ImageZoomHint" xml:space="preserve"><value>Κάντε κλικ για μεγέθυνση</value></data>
+  <data name="Help.NothingFound" xml:space="preserve"><value>Δεν βρέθηκε τίποτα</value></data>
+  <data name="Help.Search" xml:space="preserve"><value>Αναζήτηση στη βοήθεια</value></data>
+  <data name="Help.WindowTitle" xml:space="preserve"><value>Βοήθεια Backpack — {0}</value></data>
+  <data name="Help.ZoomIn" xml:space="preserve"><value>Μεγαλύτερο κείμενο</value></data>
+  <data name="Help.ZoomOut" xml:space="preserve"><value>Μικρότερο κείμενο</value></data>
+  <data name="HelpSection.Diag.Title" xml:space="preserve"><value>Έλεγχοι</value></data>
+  <data name="HelpSection.Diagnostics" xml:space="preserve"><value>Παράθυρο διαγνωστικών</value></data>
+  <data name="HelpSection.DiagnosticsHint" xml:space="preserve"><value>Μετρητές των πηγών καταγραφής και η χειροκίνητη λίστα ελέγχου.</value></data>
+  <data name="HelpSection.LayoutIndicator" xml:space="preserve"><value>Ένδειξη διάταξης</value></data>
+  <data name="HelpSection.LoadProblem" xml:space="preserve"><value>Κατά τη φόρτωση: {0}</value></data>
+  <data name="HelpSection.Migrated" xml:space="preserve"><value>Οι ρυθμίσεις ενημερώθηκαν από τη μορφή {0}· το παλιό αρχείο διατηρείται ως settings.v1.bak.json.</value></data>
+  <data name="HelpSection.OverlayExample" xml:space="preserve"><value>Παράδειγμα στην επικάλυψη</value></data>
+  <data name="HelpSection.OverlayExampleHint" xml:space="preserve"><value>Αναπαράγει για λίγα δευτερόλεπτα επινοημένα πλήκτρα στην πραγματική επικάλυψη. Ό,τι πληκτρολογείτε δεν χρησιμοποιείται.</value></data>
+  <data name="HelpSection.ResetAll" xml:space="preserve"><value>Επαναφορά όλων των ρυθμίσεων</value></data>
+  <data name="HelpSection.ResetAllButton" xml:space="preserve"><value>Επαναφορά όλων</value></data>
+  <data name="HelpSection.ResetAllConfirm" xml:space="preserve"><value>Επαναφορά όλων των ρυθμίσεων στις προεπιλογές; Τα αποθηκευμένα προφίλ δεν αλλάζουν.</value></data>
+  <data name="HelpSection.ResetAllHint" xml:space="preserve"><value>Επαναφέρει κάθε ενότητα στις προεπιλογές. Τα αποθηκευμένα προφίλ μένουν ως έχουν.</value></data>
+  <data name="HelpSection.Settings.Title" xml:space="preserve"><value>Αρχείο ρυθμίσεων</value></data>
+  <data name="HelpSection.SettingsFile" xml:space="preserve"><value>Οι ρυθμίσεις αποθηκεύονται αυτόματα: {0}</value></data>
+  <data name="Home.CombosHint" xml:space="preserve"><value>Απόκρυψη της συνηθισμένης πληκτρολόγησης, εμφάνιση μόνο συνδυασμών.</value></data>
+  <data name="Home.DemoToggle" xml:space="preserve"><value>Παύση ή αναπαραγωγή της επίδειξης</value></data>
+  <data name="Home.Display" xml:space="preserve"><value>Εμφάνιση πλήκτρων, ένδειξης διάταξης και ποντικιού</value></data>
+  <data name="Home.DisplayHint" xml:space="preserve"><value>Συντόμευση: {0}. Μετά την επανεμφάνιση δεν επιστρέφουν παλιά πατήματα.</value></data>
+  <data name="Home.Draw" xml:space="preserve"><value>Προσωρινή σχεδίαση</value></data>
+  <data name="Home.F.Keys" xml:space="preserve"><value>Πλήκτρα</value></data>
+  <data name="Home.F.KeysHint" xml:space="preserve"><value>Πλήκτρα σε πέντε στιλ σχεδίασης, συνδυασμοί, ετικέτες για Windows, macOS και Linux.</value></data>
+  <data name="Home.F.Mouse" xml:space="preserve"><value>Ποντίκι</value></data>
+  <data name="Home.F.MouseHint" xml:space="preserve"><value>Κλικ, κύλιση και πλαϊνά κουμπιά σε ένα εικονίδιο δίπλα στον δείκτη· ένας μεγεθυντικός φακός γύρω του.</value></data>
+  <data name="Home.F.MouseOff" xml:space="preserve"><value>Απόκρυψη δίπλα στον δείκτη</value></data>
+  <data name="Home.F.MouseOn" xml:space="preserve"><value>Εμφάνιση δίπλα στον δείκτη</value></data>
+  <data name="Home.F.Settings" xml:space="preserve"><value>Ρυθμίσεις</value></data>
+  <data name="Home.F.Style" xml:space="preserve"><value>Επιλογή στιλ</value></data>
+  <data name="Home.OpenProfiles" xml:space="preserve"><value>Προφίλ…</value></data>
+  <data name="Home.Pause" xml:space="preserve"><value>Παύση επίδειξης</value></data>
+  <data name="Home.Play" xml:space="preserve"><value>Αναπαραγωγή επίδειξης</value></data>
+  <data name="Home.Start" xml:space="preserve"><value>Έναρξη</value></data>
+  <data name="Home.State.Hint" xml:space="preserve"><value>Τι υπάρχει τώρα στην οθόνη. Η καταγραφή συνεχίζεται όσο η προβολή είναι κρυφή.</value></data>
+  <data name="Home.State.Title" xml:space="preserve"><value>Προβολή</value></data>
+  <data name="Home.ToolHint" xml:space="preserve"><value>Συντόμευση: {0}. Esc για έξοδο.</value></data>
+  <data name="Home.Welcome" xml:space="preserve"><value>Εργαλεία για παρουσιάσεις, οδηγούς και επιδείξεις οθόνης: πλήκτρα και ποντίκι στην οθόνη, σχεδίαση με αριθμημένα βήματα και πρόσθετα για εστίαση, μεγεθυντικό φακό και χρονόμετρο.</value></data>
+  <data name="Home.WelcomeHint" xml:space="preserve"><value>Η επίδειξη χρησιμοποιεί επινοημένα δεδομένα — καμία πραγματική είσοδος και καμία καταγραφή οθόνης.</value></data>
+  <data name="Hotkeys.Clear" xml:space="preserve"><value>Αφαίρεση</value></data>
+  <data name="Hotkeys.Default" xml:space="preserve"><value>Προεπιλογή</value></data>
+  <data name="Hotkeys.Draw" xml:space="preserve"><value>Λειτουργία σχεδίασης</value></data>
+  <data name="Hotkeys.Hide.Hint" xml:space="preserve"><value>Η καταγραφή συνεχίζεται· μετά την επανεμφάνιση δεν υπάρχουν παλιά πατήματα.</value></data>
+  <data name="Hotkeys.Hide.Indicator" xml:space="preserve"><value>Ένδειξη διάταξης</value></data>
+  <data name="Hotkeys.Hide.Keycaps" xml:space="preserve"><value>Πλήκτρα</value></data>
+  <data name="Hotkeys.Hide.Mouse" xml:space="preserve"><value>Ποντίκι δίπλα στον δείκτη</value></data>
+  <data name="Hotkeys.Hide.Title" xml:space="preserve"><value>Τι κρύβει η «απόκρυψη προβολής»</value></data>
+  <data name="Hotkeys.Hint" xml:space="preserve"><value>Ρυθμίσεις αυτού του υπολογιστή: η εισαγωγή προφίλ δεν τις αλλάζει. Κάντε κλικ σε ένα πεδίο και πατήστε τον συνδυασμό.</value></data>
+  <data name="Hotkeys.Lens" xml:space="preserve"><value>Ζωντανός μεγεθυντικός φακός</value></data>
+  <data name="Hotkeys.Note" xml:space="preserve"><value>Το F1 μένει τοπικό στα παράθυρα του Backpack. Μια καθολική συντόμευση πιάνει μόνο τον δικό της συνδυασμό· άλλη είσοδος δεν μπλοκάρεται. Το κράτημα των πλήκτρων δεν επαναλαμβάνει την ενέργεια.</value></data>
+  <data name="Hotkeys.NotSet" xml:space="preserve"><value>δεν έχει οριστεί</value></data>
+  <data name="Hotkeys.PressKeys" xml:space="preserve"><value>Πατήστε έναν συνδυασμό…</value></data>
+  <data name="Hotkeys.Radial" xml:space="preserve"><value>Κυκλικό μενού (σε λειτουργία σχεδίασης)</value></data>
+  <data name="Hotkeys.Recording" xml:space="preserve"><value>Καταγραφή: πατήστε τα πλήκτρα· Esc — ακύρωση, Backspace — αφαίρεση.</value></data>
+  <data name="Hotkeys.Screenshot" xml:space="preserve"><value>Στιγμιότυπο οθόνης (σε λειτουργία σχεδίασης)</value></data>
+  <data name="Hotkeys.ScreenshotNote" xml:space="preserve"><value>Το πλήκτρο στιγμιότυπου λειτουργεί μόνο σε λειτουργία σχεδίασης, γι’ αυτό επιτρέπεται ένα μεμονωμένο πλήκτρο όπως το F2.</value></data>
+  <data name="Hotkeys.Status.Busy" xml:space="preserve"><value>Χρησιμοποιείται από άλλο πρόγραμμα. Επιλέξτε άλλον συνδυασμό.</value></data>
+  <data name="Hotkeys.Status.Conflict" xml:space="preserve"><value>Χρησιμοποιείται ήδη από άλλη ενέργεια του Backpack.</value></data>
+  <data name="Hotkeys.Status.Failed" xml:space="preserve"><value>Τα Windows δεν καταχώρισαν τον συνδυασμό.</value></data>
+  <data name="Hotkeys.Status.Invalid" xml:space="preserve"><value>Απαιτεί Ctrl, Alt ή Win και ένα άλλο πλήκτρο.</value></data>
+  <data name="Hotkeys.Status.NotSet" xml:space="preserve"><value>Δεν έχει οριστεί.</value></data>
+  <data name="Hotkeys.Status.Registered" xml:space="preserve"><value>Ενεργή.</value></data>
+  <data name="Hotkeys.Status.Reserved" xml:space="preserve"><value>Δεσμευμένη από τα Windows (για παράδειγμα Win+Διάστημα, Alt+Tab).</value></data>
+  <data name="Hotkeys.Status.Suspended" xml:space="preserve"><value>Σε παύση όσο καταγράφεται συνδυασμός.</value></data>
+  <data name="Hotkeys.Status.WaitingForMode" xml:space="preserve"><value>Ενεργή μόνο κατά τη σχεδίαση· αλλιώς το πλήκτρο μένει στα άλλα προγράμματα.</value></data>
+  <data name="Hotkeys.Title" xml:space="preserve"><value>Καθολικές συντομεύσεις</value></data>
+  <data name="Hotkeys.ToggleDisplay" xml:space="preserve"><value>Εμφάνιση ή απόκρυψη προβολής</value></data>
+  <data name="Keys.AnyHeldMs" xml:space="preserve"><value>Κατώφλι ταυτόχρονου</value></data>
+  <data name="Keys.AnyHeldMsHint" xml:space="preserve"><value>Πόσο πρέπει να κρατηθεί το πρώτο πλήκτρο πριν ενωθούν άλλα. 0 — χωρίς κατώφλι.</value></data>
+  <data name="Keys.ChordNote" xml:space="preserve"><value>Ένας συνδυασμός μένει ενωμένος όσο είναι πατημένο οποιοδήποτε πλήκτρο του· γράμματα που πληκτρολογούνται γρήγορα και επικαλυπτόμενα δεν ενώνονται σε συνδυασμό.</value></data>
+  <data name="Keys.Chords" xml:space="preserve"><value>Ένωση πλήκτρων</value></data>
+  <data name="Keys.Chords.AnyHeld" xml:space="preserve"><value>Οποιαδήποτε πλήκτρα κρατιούνται μαζί</value></data>
+  <data name="Keys.Chords.Hint" xml:space="preserve"><value>Ανεξάρτητο από το «Όλα τα πλήκτρα / Μόνο συνδυασμοί».</value></data>
+  <data name="Keys.Chords.Limits" xml:space="preserve"><value>Το Backpack δείχνει ό,τι αναφέρουν το πληκτρολόγιο και τα Windows. Ορισμένους συνδυασμούς τους πιάνουν πρώτα τα Windows ή άλλες εφαρμογές, και ορισμένα πληκτρολόγια δεν μπορούν να τους αναφέρουν.</value></data>
+  <data name="Keys.Chords.Modifiers" xml:space="preserve"><value>Με Ctrl, Alt, Shift, Win</value></data>
+  <data name="Keys.Chords.Note" xml:space="preserve"><value>Τα πλήκτρα σχηματίζουν ομάδα μόνο όταν πράγματι κρατιούνται μαζί περισσότερο από το κατώφλι· τα επικαλυπτόμενα πατήματα στη γρήγορη πληκτρολόγηση μένουν χωριστά.</value></data>
+  <data name="Keys.Chords.Title" xml:space="preserve"><value>Τι σχηματίζει συνδυασμό</value></data>
+  <data name="Keys.Filter" xml:space="preserve"><value>Πλήκτρα</value></data>
+  <data name="Keys.Filter.All" xml:space="preserve"><value>Όλα τα πλήκτρα</value></data>
+  <data name="Keys.Filter.Combos" xml:space="preserve"><value>Μόνο συνδυασμοί</value></data>
+  <data name="Keys.FilterHint" xml:space="preserve"><value>Το «Μόνο συνδυασμοί» κρύβει τη συνηθισμένη πληκτρολόγηση και δείχνει πλήκτρα που πατιούνται μαζί με Ctrl, Alt ή Win.</value></data>
+  <data name="Keys.Linger" xml:space="preserve"><value>Παραμονή μετά την απελευθέρωση</value></data>
+  <data name="Keys.LingerHint" xml:space="preserve"><value>Πόσο μένουν ορατά τα τελευταία πλήκτρα αφού τα αφήσετε.</value></data>
+  <data name="Keys.MouseInRow" xml:space="preserve"><value>Κουμπιά ποντικιού στη σειρά</value></data>
+  <data name="Keys.MouseInRowHint" xml:space="preserve"><value>Τα κλικ εμφανίζονται δίπλα στα πλήκτρα, για παράδειγμα Ctrl + αριστερό κουμπί.</value></data>
+  <data name="Keys.MouseLabels" xml:space="preserve"><value>Ετικέτα κουμπιού ποντικιού</value></data>
+  <data name="Keys.MouseLabels.Icon" xml:space="preserve"><value>Εικονίδιο</value></data>
+  <data name="Keys.MouseLabels.Text" xml:space="preserve"><value>Κείμενο</value></data>
+  <data name="Keys.MouseLabelsHint" xml:space="preserve"><value>Ένα σχεδιασμένο εικονίδιο ποντικιού ή μια λέξη.</value></data>
+  <data name="Keys.Show.Title" xml:space="preserve"><value>Τι εμφανίζεται</value></data>
+  <data name="Keys.Trail" xml:space="preserve"><value>Ίχνος</value></data>
+  <data name="Keys.Trail.Fade" xml:space="preserve"><value>Ίχνος που σβήνει</value></data>
+  <data name="Keys.Trail.None" xml:space="preserve"><value>Ήρεμο</value></data>
+  <data name="Keys.TrailHint" xml:space="preserve"><value>Ήρεμο: κάθε νέο γράμμα αντικαθιστά το προηγούμενο. Ίχνος: τα γράμματα που αφήνονται μένουν για λίγο και σβήνουν στη θέση τους.</value></data>
+  <data name="Keys.Typing.Title" xml:space="preserve"><value>Πληκτρολόγηση</value></data>
+  <data name="Layout.Anchor" xml:space="preserve"><value>Σημείο οθόνης</value></data>
+  <data name="Layout.Animation" xml:space="preserve"><value>Κίνηση</value></data>
+  <data name="Layout.Background" xml:space="preserve"><value>Φόντο</value></data>
+  <data name="Layout.BorderColor" xml:space="preserve"><value>Χρώμα περιγράμματος</value></data>
+  <data name="Layout.BorderWidth" xml:space="preserve"><value>Πάχος περιγράμματος</value></data>
+  <data name="Layout.BorderWidthHint" xml:space="preserve"><value>0 — χωρίς περίγραμμα.</value></data>
+  <data name="Layout.Duration" xml:space="preserve"><value>Εμφάνιση για</value></data>
+  <data name="Layout.Enable" xml:space="preserve"><value>Εμφάνιση ένδειξης</value></data>
+  <data name="Layout.ExampleDetail" xml:space="preserve"><value>Παράδειγμα</value></data>
+  <data name="Layout.Hint" xml:space="preserve"><value>Μια σύντομη ετικέτα όπως «EN» ή «UK» όταν αλλάζει η γλώσσα εισόδου του ενεργού παραθύρου.</value></data>
+  <data name="Layout.Look.Title" xml:space="preserve"><value>Εμφάνιση της ένδειξης</value></data>
+  <data name="Layout.OnSwitch" xml:space="preserve"><value>Κατά την αλλαγή παραθύρου</value></data>
+  <data name="Layout.OnSwitchHint" xml:space="preserve"><value>Εμφάνιση της ετικέτας και όταν μεταβαίνετε σε παράθυρο με άλλη γλώσσα.</value></data>
+  <data name="Layout.Position.Title" xml:space="preserve"><value>Θέση της ένδειξης</value></data>
+  <data name="Layout.Radius" xml:space="preserve"><value>Στρογγύλευση</value></data>
+  <data name="Layout.RadiusHint" xml:space="preserve"><value>0 — αιχμηρές γωνίες, 1 — σχήμα κάψουλας.</value></data>
+  <data name="Layout.ShowExample" xml:space="preserve"><value>Εμφάνιση παραδείγματος</value></data>
+  <data name="Layout.Style" xml:space="preserve"><value>Πηγή εμφάνισης</value></data>
+  <data name="Layout.Style.Custom" xml:space="preserve"><value>Δικό του στιλ</value></data>
+  <data name="Layout.Style.Inherit" xml:space="preserve"><value>Όπως τα πλήκτρα</value></data>
+  <data name="Layout.StyleHint" xml:space="preserve"><value>Το «Όπως τα πλήκτρα» ακολουθεί τα χρώματα των πλήκτρων. Το «Δικό του στιλ» χρησιμοποιεί τις παραμέτρους παρακάτω· επιλέξτε προκαθορισμένο στον κατάλογο παραπάνω.</value></data>
+  <data name="Layout.TextColor" xml:space="preserve"><value>Χρώμα κειμένου</value></data>
+  <data name="Layout.TextSize" xml:space="preserve"><value>Μέγεθος κειμένου</value></data>
+  <data name="Layout.Title" xml:space="preserve"><value>Ένδειξη διάταξης</value></data>
+  <data name="Layout.Where" xml:space="preserve"><value>Πού</value></data>
+  <data name="Layout.Where.Above" xml:space="preserve"><value>Πάνω από τη σειρά πλήκτρων</value></data>
+  <data name="Layout.Where.Screen" xml:space="preserve"><value>Σημείο οθόνης</value></data>
+  <data name="LayoutStatus.Baseline" xml:space="preserve"><value>Παρακολουθείται η γλώσσα εισόδου του ενεργού παραθύρου· η τρέχουσα γλώσσα απομνημονεύτηκε, χωρίς αλλαγές ακόμη. Εμφανίζεται: {0}.</value></data>
+  <data name="LayoutStatus.Off" xml:space="preserve"><value>Ανενεργό.</value></data>
+  <data name="LayoutStatus.Shown" xml:space="preserve"><value>Παρακολουθείται η γλώσσα εισόδου του ενεργού παραθύρου· η τελευταία αλλαγή εμφανίστηκε. Εμφανίζεται: {0}.</value></data>
+  <data name="LayoutStatus.Suppressed" xml:space="preserve"><value>Παρακολουθείται η γλώσσα εισόδου του ενεργού παραθύρου· η τελευταία αλλαγή κατά την αλλαγή παραθύρου δεν εμφανίστηκε (σύμφωνα με τη ρύθμιση). Εμφανίζεται: {0}.</value></data>
+  <data name="LayoutStatus.Unchanged" xml:space="preserve"><value>Παρακολουθείται η γλώσσα εισόδου του ενεργού παραθύρου· η γλώσσα δεν άλλαξε. Εμφανίζεται: {0}.</value></data>
+  <data name="LayoutStatus.Waiting" xml:space="preserve"><value>Αναμονή για το πρώτο ενεργό παράθυρο άλλου προγράμματος. Εμφανίζεται: {0}.</value></data>
+  <data name="Lens.HotkeyButton" xml:space="preserve"><value>Συντομεύσεις…</value></data>
+  <data name="Lens.SelectHint" xml:space="preserve"><value>Σύρετε ένα ορθογώνιο για τον μεγεθυντικό φακό. Κλικ — προεπιλεγμένο μέγεθος. Esc ή δεξί κλικ — ακύρωση.</value></data>
+  <data name="Lens.Unavailable" xml:space="preserve"><value>Η οθόνη δεν είναι διαθέσιμη για τον μεγεθυντικό φακό αυτή τη στιγμή</value></data>
+  <data name="Mouse.Body" xml:space="preserve"><value>Χρώμα σώματος</value></data>
+  <data name="Mouse.BodyHint" xml:space="preserve"><value>Περίγραμμα, ρετρό και σκίτσο. Διαφανές — χωρίς γέμισμα.</value></data>
+  <data name="Mouse.Circle" xml:space="preserve"><value>Εμφάνιση κύκλου κλικ</value></data>
+  <data name="Mouse.Circle.Title" xml:space="preserve"><value>Κύκλος κλικ</value></data>
+  <data name="Mouse.CircleColor" xml:space="preserve"><value>Χρώμα κύκλου</value></data>
+  <data name="Mouse.CircleOpacity" xml:space="preserve"><value>Αδιαφάνεια κύκλου</value></data>
+  <data name="Mouse.CircleSize" xml:space="preserve"><value>Μέγεθος κύκλου</value></data>
+  <data name="Mouse.Cursor.Enable" xml:space="preserve"><value>Εμφάνιση δίπλα στον δείκτη</value></data>
+  <data name="Mouse.Cursor.EnableHint" xml:space="preserve"><value>Ένα μικρό εικονίδιο ποντικιού και ένας κύκλος κλικ ακολουθούν τον δείκτη. Τα κλικ περνούν στο παράθυρο από κάτω.</value></data>
+  <data name="Mouse.Cursor.Title" xml:space="preserve"><value>Ποντίκι δίπλα στον δείκτη</value></data>
+  <data name="Mouse.Icon" xml:space="preserve"><value>Εμφάνιση εικονιδίου</value></data>
+  <data name="Mouse.Icon.Title" xml:space="preserve"><value>Εικονίδιο ποντικιού</value></data>
+  <data name="Mouse.IconBackground" xml:space="preserve"><value>Γέμισμα</value></data>
+  <data name="Mouse.IconHint" xml:space="preserve"><value>Το πατημένο κουμπί επισημαίνεται στο εικονίδιο.</value></data>
+  <data name="Mouse.IconSize" xml:space="preserve"><value>Μέγεθος εικονιδίου</value></data>
+  <data name="Mouse.InRow.Note" xml:space="preserve"><value>Τα κουμπιά του ποντικιού μπορούν να εμφανίζονται και στη σειρά πλήκτρων δίπλα στους τροποποιητές — δείτε «Πλήκτρα και συνδυασμοί».</value></data>
+  <data name="Mouse.InRow.Title" xml:space="preserve"><value>Ποντίκι στη σειρά πλήκτρων</value></data>
+  <data name="Mouse.Look.Hint" xml:space="preserve"><value>Ένα πάτημα αλλάζει μόνο το δικό του τμήμα του εικονιδίου.</value></data>
+  <data name="Mouse.Look.Title" xml:space="preserve"><value>Εικονίδιο ποντικιού</value></data>
+  <data name="Mouse.OffsetRightHint" xml:space="preserve"><value>Απόσταση από την άκρη του δείκτη· οι αρνητικές τιμές το τοποθετούν αριστερά.</value></data>
+  <data name="Mouse.Outline" xml:space="preserve"><value>Περίγραμμα</value></data>
+  <data name="Mouse.Pressed" xml:space="preserve"><value>Πατημένο κουμπί</value></data>
+  <data name="Mouse.Renderer" xml:space="preserve"><value>Τρόπος σχεδίασης</value></data>
+  <data name="Mouse.SideButtons" xml:space="preserve"><value>Πλαϊνά κουμπιά</value></data>
+  <data name="Mouse.SideButtons.Hidden" xml:space="preserve"><value>Κρυφά</value></data>
+  <data name="Mouse.SideButtons.Left" xml:space="preserve"><value>Αριστερά</value></data>
+  <data name="Mouse.SideButtons.Note" xml:space="preserve"><value>Εμφανίζονται: X1 (πίσω) και X2 (εμπρός). Κουμπιά που έχει αντιστοιχίσει εκ νέου το πρόγραμμα οδήγησης του ποντικιού δεν φτάνουν στο Backpack ως ξεχωριστά κουμπιά.</value></data>
+  <data name="Mouse.SideButtons.One" xml:space="preserve"><value>Ένα</value></data>
+  <data name="Mouse.SideButtons.Right" xml:space="preserve"><value>Δεξιά</value></data>
+  <data name="Mouse.SideButtons.Side" xml:space="preserve"><value>Πλευρά</value></data>
+  <data name="Mouse.SideButtons.Two" xml:space="preserve"><value>Δύο</value></data>
+  <data name="Mouse.SideButtonsHint" xml:space="preserve"><value>Ρυθμίστε ανάλογα με το ποντίκι σας.</value></data>
+  <data name="Mouse.Wheel.Color" xml:space="preserve"><value>Χρώμα βέλους</value></data>
+  <data name="Mouse.Wheel.Duration" xml:space="preserve"><value>Το βέλος παραμένει</value></data>
+  <data name="Mouse.Wheel.DurationHint" xml:space="preserve"><value>Μετά το τελευταίο βήμα κύλισης.</value></data>
+  <data name="Mouse.Wheel.Hint" xml:space="preserve"><value>Ένα βέλος στον τροχό δείχνει την κατεύθυνση κύλισης, και την οριζόντια αν το ποντίκι την αναφέρει.</value></data>
+  <data name="Mouse.Wheel.Note" xml:space="preserve"><value>Η κύλιση και το πάτημα του μεσαίου κουμπιού είναι διαφορετικά συμβάντα. Το βέλος εμφανίζεται στο εικονίδιο ποντικιού δίπλα στον δείκτη· η σειρά πλήκτρων δεν δείχνει κύλιση.</value></data>
+  <data name="Mouse.Wheel.Title" xml:space="preserve"><value>Κύλιση</value></data>
+  <data name="MouseRenderer.Outline" xml:space="preserve"><value>Περίγραμμα</value></data>
+  <data name="MouseRenderer.Retro" xml:space="preserve"><value>Ρετρό</value></data>
+  <data name="MouseRenderer.Sketch" xml:space="preserve"><value>Σκίτσο</value></data>
+  <data name="MouseRenderer.Solid" xml:space="preserve"><value>Συμπαγές</value></data>
+  <data name="Note.Migrated" xml:space="preserve"><value>ρυθμίσεις: ενημερώθηκαν από τη μορφή {0} στη {1}</value></data>
+  <data name="Note.PortableUnavailable" xml:space="preserve"><value>Βρέθηκε ο δείκτης φορητής έκδοσης, αλλά ο φάκελος δίπλα στο πρόγραμμα δεν είναι εγγράψιμος· οι ρυθμίσεις αποθηκεύονται στο %APPDATA%\Backpack.</value></data>
+  <data name="Note.PrefsUnreadable" xml:space="preserve"><value>οι προτιμήσεις της εφαρμογής (app.json) δεν διαβάστηκαν· χρησιμοποιούνται οι προεπιλογές</value></data>
+  <data name="Note.SettingsProblem" xml:space="preserve"><value>ρυθμίσεις: {0}</value></data>
+  <data name="Note.SourceFailed" xml:space="preserve"><value>{0}: η εκκίνηση απέτυχε στο βήμα «{1}», Win32 {2}</value></data>
+  <data name="Note.SourceReady" xml:space="preserve"><value>{0}: έτοιμο</value></data>
+  <data name="Outcome.Baseline" xml:space="preserve"><value>η αρχική τιμή απομνημονεύτηκε</value></data>
+  <data name="Outcome.NoForeground" xml:space="preserve"><value>κανένα ενεργό παράθυρο</value></data>
+  <data name="Outcome.NotStarted" xml:space="preserve"><value>κανένα ακόμη</value></data>
+  <data name="Outcome.OwnWindow" xml:space="preserve"><value>παράθυρο του Backpack (δεν μετράει)</value></data>
+  <data name="Outcome.ShownInWindow" xml:space="preserve"><value>εμφανίστηκε: αλλαγή στο παράθυρο</value></data>
+  <data name="Outcome.ShownWindowSwitch" xml:space="preserve"><value>εμφανίστηκε: μετάβαση σε παράθυρο με άλλη γλώσσα</value></data>
+  <data name="Outcome.SuppressedWindowSwitch" xml:space="preserve"><value>δεν εμφανίστηκε: εναλλαγή μεταξύ παραθύρων (ανενεργό στις ρυθμίσεις)</value></data>
+  <data name="Outcome.Unavailable" xml:space="preserve"><value>η διάταξη δεν είναι διαθέσιμη</value></data>
+  <data name="Outcome.Unchanged" xml:space="preserve"><value>καμία αλλαγή</value></data>
+  <data name="Outcome.Unconfirmed" xml:space="preserve"><value>αναμονή επιβεβαίωσης από δεύτερη ανάγνωση</value></data>
+  <data name="Position.Anchor" xml:space="preserve"><value>Σημείο οθόνης</value></data>
+  <data name="Position.EdgeX" xml:space="preserve"><value>Από την πλαϊνή άκρη</value></data>
+  <data name="Position.EdgeXHint" xml:space="preserve"><value>Χρησιμοποιείται για τα σημεία αριστερά και δεξιά.</value></data>
+  <data name="Position.EdgeY" xml:space="preserve"><value>Από την πάνω ή κάτω άκρη</value></data>
+  <data name="Position.EdgeYHint" xml:space="preserve"><value>Χρησιμοποιείται για τα σημεία πάνω και κάτω.</value></data>
+  <data name="Position.Hint" xml:space="preserve"><value>Επιλέξτε ένα σημείο οθόνης και μετά ρυθμίστε με ακρίβεια την απόσταση από τις άκρες.</value></data>
+  <data name="Position.Note" xml:space="preserve"><value>Η σειρά μένει στην περιοχή εργασίας της κύριας οθόνης, πάνω από τη γραμμή εργασιών.</value></data>
+  <data name="Position.PreviewLabel" xml:space="preserve"><value>πλήκτρα</value></data>
+  <data name="Position.Reset" xml:space="preserve"><value>Προεπιλεγμένη θέση</value></data>
+  <data name="Position.ResetButton" xml:space="preserve"><value>Κάτω στο κέντρο</value></data>
+  <data name="Position.Title" xml:space="preserve"><value>Θέση της σειράς πλήκτρων</value></data>
+  <data name="Profile.Error.Id" xml:space="preserve"><value>Το αναγνωριστικό προφίλ λείπει ή δεν είναι έγκυρο.</value></data>
+  <data name="Profile.Error.Missing" xml:space="preserve"><value>Το αρχείο προφίλ δεν βρέθηκε.</value></data>
+  <data name="Profile.Error.Name" xml:space="preserve"><value>Το όνομα προφίλ λείπει ή υπερβαίνει τους 64 χαρακτήρες.</value></data>
+  <data name="Profile.Error.Newer" xml:space="preserve"><value>Το προφίλ δημιουργήθηκε από νεότερη έκδοση (μορφή {0}).</value></data>
+  <data name="Profile.Error.NoSettings" xml:space="preserve"><value>Το προφίλ δεν έχει ενότητα ρυθμίσεων.</value></data>
+  <data name="Profile.Error.NotProfile" xml:space="preserve"><value>Αυτό δεν είναι αρχείο προφίλ του Backpack.</value></data>
+  <data name="Profile.Error.NoVersion" xml:space="preserve"><value>Λείπει η έκδοση μορφής του προφίλ.</value></data>
+  <data name="Profile.Error.ReadFailed" xml:space="preserve"><value>Το αρχείο προφίλ δεν διαβάστηκε ({0}).</value></data>
+  <data name="Profile.Error.Styles" xml:space="preserve"><value>Η λίστα «styles» είναι κατεστραμμένη ή πολύ μεγάλη (έως 16 στιλ).</value></data>
+  <data name="Profile.Error.Syntax" xml:space="preserve"><value>Το αρχείο δεν είναι έγκυρο JSON (γραμμή {0}).</value></data>
+  <data name="Profile.Error.TooLarge" xml:space="preserve"><value>Το αρχείο είναι πολύ μεγάλο για προφίλ (πάνω από 256 KB).</value></data>
+  <data name="Profile.Error.Unsupported" xml:space="preserve"><value>Μη υποστηριζόμενη έκδοση μορφής προφίλ: {0}.</value></data>
+  <data name="Profiles.Active" xml:space="preserve"><value>Προφίλ</value></data>
+  <data name="Profiles.Active.Title" xml:space="preserve"><value>Τρέχον προφίλ</value></data>
+  <data name="Profiles.All.Title" xml:space="preserve"><value>Όλα τα προφίλ</value></data>
+  <data name="Profiles.CopyName" xml:space="preserve"><value>{0} — αντίγραφο</value></data>
+  <data name="Profiles.DefaultName" xml:space="preserve"><value>Κύριο</value></data>
+  <data name="Profiles.Delete" xml:space="preserve"><value>Διαγραφή</value></data>
+  <data name="Profiles.Delete.Message" xml:space="preserve"><value>Διαγραφή του προφίλ «{0}»; Δεν μπορεί να αναιρεθεί.</value></data>
+  <data name="Profiles.Delete.Title" xml:space="preserve"><value>Διαγραφή προφίλ</value></data>
+  <data name="Profiles.DeleteActiveHint" xml:space="preserve"><value>Το προφίλ που χρησιμοποιείται δεν μπορεί να διαγραφεί. Φορτώστε πρώτα άλλο προφίλ.</value></data>
+  <data name="Profiles.Duplicate" xml:space="preserve"><value>Διπλότυπο</value></data>
+  <data name="Profiles.Error.Name" xml:space="preserve"><value>Εισαγάγετε όνομα 1–64 χαρακτήρων.</value></data>
+  <data name="Profiles.Export" xml:space="preserve"><value>Εξαγωγή…</value></data>
+  <data name="Profiles.FileDialogNote" xml:space="preserve"><value>Οι διάλογοι αρχείων των Windows ακολουθούν το θέμα και τη γλώσσα των Windows, όχι τις ρυθμίσεις του Backpack.</value></data>
+  <data name="Profiles.FileFilter" xml:space="preserve"><value>Προφίλ Backpack</value></data>
+  <data name="Profiles.Import" xml:space="preserve"><value>Εισαγωγή…</value></data>
+  <data name="Profiles.Imported.Later" xml:space="preserve"><value>Αργότερα</value></data>
+  <data name="Profiles.Imported.Message" xml:space="preserve"><value>Το προφίλ «{0}» προστέθηκε στη λίστα. Φόρτωση τώρα;</value></data>
+  <data name="Profiles.Imported.Title" xml:space="preserve"><value>Το προφίλ εισήχθη</value></data>
+  <data name="Profiles.ImportFailed.Message" xml:space="preserve"><value>Το αρχείο δεν εισήχθη, επειδή έχει προβλήματα. Δεν άλλαξε τίποτα.</value></data>
+  <data name="Profiles.ImportFailed.Title" xml:space="preserve"><value>Το προφίλ δεν εισήχθη</value></data>
+  <data name="Profiles.IncludesNote" xml:space="preserve"><value>Ένα προφίλ κρατά την εμφάνιση και τη συμπεριφορά της προβολής, το ποντίκι, την ένδειξη διάταξης και τη θέση. Η γλώσσα, το θέμα και η συμπεριφορά στην περιοχή ειδοποιήσεων είναι κοινά.</value></data>
+  <data name="Profiles.IsActive" xml:space="preserve"><value>Σε χρήση τώρα</value></data>
+  <data name="Profiles.Load" xml:space="preserve"><value>Φόρτωση</value></data>
+  <data name="Profiles.LoadFailed.Message" xml:space="preserve"><value>Το αρχείο προφίλ έχει προβλήματα. Οι τρέχουσες ρυθμίσεις δεν άλλαξαν.</value></data>
+  <data name="Profiles.LoadFailed.Title" xml:space="preserve"><value>Το προφίλ δεν φορτώθηκε</value></data>
+  <data name="Profiles.NameLabel" xml:space="preserve"><value>Όνομα προφίλ</value></data>
+  <data name="Profiles.New" xml:space="preserve"><value>Νέο προφίλ</value></data>
+  <data name="Profiles.New.Title" xml:space="preserve"><value>Νέο προφίλ</value></data>
+  <data name="Profiles.NewName" xml:space="preserve"><value>Νέο προφίλ</value></data>
+  <data name="Profiles.Rename" xml:space="preserve"><value>Μετονομασία</value></data>
+  <data name="Profiles.Rename.Title" xml:space="preserve"><value>Μετονομασία προφίλ</value></data>
+  <data name="Renderer.Laptop" xml:space="preserve"><value>Φορητός</value></data>
+  <data name="Renderer.LowProfile" xml:space="preserve"><value>Χαμηλό προφίλ</value></data>
+  <data name="Renderer.Minimal" xml:space="preserve"><value>Ελάχιστο</value></data>
+  <data name="Renderer.Pbt" xml:space="preserve"><value>PBT</value></data>
+  <data name="Renderer.Volumetric" xml:space="preserve"><value>3D (πρόσοψη)</value></data>
+  <data name="Settings.HelpButton" xml:space="preserve"><value>Βοήθεια</value></data>
+  <data name="Settings.Nav.About" xml:space="preserve"><value>Πληροφορίες</value></data>
+  <data name="Settings.Nav.Appearance" xml:space="preserve"><value>Στιλ πλήκτρων</value></data>
+  <data name="Settings.Nav.Application" xml:space="preserve"><value>Ρυθμίσεις εφαρμογής</value></data>
+  <data name="Settings.Nav.Drawing" xml:space="preserve"><value>Σχεδίαση</value></data>
+  <data name="Settings.Nav.Help" xml:space="preserve"><value>Βοήθεια και διαγνωστικά</value></data>
+  <data name="Settings.Nav.HelpPage" xml:space="preserve"><value>Βοήθεια</value></data>
+  <data name="Settings.Nav.Home" xml:space="preserve"><value>Αρχική</value></data>
+  <data name="Settings.Nav.Hotkeys" xml:space="preserve"><value>Εντολές και συντομεύσεις</value></data>
+  <data name="Settings.Nav.Keys" xml:space="preserve"><value>Πλήκτρα</value></data>
+  <data name="Settings.Nav.Layout" xml:space="preserve"><value>Διάταξη πληκτρολογίου</value></data>
+  <data name="Settings.Nav.Lens" xml:space="preserve"><value>Ζωντανός μεγεθυντικός φακός</value></data>
+  <data name="Settings.Nav.Mouse" xml:space="preserve"><value>Ποντίκι</value></data>
+  <data name="Settings.Nav.Position" xml:space="preserve"><value>Θέση και οθόνες</value></data>
+  <data name="Settings.Nav.Profiles" xml:space="preserve"><value>Προφίλ</value></data>
+  <data name="Settings.Nav.SettingsGroup" xml:space="preserve"><value>Ρυθμίσεις</value></data>
+  <data name="Settings.Problem.Bool" xml:space="preserve"><value>{0}: αναμένεται true ή false· χρησιμοποιείται {1}.</value></data>
+  <data name="Settings.Problem.Color" xml:space="preserve"><value>{0}: το «{1}» δεν είναι χρώμα· χρησιμοποιείται {2}.</value></data>
+  <data name="Settings.Problem.Corrupt" xml:space="preserve"><value>Το αρχείο ρυθμίσεων δεν είναι έγκυρο JSON (γραμμή {0})· χρησιμοποιούνται οι προεπιλεγμένες ρυθμίσεις και το αρχείο διατηρείται ως settings.unreadable.bak.json.</value></data>
+  <data name="Settings.Problem.Enum" xml:space="preserve"><value>{0}: το «{1}» δεν είναι ένα από τα {2}· χρησιμοποιείται η προεπιλογή.</value></data>
+  <data name="Settings.Problem.Integer" xml:space="preserve"><value>{0}: αναμένεται ακέραιος αριθμός· χρησιμοποιείται {1}.</value></data>
+  <data name="Settings.Problem.Newer" xml:space="preserve"><value>Οι ρυθμίσεις αποθηκεύτηκαν από νεότερη έκδοση (μορφή {0})· χρησιμοποιούνται οι προεπιλεγμένες ρυθμίσεις και το αρχείο δεν αντικαθίσταται.</value></data>
+  <data name="Settings.Problem.NoFormat" xml:space="preserve"><value>Το αρχείο δεν είναι αρχείο ρυθμίσεων του Backpack· χρησιμοποιούνται οι προεπιλεγμένες ρυθμίσεις.</value></data>
+  <data name="Settings.Problem.NotObject" xml:space="preserve"><value>Το αρχείο ρυθμίσεων δεν περιέχει αντικείμενο JSON· χρησιμοποιούνται οι προεπιλεγμένες ρυθμίσεις.</value></data>
+  <data name="Settings.Problem.NotSection" xml:space="preserve"><value>Το «{0}» πρέπει να είναι αντικείμενο· χρησιμοποιούνται οι προεπιλογές του.</value></data>
+  <data name="Settings.Problem.NoVersion" xml:space="preserve"><value>Λείπει η έκδοση μορφής των ρυθμίσεων· χρησιμοποιούνται οι προεπιλεγμένες ρυθμίσεις.</value></data>
+  <data name="Settings.Problem.Number" xml:space="preserve"><value>{0}: αναμένεται αριθμός· χρησιμοποιείται {1}.</value></data>
+  <data name="Settings.Problem.Range" xml:space="preserve"><value>{0}: το {1} είναι εκτός {2}…{3}· χρησιμοποιείται {4}.</value></data>
+  <data name="Settings.Problem.ReadFailed" xml:space="preserve"><value>Το αρχείο ρυθμίσεων δεν διαβάστηκε ({0})· χρησιμοποιούνται οι προεπιλεγμένες ρυθμίσεις.</value></data>
+  <data name="Settings.Problem.SaveFailed" xml:space="preserve"><value>Οι ρυθμίσεις δεν αποθηκεύτηκαν ({0}).</value></data>
+  <data name="Settings.Problem.StyleId" xml:space="preserve"><value>{0}: το «{1}» δεν είναι έγκυρο αναγνωριστικό στιλ· η αναφορά αφαιρείται, οι παράμετροι διατηρούνται.</value></data>
+  <data name="Settings.Problem.UnknownField" xml:space="preserve"><value>Το άγνωστο πεδίο «{0}» αγνοήθηκε.</value></data>
+  <data name="Settings.Problem.Unsupported" xml:space="preserve"><value>Μη υποστηριζόμενη έκδοση μορφής ρυθμίσεων: {0}· χρησιμοποιούνται οι προεπιλεγμένες ρυθμίσεις.</value></data>
+  <data name="Settings.ResetSection" xml:space="preserve"><value>Επαναφορά ενότητας</value></data>
+  <data name="Settings.ToTray" xml:space="preserve"><value>Ελαχιστοποίηση στην περιοχή ειδοποιήσεων</value></data>
+  <data name="Settings.ToTrayHint" xml:space="preserve"><value>Κρύβει όλα τα παράθυρα του Backpack· η προβολή συνεχίζει να λειτουργεί. Επαναφέρετέ τα από το εικονίδιο στην περιοχή ειδοποιήσεων.</value></data>
+  <data name="Settings.WindowTitle" xml:space="preserve"><value>Backpack</value></data>
+  <data name="Style.Error.Id" xml:space="preserve"><value>Το αναγνωριστικό στιλ δεν είναι έγκυρο.</value></data>
+  <data name="Style.Error.Kind" xml:space="preserve"><value>Άγνωστο είδος στιλ (αναμένεται keycap, indicator ή mouse).</value></data>
+  <data name="Style.Error.Newer" xml:space="preserve"><value>Το στιλ δημιουργήθηκε από νεότερο Backpack (μορφή {0}). Ενημερώστε το Backpack για να το χρησιμοποιήσετε.</value></data>
+  <data name="Style.Error.NoLook" xml:space="preserve"><value>Το στιλ δεν έχει ενότητα «look».</value></data>
+  <data name="Style.Error.NotStyle" xml:space="preserve"><value>Αυτό δεν είναι αρχείο στιλ του Backpack.</value></data>
+  <data name="Style.Error.TooLarge" xml:space="preserve"><value>Το αρχείο στιλ είναι πολύ μεγάλο (πάνω από 64 KB).</value></data>
+  <data name="Style.ImportedName" xml:space="preserve"><value>{0} (εισαγόμενο)</value></data>
+  <data name="Style.IndicatorAccent" xml:space="preserve"><value>Έμφαση</value></data>
+  <data name="Style.IndicatorDark" xml:space="preserve"><value>Σκούρα κάψουλα</value></data>
+  <data name="Style.IndicatorLight" xml:space="preserve"><value>Ανοιχτή κάψουλα</value></data>
+  <data name="Style.IndicatorOutline" xml:space="preserve"><value>Περίγραμμα</value></data>
+  <data name="Style.LaptopMidnight" xml:space="preserve"><value>Φορητός — μεσάνυχτα</value></data>
+  <data name="Style.LaptopSilver" xml:space="preserve"><value>Φορητός — ασημί</value></data>
+  <data name="Style.LowProfileClassic" xml:space="preserve"><value>Χαμηλό προφίλ — κλασικό</value></data>
+  <data name="Style.LowProfileGraphite" xml:space="preserve"><value>Χαμηλό προφίλ — γραφίτης</value></data>
+  <data name="Style.MinimalInk" xml:space="preserve"><value>Ελάχιστο — μελάνι</value></data>
+  <data name="Style.MinimalLight" xml:space="preserve"><value>Ελάχιστο — ανοιχτό κείμενο</value></data>
+  <data name="Style.MouseOutlineDark" xml:space="preserve"><value>Περίγραμμα — σκούρο</value></data>
+  <data name="Style.MouseOutlineLight" xml:space="preserve"><value>Περίγραμμα — ανοιχτό</value></data>
+  <data name="Style.MouseRetroBeige" xml:space="preserve"><value>Ρετρό — μπεζ</value></data>
+  <data name="Style.MouseRetroBlueGrey" xml:space="preserve"><value>Ρετρό — γαλαζογκρί</value></data>
+  <data name="Style.MouseRetroGraphite" xml:space="preserve"><value>Ρετρό — γραφίτης</value></data>
+  <data name="Style.MouseRetroSage" xml:space="preserve"><value>Ρετρό — απαλό φασκόμηλο</value></data>
+  <data name="Style.MouseSketchChalk" xml:space="preserve"><value>Σκίτσο — κιμωλία</value></data>
+  <data name="Style.MouseSketchInk" xml:space="preserve"><value>Σκίτσο — μελάνι</value></data>
+  <data name="Style.MouseSolidDark" xml:space="preserve"><value>Συμπαγές — σκούρο</value></data>
+  <data name="Style.MouseSolidLight" xml:space="preserve"><value>Συμπαγές — ανοιχτό</value></data>
+  <data name="Style.PbtCream" xml:space="preserve"><value>PBT — κρεμ</value></data>
+  <data name="Style.PbtOcean" xml:space="preserve"><value>PBT — ωκεανός</value></data>
+  <data name="Style.VolLavender" xml:space="preserve"><value>3D — λεβάντα</value></data>
+  <data name="Style.VolMint" xml:space="preserve"><value>3D — μέντα</value></data>
+  <data name="Style.VolRose" xml:space="preserve"><value>3D — ροζ</value></data>
+  <data name="Styles.Apply" xml:space="preserve"><value>Εφαρμογή</value></data>
+  <data name="Styles.BuiltIn" xml:space="preserve"><value>ενσωματωμένο</value></data>
+  <data name="Styles.Delete.Message" xml:space="preserve"><value>Διαγραφή του στιλ «{0}»; Τα προφίλ που το χρησιμοποιούν κρατούν την εμφάνισή τους: οι παράμετροι αποθηκεύονται στο προφίλ.</value></data>
+  <data name="Styles.Delete.Title" xml:space="preserve"><value>Διαγραφή στιλ</value></data>
+  <data name="Styles.Duplicate" xml:space="preserve"><value>Διπλότυπο</value></data>
+  <data name="Styles.FileFilter" xml:space="preserve"><value>Στιλ Backpack</value></data>
+  <data name="Styles.FolderFailed" xml:space="preserve"><value>Δεν ήταν δυνατό να ανοίξει ο φάκελος {0}.</value></data>
+  <data name="Styles.Imported.Added" xml:space="preserve"><value>Το στιλ «{0}» προστέθηκε στον κατάλογο.</value></data>
+  <data name="Styles.Imported.OtherKind" xml:space="preserve"><value>Το στιλ «{0}» προστέθηκε στον κατάλογο άλλου στοιχείου (πλήκτρα, ένδειξη ή ποντίκι).</value></data>
+  <data name="Styles.Imported.Present" xml:space="preserve"><value>Το στιλ «{0}» υπάρχει ήδη στον κατάλογο· δεν δημιουργήθηκε αντίγραφο.</value></data>
+  <data name="Styles.Imported.Renamed" xml:space="preserve"><value>Υπάρχει ήδη στιλ με το ίδιο αναγνωριστικό αλλά άλλες παραμέτρους. Το εισαγόμενο αποθηκεύτηκε ως «{0}»· δεν αντικαταστάθηκε τίποτα.</value></data>
+  <data name="Styles.Imported.Title" xml:space="preserve"><value>Το στιλ εισήχθη</value></data>
+  <data name="Styles.ImportFailed.Title" xml:space="preserve"><value>Το στιλ δεν εισήχθη</value></data>
+  <data name="Styles.Indicator.Hint" xml:space="preserve"><value>Ενσωματωμένα και δικά σας στιλ ένδειξης. Το πρόσθετο μπορεί επίσης να χρησιμοποιεί την εμφάνιση των πλήκτρων.</value></data>
+  <data name="Styles.Indicator.Title" xml:space="preserve"><value>Στιλ ένδειξης διάταξης</value></data>
+  <data name="Styles.InheritHint" xml:space="preserve"><value>χρώματα από τα πλήκτρα</value></data>
+  <data name="Styles.Keycap.Hint" xml:space="preserve"><value>Ένα στιλ είναι ένα αποθηκευμένο σύνολο παραμέτρων εμφάνισης. Τα ενσωματωμένα στιλ δεν αλλάζουν: η επεξεργασία δημιουργεί δικό σας αντίγραφο κατά την αποθήκευση.</value></data>
+  <data name="Styles.Keycap.Title" xml:space="preserve"><value>Στιλ πλήκτρων</value></data>
+  <data name="Styles.Mine" xml:space="preserve"><value>δικό μου</value></data>
+  <data name="Styles.Mouse.Hint" xml:space="preserve"><value>Εμφάνιση του εικονιδίου ποντικιού δίπλα στον δείκτη και στη σειρά. Τα πλαϊνά κουμπιά ρυθμίζονται παρακάτω και δεν αλλάζουν με το στιλ.</value></data>
+  <data name="Styles.Mouse.Title" xml:space="preserve"><value>Στιλ ποντικιού</value></data>
+  <data name="Styles.NewName" xml:space="preserve"><value>Το στιλ μου</value></data>
+  <data name="Styles.OpenFolder" xml:space="preserve"><value>Άνοιγμα φακέλου στιλ</value></data>
+  <data name="Styles.Restore" xml:space="preserve"><value>Επαναφορά</value></data>
+  <data name="Styles.RestoreHint" xml:space="preserve"><value>Επιστροφή στις παραμέτρους του επιλεγμένου στιλ.</value></data>
+  <data name="Styles.Save" xml:space="preserve"><value>Αποθήκευση στιλ</value></data>
+  <data name="Styles.SaveAsNew" xml:space="preserve"><value>Αποθήκευση ως νέο…</value></data>
+  <data name="Styles.Skipped" xml:space="preserve"><value>Παραλείφθηκαν κατεστραμμένα ή μη υποστηριζόμενα αρχεία στιλ: {0}. Δεν διαγράφηκαν.</value></data>
+  <data name="Styles.Status.Custom" xml:space="preserve"><value>Δικές του παράμετροι (εκτός καταλόγου).</value></data>
+  <data name="Styles.Status.Inherit" xml:space="preserve"><value>Τα χρώματα λαμβάνονται από τα πλήκτρα.</value></data>
+  <data name="Styles.Status.Missing" xml:space="preserve"><value>Το στιλ αυτού του προφίλ δεν υπάρχει στον κατάλογο αυτού του υπολογιστή· οι παράμετροί του διατηρούνται στο προφίλ.</value></data>
+  <data name="Styles.Status.Modified" xml:space="preserve"><value>Βασισμένο στο {0} • τροποποιημένο. Αποθηκεύστε το ως δικό σας στιλ ή επαναφέρετε το αρχικό.</value></data>
+  <data name="Styles.Status.Selected" xml:space="preserve"><value>Επιλεγμένο: {0}.</value></data>
+  <data name="Tray.CombosOnly" xml:space="preserve"><value>Μόνο συνδυασμοί</value></data>
+  <data name="Tray.Exit" xml:space="preserve"><value>Έξοδος από το Backpack</value></data>
+  <data name="Tray.FirstHide.Exit" xml:space="preserve"><value>Έξοδος αντί γι’ αυτό</value></data>
+  <data name="Tray.FirstHide.Message" xml:space="preserve"><value>Το παράθυρο είναι κρυφό· η προβολή συνεχίζει να λειτουργεί.
+
+Το εικονίδιο του Backpack βρίσκεται στην περιοχή ειδοποιήσεων της γραμμής εργασιών. Τα Windows μπορεί να το βάλουν στα κρυφά εικονίδια (βέλος ^).
+
+Κάντε κλικ στο εικονίδιο για να επαναφέρετε τα παράθυρα. Με δεξί κλικ έχετε γρήγορους διακόπτες και «Έξοδος από το Backpack».
+
+Μπορείτε να ορίσετε το × να τερματίζει την εφαρμογή στις Ρυθμίσεις → Εφαρμογή.</value></data>
+  <data name="Tray.FirstHide.Ok" xml:space="preserve"><value>Κατάλαβα</value></data>
+  <data name="Tray.FirstHide.Title" xml:space="preserve"><value>Το Backpack συνεχίζει να εκτελείται</value></data>
+  <data name="Tray.Help" xml:space="preserve"><value>Βοήθεια</value></data>
+  <data name="Tray.LayoutIndicator" xml:space="preserve"><value>Ένδειξη διάταξης</value></data>
+  <data name="Tray.MouseCircle" xml:space="preserve"><value>Κύκλος κλικ στον δείκτη</value></data>
+  <data name="Tray.MouseIcon" xml:space="preserve"><value>Εικονίδιο ποντικιού στον δείκτη</value></data>
+  <data name="Tray.MouseInRow" xml:space="preserve"><value>Κουμπιά ποντικιού στη σειρά</value></data>
+  <data name="Tray.OpenSettings" xml:space="preserve"><value>Άνοιγμα Backpack</value></data>
+  <data name="Tray.Profile" xml:space="preserve"><value>Προφίλ: {0}</value></data>
+  <data name="Tray.ShowOverlay" xml:space="preserve"><value>Εμφάνιση προβολής</value></data>
+  <data name="Tray.ShowWindows" xml:space="preserve"><value>Εμφάνιση παραθύρων Backpack</value></data>
+  <data name="Tray.Tooltip" xml:space="preserve"><value>Backpack</value></data>
+  <data name="Tray.TooltipHidden" xml:space="preserve"><value>Backpack — η προβολή είναι κρυφή</value></data>
+  <data name="Unit.Ms" xml:space="preserve"><value>ms</value></data>
+  <data name="Unit.Sec" xml:space="preserve"><value>s</value></data>
+  <data name="Update.Available" xml:space="preserve"><value>Η έκδοση {0} είναι διαθέσιμη.</value></data>
+  <data name="Update.BadResponse" xml:space="preserve"><value>Το GitHub επέστρεψε απρόσμενη απάντηση.</value></data>
+  <data name="Update.Failed" xml:space="preserve"><value>Ο έλεγχος απέτυχε.</value></data>
+  <data name="Update.NoPackage" xml:space="preserve"><value>Η έκδοση {0} υπάρχει, αλλά δεν έχει ακόμη πακέτο για Windows x64.</value></data>
+  <data name="Update.NotConfigured" xml:space="preserve"><value>Η πηγή εκδόσεων δεν έχει ρυθμιστεί.</value></data>
+  <data name="Update.Offline" xml:space="preserve"><value>Δεν υπάρχει σύνδεση με το GitHub.</value></data>
+  <data name="Update.RateLimited" xml:space="preserve"><value>Το GitHub περιόρισε τον αριθμό αιτημάτων. Δοκιμάστε ξανά αργότερα.</value></data>
+  <data name="Update.Timeout" xml:space="preserve"><value>Το GitHub δεν απάντησε εγκαίρως.</value></data>
+  <data name="Update.UpToDate" xml:space="preserve"><value>Έχετε την πιο πρόσφατη έκδοση αυτού του καναλιού.</value></data>
+  <data name="Note.ThemeMigrated" xml:space="preserve"><value>Το θέμα των παραθύρων είναι πλέον Backpack Emerald. Για επιστροφή στην προηγούμενη εμφάνιση: Ρυθμίσεις εφαρμογής → Θέμα χρωμάτων → Κλασικό.</value></data>
+  <data name="Note.PrivacyFailed" xml:space="preserve"><value>Το δυναμικό απόρρητο δεν μπόρεσε να παρακολουθήσει την εστίαση εισόδου ({0}, σφάλμα {1})· η εμφάνιση πλήκτρων μένει κρυφή όσο το απόρρητο είναι ενεργό.</value></data>
+  <data name="Privacy.Status.Password" xml:space="preserve"><value>Προστατευμένο πεδίο</value></data>
+  <data name="Privacy.Status.BlockedApp" xml:space="preserve"><value>Κρυφό για αυτή την εφαρμογή</value></data>
+  <data name="Privacy.Status.Checking" xml:space="preserve"><value>Έλεγχος</value></data>
+  <data name="Privacy.Status.NoData" xml:space="preserve"><value>Χωρίς δεδομένα</value></data>
+  <data name="Settings.Problem.Value" xml:space="preserve"><value>{0}: παραλείφθηκε μια μη έγκυρη καταχώριση.</value></data>
+  <data name="Theme.Emerald" xml:space="preserve"><value>Backpack Emerald</value></data>
+  <data name="Theme.Classic" xml:space="preserve"><value>Κλασικό</value></data>
+  <data name="Theme.Sapphire" xml:space="preserve"><value>Ζαφείρι</value></data>
+  <data name="Theme.Amber" xml:space="preserve"><value>Κεχριμπάρι</value></data>
+  <data name="Settings.Nav.Focus" xml:space="preserve"><value>Εστίαση</value></data>
+  <data name="Settings.Nav.Plugins" xml:space="preserve"><value>Πρόσθετα</value></data>
+  <data name="Tool.Enabled.Title" xml:space="preserve"><value>Εργαλείο</value></data>
+  <data name="Tool.Enabled.Hint" xml:space="preserve"><value>Η απενεργοποίηση ενός εργαλείου κλείνει τα παράθυρά του, τερματίζει τη λειτουργία του και αποδεσμεύει τις συντομεύσεις του. Οι ρυθμίσεις του διατηρούνται.</value></data>
+  <data name="Tool.Enabled" xml:space="preserve"><value>Εργαλείο ενεργό</value></data>
+  <data name="Keys.More.Title" xml:space="preserve"><value>Εμφάνιση και τοποθέτηση</value></data>
+  <data name="Keys.OpenStyle" xml:space="preserve"><value>Στιλ πλήκτρων</value></data>
+  <data name="Keys.OpenPosition" xml:space="preserve"><value>Θέση και οθόνες</value></data>
+  <data name="Monitors.Keycaps.Title" xml:space="preserve"><value>Οθόνες για τα πλήκτρα</value></data>
+  <data name="Monitors.Hint" xml:space="preserve"><value>Η θέση και τα περιθώρια μετρώνται από την περιοχή εργασίας κάθε οθόνης, στη δική της κλίμακα.</value></data>
+  <data name="Monitors.Mode" xml:space="preserve"><value>Πού εμφανίζεται</value></data>
+  <data name="Monitors.ModeHint" xml:space="preserve"><value>Το «Κάτω από τον δείκτη» είναι η οθόνη όπου βρίσκεται τώρα ο δείκτης του ποντικιού, όχι η οθόνη του ενεργού παραθύρου.</value></data>
+  <data name="Monitors.Primary" xml:space="preserve"><value>Κύρια</value></data>
+  <data name="Monitors.Selected" xml:space="preserve"><value>Επιλεγμένη</value></data>
+  <data name="Monitors.Multiple" xml:space="preserve"><value>Πολλές</value></data>
+  <data name="Monitors.UnderCursor" xml:space="preserve"><value>Κάτω από τον δείκτη</value></data>
+  <data name="Monitors.PrimaryWord" xml:space="preserve"><value>κύρια</value></data>
+  <data name="Monitors.Missing" xml:space="preserve"><value>Η «{0}» δεν είναι συνδεδεμένη τώρα — χρησιμοποιείται η κύρια οθόνη. Η επιλογή διατηρείται για όταν επιστρέψει.</value></data>
+  <data name="Monitors.Note" xml:space="preserve"><value>Μία πηγή εισόδου εξυπηρετεί όλα τα παράθυρα. Η μετάβαση σε άλλη οθόνη δεν επανεκκινεί την κίνηση ούτε χάνει τα πατημένα πλήκτρα.</value></data>
+  <data name="Monitors.Indicator.Title" xml:space="preserve"><value>Οθόνες για την ένδειξη διάταξης</value></data>
+  <data name="Monitors.Indicator.Inherit" xml:space="preserve"><value>Ίδιες οθόνες με τα πλήκτρα</value></data>
+  <data name="Monitors.Indicator.InheritHint" xml:space="preserve"><value>Απενεργοποιήστε για να επιλέξετε ξεχωριστά τις οθόνες της ένδειξης.</value></data>
+  <data name="Monitors.Indicator.Own" xml:space="preserve"><value>Οθόνες ένδειξης</value></data>
+  <data name="Draw.Tool.SmartPen" xml:space="preserve"><value>Έξυπνη πένα</value></data>
+  <data name="Draw.Tool.Marker" xml:space="preserve"><value>Αριθμημένα σημάδια</value></data>
+  <data name="Draw.Smart.Title" xml:space="preserve"><value>Έξυπνη πένα και αριθμημένα σημάδια</value></data>
+  <data name="Draw.Smart.Hint" xml:space="preserve"><value>Και τα δύο εργαλεία βρίσκονται στη γραμμή σχεδίασης.</value></data>
+  <data name="Draw.Smart.Note" xml:space="preserve"><value>Μια καθαρή γραμμή, έλλειψη ή ορθογώνιο γίνεται τακτοποιημένο σχήμα· τα υπόλοιπα μένουν όπως σχεδιάστηκαν. Η αναίρεση επαναφέρει την αρχική πινελιά.</value></data>
+  <data name="Draw.Markers.Start" xml:space="preserve"><value>Πρώτος αριθμός</value></data>
+  <data name="Draw.Markers.StartHint" xml:space="preserve"><value>Χρησιμοποιείται για την επόμενη σειρά σημαδιών.</value></data>
+  <data name="Draw.Markers.Size" xml:space="preserve"><value>Μέγεθος σημαδιού</value></data>
+  <data name="Draw.Markers.Note" xml:space="preserve"><value>Κάντε κλικ για να τοποθετήσετε τον επόμενο αριθμό, σύρετε για να τον μετακινήσετε. Η αναίρεση κρατά την αρίθμηση συνεπή.</value></data>
+  <data name="App.Palette.Title" xml:space="preserve"><value>Θέμα χρωμάτων</value></data>
+  <data name="App.Palette.Hint" xml:space="preserve"><value>Χρώματα των παραθύρων του Backpack. Ανεξάρτητα από τη φωτεινή ή σκοτεινή λειτουργία και από τα στιλ των εργαλείων (πλήκτρα, πλαίσιο Εστίασης).</value></data>
+  <data name="App.Palette" xml:space="preserve"><value>Χρώματα</value></data>
+  <data name="App.ReducedMotion" xml:space="preserve"><value>Μείωση κίνησης</value></data>
+  <data name="App.ReducedMotionHint" xml:space="preserve"><value>Η επίδειξη της Αρχικής δεν ξεκινά μόνη της.</value></data>
+  <data name="Privacy.Title" xml:space="preserve"><value>Δυναμικό απόρρητο</value></data>
+  <data name="Privacy.Hint" xml:space="preserve"><value>Τα πλήκτρα δεν εμφανίζονται όσο η εστίαση εισόδου βρίσκεται σε προστατευμένο πεδίο ή σε κρυφή εφαρμογή.</value></data>
+  <data name="Privacy.Enable" xml:space="preserve"><value>Απόκρυψη εισόδου σε προστατευμένα πεδία</value></data>
+  <data name="Privacy.EnableHint" xml:space="preserve"><value>Χρησιμοποιεί μόνο τη σημαία IsPassword του εστιασμένου στοιχείου. Το περιεχόμενο των πεδίων, το πρόχειρο και οι τίτλοι των παραθύρων δεν διαβάζονται.</value></data>
+  <data name="Privacy.Badge" xml:space="preserve"><value>Εμφάνιση λουκέτου στην οθόνη</value></data>
+  <data name="Privacy.BadgeHint" xml:space="preserve"><value>Ένα μικρό λουκέτο με την αιτία εμφανίζεται όταν η είσοδος κρύφτηκε. Χωρίς πλήθος και χωρίς μήκος.</value></data>
+  <data name="Privacy.Status" xml:space="preserve"><value>Τώρα</value></data>
+  <data name="Privacy.Status.Allowed" xml:space="preserve"><value>Επιτρέπεται η προβολή</value></data>
+  <data name="Privacy.AddApp" xml:space="preserve"><value>Απόκρυψη για μια εφαρμογή</value></data>
+  <data name="Privacy.AddAppHint" xml:space="preserve"><value>Όνομα αρχείου του προγράμματος, για παράδειγμα keepass.exe.</value></data>
+  <data name="Privacy.AddAppButton" xml:space="preserve"><value>Προσθήκη</value></data>
+  <data name="Privacy.RemoveApp" xml:space="preserve"><value>Αφαίρεση</value></data>
+  <data name="Privacy.Limits" xml:space="preserve"><value>Τα Windows δεν έχουν καθολικό τρόπο αναγνώρισης πεδίων κωδικού πρόσβασης. Εφαρμογές των οποίων τα στοιχεία ελέγχου δεν αναφέρουν IsPassword δεν μπορούν να προστατευθούν αυτόματα· όταν η κατάσταση είναι άγνωστη, η προβολή μένει κλειστή. Προσθέστε τέτοιες εφαρμογές στη λίστα ή χρησιμοποιήστε την «Εμφάνιση ή απόκρυψη προβολής».</value></data>
+  <data name="Privacy.ManualHide" xml:space="preserve"><value>Η χειροκίνητη απόκρυψη μένει ως είχε: η εντολή «Εμφάνιση ή απόκρυψη προβολής».</value></data>
+  <data name="Focus.EditHint" xml:space="preserve"><value>Σύρετε μέσα στον φακό για να τον μετακινήσετε, μέσα στο διακεκομμένο πλαίσιο πηγής για να μετακινήσετε την πηγή, στη δεξιά ή κάτω άκρη για αλλαγή μεγέθους. Esc ή Enter — τέλος.</value></data>
+  <data name="Focus.Mode.Lens" xml:space="preserve"><value>Φακός</value></data>
+  <data name="Commands.Category.App" xml:space="preserve"><value>Εφαρμογή</value></data>
+  <data name="Commands.Category.Keys" xml:space="preserve"><value>Πλήκτρα</value></data>
+  <data name="Commands.Category.Mouse" xml:space="preserve"><value>Ποντίκι</value></data>
+  <data name="Commands.Category.Layout" xml:space="preserve"><value>Διάταξη πληκτρολογίου</value></data>
+  <data name="Commands.Category.Drawing" xml:space="preserve"><value>Σχεδίαση</value></data>
+  <data name="Commands.Category.Settings" xml:space="preserve"><value>Άνοιγμα ρυθμίσεων</value></data>
+  <data name="Commands.Category.Plugins" xml:space="preserve"><value>Πρόσθετα</value></data>
+  <data name="Commands.AppOpen" xml:space="preserve"><value>Άνοιγμα Backpack</value></data>
+  <data name="Commands.ProfileNext" xml:space="preserve"><value>Φόρτωση του επόμενου προφίλ</value></data>
+  <data name="Commands.Drawing" xml:space="preserve"><value>Σχεδίαση</value></data>
+  <data name="Commands.MarkersReset" xml:space="preserve"><value>Επαναφορά αρίθμησης</value></data>
+  <data name="Commands.Scope.Global" xml:space="preserve"><value>καθολική</value></data>
+  <data name="Commands.Scope.Local" xml:space="preserve"><value>στα παράθυρα του Backpack</value></data>
+  <data name="Commands.Scope.Tool" xml:space="preserve"><value>μόνο μέσα στο εργαλείο</value></data>
+  <data name="Commands.LocalOnly" xml:space="preserve"><value>σταθερή</value></data>
+  <data name="Commands.Rules.Title" xml:space="preserve"><value>Κανόνες</value></data>
+  <data name="Commands.Rules" xml:space="preserve"><value>Οι καθολικές συντομεύσεις χρειάζονται Ctrl, Alt ή Win. Οι συντομεύσεις εργαλείων λειτουργούν μόνο όσο το εργαλείο είναι ενεργό (εκεί επιτρέπονται σκέτα τα F2–F24). Το κράτημα ενός πλήκτρου δεν επαναλαμβάνει εντολή· μια συντόμευση δεν παραλείπει ποτέ επιβεβαίωση.</value></data>
+  <data name="Plugins.BuiltIn.Title" xml:space="preserve"><value>Ενσωματωμένα εργαλεία</value></data>
+  <data name="Plugins.BuiltIn.Hint" xml:space="preserve"><value>Τα πλήκτρα και το ποντίκι δίπλα στον δείκτη είναι μέρος του Backpack· όλα τα άλλα είναι πρόσθετα.</value></data>
+  <data name="Plugins.On" xml:space="preserve"><value>ενεργό</value></data>
+  <data name="Plugins.Off" xml:space="preserve"><value>ανενεργό</value></data>
+  <data name="Plugins.External.Title" xml:space="preserve"><value>Εξωτερικά πρόσθετα</value></data>
+  <data name="Plugins.External.Hint" xml:space="preserve"><value>Το αστέρι δείχνει ένα πρόσθετο στο πλαϊνό μενού. Δεν το ενεργοποιεί ούτε το αφαιρεί.</value></data>
+  <data name="Plugins.TrustNote" xml:space="preserve"><value>Ένα πρόσθετο είναι πρόγραμμα που εκτελείται με τα δικαιώματα χρήστη σας σε δική του διεργασία. Το Backpack περιορίζει τι του μεταβιβάζει (χωρίς κρυφή είσοδο, χωρίς περιεχόμενο πεδίων, χωρίς οθόνη), αλλά δεν μπορεί να σας προστατεύσει από κακόβουλο κώδικα. Ενεργοποιείτε μόνο πρόσθετα από πηγή που εμπιστεύεστε.</value></data>
+  <data name="Plugins.SafeMode" xml:space="preserve"><value>Ασφαλής εκκίνηση: τα πρόσθετα δεν ξεκινούν σε αυτή την περίοδο λειτουργίας (--no-plugins).</value></data>
+  <data name="Plugins.Favorite" xml:space="preserve"><value>Στο μενού</value></data>
+  <data name="Plugins.Details" xml:space="preserve"><value>Λεπτομέρειες</value></data>
+  <data name="Plugins.Enable" xml:space="preserve"><value>Ενεργοποίηση</value></data>
+  <data name="Plugins.Disable" xml:space="preserve"><value>Απενεργοποίηση</value></data>
+  <data name="Plugins.Remove" xml:space="preserve"><value>Αφαίρεση</value></data>
+  <data name="Plugins.Update" xml:space="preserve"><value>Ενημέρωση από αρχείο</value></data>
+  <data name="Plugins.Import" xml:space="preserve"><value>Εισαγωγή προσθέτου</value></data>
+  <data name="Plugins.FileFilter" xml:space="preserve"><value>Πρόσθετο Backpack</value></data>
+  <data name="Plugins.Imported" xml:space="preserve"><value>Το «{0}» εγκαταστάθηκε και είναι ανενεργό. Ανοίξτε το για να ελέγξετε τις λεπτομέρειες και να το ενεργοποιήσετε.</value></data>
+  <data name="Plugins.Updated" xml:space="preserve"><value>Το «{0}» ενημερώθηκε από {1} σε {2} και μένει ανενεργό μέχρι να το ενεργοποιήσετε ξανά.</value></data>
+  <data name="Plugins.ImportFailed" xml:space="preserve"><value>Το πακέτο δεν εγκαταστάθηκε:</value></data>
+  <data name="Plugins.Trust.Title" xml:space="preserve"><value>Ενεργοποίηση προσθέτου</value></data>
+  <data name="Plugins.Trust.Message" xml:space="preserve"><value>Το «{0}» του {1} είναι πρόγραμμα. Θα εκτελείται σε δική του διεργασία με τα δικαιώματα χρήστη σας. Το Backpack δεν μπορεί να σας προστατεύσει από κακόβουλο κώδικα σε ένα πρόσθετο. Ενεργοποιήστε το μόνο αν εμπιστεύεστε την πηγή του.</value></data>
+  <data name="Plugins.Trust.Yes" xml:space="preserve"><value>Το εμπιστεύομαι, ενεργοποίηση</value></data>
+  <data name="Plugins.Remove.Title" xml:space="preserve"><value>Αφαίρεση προσθέτου</value></data>
+  <data name="Plugins.Remove.Message" xml:space="preserve"><value>Αφαίρεση του «{0}» και των ρυθμίσεών του;</value></data>
+  <data name="Plugins.Id" xml:space="preserve"><value>Αναγνωριστικό</value></data>
+  <data name="Plugins.Author" xml:space="preserve"><value>Δημιουργός</value></data>
+  <data name="Plugins.Version" xml:space="preserve"><value>Έκδοση</value></data>
+  <data name="Plugins.License" xml:space="preserve"><value>Άδεια</value></data>
+  <data name="Plugins.Capabilities" xml:space="preserve"><value>Δυνατότητες</value></data>
+  <data name="Plugins.Cap.commands" xml:space="preserve"><value>εντολές</value></data>
+  <data name="Plugins.Cap.settings" xml:space="preserve"><value>σελίδα ρυθμίσεων</value></data>
+  <data name="Plugins.Cap.overlay.panel" xml:space="preserve"><value>πλαίσιο στην οθόνη</value></data>
+  <data name="Plugins.Cap.input.visible" xml:space="preserve"><value>ορατά πλήκτρα (μετά το φίλτρο απορρήτου)</value></data>
+  <data name="Plugins.Cap.screen" xml:space="preserve"><value>οθόνη (δεν παραχωρείται σε αυτή την έκδοση)</value></data>
+  <data name="Plugins.Settings.Title" xml:space="preserve"><value>Ρυθμίσεις προσθέτου</value></data>
+  <data name="Plugins.Commands.Title" xml:space="preserve"><value>Εντολές προσθέτου</value></data>
+  <data name="Plugins.Commands.Hint" xml:space="preserve"><value>Διαθέσιμες όσο το πρόσθετο είναι ενεργό. Συντομεύσεις ορίζονται στις Εντολές και συντομεύσεις.</value></data>
+  <data name="Plugins.StartFailed" xml:space="preserve"><value>Το πρόσθετο «{0}» δεν ξεκίνησε.</value></data>
+  <data name="Plugins.AutoDisabled" xml:space="preserve"><value>Το πρόσθετο «{0}» κατέρρευσε επανειλημμένα και απενεργοποιήθηκε.</value></data>
+  <data name="Home.F.DrawHint" xml:space="preserve"><value>Βέλη, σχήματα, κείμενο και αριθμημένα βήματα πάνω από οποιαδήποτε εφαρμογή· η έξυπνη πένα ισιώνει τα σχήματα. Συντόμευση: {0}.</value></data>
+  <data name="Commands.DisplayToggle" xml:space="preserve"><value>Εμφάνιση ή απόκρυψη προβολής</value></data>
+  <data name="Commands.Radial" xml:space="preserve"><value>Κυκλικό μενού</value></data>
+  <data name="Commands.MouseHighlight" xml:space="preserve"><value>Επισήμανση δείκτη</value></data>
+  <data name="Commands.Migrated.Title" xml:space="preserve"><value>Οι συντομεύσεις μεταφέρθηκαν σε εντολές</value></data>
+  <data name="Commands.Migrated" xml:space="preserve"><value>Οι συντομεύσεις από προηγούμενες εκδόσεις διατηρούνται ως εντολές. Ο μεγεθυντικός φακός στον δείκτη, ο Φακός και η Εστίαση είναι πλέον πρόσθετα· οι συντομεύσεις τους μεταφέρονται όταν τα εισάγετε στη σελίδα Πρόσθετα.</value></data>
+  <data name="Draw.Tool.RoundedRectangle" xml:space="preserve"><value>Στρογγυλεμένο ορθογώνιο</value></data>
+  <data name="Draw.Tool.Polygon" xml:space="preserve"><value>Κανονικό πολύγωνο</value></data>
+  <data name="Draw.Tool.Select" xml:space="preserve"><value>Επιλογή και μετακίνηση</value></data>
+  <data name="Draw.Category.Draw" xml:space="preserve"><value>Σχεδίαση</value></data>
+  <data name="Draw.Category.Shapes" xml:space="preserve"><value>Σχήματα</value></data>
+  <data name="Draw.Category.Annotate" xml:space="preserve"><value>Κείμενο και σημάδια</value></data>
+  <data name="Window.Minimize" xml:space="preserve"><value>Ελαχιστοποίηση</value></data>
+  <data name="Window.Maximize" xml:space="preserve"><value>Μεγιστοποίηση ή επαναφορά</value></data>
+  <data name="Window.Close" xml:space="preserve"><value>Κλείσιμο</value></data>
+  <data name="Settings.Back" xml:space="preserve"><value>Πίσω</value></data>
+  <data name="Settings.ExpandGroup" xml:space="preserve"><value>Εμφάνιση ή απόκρυψη των σελίδων του «{0}»</value></data>
+  <data name="Settings.Nav.CursorZoom" xml:space="preserve"><value>Μεγεθυντικός φακός στον δείκτη</value></data>
+  <data name="Settings.Nav.Interface" xml:space="preserve"><value>Εμφάνιση</value></data>
+  <data name="Settings.Nav.Privacy" xml:space="preserve"><value>Απόρρητο</value></data>
+  <data name="App.More.Title" xml:space="preserve"><value>Περισσότερα σε αυτή την ενότητα</value></data>
+  <data name="App.More.Hint" xml:space="preserve"><value>Αυτές οι σελίδες υπάρχουν και στο μενού αριστερά, στις Ρυθμίσεις εφαρμογής.</value></data>
+  <data name="Material.Title" xml:space="preserve"><value>Υλικό παραθύρων</value></data>
+  <data name="Material.Hint" xml:space="preserve"><value>Ισχύει για κάθε παράθυρο του Backpack: το ίδιο το παράθυρο, το πλαϊνό πλαίσιο, τις κάρτες, τα μενού και τους διαλόγους. Το κείμενο και τα στοιχεία ελέγχου μένουν πάντα αδιαφανή.</value></data>
+  <data name="Material.Kind" xml:space="preserve"><value>Υλικό</value></data>
+  <data name="Material.Opaque" xml:space="preserve"><value>Αδιαφανές</value></data>
+  <data name="Material.Mica" xml:space="preserve"><value>Mica</value></data>
+  <data name="Material.Acrylic" xml:space="preserve"><value>Ακρυλικό</value></data>
+  <data name="Material.Opaque.Hint" xml:space="preserve"><value>Συμπαγείς επιφάνειες: η πιο ευανάγνωστη επιλογή, λειτουργεί παντού.</value></data>
+  <data name="Material.Mica.Hint" xml:space="preserve"><value>Υλικό συστήματος των Windows: το χρώμα της επιφάνειας εργασίας διαφαίνεται απαλά.</value></data>
+  <data name="Material.Acrylic.Hint" xml:space="preserve"><value>Υλικό συστήματος των Windows: θολή εικόνα όσων βρίσκονται πίσω από το παράθυρο.</value></data>
+  <data name="Material.Intensity" xml:space="preserve"><value>Διαφάνεια</value></data>
+  <data name="Material.IntensityHint" xml:space="preserve"><value>Πόσο διαφαίνεται το υλικό μέσα από τις επιφάνειες.</value></data>
+  <data name="Material.Active" xml:space="preserve"><value>Σε χρήση τώρα: {0}.</value></data>
+  <data name="Material.Fallback.NotSupported" xml:space="preserve"><value>Τα Mica και Ακρυλικό απαιτούν Windows 11 έκδοση 22H2 ή νεότερη. Σε αυτόν τον υπολογιστή χρησιμοποιείται η αδιαφανής εμφάνιση.</value></data>
+  <data name="Material.Fallback.TransparencyOff" xml:space="preserve"><value>Τα εφέ διαφάνειας είναι απενεργοποιημένα στα Windows (Εξατομίκευση → Χρώματα). Χρησιμοποιείται η αδιαφανής εμφάνιση μέχρι να τα ενεργοποιήσετε.</value></data>
+  <data name="Material.Fallback.HighContrast" xml:space="preserve"><value>Η υψηλή αντίθεση είναι ενεργή: το Backpack χρησιμοποιεί αδιαφανείς επιφάνειες χωρίς λάμψη.</value></data>
+  <data name="Material.Note" xml:space="preserve"><value>Τα μενού και οι συμβουλές είναι ξεχωριστά αναδυόμενα παράθυρα· τα Windows δεν τους δίνουν το υλικό συστήματος, γι’ αυτό έχουν πυκνό γέμισμα.</value></data>
+  <data name="Glow.Title" xml:space="preserve"><value>Λάμψη έμφασης</value></data>
+  <data name="Glow.Enable" xml:space="preserve"><value>Λάμψη στοιχείων έμφασης</value></data>
+  <data name="Glow.EnableHint" xml:space="preserve"><value>Απαλή λάμψη γύρω από τα κύρια κουμπιά, τους διακόπτες, το επιλεγμένο στοιχείο μενού και την τελεία του σήματος. Το κείμενο διατηρεί την ευκρίνειά του.</value></data>
+  <data name="Glow.NotGem" xml:space="preserve"><value>Διαθέσιμη στα θέματα πολύτιμων λίθων (Backpack Emerald, Ζαφείρι, Κεχριμπάρι) και στο στιλ Backpack Neon με οποιοδήποτε θέμα.</value></data>
+  <data name="Glow.Intensity" xml:space="preserve"><value>Ένταση λάμψης</value></data>
+  <data name="Fonts.Ui.Title" xml:space="preserve"><value>Γραμματοσειρά τίτλων</value></data>
+  <data name="Fonts.Ui" xml:space="preserve"><value>Τίτλοι και όνομα προγράμματος</value></data>
+  <data name="Fonts.UiHint" xml:space="preserve"><value>Τίτλοι σελίδων και καρτών και το όνομα «Backpack». Όλο το υπόλοιπο κείμενο μένει στην τυπική γραμματοσειρά για αναγνωσιμότητα. Αποθηκεύεται στο προφίλ.</value></data>
+  <data name="Fonts.UiNote" xml:space="preserve"><value>Και οι δύο γραμματοσειρές είναι ενσωματωμένες και δεν εγκαθίστανται στα Windows.</value></data>
+  <data name="Fonts.Keycap.Title" xml:space="preserve"><value>Γραμματοσειρά πλήκτρων</value></data>
+  <data name="Fonts.Keycap" xml:space="preserve"><value>Γραμματοσειρά ετικετών πλήκτρων</value></data>
+  <data name="Fonts.KeycapHint" xml:space="preserve"><value>Ανεξάρτητη από τη γραμματοσειρά της διεπαφής· Τυπική είναι η ενσωματωμένη Inter. Αποθηκεύεται στο προφίλ.</value></data>
+  <data name="Fonts.KeycapNote" xml:space="preserve"><value>Τα σύμβολα πλήκτρων (Shift, Enter, βέλη) είναι σχέδια και δεν εξαρτώνται από τη γραμματοσειρά. Χαρακτήρες που λείπουν από τη Spectral προέρχονται από την Inter ή τη Segoe UI.</value></data>
+  <data name="Labels.Secondary.Title" xml:space="preserve"><value>Δεύτερη διάταξη στα πλήκτρα</value></data>
+  <data name="Labels.Secondary.TitleHint" xml:space="preserve"><value>Η μεγάλη ετικέτα μένει στα αγγλικά· ένας μικρός χαρακτήρας άλλης διάταξης εμφανίζεται στην επιλεγμένη γωνία (κάτω δεξιά από προεπιλογή).</value></data>
+  <data name="Labels.Secondary" xml:space="preserve"><value>Πρόσθετη ετικέτα</value></data>
+  <data name="Labels.SecondaryHint" xml:space="preserve"><value>Ενεργή διάταξη — η διάταξη της εφαρμογής στην οποία πληκτρολογείτε. Όταν είναι αγγλική, δεν προστίθεται τίποτα.</value></data>
+  <data name="Labels.Secondary.Off" xml:space="preserve"><value>Ανενεργή</value></data>
+  <data name="Labels.Secondary.ActiveLayout" xml:space="preserve"><value>Ενεργή διάταξη</value></data>
+  <data name="Labels.Secondary.FixedLayout" xml:space="preserve"><value>Επιλεγμένη διάταξη</value></data>
+  <data name="Labels.Layout" xml:space="preserve"><value>Διάταξη</value></data>
+  <data name="Labels.LayoutHint" xml:space="preserve"><value>Διατάξεις εγκατεστημένες στα Windows.</value></data>
+  <data name="Labels.LayoutMissing" xml:space="preserve"><value>Η διάταξη {0} δεν είναι εγκατεστημένη σε αυτόν τον υπολογιστή: δεν εμφανίζονται πρόσθετες ετικέτες.</value></data>
+  <data name="Labels.SecondaryNote" xml:space="preserve"><value>Η ετικέτα είναι ό,τι είναι τυπωμένο στο πλήκτρο, χωρίς Shift, Caps Lock ή AltGr· ένα νεκρό πλήκτρο δείχνει τον τόνο του. Πλήκτρα χωρίς έναν σαφή χαρακτήρα (IME, πλήκτρα υπηρεσίας, αριθμητικό πληκτρολόγιο) δεν παίρνουν ετικέτα. Η ανάγνωση της ετικέτας δεν αλλάζει ποτέ την κατάσταση πληκτρολογίου καμίας εφαρμογής. Το απόρρητο ισχύει πρώτο: τα κρυφά πλήκτρα δεν παίρνουν καμία ετικέτα.</value></data>
+  <data name="Preview.BoardTitle" xml:space="preserve"><value>Μια πιο καθαρή ιδέα</value></data>
+  <data name="Preview.FocusLens" xml:space="preserve"><value>Ξεχωριστός μετακινούμενος φακός · {0}×</value></data>
+  <data name="Preview.FocusDim" xml:space="preserve"><value>Περιβάλλον σκοτεινότερο κατά {0} %</value></data>
+  <data name="Preview.NormalField" xml:space="preserve"><value>Μήνυμα</value></data>
+  <data name="Preview.ProtectedField" xml:space="preserve"><value>Προστατευμένο πεδίο</value></data>
+  <data name="Preview.SafePhrase" xml:space="preserve"><value>Γεια σου, ομάδα</value></data>
+  <data name="Preview.ReturnPhrase" xml:space="preserve"><value>Επόμενη ιδέα</value></data>
+  <data name="Preview.PrivacyNormal" xml:space="preserve"><value>Προσομοίωση · κανονικό πεδίο: τα πλήκτρα εμφανίζονται κανονικά.</value></data>
+  <data name="Preview.PrivacyProtected" xml:space="preserve"><value>Προσομοίωση · προστατευμένο πεδίο: δεν εμφανίζεται τίποτα, ούτε αργότερα.</value></data>
+  <data name="Radial.Name" xml:space="preserve"><value>Κυκλικό μενού</value></data>
+  <data name="Radial.Back" xml:space="preserve"><value>Πίσω στον κύριο δακτύλιο</value></data>
+  <data name="Radial.Show" xml:space="preserve"><value>Εμφάνιση στην οθόνη</value></data>
+  <data name="Draw.Category.Edit" xml:space="preserve"><value>Επεξεργασία</value></data>
+  <data name="Draw.More" xml:space="preserve"><value>Περισσότερα</value></data>
+  <data name="Draw.Expand" xml:space="preserve"><value>Πλήρης γραμμή</value></data>
+  <data name="Draw.Compact" xml:space="preserve"><value>Συμπαγής γραμμή</value></data>
+  <data name="Draw.CustomColor" xml:space="preserve"><value>Οποιοδήποτε χρώμα (HEX και διαφάνεια)</value></data>
+  <data name="Draw.Stroke" xml:space="preserve"><value>Γραμμή: πάχος και στιλ</value></data>
+  <data name="Draw.Radius" xml:space="preserve"><value>Ακτίνα γωνιών</value></data>
+  <data name="Draw.RadiusLess" xml:space="preserve"><value>Μικρότερη ακτίνα γωνιών</value></data>
+  <data name="Draw.RadiusMore" xml:space="preserve"><value>Μεγαλύτερη ακτίνα γωνιών</value></data>
+  <data name="Draw.Sides" xml:space="preserve"><value>Αριθμός κορυφών</value></data>
+  <data name="Draw.SidesLess" xml:space="preserve"><value>Λιγότερες κορυφές</value></data>
+  <data name="Draw.SidesMore" xml:space="preserve"><value>Περισσότερες κορυφές</value></data>
+  <data name="Focus.LensLabel" xml:space="preserve"><value>Μεγεθυντικός φακός · {0}×</value></data>
+  <data name="Mouse.Circle.Hint" xml:space="preserve"><value>Εμφανίζεται γύρω από τον δείκτη όσο είναι πατημένο ένα κουμπί του ποντικιού.</value></data>
+  <data name="Mouse.Highlight.Title" xml:space="preserve"><value>Επισήμανση δείκτη</value></data>
+  <data name="Mouse.Highlight" xml:space="preserve"><value>Επισήμανση του δείκτη</value></data>
+  <data name="Mouse.HighlightHint" xml:space="preserve"><value>Μια απαλή λάμψη που ακολουθεί πάντα τον δείκτη, ώστε οι θεατές να μην τον χάνουν.</value></data>
+  <data name="Mouse.HighlightColor" xml:space="preserve"><value>Χρώμα επισήμανσης</value></data>
+  <data name="Mouse.HighlightSize" xml:space="preserve"><value>Μέγεθος επισήμανσης</value></data>
+  <data name="Fonts.Standard" xml:space="preserve"><value>Τυπική</value></data>
+  <data name="Settings.Menu" xml:space="preserve"><value>Μενού</value></data>
+  <data name="Settings.HelpButtonHint" xml:space="preserve"><value>Βοήθεια για αυτή τη σελίδα (F1)· μέσα αναζήτηση και όλα τα θέματα</value></data>
+  <data name="Profiles.AutosaveHint" xml:space="preserve"><value>Οι αλλαγές εφαρμόζονται αμέσως και αποθηκεύονται αυτόματα σε αυτό το προφίλ.</value></data>
+  <data name="Profiles.ExportCurrent" xml:space="preserve"><value>Εξαγωγή τρέχοντος προφίλ…</value></data>
+  <data name="Profiles.Retry" xml:space="preserve"><value>Δοκιμή ξανά</value></data>
+  <data name="Profiles.SaveFailed.Title" xml:space="preserve"><value>Οι αλλαγές δεν αποθηκεύτηκαν</value></data>
+  <data name="Profiles.Error.SaveFailed" xml:space="preserve"><value>Το προφίλ «{0}» δεν γράφτηκε ({1}). Οι αλλαγές έχουν εφαρμοστεί και διατηρούνται μέχρι την επόμενη προσπάθεια.</value></data>
+  <data name="Profiles.Error.ExportFailed" xml:space="preserve"><value>Το αρχείο δεν γράφτηκε ({0}). Το ίδιο το προφίλ δεν άλλαξε.</value></data>
+  <data name="Profiles.WorkingCopyName" xml:space="preserve"><value>{0} — το αντίγραφό μου</value></data>
+  <data name="Profiles.WorkingCopyNote" xml:space="preserve"><value>Το προηγούμενο προφίλ είναι μόνο για ανάγνωση, οπότε οι αλλαγές σας πήγαν σε αντίγραφο εργασίας: «{0}». Το πρωτότυπο μένει αμετάβλητο.</value></data>
+  <data name="Note.ProfilesAutosave" xml:space="preserve"><value>προφίλ: οι αλλαγές αποθηκεύονται πλέον αυτόματα. Οι εφαρμοσμένες ρυθμίσεις αποθηκεύτηκαν στο «{0}»· η προηγούμενη αποθηκευμένη έκδοσή του διατηρείται ως «{1}»</value></data>
+  <data name="Privacy.Apps.Title" xml:space="preserve"><value>Πάντα κρυφό σε αυτές τις εφαρμογές</value></data>
+  <data name="Privacy.Limits.Title" xml:space="preserve"><value>Τι μπορεί και τι δεν μπορεί να κάνει το απόρρητο</value></data>
+  <data name="Plugins.View" xml:space="preserve"><value>Προβολή</value></data>
+  <data name="Plugins.View.Cards" xml:space="preserve"><value>Κάρτες</value></data>
+  <data name="Plugins.View.List" xml:space="preserve"><value>Λίστα</value></data>
+  <data name="Plugins.Installed.Title" xml:space="preserve"><value>Εγκατεστημένα πρόσθετα</value></data>
+  <data name="Plugins.None.Title" xml:space="preserve"><value>Δεν υπάρχουν ακόμη πρόσθετα</value></data>
+  <data name="Plugins.None" xml:space="preserve"><value>Εισαγάγετε ένα πακέτο .bppkg για να προσθέσετε ένα πρόσθετο. Η εισαγωγή δεν εκτελεί τον κώδικά του: ένα πρόσθετο ξεκινά μόνο αφού το ενεργοποιήσετε και επιβεβαιώσετε ότι το εμπιστεύεστε.</value></data>
+  <data name="Plugins.VersionAuthor" xml:space="preserve"><value>Έκδοση {0} · {1}</value></data>
+  <data name="Plugins.State.Failed" xml:space="preserve"><value>Σφάλμα: η διεργασία του προσθέτου σταμάτησε</value></data>
+  <data name="Plugins.FavoriteHint" xml:space="preserve"><value>Εμφάνιση αυτού του προσθέτου στο αριστερό μενού</value></data>
+  <data name="Plugins.State.Crashed" xml:space="preserve"><value>Σφάλμα: απενεργοποιήθηκε μετά από επανειλημμένες καταρρεύσεις</value></data>
+  <data name="Focus.Grip.Lens" xml:space="preserve"><value>Φακός</value></data>
+  <data name="Focus.Grip.Area" xml:space="preserve"><value>Περιοχή</value></data>
+  <data name="Focus.Grip.Source" xml:space="preserve"><value>Πηγή</value></data>
+  <data name="Focus.Grip.Resize" xml:space="preserve"><value>Μέγεθος</value></data>
+  <data name="Focus.EditHintFollow" xml:space="preserve"><value>Σύρετε μέσα στο πλαίσιο για να το μετακινήσετε (ο φακός μεγεθύνει ό,τι υπάρχει από κάτω), στη δεξιά ή κάτω άκρη για αλλαγή μεγέθους. Esc ή Enter — τέλος.</value></data>
+  <data name="Help.Contents" xml:space="preserve"><value>Περιεχόμενα</value></data>
+  <data name="Draw.Palette.Neon" xml:space="preserve"><value>Χρώματα νέον</value></data>
+  <data name="Draw.Palette.Classic" xml:space="preserve"><value>Κλασικά χρώματα</value></data>
+  <data name="Hotkeys.Status.Unavailable" xml:space="preserve"><value>Αποθηκεύτηκε, αλλά η εντολή είναι τώρα ανενεργή (το εργαλείο ή το πρόσθετο είναι απενεργοποιημένο). Θα λειτουργήσει ξανά όταν ενεργοποιηθεί.</value></data>
+  <data name="Preview.Timer" xml:space="preserve"><value>Χρονόμετρο</value></data>
+  <data name="Home.F.Tools" xml:space="preserve"><value>Εργαλεία σχεδίασης και παρουσίασης</value></data>
+  <data name="Home.F.ToolsHint" xml:space="preserve"><value>Η σχεδίαση, η ένδειξη διάταξης, ο μεγεθυντικός φακός στον δείκτη, ο φακός, η εστίαση και το χρονόμετρο είναι πρόσθετα του δημιουργού. Βρίσκονται ήδη στον κατάλογο — ενεργοποιήστε όσα χρειάζεστε.</value></data>
+  <data name="Home.F.Open" xml:space="preserve"><value>Άνοιγμα προσθέτων</value></data>
+  <data name="Plugins.Command.Hold" xml:space="preserve"><value>Λειτουργεί όσο κρατιέται πατημένο</value></data>
+  <data name="Plugins.Command.Off" xml:space="preserve"><value>Διαθέσιμο αφού ενεργοποιηθεί το πρόσθετο.</value></data>
+  <data name="Plugins.Bundled.Title" xml:space="preserve"><value>Μη εγκατεστημένα πρόσθετα του δημιουργού</value></data>
+  <data name="Plugins.Bundled.Hint" xml:space="preserve"><value>Συνοδεύουν το Backpack. Ένα πρόσθετο που αφαιρέσατε δεν προστίθεται ξανά μόνο του· προσθέστε το εδώ. Οι ρυθμίσεις και οι συντομεύσεις των παλιών ενσωματωμένων εργαλείων μεταφέρονται. Έπειτα ενεργοποιήστε το καθένα — το Backpack σας ζητά πρώτα να επιβεβαιώσετε την εμπιστοσύνη.</value></data>
+  <data name="Plugins.Bundled.Import" xml:space="preserve"><value>Προσθήκη ξανά</value></data>
+  <data name="Plugins.Bundled.Done" xml:space="preserve"><value>Προστέθηκαν: {0}. Ενεργοποιήστε τα πρόσθετα στις κάρτες τους.</value></data>
+  <data name="Draw.OpacityValue" xml:space="preserve"><value>Αδιαφάνεια: {0} %</value></data>
+  <data name="Mouse.OutlineWidth" xml:space="preserve"><value>Πάχος περιγράμματος</value></data>
+  <data name="Mouse.SolidOutline" xml:space="preserve"><value>Περίγραμμα</value></data>
+  <data name="Mouse.SolidOutlineHint" xml:space="preserve"><value>Ένα περίγραμμα γύρω από το γεμάτο σώμα.</value></data>
+  <data name="Mouse.SolidOutlineColor" xml:space="preserve"><value>Χρώμα περιγράμματος</value></data>
+  <data name="Labels.Corner" xml:space="preserve"><value>Γωνία</value></data>
+  <data name="Labels.Corner.TopLeft" xml:space="preserve"><value>Πάνω αριστερά</value></data>
+  <data name="Labels.Corner.TopRight" xml:space="preserve"><value>Πάνω δεξιά</value></data>
+  <data name="Labels.Corner.BottomLeft" xml:space="preserve"><value>Κάτω αριστερά</value></data>
+  <data name="Labels.Corner.BottomRight" xml:space="preserve"><value>Κάτω δεξιά</value></data>
+  <data name="Labels.Size" xml:space="preserve"><value>Μέγεθος πρόσθετης ετικέτας</value></data>
+  <data name="Labels.SizeHint" xml:space="preserve"><value>Ποσοστό του τυπικού μεγέθους ετικέτας.</value></data>
+  <data name="Labels.OffsetX" xml:space="preserve"><value>Οριζόντια μετατόπιση</value></data>
+  <data name="Labels.OffsetY" xml:space="preserve"><value>Κατακόρυφη μετατόπιση</value></data>
+  <data name="Plugins.Cap.overlay.magnifier" xml:space="preserve"><value>μεγεθυντικός φακός που σχεδιάζει το Backpack (καμία εικόνα της οθόνης δεν δίνεται στο πρόσθετο)</value></data>
+  <data name="Plugins.Cap.overlay.dim" xml:space="preserve"><value>σκίαση γύρω από μια περιοχή, που σχεδιάζει το Backpack</value></data>
+  <data name="Labels.MainSize" xml:space="preserve"><value>Μέγεθος κύριας ετικέτας</value></data>
+  <data name="Labels.MainSizeHint" xml:space="preserve"><value>Ποσοστό του τυπικού μεγέθους ετικέτας· σε λειτουργία δύο ετικετών το κύριο γράμμα είναι λίγο μικρότερο.</value></data>
+  <data name="Labels.OffsetHint" xml:space="preserve"><value>Από το ασφαλές σημείο στην επιλεγμένη γωνία· θετικές τιμές μετακινούν προς το κέντρο της επιφάνειας του πλήκτρου.</value></data>
+  <data name="Styles.Why.NoSelection" xml:space="preserve"><value>Δεν έχει επιλεγεί στιλ.</value></data>
+  <data name="Styles.Why.NotModified" xml:space="preserve"><value>Τίποτα δεν άλλαξε από την εφαρμογή του στιλ.</value></data>
+  <data name="Styles.Why.BuiltIn" xml:space="preserve"><value>Τα ενσωματωμένα στιλ δεν μετονομάζονται ούτε διαγράφονται· αποθηκεύστε αντίγραφο.</value></data>
+  <data name="Surface.Title" xml:space="preserve"><value>Στιλ επιφανειών</value></data>
+  <data name="Surface.TitleHint" xml:space="preserve"><value>Πώς φαίνονται οι κάρτες, τα πεδία και τα περιγράμματα. Ανεξάρτητο από φωτεινή ή σκοτεινή λειτουργία, το θέμα χρωμάτων και το υλικό.</value></data>
+  <data name="Surface.Kind" xml:space="preserve"><value>Στιλ</value></data>
+  <data name="Surface.Standard" xml:space="preserve"><value>Τυπικό</value></data>
+  <data name="Surface.LiquidGlass" xml:space="preserve"><value>Liquid Glass</value></data>
+  <data name="Surface.Neon" xml:space="preserve"><value>Backpack Neon</value></data>
+  <data name="Surface.Standard.Hint" xml:space="preserve"><value>Ήρεμες κάρτες με απαλά ουδέτερα περιγράμματα.</value></data>
+  <data name="Surface.LiquidGlass.Hint" xml:space="preserve"><value>Γυάλινες κάρτες με αντανάκλαση και ανοιχτά διαβαθμισμένα περιγράμματα. Είναι η εμφάνιση του Backpack, όχι εφέ συστήματος των Windows· με Mica ή Ακρυλικό το υλικό διαφαίνεται.</value></data>
+  <data name="Surface.Neon.Hint" xml:space="preserve"><value>Η πιο σκοτεινή βάση, λεπτά περιγράμματα στο χρώμα λάμψης του θέματος και απαλή λάμψη στα ενεργά στοιχεία. Οι κάρτες μένουν ήρεμες, τα πεδία πιο καθαρά, η επιλογή η πιο φωτεινή. Το κείμενο δεν λάμπει.</value></data>
+  <data name="Surface.HighContrast" xml:space="preserve"><value>Η υψηλή αντίθεση είναι ενεργή: χρησιμοποιείται το τυπικό στιλ μέχρι να απενεργοποιηθεί.</value></data>
+  <data name="Backdrop.Kind" xml:space="preserve"><value>Υλικό</value></data>
+  <data name="Backdrop.Fill" xml:space="preserve"><value>Γέμισμα</value></data>
+  <data name="Backdrop.Clear" xml:space="preserve"><value>Διαφανές</value></data>
+  <data name="Backdrop.Acrylic" xml:space="preserve"><value>Ακρυλικό</value></data>
+  <data name="Backdrop.Mica" xml:space="preserve"><value>Mica</value></data>
+  <data name="Backdrop.Fill.Hint" xml:space="preserve"><value>Το υπόστρωμα γεμίζει με το χρώμα του· η διαφάνειά του είναι το άλφα του χρώματος.</value></data>
+  <data name="Backdrop.Clear.Hint" xml:space="preserve"><value>Χωρίς γέμισμα: ό,τι βρίσκεται πίσω μένει πλήρως ορατό, το σχήμα διατηρείται με λεπτό περίγραμμα στο χρώμα του υποστρώματος. Το μέγεθος και η στρογγύλευση δεν αλλάζουν.</value></data>
+  <data name="Backdrop.Fallback" xml:space="preserve"><value>Το αποθηκευμένο υλικό {0} δεν είναι διαθέσιμο για επικαλύψεις — χρησιμοποιείται γέμισμα.</value></data>
+  <data name="Backdrop.SystemNote" xml:space="preserve"><value>Το Ακρυλικό και το Mica δεν προσφέρονται εδώ: σε παράθυρα επικάλυψης που αφήνουν τα κλικ να περνούν, τα Windows τα εφαρμόζουν σε όλο το ορθογώνιο του παραθύρου, χωρίς στρογγύλευση και χωρίς να σβήνουν μαζί με τα πλήκτρα. Οι ετικέτες και οι ενδείξεις κουμπιών δεν θολώνουν ποτέ.</value></data>
+  <data name="Backdrop.Keycaps.Title" xml:space="preserve"><value>Υλικό υποστρώματος</value></data>
+  <data name="Backdrop.Keycaps.Hint" xml:space="preserve"><value>Το υπόστρωμα πίσω από την ομάδα πλήκτρων. Αποθηκεύεται στο στιλ πλήκτρων και στο προφίλ.</value></data>
+  <data name="Backdrop.Mouse.Title" xml:space="preserve"><value>Υλικό υποστρώματος εικονιδίου</value></data>
+  <data name="Backdrop.Mouse.Hint" xml:space="preserve"><value>Το υπόστρωμα πίσω από το εικονίδιο ποντικιού δίπλα στον δείκτη. Αποθηκεύεται στο στιλ ποντικιού και στο προφίλ.</value></data>
+  <data name="Common.More" xml:space="preserve"><value>Περισσότερα</value></data>
+  <data name="Settings.Nav.IndicatorStyle" xml:space="preserve"><value>Στιλ ένδειξης</value></data>
+  <data name="IndicatorStyle.Title" xml:space="preserve"><value>Στιλ ένδειξης διάταξης</value></data>
+  <data name="IndicatorStyle.Hint" xml:space="preserve"><value>Η εμφάνιση που χρησιμοποιεί το πρόσθετο Ένδειξη διάταξης όταν η Εμφάνισή του έχει οριστεί σε «Στιλ ένδειξης». Πότε και πού εμφανίζεται ρυθμίζεται στη σελίδα του προσθέτου.</value></data>
+  <data name="App.Shot.Hint" xml:space="preserve"><value>Τα στιγμιότυπα οθόνης που λαμβάνονται στον καμβά σχεδίασης αποθηκεύονται εδώ.</value></data>
+  <data name="Plugins.Creator" xml:space="preserve"><value>Από τον δημιουργό</value></data>
+  <data name="Plugins.Creator.Hint" xml:space="preserve"><value>Παραδόθηκε με αυτή την έκδοση του Backpack: το εγκατεστημένο πακέτο ταιριάζει με το ευρετήριο παράδοσης βάσει του αθροίσματος ελέγχου SHA-256. Δεν είναι κρυπτογραφική υπογραφή εκδότη.</value></data>
+  <data name="Note.ToolsArePlugins" xml:space="preserve"><value>Η σχεδίαση και η ένδειξη διάταξης είναι πλέον πρόσθετα: {0}. Οι ρυθμίσεις και οι συντομεύσεις σας μεταφέρθηκαν. Μένουν ανενεργά μέχρι να τα ενεργοποιήσετε στα Πρόσθετα.</value></data>
+  <data name="Plugins.Cap.overlay.draw" xml:space="preserve"><value>καμβάς σχεδίασης που σχεδιάζει το Backpack (το πρόσθετο δεν λαμβάνει ούτε σχέδια ούτε εικόνες οθόνης)</value></data>
+  <data name="Plugins.Cap.overlay.indicator" xml:space="preserve"><value>ένδειξη πάνω από την οθόνη που σχεδιάζει το Backpack</value></data>
+  <data name="Plugins.Cap.input.layout" xml:space="preserve"><value>αλλαγές διάταξης πληκτρολογίου (χωρίς πατήματα πλήκτρων)</value></data>
+  <data name="Plugins.Display.Title" xml:space="preserve"><value>Προβολή</value></data>
+  <data name="Plugins.Symbol" xml:space="preserve"><value>Εικονίδιο</value></data>
+  <data name="Plugins.Symbol.HintAuthor" xml:space="preserve"><value>Το εικονίδιο του δημιουργού. Εμφανίζεται στο μενού, στην κάρτα και στην κεφαλίδα της σελίδας.</value></data>
+  <data name="Plugins.Symbol.HintUser" xml:space="preserve"><value>Δική σας επιλογή. Διατηρείται όταν το πρόσθετο ενημερώνεται.</value></data>
+  <data name="Plugins.Symbol.Change" xml:space="preserve"><value>Επιλογή εικονιδίου</value></data>
+  <data name="Plugins.Symbol.Reset" xml:space="preserve"><value>Χρήση του εικονιδίου του δημιουργού</value></data>
+  <data name="Plugins.Symbol.IsAuthor" xml:space="preserve"><value>Το εικονίδιο του δημιουργού χρησιμοποιείται ήδη</value></data>
+  <data name="Plugins.Symbol.Search" xml:space="preserve"><value>Αναζήτηση εικονιδίων</value></data>
+  <data name="Plugins.Symbol.NoMatch" xml:space="preserve"><value>Κανένα εικονίδιο δεν ταιριάζει. Δοκιμάστε άλλη λέξη, για παράδειγμα πένα, χρονόμετρο ή αναζήτηση.</value></data>
+  <data name="Renderer.Neon" xml:space="preserve"><value>Νέον</value></data>
+  <data name="MouseRenderer.Neon" xml:space="preserve"><value>Νέον</value></data>
+  <data name="Appearance.Glow" xml:space="preserve"><value>Λάμψη</value></data>
+  <data name="Appearance.GlowHint" xml:space="preserve"><value>Απαλή λάμψη γύρω από το πλήκτρο· δυναμώνει όσο το πλήκτρο είναι πατημένο. Το 0 την απενεργοποιεί.</value></data>
+  <data name="Mouse.GlowHint" xml:space="preserve"><value>Απαλή λάμψη γύρω από το εικονίδιο ποντικιού· δυναμώνει όσο ένα κουμπί είναι πατημένο. Το 0 την απενεργοποιεί.</value></data>
+  <data name="Draw.AngleLabels.On" xml:space="preserve"><value>Μέγεθος γωνίας: εμφανίζεται πάντα (κλικ για εμφάνιση μόνο κατά τη σχεδίαση)</value></data>
+  <data name="Draw.AngleLabels.Off" xml:space="preserve"><value>Μέγεθος γωνίας: εμφανίζεται μόνο κατά τη σχεδίαση (κλικ για να μένει στην οθόνη)</value></data>
+  <data name="Draw.Hint.Box" xml:space="preserve"><value>Shift — τετράγωνο ή κύκλος · Alt — από το κέντρο</value></data>
+  <data name="Draw.Hint.Line" xml:space="preserve"><value>Shift — κατεύθυνση σε βήματα 15°</value></data>
+  <data name="Draw.Hint.Polygon" xml:space="preserve"><value>Σύρετε από το κέντρο · Shift — περιστροφή σε βήματα 15°</value></data>
+  <data name="Draw.Hint.Select" xml:space="preserve"><value>Γωνίες και πλευρές — μέγεθος · πάνω λαβή — περιστροφή · Shift — διατήρηση αναλογιών · Alt — από το κέντρο · Esc — ακύρωση</value></data>
+  <data name="Draw.Hint.SmartPen" xml:space="preserve"><value>Αναγνωρίζονται γραμμές, σχήματα, τόξα και γωνίες· το μέγεθος της γωνίας εμφανίζεται όσο κρατιέται το κουμπί</value></data>
+  <data name="Help.NotTranslated" xml:space="preserve"><value>Η βοήθεια δεν έχει μεταφραστεί ακόμη σε αυτή τη γλώσσα· εμφανίζεται η αγγλική βοήθεια.</value></data>
+  <data name="About.MadeIn" xml:space="preserve"><value>Κατασκευάστηκε στην Ουκρανία</value></data>
+</root>

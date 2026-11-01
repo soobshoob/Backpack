@@ -1,6 +1,6 @@
 # Backpack Help
 
-Backpack is a toolkit for clear presentations, tutorial videos and screen demos: it shows the keys and mouse buttons you press, highlights an area with Focus, magnifies around the pointer, lets you draw over the screen with a smart pen, shapes and numbered steps, and extends with plugins. Backpack was called KeyOverlay before; your settings, profiles and styles are moved automatically. This help describes only what already works.
+Backpack is a toolkit for clear presentations, tutorial videos and screen demos: it shows the keys and mouse buttons you press, highlights an area with Focus, magnifies around the pointer, lets you draw over the screen with a smart pen, shapes and numbered steps, and extends with plugins. This help describes only what already works.
 
 ## Contents
 

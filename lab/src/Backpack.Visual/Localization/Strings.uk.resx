@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Строки интерфейса Backpack (uk). Ключи стабильны и не переводятся; переводятся только значения целыми фразами. -->
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="About.Author" xml:space="preserve"><value>Автор</value></data>
+  <data name="About.AutoCheck" xml:space="preserve"><value>Перевіряти автоматично</value></data>
+  <data name="About.AutoCheckHint" xml:space="preserve"><value>Раз на добу, поки працює Backpack. Лише запит до GitHub; налаштування й введення не надсилаються.</value></data>
+  <data name="About.Channel" xml:space="preserve"><value>Канал</value></data>
+  <data name="About.ChannelHint" xml:space="preserve"><value>Stable ніколи не пропонує попередні версії.</value></data>
+  <data name="About.Check" xml:space="preserve"><value>Перевірити</value></data>
+  <data name="About.Checking" xml:space="preserve"><value>Перевірка…</value></data>
+  <data name="About.CheckNow" xml:space="preserve"><value>Перевірити зараз</value></data>
+  <data name="About.License" xml:space="preserve"><value>Ліцензія</value></data>
+  <data name="About.LicenseHint" xml:space="preserve"><value>Ядро Backpack. Повний текст — файл LICENSE поруч із програмою та в репозиторії; повідомлення про авторські права — у NOTICE. SDK плагінів і плагіни від творця мають окремі умови (LICENSE-STATUS.md). Кнопка відкриває офіційну сторінку.</value></data>
+  <data name="About.LicenseNone" xml:space="preserve"><value>Автор ще не вибрав ліцензію проєкту.</value></data>
+  <data name="About.LicenseNotChosen" xml:space="preserve"><value>ще не вибрано</value></data>
+  <data name="About.NotConfigured" xml:space="preserve"><value>не налаштовано</value></data>
+  <data name="About.OpenDownload" xml:space="preserve"><value>Відкрити сторінку завантаження</value></data>
+  <data name="About.OpenLink.Message" xml:space="preserve"><value>Відкрити в браузері?
+{0}</value></data>
+  <data name="About.OpenLink.Title" xml:space="preserve"><value>Відкрити посилання</value></data>
+  <data name="About.ReleaseDate" xml:space="preserve"><value>Дата випуску</value></data>
+  <data name="About.ReleaseDateNone" xml:space="preserve"><value>Збірка розробника: дати випуску немає.</value></data>
+  <data name="About.ReleaseTitle" xml:space="preserve"><value>Версія {0} ({1})</value></data>
+  <data name="About.ThirdParty" xml:space="preserve"><value>Сторонні компоненти</value></data>
+  <data name="About.ThirdPartyLine" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="About.ThirdPartyNote" xml:space="preserve"><value>Тексти ліцензій — у папці Licenses поруч із програмою.</value></data>
+  <data name="About.Title" xml:space="preserve"><value>Backpack</value></data>
+  <data name="About.UpdateNote" xml:space="preserve"><value>Backpack ніколи не завантажує й не запускає оновлення сама: сторінка завантаження відкривається у браузері.</value></data>
+  <data name="About.Updates" xml:space="preserve"><value>Оновлення</value></data>
+  <data name="About.UpdateSource" xml:space="preserve"><value>Джерело випусків</value></data>
+  <data name="About.UpdateSourceNone" xml:space="preserve"><value>Репозиторій із випусками в цій збірці не задано, тому оновлення перевірити не можна.</value></data>
+  <data name="About.Version" xml:space="preserve"><value>Версія</value></data>
+  <data name="About.VersionLine" xml:space="preserve"><value>Версія {0} · {1}</value></data>
+  <data name="Anchor.BottomCenter" xml:space="preserve"><value>Унизу по центру</value></data>
+  <data name="Anchor.BottomLeft" xml:space="preserve"><value>Унизу ліворуч</value></data>
+  <data name="Anchor.BottomRight" xml:space="preserve"><value>Унизу праворуч</value></data>
+  <data name="Anchor.Center" xml:space="preserve"><value>У центрі</value></data>
+  <data name="Anchor.CenterLeft" xml:space="preserve"><value>Посередині ліворуч</value></data>
+  <data name="Anchor.CenterRight" xml:space="preserve"><value>Посередині праворуч</value></data>
+  <data name="Anchor.TopCenter" xml:space="preserve"><value>Угорі по центру</value></data>
+  <data name="Anchor.TopLeft" xml:space="preserve"><value>Угорі ліворуч</value></data>
+  <data name="Anchor.TopRight" xml:space="preserve"><value>Угорі праворуч</value></data>
+  <data name="App.Home.Animation" xml:space="preserve"><value>Демонстраційна анімація</value></data>
+  <data name="App.Home.AnimationHint" xml:space="preserve"><value>Короткий зациклений приклад на «Головній». Він також стоїть на паузі, якщо анімації Windows вимкнено.</value></data>
+  <data name="App.Home.Title" xml:space="preserve"><value>Головна сторінка</value></data>
+  <data name="App.Language" xml:space="preserve"><value>Мова інтерфейсу</value></data>
+  <data name="App.Language.Hint" xml:space="preserve"><value>Мова вікон, меню й довідки. Не змінює розкладку клавіатури та підписи клавіш.</value></data>
+  <data name="App.Language.System" xml:space="preserve"><value>Системна</value></data>
+  <data name="App.Language.Title" xml:space="preserve"><value>Мова</value></data>
+  <data name="App.Theme" xml:space="preserve"><value>Світла чи темна</value></data>
+  <data name="App.Theme.Dark" xml:space="preserve"><value>Темна</value></data>
+  <data name="App.Theme.Hint" xml:space="preserve"><value>Світлі або темні вікна Backpack. Кейкапи, індикатор і миша зберігають власні кольори.</value></data>
+  <data name="App.Theme.Light" xml:space="preserve"><value>Світла</value></data>
+  <data name="App.Theme.System" xml:space="preserve"><value>Системна</value></data>
+  <data name="App.Tray.Close" xml:space="preserve"><value>Закриття головного вікна</value></data>
+  <data name="App.Tray.Close.Exit" xml:space="preserve"><value>Вийти</value></data>
+  <data name="App.Tray.Close.ToTray" xml:space="preserve"><value>Сховати в трей</value></data>
+  <data name="App.Tray.CloseHint" xml:space="preserve"><value>Кнопка × вікна діагностики. Закриття вікна налаштувань ніколи не завершує роботу.</value></data>
+  <data name="App.Tray.Hint" xml:space="preserve"><value>Клацніть значок у треї, щоб показати вікна; правою кнопкою — перемикачі та «Вийти».</value></data>
+  <data name="App.Tray.Note" xml:space="preserve"><value>Windows сама вирішує, чи буде значок на панелі, чи під стрілкою ^.</value></data>
+  <data name="App.Autostart.Title" xml:space="preserve"><value>Автозапуск</value></data>
+  <data name="App.Autostart" xml:space="preserve"><value>Запускати разом із Windows</value></data>
+  <data name="App.Autostart.Hint" xml:space="preserve"><value>Backpack запускається в області сповіщень під час входу в Windows. Права адміністратора не потрібні.</value></data>
+  <data name="App.Autostart.OtherCopy" xml:space="preserve"><value>Автозапуск налаштовано для іншої копії: {0}. Увімкніть, щоб натомість запускалася ця копія.</value></data>
+  <data name="App.Autostart.Missing" xml:space="preserve"><value>Автозапуск указує на файл, якого вже немає: {0}. Увімкніть, щоб запускалася ця копія.</value></data>
+  <data name="App.Autostart.Disabled" xml:space="preserve"><value>Вимкнено у списку автозавантаження Windows. Увімкніть тут, щоб знову дозволити.</value></data>
+  <data name="App.Autostart.Failed" xml:space="preserve"><value>Не вдалося змінити автозапуск ({0}).</value></data>
+  <data name="App.Tray.Title" xml:space="preserve"><value>Область сповіщень</value></data>
+  <data name="Appearance.Anim.Duration" xml:space="preserve"><value>Тривалість</value></data>
+  <data name="Appearance.Anim.EnterExit" xml:space="preserve"><value>Поява і зникнення</value></data>
+  <data name="Appearance.Anim.Press" xml:space="preserve"><value>Анімація натискання</value></data>
+  <data name="Appearance.Anim.PressHint" xml:space="preserve"><value>Кейкап трохи опускається, поки клавіша утримується.</value></data>
+  <data name="Appearance.Anim.Title" xml:space="preserve"><value>Анімація</value></data>
+  <data name="Appearance.Colors.AlphaHint" xml:space="preserve"><value>Останні дві цифри в #RRGGBBAA задають непрозорість.</value></data>
+  <data name="Appearance.Colors.Background" xml:space="preserve"><value>Тло ряду</value></data>
+  <data name="Appearance.Colors.BackgroundColor" xml:space="preserve"><value>Колір тла</value></data>
+  <data name="Appearance.Colors.Border" xml:space="preserve"><value>Обведення</value></data>
+  <data name="Appearance.Colors.BorderColor" xml:space="preserve"><value>Колір обведення</value></data>
+  <data name="Appearance.Colors.BorderWidth" xml:space="preserve"><value>Товщина обведення</value></data>
+  <data name="Appearance.Colors.Face" xml:space="preserve"><value>Верх кейкапа</value></data>
+  <data name="Appearance.Colors.Skirt" xml:space="preserve"><value>Бік кейкапа</value></data>
+  <data name="Appearance.Colors.SkirtHint" xml:space="preserve"><value>Нижній край, що дає кейкапу об’єм.</value></data>
+  <data name="Appearance.Colors.Text" xml:space="preserve"><value>Підпис</value></data>
+  <data name="Appearance.Colors.Title" xml:space="preserve"><value>Кольори</value></data>
+  <data name="Appearance.Gradient" xml:space="preserve"><value>Градієнт</value></data>
+  <data name="Appearance.GradientHint" xml:space="preserve"><value>Лише «Ноутбук» і PBT.</value></data>
+  <data name="Appearance.Keycap.Hint" xml:space="preserve"><value>Розмір і заокруглення кутів.</value></data>
+  <data name="Appearance.Keycap.Radius" xml:space="preserve"><value>Заокруглення</value></data>
+  <data name="Appearance.Keycap.RadiusHint" xml:space="preserve"><value>0 — прямі кути, 1 — найбільше заокруглення.</value></data>
+  <data name="Appearance.Keycap.Size" xml:space="preserve"><value>Розмір</value></data>
+  <data name="Appearance.Keycap.SizeHint" xml:space="preserve"><value>Висота кейкапа в незалежних від пристрою пікселях.</value></data>
+  <data name="Appearance.Keycap.Title" xml:space="preserve"><value>Кейкап</value></data>
+  <data name="Appearance.Labels.Hint" xml:space="preserve"><value>Як підписані модифікатори та спеціальні клавіші на кейкапах.</value></data>
+  <data name="Appearance.Labels.Mixed" xml:space="preserve"><value>Змішано</value></data>
+  <data name="Appearance.Labels.Mode" xml:space="preserve"><value>Вигляд підписів</value></data>
+  <data name="Appearance.Labels.ModeHint" xml:space="preserve"><value>Змішано: символ і назва, де вони поміщаються; лише символи; або лише текст.</value></data>
+  <data name="Appearance.Labels.Set" xml:space="preserve"><value>Набір підписів</value></data>
+  <data name="Appearance.Labels.SetHint" xml:space="preserve"><value>Назви як на клавіатурах Windows, macOS або Linux. Розкладка не змінюється.</value></data>
+  <data name="Appearance.Labels.Symbols" xml:space="preserve"><value>Символи</value></data>
+  <data name="Appearance.Labels.Text" xml:space="preserve"><value>Текст</value></data>
+  <data name="Appearance.Labels.Title" xml:space="preserve"><value>Підписи клавіш</value></data>
+  <data name="Appearance.Markers" xml:space="preserve"><value>Позначки лівої/правої</value></data>
+  <data name="Appearance.MarkersHint" xml:space="preserve"><value>Маленькі позначки «R» і «num» на правих Ctrl, Shift, Alt, Win і на клавішах цифрового блоку.</value></data>
+  <data name="Appearance.PressCount" xml:space="preserve"><value>Лічильник натискань</value></data>
+  <data name="Appearance.PressCountHint" xml:space="preserve"><value>Значок «2», «3»… коли клавішу натиснуто знову, поки сполучення утримується.</value></data>
+  <data name="Appearance.Renderer" xml:space="preserve"><value>Рендер</value></data>
+  <data name="Appearance.Renderer.Hint" xml:space="preserve"><value>Геометрія кейкапа. Пресет або стиль вище задає її разом із кольорами; тут можна змінити лише геометрію.</value></data>
+  <data name="Appearance.Renderer.Title" xml:space="preserve"><value>Спосіб малювання</value></data>
+  <data name="Appearance.RendererHint" xml:space="preserve"><value>Кольори й розміри залишаються.</value></data>
+  <data name="Appearance.VolEnter" xml:space="preserve"><value>Г-подібний Enter</value></data>
+  <data name="Appearance.VolEnterHint" xml:space="preserve"><value>Лише об’ємний. Інші клавіші залишаються квадратними або компактними видовженими.</value></data>
+  <data name="Color.Alpha" xml:space="preserve"><value>Непрозорість</value></data>
+  <data name="Color.Expected" xml:space="preserve"><value>Колір у вигляді #RRGGBB</value></data>
+  <data name="Color.ExpectedAlpha" xml:space="preserve"><value>Колір у вигляді #RRGGBB або #RRGGBBAA (остання пара — непрозорість)</value></data>
+  <data name="Color.Hue" xml:space="preserve"><value>Відтінок</value></data>
+  <data name="Color.OpenPalette" xml:space="preserve"><value>Відкрити палітру</value></data>
+  <data name="Color.SaturationValue" xml:space="preserve"><value>Насиченість і яскравість</value></data>
+  <data name="Common.Example" xml:space="preserve"><value>Приклад</value></data>
+  <data name="Common.NoAnimation" xml:space="preserve"><value>Без анімації</value></data>
+  <data name="Common.OffsetDown" xml:space="preserve"><value>Зсув униз</value></data>
+  <data name="Common.OffsetDownHint" xml:space="preserve"><value>Від’ємні значення зсувають угору.</value></data>
+  <data name="Common.OffsetRight" xml:space="preserve"><value>Зсув праворуч</value></data>
+  <data name="Common.OffsetRightHint" xml:space="preserve"><value>Від’ємні значення зсувають ліворуч.</value></data>
+  <data name="Common.Open" xml:space="preserve"><value>Відкрити</value></data>
+  <data name="Common.Show" xml:space="preserve"><value>Показати</value></data>
+  <data name="Common.Smooth" xml:space="preserve"><value>Плавно</value></data>
+  <data name="Demo.Combos.Text" xml:space="preserve"><value>Окремі літери приховано; Ctrl + Shift + K і Ctrl + клацання показано.</value></data>
+  <data name="Demo.Combos.Title" xml:space="preserve"><value>Лише сполучення</value></data>
+  <data name="Demo.Labels.Text" xml:space="preserve"><value>Модифікатори із символами й позначками R, довга назва, замінена символом, лічильник натискань і кнопка миші.</value></data>
+  <data name="Demo.Labels.Title" xml:space="preserve"><value>Підписи клавіш</value></data>
+  <data name="Demo.Layout.Text" xml:space="preserve"><value>Так виглядає напис під час зміни мови введення. Справжній індикатор стежить за активним вікном.</value></data>
+  <data name="Demo.Layout.Title" xml:space="preserve"><value>Індикатор розкладки</value></data>
+  <data name="Demo.MouseCursor.Text" xml:space="preserve"><value>Значок рухається за вказівником і підсвічує натиснуту кнопку; коло позначає клацання.</value></data>
+  <data name="Demo.MouseCursor.Title" xml:space="preserve"><value>Миша біля курсора</value></data>
+  <data name="Demo.Note" xml:space="preserve"><value>Приклад на вигаданих даних. Ваш набір не використовується, налаштування не змінюються.</value></data>
+  <data name="Demo.Position.Text" xml:space="preserve"><value>Ряд клавіш проходить дев’ять точок екрана; відступ від країв не змінюється.</value></data>
+  <data name="Demo.Position.Title" xml:space="preserve"><value>Положення на екрані</value></data>
+  <data name="Demo.TrailFade.Text" xml:space="preserve"><value>Відпущені літери ненадовго лишаються й згасають на місці, тож слово коротко видно.</value></data>
+  <data name="Demo.TrailFade.Title" xml:space="preserve"><value>Слід, що згасає</value></data>
+  <data name="Demo.TrailNone.Text" xml:space="preserve"><value>Кожна нова літера замінює попередню; на екрані лише поточна клавіша.</value></data>
+  <data name="Demo.TrailNone.Title" xml:space="preserve"><value>Спокійний набір</value></data>
+  <data name="Demo.WindowTitle" xml:space="preserve"><value>Backpack — приклад</value></data>
+  <data name="Diag.BuildError" xml:space="preserve"><value>Не вдалося побудувати діагностику: {0}</value></data>
+  <data name="Diag.Checklist" xml:space="preserve"><value>1. Оверлей унизу екрана не забирає фокус: друкуйте в Блокноті — курсор лишається в Блокноті.
+2. Клацніть кейкап на оверлеї — клацання доходить до вікна під ним.
+3. Натисніть і відпустіть A — кейкап з’являється і згасає після затримки.
+4. Утримуйте A 3 с — один натиснутий кейкап без значка; Repeats у діагностиці зростає.
+5. Ctrl+Shift+K — «Ctrl Shift K» (позначки L/R угорі); відпустіть K і натисніть знову, тримаючи модифікатори, — значок «2» на K.
+6. Лівий і правий Shift/Ctrl/Alt мають різні позначки (L/R). Enter і Num Enter різні (у другого позначка Num).
+7. Швидко надрукуйте слово з перекриттям клавіш — літери не зливаються в «сполучення».
+8. Alt+Tab в інше вікно й назад — оверлея немає у списку Alt+Tab і на панелі завдань.
+9. «Сховати оверлей» → зачекайте 5 с → оверлей сам не повертається; «Показати оверлей» повертає його.
+10. Експортуйте JSON і відкрийте файл: лише лічильники й перцентилі, без підписів і кодів клавіш.
+11. (X8) Запуск із --ring=8: «Заморозити UI на 3 с»; під час заморожування друкуйте й відпустіть усі клавіші. Після цього: епоха втрат &gt; 0, ресинхронізацію виконано, «зараз натиснуто» = 0, на оверлеї немає залиплих клавіш.
+Вигляд, розкладка, довідка: «Налаштування…» і «Довідка (F1)»; F1 працює в цьому вікні, у налаштуваннях і в довідці.
+Для compare: ті самі кроки; порівняйте EventsTotal і Comparator за класами. Розбіжність — спостереження, а не вердикт.</value></data>
+  <data name="Diag.ChecklistHide" xml:space="preserve"><value>Сховати список перевірки</value></data>
+  <data name="Diag.ChecklistShow" xml:space="preserve"><value>Показати список перевірки</value></data>
+  <data name="Diag.ChecklistTitle" xml:space="preserve"><value>Список ручної перевірки (5–10 хв)</value></data>
+  <data name="Diag.Compare" xml:space="preserve"><value>Порівняння (вікно ±{0:F0} мс, переповнень {1}) — спостереження, а не доказ відмови:</value></data>
+  <data name="Diag.CompareClass" xml:space="preserve"><value>   {0,-10} збіглося {1,7}   лише Raw {2,6}   лише LL {3,6}</value></data>
+  <data name="Diag.Def.CaptureToModel" xml:space="preserve"><value>Потік захоплення отримав подію → подію застосовано до моделі в UI-потоці (не час до пікселя)</value></data>
+  <data name="Diag.Def.LowLevelCallback" xml:space="preserve"><value>LL: тривалість callback хука (вхід → перед CallNextHookEx)</value></data>
+  <data name="Diag.Def.ModelToUiApply" xml:space="preserve"><value>Модель змінено → властивості оверлея оновлено в UI-потоці (до композиції та виведення кадру, не час до пікселя)</value></data>
+  <data name="Diag.Def.RawInputMessage" xml:space="preserve"><value>Raw Input: обробка одного WM_INPUT (вхід в обробник → вихід)</value></data>
+  <data name="Diag.Exit" xml:space="preserve"><value>Вийти</value></data>
+  <data name="Diag.Export" xml:space="preserve"><value>Експорт агрегованого JSON…</value></data>
+  <data name="Diag.Finding" xml:space="preserve"><value>   {0,-10} {1,-32} ×{2}</value></data>
+  <data name="Diag.FindingActive" xml:space="preserve"><value>   {0,-10} {1,-32} ×{2}  (активна)</value></data>
+  <data name="Diag.Findings" xml:space="preserve"><value>Знахідки (Signal / Suspicion — без автоматичних дій / Confirmed):</value></data>
+  <data name="Diag.FindingsNone" xml:space="preserve"><value>   немає</value></data>
+  <data name="Diag.Freeze" xml:space="preserve"><value>Заморозити UI на 3 с</value></data>
+  <data name="Diag.FreezeHint" xml:space="preserve"><value>X8: блокує лише UI-потік стенда; потоки захоплення працюють далі. Для переповнення запускайте з --ring=8.</value></data>
+  <data name="Diag.Help" xml:space="preserve"><value>Довідка (F1)</value></data>
+  <data name="Diag.Hidden" xml:space="preserve"><value>приховано</value></data>
+  <data name="Diag.HideOverlay" xml:space="preserve"><value>Сховати оверлей</value></data>
+  <data name="Diag.Latency" xml:space="preserve"><value>      n={0}  p50 {1}  p95 {2}  p99 {3}  max {4}</value></data>
+  <data name="Diag.Layout.Line" xml:space="preserve"><value>Розкладка: {0}; останнє опитування: {1}; останнє рішення: {2}</value></data>
+  <data name="Diag.Layout.NotStarted" xml:space="preserve"><value>не запущено</value></data>
+  <data name="Diag.Layout.Off" xml:space="preserve"><value>вимкнено</value></data>
+  <data name="Diag.Layout.Polling" xml:space="preserve"><value>спостереження триває</value></data>
+  <data name="Diag.Layout.Samples" xml:space="preserve"><value>   опитувань {0}: немає вікна {1}, немає HKL {2}, вікна Backpack {3}; вихідних значень {4}; показано у вікні {5}, під час переходу {6}, приховано налаштуванням {7}</value></data>
+  <data name="Diag.Layout.Source" xml:space="preserve"><value>   джерело HKL: потік вікна з фокусом {0}, активного вікна {1}, власника вікна {2}; потік фокуса ≠ потоку вікна: {3}; HKL фокуса ≠ HKL власника: {4}</value></data>
+  <data name="Diag.ModeFromSettings" xml:space="preserve"><value>Режим: {0}, основне джерело: {1}, затримка: {2} мс (з налаштувань)</value></data>
+  <data name="Diag.ModeOverride" xml:space="preserve"><value>Режим: {0}, основне джерело: {1}, затримка: {2} мс (--linger-ms)</value></data>
+  <data name="Diag.Mouse" xml:space="preserve"><value>Миша біля курсора: {0}, вікно {1}, переміщень {2}</value></data>
+  <data name="Diag.NoPixel" xml:space="preserve"><value>   (час до видимого пікселя стенд не вимірює)</value></data>
+  <data name="Diag.Off" xml:space="preserve"><value>вимкнено</value></data>
+  <data name="Diag.On" xml:space="preserve"><value>увімкнено</value></data>
+  <data name="Diag.Over1s" xml:space="preserve"><value>&gt;1 с</value></data>
+  <data name="Diag.Overlay" xml:space="preserve"><value>Оверлей: має бути видимим={0}, видимий={1}, topmost={2}, згорнутий={3}, на моніторі={4}, відновлень {5} (відмовлено {6})</value></data>
+  <data name="Diag.Reconcile" xml:space="preserve"><value>Звірка (евристика): циклів {0}, недовірений контекст {1}, без позитивного контролю {2}, неоднозначний VK {3}, підтверджено Down {4}</value></data>
+  <data name="Diag.Reset" xml:space="preserve"><value>Скинути стан</value></data>
+  <data name="Diag.ResetHint" xml:space="preserve"><value>Ручне скидання: усі клавіші основного джерела стають Up, оверлей очищується.</value></data>
+  <data name="Diag.Seconds" xml:space="preserve"><value>{0} с</value></data>
+  <data name="Diag.Settings" xml:space="preserve"><value>Налаштування…</value></data>
+  <data name="Diag.ShowOverlay" xml:space="preserve"><value>Показати оверлей</value></data>
+  <data name="Diag.Src.Applied" xml:space="preserve"><value>   застосовано {0}, дублікатів відкинуто {1}; зараз натиснуто {2}, Unknown {3}</value></data>
+  <data name="Diag.Src.Events" xml:space="preserve"><value>   події {0}, повтори {1}, пропущено {2}, рухи миші {3}, коліщатко {4}, вилучено пристроїв {5}</value></data>
+  <data name="Diag.Src.Ring" xml:space="preserve"><value>   кільце {0}/{1}, епоха втрат {2}, запитів ресинхр. {3} (повторних {4}), знімків {5}/{6}, виправлено знімком {7}</value></data>
+  <data name="Diag.Src.SinceLast" xml:space="preserve"><value>   від останньої події: {0}</value></data>
+  <data name="Diag.Src.Unknown" xml:space="preserve"><value>   → Unknown {0}, розв’язано подією {1}, застарілий Down (евристика) {2}, звірка Up {3} / Down {4}, відпущено через вилучення пристрою {5}</value></data>
+  <data name="Diag.StartNote" xml:space="preserve"><value>Запуск: {0}</value></data>
+  <data name="Diag.System" xml:space="preserve"><value>Система: блокування {0}, розблокування {1}, зміна робочого столу {2}, сон {3}, пробудження {4}, зміна дисплея {5}</value></data>
+  <data name="Diag.ToTray" xml:space="preserve"><value>Згорнути в трей</value></data>
+  <data name="Diag.Uptime" xml:space="preserve"><value>Час роботи: {0:F1} с   Режим: {1}   Основне: {2}</value></data>
+  <data name="Diag.UpToMs" xml:space="preserve"><value>≤{0:0.#} мс</value></data>
+  <data name="Diag.UpToUs" xml:space="preserve"><value>≤{0} мкс</value></data>
+  <data name="Diag.Us" xml:space="preserve"><value>{0} мкс</value></data>
+  <data name="Diag.Visible" xml:space="preserve"><value>видно</value></data>
+  <data name="Diag.WindowTitle" xml:space="preserve"><value>Backpack — діагностика</value></data>
+  <data name="Dialog.Cancel" xml:space="preserve"><value>Скасувати</value></data>
+  <data name="Dialog.Ok" xml:space="preserve"><value>OK</value></data>
+  <data name="Draw.Clear" xml:space="preserve"><value>Очистити все</value></data>
+  <data name="Draw.CloseMenu" xml:space="preserve"><value>Закрити меню (Esc)</value></data>
+  <data name="Draw.Color" xml:space="preserve"><value>Колір</value></data>
+  <data name="Draw.Dash" xml:space="preserve"><value>Лінія</value></data>
+  <data name="Draw.Dash.Dashed" xml:space="preserve"><value>Штрихова</value></data>
+  <data name="Draw.Dash.Dotted" xml:space="preserve"><value>Пунктирна</value></data>
+  <data name="Draw.Dash.Solid" xml:space="preserve"><value>Суцільна</value></data>
+  <data name="Draw.Defaults.Title" xml:space="preserve"><value>Типові параметри інструментів</value></data>
+  <data name="Draw.Edge" xml:space="preserve"><value>Край</value></data>
+  <data name="Draw.Edge.Bottom" xml:space="preserve"><value>Знизу</value></data>
+  <data name="Draw.Edge.Left" xml:space="preserve"><value>Ліворуч</value></data>
+  <data name="Draw.Edge.Right" xml:space="preserve"><value>Праворуч</value></data>
+  <data name="Draw.Edge.Top" xml:space="preserve"><value>Згори</value></data>
+  <data name="Draw.EdgeHint" xml:space="preserve"><value>Підведіть вказівник до цього краю й ненадовго затримайте, щоб показати панель.</value></data>
+  <data name="Draw.Exit" xml:space="preserve"><value>Вийти з малювання (Esc)</value></data>
+  <data name="Draw.Fade" xml:space="preserve"><value>Зникає через</value></data>
+  <data name="Draw.FadeHint" xml:space="preserve"><value>0 — тримати до виходу з режиму малювання.</value></data>
+  <data name="Draw.FadeOff" xml:space="preserve"><value>Малюнки тримаються до виходу (клацання: зникати через 5 с)</value></data>
+  <data name="Draw.FadeOn" xml:space="preserve"><value>Малюнки зникають через {0} с (клацання: тримати до виходу)</value></data>
+  <data name="Draw.Hint" xml:space="preserve"><value>Малюйте поверх живого робочого столу. Малюнки тимчасові; зберігаються лише знімки, які ви зробили.</value></data>
+  <data name="Draw.Mode.AutoHide" xml:space="preserve"><value>Автоприховування біля краю</value></data>
+  <data name="Draw.Mode.Docked" xml:space="preserve"><value>Завжди видна</value></data>
+  <data name="Draw.Mode.RadialOnly" xml:space="preserve"><value>Лише радіальне меню</value></data>
+  <data name="Draw.MoveText" xml:space="preserve"><value>Перетягніть, щоб перемістити текст</value></data>
+  <data name="Draw.MoveToolbar" xml:space="preserve"><value>Перетягніть, щоб перемістити панель</value></data>
+  <data name="Draw.NextColor" xml:space="preserve"><value>Наступний колір</value></data>
+  <data name="Draw.Note" xml:space="preserve"><value>Малюнки тимчасові й ніколи не зберігаються; екран не записується.</value></data>
+  <data name="Draw.Opacity" xml:space="preserve"><value>Прозорість: повна / 60 %</value></data>
+  <data name="Draw.Position" xml:space="preserve"><value>Положення панелі</value></data>
+  <data name="Draw.PositionHint" xml:space="preserve"><value>Перетягніть панель за ручку ⋮⋮ під час малювання; місце запам’ятовується.</value></data>
+  <data name="Draw.PositionReset" xml:space="preserve"><value>Повернути вгору по центру</value></data>
+  <data name="Draw.PreviewText" xml:space="preserve"><value>Приклад</value></data>
+  <data name="Draw.RadialNote" xml:space="preserve"><value>Радіальне меню ({0} або права кнопка) має всі інструменти, скасування, повтор, знімок і вихід — малювання ніколи не залежить від панелі.</value></data>
+  <data name="Draw.RadialOnlyHint" xml:space="preserve"><value>Права кнопка або гаряча клавіша радіального меню — інструменти · Esc — вихід</value></data>
+  <data name="Draw.Redo" xml:space="preserve"><value>Повторити (Ctrl+Y)</value></data>
+  <data name="Draw.Run" xml:space="preserve"><value>Запуск</value></data>
+  <data name="Draw.Screenshot" xml:space="preserve"><value>Знімок екрана</value></data>
+  <data name="Draw.Shot.Action" xml:space="preserve"><value>Знімок</value></data>
+  <data name="Draw.Shot.After" xml:space="preserve"><value>Після знімка</value></data>
+  <data name="Draw.Shot.AfterHint" xml:space="preserve"><value>Якщо зберегти не вдалося, малюнки не прибираються.</value></data>
+  <data name="Draw.Shot.Choose" xml:space="preserve"><value>Вибрати…</value></data>
+  <data name="Draw.Shot.Clear" xml:space="preserve"><value>Очистити малюнки</value></data>
+  <data name="Draw.Shot.Copy" xml:space="preserve"><value>Скопіювати</value></data>
+  <data name="Draw.Shot.Exit" xml:space="preserve"><value>Завершити малювання</value></data>
+  <data name="Draw.Shot.Folder" xml:space="preserve"><value>Папка</value></data>
+  <data name="Draw.Shot.Hint" xml:space="preserve"><value>{0} або 📷 у режимі малювання: екран із вашими малюнками, без панелі й меню.</value></data>
+  <data name="Draw.Shot.Keep" xml:space="preserve"><value>Залишити малюнки</value></data>
+  <data name="Draw.Shot.Note" xml:space="preserve"><value>PNG з назвою за датою й часом; монітор із малюванням, у справжніх пікселях.</value></data>
+  <data name="Draw.Shot.Save" xml:space="preserve"><value>Зберегти у файл</value></data>
+  <data name="Draw.Shot.SaveCopy" xml:space="preserve"><value>Зберегти й скопіювати</value></data>
+  <data name="Draw.Shot.Title" xml:space="preserve"><value>Знімки екрана</value></data>
+  <data name="Draw.ShotCopied" xml:space="preserve"><value>Знімок скопійовано в буфер обміну</value></data>
+  <data name="Draw.ShotFailed" xml:space="preserve"><value>Знімок не збережено ({0}); малюнки залишено.</value></data>
+  <data name="Draw.ShotSaved" xml:space="preserve"><value>Збережено: {0}</value></data>
+  <data name="Draw.ShotSavedCopied" xml:space="preserve"><value>Збережено й скопійовано: {0}</value></data>
+  <data name="Draw.TextSize" xml:space="preserve"><value>Розмір тексту</value></data>
+  <data name="Draw.TextSizeHint" xml:space="preserve"><value>Для інструмента «Текст»; − і + на панелі змінюють його під час введення.</value></data>
+  <data name="Draw.Thicker" xml:space="preserve"><value>Товще</value></data>
+  <data name="Draw.Thickness" xml:space="preserve"><value>Товщина</value></data>
+  <data name="Draw.Thinner" xml:space="preserve"><value>Тонше</value></data>
+  <data name="Draw.Title" xml:space="preserve"><value>Тимчасове малювання</value></data>
+  <data name="Draw.Tool.Arrow" xml:space="preserve"><value>Стрілка</value></data>
+  <data name="Draw.Tool.Ellipse" xml:space="preserve"><value>Еліпс</value></data>
+  <data name="Draw.Tool.Line" xml:space="preserve"><value>Пряма лінія</value></data>
+  <data name="Draw.Tool.Pen" xml:space="preserve"><value>Олівець</value></data>
+  <data name="Draw.Tool.Rectangle" xml:space="preserve"><value>Прямокутник</value></data>
+  <data name="Draw.Tool.Text" xml:space="preserve"><value>Текст (Ctrl+Enter — готово, Esc — скасувати)</value></data>
+  <data name="Draw.Toolbar.Hint" xml:space="preserve"><value>Зберігається в профілі.</value></data>
+  <data name="Draw.Toolbar.Title" xml:space="preserve"><value>Панель інструментів</value></data>
+  <data name="Draw.ToolbarMode" xml:space="preserve"><value>Панель</value></data>
+  <data name="Draw.Undo" xml:space="preserve"><value>Скасувати (Ctrl+Z)</value></data>
+  <data name="Help.AnchorMissing" xml:space="preserve"><value>Розділ «{0}» на цій сторінці не знайдено.</value></data>
+  <data name="Help.Back" xml:space="preserve"><value>← Назад</value></data>
+  <data name="Help.DemoHint" xml:space="preserve"><value>Відкриває безпечний приклад із вигаданими клавішами</value></data>
+  <data name="Help.External.Message" xml:space="preserve"><value>Посилання веде за межі довідки й відкриється в браузері:
+{0}</value></data>
+  <data name="Help.External.Title" xml:space="preserve"><value>Відкрити вебсторінку?</value></data>
+  <data name="Help.Forward" xml:space="preserve"><value>Уперед →</value></data>
+  <data name="Help.ImageActual" xml:space="preserve"><value>Справжній розмір</value></data>
+  <data name="Help.ImageFit" xml:space="preserve"><value>За розміром вікна</value></data>
+  <data name="Help.ImageTitle" xml:space="preserve"><value>Зображення довідки</value></data>
+  <data name="Help.ImageZoomHint" xml:space="preserve"><value>Клацніть, щоб збільшити</value></data>
+  <data name="Help.NothingFound" xml:space="preserve"><value>Нічого не знайдено</value></data>
+  <data name="Help.Search" xml:space="preserve"><value>Пошук у довідці</value></data>
+  <data name="Help.WindowTitle" xml:space="preserve"><value>Довідка Backpack — {0}</value></data>
+  <data name="Help.ZoomIn" xml:space="preserve"><value>Більший текст</value></data>
+  <data name="Help.ZoomOut" xml:space="preserve"><value>Менший текст</value></data>
+  <data name="HelpSection.Diag.Title" xml:space="preserve"><value>Перевірки</value></data>
+  <data name="HelpSection.Diagnostics" xml:space="preserve"><value>Вікно діагностики</value></data>
+  <data name="HelpSection.DiagnosticsHint" xml:space="preserve"><value>Лічильники джерел захоплення та список ручної перевірки.</value></data>
+  <data name="HelpSection.LayoutIndicator" xml:space="preserve"><value>Індикатор розкладки</value></data>
+  <data name="HelpSection.LoadProblem" xml:space="preserve"><value>Під час завантаження: {0}</value></data>
+  <data name="HelpSection.Migrated" xml:space="preserve"><value>Налаштування оновлено з формату {0}; старий файл збережено як settings.v1.bak.json.</value></data>
+  <data name="HelpSection.OverlayExample" xml:space="preserve"><value>Приклад на оверлеї</value></data>
+  <data name="HelpSection.OverlayExampleHint" xml:space="preserve"><value>Кілька секунд показує вигадані клавіші на справжньому оверлеї. Ваш набір не використовується.</value></data>
+  <data name="HelpSection.ResetAll" xml:space="preserve"><value>Скинути всі налаштування</value></data>
+  <data name="HelpSection.ResetAllButton" xml:space="preserve"><value>Скинути все</value></data>
+  <data name="HelpSection.ResetAllConfirm" xml:space="preserve"><value>Скинути всі налаштування до типових? Збережені профілі не зміняться.</value></data>
+  <data name="HelpSection.ResetAllHint" xml:space="preserve"><value>Повертає всі розділи до типових значень. Збережені профілі лишаються без змін.</value></data>
+  <data name="HelpSection.Settings.Title" xml:space="preserve"><value>Файл налаштувань</value></data>
+  <data name="HelpSection.SettingsFile" xml:space="preserve"><value>Налаштування зберігаються автоматично: {0}</value></data>
+  <data name="Home.CombosHint" xml:space="preserve"><value>Приховати звичайний набір, показувати лише сполучення.</value></data>
+  <data name="Home.DemoToggle" xml:space="preserve"><value>Пауза або відтворення прикладу</value></data>
+  <data name="Home.Display" xml:space="preserve"><value>Показувати клавіші, індикатор розкладки та мишу</value></data>
+  <data name="Home.DisplayHint" xml:space="preserve"><value>Гаряча клавіша: {0}. Після повернення старі натискання не з’являються.</value></data>
+  <data name="Home.Draw" xml:space="preserve"><value>Тимчасове малювання</value></data>
+  <data name="Home.F.Keys" xml:space="preserve"><value>Клавіші</value></data>
+  <data name="Home.F.KeysHint" xml:space="preserve"><value>Кейкапи п’яти стилів малювання, сполучення, підписи Windows, macOS і Linux.</value></data>
+  <data name="Home.F.Mouse" xml:space="preserve"><value>Миша</value></data>
+  <data name="Home.F.MouseHint" xml:space="preserve"><value>Клацання, прокручування і бічні кнопки на значку біля вказівника; збільшення навколо нього.</value></data>
+  <data name="Home.F.MouseOff" xml:space="preserve"><value>Не показувати біля курсора</value></data>
+  <data name="Home.F.MouseOn" xml:space="preserve"><value>Показувати біля курсора</value></data>
+  <data name="Home.F.Settings" xml:space="preserve"><value>Налаштування</value></data>
+  <data name="Home.F.Style" xml:space="preserve"><value>Вибрати стиль</value></data>
+  <data name="Home.OpenProfiles" xml:space="preserve"><value>Профілі…</value></data>
+  <data name="Home.Pause" xml:space="preserve"><value>Пауза</value></data>
+  <data name="Home.Play" xml:space="preserve"><value>Відтворити</value></data>
+  <data name="Home.Start" xml:space="preserve"><value>Запустити</value></data>
+  <data name="Home.State.Hint" xml:space="preserve"><value>Що зараз на екрані. Коли відображення приховано, захоплення продовжує працювати.</value></data>
+  <data name="Home.State.Title" xml:space="preserve"><value>Відображення</value></data>
+  <data name="Home.ToolHint" xml:space="preserve"><value>Гаряча клавіша: {0}. Esc — вихід.</value></data>
+  <data name="Home.Welcome" xml:space="preserve"><value>Інструменти для презентацій, навчальних відео і демонстрації екрана: клавіші й миша на екрані, малювання з нумерованими кроками, плагіни фокуса, збільшення і таймера.</value></data>
+  <data name="Home.WelcomeHint" xml:space="preserve"><value>Демонстрація на вигаданих даних — без справжнього введення і без захоплення екрана.</value></data>
+  <data name="Hotkeys.Clear" xml:space="preserve"><value>Прибрати</value></data>
+  <data name="Hotkeys.Default" xml:space="preserve"><value>За замовчуванням</value></data>
+  <data name="Hotkeys.Draw" xml:space="preserve"><value>Режим малювання</value></data>
+  <data name="Hotkeys.Hide.Hint" xml:space="preserve"><value>Захоплення продовжує працювати; після повернення старих натискань немає.</value></data>
+  <data name="Hotkeys.Hide.Indicator" xml:space="preserve"><value>Індикатор розкладки</value></data>
+  <data name="Hotkeys.Hide.Keycaps" xml:space="preserve"><value>Кейкапи</value></data>
+  <data name="Hotkeys.Hide.Mouse" xml:space="preserve"><value>Миша біля курсора</value></data>
+  <data name="Hotkeys.Hide.Title" xml:space="preserve"><value>Що приховує «приховати відображення»</value></data>
+  <data name="Hotkeys.Hint" xml:space="preserve"><value>Налаштування цього комп’ютера: імпорт профілю їх не змінює. Клацніть поле й натисніть сполучення.</value></data>
+  <data name="Hotkeys.Lens" xml:space="preserve"><value>Жива лінза</value></data>
+  <data name="Hotkeys.Note" xml:space="preserve"><value>F1 залишається локальною у вікнах Backpack. Глобальна гаряча клавіша перехоплює лише своє сполучення; інше введення не пригнічується. Утримання клавіш не повторює дію.</value></data>
+  <data name="Hotkeys.NotSet" xml:space="preserve"><value>не призначено</value></data>
+  <data name="Hotkeys.PressKeys" xml:space="preserve"><value>Натисніть сполучення…</value></data>
+  <data name="Hotkeys.Radial" xml:space="preserve"><value>Радіальне меню (у режимі малювання)</value></data>
+  <data name="Hotkeys.Recording" xml:space="preserve"><value>Запис: натисніть клавіші; Esc — скасувати, Backspace — прибрати.</value></data>
+  <data name="Hotkeys.Screenshot" xml:space="preserve"><value>Знімок екрана (у режимі малювання)</value></data>
+  <data name="Hotkeys.ScreenshotNote" xml:space="preserve"><value>Клавіша знімка діє лише в режимі малювання, тому для неї можна вибрати одну клавішу, наприклад F2.</value></data>
+  <data name="Hotkeys.Status.Busy" xml:space="preserve"><value>Зайнято іншою програмою. Виберіть інше сполучення.</value></data>
+  <data name="Hotkeys.Status.Conflict" xml:space="preserve"><value>Уже використовується іншою дією Backpack.</value></data>
+  <data name="Hotkeys.Status.Failed" xml:space="preserve"><value>Windows не зареєструвала сполучення.</value></data>
+  <data name="Hotkeys.Status.Invalid" xml:space="preserve"><value>Потрібні Ctrl, Alt або Win і ще одна клавіша.</value></data>
+  <data name="Hotkeys.Status.NotSet" xml:space="preserve"><value>Не призначено.</value></data>
+  <data name="Hotkeys.Status.Registered" xml:space="preserve"><value>Активна.</value></data>
+  <data name="Hotkeys.Status.Reserved" xml:space="preserve"><value>Зарезервовано Windows (наприклад, Win+Space, Alt+Tab).</value></data>
+  <data name="Hotkeys.Status.Suspended" xml:space="preserve"><value>Призупинено на час запису сполучення.</value></data>
+  <data name="Hotkeys.Status.WaitingForMode" xml:space="preserve"><value>Діє лише під час малювання; в інший час клавіша залишається іншим програмам.</value></data>
+  <data name="Hotkeys.Title" xml:space="preserve"><value>Глобальні гарячі клавіші</value></data>
+  <data name="Hotkeys.ToggleDisplay" xml:space="preserve"><value>Показати / приховати відображення</value></data>
+  <data name="Keys.AnyHeldMs" xml:space="preserve"><value>Поріг одночасності</value></data>
+  <data name="Keys.AnyHeldMsHint" xml:space="preserve"><value>Скільки має утримуватися перша клавіша, щоб інші приєдналися. 0 — без порогу.</value></data>
+  <data name="Keys.ChordNote" xml:space="preserve"><value>Сполучення тримається разом, поки утримується будь-яка з його клавіш; літери, набрані швидко з перекриттям, не зливаються в сполучення.</value></data>
+  <data name="Keys.Chords" xml:space="preserve"><value>Об’єднувати клавіші</value></data>
+  <data name="Keys.Chords.AnyHeld" xml:space="preserve"><value>Будь-які одночасно утримувані клавіші</value></data>
+  <data name="Keys.Chords.Hint" xml:space="preserve"><value>Не залежить від «Усі клавіші / Лише сполучення».</value></data>
+  <data name="Keys.Chords.Limits" xml:space="preserve"><value>Backpack показує те, що повідомляють клавіатура й Windows. Деякі сполучення раніше перехоплюють Windows чи інші програми, а деякі клавіатури їх не передають.</value></data>
+  <data name="Keys.Chords.Modifiers" xml:space="preserve"><value>З Ctrl, Alt, Shift, Win</value></data>
+  <data name="Keys.Chords.Note" xml:space="preserve"><value>Клавіші об’єднуються, лише коли справді утримуються разом довше за поріг; перекриття під час швидкого набору не об’єднується.</value></data>
+  <data name="Keys.Chords.Title" xml:space="preserve"><value>Що утворює сполучення</value></data>
+  <data name="Keys.Filter" xml:space="preserve"><value>Клавіші</value></data>
+  <data name="Keys.Filter.All" xml:space="preserve"><value>Усі клавіші</value></data>
+  <data name="Keys.Filter.Combos" xml:space="preserve"><value>Лише сполучення</value></data>
+  <data name="Keys.FilterHint" xml:space="preserve"><value>«Лише сполучення» ховає звичайний набір тексту й показує клавіші, натиснуті разом із Ctrl, Alt або Win.</value></data>
+  <data name="Keys.Linger" xml:space="preserve"><value>Затримка після відпускання</value></data>
+  <data name="Keys.LingerHint" xml:space="preserve"><value>Скільки останні клавіші лишаються видимими після відпускання.</value></data>
+  <data name="Keys.MouseInRow" xml:space="preserve"><value>Кнопки миші в ряду</value></data>
+  <data name="Keys.MouseInRowHint" xml:space="preserve"><value>Клацання з’являються поруч із клавішами, наприклад Ctrl + ліва кнопка.</value></data>
+  <data name="Keys.MouseLabels" xml:space="preserve"><value>Підпис кнопки миші</value></data>
+  <data name="Keys.MouseLabels.Icon" xml:space="preserve"><value>Значок</value></data>
+  <data name="Keys.MouseLabels.Text" xml:space="preserve"><value>Текст</value></data>
+  <data name="Keys.MouseLabelsHint" xml:space="preserve"><value>Намальований значок миші або слово.</value></data>
+  <data name="Keys.Show.Title" xml:space="preserve"><value>Що показувати</value></data>
+  <data name="Keys.Trail" xml:space="preserve"><value>Слід</value></data>
+  <data name="Keys.Trail.Fade" xml:space="preserve"><value>Слід, що згасає</value></data>
+  <data name="Keys.Trail.None" xml:space="preserve"><value>Спокійно</value></data>
+  <data name="Keys.TrailHint" xml:space="preserve"><value>Спокійно: кожна нова літера замінює попередню. Слід: відпущені літери ненадовго лишаються й згасають на місці.</value></data>
+  <data name="Keys.Typing.Title" xml:space="preserve"><value>Набір тексту</value></data>
+  <data name="Layout.Anchor" xml:space="preserve"><value>Точка екрана</value></data>
+  <data name="Layout.Animation" xml:space="preserve"><value>Анімація</value></data>
+  <data name="Layout.Background" xml:space="preserve"><value>Тло</value></data>
+  <data name="Layout.BorderColor" xml:space="preserve"><value>Колір обведення</value></data>
+  <data name="Layout.BorderWidth" xml:space="preserve"><value>Товщина обведення</value></data>
+  <data name="Layout.BorderWidthHint" xml:space="preserve"><value>0 — без обведення.</value></data>
+  <data name="Layout.Duration" xml:space="preserve"><value>Тривалість показу</value></data>
+  <data name="Layout.Enable" xml:space="preserve"><value>Показувати індикатор</value></data>
+  <data name="Layout.ExampleDetail" xml:space="preserve"><value>Приклад</value></data>
+  <data name="Layout.Hint" xml:space="preserve"><value>Короткий напис на кшталт «EN» або «UK», коли змінюється мова введення активного вікна.</value></data>
+  <data name="Layout.Look.Title" xml:space="preserve"><value>Вигляд індикатора</value></data>
+  <data name="Layout.OnSwitch" xml:space="preserve"><value>Під час переходу між вікнами</value></data>
+  <data name="Layout.OnSwitchHint" xml:space="preserve"><value>Показувати напис і тоді, коли ви переходите у вікно з іншою мовою.</value></data>
+  <data name="Layout.Position.Title" xml:space="preserve"><value>Положення індикатора</value></data>
+  <data name="Layout.Radius" xml:space="preserve"><value>Заокруглення</value></data>
+  <data name="Layout.RadiusHint" xml:space="preserve"><value>0 — прямі кути, 1 — форма пігулки.</value></data>
+  <data name="Layout.ShowExample" xml:space="preserve"><value>Показати приклад</value></data>
+  <data name="Layout.Style" xml:space="preserve"><value>Джерело оформлення</value></data>
+  <data name="Layout.Style.Custom" xml:space="preserve"><value>Власний стиль</value></data>
+  <data name="Layout.Style.Inherit" xml:space="preserve"><value>Як у кейкапів</value></data>
+  <data name="Layout.StyleHint" xml:space="preserve"><value>«Як у кейкапів» — за кольорами кейкапів. «Власний стиль» — параметри нижче; пресет можна вибрати в каталозі вище.</value></data>
+  <data name="Layout.TextColor" xml:space="preserve"><value>Колір тексту</value></data>
+  <data name="Layout.TextSize" xml:space="preserve"><value>Розмір тексту</value></data>
+  <data name="Layout.Title" xml:space="preserve"><value>Індикатор розкладки</value></data>
+  <data name="Layout.Where" xml:space="preserve"><value>Де</value></data>
+  <data name="Layout.Where.Above" xml:space="preserve"><value>Над рядом клавіш</value></data>
+  <data name="Layout.Where.Screen" xml:space="preserve"><value>Точка екрана</value></data>
+  <data name="LayoutStatus.Baseline" xml:space="preserve"><value>Стежить за мовою введення активного вікна; поточну мову запам’ятано, змін ще не було. Показів: {0}.</value></data>
+  <data name="LayoutStatus.Off" xml:space="preserve"><value>Вимкнено.</value></data>
+  <data name="LayoutStatus.Shown" xml:space="preserve"><value>Стежить за мовою введення активного вікна; останню зміну показано. Показів: {0}.</value></data>
+  <data name="LayoutStatus.Suppressed" xml:space="preserve"><value>Стежить за мовою введення активного вікна; останню зміну під час переходу між вікнами не показано (так налаштовано). Показів: {0}.</value></data>
+  <data name="LayoutStatus.Unchanged" xml:space="preserve"><value>Стежить за мовою введення активного вікна; мова не змінювалася. Показів: {0}.</value></data>
+  <data name="LayoutStatus.Waiting" xml:space="preserve"><value>Очікування першого активного вікна іншої програми. Показів: {0}.</value></data>
+  <data name="Lens.HotkeyButton" xml:space="preserve"><value>Гарячі клавіші…</value></data>
+  <data name="Lens.SelectHint" xml:space="preserve"><value>Протягніть прямокутник для лінзи. Клацання — розмір за замовчуванням. Esc або права кнопка — скасувати.</value></data>
+  <data name="Lens.Unavailable" xml:space="preserve"><value>Екран зараз недоступний для лінзи</value></data>
+  <data name="Mouse.Body" xml:space="preserve"><value>Колір корпусу</value></data>
+  <data name="Mouse.BodyHint" xml:space="preserve"><value>Контурний, ретро й скетч. Прозорий — без заливки.</value></data>
+  <data name="Mouse.Circle" xml:space="preserve"><value>Показувати коло клацання</value></data>
+  <data name="Mouse.Circle.Title" xml:space="preserve"><value>Коло клацання</value></data>
+  <data name="Mouse.CircleColor" xml:space="preserve"><value>Колір кола</value></data>
+  <data name="Mouse.CircleOpacity" xml:space="preserve"><value>Непрозорість кола</value></data>
+  <data name="Mouse.CircleSize" xml:space="preserve"><value>Розмір кола</value></data>
+  <data name="Mouse.Cursor.Enable" xml:space="preserve"><value>Показувати біля курсора</value></data>
+  <data name="Mouse.Cursor.EnableHint" xml:space="preserve"><value>Маленький значок миші й коло клацання рухаються за вказівником. Клацання проходять у вікно під ним.</value></data>
+  <data name="Mouse.Cursor.Title" xml:space="preserve"><value>Миша біля курсора</value></data>
+  <data name="Mouse.Icon" xml:space="preserve"><value>Показувати значок</value></data>
+  <data name="Mouse.Icon.Title" xml:space="preserve"><value>Значок миші</value></data>
+  <data name="Mouse.IconBackground" xml:space="preserve"><value>Заливка</value></data>
+  <data name="Mouse.IconHint" xml:space="preserve"><value>Натиснута кнопка підсвічується на значку.</value></data>
+  <data name="Mouse.IconSize" xml:space="preserve"><value>Розмір значка</value></data>
+  <data name="Mouse.InRow.Note" xml:space="preserve"><value>Кнопки миші можуть також з’являтися в ряду клавіш поруч із модифікаторами — див. «Клавіші та сполучення».</value></data>
+  <data name="Mouse.InRow.Title" xml:space="preserve"><value>Миша в ряду клавіш</value></data>
+  <data name="Mouse.Look.Hint" xml:space="preserve"><value>Натискання змінює лише свою частину значка.</value></data>
+  <data name="Mouse.Look.Title" xml:space="preserve"><value>Значок миші</value></data>
+  <data name="Mouse.OffsetRightHint" xml:space="preserve"><value>Відстань від кінчика вказівника; від’ємні значення розміщують ліворуч.</value></data>
+  <data name="Mouse.Outline" xml:space="preserve"><value>Контур</value></data>
+  <data name="Mouse.Pressed" xml:space="preserve"><value>Натиснута кнопка</value></data>
+  <data name="Mouse.Renderer" xml:space="preserve"><value>Спосіб малювання</value></data>
+  <data name="Mouse.SideButtons" xml:space="preserve"><value>Бічні кнопки</value></data>
+  <data name="Mouse.SideButtons.Hidden" xml:space="preserve"><value>Приховати</value></data>
+  <data name="Mouse.SideButtons.Left" xml:space="preserve"><value>Ліворуч</value></data>
+  <data name="Mouse.SideButtons.Note" xml:space="preserve"><value>Показуються X1 (назад) і X2 (уперед). Кнопки, перепризначені драйвером миші, не надходять до Backpack окремо.</value></data>
+  <data name="Mouse.SideButtons.One" xml:space="preserve"><value>Одна</value></data>
+  <data name="Mouse.SideButtons.Right" xml:space="preserve"><value>Праворуч</value></data>
+  <data name="Mouse.SideButtons.Side" xml:space="preserve"><value>Сторона</value></data>
+  <data name="Mouse.SideButtons.Two" xml:space="preserve"><value>Дві</value></data>
+  <data name="Mouse.SideButtonsHint" xml:space="preserve"><value>Налаштуйте відповідно до вашої миші.</value></data>
+  <data name="Mouse.Wheel.Color" xml:space="preserve"><value>Колір стрілки</value></data>
+  <data name="Mouse.Wheel.Duration" xml:space="preserve"><value>Стрілка видна</value></data>
+  <data name="Mouse.Wheel.DurationHint" xml:space="preserve"><value>Після останнього кроку прокручування.</value></data>
+  <data name="Mouse.Wheel.Hint" xml:space="preserve"><value>Стрілка в коліщатку показує напрямок прокручування, зокрема горизонтальний, якщо миша його повідомляє.</value></data>
+  <data name="Mouse.Wheel.Note" xml:space="preserve"><value>Прокручування й натискання середньої кнопки — різні події. Стрілка показується на значку миші біля курсора; ряд кейкапів прокручування не показує.</value></data>
+  <data name="Mouse.Wheel.Title" xml:space="preserve"><value>Прокручування</value></data>
+  <data name="MouseRenderer.Outline" xml:space="preserve"><value>Контурний</value></data>
+  <data name="MouseRenderer.Retro" xml:space="preserve"><value>Ретро</value></data>
+  <data name="MouseRenderer.Sketch" xml:space="preserve"><value>Скетч</value></data>
+  <data name="MouseRenderer.Solid" xml:space="preserve"><value>Суцільний</value></data>
+  <data name="Note.Migrated" xml:space="preserve"><value>налаштування: оновлено з формату {0} до {1}</value></data>
+  <data name="Note.PortableUnavailable" xml:space="preserve"><value>Знайдено позначку portable, але папка поруч із програмою недоступна для запису; налаштування зберігаються в %APPDATA%\Backpack.</value></data>
+  <data name="Note.PrefsUnreadable" xml:space="preserve"><value>параметри застосунку (app.json) не прочитано; використано типові</value></data>
+  <data name="Note.SettingsProblem" xml:space="preserve"><value>налаштування: {0}</value></data>
+  <data name="Note.SourceFailed" xml:space="preserve"><value>{0}: помилка запуску на кроці «{1}», Win32 {2}</value></data>
+  <data name="Note.SourceReady" xml:space="preserve"><value>{0}: готове</value></data>
+  <data name="Outcome.Baseline" xml:space="preserve"><value>запам’ятано вихідне значення</value></data>
+  <data name="Outcome.NoForeground" xml:space="preserve"><value>немає активного вікна</value></data>
+  <data name="Outcome.NotStarted" xml:space="preserve"><value>ще немає</value></data>
+  <data name="Outcome.OwnWindow" xml:space="preserve"><value>вікно Backpack (не враховується)</value></data>
+  <data name="Outcome.ShownInWindow" xml:space="preserve"><value>показано: зміна у вікні</value></data>
+  <data name="Outcome.ShownWindowSwitch" xml:space="preserve"><value>показано: перехід у вікно з іншою мовою</value></data>
+  <data name="Outcome.SuppressedWindowSwitch" xml:space="preserve"><value>не показано: перехід між вікнами (вимкнено в налаштуваннях)</value></data>
+  <data name="Outcome.Unavailable" xml:space="preserve"><value>розкладка недоступна</value></data>
+  <data name="Outcome.Unchanged" xml:space="preserve"><value>без змін</value></data>
+  <data name="Outcome.Unconfirmed" xml:space="preserve"><value>очікування підтвердження другим опитуванням</value></data>
+  <data name="Position.Anchor" xml:space="preserve"><value>Точка екрана</value></data>
+  <data name="Position.EdgeX" xml:space="preserve"><value>Від бічного краю</value></data>
+  <data name="Position.EdgeXHint" xml:space="preserve"><value>Діє для точок ліворуч і праворуч.</value></data>
+  <data name="Position.EdgeY" xml:space="preserve"><value>Від верхнього або нижнього краю</value></data>
+  <data name="Position.EdgeYHint" xml:space="preserve"><value>Діє для точок угорі та внизу.</value></data>
+  <data name="Position.Hint" xml:space="preserve"><value>Виберіть точку екрана, потім уточніть відстань від країв.</value></data>
+  <data name="Position.Note" xml:space="preserve"><value>Ряд лишається в робочій області основного монітора, над панеллю завдань.</value></data>
+  <data name="Position.PreviewLabel" xml:space="preserve"><value>клавіші</value></data>
+  <data name="Position.Reset" xml:space="preserve"><value>Типове положення</value></data>
+  <data name="Position.ResetButton" xml:space="preserve"><value>Унизу по центру</value></data>
+  <data name="Position.Title" xml:space="preserve"><value>Положення ряду клавіш</value></data>
+  <data name="Profile.Error.Id" xml:space="preserve"><value>Ідентифікатор профілю відсутній або некоректний.</value></data>
+  <data name="Profile.Error.Missing" xml:space="preserve"><value>Файл профілю не знайдено.</value></data>
+  <data name="Profile.Error.Name" xml:space="preserve"><value>Назва профілю відсутня або довша за 64 символи.</value></data>
+  <data name="Profile.Error.Newer" xml:space="preserve"><value>Профіль створено новішою версією (формат {0}).</value></data>
+  <data name="Profile.Error.NoSettings" xml:space="preserve"><value>У профілі немає розділу налаштувань.</value></data>
+  <data name="Profile.Error.NotProfile" xml:space="preserve"><value>Це не файл профілю Backpack.</value></data>
+  <data name="Profile.Error.NoVersion" xml:space="preserve"><value>Не вказано версію формату профілю.</value></data>
+  <data name="Profile.Error.ReadFailed" xml:space="preserve"><value>Не вдалося прочитати файл профілю ({0}).</value></data>
+  <data name="Profile.Error.Styles" xml:space="preserve"><value>Список «styles» пошкоджений або задовгий (не більше 16 стилів).</value></data>
+  <data name="Profile.Error.Syntax" xml:space="preserve"><value>Файл не є коректним JSON (рядок {0}).</value></data>
+  <data name="Profile.Error.TooLarge" xml:space="preserve"><value>Файл завеликий для профілю (понад 256 КБ).</value></data>
+  <data name="Profile.Error.Unsupported" xml:space="preserve"><value>Непідтримувана версія формату профілю: {0}.</value></data>
+  <data name="Profiles.Active" xml:space="preserve"><value>Профіль</value></data>
+  <data name="Profiles.Active.Title" xml:space="preserve"><value>Поточний профіль</value></data>
+  <data name="Profiles.All.Title" xml:space="preserve"><value>Усі профілі</value></data>
+  <data name="Profiles.CopyName" xml:space="preserve"><value>{0} — копія</value></data>
+  <data name="Profiles.DefaultName" xml:space="preserve"><value>Основний</value></data>
+  <data name="Profiles.Delete" xml:space="preserve"><value>Видалити</value></data>
+  <data name="Profiles.Delete.Message" xml:space="preserve"><value>Видалити профіль «{0}»? Цю дію не можна скасувати.</value></data>
+  <data name="Profiles.Delete.Title" xml:space="preserve"><value>Видалити профіль</value></data>
+  <data name="Profiles.DeleteActiveHint" xml:space="preserve"><value>Профіль, що використовується, видалити не можна. Спершу завантажте інший.</value></data>
+  <data name="Profiles.Duplicate" xml:space="preserve"><value>Дублювати</value></data>
+  <data name="Profiles.Error.Name" xml:space="preserve"><value>Введіть назву від 1 до 64 символів.</value></data>
+  <data name="Profiles.Export" xml:space="preserve"><value>Експорт…</value></data>
+  <data name="Profiles.FileDialogNote" xml:space="preserve"><value>Файлові діалоги Windows мають тему й мову Windows, а не налаштувань Backpack.</value></data>
+  <data name="Profiles.FileFilter" xml:space="preserve"><value>Профіль Backpack</value></data>
+  <data name="Profiles.Import" xml:space="preserve"><value>Імпорт…</value></data>
+  <data name="Profiles.Imported.Later" xml:space="preserve"><value>Пізніше</value></data>
+  <data name="Profiles.Imported.Message" xml:space="preserve"><value>Профіль «{0}» додано до списку. Завантажити його зараз?</value></data>
+  <data name="Profiles.Imported.Title" xml:space="preserve"><value>Профіль імпортовано</value></data>
+  <data name="Profiles.ImportFailed.Message" xml:space="preserve"><value>Файл не імпортовано, бо в ньому є проблеми. Нічого не змінено.</value></data>
+  <data name="Profiles.ImportFailed.Title" xml:space="preserve"><value>Профіль не імпортовано</value></data>
+  <data name="Profiles.IncludesNote" xml:space="preserve"><value>Профіль зберігає вигляд і поведінку оверлею, мишу, індикатор розкладки та положення. Мова, тема і трей — спільні.</value></data>
+  <data name="Profiles.IsActive" xml:space="preserve"><value>Використовується зараз</value></data>
+  <data name="Profiles.Load" xml:space="preserve"><value>Завантажити</value></data>
+  <data name="Profiles.LoadFailed.Message" xml:space="preserve"><value>У файлі профілю є проблеми. Поточні налаштування не змінено.</value></data>
+  <data name="Profiles.LoadFailed.Title" xml:space="preserve"><value>Профіль не завантажено</value></data>
+  <data name="Profiles.NameLabel" xml:space="preserve"><value>Назва профілю</value></data>
+  <data name="Profiles.New" xml:space="preserve"><value>Новий профіль</value></data>
+  <data name="Profiles.New.Title" xml:space="preserve"><value>Новий профіль</value></data>
+  <data name="Profiles.NewName" xml:space="preserve"><value>Новий профіль</value></data>
+  <data name="Profiles.Rename" xml:space="preserve"><value>Перейменувати</value></data>
+  <data name="Profiles.Rename.Title" xml:space="preserve"><value>Перейменувати профіль</value></data>
+  <data name="Renderer.Laptop" xml:space="preserve"><value>Ноутбук</value></data>
+  <data name="Renderer.LowProfile" xml:space="preserve"><value>Низький профіль</value></data>
+  <data name="Renderer.Minimal" xml:space="preserve"><value>Мінімальний</value></data>
+  <data name="Renderer.Pbt" xml:space="preserve"><value>PBT</value></data>
+  <data name="Renderer.Volumetric" xml:space="preserve"><value>Об’ємний (вигляд спереду)</value></data>
+  <data name="Settings.HelpButton" xml:space="preserve"><value>Довідка</value></data>
+  <data name="Settings.Nav.About" xml:space="preserve"><value>Про програму</value></data>
+  <data name="Settings.Nav.Appearance" xml:space="preserve"><value>Стиль кейкапів</value></data>
+  <data name="Settings.Nav.Application" xml:space="preserve"><value>Налаштування застосунку</value></data>
+  <data name="Settings.Nav.Drawing" xml:space="preserve"><value>Малювання</value></data>
+  <data name="Settings.Nav.Help" xml:space="preserve"><value>Довідка та діагностика</value></data>
+  <data name="Settings.Nav.HelpPage" xml:space="preserve"><value>Довідка</value></data>
+  <data name="Settings.Nav.Home" xml:space="preserve"><value>Головна</value></data>
+  <data name="Settings.Nav.Hotkeys" xml:space="preserve"><value>Команди і сполучення</value></data>
+  <data name="Settings.Nav.Keys" xml:space="preserve"><value>Клавіші</value></data>
+  <data name="Settings.Nav.Layout" xml:space="preserve"><value>Розкладка</value></data>
+  <data name="Settings.Nav.Lens" xml:space="preserve"><value>Жива лінза</value></data>
+  <data name="Settings.Nav.Mouse" xml:space="preserve"><value>Миша</value></data>
+  <data name="Settings.Nav.Position" xml:space="preserve"><value>Положення і монітори</value></data>
+  <data name="Settings.Nav.Profiles" xml:space="preserve"><value>Профілі</value></data>
+  <data name="Settings.Nav.SettingsGroup" xml:space="preserve"><value>Налаштування</value></data>
+  <data name="Settings.Problem.Bool" xml:space="preserve"><value>{0}: очікується true або false; використано {1}.</value></data>
+  <data name="Settings.Problem.Color" xml:space="preserve"><value>{0}: «{1}» не є кольором; використано {2}.</value></data>
+  <data name="Settings.Problem.Corrupt" xml:space="preserve"><value>Файл налаштувань не є коректним JSON (рядок {0}); використано типові налаштування, файл збережено як settings.unreadable.bak.json.</value></data>
+  <data name="Settings.Problem.Enum" xml:space="preserve"><value>{0}: «{1}» не входить до {2}; використано типове значення.</value></data>
+  <data name="Settings.Problem.Integer" xml:space="preserve"><value>{0}: очікується ціле число; використано {1}.</value></data>
+  <data name="Settings.Problem.Newer" xml:space="preserve"><value>Налаштування збережено новішою версією (формат {0}); використано типові налаштування, файл не перезаписується.</value></data>
+  <data name="Settings.Problem.NoFormat" xml:space="preserve"><value>Файл не є файлом налаштувань Backpack; використано типові налаштування.</value></data>
+  <data name="Settings.Problem.NotObject" xml:space="preserve"><value>Файл налаштувань не містить об’єкта JSON; використано типові налаштування.</value></data>
+  <data name="Settings.Problem.NotSection" xml:space="preserve"><value>«{0}» має бути об’єктом; для нього використано типові значення.</value></data>
+  <data name="Settings.Problem.NoVersion" xml:space="preserve"><value>Не вказано версію формату налаштувань; використано типові налаштування.</value></data>
+  <data name="Settings.Problem.Number" xml:space="preserve"><value>{0}: очікується число; використано {1}.</value></data>
+  <data name="Settings.Problem.Range" xml:space="preserve"><value>{0}: {1} поза межами {2}…{3}; використано {4}.</value></data>
+  <data name="Settings.Problem.ReadFailed" xml:space="preserve"><value>Не вдалося прочитати файл налаштувань ({0}); використано типові налаштування.</value></data>
+  <data name="Settings.Problem.SaveFailed" xml:space="preserve"><value>Не вдалося зберегти налаштування ({0}).</value></data>
+  <data name="Settings.Problem.StyleId" xml:space="preserve"><value>{0}: «{1}» — недійсний ідентифікатор стилю; посилання прибрано, параметри збережено.</value></data>
+  <data name="Settings.Problem.UnknownField" xml:space="preserve"><value>Невідоме поле «{0}» пропущено.</value></data>
+  <data name="Settings.Problem.Unsupported" xml:space="preserve"><value>Непідтримувана версія формату налаштувань: {0}; використано типові налаштування.</value></data>
+  <data name="Settings.ResetSection" xml:space="preserve"><value>Скинути розділ</value></data>
+  <data name="Settings.ToTray" xml:space="preserve"><value>Згорнути в трей</value></data>
+  <data name="Settings.ToTrayHint" xml:space="preserve"><value>Ховає всі вікна Backpack; оверлей продовжує працювати. Повернути — значком в області сповіщень.</value></data>
+  <data name="Settings.WindowTitle" xml:space="preserve"><value>Backpack</value></data>
+  <data name="Style.Error.Id" xml:space="preserve"><value>Ідентифікатор стилю недійсний.</value></data>
+  <data name="Style.Error.Kind" xml:space="preserve"><value>Невідомий вид стилю (очікується keycap, indicator або mouse).</value></data>
+  <data name="Style.Error.Newer" xml:space="preserve"><value>Стиль створено новішою версією Backpack (формат {0}). Оновіть Backpack, щоб його використати.</value></data>
+  <data name="Style.Error.NoLook" xml:space="preserve"><value>У стилі немає розділу «look».</value></data>
+  <data name="Style.Error.NotStyle" xml:space="preserve"><value>Це не файл стилю Backpack.</value></data>
+  <data name="Style.Error.TooLarge" xml:space="preserve"><value>Файл стилю завеликий (понад 64 КБ).</value></data>
+  <data name="Style.ImportedName" xml:space="preserve"><value>{0} (імпортовано)</value></data>
+  <data name="Style.IndicatorAccent" xml:space="preserve"><value>Акцент</value></data>
+  <data name="Style.IndicatorDark" xml:space="preserve"><value>Темна «пігулка»</value></data>
+  <data name="Style.IndicatorLight" xml:space="preserve"><value>Світла «пігулка»</value></data>
+  <data name="Style.IndicatorOutline" xml:space="preserve"><value>Контур</value></data>
+  <data name="Style.LaptopMidnight" xml:space="preserve"><value>Ноутбук — опівнічний</value></data>
+  <data name="Style.LaptopSilver" xml:space="preserve"><value>Ноутбук — срібний</value></data>
+  <data name="Style.LowProfileClassic" xml:space="preserve"><value>Низький профіль — класичний</value></data>
+  <data name="Style.LowProfileGraphite" xml:space="preserve"><value>Низький профіль — графіт</value></data>
+  <data name="Style.MinimalInk" xml:space="preserve"><value>Мінімальний — чорнило</value></data>
+  <data name="Style.MinimalLight" xml:space="preserve"><value>Мінімальний — світлий текст</value></data>
+  <data name="Style.MouseOutlineDark" xml:space="preserve"><value>Контурний — темний</value></data>
+  <data name="Style.MouseOutlineLight" xml:space="preserve"><value>Контурний — світлий</value></data>
+  <data name="Style.MouseRetroBeige" xml:space="preserve"><value>Ретро — бежевий</value></data>
+  <data name="Style.MouseRetroBlueGrey" xml:space="preserve"><value>Ретро — сіро-блакитний</value></data>
+  <data name="Style.MouseRetroGraphite" xml:space="preserve"><value>Ретро — графітовий</value></data>
+  <data name="Style.MouseRetroSage" xml:space="preserve"><value>Ретро — приглушений шавлієвий</value></data>
+  <data name="Style.MouseSketchChalk" xml:space="preserve"><value>Скетч — крейда</value></data>
+  <data name="Style.MouseSketchInk" xml:space="preserve"><value>Скетч — чорнило</value></data>
+  <data name="Style.MouseSolidDark" xml:space="preserve"><value>Суцільний — темний</value></data>
+  <data name="Style.MouseSolidLight" xml:space="preserve"><value>Суцільний — світлий</value></data>
+  <data name="Style.PbtCream" xml:space="preserve"><value>PBT — кремовий</value></data>
+  <data name="Style.PbtOcean" xml:space="preserve"><value>PBT — океан</value></data>
+  <data name="Style.VolLavender" xml:space="preserve"><value>Об’ємний — лавандовий</value></data>
+  <data name="Style.VolMint" xml:space="preserve"><value>Об’ємний — м’ятний</value></data>
+  <data name="Style.VolRose" xml:space="preserve"><value>Об’ємний — рожевий</value></data>
+  <data name="Styles.Apply" xml:space="preserve"><value>Застосувати</value></data>
+  <data name="Styles.BuiltIn" xml:space="preserve"><value>вбудований</value></data>
+  <data name="Styles.Delete.Message" xml:space="preserve"><value>Видалити стиль «{0}»? Профілі, що його використовують, зберігають вигляд: параметри записано в профілі.</value></data>
+  <data name="Styles.Delete.Title" xml:space="preserve"><value>Видалити стиль</value></data>
+  <data name="Styles.Duplicate" xml:space="preserve"><value>Дублювати</value></data>
+  <data name="Styles.FileFilter" xml:space="preserve"><value>Стиль Backpack</value></data>
+  <data name="Styles.FolderFailed" xml:space="preserve"><value>Не вдалося відкрити папку {0}.</value></data>
+  <data name="Styles.Imported.Added" xml:space="preserve"><value>Стиль «{0}» додано до каталогу.</value></data>
+  <data name="Styles.Imported.OtherKind" xml:space="preserve"><value>Стиль «{0}» додано до каталогу іншого елемента (кейкапи, індикатор або миша).</value></data>
+  <data name="Styles.Imported.Present" xml:space="preserve"><value>Стиль «{0}» уже є в каталозі; копію не створено.</value></data>
+  <data name="Styles.Imported.Renamed" xml:space="preserve"><value>Стиль із тим самим ідентифікатором, але іншими параметрами вже існує. Імпортований збережено як «{0}»; нічого не перезаписано.</value></data>
+  <data name="Styles.Imported.Title" xml:space="preserve"><value>Стиль імпортовано</value></data>
+  <data name="Styles.ImportFailed.Title" xml:space="preserve"><value>Стиль не імпортовано</value></data>
+  <data name="Styles.Indicator.Hint" xml:space="preserve"><value>Вбудовані та власні стилі індикатора. Плагін може натомість брати вигляд кейкапів.</value></data>
+  <data name="Styles.Indicator.Title" xml:space="preserve"><value>Стилі індикатора розкладки</value></data>
+  <data name="Styles.InheritHint" xml:space="preserve"><value>кольори з кейкапів</value></data>
+  <data name="Styles.Keycap.Hint" xml:space="preserve"><value>Стиль — збережений набір параметрів вигляду. Вбудовані стилі не змінюються: редагування під час збереження створює вашу копію.</value></data>
+  <data name="Styles.Keycap.Title" xml:space="preserve"><value>Стилі кейкапів</value></data>
+  <data name="Styles.Mine" xml:space="preserve"><value>мій</value></data>
+  <data name="Styles.Mouse.Hint" xml:space="preserve"><value>Вигляд значка миші біля курсора й у ряду. Бічні кнопки налаштовуються нижче й не змінюються зі стилем.</value></data>
+  <data name="Styles.Mouse.Title" xml:space="preserve"><value>Стилі миші</value></data>
+  <data name="Styles.NewName" xml:space="preserve"><value>Мій стиль</value></data>
+  <data name="Styles.OpenFolder" xml:space="preserve"><value>Відкрити папку стилів</value></data>
+  <data name="Styles.Restore" xml:space="preserve"><value>Відновити</value></data>
+  <data name="Styles.RestoreHint" xml:space="preserve"><value>Повернути параметри вибраного стилю.</value></data>
+  <data name="Styles.Save" xml:space="preserve"><value>Зберегти стиль</value></data>
+  <data name="Styles.SaveAsNew" xml:space="preserve"><value>Зберегти як новий…</value></data>
+  <data name="Styles.Skipped" xml:space="preserve"><value>Пропущено пошкоджених або непідтримуваних файлів стилів: {0}. Їх не видалено.</value></data>
+  <data name="Styles.Status.Custom" xml:space="preserve"><value>Власні параметри (не з каталогу).</value></data>
+  <data name="Styles.Status.Inherit" xml:space="preserve"><value>Кольори беруться з кейкапів.</value></data>
+  <data name="Styles.Status.Missing" xml:space="preserve"><value>Стилю цього профілю немає в каталозі на цьому комп’ютері; його параметри збережено в профілі.</value></data>
+  <data name="Styles.Status.Modified" xml:space="preserve"><value>На основі {0} • змінено. Збережіть як свій стиль або відновіть оригінал.</value></data>
+  <data name="Styles.Status.Selected" xml:space="preserve"><value>Вибрано: {0}.</value></data>
+  <data name="Tray.CombosOnly" xml:space="preserve"><value>Лише сполучення</value></data>
+  <data name="Tray.Exit" xml:space="preserve"><value>Вийти з Backpack</value></data>
+  <data name="Tray.FirstHide.Exit" xml:space="preserve"><value>Краще вийти</value></data>
+  <data name="Tray.FirstHide.Message" xml:space="preserve"><value>Вікно сховано; оверлей працює далі.
+
+Значок Backpack — в області сповіщень панелі завдань. Windows може помістити його серед прихованих значків (стрілка ^).
+
+Клацніть значок, щоб повернути вікна. Правою кнопкою — швидкі перемикачі та «Вийти з Backpack».
+
+Щоб × завершував роботу, змініть це в «Налаштування → Застосунок».</value></data>
+  <data name="Tray.FirstHide.Ok" xml:space="preserve"><value>Зрозуміло</value></data>
+  <data name="Tray.FirstHide.Title" xml:space="preserve"><value>Backpack працює далі</value></data>
+  <data name="Tray.Help" xml:space="preserve"><value>Довідка</value></data>
+  <data name="Tray.LayoutIndicator" xml:space="preserve"><value>Індикатор розкладки</value></data>
+  <data name="Tray.MouseCircle" xml:space="preserve"><value>Коло клацання біля курсора</value></data>
+  <data name="Tray.MouseIcon" xml:space="preserve"><value>Значок миші біля курсора</value></data>
+  <data name="Tray.MouseInRow" xml:space="preserve"><value>Кнопки миші в ряду</value></data>
+  <data name="Tray.OpenSettings" xml:space="preserve"><value>Відкрити Backpack</value></data>
+  <data name="Tray.Profile" xml:space="preserve"><value>Профіль: {0}</value></data>
+  <data name="Tray.ShowOverlay" xml:space="preserve"><value>Показувати відображення</value></data>
+  <data name="Tray.ShowWindows" xml:space="preserve"><value>Показати вікна Backpack</value></data>
+  <data name="Tray.Tooltip" xml:space="preserve"><value>Backpack</value></data>
+  <data name="Tray.TooltipHidden" xml:space="preserve"><value>Backpack — відображення приховано</value></data>
+  <data name="Unit.Ms" xml:space="preserve"><value>мс</value></data>
+  <data name="Unit.Sec" xml:space="preserve"><value>с</value></data>
+  <data name="Update.Available" xml:space="preserve"><value>Доступна версія {0}.</value></data>
+  <data name="Update.BadResponse" xml:space="preserve"><value>GitHub повернув неочікувану відповідь.</value></data>
+  <data name="Update.Failed" xml:space="preserve"><value>Перевірка не вдалася.</value></data>
+  <data name="Update.NoPackage" xml:space="preserve"><value>Версія {0} є, але пакета для Windows x64 ще немає.</value></data>
+  <data name="Update.NotConfigured" xml:space="preserve"><value>Джерело випусків не налаштовано.</value></data>
+  <data name="Update.Offline" xml:space="preserve"><value>Немає з’єднання з GitHub.</value></data>
+  <data name="Update.RateLimited" xml:space="preserve"><value>GitHub обмежив кількість запитів. Спробуйте пізніше.</value></data>
+  <data name="Update.Timeout" xml:space="preserve"><value>GitHub не відповів вчасно.</value></data>
+  <data name="Update.UpToDate" xml:space="preserve"><value>У вас найновіша версія для цього каналу.</value></data>
+  <data name="Note.ThemeMigrated" xml:space="preserve"><value>Тему вікон змінено на Backpack Emerald. Повернути попередній вигляд: Налаштування застосунку → Колірна тема → Класична.</value></data>
+  <data name="Note.PrivacyFailed" xml:space="preserve"><value>Динамічна приватність не змогла стежити за фокусом введення ({0}, помилка {1}); поки приватність увімкнена, клавіші не показуються.</value></data>
+  <data name="Privacy.Status.Password" xml:space="preserve"><value>Захищене поле</value></data>
+  <data name="Privacy.Status.BlockedApp" xml:space="preserve"><value>Приховано для цього застосунку</value></data>
+  <data name="Privacy.Status.Checking" xml:space="preserve"><value>Перевірка</value></data>
+  <data name="Privacy.Status.NoData" xml:space="preserve"><value>Немає даних</value></data>
+  <data name="Settings.Problem.Value" xml:space="preserve"><value>{0}: неправильний запис пропущено.</value></data>
+  <data name="Theme.Emerald" xml:space="preserve"><value>Backpack Emerald</value></data>
+  <data name="Theme.Classic" xml:space="preserve"><value>Класична</value></data>
+  <data name="Theme.Sapphire" xml:space="preserve"><value>Сапфір</value></data>
+  <data name="Theme.Amber" xml:space="preserve"><value>Бурштин</value></data>
+  <data name="Settings.Nav.Focus" xml:space="preserve"><value>Фокус</value></data>
+  <data name="Settings.Nav.Plugins" xml:space="preserve"><value>Плагіни</value></data>
+  <data name="Tool.Enabled.Title" xml:space="preserve"><value>Інструмент</value></data>
+  <data name="Tool.Enabled.Hint" xml:space="preserve"><value>Вимкнення закриває вікна інструмента, завершує його режим і звільняє його сполучення. Налаштування зберігаються.</value></data>
+  <data name="Tool.Enabled" xml:space="preserve"><value>Інструмент увімкнено</value></data>
+  <data name="Keys.More.Title" xml:space="preserve"><value>Вигляд і розміщення</value></data>
+  <data name="Keys.OpenStyle" xml:space="preserve"><value>Стиль кейкапів</value></data>
+  <data name="Keys.OpenPosition" xml:space="preserve"><value>Положення і монітори</value></data>
+  <data name="Monitors.Keycaps.Title" xml:space="preserve"><value>Монітори для кейкапів</value></data>
+  <data name="Monitors.Hint" xml:space="preserve"><value>Положення і відступи рахуються від робочої області кожного монітора в його масштабі.</value></data>
+  <data name="Monitors.Mode" xml:space="preserve"><value>Де показувати</value></data>
+  <data name="Monitors.ModeHint" xml:space="preserve"><value>«Під курсором» — монітор, де зараз вказівник миші, а не монітор активного вікна.</value></data>
+  <data name="Monitors.Primary" xml:space="preserve"><value>Основний</value></data>
+  <data name="Monitors.Selected" xml:space="preserve"><value>Вибраний</value></data>
+  <data name="Monitors.Multiple" xml:space="preserve"><value>Декілька</value></data>
+  <data name="Monitors.UnderCursor" xml:space="preserve"><value>Під курсором</value></data>
+  <data name="Monitors.PrimaryWord" xml:space="preserve"><value>основний</value></data>
+  <data name="Monitors.Missing" xml:space="preserve"><value>«{0}» зараз не під’єднано — замість нього використовується основний. Вибір збережено до його повернення.</value></data>
+  <data name="Monitors.Note" xml:space="preserve"><value>Одне джерело введення обслуговує всі вікна. Перенесення на інший монітор не перезапускає анімацію і не скидає утримання.</value></data>
+  <data name="Monitors.Indicator.Title" xml:space="preserve"><value>Монітори для індикатора розкладки</value></data>
+  <data name="Monitors.Indicator.Inherit" xml:space="preserve"><value>Ті самі монітори, що й кейкапи</value></data>
+  <data name="Monitors.Indicator.InheritHint" xml:space="preserve"><value>Вимкніть, щоб вибрати монітори для індикатора окремо.</value></data>
+  <data name="Monitors.Indicator.Own" xml:space="preserve"><value>Монітори індикатора</value></data>
+  <data name="Draw.Tool.SmartPen" xml:space="preserve"><value>Розумний олівець</value></data>
+  <data name="Draw.Tool.Marker" xml:space="preserve"><value>Нумеровані позначки</value></data>
+  <data name="Draw.Smart.Title" xml:space="preserve"><value>Розумний олівець і нумеровані позначки</value></data>
+  <data name="Draw.Smart.Hint" xml:space="preserve"><value>Обидва інструменти — на панелі малювання.</value></data>
+  <data name="Draw.Smart.Note" xml:space="preserve"><value>Очевидна пряма, еліпс чи прямокутник стає рівною фігурою; решта лишається як є. Скасування повертає вихідний штрих.</value></data>
+  <data name="Draw.Markers.Start" xml:space="preserve"><value>Перший номер</value></data>
+  <data name="Draw.Markers.StartHint" xml:space="preserve"><value>Для наступної серії позначок.</value></data>
+  <data name="Draw.Markers.Size" xml:space="preserve"><value>Розмір позначки</value></data>
+  <data name="Draw.Markers.Note" xml:space="preserve"><value>Клацніть, щоб поставити наступний номер, перетягніть, щоб перемістити. Скасування зберігає нумерацію.</value></data>
+  <data name="App.Palette.Title" xml:space="preserve"><value>Колірна тема</value></data>
+  <data name="App.Palette.Hint" xml:space="preserve"><value>Кольори вікон Backpack. Не залежить від світлого чи темного режиму і від стилів інструментів (кейкапи, рамка «Фокуса»).</value></data>
+  <data name="App.Palette" xml:space="preserve"><value>Кольори</value></data>
+  <data name="App.ReducedMotion" xml:space="preserve"><value>Менше руху</value></data>
+  <data name="App.ReducedMotionHint" xml:space="preserve"><value>Демонстрація на головній не відтворюється сама.</value></data>
+  <data name="Privacy.Title" xml:space="preserve"><value>Динамічна приватність</value></data>
+  <data name="Privacy.Hint" xml:space="preserve"><value>Клавіші не показуються, поки фокус введення в захищеному полі або в прихованому застосунку.</value></data>
+  <data name="Privacy.Enable" xml:space="preserve"><value>Приховувати введення в захищених полях</value></data>
+  <data name="Privacy.EnableHint" xml:space="preserve"><value>Використовується лише ознака IsPassword елемента у фокусі. Вміст полів, буфер обміну і заголовки вікон не читаються.</value></data>
+  <data name="Privacy.Badge" xml:space="preserve"><value>Показувати замок на екрані</value></data>
+  <data name="Privacy.BadgeHint" xml:space="preserve"><value>Невеликий замок із причиною з’являється, коли введення приховано. Без кількості і довжини.</value></data>
+  <data name="Privacy.Status" xml:space="preserve"><value>Зараз</value></data>
+  <data name="Privacy.Status.Allowed" xml:space="preserve"><value>Показ дозволено</value></data>
+  <data name="Privacy.AddApp" xml:space="preserve"><value>Приховувати для застосунку</value></data>
+  <data name="Privacy.AddAppHint" xml:space="preserve"><value>Ім’я файлу програми, наприклад keepass.exe.</value></data>
+  <data name="Privacy.AddAppButton" xml:space="preserve"><value>Додати</value></data>
+  <data name="Privacy.RemoveApp" xml:space="preserve"><value>Прибрати</value></data>
+  <data name="Privacy.Limits" xml:space="preserve"><value>Windows не має універсального способу розпізнати поле пароля. Застосунки, чиї елементи не повідомляють IsPassword, автоматично захистити не можна; коли стан невідомий, показ закрито. Додайте такі застосунки до списку або використовуйте «Показати або сховати відображення».</value></data>
+  <data name="Privacy.ManualHide" xml:space="preserve"><value>Ручне приховування — як і раніше: команда «Показати або сховати відображення».</value></data>
+  <data name="Focus.EditHint" xml:space="preserve"><value>Тягніть усередині лінзи — перемістити її, усередині пунктирної рамки джерела — перемістити джерело, правий чи нижній край — розмір. Esc або Enter — готово.</value></data>
+  <data name="Focus.Mode.Lens" xml:space="preserve"><value>Лінза</value></data>
+  <data name="Commands.Category.App" xml:space="preserve"><value>Застосунок</value></data>
+  <data name="Commands.Category.Keys" xml:space="preserve"><value>Клавіші</value></data>
+  <data name="Commands.Category.Mouse" xml:space="preserve"><value>Миша</value></data>
+  <data name="Commands.Category.Layout" xml:space="preserve"><value>Розкладка</value></data>
+  <data name="Commands.Category.Drawing" xml:space="preserve"><value>Малювання</value></data>
+  <data name="Commands.Category.Settings" xml:space="preserve"><value>Відкрити налаштування</value></data>
+  <data name="Commands.Category.Plugins" xml:space="preserve"><value>Плагіни</value></data>
+  <data name="Commands.AppOpen" xml:space="preserve"><value>Відкрити Backpack</value></data>
+  <data name="Commands.ProfileNext" xml:space="preserve"><value>Завантажити наступний профіль</value></data>
+  <data name="Commands.Drawing" xml:space="preserve"><value>Малювання</value></data>
+  <data name="Commands.MarkersReset" xml:space="preserve"><value>Скинути нумерацію</value></data>
+  <data name="Commands.Scope.Global" xml:space="preserve"><value>глобальне</value></data>
+  <data name="Commands.Scope.Local" xml:space="preserve"><value>у вікнах Backpack</value></data>
+  <data name="Commands.Scope.Tool" xml:space="preserve"><value>лише в інструменті</value></data>
+  <data name="Commands.LocalOnly" xml:space="preserve"><value>незмінне</value></data>
+  <data name="Commands.Rules.Title" xml:space="preserve"><value>Правила</value></data>
+  <data name="Commands.Rules" xml:space="preserve"><value>Глобальні сполучення потребують Ctrl, Alt або Win. Сполучення інструмента діють, лише поки він активний (там дозволені F2–F24 без модифікаторів). Утримання не повторює команду; сполучення не пропускає підтвердження.</value></data>
+  <data name="Plugins.BuiltIn.Title" xml:space="preserve"><value>Вбудовані інструменти</value></data>
+  <data name="Plugins.BuiltIn.Hint" xml:space="preserve"><value>Клавіші та миша біля вказівника — частина Backpack; усе інше — плагіни.</value></data>
+  <data name="Plugins.On" xml:space="preserve"><value>увімкнено</value></data>
+  <data name="Plugins.Off" xml:space="preserve"><value>вимкнено</value></data>
+  <data name="Plugins.External.Title" xml:space="preserve"><value>Зовнішні плагіни</value></data>
+  <data name="Plugins.External.Hint" xml:space="preserve"><value>Зірочка показує плагін у боковому меню. Вона не вмикає і не видаляє плагін.</value></data>
+  <data name="Plugins.TrustNote" xml:space="preserve"><value>Плагін — це програма, що працює з вашими правами користувача в окремому процесі. Backpack обмежує те, що передає плагіну (без прихованого введення, вмісту полів і екрана), але не може захистити від шкідливого коду. Вмикайте лише плагіни з джерела, якому довіряєте.</value></data>
+  <data name="Plugins.SafeMode" xml:space="preserve"><value>Безпечний запуск: плагіни в цьому сеансі не запускаються (--no-plugins).</value></data>
+  <data name="Plugins.Favorite" xml:space="preserve"><value>У меню</value></data>
+  <data name="Plugins.Details" xml:space="preserve"><value>Докладно</value></data>
+  <data name="Plugins.Enable" xml:space="preserve"><value>Увімкнути</value></data>
+  <data name="Plugins.Disable" xml:space="preserve"><value>Вимкнути</value></data>
+  <data name="Plugins.Remove" xml:space="preserve"><value>Видалити</value></data>
+  <data name="Plugins.Update" xml:space="preserve"><value>Оновити з файлу</value></data>
+  <data name="Plugins.Import" xml:space="preserve"><value>Імпортувати плагін</value></data>
+  <data name="Plugins.FileFilter" xml:space="preserve"><value>Плагін Backpack</value></data>
+  <data name="Plugins.Imported" xml:space="preserve"><value>«{0}» встановлено і вимкнено. Відкрийте його, щоб переглянути відомості та увімкнути.</value></data>
+  <data name="Plugins.Updated" xml:space="preserve"><value>«{0}» оновлено з {1} до {2} і вимкнено, доки ви не ввімкнете його знову.</value></data>
+  <data name="Plugins.ImportFailed" xml:space="preserve"><value>Пакет не встановлено:</value></data>
+  <data name="Plugins.Trust.Title" xml:space="preserve"><value>Увімкнути плагін</value></data>
+  <data name="Plugins.Trust.Message" xml:space="preserve"><value>«{0}» від {1} — це програма. Вона працюватиме в окремому процесі з вашими правами користувача. Backpack не може захистити від шкідливого коду в плагіні. Вмикайте, лише якщо довіряєте джерелу.</value></data>
+  <data name="Plugins.Trust.Yes" xml:space="preserve"><value>Довіряю, увімкнути</value></data>
+  <data name="Plugins.Remove.Title" xml:space="preserve"><value>Видалити плагін</value></data>
+  <data name="Plugins.Remove.Message" xml:space="preserve"><value>Видалити «{0}» та його налаштування?</value></data>
+  <data name="Plugins.Id" xml:space="preserve"><value>ID</value></data>
+  <data name="Plugins.Author" xml:space="preserve"><value>Автор</value></data>
+  <data name="Plugins.Version" xml:space="preserve"><value>Версія</value></data>
+  <data name="Plugins.License" xml:space="preserve"><value>Ліцензія</value></data>
+  <data name="Plugins.Capabilities" xml:space="preserve"><value>Можливості</value></data>
+  <data name="Plugins.Cap.commands" xml:space="preserve"><value>команди</value></data>
+  <data name="Plugins.Cap.settings" xml:space="preserve"><value>сторінка налаштувань</value></data>
+  <data name="Plugins.Cap.overlay.panel" xml:space="preserve"><value>панель на екрані</value></data>
+  <data name="Plugins.Cap.input.visible" xml:space="preserve"><value>видимі клавіші (після фільтра приватності)</value></data>
+  <data name="Plugins.Cap.screen" xml:space="preserve"><value>екран (у цій версії не надається)</value></data>
+  <data name="Plugins.Settings.Title" xml:space="preserve"><value>Налаштування плагіна</value></data>
+  <data name="Plugins.Commands.Title" xml:space="preserve"><value>Команди плагіна</value></data>
+  <data name="Plugins.Commands.Hint" xml:space="preserve"><value>Доступні, поки плагін увімкнено. Сполучення призначаються в «Команди і сполучення».</value></data>
+  <data name="Plugins.StartFailed" xml:space="preserve"><value>Плагін «{0}» не вдалося запустити.</value></data>
+  <data name="Plugins.AutoDisabled" xml:space="preserve"><value>Плагін «{0}» повторно збоїв і його вимкнено.</value></data>
+  <data name="Home.F.DrawHint" xml:space="preserve"><value>Стрілки, фігури, текст і нумеровані кроки поверх будь-яких застосунків; розумний олівець вирівнює фігури. Сполучення: {0}.</value></data>
+  <data name="Commands.DisplayToggle" xml:space="preserve"><value>Показати або сховати відображення</value></data>
+  <data name="Commands.Radial" xml:space="preserve"><value>Радіальне меню</value></data>
+  <data name="Commands.MouseHighlight" xml:space="preserve"><value>Підсвічування курсора</value></data>
+  <data name="Commands.Migrated.Title" xml:space="preserve"><value>Сполучення перенесено в команди</value></data>
+  <data name="Commands.Migrated" xml:space="preserve"><value>Сполучення попередніх версій збережено як команди. Збільшення біля курсора, Лінза і Фокус тепер плагіни; їхні сполучення переносяться під час імпорту на сторінці «Плагіни».</value></data>
+  <data name="Draw.Tool.RoundedRectangle" xml:space="preserve"><value>Заокруглений прямокутник</value></data>
+  <data name="Draw.Tool.Polygon" xml:space="preserve"><value>Правильний багатокутник</value></data>
+  <data name="Draw.Tool.Select" xml:space="preserve"><value>Вибір і переміщення</value></data>
+  <data name="Draw.Category.Draw" xml:space="preserve"><value>Малювання</value></data>
+  <data name="Draw.Category.Shapes" xml:space="preserve"><value>Фігури</value></data>
+  <data name="Draw.Category.Annotate" xml:space="preserve"><value>Текст і позначки</value></data>
+  <data name="Window.Minimize" xml:space="preserve"><value>Згорнути</value></data>
+  <data name="Window.Maximize" xml:space="preserve"><value>Розгорнути або відновити</value></data>
+  <data name="Window.Close" xml:space="preserve"><value>Закрити</value></data>
+  <data name="Settings.Back" xml:space="preserve"><value>Назад</value></data>
+  <data name="Settings.ExpandGroup" xml:space="preserve"><value>Показати або сховати сторінки «{0}»</value></data>
+  <data name="Settings.Nav.CursorZoom" xml:space="preserve"><value>Збільшення біля курсора</value></data>
+  <data name="Settings.Nav.Interface" xml:space="preserve"><value>Оформлення</value></data>
+  <data name="Settings.Nav.Privacy" xml:space="preserve"><value>Приватність</value></data>
+  <data name="App.More.Title" xml:space="preserve"><value>Ще в цьому розділі</value></data>
+  <data name="App.More.Hint" xml:space="preserve"><value>Ці сторінки є і в меню ліворуч, у групі «Налаштування застосунку».</value></data>
+  <data name="Material.Title" xml:space="preserve"><value>Матеріал вікон</value></data>
+  <data name="Material.Hint" xml:space="preserve"><value>Діє на всі вікна Backpack: саме вікно, бічну панель, картки, меню й діалоги. Текст і елементи керування завжди непрозорі.</value></data>
+  <data name="Material.Kind" xml:space="preserve"><value>Матеріал</value></data>
+  <data name="Material.Opaque" xml:space="preserve"><value>Непрозорий</value></data>
+  <data name="Material.Mica" xml:space="preserve"><value>Mica</value></data>
+  <data name="Material.Acrylic" xml:space="preserve"><value>Acrylic</value></data>
+  <data name="Material.Opaque.Hint" xml:space="preserve"><value>Суцільні поверхні: найрозбірливіше, працює всюди.</value></data>
+  <data name="Material.Mica.Hint" xml:space="preserve"><value>Системний матеріал Windows: колір робочого столу м’яко просвічує.</value></data>
+  <data name="Material.Acrylic.Hint" xml:space="preserve"><value>Системний матеріал Windows: розмитий вигляд того, що за вікном.</value></data>
+  <data name="Material.Intensity" xml:space="preserve"><value>Прозорість</value></data>
+  <data name="Material.IntensityHint" xml:space="preserve"><value>Наскільки матеріал просвічує крізь поверхні.</value></data>
+  <data name="Material.Active" xml:space="preserve"><value>Зараз діє: {0}.</value></data>
+  <data name="Material.Fallback.NotSupported" xml:space="preserve"><value>Mica і Acrylic потребують Windows 11 22H2 або новішої. На цьому комп’ютері діє непрозорий вигляд.</value></data>
+  <data name="Material.Fallback.TransparencyOff" xml:space="preserve"><value>Ефекти прозорості вимкнено у Windows (Персоналізація → Кольори). Діє непрозорий вигляд, доки їх не ввімкнути.</value></data>
+  <data name="Material.Fallback.HighContrast" xml:space="preserve"><value>Увімкнено високу контрастність: Backpack використовує непрозорі поверхні без світіння.</value></data>
+  <data name="Material.Note" xml:space="preserve"><value>Меню й підказки — окремі спливні вікна; Windows не дає їм системного матеріалу, тому вони мають щільну заливку.</value></data>
+  <data name="Glow.Title" xml:space="preserve"><value>Світіння акцентів</value></data>
+  <data name="Glow.Enable" xml:space="preserve"><value>Світіння акцентних елементів</value></data>
+  <data name="Glow.EnableHint" xml:space="preserve"><value>М’яке світіння навколо основних кнопок, перемикачів, вибраного пункту меню та фірмової крапки. Текст лишається чітким.</value></data>
+  <data name="Glow.NotGem" xml:space="preserve"><value>Доступно в темах-самоцвітах (Backpack Emerald, Сапфір, Бурштин) і в стилі Backpack Neon з будь-якою темою.</value></data>
+  <data name="Glow.Intensity" xml:space="preserve"><value>Сила світіння</value></data>
+  <data name="Fonts.Ui.Title" xml:space="preserve"><value>Шрифт заголовків</value></data>
+  <data name="Fonts.Ui" xml:space="preserve"><value>Заголовки й назва програми</value></data>
+  <data name="Fonts.UiHint" xml:space="preserve"><value>Заголовки сторінок і карток та назва «Backpack». Решта тексту — стандартним шрифтом для кращої читабельності. Зберігається в профілі.</value></data>
+  <data name="Fonts.UiNote" xml:space="preserve"><value>Обидва шрифти вбудовані й не встановлюються у Windows.</value></data>
+  <data name="Fonts.Keycap.Title" xml:space="preserve"><value>Шрифт кейкапів</value></data>
+  <data name="Fonts.Keycap" xml:space="preserve"><value>Шрифт підписів на кейкапах</value></data>
+  <data name="Fonts.KeycapHint" xml:space="preserve"><value>Не залежить від шрифту інтерфейсу; стандартний — вбудований Inter. Зберігається в профілі.</value></data>
+  <data name="Fonts.KeycapNote" xml:space="preserve"><value>Символи клавіш (Shift, Enter, стрілки) — малюнки й не залежать від шрифту. Символи, яких немає в Spectral, беруться з Inter або Segoe UI.</value></data>
+  <data name="Labels.Secondary.Title" xml:space="preserve"><value>Друга розкладка на кейкапах</value></data>
+  <data name="Labels.Secondary.TitleHint" xml:space="preserve"><value>Великий підпис лишається англійським; маленький символ іншої розкладки — у вибраному куті (типово правому нижньому).</value></data>
+  <data name="Labels.Secondary" xml:space="preserve"><value>Додатковий підпис</value></data>
+  <data name="Labels.SecondaryHint" xml:space="preserve"><value>Активна розкладка — розкладка застосунку, в якому ви друкуєте. Якщо вона англійська, нічого не додається.</value></data>
+  <data name="Labels.Secondary.Off" xml:space="preserve"><value>Вимкнено</value></data>
+  <data name="Labels.Secondary.ActiveLayout" xml:space="preserve"><value>Активна розкладка</value></data>
+  <data name="Labels.Secondary.FixedLayout" xml:space="preserve"><value>Вибрана розкладка</value></data>
+  <data name="Labels.Layout" xml:space="preserve"><value>Розкладка</value></data>
+  <data name="Labels.LayoutHint" xml:space="preserve"><value>Розкладки, встановлені у Windows.</value></data>
+  <data name="Labels.LayoutMissing" xml:space="preserve"><value>Розкладку {0} не встановлено на цьому комп’ютері: додаткові підписи не показуються.</value></data>
+  <data name="Labels.SecondaryNote" xml:space="preserve"><value>Підпис — те, що надруковано на клавіші, без Shift, Caps Lock чи AltGr; мертва клавіша показує свій діакритичний знак. Клавіші без одного однозначного символу (IME, службові, цифровий блок) підпису не мають. Отримання підпису не змінює стан клавіатури жодного застосунку. Приватність діє першою: приховані клавіші не отримують жодних підписів.</value></data>
+  <data name="Preview.BoardTitle" xml:space="preserve"><value>Ясніша думка</value></data>
+  <data name="Preview.FocusLens" xml:space="preserve"><value>Окреме рухоме вікно лупи · {0}×</value></data>
+  <data name="Preview.FocusDim" xml:space="preserve"><value>Довкола затемнено на {0} %</value></data>
+  <data name="Preview.NormalField" xml:space="preserve"><value>Повідомлення</value></data>
+  <data name="Preview.ProtectedField" xml:space="preserve"><value>Захищене поле</value></data>
+  <data name="Preview.SafePhrase" xml:space="preserve"><value>Привіт команді</value></data>
+  <data name="Preview.ReturnPhrase" xml:space="preserve"><value>Наступна думка</value></data>
+  <data name="Preview.PrivacyNormal" xml:space="preserve"><value>Імітація · звичайне поле: клавіші показуються як завжди.</value></data>
+  <data name="Preview.PrivacyProtected" xml:space="preserve"><value>Імітація · захищене поле: нічого не показується, навіть пізніше.</value></data>
+  <data name="Radial.Name" xml:space="preserve"><value>Радіальне меню</value></data>
+  <data name="Radial.Back" xml:space="preserve"><value>Назад до основного кільця</value></data>
+  <data name="Radial.Show" xml:space="preserve"><value>Показ на екрані</value></data>
+  <data name="Draw.Category.Edit" xml:space="preserve"><value>Правка</value></data>
+  <data name="Draw.More" xml:space="preserve"><value>Ще</value></data>
+  <data name="Draw.Expand" xml:space="preserve"><value>Повна панель</value></data>
+  <data name="Draw.Compact" xml:space="preserve"><value>Компактна панель</value></data>
+  <data name="Draw.CustomColor" xml:space="preserve"><value>Будь-який колір (HEX і прозорість)</value></data>
+  <data name="Draw.Stroke" xml:space="preserve"><value>Лінія: товщина і вид</value></data>
+  <data name="Draw.Radius" xml:space="preserve"><value>Заокруглення кутів</value></data>
+  <data name="Draw.RadiusLess" xml:space="preserve"><value>Менше заокруглення</value></data>
+  <data name="Draw.RadiusMore" xml:space="preserve"><value>Більше заокруглення</value></data>
+  <data name="Draw.Sides" xml:space="preserve"><value>Кількість вершин</value></data>
+  <data name="Draw.SidesLess" xml:space="preserve"><value>Менше вершин</value></data>
+  <data name="Draw.SidesMore" xml:space="preserve"><value>Більше вершин</value></data>
+  <data name="Focus.LensLabel" xml:space="preserve"><value>Лупа · {0}×</value></data>
+  <data name="Mouse.Circle.Hint" xml:space="preserve"><value>З’являється навколо вказівника, поки натиснуто кнопку миші.</value></data>
+  <data name="Mouse.Highlight.Title" xml:space="preserve"><value>Підсвічування курсора</value></data>
+  <data name="Mouse.Highlight" xml:space="preserve"><value>Підсвічувати курсор</value></data>
+  <data name="Mouse.HighlightHint" xml:space="preserve"><value>М’яке світіння, що завжди йде за вказівником, щоб глядачі його не губили.</value></data>
+  <data name="Mouse.HighlightColor" xml:space="preserve"><value>Колір підсвічування</value></data>
+  <data name="Mouse.HighlightSize" xml:space="preserve"><value>Розмір підсвічування</value></data>
+  <data name="Fonts.Standard" xml:space="preserve"><value>Стандартний</value></data>
+  <data name="Settings.Menu" xml:space="preserve"><value>Меню</value></data>
+  <data name="Settings.HelpButtonHint" xml:space="preserve"><value>Довідка про цю сторінку (F1); пошук і всі розділи всередині</value></data>
+  <data name="Profiles.AutosaveHint" xml:space="preserve"><value>Зміни застосовуються одразу й автоматично зберігаються в цьому профілі.</value></data>
+  <data name="Profiles.ExportCurrent" xml:space="preserve"><value>Експортувати поточний профіль…</value></data>
+  <data name="Profiles.Retry" xml:space="preserve"><value>Повторити</value></data>
+  <data name="Profiles.SaveFailed.Title" xml:space="preserve"><value>Не вдалося зберегти зміни</value></data>
+  <data name="Profiles.Error.SaveFailed" xml:space="preserve"><value>Профіль «{0}» не записано ({1}). Зміни застосовано й збережено до наступної спроби.</value></data>
+  <data name="Profiles.Error.ExportFailed" xml:space="preserve"><value>Файл не вдалося записати ({0}). Сам профіль не змінено.</value></data>
+  <data name="Profiles.WorkingCopyName" xml:space="preserve"><value>{0} — моя копія</value></data>
+  <data name="Profiles.WorkingCopyNote" xml:space="preserve"><value>Попередній профіль лише для читання, тому зміни записано в робочу копію «{0}». Оригінал не змінено.</value></data>
+  <data name="Note.ProfilesAutosave" xml:space="preserve"><value>профілі: зміни тепер зберігаються автоматично. Застосовані налаштування записано в «{0}»; його попередню збережену версію залишено як «{1}»</value></data>
+  <data name="Privacy.Apps.Title" xml:space="preserve"><value>Завжди приховувати в цих застосунках</value></data>
+  <data name="Privacy.Limits.Title" xml:space="preserve"><value>Що приватність може й чого не може</value></data>
+  <data name="Plugins.View" xml:space="preserve"><value>Вигляд</value></data>
+  <data name="Plugins.View.Cards" xml:space="preserve"><value>Картки</value></data>
+  <data name="Plugins.View.List" xml:space="preserve"><value>Список</value></data>
+  <data name="Plugins.Installed.Title" xml:space="preserve"><value>Встановлені плагіни</value></data>
+  <data name="Plugins.None.Title" xml:space="preserve"><value>Плагінів ще немає</value></data>
+  <data name="Plugins.None" xml:space="preserve"><value>Імпортуйте пакет .bppkg, щоб додати плагін. Імпорт не запускає його код: плагін стартує лише після вмикання й підтвердження довіри.</value></data>
+  <data name="Plugins.VersionAuthor" xml:space="preserve"><value>Версія {0} · {1}</value></data>
+  <data name="Plugins.State.Failed" xml:space="preserve"><value>Помилка: процес плагіна зупинився</value></data>
+  <data name="Plugins.FavoriteHint" xml:space="preserve"><value>Показувати плагін у меню ліворуч</value></data>
+  <data name="Plugins.State.Crashed" xml:space="preserve"><value>Помилка: вимкнено після повторних збоїв</value></data>
+  <data name="Focus.Grip.Lens" xml:space="preserve"><value>Лінза</value></data>
+  <data name="Focus.Grip.Area" xml:space="preserve"><value>Область</value></data>
+  <data name="Focus.Grip.Source" xml:space="preserve"><value>Джерело</value></data>
+  <data name="Focus.Grip.Resize" xml:space="preserve"><value>Змінити розмір</value></data>
+  <data name="Focus.EditHintFollow" xml:space="preserve"><value>Тягніть усередині рамки — перемістити її (лінза збільшує те, що під нею), правий чи нижній край — розмір. Esc або Enter — готово.</value></data>
+  <data name="Help.Contents" xml:space="preserve"><value>Зміст</value></data>
+  <data name="Draw.Palette.Neon" xml:space="preserve"><value>Неонові кольори</value></data>
+  <data name="Draw.Palette.Classic" xml:space="preserve"><value>Класичні кольори</value></data>
+  <data name="Hotkeys.Status.Unavailable" xml:space="preserve"><value>Збережено, але команда зараз вимкнена (інструмент або плагін вимкнено). Запрацює після ввімкнення.</value></data>
+  <data name="Preview.Timer" xml:space="preserve"><value>Таймер</value></data>
+  <data name="Home.F.Tools" xml:space="preserve"><value>Малювання й інструменти презентації</value></data>
+  <data name="Home.F.ToolsHint" xml:space="preserve"><value>Малювання, індикатор розкладки, збільшення біля курсора, лінза, фокус і таймер — плагіни від творця. Вони вже в каталозі — увімкніть потрібні.</value></data>
+  <data name="Home.F.Open" xml:space="preserve"><value>Відкрити плагіни</value></data>
+  <data name="Plugins.Command.Hold" xml:space="preserve"><value>Діє, поки утримується</value></data>
+  <data name="Plugins.Command.Off" xml:space="preserve"><value>Доступна після ввімкнення плагіна.</value></data>
+  <data name="Plugins.Bundled.Title" xml:space="preserve"><value>Плагіни від творця, які не встановлено</value></data>
+  <data name="Plugins.Bundled.Hint" xml:space="preserve"><value>Вони постачаються з Backpack. Видалений вами плагін сам не повертається; додайте його тут. Налаштування й сполучення колишніх вбудованих інструментів переносяться. Потім увімкніть кожен — Backpack спершу попросить підтвердити довіру.</value></data>
+  <data name="Plugins.Bundled.Import" xml:space="preserve"><value>Додати знову</value></data>
+  <data name="Plugins.Bundled.Done" xml:space="preserve"><value>Додано: {0}. Увімкніть плагіни в їхніх картках.</value></data>
+  <data name="Draw.OpacityValue" xml:space="preserve"><value>Непрозорість: {0} %</value></data>
+  <data name="Mouse.OutlineWidth" xml:space="preserve"><value>Товщина контуру</value></data>
+  <data name="Mouse.SolidOutline" xml:space="preserve"><value>Контур</value></data>
+  <data name="Mouse.SolidOutlineHint" xml:space="preserve"><value>Контур навколо заповненого корпусу.</value></data>
+  <data name="Mouse.SolidOutlineColor" xml:space="preserve"><value>Колір контуру</value></data>
+  <data name="Labels.Corner" xml:space="preserve"><value>Кут</value></data>
+  <data name="Labels.Corner.TopLeft" xml:space="preserve"><value>Угорі ліворуч</value></data>
+  <data name="Labels.Corner.TopRight" xml:space="preserve"><value>Угорі праворуч</value></data>
+  <data name="Labels.Corner.BottomLeft" xml:space="preserve"><value>Унизу ліворуч</value></data>
+  <data name="Labels.Corner.BottomRight" xml:space="preserve"><value>Унизу праворуч</value></data>
+  <data name="Labels.Size" xml:space="preserve"><value>Розмір додаткового підпису</value></data>
+  <data name="Labels.SizeHint" xml:space="preserve"><value>Частка стандартного розміру підпису.</value></data>
+  <data name="Labels.OffsetX" xml:space="preserve"><value>Зсув по горизонталі</value></data>
+  <data name="Labels.OffsetY" xml:space="preserve"><value>Зсув по вертикалі</value></data>
+  <data name="Plugins.Cap.overlay.magnifier" xml:space="preserve"><value>збільшення, яке малює Backpack (зображення екрана плагін не отримує)</value></data>
+  <data name="Plugins.Cap.overlay.dim" xml:space="preserve"><value>затемнення навколо ділянки, яке малює Backpack</value></data>
+  <data name="Labels.MainSize" xml:space="preserve"><value>Розмір основного підпису</value></data>
+  <data name="Labels.MainSizeHint" xml:space="preserve"><value>Частка стандартного розміру підпису; у режимі двох підписів основна літера трохи менша.</value></data>
+  <data name="Labels.OffsetHint" xml:space="preserve"><value>Від безпечної точки біля вибраного кута; додатні значення — до центру грані кейкапа.</value></data>
+  <data name="Styles.Why.NoSelection" xml:space="preserve"><value>Стиль не вибрано.</value></data>
+  <data name="Styles.Why.NotModified" xml:space="preserve"><value>Після застосування стилю нічого не змінено.</value></data>
+  <data name="Styles.Why.BuiltIn" xml:space="preserve"><value>Вбудовані стилі не можна перейменувати чи видалити — збережіть копію.</value></data>
+  <data name="Surface.Title" xml:space="preserve"><value>Стиль поверхонь</value></data>
+  <data name="Surface.TitleHint" xml:space="preserve"><value>Як виглядають картки, поля та рамки. Не залежить від світлої чи темної основи, кольорової теми й матеріалу.</value></data>
+  <data name="Surface.Kind" xml:space="preserve"><value>Стиль</value></data>
+  <data name="Surface.Standard" xml:space="preserve"><value>Стандартний</value></data>
+  <data name="Surface.LiquidGlass" xml:space="preserve"><value>Liquid Glass</value></data>
+  <data name="Surface.Neon" xml:space="preserve"><value>Backpack Neon</value></data>
+  <data name="Surface.Standard.Hint" xml:space="preserve"><value>Спокійні картки з м’якими нейтральними рамками.</value></data>
+  <data name="Surface.LiquidGlass.Hint" xml:space="preserve"><value>Скляні картки з відблиском і світлими градієнтними рамками. Це оформлення Backpack, а не системний ефект Windows; з Mica або Acrylic матеріал просвічує.</value></data>
+  <data name="Surface.Neon.Hint" xml:space="preserve"><value>Найтемніша основа, тонкі рамки кольору світіння теми та м’яке світіння активних елементів. Картки спокійні, поля помітніші, вибране найяскравіше. Текст не світиться.</value></data>
+  <data name="Surface.HighContrast" xml:space="preserve"><value>Увімкнено високу контрастність: діє стандартний стиль, доки її не вимкнено.</value></data>
+  <data name="Backdrop.Kind" xml:space="preserve"><value>Матеріал</value></data>
+  <data name="Backdrop.Fill" xml:space="preserve"><value>Заливка</value></data>
+  <data name="Backdrop.Clear" xml:space="preserve"><value>Прозора</value></data>
+  <data name="Backdrop.Acrylic" xml:space="preserve"><value>Acrylic</value></data>
+  <data name="Backdrop.Mica" xml:space="preserve"><value>Mica</value></data>
+  <data name="Backdrop.Fill.Hint" xml:space="preserve"><value>Підкладка залита своїм кольором; прозорість — альфа кольору.</value></data>
+  <data name="Backdrop.Clear.Hint" xml:space="preserve"><value>Без заливки: те, що позаду, видно повністю, форму тримає тонкий контур кольору підкладки. Розмір і скруглення не змінюються.</value></data>
+  <data name="Backdrop.Fallback" xml:space="preserve"><value>Збережений матеріал {0} недоступний для оверлеїв — діє заливка.</value></data>
+  <data name="Backdrop.SystemNote" xml:space="preserve"><value>Acrylic і Mica тут не пропонуються: на прозорих для кліків вікнах оверлея Windows застосовує їх до всього прямокутника вікна, без скруглення й без згасання разом із клавішами. Підписи та індикатори кнопок ніколи не розмиваються.</value></data>
+  <data name="Backdrop.Keycaps.Title" xml:space="preserve"><value>Матеріал підкладки</value></data>
+  <data name="Backdrop.Keycaps.Hint" xml:space="preserve"><value>Підкладка під групою кейкапів. Зберігається в стилі кейкапів і профілі.</value></data>
+  <data name="Backdrop.Mouse.Title" xml:space="preserve"><value>Матеріал підкладки значка</value></data>
+  <data name="Backdrop.Mouse.Hint" xml:space="preserve"><value>Підкладка під значком миші біля вказівника. Зберігається в стилі миші та профілі.</value></data>
+  <data name="Common.More" xml:space="preserve"><value>Ще</value></data>
+  <data name="Settings.Nav.IndicatorStyle" xml:space="preserve"><value>Стиль індикатора</value></data>
+  <data name="IndicatorStyle.Title" xml:space="preserve"><value>Стиль індикатора розкладки</value></data>
+  <data name="IndicatorStyle.Hint" xml:space="preserve"><value>Вигляд, який використовує плагін «Індикатор розкладки», коли в ньому вибрано «Стиль індикатора». Коли й де він з’являється — на сторінці плагіна.</value></data>
+  <data name="App.Shot.Hint" xml:space="preserve"><value>Знімки, зроблені на полотні малювання, зберігаються сюди.</value></data>
+  <data name="Plugins.Creator" xml:space="preserve"><value>Від творця</value></data>
+  <data name="Plugins.Creator.Hint" xml:space="preserve"><value>Постачається з цією версією Backpack: встановлений пакет збігається з індексом постачання за контрольною сумою SHA-256. Це не криптографічний підпис видавця.</value></data>
+  <data name="Note.ToolsArePlugins" xml:space="preserve"><value>Малювання та індикатор розкладки тепер плагіни: {0}. Ваші налаштування й сполучення перенесено. Вони вимкнені, доки ви не ввімкнете їх у «Плагінах».</value></data>
+  <data name="Plugins.Cap.overlay.draw" xml:space="preserve"><value>Полотно малювання, яке малює Backpack (плагін не отримує ні малюнків, ні зображення екрана)</value></data>
+  <data name="Plugins.Cap.overlay.indicator" xml:space="preserve"><value>Індикатор поверх екрана, який малює Backpack</value></data>
+  <data name="Plugins.Cap.input.layout" xml:space="preserve"><value>Зміни розкладки клавіатури (без натискань клавіш)</value></data>
+  <data name="Plugins.Display.Title" xml:space="preserve"><value>Відображення</value></data>
+  <data name="Plugins.Symbol" xml:space="preserve"><value>Значок</value></data>
+  <data name="Plugins.Symbol.HintAuthor" xml:space="preserve"><value>Значок автора. Він показується в меню, на картці й у заголовку сторінки.</value></data>
+  <data name="Plugins.Symbol.HintUser" xml:space="preserve"><value>Ваш вибір. Він зберігається під час оновлення плагіна.</value></data>
+  <data name="Plugins.Symbol.Change" xml:space="preserve"><value>Вибрати значок</value></data>
+  <data name="Plugins.Symbol.Reset" xml:space="preserve"><value>Повернути значок автора</value></data>
+  <data name="Plugins.Symbol.IsAuthor" xml:space="preserve"><value>Уже використовується значок автора</value></data>
+  <data name="Plugins.Symbol.Search" xml:space="preserve"><value>Пошук значків</value></data>
+  <data name="Plugins.Symbol.NoMatch" xml:space="preserve"><value>Немає збігів. Спробуйте інше слово, наприклад pen, timer або search.</value></data>
+  <data name="Renderer.Neon" xml:space="preserve"><value>Неон</value></data>
+  <data name="MouseRenderer.Neon" xml:space="preserve"><value>Неон</value></data>
+  <data name="Appearance.Glow" xml:space="preserve"><value>Світіння</value></data>
+  <data name="Appearance.GlowHint" xml:space="preserve"><value>М’яке світіння навколо кейкапа; сильнішає, поки клавішу натиснуто. 0 — вимкнено.</value></data>
+  <data name="Mouse.GlowHint" xml:space="preserve"><value>М’яке світіння навколо значка миші; сильнішає, поки кнопку натиснуто. 0 — вимкнено.</value></data>
+  <data name="Draw.AngleLabels.On" xml:space="preserve"><value>Величина кута: показується завжди (натисніть, щоб лише під час малювання)</value></data>
+  <data name="Draw.AngleLabels.Off" xml:space="preserve"><value>Величина кута: лише під час малювання (натисніть, щоб лишати на екрані)</value></data>
+  <data name="Draw.Hint.Box" xml:space="preserve"><value>Shift — квадрат або коло · Alt — від центру</value></data>
+  <data name="Draw.Hint.Line" xml:space="preserve"><value>Shift — напрям кроком 15°</value></data>
+  <data name="Draw.Hint.Polygon" xml:space="preserve"><value>Тягніть від центру · Shift — поворот кроком 15°</value></data>
+  <data name="Draw.Hint.Select" xml:space="preserve"><value>Кути й сторони — розмір · ручка вгорі — поворот · Shift — пропорції · Alt — від центру · Esc — скасувати</value></data>
+  <data name="Draw.Hint.SmartPen" xml:space="preserve"><value>Розпізнаються лінії, фігури, дуги й кути; величина кута видна, поки кнопку натиснуто</value></data>
+  <data name="Help.NotTranslated" xml:space="preserve"><value>Довідку цією мовою ще не перекладено; показано англійську.</value></data>
+  <data name="About.MadeIn" xml:space="preserve"><value>Виготовлено в Україні</value></data>
+</root>

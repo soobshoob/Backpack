@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Строки интерфейса Backpack (en). Ключи стабильны и не переводятся; переводятся только значения целыми фразами. -->
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="About.Author" xml:space="preserve"><value>Autor</value></data>
+  <data name="About.AutoCheck" xml:space="preserve"><value>Verifică automat</value></data>
+  <data name="About.AutoCheckHint" xml:space="preserve"><value>O dată pe zi, cât timp rulează Backpack. Doar o cerere către GitHub; setările și textul tastat nu sunt trimise niciodată.</value></data>
+  <data name="About.Channel" xml:space="preserve"><value>Canal</value></data>
+  <data name="About.ChannelHint" xml:space="preserve"><value>Stabil nu oferă niciodată versiuni de previzualizare.</value></data>
+  <data name="About.Check" xml:space="preserve"><value>Verifică</value></data>
+  <data name="About.Checking" xml:space="preserve"><value>Se verifică…</value></data>
+  <data name="About.CheckNow" xml:space="preserve"><value>Verifică acum</value></data>
+  <data name="About.License" xml:space="preserve"><value>Licență</value></data>
+  <data name="About.LicenseHint" xml:space="preserve"><value>Nucleul Backpack. Textul complet: fișierul LICENSE de lângă program și din depozitul de cod; nota privind drepturile de autor este în NOTICE. SDK-ul de pluginuri și pluginurile creatorului au condiții separate (LICENSE-STATUS.md). Butonul deschide pagina oficială.</value></data>
+  <data name="About.LicenseNone" xml:space="preserve"><value>Autorul nu a ales încă licența proiectului.</value></data>
+  <data name="About.LicenseNotChosen" xml:space="preserve"><value>încă nealeasă</value></data>
+  <data name="About.NotConfigured" xml:space="preserve"><value>neconfigurat</value></data>
+  <data name="About.OpenDownload" xml:space="preserve"><value>Deschide pagina de descărcare</value></data>
+  <data name="About.OpenLink.Message" xml:space="preserve"><value>Deschideți în browser?
+{0}</value></data>
+  <data name="About.OpenLink.Title" xml:space="preserve"><value>Deschide linkul</value></data>
+  <data name="About.ReleaseDate" xml:space="preserve"><value>Data lansării</value></data>
+  <data name="About.ReleaseDateNone" xml:space="preserve"><value>Versiune de dezvoltare: nu există dată de lansare.</value></data>
+  <data name="About.ReleaseTitle" xml:space="preserve"><value>Versiunea {0} ({1})</value></data>
+  <data name="About.ThirdParty" xml:space="preserve"><value>Componente terțe</value></data>
+  <data name="About.ThirdPartyLine" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="About.ThirdPartyNote" xml:space="preserve"><value>Textele licențelor sunt în folderul Licenses de lângă program.</value></data>
+  <data name="About.Title" xml:space="preserve"><value>Backpack</value></data>
+  <data name="About.UpdateNote" xml:space="preserve"><value>Backpack nu descarcă și nu rulează niciodată singur actualizări: pagina de descărcare se deschide în browser.</value></data>
+  <data name="About.Updates" xml:space="preserve"><value>Actualizări</value></data>
+  <data name="About.UpdateSource" xml:space="preserve"><value>Sursa versiunilor</value></data>
+  <data name="About.UpdateSourceNone" xml:space="preserve"><value>În această versiune nu este setat depozitul cu versiuni, deci actualizările nu pot fi verificate.</value></data>
+  <data name="About.Version" xml:space="preserve"><value>Versiune</value></data>
+  <data name="About.VersionLine" xml:space="preserve"><value>Versiunea {0} · {1}</value></data>
+  <data name="Anchor.BottomCenter" xml:space="preserve"><value>Jos la mijloc</value></data>
+  <data name="Anchor.BottomLeft" xml:space="preserve"><value>Jos în stânga</value></data>
+  <data name="Anchor.BottomRight" xml:space="preserve"><value>Jos în dreapta</value></data>
+  <data name="Anchor.Center" xml:space="preserve"><value>Centru</value></data>
+  <data name="Anchor.CenterLeft" xml:space="preserve"><value>La mijloc în stânga</value></data>
+  <data name="Anchor.CenterRight" xml:space="preserve"><value>La mijloc în dreapta</value></data>
+  <data name="Anchor.TopCenter" xml:space="preserve"><value>Sus la mijloc</value></data>
+  <data name="Anchor.TopLeft" xml:space="preserve"><value>Sus în stânga</value></data>
+  <data name="Anchor.TopRight" xml:space="preserve"><value>Sus în dreapta</value></data>
+  <data name="App.Home.Animation" xml:space="preserve"><value>Animație demonstrativă</value></data>
+  <data name="App.Home.AnimationHint" xml:space="preserve"><value>Scurta demonstrație în buclă de pe pagina principală. Rămâne în pauză și când animațiile Windows sunt dezactivate.</value></data>
+  <data name="App.Home.Title" xml:space="preserve"><value>Pagina principală</value></data>
+  <data name="App.Language" xml:space="preserve"><value>Limba interfeței</value></data>
+  <data name="App.Language.Hint" xml:space="preserve"><value>Limba ferestrelor, meniurilor și a ajutorului. Nu schimbă aspectul tastaturii și etichetele tastelor.</value></data>
+  <data name="App.Language.System" xml:space="preserve"><value>Sistem</value></data>
+  <data name="App.Language.Title" xml:space="preserve"><value>Limbă</value></data>
+  <data name="App.Theme" xml:space="preserve"><value>Luminos sau întunecat</value></data>
+  <data name="App.Theme.Dark" xml:space="preserve"><value>Întunecat</value></data>
+  <data name="App.Theme.Hint" xml:space="preserve"><value>Ferestre luminoase sau întunecate ale Backpack. Tastele, indicatorul și mouse-ul își păstrează culorile.</value></data>
+  <data name="App.Theme.Light" xml:space="preserve"><value>Luminos</value></data>
+  <data name="App.Theme.System" xml:space="preserve"><value>Sistem</value></data>
+  <data name="App.Tray.Close" xml:space="preserve"><value>Închiderea ferestrei principale</value></data>
+  <data name="App.Tray.Close.Exit" xml:space="preserve"><value>Ieșire</value></data>
+  <data name="App.Tray.Close.ToTray" xml:space="preserve"><value>Ascunde în zona de notificare</value></data>
+  <data name="App.Tray.CloseHint" xml:space="preserve"><value>× din fereastra de diagnosticare. Închiderea ferestrei de setări nu închide niciodată programul.</value></data>
+  <data name="App.Tray.Hint" xml:space="preserve"><value>Faceți clic pe pictograma din zona de notificare pentru a afișa ferestrele; clic dreapta pentru comutatoarele rapide și „Ieșire”.</value></data>
+  <data name="App.Tray.Note" xml:space="preserve"><value>Windows decide dacă pictograma este pe bara de activități sau sub săgeata ^.</value></data>
+  <data name="App.Autostart.Title" xml:space="preserve"><value>Pornire</value></data>
+  <data name="App.Autostart" xml:space="preserve"><value>Pornește odată cu Windows</value></data>
+  <data name="App.Autostart.Hint" xml:space="preserve"><value>Backpack pornește în zona de notificare la conectarea în Windows. Nu sunt necesare drepturi de administrator.</value></data>
+  <data name="App.Autostart.OtherCopy" xml:space="preserve"><value>Pornirea automată este setată pentru altă copie: {0}. Activați pentru a porni în schimb această copie.</value></data>
+  <data name="App.Autostart.Missing" xml:space="preserve"><value>Pornirea automată indică un fișier care nu mai există: {0}. Activați pentru a porni această copie.</value></data>
+  <data name="App.Autostart.Disabled" xml:space="preserve"><value>Dezactivat în lista aplicațiilor de pornire Windows. Activați aici pentru a o permite din nou.</value></data>
+  <data name="App.Autostart.Failed" xml:space="preserve"><value>Pornirea automată nu a putut fi modificată ({0}).</value></data>
+  <data name="App.Tray.Title" xml:space="preserve"><value>Zona de notificare</value></data>
+  <data name="Appearance.Anim.Duration" xml:space="preserve"><value>Durată</value></data>
+  <data name="Appearance.Anim.EnterExit" xml:space="preserve"><value>Apariție și dispariție</value></data>
+  <data name="Appearance.Anim.Press" xml:space="preserve"><value>Animația apăsării</value></data>
+  <data name="Appearance.Anim.PressHint" xml:space="preserve"><value>Tasta coboară puțin cât timp este ținută apăsată.</value></data>
+  <data name="Appearance.Anim.Title" xml:space="preserve"><value>Animație</value></data>
+  <data name="Appearance.Colors.AlphaHint" xml:space="preserve"><value>Ultimele două cifre din #RRGGBBAA stabilesc opacitatea.</value></data>
+  <data name="Appearance.Colors.Background" xml:space="preserve"><value>Fundalul rândului</value></data>
+  <data name="Appearance.Colors.BackgroundColor" xml:space="preserve"><value>Culoarea fundalului</value></data>
+  <data name="Appearance.Colors.Border" xml:space="preserve"><value>Contur</value></data>
+  <data name="Appearance.Colors.BorderColor" xml:space="preserve"><value>Culoarea conturului</value></data>
+  <data name="Appearance.Colors.BorderWidth" xml:space="preserve"><value>Grosimea conturului</value></data>
+  <data name="Appearance.Colors.Face" xml:space="preserve"><value>Fața tastei</value></data>
+  <data name="Appearance.Colors.Skirt" xml:space="preserve"><value>Lateralul tastei</value></data>
+  <data name="Appearance.Colors.SkirtHint" xml:space="preserve"><value>Marginea de jos care dă adâncime tastei.</value></data>
+  <data name="Appearance.Colors.Text" xml:space="preserve"><value>Etichetă</value></data>
+  <data name="Appearance.Colors.Title" xml:space="preserve"><value>Culori</value></data>
+  <data name="Appearance.Gradient" xml:space="preserve"><value>Degradé</value></data>
+  <data name="Appearance.GradientHint" xml:space="preserve"><value>Doar laptop și PBT.</value></data>
+  <data name="Appearance.Keycap.Hint" xml:space="preserve"><value>Mărimea și rotunjirea colțurilor.</value></data>
+  <data name="Appearance.Keycap.Radius" xml:space="preserve"><value>Rotunjire</value></data>
+  <data name="Appearance.Keycap.RadiusHint" xml:space="preserve"><value>0 — colțuri drepte, 1 — rotunjire maximă.</value></data>
+  <data name="Appearance.Keycap.Size" xml:space="preserve"><value>Mărime</value></data>
+  <data name="Appearance.Keycap.SizeHint" xml:space="preserve"><value>Înălțimea tastei în pixeli independenți de dispozitiv.</value></data>
+  <data name="Appearance.Keycap.Title" xml:space="preserve"><value>Tastă</value></data>
+  <data name="Appearance.Labels.Hint" xml:space="preserve"><value>Cum sunt numite tastele modificatoare și speciale pe taste.</value></data>
+  <data name="Appearance.Labels.Mixed" xml:space="preserve"><value>Mixt</value></data>
+  <data name="Appearance.Labels.Mode" xml:space="preserve"><value>Stilul etichetelor</value></data>
+  <data name="Appearance.Labels.ModeHint" xml:space="preserve"><value>Mixt: un simbol și numele, dacă încape; doar simboluri; sau doar text.</value></data>
+  <data name="Appearance.Labels.Set" xml:space="preserve"><value>Set de etichete</value></data>
+  <data name="Appearance.Labels.SetHint" xml:space="preserve"><value>Nume ca pe tastaturile Windows, macOS sau Linux. Aspectul tastaturii nu se schimbă.</value></data>
+  <data name="Appearance.Labels.Symbols" xml:space="preserve"><value>Simboluri</value></data>
+  <data name="Appearance.Labels.Text" xml:space="preserve"><value>Text</value></data>
+  <data name="Appearance.Labels.Title" xml:space="preserve"><value>Etichetele tastelor</value></data>
+  <data name="Appearance.Markers" xml:space="preserve"><value>Marcaje stânga/dreapta</value></data>
+  <data name="Appearance.MarkersHint" xml:space="preserve"><value>Mici marcaje „R” și „num” pe Ctrl, Shift, Alt, Win din dreapta și pe tastele blocului numeric.</value></data>
+  <data name="Appearance.PressCount" xml:space="preserve"><value>Contor de apăsări</value></data>
+  <data name="Appearance.PressCountHint" xml:space="preserve"><value>O insignă „2”, „3”… când o tastă este apăsată din nou în timp ce combinația este ținută.</value></data>
+  <data name="Appearance.Renderer" xml:space="preserve"><value>Redare</value></data>
+  <data name="Appearance.Renderer.Hint" xml:space="preserve"><value>Forma tastei. O presetare sau un stil de mai sus o stabilește împreună cu culorile; aici se schimbă doar forma.</value></data>
+  <data name="Appearance.Renderer.Title" xml:space="preserve"><value>Metoda de desenare</value></data>
+  <data name="Appearance.RendererHint" xml:space="preserve"><value>Culorile și dimensiunile rămân neschimbate.</value></data>
+  <data name="Appearance.VolEnter" xml:space="preserve"><value>Enter în formă de L</value></data>
+  <data name="Appearance.VolEnterHint" xml:space="preserve"><value>Doar 3D. Celelalte taste își păstrează formele pătrate sau lungi compacte.</value></data>
+  <data name="Color.Alpha" xml:space="preserve"><value>Opacitate</value></data>
+  <data name="Color.Expected" xml:space="preserve"><value>Culoare ca #RRGGBB</value></data>
+  <data name="Color.ExpectedAlpha" xml:space="preserve"><value>Culoare ca #RRGGBB sau #RRGGBBAA (ultima pereche este opacitatea)</value></data>
+  <data name="Color.Hue" xml:space="preserve"><value>Nuanță</value></data>
+  <data name="Color.OpenPalette" xml:space="preserve"><value>Deschide paleta</value></data>
+  <data name="Color.SaturationValue" xml:space="preserve"><value>Saturație și luminozitate</value></data>
+  <data name="Common.Example" xml:space="preserve"><value>Exemplu</value></data>
+  <data name="Common.NoAnimation" xml:space="preserve"><value>Fără animație</value></data>
+  <data name="Common.OffsetDown" xml:space="preserve"><value>Deplasare în jos</value></data>
+  <data name="Common.OffsetDownHint" xml:space="preserve"><value>Valorile negative mută în sus.</value></data>
+  <data name="Common.OffsetRight" xml:space="preserve"><value>Deplasare la dreapta</value></data>
+  <data name="Common.OffsetRightHint" xml:space="preserve"><value>Valorile negative mută la stânga.</value></data>
+  <data name="Common.Open" xml:space="preserve"><value>Deschide</value></data>
+  <data name="Common.Show" xml:space="preserve"><value>Afișează</value></data>
+  <data name="Common.Smooth" xml:space="preserve"><value>Lină</value></data>
+  <data name="Demo.Combos.Text" xml:space="preserve"><value>Literele singure sunt ascunse; Ctrl + Shift + K și Ctrl + clic sunt afișate.</value></data>
+  <data name="Demo.Combos.Title" xml:space="preserve"><value>Doar combinații</value></data>
+  <data name="Demo.Labels.Text" xml:space="preserve"><value>Modificatori cu simboluri și marcaje R, un nume lung înlocuit cu un simbol, contorul de apăsări și un buton al mouse-ului.</value></data>
+  <data name="Demo.Labels.Title" xml:space="preserve"><value>Etichetele tastelor</value></data>
+  <data name="Demo.Layout.Text" xml:space="preserve"><value>Așa arată eticheta când se schimbă limba de introducere. Indicatorul real urmărește fereastra activă.</value></data>
+  <data name="Demo.Layout.Title" xml:space="preserve"><value>Indicator de aspect</value></data>
+  <data name="Demo.MouseCursor.Text" xml:space="preserve"><value>Pictograma urmează indicatorul și evidențiază butonul apăsat; cercul marchează clicul.</value></data>
+  <data name="Demo.MouseCursor.Title" xml:space="preserve"><value>Mouse lângă indicator</value></data>
+  <data name="Demo.Note" xml:space="preserve"><value>Exemplu cu date inventate. Textul tastat nu este folosit, iar setările nu se schimbă.</value></data>
+  <data name="Demo.Position.Text" xml:space="preserve"><value>Rândul de taste trece prin cele nouă puncte ale ecranului; distanța față de margini rămâne aceeași.</value></data>
+  <data name="Demo.Position.Title" xml:space="preserve"><value>Poziția pe ecran</value></data>
+  <data name="Demo.TrailFade.Text" xml:space="preserve"><value>Literele eliberate rămân o clipă și se estompează pe loc, așa că un cuvânt este vizibil pentru scurt timp.</value></data>
+  <data name="Demo.TrailFade.Title" xml:space="preserve"><value>Urmă care se estompează</value></data>
+  <data name="Demo.TrailNone.Text" xml:space="preserve"><value>Fiecare literă nouă o înlocuiește pe cea anterioară; doar tasta curentă este pe ecran.</value></data>
+  <data name="Demo.TrailNone.Title" xml:space="preserve"><value>Tastare liniștită</value></data>
+  <data name="Demo.WindowTitle" xml:space="preserve"><value>Backpack — exemplu</value></data>
+  <data name="Diag.BuildError" xml:space="preserve"><value>Diagnosticarea nu a putut fi construită: {0}</value></data>
+  <data name="Diag.Checklist" xml:space="preserve"><value>1. Suprapunerea din partea de jos a ecranului nu preia focusul: tastați în Notepad — cursorul rămâne în Notepad.
+2. Faceți clic pe o tastă din suprapunere — clicul ajunge la fereastra de dedesubt.
+3. Apăsați și eliberați A — tasta apare și se estompează după timpul de menținere.
+4. Țineți A 3 s — o tastă apăsată fără insignă; „Repeats” crește în diagnosticare.
+5. Ctrl+Shift+K — „Ctrl Shift K” (marcaje S/D sus); eliberați K și apăsați-o din nou ținând modificatorii — insigna „2” pe K.
+6. Shift/Ctrl/Alt din stânga și din dreapta au marcaje diferite (S/D). Enter și Num Enter diferă (al doilea are marcajul Num).
+7. Tastați repede un cuvânt cu taste suprapuse — literele nu se unesc într-o „combinație”.
+8. Alt+Tab către altă fereastră și înapoi — suprapunerea nu este în lista Alt+Tab sau pe bara de activități.
+9. „Ascunde suprapunerea” → așteptați 5 s → nu revine singură; „Afișează suprapunerea” o readuce.
+10. Exportați JSON și deschideți fișierul: doar contoare și percentile, fără etichete sau coduri de taste.
+11. (X8) Porniți cu --ring=8: „Îngheață interfața 3 s”; între timp, apăsați și eliberați toate tastele. După: epoca pierderilor &gt; 0, resincronizare făcută, „apăsate acum” = 0, nicio tastă blocată pe suprapunere.
+Aspect, aspect tastatură, ajutor: „Setări…” și „Ajutor (F1)”; F1 funcționează în această fereastră, în setări și în ajutor.
+Pentru compare: aceiași pași; comparați EventsTotal și Comparator pe clase. O diferență este o observație, nu un verdict.</value></data>
+  <data name="Diag.ChecklistHide" xml:space="preserve"><value>Ascunde lista de verificare</value></data>
+  <data name="Diag.ChecklistShow" xml:space="preserve"><value>Afișează lista de verificare</value></data>
+  <data name="Diag.ChecklistTitle" xml:space="preserve"><value>Listă de verificare manuală (5–10 min)</value></data>
+  <data name="Diag.Compare" xml:space="preserve"><value>Comparație (fereastră ±{0:F0} ms, depășiri {1}) — o observație, nu dovada unei defecțiuni:</value></data>
+  <data name="Diag.CompareClass" xml:space="preserve"><value>   {0,-10} potrivite {1,7}   doar Raw {2,6}   doar LL {3,6}</value></data>
+  <data name="Diag.Def.CaptureToModel" xml:space="preserve"><value>Firul de captură a primit evenimentul → evenimentul a fost aplicat modelului în firul interfeței (nu este timpul până la pixel)</value></data>
+  <data name="Diag.Def.LowLevelCallback" xml:space="preserve"><value>LL: durata apelului invers al hook-ului (intrare → înainte de CallNextHookEx)</value></data>
+  <data name="Diag.Def.ModelToUiApply" xml:space="preserve"><value>Model schimbat → proprietățile suprapunerii actualizate în firul interfeței (înainte de compoziție și de afișarea cadrului, nu este timpul până la pixel)</value></data>
+  <data name="Diag.Def.RawInputMessage" xml:space="preserve"><value>Raw Input: tratarea unui WM_INPUT (intrare în rutină → ieșire)</value></data>
+  <data name="Diag.Exit" xml:space="preserve"><value>Ieșire</value></data>
+  <data name="Diag.Export" xml:space="preserve"><value>Exportă JSON agregat…</value></data>
+  <data name="Diag.Finding" xml:space="preserve"><value>   {0,-10} {1,-32} ×{2}</value></data>
+  <data name="Diag.FindingActive" xml:space="preserve"><value>   {0,-10} {1,-32} ×{2}  (activ)</value></data>
+  <data name="Diag.Findings" xml:space="preserve"><value>Constatări (Semnal / Suspiciune — fără acțiuni automate / Confirmat):</value></data>
+  <data name="Diag.FindingsNone" xml:space="preserve"><value>   niciuna</value></data>
+  <data name="Diag.Freeze" xml:space="preserve"><value>Îngheață interfața 3 s</value></data>
+  <data name="Diag.FreezeHint" xml:space="preserve"><value>X8: blochează doar firul interfeței bancului de test; firele de captură continuă să lucreze. Pentru o depășire, porniți cu --ring=8.</value></data>
+  <data name="Diag.Help" xml:space="preserve"><value>Ajutor (F1)</value></data>
+  <data name="Diag.Hidden" xml:space="preserve"><value>ascunsă</value></data>
+  <data name="Diag.HideOverlay" xml:space="preserve"><value>Ascunde suprapunerea</value></data>
+  <data name="Diag.Latency" xml:space="preserve"><value>      n={0}  p50 {1}  p95 {2}  p99 {3}  max {4}</value></data>
+  <data name="Diag.Layout.Line" xml:space="preserve"><value>Aspect: {0}; ultima interogare: {1}; ultima decizie: {2}</value></data>
+  <data name="Diag.Layout.NotStarted" xml:space="preserve"><value>nepornit</value></data>
+  <data name="Diag.Layout.Off" xml:space="preserve"><value>oprit</value></data>
+  <data name="Diag.Layout.Polling" xml:space="preserve"><value>urmărit</value></data>
+  <data name="Diag.Layout.Samples" xml:space="preserve"><value>   interogări {0}: fără fereastră {1}, fără HKL {2}, ferestre Backpack {3}; referințe {4}; afișat într-o fereastră {5}, la comutare {6}, ascuns de setare {7}</value></data>
+  <data name="Diag.Layout.Source" xml:space="preserve"><value>   Sursa HKL: firul ferestrei cu focus {0}, fereastra activă {1}, proprietarul ferestrei {2}; firul focusului ≠ firul ferestrei: {3}; HKL-ul focusului ≠ HKL-ul proprietarului: {4}</value></data>
+  <data name="Diag.ModeFromSettings" xml:space="preserve"><value>Mod: {0}, sursă principală: {1}, menținere: {2} ms (din setări)</value></data>
+  <data name="Diag.ModeOverride" xml:space="preserve"><value>Mod: {0}, sursă principală: {1}, menținere: {2} ms (--linger-ms)</value></data>
+  <data name="Diag.Mouse" xml:space="preserve"><value>Mouse lângă indicator: {0}, fereastră {1}, mișcări {2}</value></data>
+  <data name="Diag.NoPixel" xml:space="preserve"><value>   (bancul de test nu măsoară timpul până la un pixel vizibil)</value></data>
+  <data name="Diag.Off" xml:space="preserve"><value>oprit</value></data>
+  <data name="Diag.On" xml:space="preserve"><value>pornit</value></data>
+  <data name="Diag.Over1s" xml:space="preserve"><value>&gt;1 s</value></data>
+  <data name="Diag.Overlay" xml:space="preserve"><value>Suprapunere: trebuie să fie vizibilă={0}, vizibilă={1}, deasupra={2}, minimizată={3}, pe un monitor={4}, restaurări {5} (refuzate {6})</value></data>
+  <data name="Diag.Reconcile" xml:space="preserve"><value>Reconciliere (euristică): rulări {0}, context neîncrezător {1}, fără control pozitiv {2}, VK ambiguu {3}, Down confirmat {4}</value></data>
+  <data name="Diag.Reset" xml:space="preserve"><value>Resetează starea</value></data>
+  <data name="Diag.ResetHint" xml:space="preserve"><value>Resetare manuală: toate tastele sursei principale trec în Up, suprapunerea se golește.</value></data>
+  <data name="Diag.Seconds" xml:space="preserve"><value>{0} s</value></data>
+  <data name="Diag.Settings" xml:space="preserve"><value>Setări…</value></data>
+  <data name="Diag.ShowOverlay" xml:space="preserve"><value>Afișează suprapunerea</value></data>
+  <data name="Diag.Src.Applied" xml:space="preserve"><value>   aplicate {0}, duplicate omise {1}; apăsate acum {2}, Unknown {3}</value></data>
+  <data name="Diag.Src.Events" xml:space="preserve"><value>   evenimente {0}, repetări {1}, ignorate {2}, mișcări ale mouse-ului {3}, rotiță {4}, dispozitive eliminate {5}</value></data>
+  <data name="Diag.Src.Ring" xml:space="preserve"><value>   inel {0}/{1}, epoca pierderilor {2}, cereri de resincronizare {3} (repetate {4}), instantanee {5}/{6}, corectate prin instantaneu {7}</value></data>
+  <data name="Diag.Src.SinceLast" xml:space="preserve"><value>   de la ultimul eveniment: {0}</value></data>
+  <data name="Diag.Src.Unknown" xml:space="preserve"><value>   → Unknown {0}, rezolvate prin eveniment {1}, Down învechit (euristică) {2}, reconciliere Up {3} / Down {4}, eliberate la eliminarea dispozitivului {5}</value></data>
+  <data name="Diag.StartNote" xml:space="preserve"><value>Pornire: {0}</value></data>
+  <data name="Diag.System" xml:space="preserve"><value>Sistem: blocare {0}, deblocare {1}, schimbare de desktop {2}, repaus {3}, revenire {4}, schimbare de afișaj {5}</value></data>
+  <data name="Diag.ToTray" xml:space="preserve"><value>Minimizează în zona de notificare</value></data>
+  <data name="Diag.Uptime" xml:space="preserve"><value>Timp de funcționare: {0:F1} s   Mod: {1}   Principală: {2}</value></data>
+  <data name="Diag.UpToMs" xml:space="preserve"><value>≤{0:0.#} ms</value></data>
+  <data name="Diag.UpToUs" xml:space="preserve"><value>≤{0} µs</value></data>
+  <data name="Diag.Us" xml:space="preserve"><value>{0} µs</value></data>
+  <data name="Diag.Visible" xml:space="preserve"><value>vizibilă</value></data>
+  <data name="Diag.WindowTitle" xml:space="preserve"><value>Backpack — diagnosticare</value></data>
+  <data name="Dialog.Cancel" xml:space="preserve"><value>Anulare</value></data>
+  <data name="Dialog.Ok" xml:space="preserve"><value>OK</value></data>
+  <data name="Draw.Clear" xml:space="preserve"><value>Șterge tot</value></data>
+  <data name="Draw.CloseMenu" xml:space="preserve"><value>Închide meniul (Esc)</value></data>
+  <data name="Draw.Color" xml:space="preserve"><value>Culoare</value></data>
+  <data name="Draw.Dash" xml:space="preserve"><value>Linie</value></data>
+  <data name="Draw.Dash.Dashed" xml:space="preserve"><value>Întreruptă</value></data>
+  <data name="Draw.Dash.Dotted" xml:space="preserve"><value>Punctată</value></data>
+  <data name="Draw.Dash.Solid" xml:space="preserve"><value>Continuă</value></data>
+  <data name="Draw.Defaults.Title" xml:space="preserve"><value>Setările implicite ale instrumentelor</value></data>
+  <data name="Draw.Edge" xml:space="preserve"><value>Margine</value></data>
+  <data name="Draw.Edge.Bottom" xml:space="preserve"><value>Jos</value></data>
+  <data name="Draw.Edge.Left" xml:space="preserve"><value>Stânga</value></data>
+  <data name="Draw.Edge.Right" xml:space="preserve"><value>Dreapta</value></data>
+  <data name="Draw.Edge.Top" xml:space="preserve"><value>Sus</value></data>
+  <data name="Draw.EdgeHint" xml:space="preserve"><value>Duceți indicatorul la această margine și țineți-l o clipă acolo pentru a afișa bara de instrumente.</value></data>
+  <data name="Draw.Exit" xml:space="preserve"><value>Ieșire din desenare (Esc)</value></data>
+  <data name="Draw.Fade" xml:space="preserve"><value>Estompare după</value></data>
+  <data name="Draw.FadeHint" xml:space="preserve"><value>0 — păstrare până la ieșirea din modul de desenare.</value></data>
+  <data name="Draw.FadeOff" xml:space="preserve"><value>Desenele rămân până la ieșire (clic: estompare după 5 s)</value></data>
+  <data name="Draw.FadeOn" xml:space="preserve"><value>Desenele se estompează după {0} s (clic: păstrare până la ieșire)</value></data>
+  <data name="Draw.Hint" xml:space="preserve"><value>Desenați peste desktopul în direct. Desenele sunt temporare; se salvează doar capturile de ecran pe care le faceți.</value></data>
+  <data name="Draw.Mode.AutoHide" xml:space="preserve"><value>Ascundere automată la o margine</value></data>
+  <data name="Draw.Mode.Docked" xml:space="preserve"><value>Mereu vizibilă</value></data>
+  <data name="Draw.Mode.RadialOnly" xml:space="preserve"><value>Doar meniu radial</value></data>
+  <data name="Draw.MoveText" xml:space="preserve"><value>Trageți pentru a muta textul</value></data>
+  <data name="Draw.MoveToolbar" xml:space="preserve"><value>Trageți pentru a muta bara de instrumente</value></data>
+  <data name="Draw.NextColor" xml:space="preserve"><value>Culoarea următoare</value></data>
+  <data name="Draw.Note" xml:space="preserve"><value>Desenele sunt temporare și nu se salvează niciodată; ecranul nu este înregistrat.</value></data>
+  <data name="Draw.Opacity" xml:space="preserve"><value>Opacitate: completă / 60 %</value></data>
+  <data name="Draw.Position" xml:space="preserve"><value>Poziția barei de instrumente</value></data>
+  <data name="Draw.PositionHint" xml:space="preserve"><value>În timpul desenării, trageți bara de mânerul ⋮⋮; locul este reținut.</value></data>
+  <data name="Draw.PositionReset" xml:space="preserve"><value>Înapoi sus la mijloc</value></data>
+  <data name="Draw.PreviewText" xml:space="preserve"><value>Exemplu</value></data>
+  <data name="Draw.RadialNote" xml:space="preserve"><value>Meniul radial ({0} sau clic dreapta) are toate instrumentele, anulare, refacere, captură de ecran și ieșire — desenarea nu depinde niciodată de bara de instrumente.</value></data>
+  <data name="Draw.RadialOnlyHint" xml:space="preserve"><value>Clic dreapta sau comanda rapidă a meniului radial — instrumente · Esc — ieșire</value></data>
+  <data name="Draw.Redo" xml:space="preserve"><value>Refacere (Ctrl+Y)</value></data>
+  <data name="Draw.Run" xml:space="preserve"><value>Pornește</value></data>
+  <data name="Draw.Screenshot" xml:space="preserve"><value>Captură de ecran</value></data>
+  <data name="Draw.Shot.Action" xml:space="preserve"><value>Captură de ecran</value></data>
+  <data name="Draw.Shot.After" xml:space="preserve"><value>După captură</value></data>
+  <data name="Draw.Shot.AfterHint" xml:space="preserve"><value>Dacă salvarea eșuează, desenele nu sunt șterse niciodată.</value></data>
+  <data name="Draw.Shot.Choose" xml:space="preserve"><value>Alege…</value></data>
+  <data name="Draw.Shot.Clear" xml:space="preserve"><value>Șterge desenele</value></data>
+  <data name="Draw.Shot.Copy" xml:space="preserve"><value>Copiază</value></data>
+  <data name="Draw.Shot.Exit" xml:space="preserve"><value>Încheie desenarea</value></data>
+  <data name="Draw.Shot.Folder" xml:space="preserve"><value>Folder</value></data>
+  <data name="Draw.Shot.Hint" xml:space="preserve"><value>{0} sau 📷 în modul de desenare: ecranul cu desenele dvs., fără bara de instrumente și meniu.</value></data>
+  <data name="Draw.Shot.Keep" xml:space="preserve"><value>Păstrează desenele</value></data>
+  <data name="Draw.Shot.Note" xml:space="preserve"><value>PNG cu data și ora în nume; monitorul cu desenul, în pixeli reali.</value></data>
+  <data name="Draw.Shot.Save" xml:space="preserve"><value>Salvează în fișier</value></data>
+  <data name="Draw.Shot.SaveCopy" xml:space="preserve"><value>Salvează și copiază</value></data>
+  <data name="Draw.Shot.Title" xml:space="preserve"><value>Capturi de ecran</value></data>
+  <data name="Draw.ShotCopied" xml:space="preserve"><value>Captură copiată în clipboard</value></data>
+  <data name="Draw.ShotFailed" xml:space="preserve"><value>Captura nu a fost salvată ({0}); desenele rămân.</value></data>
+  <data name="Draw.ShotSaved" xml:space="preserve"><value>Salvată: {0}</value></data>
+  <data name="Draw.ShotSavedCopied" xml:space="preserve"><value>Salvată și copiată: {0}</value></data>
+  <data name="Draw.TextSize" xml:space="preserve"><value>Mărimea textului</value></data>
+  <data name="Draw.TextSizeHint" xml:space="preserve"><value>Pentru instrumentul Text; − și + de pe bară o schimbă în timp ce tastați.</value></data>
+  <data name="Draw.Thicker" xml:space="preserve"><value>Mai gros</value></data>
+  <data name="Draw.Thickness" xml:space="preserve"><value>Grosime</value></data>
+  <data name="Draw.Thinner" xml:space="preserve"><value>Mai subțire</value></data>
+  <data name="Draw.Title" xml:space="preserve"><value>Desen temporar</value></data>
+  <data name="Draw.Tool.Arrow" xml:space="preserve"><value>Săgeată</value></data>
+  <data name="Draw.Tool.Ellipse" xml:space="preserve"><value>Elipsă</value></data>
+  <data name="Draw.Tool.Line" xml:space="preserve"><value>Linie dreaptă</value></data>
+  <data name="Draw.Tool.Pen" xml:space="preserve"><value>Stilou</value></data>
+  <data name="Draw.Tool.Rectangle" xml:space="preserve"><value>Dreptunghi</value></data>
+  <data name="Draw.Tool.Text" xml:space="preserve"><value>Text (Ctrl+Enter — gata, Esc — anulare)</value></data>
+  <data name="Draw.Toolbar.Hint" xml:space="preserve"><value>Se salvează în profil.</value></data>
+  <data name="Draw.Toolbar.Title" xml:space="preserve"><value>Bară de instrumente</value></data>
+  <data name="Draw.ToolbarMode" xml:space="preserve"><value>Bară de instrumente</value></data>
+  <data name="Draw.Undo" xml:space="preserve"><value>Anulare (Ctrl+Z)</value></data>
+  <data name="Help.AnchorMissing" xml:space="preserve"><value>Secțiunea „{0}” nu a fost găsită pe această pagină.</value></data>
+  <data name="Help.Back" xml:space="preserve"><value>← Înapoi</value></data>
+  <data name="Help.DemoHint" xml:space="preserve"><value>Deschide un exemplu sigur cu taste inventate</value></data>
+  <data name="Help.External.Message" xml:space="preserve"><value>Acest link iese din ajutor și se va deschide în browser:
+{0}</value></data>
+  <data name="Help.External.Title" xml:space="preserve"><value>Deschideți o pagină web?</value></data>
+  <data name="Help.Forward" xml:space="preserve"><value>Înainte →</value></data>
+  <data name="Help.ImageActual" xml:space="preserve"><value>Dimensiune reală</value></data>
+  <data name="Help.ImageFit" xml:space="preserve"><value>Potrivire la fereastră</value></data>
+  <data name="Help.ImageTitle" xml:space="preserve"><value>Imagine din ajutor</value></data>
+  <data name="Help.ImageZoomHint" xml:space="preserve"><value>Faceți clic pentru mărire</value></data>
+  <data name="Help.NothingFound" xml:space="preserve"><value>Nimic găsit</value></data>
+  <data name="Help.Search" xml:space="preserve"><value>Căutare în ajutor</value></data>
+  <data name="Help.WindowTitle" xml:space="preserve"><value>Ajutor Backpack — {0}</value></data>
+  <data name="Help.ZoomIn" xml:space="preserve"><value>Text mai mare</value></data>
+  <data name="Help.ZoomOut" xml:space="preserve"><value>Text mai mic</value></data>
+  <data name="HelpSection.Diag.Title" xml:space="preserve"><value>Verificări</value></data>
+  <data name="HelpSection.Diagnostics" xml:space="preserve"><value>Fereastra de diagnosticare</value></data>
+  <data name="HelpSection.DiagnosticsHint" xml:space="preserve"><value>Contoarele surselor de captură și lista de verificare manuală.</value></data>
+  <data name="HelpSection.LayoutIndicator" xml:space="preserve"><value>Indicator de aspect</value></data>
+  <data name="HelpSection.LoadProblem" xml:space="preserve"><value>La încărcare: {0}</value></data>
+  <data name="HelpSection.Migrated" xml:space="preserve"><value>Setările au fost actualizate din formatul {0}; fișierul vechi este păstrat ca settings.v1.bak.json.</value></data>
+  <data name="HelpSection.OverlayExample" xml:space="preserve"><value>Exemplu pe suprapunere</value></data>
+  <data name="HelpSection.OverlayExampleHint" xml:space="preserve"><value>Redă câteva secunde taste inventate pe suprapunerea reală. Textul tastat de dvs. nu este folosit.</value></data>
+  <data name="HelpSection.ResetAll" xml:space="preserve"><value>Resetare toate setările</value></data>
+  <data name="HelpSection.ResetAllButton" xml:space="preserve"><value>Resetare totală</value></data>
+  <data name="HelpSection.ResetAllConfirm" xml:space="preserve"><value>Resetați toate setările la valorile implicite? Profilurile salvate nu se modifică.</value></data>
+  <data name="HelpSection.ResetAllHint" xml:space="preserve"><value>Readuce fiecare secțiune la valorile implicite. Profilurile salvate rămân neschimbate.</value></data>
+  <data name="HelpSection.Settings.Title" xml:space="preserve"><value>Fișierul de setări</value></data>
+  <data name="HelpSection.SettingsFile" xml:space="preserve"><value>Setările se salvează automat: {0}</value></data>
+  <data name="Home.CombosHint" xml:space="preserve"><value>Ascunde tastarea obișnuită, arată doar combinațiile.</value></data>
+  <data name="Home.DemoToggle" xml:space="preserve"><value>Pauză sau redare demonstrație</value></data>
+  <data name="Home.Display" xml:space="preserve"><value>Afișare taste, indicator de aspect și mouse</value></data>
+  <data name="Home.DisplayHint" xml:space="preserve"><value>Comandă rapidă: {0}. După reafișare, apăsările vechi nu revin.</value></data>
+  <data name="Home.Draw" xml:space="preserve"><value>Desen temporar</value></data>
+  <data name="Home.F.Keys" xml:space="preserve"><value>Taste</value></data>
+  <data name="Home.F.KeysHint" xml:space="preserve"><value>Taste în cinci stiluri de desen, combinații, etichete pentru Windows, macOS și Linux.</value></data>
+  <data name="Home.F.Mouse" xml:space="preserve"><value>Mouse</value></data>
+  <data name="Home.F.MouseHint" xml:space="preserve"><value>Clicuri, derulare și butoane laterale pe o pictogramă lângă indicator; o lupă în jurul lui.</value></data>
+  <data name="Home.F.MouseOff" xml:space="preserve"><value>Ascundere lângă indicator</value></data>
+  <data name="Home.F.MouseOn" xml:space="preserve"><value>Afișare lângă indicator</value></data>
+  <data name="Home.F.Settings" xml:space="preserve"><value>Setări</value></data>
+  <data name="Home.F.Style" xml:space="preserve"><value>Alegeți un stil</value></data>
+  <data name="Home.OpenProfiles" xml:space="preserve"><value>Profiluri…</value></data>
+  <data name="Home.Pause" xml:space="preserve"><value>Pauză demonstrație</value></data>
+  <data name="Home.Play" xml:space="preserve"><value>Redare demonstrație</value></data>
+  <data name="Home.Start" xml:space="preserve"><value>Pornire</value></data>
+  <data name="Home.State.Hint" xml:space="preserve"><value>Ce este acum pe ecran. Captura continuă cât timp afișarea este ascunsă.</value></data>
+  <data name="Home.State.Title" xml:space="preserve"><value>Afișare</value></data>
+  <data name="Home.ToolHint" xml:space="preserve"><value>Comandă rapidă: {0}. Esc pentru ieșire.</value></data>
+  <data name="Home.Welcome" xml:space="preserve"><value>Instrumente pentru prezentări, tutoriale și demonstrații pe ecran: taste și mouse pe ecran, desen cu pași numerotați și pluginuri pentru focalizare, lupă și cronometru.</value></data>
+  <data name="Home.WelcomeHint" xml:space="preserve"><value>Demonstrația folosește date inventate — fără intrare reală și fără captură de ecran.</value></data>
+  <data name="Hotkeys.Clear" xml:space="preserve"><value>Eliminare</value></data>
+  <data name="Hotkeys.Default" xml:space="preserve"><value>Implicit</value></data>
+  <data name="Hotkeys.Draw" xml:space="preserve"><value>Mod desen</value></data>
+  <data name="Hotkeys.Hide.Hint" xml:space="preserve"><value>Captura continuă; după reafișare nu există apăsări vechi.</value></data>
+  <data name="Hotkeys.Hide.Indicator" xml:space="preserve"><value>Indicator de aspect</value></data>
+  <data name="Hotkeys.Hide.Keycaps" xml:space="preserve"><value>Taste</value></data>
+  <data name="Hotkeys.Hide.Mouse" xml:space="preserve"><value>Mouse lângă indicator</value></data>
+  <data name="Hotkeys.Hide.Title" xml:space="preserve"><value>Ce ascunde „ascundere afișare”</value></data>
+  <data name="Hotkeys.Hint" xml:space="preserve"><value>Setările acestui computer: importul unui profil nu le schimbă. Faceți clic într-un câmp și apăsați combinația.</value></data>
+  <data name="Hotkeys.Lens" xml:space="preserve"><value>Lupă în timp real</value></data>
+  <data name="Hotkeys.Note" xml:space="preserve"><value>F1 rămâne local în ferestrele Backpack. O comandă rapidă globală interceptează doar propria combinație; alte intrări nu sunt blocate. Ținerea tastelor apăsate nu repetă acțiunea.</value></data>
+  <data name="Hotkeys.NotSet" xml:space="preserve"><value>nesetat</value></data>
+  <data name="Hotkeys.PressKeys" xml:space="preserve"><value>Apăsați o combinație…</value></data>
+  <data name="Hotkeys.Radial" xml:space="preserve"><value>Meniu radial (în modul desen)</value></data>
+  <data name="Hotkeys.Recording" xml:space="preserve"><value>Înregistrare: apăsați tastele; Esc — anulare, Backspace — eliminare.</value></data>
+  <data name="Hotkeys.Screenshot" xml:space="preserve"><value>Captură de ecran (în modul desen)</value></data>
+  <data name="Hotkeys.ScreenshotNote" xml:space="preserve"><value>Tasta de captură funcționează doar în modul desen, deci este permisă o singură tastă precum F2.</value></data>
+  <data name="Hotkeys.Status.Busy" xml:space="preserve"><value>Folosită de alt program. Alegeți altă combinație.</value></data>
+  <data name="Hotkeys.Status.Conflict" xml:space="preserve"><value>Folosită deja de altă acțiune Backpack.</value></data>
+  <data name="Hotkeys.Status.Failed" xml:space="preserve"><value>Windows nu a înregistrat combinația.</value></data>
+  <data name="Hotkeys.Status.Invalid" xml:space="preserve"><value>Necesită Ctrl, Alt sau Win plus o altă tastă.</value></data>
+  <data name="Hotkeys.Status.NotSet" xml:space="preserve"><value>Nesetat.</value></data>
+  <data name="Hotkeys.Status.Registered" xml:space="preserve"><value>Activ.</value></data>
+  <data name="Hotkeys.Status.Reserved" xml:space="preserve"><value>Rezervată de Windows (de exemplu Win+Spațiu, Alt+Tab).</value></data>
+  <data name="Hotkeys.Status.Suspended" xml:space="preserve"><value>Întreruptă cât timp se înregistrează o combinație.</value></data>
+  <data name="Hotkeys.Status.WaitingForMode" xml:space="preserve"><value>Activă doar în timpul desenului; altfel tasta rămâne celorlalte programe.</value></data>
+  <data name="Hotkeys.Title" xml:space="preserve"><value>Comenzi rapide globale</value></data>
+  <data name="Hotkeys.ToggleDisplay" xml:space="preserve"><value>Afișare sau ascundere</value></data>
+  <data name="Keys.AnyHeldMs" xml:space="preserve"><value>Prag de simultaneitate</value></data>
+  <data name="Keys.AnyHeldMsHint" xml:space="preserve"><value>Cât timp trebuie ținută prima tastă înainte ca altele să se alăture. 0 — fără prag.</value></data>
+  <data name="Keys.ChordNote" xml:space="preserve"><value>O combinație rămâne unită cât timp oricare dintre tastele ei este apăsată; literele tastate repede, suprapuse, nu se unesc într-o combinație.</value></data>
+  <data name="Keys.Chords" xml:space="preserve"><value>Unirea tastelor</value></data>
+  <data name="Keys.Chords.AnyHeld" xml:space="preserve"><value>Orice taste ținute împreună</value></data>
+  <data name="Keys.Chords.Hint" xml:space="preserve"><value>Independent de „Toate tastele / Doar combinații”.</value></data>
+  <data name="Keys.Chords.Limits" xml:space="preserve"><value>Backpack arată ce raportează tastatura și Windows. Unele combinații sunt preluate mai întâi de Windows sau de alte aplicații, iar unele tastaturi nu le pot raporta.</value></data>
+  <data name="Keys.Chords.Modifiers" xml:space="preserve"><value>Cu Ctrl, Alt, Shift, Win</value></data>
+  <data name="Keys.Chords.Note" xml:space="preserve"><value>Tastele formează un grup doar dacă sunt ținute cu adevărat împreună mai mult decât pragul; apăsările suprapuse la tastarea rapidă rămân separate.</value></data>
+  <data name="Keys.Chords.Title" xml:space="preserve"><value>Ce formează o combinație</value></data>
+  <data name="Keys.Filter" xml:space="preserve"><value>Taste</value></data>
+  <data name="Keys.Filter.All" xml:space="preserve"><value>Toate tastele</value></data>
+  <data name="Keys.Filter.Combos" xml:space="preserve"><value>Doar combinații</value></data>
+  <data name="Keys.FilterHint" xml:space="preserve"><value>„Doar combinații” ascunde tastarea obișnuită și arată tastele apăsate împreună cu Ctrl, Alt sau Win.</value></data>
+  <data name="Keys.Linger" xml:space="preserve"><value>Persistență după eliberare</value></data>
+  <data name="Keys.LingerHint" xml:space="preserve"><value>Cât timp rămân vizibile ultimele taste după eliberare.</value></data>
+  <data name="Keys.MouseInRow" xml:space="preserve"><value>Butoanele mouse-ului în rând</value></data>
+  <data name="Keys.MouseInRowHint" xml:space="preserve"><value>Clicurile apar lângă taste, de exemplu Ctrl + butonul stâng.</value></data>
+  <data name="Keys.MouseLabels" xml:space="preserve"><value>Eticheta butonului mouse-ului</value></data>
+  <data name="Keys.MouseLabels.Icon" xml:space="preserve"><value>Pictogramă</value></data>
+  <data name="Keys.MouseLabels.Text" xml:space="preserve"><value>Text</value></data>
+  <data name="Keys.MouseLabelsHint" xml:space="preserve"><value>O pictogramă de mouse desenată sau un cuvânt.</value></data>
+  <data name="Keys.Show.Title" xml:space="preserve"><value>Ce se afișează</value></data>
+  <data name="Keys.Trail" xml:space="preserve"><value>Urmă</value></data>
+  <data name="Keys.Trail.Fade" xml:space="preserve"><value>Urmă care se estompează</value></data>
+  <data name="Keys.Trail.None" xml:space="preserve"><value>Calm</value></data>
+  <data name="Keys.TrailHint" xml:space="preserve"><value>Calm: fiecare literă nouă o înlocuiește pe cea anterioară. Urmă: literele eliberate rămân o clipă și se estompează pe loc.</value></data>
+  <data name="Keys.Typing.Title" xml:space="preserve"><value>Tastare</value></data>
+  <data name="Layout.Anchor" xml:space="preserve"><value>Punct al ecranului</value></data>
+  <data name="Layout.Animation" xml:space="preserve"><value>Animație</value></data>
+  <data name="Layout.Background" xml:space="preserve"><value>Fundal</value></data>
+  <data name="Layout.BorderColor" xml:space="preserve"><value>Culoarea conturului</value></data>
+  <data name="Layout.BorderWidth" xml:space="preserve"><value>Grosimea conturului</value></data>
+  <data name="Layout.BorderWidthHint" xml:space="preserve"><value>0 — fără contur.</value></data>
+  <data name="Layout.Duration" xml:space="preserve"><value>Afișare timp de</value></data>
+  <data name="Layout.Enable" xml:space="preserve"><value>Afișare indicator</value></data>
+  <data name="Layout.ExampleDetail" xml:space="preserve"><value>Exemplu</value></data>
+  <data name="Layout.Hint" xml:space="preserve"><value>O etichetă scurtă precum „EN” sau „UK” când se schimbă limba de intrare a ferestrei active.</value></data>
+  <data name="Layout.Look.Title" xml:space="preserve"><value>Aspectul indicatorului</value></data>
+  <data name="Layout.OnSwitch" xml:space="preserve"><value>La schimbarea ferestrei</value></data>
+  <data name="Layout.OnSwitchHint" xml:space="preserve"><value>Arată eticheta și când treceți la o fereastră cu altă limbă.</value></data>
+  <data name="Layout.Position.Title" xml:space="preserve"><value>Poziția indicatorului</value></data>
+  <data name="Layout.Radius" xml:space="preserve"><value>Rotunjire</value></data>
+  <data name="Layout.RadiusHint" xml:space="preserve"><value>0 — colțuri drepte, 1 — formă de pastilă.</value></data>
+  <data name="Layout.ShowExample" xml:space="preserve"><value>Afișare exemplu</value></data>
+  <data name="Layout.Style" xml:space="preserve"><value>Sursa aspectului</value></data>
+  <data name="Layout.Style.Custom" xml:space="preserve"><value>Stil propriu</value></data>
+  <data name="Layout.Style.Inherit" xml:space="preserve"><value>Ca tastele</value></data>
+  <data name="Layout.StyleHint" xml:space="preserve"><value>„Ca tastele” urmează culorile tastelor. „Stil propriu” folosește parametrii de mai jos; alegeți o presetare din catalogul de mai sus.</value></data>
+  <data name="Layout.TextColor" xml:space="preserve"><value>Culoarea textului</value></data>
+  <data name="Layout.TextSize" xml:space="preserve"><value>Dimensiunea textului</value></data>
+  <data name="Layout.Title" xml:space="preserve"><value>Indicator de aspect</value></data>
+  <data name="Layout.Where" xml:space="preserve"><value>Unde</value></data>
+  <data name="Layout.Where.Above" xml:space="preserve"><value>Deasupra rândului de taste</value></data>
+  <data name="Layout.Where.Screen" xml:space="preserve"><value>Punct al ecranului</value></data>
+  <data name="LayoutStatus.Baseline" xml:space="preserve"><value>Se urmărește limba de intrare a ferestrei active; limba curentă a fost reținută, încă fără modificări. Afișat: {0}.</value></data>
+  <data name="LayoutStatus.Off" xml:space="preserve"><value>Dezactivat.</value></data>
+  <data name="LayoutStatus.Shown" xml:space="preserve"><value>Se urmărește limba de intrare a ferestrei active; ultima modificare a fost afișată. Afișat: {0}.</value></data>
+  <data name="LayoutStatus.Suppressed" xml:space="preserve"><value>Se urmărește limba de intrare a ferestrei active; ultima modificare la schimbarea ferestrei nu a fost afișată (conform setării). Afișat: {0}.</value></data>
+  <data name="LayoutStatus.Unchanged" xml:space="preserve"><value>Se urmărește limba de intrare a ferestrei active; limba nu s-a schimbat. Afișat: {0}.</value></data>
+  <data name="LayoutStatus.Waiting" xml:space="preserve"><value>Se așteaptă prima fereastră activă a altui program. Afișat: {0}.</value></data>
+  <data name="Lens.HotkeyButton" xml:space="preserve"><value>Comenzi rapide…</value></data>
+  <data name="Lens.SelectHint" xml:space="preserve"><value>Trageți un dreptunghi pentru lupă. Clic — dimensiune implicită. Esc sau clic dreapta — anulare.</value></data>
+  <data name="Lens.Unavailable" xml:space="preserve"><value>Ecranul nu este disponibil acum pentru lupă</value></data>
+  <data name="Mouse.Body" xml:space="preserve"><value>Culoarea corpului</value></data>
+  <data name="Mouse.BodyHint" xml:space="preserve"><value>Contur, retro și schiță. Transparent — fără umplere.</value></data>
+  <data name="Mouse.Circle" xml:space="preserve"><value>Afișare cerc de clic</value></data>
+  <data name="Mouse.Circle.Title" xml:space="preserve"><value>Cerc de clic</value></data>
+  <data name="Mouse.CircleColor" xml:space="preserve"><value>Culoarea cercului</value></data>
+  <data name="Mouse.CircleOpacity" xml:space="preserve"><value>Opacitatea cercului</value></data>
+  <data name="Mouse.CircleSize" xml:space="preserve"><value>Dimensiunea cercului</value></data>
+  <data name="Mouse.Cursor.Enable" xml:space="preserve"><value>Afișare lângă indicator</value></data>
+  <data name="Mouse.Cursor.EnableHint" xml:space="preserve"><value>O mică pictogramă de mouse și un cerc de clic urmează indicatorul. Clicurile ajung la fereastra de dedesubt.</value></data>
+  <data name="Mouse.Cursor.Title" xml:space="preserve"><value>Mouse lângă indicator</value></data>
+  <data name="Mouse.Icon" xml:space="preserve"><value>Afișare pictogramă</value></data>
+  <data name="Mouse.Icon.Title" xml:space="preserve"><value>Pictograma mouse-ului</value></data>
+  <data name="Mouse.IconBackground" xml:space="preserve"><value>Umplere</value></data>
+  <data name="Mouse.IconHint" xml:space="preserve"><value>Butonul apăsat este evidențiat pe pictogramă.</value></data>
+  <data name="Mouse.IconSize" xml:space="preserve"><value>Dimensiunea pictogramei</value></data>
+  <data name="Mouse.InRow.Note" xml:space="preserve"><value>Butoanele mouse-ului pot apărea și în rândul de taste lângă modificatori — vedeți „Taste și combinații”.</value></data>
+  <data name="Mouse.InRow.Title" xml:space="preserve"><value>Mouse în rândul de taste</value></data>
+  <data name="Mouse.Look.Hint" xml:space="preserve"><value>O apăsare schimbă doar propria parte a pictogramei.</value></data>
+  <data name="Mouse.Look.Title" xml:space="preserve"><value>Pictograma mouse-ului</value></data>
+  <data name="Mouse.OffsetRightHint" xml:space="preserve"><value>Distanța față de vârful indicatorului; valorile negative o plasează în stânga.</value></data>
+  <data name="Mouse.Outline" xml:space="preserve"><value>Contur</value></data>
+  <data name="Mouse.Pressed" xml:space="preserve"><value>Buton apăsat</value></data>
+  <data name="Mouse.Renderer" xml:space="preserve"><value>Mod de desen</value></data>
+  <data name="Mouse.SideButtons" xml:space="preserve"><value>Butoane laterale</value></data>
+  <data name="Mouse.SideButtons.Hidden" xml:space="preserve"><value>Ascunse</value></data>
+  <data name="Mouse.SideButtons.Left" xml:space="preserve"><value>Stânga</value></data>
+  <data name="Mouse.SideButtons.Note" xml:space="preserve"><value>Afișate: X1 (înapoi) și X2 (înainte). Butoanele reatribuite de driverul mouse-ului nu ajung la Backpack ca butoane separate.</value></data>
+  <data name="Mouse.SideButtons.One" xml:space="preserve"><value>Unul</value></data>
+  <data name="Mouse.SideButtons.Right" xml:space="preserve"><value>Dreapta</value></data>
+  <data name="Mouse.SideButtons.Side" xml:space="preserve"><value>Latură</value></data>
+  <data name="Mouse.SideButtons.Two" xml:space="preserve"><value>Două</value></data>
+  <data name="Mouse.SideButtonsHint" xml:space="preserve"><value>Setați după mouse-ul dvs.</value></data>
+  <data name="Mouse.Wheel.Color" xml:space="preserve"><value>Culoarea săgeții</value></data>
+  <data name="Mouse.Wheel.Duration" xml:space="preserve"><value>Săgeata rămâne</value></data>
+  <data name="Mouse.Wheel.DurationHint" xml:space="preserve"><value>După ultimul pas de derulare.</value></data>
+  <data name="Mouse.Wheel.Hint" xml:space="preserve"><value>O săgeată în rotiță arată direcția derulării, inclusiv orizontală dacă mouse-ul o raportează.</value></data>
+  <data name="Mouse.Wheel.Note" xml:space="preserve"><value>Derularea și apăsarea butonului din mijloc sunt evenimente diferite. Săgeata apare pe pictograma mouse-ului de lângă indicator; rândul de taste nu arată derularea.</value></data>
+  <data name="Mouse.Wheel.Title" xml:space="preserve"><value>Derulare</value></data>
+  <data name="MouseRenderer.Outline" xml:space="preserve"><value>Contur</value></data>
+  <data name="MouseRenderer.Retro" xml:space="preserve"><value>Retro</value></data>
+  <data name="MouseRenderer.Sketch" xml:space="preserve"><value>Schiță</value></data>
+  <data name="MouseRenderer.Solid" xml:space="preserve"><value>Plin</value></data>
+  <data name="Note.Migrated" xml:space="preserve"><value>setări: actualizate din formatul {0} la {1}</value></data>
+  <data name="Note.PortableUnavailable" xml:space="preserve"><value>Marcajul portabil a fost găsit, dar dosarul de lângă program nu permite scrierea; setările se păstrează în %APPDATA%\Backpack.</value></data>
+  <data name="Note.PrefsUnreadable" xml:space="preserve"><value>preferințele aplicației (app.json) nu au putut fi citite; se folosesc valorile implicite</value></data>
+  <data name="Note.SettingsProblem" xml:space="preserve"><value>setări: {0}</value></data>
+  <data name="Note.SourceFailed" xml:space="preserve"><value>{0}: pornirea a eșuat la pasul „{1}”, Win32 {2}</value></data>
+  <data name="Note.SourceReady" xml:space="preserve"><value>{0}: gata</value></data>
+  <data name="Outcome.Baseline" xml:space="preserve"><value>valoarea inițială reținută</value></data>
+  <data name="Outcome.NoForeground" xml:space="preserve"><value>nicio fereastră activă</value></data>
+  <data name="Outcome.NotStarted" xml:space="preserve"><value>încă niciuna</value></data>
+  <data name="Outcome.OwnWindow" xml:space="preserve"><value>o fereastră Backpack (nu se ia în calcul)</value></data>
+  <data name="Outcome.ShownInWindow" xml:space="preserve"><value>afișat: modificare în fereastră</value></data>
+  <data name="Outcome.ShownWindowSwitch" xml:space="preserve"><value>afișat: trecere la o fereastră cu altă limbă</value></data>
+  <data name="Outcome.SuppressedWindowSwitch" xml:space="preserve"><value>neafișat: comutare între ferestre (dezactivat în setări)</value></data>
+  <data name="Outcome.Unavailable" xml:space="preserve"><value>aspect indisponibil</value></data>
+  <data name="Outcome.Unchanged" xml:space="preserve"><value>fără modificare</value></data>
+  <data name="Outcome.Unconfirmed" xml:space="preserve"><value>se așteaptă confirmarea printr-o a doua interogare</value></data>
+  <data name="Position.Anchor" xml:space="preserve"><value>Punct al ecranului</value></data>
+  <data name="Position.EdgeX" xml:space="preserve"><value>De la marginea laterală</value></data>
+  <data name="Position.EdgeXHint" xml:space="preserve"><value>Folosit pentru punctele din stânga și din dreapta.</value></data>
+  <data name="Position.EdgeY" xml:space="preserve"><value>De la marginea de sus sau de jos</value></data>
+  <data name="Position.EdgeYHint" xml:space="preserve"><value>Folosit pentru punctele de sus și de jos.</value></data>
+  <data name="Position.Hint" xml:space="preserve"><value>Alegeți un punct al ecranului, apoi ajustați distanța față de margini.</value></data>
+  <data name="Position.Note" xml:space="preserve"><value>Rândul rămâne în zona de lucru a monitorului principal, deasupra barei de activități.</value></data>
+  <data name="Position.PreviewLabel" xml:space="preserve"><value>taste</value></data>
+  <data name="Position.Reset" xml:space="preserve"><value>Poziție implicită</value></data>
+  <data name="Position.ResetButton" xml:space="preserve"><value>Jos la mijloc</value></data>
+  <data name="Position.Title" xml:space="preserve"><value>Poziția rândului de taste</value></data>
+  <data name="Profile.Error.Id" xml:space="preserve"><value>ID-ul profilului lipsește sau nu este valid.</value></data>
+  <data name="Profile.Error.Missing" xml:space="preserve"><value>Fișierul profilului nu a fost găsit.</value></data>
+  <data name="Profile.Error.Name" xml:space="preserve"><value>Numele profilului lipsește sau depășește 64 de caractere.</value></data>
+  <data name="Profile.Error.Newer" xml:space="preserve"><value>Profilul a fost creat de o versiune mai nouă (formatul {0}).</value></data>
+  <data name="Profile.Error.NoSettings" xml:space="preserve"><value>Profilul nu are o secțiune de setări.</value></data>
+  <data name="Profile.Error.NotProfile" xml:space="preserve"><value>Acesta nu este un fișier de profil Backpack.</value></data>
+  <data name="Profile.Error.NoVersion" xml:space="preserve"><value>Lipsește versiunea formatului profilului.</value></data>
+  <data name="Profile.Error.ReadFailed" xml:space="preserve"><value>Fișierul profilului nu a putut fi citit ({0}).</value></data>
+  <data name="Profile.Error.Styles" xml:space="preserve"><value>Lista „styles” este deteriorată sau prea lungă (cel mult 16 stiluri).</value></data>
+  <data name="Profile.Error.Syntax" xml:space="preserve"><value>Fișierul nu este JSON valid (linia {0}).</value></data>
+  <data name="Profile.Error.TooLarge" xml:space="preserve"><value>Fișierul este prea mare pentru un profil (peste 256 KB).</value></data>
+  <data name="Profile.Error.Unsupported" xml:space="preserve"><value>Versiune de format de profil neacceptată: {0}.</value></data>
+  <data name="Profiles.Active" xml:space="preserve"><value>Profil</value></data>
+  <data name="Profiles.Active.Title" xml:space="preserve"><value>Profilul curent</value></data>
+  <data name="Profiles.All.Title" xml:space="preserve"><value>Toate profilurile</value></data>
+  <data name="Profiles.CopyName" xml:space="preserve"><value>{0} — copie</value></data>
+  <data name="Profiles.DefaultName" xml:space="preserve"><value>Principal</value></data>
+  <data name="Profiles.Delete" xml:space="preserve"><value>Ștergere</value></data>
+  <data name="Profiles.Delete.Message" xml:space="preserve"><value>Ștergeți profilul „{0}”? Acțiunea nu poate fi anulată.</value></data>
+  <data name="Profiles.Delete.Title" xml:space="preserve"><value>Ștergere profil</value></data>
+  <data name="Profiles.DeleteActiveHint" xml:space="preserve"><value>Profilul în uz nu poate fi șters. Încărcați mai întâi alt profil.</value></data>
+  <data name="Profiles.Duplicate" xml:space="preserve"><value>Duplicare</value></data>
+  <data name="Profiles.Error.Name" xml:space="preserve"><value>Introduceți un nume de 1–64 de caractere.</value></data>
+  <data name="Profiles.Export" xml:space="preserve"><value>Export…</value></data>
+  <data name="Profiles.FileDialogNote" xml:space="preserve"><value>Dialogurile de fișiere Windows urmează tema și limba Windows, nu setările Backpack.</value></data>
+  <data name="Profiles.FileFilter" xml:space="preserve"><value>Profil Backpack</value></data>
+  <data name="Profiles.Import" xml:space="preserve"><value>Import…</value></data>
+  <data name="Profiles.Imported.Later" xml:space="preserve"><value>Mai târziu</value></data>
+  <data name="Profiles.Imported.Message" xml:space="preserve"><value>Profilul „{0}” a fost adăugat în listă. Îl încărcați acum?</value></data>
+  <data name="Profiles.Imported.Title" xml:space="preserve"><value>Profil importat</value></data>
+  <data name="Profiles.ImportFailed.Message" xml:space="preserve"><value>Fișierul nu a fost importat, deoarece are probleme. Nu s-a modificat nimic.</value></data>
+  <data name="Profiles.ImportFailed.Title" xml:space="preserve"><value>Profilul nu a fost importat</value></data>
+  <data name="Profiles.IncludesNote" xml:space="preserve"><value>Un profil păstrează aspectul și comportamentul afișării, mouse-ul, indicatorul de aspect și poziția. Limba, tema și comportamentul din zona de notificare sunt comune.</value></data>
+  <data name="Profiles.IsActive" xml:space="preserve"><value>În uz acum</value></data>
+  <data name="Profiles.Load" xml:space="preserve"><value>Încărcare</value></data>
+  <data name="Profiles.LoadFailed.Message" xml:space="preserve"><value>Fișierul profilului are probleme. Setările curente nu au fost modificate.</value></data>
+  <data name="Profiles.LoadFailed.Title" xml:space="preserve"><value>Profilul nu a fost încărcat</value></data>
+  <data name="Profiles.NameLabel" xml:space="preserve"><value>Numele profilului</value></data>
+  <data name="Profiles.New" xml:space="preserve"><value>Profil nou</value></data>
+  <data name="Profiles.New.Title" xml:space="preserve"><value>Profil nou</value></data>
+  <data name="Profiles.NewName" xml:space="preserve"><value>Profil nou</value></data>
+  <data name="Profiles.Rename" xml:space="preserve"><value>Redenumire</value></data>
+  <data name="Profiles.Rename.Title" xml:space="preserve"><value>Redenumire profil</value></data>
+  <data name="Renderer.Laptop" xml:space="preserve"><value>Laptop</value></data>
+  <data name="Renderer.LowProfile" xml:space="preserve"><value>Profil redus</value></data>
+  <data name="Renderer.Minimal" xml:space="preserve"><value>Minimal</value></data>
+  <data name="Renderer.Pbt" xml:space="preserve"><value>PBT</value></data>
+  <data name="Renderer.Volumetric" xml:space="preserve"><value>3D (vedere frontală)</value></data>
+  <data name="Settings.HelpButton" xml:space="preserve"><value>Ajutor</value></data>
+  <data name="Settings.Nav.About" xml:space="preserve"><value>Despre</value></data>
+  <data name="Settings.Nav.Appearance" xml:space="preserve"><value>Stilul tastelor</value></data>
+  <data name="Settings.Nav.Application" xml:space="preserve"><value>Setările aplicației</value></data>
+  <data name="Settings.Nav.Drawing" xml:space="preserve"><value>Desen</value></data>
+  <data name="Settings.Nav.Help" xml:space="preserve"><value>Ajutor și diagnosticare</value></data>
+  <data name="Settings.Nav.HelpPage" xml:space="preserve"><value>Ajutor</value></data>
+  <data name="Settings.Nav.Home" xml:space="preserve"><value>Acasă</value></data>
+  <data name="Settings.Nav.Hotkeys" xml:space="preserve"><value>Comenzi și comenzi rapide</value></data>
+  <data name="Settings.Nav.Keys" xml:space="preserve"><value>Taste</value></data>
+  <data name="Settings.Nav.Layout" xml:space="preserve"><value>Aspectul tastaturii</value></data>
+  <data name="Settings.Nav.Lens" xml:space="preserve"><value>Lupă în timp real</value></data>
+  <data name="Settings.Nav.Mouse" xml:space="preserve"><value>Mouse</value></data>
+  <data name="Settings.Nav.Position" xml:space="preserve"><value>Poziție și monitoare</value></data>
+  <data name="Settings.Nav.Profiles" xml:space="preserve"><value>Profiluri</value></data>
+  <data name="Settings.Nav.SettingsGroup" xml:space="preserve"><value>Setări</value></data>
+  <data name="Settings.Problem.Bool" xml:space="preserve"><value>{0}: se așteaptă true sau false; se folosește {1}.</value></data>
+  <data name="Settings.Problem.Color" xml:space="preserve"><value>{0}: „{1}” nu este o culoare; se folosește {2}.</value></data>
+  <data name="Settings.Problem.Corrupt" xml:space="preserve"><value>Fișierul de setări nu este JSON valid (linia {0}); se folosesc setările implicite, fișierul este păstrat ca settings.unreadable.bak.json.</value></data>
+  <data name="Settings.Problem.Enum" xml:space="preserve"><value>{0}: „{1}” nu este unul dintre {2}; se folosește valoarea implicită.</value></data>
+  <data name="Settings.Problem.Integer" xml:space="preserve"><value>{0}: se așteaptă un număr întreg; se folosește {1}.</value></data>
+  <data name="Settings.Problem.Newer" xml:space="preserve"><value>Setările au fost salvate de o versiune mai nouă (formatul {0}); se folosesc setările implicite, iar fișierul nu este suprascris.</value></data>
+  <data name="Settings.Problem.NoFormat" xml:space="preserve"><value>Fișierul nu este un fișier de setări Backpack; se folosesc setările implicite.</value></data>
+  <data name="Settings.Problem.NotObject" xml:space="preserve"><value>Fișierul de setări nu conține un obiect JSON; se folosesc setările implicite.</value></data>
+  <data name="Settings.Problem.NotSection" xml:space="preserve"><value>„{0}” trebuie să fie un obiect; pentru el se folosesc valorile implicite.</value></data>
+  <data name="Settings.Problem.NoVersion" xml:space="preserve"><value>Lipsește versiunea formatului de setări; se folosesc setările implicite.</value></data>
+  <data name="Settings.Problem.Number" xml:space="preserve"><value>{0}: se așteaptă un număr; se folosește {1}.</value></data>
+  <data name="Settings.Problem.Range" xml:space="preserve"><value>{0}: {1} este în afara intervalului {2}…{3}; se folosește {4}.</value></data>
+  <data name="Settings.Problem.ReadFailed" xml:space="preserve"><value>Fișierul de setări nu a putut fi citit ({0}); se folosesc setările implicite.</value></data>
+  <data name="Settings.Problem.SaveFailed" xml:space="preserve"><value>Setările nu au putut fi salvate ({0}).</value></data>
+  <data name="Settings.Problem.StyleId" xml:space="preserve"><value>{0}: „{1}” nu este un identificator de stil valid; referința este eliminată, parametrii sunt păstrați.</value></data>
+  <data name="Settings.Problem.UnknownField" xml:space="preserve"><value>Câmpul necunoscut „{0}” a fost ignorat.</value></data>
+  <data name="Settings.Problem.Unsupported" xml:space="preserve"><value>Versiune de format al setărilor neacceptată: {0}; se folosesc setările implicite.</value></data>
+  <data name="Settings.ResetSection" xml:space="preserve"><value>Resetare secțiune</value></data>
+  <data name="Settings.ToTray" xml:space="preserve"><value>Minimizare în zona de notificare</value></data>
+  <data name="Settings.ToTrayHint" xml:space="preserve"><value>Ascunde toate ferestrele Backpack; afișarea continuă să funcționeze. Readuceți-le cu pictograma din zona de notificare.</value></data>
+  <data name="Settings.WindowTitle" xml:space="preserve"><value>Backpack</value></data>
+  <data name="Style.Error.Id" xml:space="preserve"><value>Identificatorul stilului nu este valid.</value></data>
+  <data name="Style.Error.Kind" xml:space="preserve"><value>Tip de stil necunoscut (se așteaptă keycap, indicator sau mouse).</value></data>
+  <data name="Style.Error.Newer" xml:space="preserve"><value>Stilul a fost creat de un Backpack mai nou (formatul {0}). Actualizați Backpack pentru a-l folosi.</value></data>
+  <data name="Style.Error.NoLook" xml:space="preserve"><value>Stilul nu are secțiunea „look”.</value></data>
+  <data name="Style.Error.NotStyle" xml:space="preserve"><value>Acesta nu este un fișier de stil Backpack.</value></data>
+  <data name="Style.Error.TooLarge" xml:space="preserve"><value>Fișierul de stil este prea mare (peste 64 KB).</value></data>
+  <data name="Style.ImportedName" xml:space="preserve"><value>{0} (importat)</value></data>
+  <data name="Style.IndicatorAccent" xml:space="preserve"><value>Accent</value></data>
+  <data name="Style.IndicatorDark" xml:space="preserve"><value>Pastilă întunecată</value></data>
+  <data name="Style.IndicatorLight" xml:space="preserve"><value>Pastilă deschisă</value></data>
+  <data name="Style.IndicatorOutline" xml:space="preserve"><value>Contur</value></data>
+  <data name="Style.LaptopMidnight" xml:space="preserve"><value>Laptop — miez de noapte</value></data>
+  <data name="Style.LaptopSilver" xml:space="preserve"><value>Laptop — argintiu</value></data>
+  <data name="Style.LowProfileClassic" xml:space="preserve"><value>Profil redus — clasic</value></data>
+  <data name="Style.LowProfileGraphite" xml:space="preserve"><value>Profil redus — grafit</value></data>
+  <data name="Style.MinimalInk" xml:space="preserve"><value>Minimal — cerneală</value></data>
+  <data name="Style.MinimalLight" xml:space="preserve"><value>Minimal — text deschis</value></data>
+  <data name="Style.MouseOutlineDark" xml:space="preserve"><value>Contur — întunecat</value></data>
+  <data name="Style.MouseOutlineLight" xml:space="preserve"><value>Contur — deschis</value></data>
+  <data name="Style.MouseRetroBeige" xml:space="preserve"><value>Retro — bej</value></data>
+  <data name="Style.MouseRetroBlueGrey" xml:space="preserve"><value>Retro — gri-albăstrui</value></data>
+  <data name="Style.MouseRetroGraphite" xml:space="preserve"><value>Retro — grafit</value></data>
+  <data name="Style.MouseRetroSage" xml:space="preserve"><value>Retro — salvie estompată</value></data>
+  <data name="Style.MouseSketchChalk" xml:space="preserve"><value>Schiță — cretă</value></data>
+  <data name="Style.MouseSketchInk" xml:space="preserve"><value>Schiță — cerneală</value></data>
+  <data name="Style.MouseSolidDark" xml:space="preserve"><value>Plin — întunecat</value></data>
+  <data name="Style.MouseSolidLight" xml:space="preserve"><value>Plin — deschis</value></data>
+  <data name="Style.PbtCream" xml:space="preserve"><value>PBT — crem</value></data>
+  <data name="Style.PbtOcean" xml:space="preserve"><value>PBT — ocean</value></data>
+  <data name="Style.VolLavender" xml:space="preserve"><value>3D — lavandă</value></data>
+  <data name="Style.VolMint" xml:space="preserve"><value>3D — mentă</value></data>
+  <data name="Style.VolRose" xml:space="preserve"><value>3D — roz</value></data>
+  <data name="Styles.Apply" xml:space="preserve"><value>Aplicare</value></data>
+  <data name="Styles.BuiltIn" xml:space="preserve"><value>integrat</value></data>
+  <data name="Styles.Delete.Message" xml:space="preserve"><value>Ștergeți stilul „{0}”? Profilurile care îl folosesc își păstrează aspectul: parametrii sunt stocați în profil.</value></data>
+  <data name="Styles.Delete.Title" xml:space="preserve"><value>Ștergere stil</value></data>
+  <data name="Styles.Duplicate" xml:space="preserve"><value>Duplicare</value></data>
+  <data name="Styles.FileFilter" xml:space="preserve"><value>Stil Backpack</value></data>
+  <data name="Styles.FolderFailed" xml:space="preserve"><value>Dosarul {0} nu a putut fi deschis.</value></data>
+  <data name="Styles.Imported.Added" xml:space="preserve"><value>Stilul „{0}” a fost adăugat în catalog.</value></data>
+  <data name="Styles.Imported.OtherKind" xml:space="preserve"><value>Stilul „{0}” a fost adăugat în catalogul altui element (taste, indicator sau mouse).</value></data>
+  <data name="Styles.Imported.Present" xml:space="preserve"><value>Stilul „{0}” este deja în catalog; nu s-a creat nicio copie.</value></data>
+  <data name="Styles.Imported.Renamed" xml:space="preserve"><value>Există deja un stil cu același identificator, dar cu alți parametri. Cel importat a fost salvat ca „{0}”; nu s-a suprascris nimic.</value></data>
+  <data name="Styles.Imported.Title" xml:space="preserve"><value>Stil importat</value></data>
+  <data name="Styles.ImportFailed.Title" xml:space="preserve"><value>Stilul nu a fost importat</value></data>
+  <data name="Styles.Indicator.Hint" xml:space="preserve"><value>Stiluri de indicator integrate și proprii. Pluginul poate folosi și aspectul tastelor.</value></data>
+  <data name="Styles.Indicator.Title" xml:space="preserve"><value>Stilurile indicatorului de aspect</value></data>
+  <data name="Styles.InheritHint" xml:space="preserve"><value>culori de la taste</value></data>
+  <data name="Styles.Keycap.Hint" xml:space="preserve"><value>Un stil este un set salvat de parametri de aspect. Stilurile integrate nu se schimbă: la salvare, editarea creează copia dvs.</value></data>
+  <data name="Styles.Keycap.Title" xml:space="preserve"><value>Stilurile tastelor</value></data>
+  <data name="Styles.Mine" xml:space="preserve"><value>propriu</value></data>
+  <data name="Styles.Mouse.Hint" xml:space="preserve"><value>Aspectul pictogramei mouse-ului lângă indicator și în rând. Butoanele laterale se setează mai jos și nu se schimbă cu stilul.</value></data>
+  <data name="Styles.Mouse.Title" xml:space="preserve"><value>Stilurile mouse-ului</value></data>
+  <data name="Styles.NewName" xml:space="preserve"><value>Stilul meu</value></data>
+  <data name="Styles.OpenFolder" xml:space="preserve"><value>Deschidere dosar stiluri</value></data>
+  <data name="Styles.Restore" xml:space="preserve"><value>Restabilire</value></data>
+  <data name="Styles.RestoreHint" xml:space="preserve"><value>Revenire la parametrii stilului selectat.</value></data>
+  <data name="Styles.Save" xml:space="preserve"><value>Salvare stil</value></data>
+  <data name="Styles.SaveAsNew" xml:space="preserve"><value>Salvare ca nou…</value></data>
+  <data name="Styles.Skipped" xml:space="preserve"><value>Fișiere de stil deteriorate sau neacceptate omise: {0}. Nu au fost șterse.</value></data>
+  <data name="Styles.Status.Custom" xml:space="preserve"><value>Parametri proprii (nu din catalog).</value></data>
+  <data name="Styles.Status.Inherit" xml:space="preserve"><value>Culorile sunt preluate de la taste.</value></data>
+  <data name="Styles.Status.Missing" xml:space="preserve"><value>Stilul acestui profil nu este în catalogul acestui computer; parametrii săi sunt păstrați în profil.</value></data>
+  <data name="Styles.Status.Modified" xml:space="preserve"><value>Bazat pe {0} • modificat. Salvați-l ca stil propriu sau restabiliți originalul.</value></data>
+  <data name="Styles.Status.Selected" xml:space="preserve"><value>Selectat: {0}.</value></data>
+  <data name="Tray.CombosOnly" xml:space="preserve"><value>Doar combinații</value></data>
+  <data name="Tray.Exit" xml:space="preserve"><value>Ieșire din Backpack</value></data>
+  <data name="Tray.FirstHide.Exit" xml:space="preserve"><value>Ieșire în schimb</value></data>
+  <data name="Tray.FirstHide.Message" xml:space="preserve"><value>Fereastra este ascunsă; afișarea continuă să funcționeze.
+
+Pictograma Backpack se află în zona de notificare a barei de activități. Windows o poate pune printre pictogramele ascunse (săgeata ^).
+
+Faceți clic pe pictogramă pentru a readuce ferestrele. Clic dreapta pentru comutări rapide și „Ieșire din Backpack”.
+
+Puteți face ca × să închidă aplicația în Setări → Aplicație.</value></data>
+  <data name="Tray.FirstHide.Ok" xml:space="preserve"><value>Am înțeles</value></data>
+  <data name="Tray.FirstHide.Title" xml:space="preserve"><value>Backpack rulează în continuare</value></data>
+  <data name="Tray.Help" xml:space="preserve"><value>Ajutor</value></data>
+  <data name="Tray.LayoutIndicator" xml:space="preserve"><value>Indicator de aspect</value></data>
+  <data name="Tray.MouseCircle" xml:space="preserve"><value>Cerc de clic la indicator</value></data>
+  <data name="Tray.MouseIcon" xml:space="preserve"><value>Pictograma mouse-ului la indicator</value></data>
+  <data name="Tray.MouseInRow" xml:space="preserve"><value>Butoanele mouse-ului în rând</value></data>
+  <data name="Tray.OpenSettings" xml:space="preserve"><value>Deschidere Backpack</value></data>
+  <data name="Tray.Profile" xml:space="preserve"><value>Profil: {0}</value></data>
+  <data name="Tray.ShowOverlay" xml:space="preserve"><value>Afișare</value></data>
+  <data name="Tray.ShowWindows" xml:space="preserve"><value>Afișare ferestre Backpack</value></data>
+  <data name="Tray.Tooltip" xml:space="preserve"><value>Backpack</value></data>
+  <data name="Tray.TooltipHidden" xml:space="preserve"><value>Backpack — afișare ascunsă</value></data>
+  <data name="Unit.Ms" xml:space="preserve"><value>ms</value></data>
+  <data name="Unit.Sec" xml:space="preserve"><value>s</value></data>
+  <data name="Update.Available" xml:space="preserve"><value>Versiunea {0} este disponibilă.</value></data>
+  <data name="Update.BadResponse" xml:space="preserve"><value>GitHub a returnat un răspuns neașteptat.</value></data>
+  <data name="Update.Failed" xml:space="preserve"><value>Verificarea a eșuat.</value></data>
+  <data name="Update.NoPackage" xml:space="preserve"><value>Versiunea {0} există, dar nu are încă pachet pentru Windows x64.</value></data>
+  <data name="Update.NotConfigured" xml:space="preserve"><value>Sursa versiunilor nu este configurată.</value></data>
+  <data name="Update.Offline" xml:space="preserve"><value>Nicio conexiune la GitHub.</value></data>
+  <data name="Update.RateLimited" xml:space="preserve"><value>GitHub a limitat numărul de cereri. Încercați din nou mai târziu.</value></data>
+  <data name="Update.Timeout" xml:space="preserve"><value>GitHub nu a răspuns la timp.</value></data>
+  <data name="Update.UpToDate" xml:space="preserve"><value>Aveți cea mai recentă versiune pentru acest canal.</value></data>
+  <data name="Note.ThemeMigrated" xml:space="preserve"><value>Tema ferestrelor este acum Backpack Emerald. Pentru a reveni la aspectul anterior: Setările aplicației → Temă de culori → Clasic.</value></data>
+  <data name="Note.PrivacyFailed" xml:space="preserve"><value>Confidențialitatea dinamică nu a putut urmări focalizarea intrării ({0}, eroarea {1}); afișarea tastelor rămâne ascunsă cât timp confidențialitatea este activă.</value></data>
+  <data name="Privacy.Status.Password" xml:space="preserve"><value>Câmp protejat</value></data>
+  <data name="Privacy.Status.BlockedApp" xml:space="preserve"><value>Ascuns pentru această aplicație</value></data>
+  <data name="Privacy.Status.Checking" xml:space="preserve"><value>Se verifică</value></data>
+  <data name="Privacy.Status.NoData" xml:space="preserve"><value>Nicio dată</value></data>
+  <data name="Settings.Problem.Value" xml:space="preserve"><value>{0}: o intrare nevalidă a fost omisă.</value></data>
+  <data name="Theme.Emerald" xml:space="preserve"><value>Backpack Emerald</value></data>
+  <data name="Theme.Classic" xml:space="preserve"><value>Clasic</value></data>
+  <data name="Theme.Sapphire" xml:space="preserve"><value>Safir</value></data>
+  <data name="Theme.Amber" xml:space="preserve"><value>Chihlimbar</value></data>
+  <data name="Settings.Nav.Focus" xml:space="preserve"><value>Focalizare</value></data>
+  <data name="Settings.Nav.Plugins" xml:space="preserve"><value>Pluginuri</value></data>
+  <data name="Tool.Enabled.Title" xml:space="preserve"><value>Instrument</value></data>
+  <data name="Tool.Enabled.Hint" xml:space="preserve"><value>Dezactivarea unui instrument îi închide ferestrele, îi încheie modul și îi eliberează comenzile rapide. Setările sale se păstrează.</value></data>
+  <data name="Tool.Enabled" xml:space="preserve"><value>Instrument activat</value></data>
+  <data name="Keys.More.Title" xml:space="preserve"><value>Aspect și amplasare</value></data>
+  <data name="Keys.OpenStyle" xml:space="preserve"><value>Stilul tastelor</value></data>
+  <data name="Keys.OpenPosition" xml:space="preserve"><value>Poziție și monitoare</value></data>
+  <data name="Monitors.Keycaps.Title" xml:space="preserve"><value>Monitoare pentru taste</value></data>
+  <data name="Monitors.Hint" xml:space="preserve"><value>Poziția și marginile se calculează de la zona de lucru a fiecărui monitor, la scara proprie.</value></data>
+  <data name="Monitors.Mode" xml:space="preserve"><value>Unde se afișează</value></data>
+  <data name="Monitors.ModeHint" xml:space="preserve"><value>„Sub indicator” este monitorul pe care se află acum indicatorul mouse-ului, nu monitorul ferestrei active.</value></data>
+  <data name="Monitors.Primary" xml:space="preserve"><value>Principal</value></data>
+  <data name="Monitors.Selected" xml:space="preserve"><value>Selectat</value></data>
+  <data name="Monitors.Multiple" xml:space="preserve"><value>Mai multe</value></data>
+  <data name="Monitors.UnderCursor" xml:space="preserve"><value>Sub indicator</value></data>
+  <data name="Monitors.PrimaryWord" xml:space="preserve"><value>principal</value></data>
+  <data name="Monitors.Missing" xml:space="preserve"><value>„{0}” nu este conectat acum — se folosește monitorul principal. Alegerea se păstrează pentru când revine.</value></data>
+  <data name="Monitors.Note" xml:space="preserve"><value>O singură sursă de intrare servește toate ferestrele. Trecerea pe alt monitor nu repornește animația și nu pierde tastele ținute.</value></data>
+  <data name="Monitors.Indicator.Title" xml:space="preserve"><value>Monitoare pentru indicatorul de aspect</value></data>
+  <data name="Monitors.Indicator.Inherit" xml:space="preserve"><value>Aceleași monitoare ca tastele</value></data>
+  <data name="Monitors.Indicator.InheritHint" xml:space="preserve"><value>Dezactivați pentru a alege separat monitoarele indicatorului.</value></data>
+  <data name="Monitors.Indicator.Own" xml:space="preserve"><value>Monitoarele indicatorului</value></data>
+  <data name="Draw.Tool.SmartPen" xml:space="preserve"><value>Stilou inteligent</value></data>
+  <data name="Draw.Tool.Marker" xml:space="preserve"><value>Marcaje numerotate</value></data>
+  <data name="Draw.Smart.Title" xml:space="preserve"><value>Stilou inteligent și marcaje numerotate</value></data>
+  <data name="Draw.Smart.Hint" xml:space="preserve"><value>Ambele instrumente sunt pe bara de desen.</value></data>
+  <data name="Draw.Smart.Note" xml:space="preserve"><value>O linie, o elipsă sau un dreptunghi clare devin o formă îngrijită; restul rămâne cum a fost desenat. Anularea readuce trasarea originală.</value></data>
+  <data name="Draw.Markers.Start" xml:space="preserve"><value>Primul număr</value></data>
+  <data name="Draw.Markers.StartHint" xml:space="preserve"><value>Folosit pentru următoarea serie de marcaje.</value></data>
+  <data name="Draw.Markers.Size" xml:space="preserve"><value>Dimensiunea marcajului</value></data>
+  <data name="Draw.Markers.Note" xml:space="preserve"><value>Faceți clic pentru a plasa următorul număr, trageți pentru a-l muta. Anularea păstrează numerotarea coerentă.</value></data>
+  <data name="App.Palette.Title" xml:space="preserve"><value>Temă de culori</value></data>
+  <data name="App.Palette.Hint" xml:space="preserve"><value>Culorile ferestrelor Backpack. Independent de modul luminos sau întunecat și de stilurile instrumentelor (taste, cadrul Focalizare).</value></data>
+  <data name="App.Palette" xml:space="preserve"><value>Culori</value></data>
+  <data name="App.ReducedMotion" xml:space="preserve"><value>Reducere mișcare</value></data>
+  <data name="App.ReducedMotionHint" xml:space="preserve"><value>Demonstrația de pe Acasă nu pornește singură.</value></data>
+  <data name="Privacy.Title" xml:space="preserve"><value>Confidențialitate dinamică</value></data>
+  <data name="Privacy.Hint" xml:space="preserve"><value>Tastele nu sunt afișate cât timp focalizarea intrării este într-un câmp protejat sau într-o aplicație ascunsă.</value></data>
+  <data name="Privacy.Enable" xml:space="preserve"><value>Ascundere intrare în câmpurile protejate</value></data>
+  <data name="Privacy.EnableHint" xml:space="preserve"><value>Folosește doar indicatorul IsPassword al elementului focalizat. Conținutul câmpurilor, clipboardul și titlurile ferestrelor nu sunt citite.</value></data>
+  <data name="Privacy.Badge" xml:space="preserve"><value>Afișare lacăt pe ecran</value></data>
+  <data name="Privacy.BadgeHint" xml:space="preserve"><value>Un mic lacăt cu motivul apare când intrarea a fost ascunsă. Fără număr și fără lungime.</value></data>
+  <data name="Privacy.Status" xml:space="preserve"><value>Acum</value></data>
+  <data name="Privacy.Status.Allowed" xml:space="preserve"><value>Afișare permisă</value></data>
+  <data name="Privacy.AddApp" xml:space="preserve"><value>Ascundere pentru o aplicație</value></data>
+  <data name="Privacy.AddAppHint" xml:space="preserve"><value>Numele fișierului programului, de exemplu keepass.exe.</value></data>
+  <data name="Privacy.AddAppButton" xml:space="preserve"><value>Adăugare</value></data>
+  <data name="Privacy.RemoveApp" xml:space="preserve"><value>Eliminare</value></data>
+  <data name="Privacy.Limits" xml:space="preserve"><value>Windows nu are o metodă universală de a recunoaște câmpurile de parolă. Aplicațiile ale căror controale nu raportează IsPassword nu pot fi protejate automat; când starea este necunoscută, afișarea rămâne închisă. Adăugați astfel de aplicații în listă sau folosiți „Afișare sau ascundere”.</value></data>
+  <data name="Privacy.ManualHide" xml:space="preserve"><value>Ascunderea manuală rămâne ca înainte: comanda „Afișare sau ascundere”.</value></data>
+  <data name="Focus.EditHint" xml:space="preserve"><value>Trageți în interiorul lupei pentru a o muta, în interiorul cadrului punctat al sursei pentru a muta sursa, de marginea dreaptă sau de jos pentru a redimensiona. Esc sau Enter — gata.</value></data>
+  <data name="Focus.Mode.Lens" xml:space="preserve"><value>Lupă</value></data>
+  <data name="Commands.Category.App" xml:space="preserve"><value>Aplicație</value></data>
+  <data name="Commands.Category.Keys" xml:space="preserve"><value>Taste</value></data>
+  <data name="Commands.Category.Mouse" xml:space="preserve"><value>Mouse</value></data>
+  <data name="Commands.Category.Layout" xml:space="preserve"><value>Aspectul tastaturii</value></data>
+  <data name="Commands.Category.Drawing" xml:space="preserve"><value>Desen</value></data>
+  <data name="Commands.Category.Settings" xml:space="preserve"><value>Deschidere setări</value></data>
+  <data name="Commands.Category.Plugins" xml:space="preserve"><value>Pluginuri</value></data>
+  <data name="Commands.AppOpen" xml:space="preserve"><value>Deschidere Backpack</value></data>
+  <data name="Commands.ProfileNext" xml:space="preserve"><value>Încărcare profil următor</value></data>
+  <data name="Commands.Drawing" xml:space="preserve"><value>Desen</value></data>
+  <data name="Commands.MarkersReset" xml:space="preserve"><value>Resetare numerotare</value></data>
+  <data name="Commands.Scope.Global" xml:space="preserve"><value>global</value></data>
+  <data name="Commands.Scope.Local" xml:space="preserve"><value>în ferestrele Backpack</value></data>
+  <data name="Commands.Scope.Tool" xml:space="preserve"><value>doar în instrument</value></data>
+  <data name="Commands.LocalOnly" xml:space="preserve"><value>fix</value></data>
+  <data name="Commands.Rules.Title" xml:space="preserve"><value>Reguli</value></data>
+  <data name="Commands.Rules" xml:space="preserve"><value>Comenzile rapide globale necesită Ctrl, Alt sau Win. Comenzile rapide ale instrumentelor funcționează doar cât timp instrumentul este activ (acolo sunt permise F2–F24 singure). Ținerea unei taste nu repetă o comandă; o comandă rapidă nu sare niciodată peste o confirmare.</value></data>
+  <data name="Plugins.BuiltIn.Title" xml:space="preserve"><value>Instrumente integrate</value></data>
+  <data name="Plugins.BuiltIn.Hint" xml:space="preserve"><value>Tastele și mouse-ul de lângă indicator fac parte din Backpack; restul sunt pluginuri.</value></data>
+  <data name="Plugins.On" xml:space="preserve"><value>activat</value></data>
+  <data name="Plugins.Off" xml:space="preserve"><value>dezactivat</value></data>
+  <data name="Plugins.External.Title" xml:space="preserve"><value>Pluginuri externe</value></data>
+  <data name="Plugins.External.Hint" xml:space="preserve"><value>Steaua afișează un plugin în meniul lateral. Nu îl activează și nu îl elimină.</value></data>
+  <data name="Plugins.TrustNote" xml:space="preserve"><value>Un plugin este un program care rulează cu drepturile dvs. de utilizator, în propriul proces. Backpack limitează ce îi transmite (fără intrare ascunsă, fără conținutul câmpurilor, fără ecran), dar nu vă poate proteja de cod dăunător. Activați doar pluginuri dintr-o sursă de încredere.</value></data>
+  <data name="Plugins.SafeMode" xml:space="preserve"><value>Pornire sigură: pluginurile nu sunt pornite în această sesiune (--no-plugins).</value></data>
+  <data name="Plugins.Favorite" xml:space="preserve"><value>În meniu</value></data>
+  <data name="Plugins.Details" xml:space="preserve"><value>Detalii</value></data>
+  <data name="Plugins.Enable" xml:space="preserve"><value>Activare</value></data>
+  <data name="Plugins.Disable" xml:space="preserve"><value>Dezactivare</value></data>
+  <data name="Plugins.Remove" xml:space="preserve"><value>Eliminare</value></data>
+  <data name="Plugins.Update" xml:space="preserve"><value>Actualizare dintr-un fișier</value></data>
+  <data name="Plugins.Import" xml:space="preserve"><value>Import plugin</value></data>
+  <data name="Plugins.FileFilter" xml:space="preserve"><value>Plugin Backpack</value></data>
+  <data name="Plugins.Imported" xml:space="preserve"><value>„{0}” este instalat și dezactivat. Deschideți-l pentru a verifica detaliile și a-l activa.</value></data>
+  <data name="Plugins.Updated" xml:space="preserve"><value>„{0}” a fost actualizat de la {1} la {2} și rămâne dezactivat până când îl reactivați.</value></data>
+  <data name="Plugins.ImportFailed" xml:space="preserve"><value>Pachetul nu a fost instalat:</value></data>
+  <data name="Plugins.Trust.Title" xml:space="preserve"><value>Activare plugin</value></data>
+  <data name="Plugins.Trust.Message" xml:space="preserve"><value>„{0}” de la {1} este un program. Va rula în propriul proces cu drepturile dvs. de utilizator. Backpack nu vă poate proteja de cod dăunător dintr-un plugin. Activați-l doar dacă aveți încredere în sursa lui.</value></data>
+  <data name="Plugins.Trust.Yes" xml:space="preserve"><value>Am încredere, activez</value></data>
+  <data name="Plugins.Remove.Title" xml:space="preserve"><value>Eliminare plugin</value></data>
+  <data name="Plugins.Remove.Message" xml:space="preserve"><value>Eliminați „{0}” și setările lui?</value></data>
+  <data name="Plugins.Id" xml:space="preserve"><value>ID</value></data>
+  <data name="Plugins.Author" xml:space="preserve"><value>Autor</value></data>
+  <data name="Plugins.Version" xml:space="preserve"><value>Versiune</value></data>
+  <data name="Plugins.License" xml:space="preserve"><value>Licență</value></data>
+  <data name="Plugins.Capabilities" xml:space="preserve"><value>Capabilități</value></data>
+  <data name="Plugins.Cap.commands" xml:space="preserve"><value>comenzi</value></data>
+  <data name="Plugins.Cap.settings" xml:space="preserve"><value>pagină de setări</value></data>
+  <data name="Plugins.Cap.overlay.panel" xml:space="preserve"><value>panou pe ecran</value></data>
+  <data name="Plugins.Cap.input.visible" xml:space="preserve"><value>taste vizibile (după filtrul de confidențialitate)</value></data>
+  <data name="Plugins.Cap.screen" xml:space="preserve"><value>ecran (neacordat în această versiune)</value></data>
+  <data name="Plugins.Settings.Title" xml:space="preserve"><value>Setările pluginului</value></data>
+  <data name="Plugins.Commands.Title" xml:space="preserve"><value>Comenzile pluginului</value></data>
+  <data name="Plugins.Commands.Hint" xml:space="preserve"><value>Disponibile cât timp pluginul este activat. Comenzile rapide se atribuie în Comenzi și comenzi rapide.</value></data>
+  <data name="Plugins.StartFailed" xml:space="preserve"><value>Pluginul „{0}” nu a putut fi pornit.</value></data>
+  <data name="Plugins.AutoDisabled" xml:space="preserve"><value>Pluginul „{0}” s-a blocat în mod repetat și a fost dezactivat.</value></data>
+  <data name="Home.F.DrawHint" xml:space="preserve"><value>Săgeți, forme, text și pași numerotați peste orice aplicație; stiloul inteligent îndreaptă formele. Comandă rapidă: {0}.</value></data>
+  <data name="Commands.DisplayToggle" xml:space="preserve"><value>Afișare sau ascundere</value></data>
+  <data name="Commands.Radial" xml:space="preserve"><value>Meniu radial</value></data>
+  <data name="Commands.MouseHighlight" xml:space="preserve"><value>Evidențiere indicator</value></data>
+  <data name="Commands.Migrated.Title" xml:space="preserve"><value>Comenzile rapide au fost mutate la comenzi</value></data>
+  <data name="Commands.Migrated" xml:space="preserve"><value>Comenzile rapide din versiunile anterioare sunt păstrate ca comenzi. Lupa de la indicator, Lupa și Focalizarea sunt acum pluginuri; comenzile lor rapide se transferă când le importați pe pagina Pluginuri.</value></data>
+  <data name="Draw.Tool.RoundedRectangle" xml:space="preserve"><value>Dreptunghi rotunjit</value></data>
+  <data name="Draw.Tool.Polygon" xml:space="preserve"><value>Poligon regulat</value></data>
+  <data name="Draw.Tool.Select" xml:space="preserve"><value>Selectare și mutare</value></data>
+  <data name="Draw.Category.Draw" xml:space="preserve"><value>Desen</value></data>
+  <data name="Draw.Category.Shapes" xml:space="preserve"><value>Forme</value></data>
+  <data name="Draw.Category.Annotate" xml:space="preserve"><value>Text și marcaje</value></data>
+  <data name="Window.Minimize" xml:space="preserve"><value>Minimizare</value></data>
+  <data name="Window.Maximize" xml:space="preserve"><value>Maximizare sau restabilire</value></data>
+  <data name="Window.Close" xml:space="preserve"><value>Închidere</value></data>
+  <data name="Settings.Back" xml:space="preserve"><value>Înapoi</value></data>
+  <data name="Settings.ExpandGroup" xml:space="preserve"><value>Afișarea sau ascunderea paginilor din „{0}”</value></data>
+  <data name="Settings.Nav.CursorZoom" xml:space="preserve"><value>Lupă la indicator</value></data>
+  <data name="Settings.Nav.Interface" xml:space="preserve"><value>Aspect</value></data>
+  <data name="Settings.Nav.Privacy" xml:space="preserve"><value>Confidențialitate</value></data>
+  <data name="App.More.Title" xml:space="preserve"><value>Mai multe în această secțiune</value></data>
+  <data name="App.More.Hint" xml:space="preserve"><value>Aceste pagini sunt și în meniul din stânga, la Setările aplicației.</value></data>
+  <data name="Material.Title" xml:space="preserve"><value>Materialul ferestrei</value></data>
+  <data name="Material.Hint" xml:space="preserve"><value>Se aplică fiecărei ferestre Backpack: fereastra însăși, panoul lateral, cardurile, meniurile și dialogurile. Textul și controalele rămân întotdeauna opace.</value></data>
+  <data name="Material.Kind" xml:space="preserve"><value>Material</value></data>
+  <data name="Material.Opaque" xml:space="preserve"><value>Opac</value></data>
+  <data name="Material.Mica" xml:space="preserve"><value>Mica</value></data>
+  <data name="Material.Acrylic" xml:space="preserve"><value>Acrilic</value></data>
+  <data name="Material.Opaque.Hint" xml:space="preserve"><value>Suprafețe pline: cea mai lizibilă alegere, funcționează peste tot.</value></data>
+  <data name="Material.Mica.Hint" xml:space="preserve"><value>Material de sistem Windows: culoarea desktopului se vede ușor prin el.</value></data>
+  <data name="Material.Acrylic.Hint" xml:space="preserve"><value>Material de sistem Windows: o vedere estompată a ce se află în spatele ferestrei.</value></data>
+  <data name="Material.Intensity" xml:space="preserve"><value>Transparență</value></data>
+  <data name="Material.IntensityHint" xml:space="preserve"><value>Cât de mult se vede materialul prin suprafețe.</value></data>
+  <data name="Material.Active" xml:space="preserve"><value>În uz acum: {0}.</value></data>
+  <data name="Material.Fallback.NotSupported" xml:space="preserve"><value>Mica și Acrilic necesită Windows 11 versiunea 22H2 sau mai nouă. Pe acest computer se folosește aspectul opac.</value></data>
+  <data name="Material.Fallback.TransparencyOff" xml:space="preserve"><value>Efectele de transparență sunt dezactivate în Windows (Personalizare → Culori). Se folosește aspectul opac până le activați.</value></data>
+  <data name="Material.Fallback.HighContrast" xml:space="preserve"><value>Contrastul ridicat este activ: Backpack folosește suprafețe opace și fără strălucire.</value></data>
+  <data name="Material.Note" xml:space="preserve"><value>Meniurile și sfaturile ecran sunt ferestre pop-up separate; Windows nu le dă materialul de sistem, așa că folosesc o umplere densă.</value></data>
+  <data name="Glow.Title" xml:space="preserve"><value>Strălucire de accent</value></data>
+  <data name="Glow.Enable" xml:space="preserve"><value>Strălucirea elementelor de accent</value></data>
+  <data name="Glow.EnableHint" xml:space="preserve"><value>O strălucire discretă în jurul butoanelor principale, al comutatoarelor, al elementului de meniu selectat și al punctului mărcii. Textul își păstrează claritatea.</value></data>
+  <data name="Glow.NotGem" xml:space="preserve"><value>Disponibil în temele pietre prețioase (Backpack Emerald, Safir, Chihlimbar) și în stilul Backpack Neon cu orice temă.</value></data>
+  <data name="Glow.Intensity" xml:space="preserve"><value>Intensitatea strălucirii</value></data>
+  <data name="Fonts.Ui.Title" xml:space="preserve"><value>Fontul titlurilor</value></data>
+  <data name="Fonts.Ui" xml:space="preserve"><value>Titlurile și numele programului</value></data>
+  <data name="Fonts.UiHint" xml:space="preserve"><value>Titlurile paginilor și cardurilor și numele „Backpack”. Restul textului rămâne în fontul standard, pentru lizibilitate. Se salvează în profil.</value></data>
+  <data name="Fonts.UiNote" xml:space="preserve"><value>Ambele fonturi sunt integrate și nu sunt instalate în Windows.</value></data>
+  <data name="Fonts.Keycap.Title" xml:space="preserve"><value>Fontul tastelor</value></data>
+  <data name="Fonts.Keycap" xml:space="preserve"><value>Fontul etichetelor tastelor</value></data>
+  <data name="Fonts.KeycapHint" xml:space="preserve"><value>Independent de fontul interfeței; Standard este Inter integrat. Se salvează în profil.</value></data>
+  <data name="Fonts.KeycapNote" xml:space="preserve"><value>Simbolurile tastelor (Shift, Enter, săgeți) sunt desene și nu depind de font. Caracterele care lipsesc din Spectral provin din Inter sau Segoe UI.</value></data>
+  <data name="Labels.Secondary.Title" xml:space="preserve"><value>Al doilea aspect pe taste</value></data>
+  <data name="Labels.Secondary.TitleHint" xml:space="preserve"><value>Eticheta mare rămâne în engleză; un caracter mic din alt aspect apare în colțul ales (implicit dreapta jos).</value></data>
+  <data name="Labels.Secondary" xml:space="preserve"><value>Etichetă suplimentară</value></data>
+  <data name="Labels.SecondaryHint" xml:space="preserve"><value>Aspect activ — aspectul aplicației în care tastați. Când este engleză, nu se adaugă nimic.</value></data>
+  <data name="Labels.Secondary.Off" xml:space="preserve"><value>Dezactivată</value></data>
+  <data name="Labels.Secondary.ActiveLayout" xml:space="preserve"><value>Aspect activ</value></data>
+  <data name="Labels.Secondary.FixedLayout" xml:space="preserve"><value>Aspect ales</value></data>
+  <data name="Labels.Layout" xml:space="preserve"><value>Aspect</value></data>
+  <data name="Labels.LayoutHint" xml:space="preserve"><value>Aspecte instalate în Windows.</value></data>
+  <data name="Labels.LayoutMissing" xml:space="preserve"><value>Aspectul {0} nu este instalat pe acest computer: nu se afișează etichete suplimentare.</value></data>
+  <data name="Labels.SecondaryNote" xml:space="preserve"><value>Eticheta este ce este tipărit pe tastă, fără Shift, Caps Lock sau AltGr; o tastă moartă își arată accentul. Tastele fără un caracter clar (IME, taste de serviciu, tastatura numerică) nu primesc etichetă. Citirea etichetei nu schimbă niciodată starea tastaturii vreunei aplicații. Confidențialitatea se aplică prima: tastele ascunse nu primesc nicio etichetă.</value></data>
+  <data name="Preview.BoardTitle" xml:space="preserve"><value>O idee mai clară</value></data>
+  <data name="Preview.FocusLens" xml:space="preserve"><value>Lupă mobilă separată · {0}×</value></data>
+  <data name="Preview.FocusDim" xml:space="preserve"><value>Împrejurimi întunecate cu {0} %</value></data>
+  <data name="Preview.NormalField" xml:space="preserve"><value>Mesaj</value></data>
+  <data name="Preview.ProtectedField" xml:space="preserve"><value>Câmp protejat</value></data>
+  <data name="Preview.SafePhrase" xml:space="preserve"><value>Salut, echipă</value></data>
+  <data name="Preview.ReturnPhrase" xml:space="preserve"><value>Ideea următoare</value></data>
+  <data name="Preview.PrivacyNormal" xml:space="preserve"><value>Simulare · câmp obișnuit: tastele sunt afișate ca de obicei.</value></data>
+  <data name="Preview.PrivacyProtected" xml:space="preserve"><value>Simulare · câmp protejat: nu se afișează nimic, nici mai târziu.</value></data>
+  <data name="Radial.Name" xml:space="preserve"><value>Meniu radial</value></data>
+  <data name="Radial.Back" xml:space="preserve"><value>Înapoi la inelul principal</value></data>
+  <data name="Radial.Show" xml:space="preserve"><value>Afișare pe ecran</value></data>
+  <data name="Draw.Category.Edit" xml:space="preserve"><value>Editare</value></data>
+  <data name="Draw.More" xml:space="preserve"><value>Mai multe</value></data>
+  <data name="Draw.Expand" xml:space="preserve"><value>Bară completă</value></data>
+  <data name="Draw.Compact" xml:space="preserve"><value>Bară compactă</value></data>
+  <data name="Draw.CustomColor" xml:space="preserve"><value>Orice culoare (HEX și transparență)</value></data>
+  <data name="Draw.Stroke" xml:space="preserve"><value>Linie: grosime și stil</value></data>
+  <data name="Draw.Radius" xml:space="preserve"><value>Raza colțurilor</value></data>
+  <data name="Draw.RadiusLess" xml:space="preserve"><value>Rază mai mică a colțurilor</value></data>
+  <data name="Draw.RadiusMore" xml:space="preserve"><value>Rază mai mare a colțurilor</value></data>
+  <data name="Draw.Sides" xml:space="preserve"><value>Numărul de vârfuri</value></data>
+  <data name="Draw.SidesLess" xml:space="preserve"><value>Mai puține vârfuri</value></data>
+  <data name="Draw.SidesMore" xml:space="preserve"><value>Mai multe vârfuri</value></data>
+  <data name="Focus.LensLabel" xml:space="preserve"><value>Lupă · {0}×</value></data>
+  <data name="Mouse.Circle.Hint" xml:space="preserve"><value>Apare în jurul indicatorului cât timp un buton al mouse-ului este apăsat.</value></data>
+  <data name="Mouse.Highlight.Title" xml:space="preserve"><value>Evidențiere indicator</value></data>
+  <data name="Mouse.Highlight" xml:space="preserve"><value>Evidențiază indicatorul</value></data>
+  <data name="Mouse.HighlightHint" xml:space="preserve"><value>O strălucire discretă care urmează mereu indicatorul, ca publicul să nu-l piardă.</value></data>
+  <data name="Mouse.HighlightColor" xml:space="preserve"><value>Culoarea evidențierii</value></data>
+  <data name="Mouse.HighlightSize" xml:space="preserve"><value>Dimensiunea evidențierii</value></data>
+  <data name="Fonts.Standard" xml:space="preserve"><value>Standard</value></data>
+  <data name="Settings.Menu" xml:space="preserve"><value>Meniu</value></data>
+  <data name="Settings.HelpButtonHint" xml:space="preserve"><value>Ajutor pentru această pagină (F1); căutare și toate subiectele în interior</value></data>
+  <data name="Profiles.AutosaveHint" xml:space="preserve"><value>Modificările se aplică imediat și se salvează automat în acest profil.</value></data>
+  <data name="Profiles.ExportCurrent" xml:space="preserve"><value>Export profil curent…</value></data>
+  <data name="Profiles.Retry" xml:space="preserve"><value>Reîncercare</value></data>
+  <data name="Profiles.SaveFailed.Title" xml:space="preserve"><value>Modificările nu au putut fi salvate</value></data>
+  <data name="Profiles.Error.SaveFailed" xml:space="preserve"><value>Profilul „{0}” nu a fost scris ({1}). Modificările sunt aplicate și se păstrează până la următoarea încercare.</value></data>
+  <data name="Profiles.Error.ExportFailed" xml:space="preserve"><value>Fișierul nu a putut fi scris ({0}). Profilul însuși nu s-a schimbat.</value></data>
+  <data name="Profiles.WorkingCopyName" xml:space="preserve"><value>{0} — copia mea</value></data>
+  <data name="Profiles.WorkingCopyNote" xml:space="preserve"><value>Profilul anterior este doar în citire, așa că modificările au mers într-o copie de lucru: „{0}”. Originalul rămâne neschimbat.</value></data>
+  <data name="Note.ProfilesAutosave" xml:space="preserve"><value>profiluri: modificările se salvează acum automat. Setările aplicate au fost salvate în „{0}”; versiunea lui salvată anterior este păstrată ca „{1}”</value></data>
+  <data name="Privacy.Apps.Title" xml:space="preserve"><value>Ascuns întotdeauna în aceste aplicații</value></data>
+  <data name="Privacy.Limits.Title" xml:space="preserve"><value>Ce poate și ce nu poate face confidențialitatea</value></data>
+  <data name="Plugins.View" xml:space="preserve"><value>Vizualizare</value></data>
+  <data name="Plugins.View.Cards" xml:space="preserve"><value>Carduri</value></data>
+  <data name="Plugins.View.List" xml:space="preserve"><value>Listă</value></data>
+  <data name="Plugins.Installed.Title" xml:space="preserve"><value>Pluginuri instalate</value></data>
+  <data name="Plugins.None.Title" xml:space="preserve"><value>Încă nu există pluginuri</value></data>
+  <data name="Plugins.None" xml:space="preserve"><value>Importați un pachet .bppkg pentru a adăuga un plugin. Importul nu îi rulează codul: un plugin pornește doar după ce îl activați și confirmați că aveți încredere în el.</value></data>
+  <data name="Plugins.VersionAuthor" xml:space="preserve"><value>Versiunea {0} · {1}</value></data>
+  <data name="Plugins.State.Failed" xml:space="preserve"><value>Eroare: procesul pluginului s-a oprit</value></data>
+  <data name="Plugins.FavoriteHint" xml:space="preserve"><value>Afișați acest plugin în meniul din stânga</value></data>
+  <data name="Plugins.State.Crashed" xml:space="preserve"><value>Eroare: dezactivat după blocări repetate</value></data>
+  <data name="Focus.Grip.Lens" xml:space="preserve"><value>Lupă</value></data>
+  <data name="Focus.Grip.Area" xml:space="preserve"><value>Zonă</value></data>
+  <data name="Focus.Grip.Source" xml:space="preserve"><value>Sursă</value></data>
+  <data name="Focus.Grip.Resize" xml:space="preserve"><value>Dimensiune</value></data>
+  <data name="Focus.EditHintFollow" xml:space="preserve"><value>Trageți în interiorul cadrului pentru a-l muta (lupa mărește ce se află dedesubt), de marginea dreaptă sau de jos pentru a redimensiona. Esc sau Enter — gata.</value></data>
+  <data name="Help.Contents" xml:space="preserve"><value>Cuprins</value></data>
+  <data name="Draw.Palette.Neon" xml:space="preserve"><value>Culori neon</value></data>
+  <data name="Draw.Palette.Classic" xml:space="preserve"><value>Culori clasice</value></data>
+  <data name="Hotkeys.Status.Unavailable" xml:space="preserve"><value>Salvată, dar comanda este acum dezactivată (instrument sau plugin dezactivat). Va funcționa din nou când va fi activat.</value></data>
+  <data name="Preview.Timer" xml:space="preserve"><value>Cronometru</value></data>
+  <data name="Home.F.Tools" xml:space="preserve"><value>Instrumente de desen și prezentare</value></data>
+  <data name="Home.F.ToolsHint" xml:space="preserve"><value>Desenul, indicatorul de aspect, lupa de la indicator, lupa, focalizarea și cronometrul sunt pluginuri de la creator. Sunt deja în catalog — activați-le pe cele de care aveți nevoie.</value></data>
+  <data name="Home.F.Open" xml:space="preserve"><value>Deschidere pluginuri</value></data>
+  <data name="Plugins.Command.Hold" xml:space="preserve"><value>Funcționează cât timp e ținută</value></data>
+  <data name="Plugins.Command.Off" xml:space="preserve"><value>Disponibil după activarea pluginului.</value></data>
+  <data name="Plugins.Bundled.Title" xml:space="preserve"><value>Pluginuri de la creator neinstalate</value></data>
+  <data name="Plugins.Bundled.Hint" xml:space="preserve"><value>Vin împreună cu Backpack. Un plugin eliminat nu este readăugat de la sine; adăugați-l aici. Setările și comenzile rapide ale fostelor instrumente integrate se transferă. Apoi activați-le pe fiecare — Backpack vă cere mai întâi să confirmați încrederea.</value></data>
+  <data name="Plugins.Bundled.Import" xml:space="preserve"><value>Readăugare</value></data>
+  <data name="Plugins.Bundled.Done" xml:space="preserve"><value>Adăugat: {0}. Activați pluginurile în cardurile lor.</value></data>
+  <data name="Draw.OpacityValue" xml:space="preserve"><value>Opacitate: {0} %</value></data>
+  <data name="Mouse.OutlineWidth" xml:space="preserve"><value>Grosimea conturului</value></data>
+  <data name="Mouse.SolidOutline" xml:space="preserve"><value>Contur</value></data>
+  <data name="Mouse.SolidOutlineHint" xml:space="preserve"><value>Un contur în jurul corpului plin.</value></data>
+  <data name="Mouse.SolidOutlineColor" xml:space="preserve"><value>Culoarea conturului</value></data>
+  <data name="Labels.Corner" xml:space="preserve"><value>Colț</value></data>
+  <data name="Labels.Corner.TopLeft" xml:space="preserve"><value>Stânga sus</value></data>
+  <data name="Labels.Corner.TopRight" xml:space="preserve"><value>Dreapta sus</value></data>
+  <data name="Labels.Corner.BottomLeft" xml:space="preserve"><value>Stânga jos</value></data>
+  <data name="Labels.Corner.BottomRight" xml:space="preserve"><value>Dreapta jos</value></data>
+  <data name="Labels.Size" xml:space="preserve"><value>Dimensiunea etichetei suplimentare</value></data>
+  <data name="Labels.SizeHint" xml:space="preserve"><value>Proporție din dimensiunea standard a etichetei.</value></data>
+  <data name="Labels.OffsetX" xml:space="preserve"><value>Decalaj orizontal</value></data>
+  <data name="Labels.OffsetY" xml:space="preserve"><value>Decalaj vertical</value></data>
+  <data name="Plugins.Cap.overlay.magnifier" xml:space="preserve"><value>lupă desenată de Backpack (pluginului nu i se transmite nicio imagine a ecranului)</value></data>
+  <data name="Plugins.Cap.overlay.dim" xml:space="preserve"><value>întunecare în jurul unei zone, desenată de Backpack</value></data>
+  <data name="Labels.MainSize" xml:space="preserve"><value>Dimensiunea etichetei principale</value></data>
+  <data name="Labels.MainSizeHint" xml:space="preserve"><value>Proporție din dimensiunea standard a etichetei; în modul cu două etichete litera principală este puțin mai mică.</value></data>
+  <data name="Labels.OffsetHint" xml:space="preserve"><value>De la punctul sigur din colțul ales; valorile pozitive deplasează spre centrul feței tastei.</value></data>
+  <data name="Styles.Why.NoSelection" xml:space="preserve"><value>Niciun stil selectat.</value></data>
+  <data name="Styles.Why.NotModified" xml:space="preserve"><value>Nimic nu s-a schimbat de când a fost aplicat stilul.</value></data>
+  <data name="Styles.Why.BuiltIn" xml:space="preserve"><value>Stilurile integrate nu pot fi redenumite sau șterse; salvați în schimb o copie.</value></data>
+  <data name="Surface.Title" xml:space="preserve"><value>Stilul suprafețelor</value></data>
+  <data name="Surface.TitleHint" xml:space="preserve"><value>Cum arată cardurile, câmpurile și marginile. Independent de modul luminos sau întunecat, de tema de culori și de material.</value></data>
+  <data name="Surface.Kind" xml:space="preserve"><value>Stil</value></data>
+  <data name="Surface.Standard" xml:space="preserve"><value>Standard</value></data>
+  <data name="Surface.LiquidGlass" xml:space="preserve"><value>Liquid Glass</value></data>
+  <data name="Surface.Neon" xml:space="preserve"><value>Backpack Neon</value></data>
+  <data name="Surface.Standard.Hint" xml:space="preserve"><value>Carduri calme cu margini neutre discrete.</value></data>
+  <data name="Surface.LiquidGlass.Hint" xml:space="preserve"><value>Carduri de sticlă cu un reflex și margini cu gradient deschis. Este aspectul Backpack, nu un efect de sistem Windows; cu Mica sau Acrilic materialul se vede prin el.</value></data>
+  <data name="Surface.Neon.Hint" xml:space="preserve"><value>Baza cea mai întunecată, margini subțiri în culoarea de strălucire a temei și o strălucire discretă pe elementele active. Cardurile rămân calme, câmpurile sunt mai clare, selecția este cea mai luminoasă. Textul nu strălucește.</value></data>
+  <data name="Surface.HighContrast" xml:space="preserve"><value>Contrastul ridicat este activ: se folosește stilul standard până când este dezactivat.</value></data>
+  <data name="Backdrop.Kind" xml:space="preserve"><value>Material</value></data>
+  <data name="Backdrop.Fill" xml:space="preserve"><value>Umplere</value></data>
+  <data name="Backdrop.Clear" xml:space="preserve"><value>Transparent</value></data>
+  <data name="Backdrop.Acrylic" xml:space="preserve"><value>Acrilic</value></data>
+  <data name="Backdrop.Mica" xml:space="preserve"><value>Mica</value></data>
+  <data name="Backdrop.Fill.Hint" xml:space="preserve"><value>Fundalul este umplut cu culoarea sa; transparența sa este alfa culorii.</value></data>
+  <data name="Backdrop.Clear.Hint" xml:space="preserve"><value>Fără umplere: ce se află în spate rămâne complet vizibil, forma este păstrată de un contur subțire în culoarea fundalului. Dimensiunea și rotunjirea nu se schimbă.</value></data>
+  <data name="Backdrop.Fallback" xml:space="preserve"><value>Materialul salvat {0} nu este disponibil pentru suprapuneri — se folosește umplerea.</value></data>
+  <data name="Backdrop.SystemNote" xml:space="preserve"><value>Acrilic și Mica nu sunt oferite aici: pe ferestrele de suprapunere prin care trec clicurile, Windows le aplică pe întregul dreptunghi al ferestrei, fără rotunjire și fără a se estompa odată cu tastele. Etichetele și indicatoarele butoanelor nu sunt niciodată estompate.</value></data>
+  <data name="Backdrop.Keycaps.Title" xml:space="preserve"><value>Materialul fundalului</value></data>
+  <data name="Backdrop.Keycaps.Hint" xml:space="preserve"><value>Fundalul din spatele grupului de taste. Se salvează în stilul tastelor și în profil.</value></data>
+  <data name="Backdrop.Mouse.Title" xml:space="preserve"><value>Materialul fundalului pictogramei</value></data>
+  <data name="Backdrop.Mouse.Hint" xml:space="preserve"><value>Fundalul din spatele pictogramei mouse-ului de lângă indicator. Se salvează în stilul mouse-ului și în profil.</value></data>
+  <data name="Common.More" xml:space="preserve"><value>Mai multe</value></data>
+  <data name="Settings.Nav.IndicatorStyle" xml:space="preserve"><value>Stilul indicatorului</value></data>
+  <data name="IndicatorStyle.Title" xml:space="preserve"><value>Stilul indicatorului de aspect</value></data>
+  <data name="IndicatorStyle.Hint" xml:space="preserve"><value>Aspectul pe care îl folosește pluginul Indicator de aspect când Aspectul său este setat la „Stilul indicatorului”. Când și unde apare se setează pe pagina pluginului.</value></data>
+  <data name="App.Shot.Hint" xml:space="preserve"><value>Capturile de ecran făcute pe pânza de desen se salvează aici.</value></data>
+  <data name="Plugins.Creator" xml:space="preserve"><value>De la creator</value></data>
+  <data name="Plugins.Creator.Hint" xml:space="preserve"><value>Livrat cu această versiune Backpack: pachetul instalat corespunde indexului de livrare prin suma de control SHA-256. Aceasta nu este o semnătură criptografică a editorului.</value></data>
+  <data name="Note.ToolsArePlugins" xml:space="preserve"><value>Desenul și indicatorul de aspect sunt acum pluginuri: {0}. Setările și comenzile dvs. rapide au fost transferate. Rămân dezactivate până când le activați în Pluginuri.</value></data>
+  <data name="Plugins.Cap.overlay.draw" xml:space="preserve"><value>pânză de desen desenată de Backpack (pluginul nu primește nici desene, nici imagini ale ecranului)</value></data>
+  <data name="Plugins.Cap.overlay.indicator" xml:space="preserve"><value>indicator peste ecran desenat de Backpack</value></data>
+  <data name="Plugins.Cap.input.layout" xml:space="preserve"><value>schimbări ale aspectului tastaturii (fără apăsări de taste)</value></data>
+  <data name="Plugins.Display.Title" xml:space="preserve"><value>Afișare</value></data>
+  <data name="Plugins.Symbol" xml:space="preserve"><value>Pictogramă</value></data>
+  <data name="Plugins.Symbol.HintAuthor" xml:space="preserve"><value>Pictograma autorului. Apare în meniu, pe card și în antetul paginii.</value></data>
+  <data name="Plugins.Symbol.HintUser" xml:space="preserve"><value>Alegerea dvs. Se păstrează când pluginul se actualizează.</value></data>
+  <data name="Plugins.Symbol.Change" xml:space="preserve"><value>Alegeți o pictogramă</value></data>
+  <data name="Plugins.Symbol.Reset" xml:space="preserve"><value>Folosiți pictograma autorului</value></data>
+  <data name="Plugins.Symbol.IsAuthor" xml:space="preserve"><value>Pictograma autorului este deja în uz</value></data>
+  <data name="Plugins.Symbol.Search" xml:space="preserve"><value>Căutare pictograme</value></data>
+  <data name="Plugins.Symbol.NoMatch" xml:space="preserve"><value>Nicio pictogramă nu se potrivește. Încercați alt cuvânt, de exemplu stilou, cronometru sau căutare.</value></data>
+  <data name="Renderer.Neon" xml:space="preserve"><value>Neon</value></data>
+  <data name="MouseRenderer.Neon" xml:space="preserve"><value>Neon</value></data>
+  <data name="Appearance.Glow" xml:space="preserve"><value>Strălucire</value></data>
+  <data name="Appearance.GlowHint" xml:space="preserve"><value>Strălucire discretă în jurul tastei; devine mai puternică cât timp tasta este apăsată. 0 o dezactivează.</value></data>
+  <data name="Mouse.GlowHint" xml:space="preserve"><value>Strălucire discretă în jurul pictogramei mouse-ului; devine mai puternică cât timp un buton este apăsat. 0 o dezactivează.</value></data>
+  <data name="Draw.AngleLabels.On" xml:space="preserve"><value>Mărimea unghiului: afișată mereu (clic pentru a o afișa doar în timpul desenului)</value></data>
+  <data name="Draw.AngleLabels.Off" xml:space="preserve"><value>Mărimea unghiului: afișată doar în timpul desenului (clic pentru a o păstra pe ecran)</value></data>
+  <data name="Draw.Hint.Box" xml:space="preserve"><value>Shift — pătrat sau cerc · Alt — din centru</value></data>
+  <data name="Draw.Hint.Line" xml:space="preserve"><value>Shift — direcție în pași de 15°</value></data>
+  <data name="Draw.Hint.Polygon" xml:space="preserve"><value>Trageți din centru · Shift — rotire în pași de 15°</value></data>
+  <data name="Draw.Hint.Select" xml:space="preserve"><value>Colțuri și laturi — dimensiune · mânerul de sus — rotire · Shift — păstrare proporții · Alt — din centru · Esc — anulare</value></data>
+  <data name="Draw.Hint.SmartPen" xml:space="preserve"><value>Sunt recunoscute linii, forme, arce și unghiuri; mărimea unghiului apare cât timp butonul este ținut</value></data>
+  <data name="Help.NotTranslated" xml:space="preserve"><value>Ajutorul nu este încă tradus în această limbă; se afișează ajutorul în engleză.</value></data>
+  <data name="About.MadeIn" xml:space="preserve"><value>Fabricat în Ucraina</value></data>
+</root>

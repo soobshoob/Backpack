@@ -5,7 +5,7 @@ official texts; nothing in this file adds to or changes them.
 
 | Part | Path | License | Text |
 |---|---|---|---|
-| **Backpack core** — the application, its libraries, build and packaging scripts, tests, JSON schemas and the help pages compiled into the program | `lab/src/`, `lab/tests/`, `lab/Directory.Build.props`, `lab/KeyOverlay.Lab.slnx`, `tools/`, `docs/help/`, `docs/settings/`, `docs/themes/`, `docs/plugins/*.schema.json`, `docs/release/`, `.github/` | [Mozilla Public License 2.0](https://www.mozilla.org/MPL/2.0/) | [`LICENSE`](LICENSE) |
+| **Backpack core** — the application, its libraries, build and packaging scripts, tests, JSON schemas and the help pages compiled into the program | `lab/src/`, `lab/tests/`, `lab/Directory.Build.props`, `lab/Backpack.slnx`, `tools/`, `docs/help/`, `docs/settings/`, `docs/themes/`, `docs/plugins/*.schema.json`, `docs/release/`, `.github/` | [Mozilla Public License 2.0](https://www.mozilla.org/MPL/2.0/) | [`LICENSE`](LICENSE) |
 | **Plugin SDK** (`Backpack.Sdk`) | `lab/sdk/` | PolyForm Strict License 1.0.0 — kept until the owner decides (see below) | [`lab/sdk/LICENSE`](lab/sdk/LICENSE) |
 | **Plugins from the creator** (Drawing, Layout indicator, Lens, Focus, Cursor magnifier, Presentation timer) | `lab/samples/` | PolyForm Strict License 1.0.0 — kept until the owner decides (see below) | [`lab/samples/LICENSE`](lab/samples/LICENSE), `LICENSE.txt` in each plugin folder and package |
 | **Plugins by other authors** | outside this repository | each plugin's own license | the plugin's package |

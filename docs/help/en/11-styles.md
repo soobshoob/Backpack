@@ -38,7 +38,7 @@ The style actions are one compact row of icons: **save**, **save as new** | **du
 
 ## Import, export and the styles folder
 
-- “Export” writes the selected look to a `.keyoverlay-style.json` file. “Import” checks the whole file first; a damaged or foreign file is rejected and nothing changes.
+- “Export” writes the selected look to a `.backpack-style.json` file. “Import” checks the whole file first; a damaged or foreign file is rejected and nothing changes.
 - If a style with the same identifier but other parameters already exists, the imported one gets a new identifier and “(imported)” in the name; nothing is overwritten. The same style is not added twice.
 - A style file contains only data: colors, numbers and names. Backpack never loads code, XAML or programs from it.
 - “Open styles folder” shows the folder with your styles next to the settings (see [Diagnostics and privacy](09-diagnostics-and-privacy.md)).

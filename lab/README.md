@@ -1,7 +1,7 @@
-# KeyOverlay — приложение и экспериментальный стенд
+# Backpack — приложение и экспериментальный стенд
 
-KeyOverlay показывает нажатые клавиши и кнопки мыши поверх других окон (запись экрана, трансляции, презентации). В одном
-исполняемом файле `KeyOverlay.exe` два режима:
+Backpack показывает нажатые клавиши и кнопки мыши поверх других окон (запись экрана, трансляции, презентации). В одном
+исполняемом файле `Backpack.exe` два режима:
 
 - **обычный запуск** — главное окно («Главная», группа «Настройки», «Профили», «Справка», «О программе»), значок в трее,
   оверлей, индикатор раскладки, мышь у курсора, глобальные горячие клавиши, живая линза и временное рисование;
@@ -20,30 +20,30 @@ KeyOverlay показывает нажатые клавиши и кнопки м
 - Для сборки — .NET SDK 10 (проверено на 10.0.401). Готовый пакет (`tools/package-release.ps1`) — self-contained: ни SDK, ни
   отдельный runtime не нужны.
 - Пакеты NuGet только для тестов: xunit 2.9.3, xunit.runner.visualstudio 3.1.4, Microsoft.NET.Test.Sdk 17.14.1, JsonSchema.Net 9.4.1
-  (проверка схем `docs/themes/keyoverlay-theme.schema.json`, `docs/settings/*.schema.json`).
+  (проверка схем `docs/themes/backpack-theme.schema.json`, `docs/settings/*.schema.json`).
 - Значок в трее — `NotifyIcon` из Windows Forms в составе .NET. Логотип и иконки — собственная графика
-  (`KeyOverlay.Visual/Brand/LogoArt.cs`, исходник `docs/brand/keyoverlay-logo.svg`).
-- Шрифт Inter 4.1 (OFL) встроен в сборку `KeyOverlay.Visual`, в системе не устанавливается; происхождение —
-  `src/KeyOverlay.Visual/Fonts/README.md`.
+  (`Backpack.Visual/Brand/LogoArt.cs`, исходник `docs/brand/backpack-logo.svg`).
+- Шрифт Inter 4.1 (OFL) встроен в сборку `Backpack.Visual`, в системе не устанавливается; происхождение —
+  `src/Backpack.Visual/Fonts/README.md`.
 
 ## Команды (из корня репозитория)
 
 ```powershell
-dotnet build lab/KeyOverlay.Lab.slnx
-dotnet test  lab/KeyOverlay.Lab.slnx
+dotnet build lab/Backpack.slnx
+dotnet test  lab/Backpack.slnx
 
 # обычный запуск (главное окно, трей, горячие клавиши)
-dotnet run --project lab/src/KeyOverlay.Lab.App
-dotnet run --project lab/src/KeyOverlay.Lab.App -- --minimized      # только значок в трее
+dotnet run --project lab/src/Backpack.App
+dotnet run --project lab/src/Backpack.App -- --minimized      # только значок в трее
 
 # стенд
-dotnet run --project lab/src/KeyOverlay.Lab.App -- --lab --source=compare
-dotnet run --project lab/src/KeyOverlay.Lab.App -- --lab --source=ll
-dotnet run --project lab/src/KeyOverlay.Lab.App -- --lab --demo
+dotnet run --project lab/src/Backpack.App -- --lab --source=compare
+dotnet run --project lab/src/Backpack.App -- --lab --source=ll
+dotnet run --project lab/src/Backpack.App -- --lab --demo
 
 # после сборки
-lab\src\KeyOverlay.Lab.App\bin\Debug\net10.0-windows\Backpack.exe
-lab\src\KeyOverlay.Lab.App\bin\Debug\net10.0-windows\Backpack.exe --lab --source=compare
+lab\src\Backpack.App\bin\Debug\net10.0-windows\Backpack.exe
+lab\src\Backpack.App\bin\Debug\net10.0-windows\Backpack.exe --lab --source=compare
 
 # пакет выпуска и его проверка (PowerShell 7)
 pwsh tools/package-release.ps1 -ReleaseDate 2026-10-30 [-UpdateRepository владелец/репозиторий] [-SkipTests]
@@ -73,10 +73,10 @@ pwsh tools/verify-package.ps1  -Zip artifacts/release/Backpack-0.4.0-preview.3-w
 ## Данные
 
 - Папка: `%APPDATA%\Backpack` (`settings.json` формата 7, `app.json` формата 4, `profiles\` формата 3 — автосохранение, `styles\`).
-- Portable: файл `KeyOverlay.portable` рядом с `KeyOverlay.exe` → папка `Data` рядом с программой, если в неё можно писать
-  (иначе — `%APPDATA%\KeyOverlay` и сообщение при запуске).
+- Portable: файл `Backpack.portable` рядом с `Backpack.exe` → папка `Data` рядом с программой, если в неё можно писать
+  (иначе — `%APPDATA%\Backpack` и сообщение при запуске).
 - Перенос: при первом запуске без настроек в новой папке копируются `settings.json`, `app.json` и `profiles\*.json` из
-  `%APPDATA%\KeyOverlay.Lab` (существующие файлы не перезаписываются, исходные не удаляются). Старые форматы читаются с
+  `%APPDATA%\Backpack` (существующие файлы не перезаписываются, исходные не удаляются). Старые форматы читаются с
   миграцией; исходный файл сохраняется копией `settings.v1.bak.json` / `settings.v2.bak.json` перед первой записью.
 - Глобальные горячие клавиши, язык, тема, трей, линза, рисование и обновления — `app.json` (этот компьютер); в профиль не входят.
 
@@ -93,7 +93,7 @@ pwsh tools/verify-package.ps1  -Zip artifacts/release/Backpack-0.4.0-preview.3-w
   настройка); стрелка прокрутки.
 - **Горячие клавиши** (по умолчанию Ctrl+Alt+Shift+O/Z/D/R): показ/скрытие, линза, рисование, радиальное меню.
 - **Живая линза** (Magnification API) и **рисование** (окно режима принимает мышь, только пока режим активен).
-- **Значок в трее:** щелчок — главное окно; меню — «Открыть KeyOverlay», показ отображения, быстрые переключатели, профиль,
+- **Значок в трее:** щелчок — главное окно; меню — «Открыть Backpack», показ отображения, быстрые переключатели, профиль,
   справка, выход.
 - **Справка** — `docs/help/<uk|en|ru>/*.md` (14 страниц) и `docs/help/images/`, встроенные в сборку; F1 локальна.
 
@@ -107,7 +107,7 @@ pwsh tools/verify-package.ps1  -Zip artifacts/release/Backpack-0.4.0-preview.3-w
 UI-поток: SourceReader → SourceModel (Up/Down/Unknown, asOf; импульсы колеса — отдельно, не состояние)
           → DisplayModel (Id записи, выдержка, правило объединения) → OverlayWindow
           сверка GetAsyncKeyState (только основной источник), проверки здоровья, экспорт
-          OverlayWindow → KeyOverlay.Visual: OverlayPresenter → KeycapControl (5 рендеров; анимации по CompositionTarget.Rendering,
+          OverlayWindow → Backpack.Visual: OverlayPresenter → KeycapControl (5 рендеров; анимации по CompositionTarget.Rendering,
           только пока они идут); импульсы колеса → MouseCursorController; Esc (только наблюдение) → инструменты презентации
 HotkeyManager (RegisterHotKey, MOD_NOREPEAT, свой message-only HWND) → показ/скрытие, линза, рисование, радиальное меню
 ```
@@ -116,10 +116,10 @@ HotkeyManager (RegisterHotKey, MOD_NOREPEAT, свой message-only HWND) → п�
 
 | Проект | Содержимое | Зависимости |
 |---|---|---|
-| `KeyOverlay.Lab.Core` | события (в т. ч. колесо), транспорт, модели, диагностика | — |
-| `KeyOverlay.Lab.Win32` | Raw Input, LL-хуки, зонды, стили окна оверлея | Core |
-| `KeyOverlay.Visual` | рендеры кейкапов и мыши, презентер, фильтр, стили, главное окно, индикатор, мышь у курсора, справка, горячие клавиши, линза, рисование, обновления, логотип | только WPF (не зависит от захвата и App) |
-| `KeyOverlay.Lab.App` (`KeyOverlay.exe`) | приложение и стенд | Core, Win32, Visual |
+| `Backpack.Core` | события (в т. ч. колесо), транспорт, модели, диагностика | — |
+| `Backpack.Win32` | Raw Input, LL-хуки, зонды, стили окна оверлея | Core |
+| `Backpack.Visual` | рендеры кейкапов и мыши, презентер, фильтр, стили, главное окно, индикатор, мышь у курсора, справка, горячие клавиши, линза, рисование, обновления, логотип | только WPF (не зависит от захвата и App) |
+| `Backpack.App` (`Backpack.exe`) | приложение и стенд | Core, Win32, Visual |
 
 - **Протокол ресинхронизации.** У каждого события — номер последовательности источника. При переполнении кольца событие
   отбрасывается, растёт «эпоха потерь». Получатель запрашивает снимок; поток источника строит его между событиями. Снимок с
@@ -143,7 +143,7 @@ HotkeyManager (RegisterHotKey, MOD_NOREPEAT, свой message-only HWND) → п�
 
 ## Ручной сценарий захвата (стенд, 5–10 минут)
 
-Запустите `KeyOverlay.exe --lab --source=compare`, откройте Блокнот рядом. Тот же чек-лист показан в окне диагностики.
+Запустите `Backpack.exe --lab --source=compare`, откройте Блокнот рядом. Тот же чек-лист показан в окне диагностики.
 
 1. Печатайте в Блокноте — фокус не уходит на оверлей.
 2. Кликните по кейкапу на оверлее — клик доходит до окна под ним.
@@ -174,7 +174,7 @@ Win-сочетания в `compare`), `Phase2F-Implementation-Report.md`, `Phase
 - Сетевое обращение одно: проверка обновлений GitHub Releases — по кнопке или раз в сутки, если включено; только GET списка
   выпусков. Пока репозиторий не задан, обращений нет.
 
-## Чего KeyOverlay сознательно не делает
+## Чего Backpack сознательно не делает
 
 Блокировку, UAC, сон, перезапуск Explorer, смену DPI, инжекцию ввода и искусственное торможение глобального хука программа сама
 не выполняет. Нет uiAccess и повышения прав, нет скрытой загрузки и запуска обновлений, нет автозапуска.

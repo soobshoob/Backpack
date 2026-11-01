@@ -22,7 +22,7 @@ Plugin commands appear only while the plugin is on. Other commands (magnifier, l
 - A hotkey intercepts only its own combination. Holding the keys does not repeat the command.
 - Hotkeys are settings of this computer: importing a profile does not change them. F1 stays local to Backpack windows.
 
-**Moved from earlier versions.** The separate hotkeys of KeyOverlay and early Backpack versions are ordinary commands with the same keys. Hotkeys of the former built-in drawing, layout indicator, magnifier, lens and Focus move to the plugin commands when Backpack is updated; a hotkey you had removed stays removed.
+**Moved from earlier versions.** The separate hotkeys of early Backpack versions are ordinary commands with the same keys. Hotkeys of the former built-in drawing, layout indicator, magnifier, lens and Focus move to the plugin commands when Backpack is updated; a hotkey you had removed stays removed.
 
 ## Show and hide the display
 

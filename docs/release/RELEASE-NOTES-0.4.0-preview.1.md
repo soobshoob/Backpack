@@ -2,7 +2,7 @@
 
 Preview. Windows 10/11 x64, portable, self-contained. **Not digitally signed.** Not published.
 
-KeyOverlay is now **Backpack** — a toolkit for presentations, tutorial videos and screen demos. Your KeyOverlay settings, profiles and styles are copied to `%APPDATA%\Backpack` on the first start; the old folder stays as a backup.
+**Backpack** — a toolkit for presentations, tutorial videos and screen demos. Settings, profiles and styles are kept in `%APPDATA%\Backpack`.
 
 ## New
 
@@ -24,7 +24,7 @@ KeyOverlay is now **Backpack** — a toolkit for presentations, tutorial videos 
 ## Compatibility
 
 - Settings format 5 (`displays`), app preferences format 3; older formats are read and migrated.
-- The executable is `Backpack.exe`. `KeyOverlay.portable` is still recognized.
+- The executable is `Backpack.exe`; portable mode uses `Backpack.portable`.
 - Global hotkeys and plugin trust are settings of the computer; importing a profile does not change them.
 
 ## Known limitations

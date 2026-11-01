@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <!-- Один исполняемый файл для пользователя и стенда: инструменты стенда включаются только параметром lab (см. LabOptions). -->
+    <AssemblyName>Backpack</AssemblyName>
+    <Title>Backpack</Title>
+    <!-- NotifyIcon для значка в области уведомлений; типы WinForms подключаются только явно (без глобального using). -->
+    <UseWindowsForms>true</UseWindowsForms>
+    <!-- WFO0003 рассчитан на WinForms-приложения; это WPF-приложение, DPI (PerMonitorV2) задаётся манифестом. -->
+    <NoWarn>$(NoWarn);WFO0003</NoWarn>
+    <ApplicationIcon>Assets\Backpack.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <AssemblyMetadata Include="BackpackChannel" Value="$(BackpackChannel)" />
+    <AssemblyMetadata Include="BackpackReleaseDate" Value="$(BackpackReleaseDate)" />
+    <AssemblyMetadata Include="BackpackUpdateRepository" Value="$(BackpackUpdateRepository)" />
+    <AssemblyMetadata Include="BackpackLicense" Value="$(BackpackLicense)" />
+    <AssemblyMetadata Include="BackpackLicenseUrl" Value="$(BackpackLicenseUrl)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Remove="System.Windows.Forms" />
+    <Using Remove="System.Drawing" />
+    <Resource Include="Assets\Backpack.ico" />
+    <Resource Include="Assets\BackpackTray.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Backpack.Core\Backpack.Core.csproj" />
+    <ProjectReference Include="..\Backpack.Win32\Backpack.Win32.csproj" />
+    <ProjectReference Include="..\Backpack.Visual\Backpack.Visual.csproj" />
+  </ItemGroup>
+
+</Project>

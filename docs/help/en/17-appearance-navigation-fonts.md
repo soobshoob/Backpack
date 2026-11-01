@@ -14,6 +14,10 @@ The main window has no separate title strip: the large “Backpack.” wordmark 
 
 The emerald dot after “Backpack” belongs to the wordmark (menu, Home, About); in Neon and in the gem themes it has a soft glow.
 
+## Default look: Backpack Neon Emerald
+
+A new installation and “Reset section” use **Backpack Neon Emerald**: Backpack Emerald colours with the Backpack Neon surface style, **Light or dark** set to System (dark when Windows is dark), the Mica material with 44 % transparency, the built-in **Spectral** font for headings and keycap labels, and the Backpack Neon Emerald keycaps and mouse icon with an emerald click circle. The Windows mouse pointer itself is never changed. When you update Backpack, the theme, fonts, styles and profiles you have saved stay as they are.
+
 ## Colours, light or dark
 
 “App settings” → “Appearance”: **Colours** — Backpack Emerald, Classic, Sapphire or Amber; **Light or dark** — System, Light or Dark. Previews and pictures follow the theme: a light stage in the light theme, a dark one in the dark theme. The colours of your keycap, mouse and plugin styles never change with the theme.

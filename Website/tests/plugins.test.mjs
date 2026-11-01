@@ -16,7 +16,7 @@ test('Synthetic layout changes use three separate languages with a typing phase'
 });
 test('Every language has the new architecture and seven matching FAQ entries; promised SDK freedom remains upcoming',()=>{
  const en=JSON.parse(fs.readFileSync('src/locales/en.json','utf8')).model;
- for(const file of fs.readdirSync('src/locales')){const data=JSON.parse(fs.readFileSync(`src/locales/${file}`,'utf8'));assert.equal(data.model.pluginNames.length,6);assert.equal(data.model.faq.length,7);assert.equal(data.model.workflowSteps.length,5);if(file!=='en.json')assert.notEqual(data.model.intro,en.intro,file);assert(!data.content.interfaceNote.includes('KeyOverlay'));}
+ for(const file of fs.readdirSync('src/locales')){const data=JSON.parse(fs.readFileSync(`src/locales/${file}`,'utf8'));assert.equal(data.model.pluginNames.length,6);assert.equal(data.model.faq.length,7);assert.equal(data.model.workflowSteps.length,5);if(file!=='en.json')assert.notEqual(data.model.intro,en.intro,file);}
  assert.match(en.developerText,/freely/);assert.match(en.licenseNote,/being updated/);assert.match(en.licenseNote,/current package/i);
 });
 

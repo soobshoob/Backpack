@@ -8,7 +8,7 @@
 SHA-256 `28f076c825b040971b1ea459e6a90ded29367cfa31cd20b60d6a2ccbe38c4ad3` (`SHA256SUMS.txt`, строки прошлых выпусков
 сохранены). Заметки: `docs/release/RELEASE-NOTES-0.4.0-preview.5.md`.
 
-Проверки после последних изменений: `KeyOverlay.Visual.Tests` 468/468, `KeyOverlay.Lab.Core.Tests` 106/106;
+Проверки после последних изменений: `Backpack.Visual.Tests` 468/468, `Backpack.Core.Tests` 106/106;
 `selftest-ui` (Debug, с поставкой) — ok, 416 шагов; `verify-package -SelfTestUi` по zip — **46 PASS, 0 FAIL**.
 Снимки — `lab/docs/Phase4H-images/`.
 

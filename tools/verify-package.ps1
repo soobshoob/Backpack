@@ -68,7 +68,7 @@ $noLicense = @(Get-ChildItem (Join-Path $app 'Plugins') -Filter *.bppkg | Where-
 })
 if ($noLicense.Count -eq 0) { Pass 'каждый .bppkg содержит LICENSE.txt' } else { Fail "без LICENSE.txt: $($noLicense.Name -join ', ')" }
 
-$bad = Get-ChildItem $app -Recurse | Where-Object { $_.Extension -eq '.pdb' -or $_.Name -like 'Screenshot*' -or $_.Name -in 'references', 'research' -or $_.Name -like 'keyoverlay-lab-*.json' }
+$bad = Get-ChildItem $app -Recurse | Where-Object { $_.Extension -eq '.pdb' -or $_.Name -like 'Screenshot*' -or $_.Name -in 'references', 'research' -or $_.Name -like 'backpack-lab-*.json' }
 if ($bad) { Fail "лишние файлы: $($bad.Name -join ', ')" } else { Pass 'нет .pdb, снимков экрана, references/research и экспортов диагностики' }
 
 # Phase 4H: индекс поставки — шесть пакетов, SHA-256 каждого совпадает с файлом (основа отметки «От создателя»).

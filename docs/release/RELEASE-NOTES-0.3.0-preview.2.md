@@ -1,10 +1,10 @@
-# KeyOverlay 0.3.0-preview.2 (Preview)
+# Backpack 0.3.0-preview.2 (Preview)
 
 Second packaged preview for Windows 10/11 x64. Portable, self-contained, not digitally signed. Not published.
 
 ## New
 
-- **License**: KeyOverlay is now licensed under the PolyForm Strict License 1.0.0. The package contains `LICENSE.txt` (the official text, unchanged) and `NOTICE.txt`; the “About” page shows the license name with a link to the official page.
+- **License**: Backpack is now licensed under the PolyForm Strict License 1.0.0. The package contains `LICENSE.txt` (the official text, unchanged) and `NOTICE.txt`; the “About” page shows the license name with a link to the official page.
 - **Home page** redesigned: a welcome area, a short looped demo drawn by the real overlay code (keycaps, mouse icon, drawing and lens) that can be paused or turned off and stays paused when Windows animations are off, feature cards and quick actions.
 - **Navigation**: Settings now has separate “Live lens” and “Drawing” pages; the “Hotkeys” page contains only hotkeys. Diagnostics and checks moved to the “Help” page.
 - **Drawing toolbar modes** (saved in the profile):
@@ -33,4 +33,4 @@ Second packaged preview for Windows 10/11 x64. Portable, self-contained, not dig
 - The update source is **not configured** in this build: the release repository has not been chosen yet.
 - The package is **not signed**; Windows may show a warning.
 - Screenshots capture the monitor where drawing is on. Windows that block screen capture (protected content) appear black, as in other capture tools.
-- Combinations handled by Windows or other programs before KeyOverlay receives them cannot be shown.
+- Combinations handled by Windows or other programs before Backpack receives them cannot be shown.

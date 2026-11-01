@@ -1,5 +1,5 @@
 """
-Генерирует lab/src/KeyOverlay.Visual/Icons/LucideIcons.g.cs из icon-nodes.json пакета lucide-static.
+Генерирует lab/src/Backpack.Visual/Icons/LucideIcons.g.cs из icon-nodes.json пакета lucide-static.
 
 Использование (из корня репозитория):
     python tools/gen-lucide.py research/deps/lucide-static-1.59.0/package
@@ -83,7 +83,7 @@ def main():
     out.append('// Lucide — ISC License, Copyright (c) Lucide Icons and Contributors; часть иконок происходит из Feather')
     out.append('// (MIT, Copyright (c) 2013-present Cole Bemis). Полный текст — docs/release/THIRD-PARTY-NOTICES.md.')
     out.append('// </auto-generated>')
-    out.append('namespace KeyOverlay.Visual.Icons;')
+    out.append('namespace Backpack.Visual.Icons;')
     out.append('')
     out.append('public static partial class Lucide')
     out.append('{')
@@ -99,7 +99,7 @@ def main():
         out.append(f'        ["{name}"] = [{joined}],')
     out.append('    };')
     out.append('}')
-    dst = os.path.join('lab', 'src', 'KeyOverlay.Visual', 'Icons', 'LucideIcons.g.cs')
+    dst = os.path.join('lab', 'src', 'Backpack.Visual', 'Icons', 'LucideIcons.g.cs')
     os.makedirs(os.path.dirname(dst), exist_ok=True)
     open(dst, 'w', encoding='utf-8', newline='\n').write('\n'.join(out) + '\n')
     print('icons', len(ICONS), 'version', version, '->', dst)

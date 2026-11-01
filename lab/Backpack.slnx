@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Backpack.App/Backpack.App.csproj" />
+    <Project Path="src/Backpack.Core/Backpack.Core.csproj" />
+    <Project Path="src/Backpack.Win32/Backpack.Win32.csproj" />
+    <Project Path="src/Backpack.Visual/Backpack.Visual.csproj" />
+  </Folder>
+  <Folder Name="/sdk/">
+    <Project Path="sdk/Backpack.Sdk/Backpack.Sdk.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Backpack.Core.Tests/Backpack.Core.Tests.csproj" />
+    <Project Path="tests/Backpack.Visual.Tests/Backpack.Visual.Tests.csproj" />
+  </Folder>
+</Solution>

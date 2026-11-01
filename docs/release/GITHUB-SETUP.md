@@ -17,6 +17,10 @@ the ZIP again and comparing SHA-256 with the local original and the uploaded che
 
 ## Subsequent releases
 
+0.4.0-preview.7 is the first version released through this path: the tag builds a draft on GitHub Actions, the owner's
+local package of the same commit is checked with `verify-package.ps1 -SelfTestUi` on a Windows desktop, and the draft is
+published once after its ZIP and `SHA256SUMS.txt` were downloaded and compared.
+
 For subsequent `v*` tags, `release.yml` checks that the tag matches `lab/Directory.Build.props`, builds/tests/packages on
 Windows, verifies the package and creates a **draft** release. The build has read-only permissions; only the publish job
 has `contents: write`. Existing releases are not overwritten. Review the draft and publish it once; do not also run a

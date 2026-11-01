@@ -16,7 +16,7 @@
 
 .EXAMPLE
   pwsh tools/package-release.ps1 -ReleaseDate 2026-10-29
-  pwsh tools/package-release.ps1 -ReleaseDate 2026-11-05 -UpdateRepository soobshoob/KeyOverlay -SkipTests
+  pwsh tools/package-release.ps1 -ReleaseDate 2026-11-05 -UpdateRepository soobshoob/Backpack -SkipTests
 #>
 [CmdletBinding()]
 param(
@@ -30,7 +30,7 @@ param(
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
 $repo = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
-$project = Join-Path $repo 'lab\src\KeyOverlay.Lab.App\KeyOverlay.Lab.App.csproj'
+$project = Join-Path $repo 'lab\src\Backpack.App\Backpack.App.csproj'
 $props = [xml](Get-Content (Join-Path $repo 'lab\Directory.Build.props') -Raw)
 $prefix = $props.Project.PropertyGroup.VersionPrefix
 $suffix = $props.Project.PropertyGroup.VersionSuffix
@@ -44,7 +44,7 @@ $zip = Join-Path $Output "$name.zip"
 Write-Host "Backpack $version ($Channel), дата выпуска $ReleaseDate, обновления: $(if ($UpdateRepository) { $UpdateRepository } else { 'не настроены' })"
 
 if (-not $SkipTests) {
-    dotnet test (Join-Path $repo 'lab\KeyOverlay.Lab.slnx') -c Release
+    dotnet test (Join-Path $repo 'lab\Backpack.slnx') -c Release
     if ($LASTEXITCODE -ne 0) { throw 'Тесты не прошли — пакет не собирается.' }
 }
 
@@ -55,11 +55,11 @@ New-Item -ItemType Directory -Force $stage | Out-Null
 dotnet publish $project -c Release -r win-x64 --self-contained true -o $stage `
     -p:PublishSingleFile=false -p:DebugType=None -p:DebugSymbols=false -p:ContinuousIntegrationBuild=true `
     -p:SatelliteResourceLanguages=en `
-    "-p:KeyOverlayReleaseDate=$ReleaseDate" "-p:KeyOverlayChannel=$Channel" "-p:KeyOverlayUpdateRepository=$UpdateRepository"
+    "-p:BackpackReleaseDate=$ReleaseDate" "-p:BackpackChannel=$Channel" "-p:BackpackUpdateRepository=$UpdateRepository"
 if ($LASTEXITCODE -ne 0) { throw 'dotnet publish завершился с ошибкой.' }
 
 # Ничего лишнего: символы отладки, временные файлы, экспорт диагностики.
-Get-ChildItem $stage -Recurse -Include *.pdb, *.tmp, *.keyoverlay-lab.json, keyoverlay-lab-*.json | Remove-Item -Force
+Get-ChildItem $stage -Recurse -Include *.pdb, *.tmp, *.backpack-lab.json, backpack-lab-*.json | Remove-Item -Force
 
 # Лицензии сторонних компонентов.
 $licenses = Join-Path $stage 'Licenses'
@@ -69,7 +69,7 @@ Copy-Item (Join-Path $dotnetRoot 'LICENSE.txt') (Join-Path $licenses 'dotnet-LIC
 Copy-Item (Join-Path $dotnetRoot 'ThirdPartyNotices.txt') (Join-Path $licenses 'dotnet-ThirdPartyNotices.txt')
 foreach ($font in 'Inter', 'Spectral') {
     if (-not (Test-Path (Join-Path $licenses "$font-LICENSE.txt"))) {
-        Copy-Item (Join-Path $repo "lab\src\KeyOverlay.Visual\Fonts\$font-LICENSE.txt") (Join-Path $licenses "$font-LICENSE.txt")
+        Copy-Item (Join-Path $repo "lab\src\Backpack.Visual\Fonts\$font-LICENSE.txt") (Join-Path $licenses "$font-LICENSE.txt")
     }
 }
 

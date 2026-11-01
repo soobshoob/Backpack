@@ -1,0 +1,381 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://backpack.invalid/schema/backpack-settings-8.schema.json",
+  "title": "Backpack settings, format version 7",
+  "description": "Файл настроек стенда (%APPDATA%\\Backpack\\settings.json). Форматы 1 (Phase 2B), 2 (Phase 2C/2D) и 3 (Phase 2E) читаются программой с миграцией и этой схемой не описываются. Раздел appearance имеет форму разделов темы и дополнительно проверяется схемой docs/themes/backpack-theme.schema.json. Программа читает мягче схемы: неверное поле заменяется значением по умолчанию с сообщением. Положение указателя, история нажатий и окна не сохраняются.",
+  "type": "object",
+  "required": [
+    "format",
+    "formatVersion"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "format": {
+      "const": "backpack-settings"
+    },
+    "formatVersion": {
+      "const": 9
+    },
+    "appearance": {
+      "description": "Внешний вид в форме разделов темы (keycap, colors, text, layout, border, group, animation, mouse, languageIndicator).",
+      "type": "object"
+    },
+    "keys": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "filter": {
+          "description": "all — все клавиши; combos — только сочетания (по правилу chords).",
+          "enum": [
+            "all",
+            "combos"
+          ]
+        },
+        "trail": {
+          "description": "none — без следа: новое нажатие заменяет прежнее на месте; fade-in-place — прежние исчезают рядом.",
+          "enum": [
+            "none",
+            "fade-in-place"
+          ]
+        },
+        "lingerMs": {
+          "description": "Выдержка после отпускания, мс.",
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 60000
+        },
+        "mouseInRow": {
+          "description": "Кнопки мыши как кейкапы в ряду.",
+          "type": "boolean"
+        },
+        "mouseLabels": {
+          "enum": [
+            "graphic",
+            "text"
+          ]
+        },
+        "chords": {
+          "description": "modifiers — в группу объединяются клавиши при удержании модификатора; any-held — любые одновременно удерживаемые клавиши (A+B тоже группа; при быстрой печати перекрытие нажатий тоже образует группу).",
+          "enum": [
+            "modifiers",
+            "any-held"
+          ]
+        },
+        "anyHeldMs": {
+          "description": "Порог одновременности для chords = any-held, мс: клавиша присоединяется к удерживаемой, если та удерживается не меньше порога или обе остаются нажатыми через порог (быстрое перекрытие при печати не склеивается). 0 — без порога. По умолчанию 150.",
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 500
+        }
+      }
+    },
+    "placement": {
+      "description": "Якорь, расстояние от края (только по осям, где якорь у края) и смещение от якоря (X — вправо, Y — вниз).",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "anchor": {
+          "$ref": "#/$defs/anchor"
+        },
+        "edgeX": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 400
+        },
+        "edgeY": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 400
+        },
+        "offsetX": {
+          "type": "number",
+          "minimum": -2000,
+          "maximum": 2000
+        },
+        "offsetY": {
+          "type": "number",
+          "minimum": -2000,
+          "maximum": 2000
+        }
+      }
+    },
+    "mouseCursor": {
+      "description": "Мышь у курсора. Цвета и размеры — appearance.mouse.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "showIcon": {
+          "type": "boolean"
+        },
+        "showCircle": {
+          "type": "boolean"
+        },
+        "iconOffsetX": {
+          "type": "number",
+          "minimum": -200,
+          "maximum": 200
+        },
+        "iconOffsetY": {
+          "type": "number",
+          "minimum": -200,
+          "maximum": 200
+        },
+        "sideButtons": {
+          "description": "Боковые кнопки на значке мыши (ручная настройка оборудования, стиль её не меняет).",
+          "enum": [
+            "hidden",
+            "one",
+            "two"
+          ]
+        },
+        "sideButtonsSide": {
+          "enum": [
+            "left",
+            "right"
+          ]
+        },
+        "showHighlight": {
+          "description": "Подсветка курсора: постоянный мягкий ореол вокруг указателя (settings v6).",
+          "type": "boolean"
+        },
+        "highlightColor": {
+          "description": "Цвет подсветки #RRGGBB или #RRGGBBAA (альфа — последняя).",
+          "type": "string",
+          "pattern": "^#[0-9A-Fa-f]{6}([0-9A-Fa-f]{2})?$"
+        },
+        "highlightSize": {
+          "description": "Диаметр подсветки, DIP.",
+          "type": "number",
+          "minimum": 24,
+          "maximum": 300
+        }
+      }
+    },
+    "layoutIndicator": {
+      "description": "Индикатор раскладки. Собственное оформление — appearance.languageIndicator (используется при style = custom).",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "durationMs": {
+          "type": "integer",
+          "minimum": 300,
+          "maximum": 5000
+        },
+        "showOnWindowSwitch": {
+          "type": "boolean"
+        },
+        "style": {
+          "enum": [
+            "inherit",
+            "custom"
+          ]
+        },
+        "animation": {
+          "enum": [
+            "inherit",
+            "fade",
+            "none"
+          ]
+        },
+        "position": {
+          "enum": [
+            "above-overlay",
+            "screen"
+          ]
+        },
+        "anchor": {
+          "$ref": "#/$defs/anchor"
+        },
+        "offsetX": {
+          "type": "number",
+          "minimum": -2000,
+          "maximum": 2000
+        },
+        "offsetY": {
+          "type": "number",
+          "minimum": -2000,
+          "maximum": 2000
+        }
+      }
+    },
+    "drawing": {
+      "description": "Поведение рисования (Phase 3B): режим панели инструментов, край автоскрытия, положение постоянной панели (доли монитора, центр панели), действие снимка и что делать с рисунками после успешного снимка. Значения инструментов по умолчанию и папка снимков — настройки компьютера (app.json).",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "toolbarMode": {
+          "enum": [
+            "docked",
+            "auto-hide",
+            "radial-only"
+          ]
+        },
+        "autoHideEdge": {
+          "enum": [
+            "top",
+            "bottom",
+            "left",
+            "right"
+          ]
+        },
+        "toolbarX": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "toolbarY": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "screenshotAction": {
+          "enum": [
+            "save",
+            "copy",
+            "save-and-copy"
+          ]
+        },
+        "afterScreenshot": {
+          "enum": [
+            "keep",
+            "clear",
+            "exit"
+          ]
+        },
+        "compact": {
+          "description": "Компактная панель: инструменты по категориям (settings v6).",
+          "type": "boolean"
+        }
+      }
+    },
+    "displays": {
+      "description": "Мониторы (Phase 4A): кейкапы и индикатор раскладки — основной, выбранный, несколько выбранных или монитор под курсором (динамически; не монитор активного окна). id — устойчивый идентификатор устройства монитора; name — подпись для сообщения, если монитора нет на этом компьютере (тогда используется основной). Индикатор: mode \"inherit\" — те же мониторы, что у кейкапов.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "keycaps": {
+          "$ref": "#/$defs/monitorTarget"
+        },
+        "indicator": {
+          "oneOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "mode"
+              ],
+              "properties": {
+                "mode": {
+                  "const": "inherit"
+                }
+              }
+            },
+            {
+              "$ref": "#/$defs/monitorTarget"
+            }
+          ]
+        }
+      }
+    },
+    "fonts": {
+      "description": "Шрифты (settings v7): интерфейс всех окон и подписи на кейкапах, независимо. Нет поля — «Стандартный» (встроенный Inter); \"Spectral\" — встроенный Spectral. Оба встроены в программу и не устанавливаются в систему. Формат 6 допускал любое семейство — при чтении оно переводится на «Стандартный».",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ui": {
+          "enum": ["Spectral"]
+        },
+        "keycap": {
+          "enum": ["Spectral"]
+        }
+      }
+    },
+    "labels": {
+      "description": "Дополнительная подпись раскладки (settings v6): что показывать. Геометрия двух подписей с v9 — appearance.keycap.twoLabels; поля corner/size/offsetX/offsetY v8 читаются только при переносе.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "secondary": {
+          "enum": [
+            "off",
+            "active-layout",
+            "fixed-layout"
+          ]
+        },
+        "layout": {
+          "description": "KLID раскладки Windows для fixed-layout, например 00000422.",
+          "type": "string",
+          "pattern": "^[0-9A-Fa-f]{8}$"
+        }
+      }
+    },
+    "plugins": {
+      "description": "Настройки плагинов в профиле (settings v8): ID плагина → значения (проверяются по схеме манифеста плагина).",
+      "type": "object",
+      "maxProperties": 64,
+      "propertyNames": { "pattern": "^[a-z0-9]+([.][a-z0-9-]+){1,5}$", "maxLength": 96 },
+      "additionalProperties": { "type": "object", "maxProperties": 64 }
+    }
+  },
+  "$defs": {
+    "anchor": {
+      "type": "string",
+      "enum": [
+        "top-left",
+        "top-center",
+        "top-right",
+        "center-left",
+        "center",
+        "center-right",
+        "bottom-left",
+        "bottom-center",
+        "bottom-right"
+      ]
+    },
+    "monitorTarget": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mode"
+      ],
+      "properties": {
+        "mode": {
+          "enum": [
+            "primary",
+            "selected",
+            "multiple",
+            "under-cursor"
+          ]
+        },
+        "monitors": {
+          "type": "array",
+          "maxItems": 16,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 512
+              },
+              "name": {
+                "type": "string",
+                "maxLength": 256
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

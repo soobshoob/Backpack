@@ -1,0 +1,267 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://backpack.invalid/schema/backpack-style-1.schema.json",
+  "title": "Backpack style, format version 1",
+  "description": "Пользовательский стиль одного элемента (папка styles\\<id>.json рядом с настройками). Только визуальные параметры в форме разделов темы; без размера кейкапа, подписей, анимации, положения и боковых кнопок мыши. Никакого XAML, путей к сборкам, скриптов или выражений. Идентификаторы backpack.* зарезервированы для встроенных пресетов (при импорте такой файл получает новый id). Программа отклоняет файл целиком при любом неизвестном поле или неверном значении.",
+  "type": "object",
+  "required": [
+    "format",
+    "formatVersion",
+    "id",
+    "name",
+    "kind",
+    "look"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "format": {
+      "const": "backpack-style"
+    },
+    "formatVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9.-]{1,62}[a-z0-9]$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64
+    },
+    "kind": {
+      "enum": [
+        "keycap",
+        "indicator",
+        "mouse"
+      ]
+    },
+    "basedOn": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9.-]{1,62}[a-z0-9]$",
+      "description": "Стиль, с которого начат этот (информация)."
+    },
+    "look": {
+      "type": "object"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "keycap"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "look": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "keycap": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "style": {
+                    "enum": [
+                      "lowprofile",
+                      "laptop",
+                      "pbt",
+                      "minimal",
+                      "volumetric",
+            "neon"
+                    ]
+                  },
+                  "volEnterShape": {
+                    "type": "boolean"
+                  },
+                  "twoLabels": {
+                    "description": "Геометрия двух подписей (Phase 4H): то же, что appearance.keycap.twoLabels в настройках.",
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "mainSize": { "type": "number", "minimum": 0.5, "maximum": 1.0 },
+                      "secondarySize": { "type": "number", "minimum": 0.25, "maximum": 0.7 },
+                      "corner": { "enum": [ "top-left", "top-right", "bottom-left", "bottom-right" ] },
+                      "offsetX": { "type": "number", "minimum": -0.15, "maximum": 0.35 },
+                      "offsetY": { "type": "number", "minimum": -0.15, "maximum": 0.35 }
+                    }
+                  }
+                }
+              },
+              "colors": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "primary": {
+                    "$ref": "https://backpack.invalid/schema/backpack-theme-1.schema.json#/$defs/color"
+                  },
+                  "secondary": {
+                    "$ref": "https://backpack.invalid/schema/backpack-theme-1.schema.json#/$defs/color"
+                  },
+                  "useGradient": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "text": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "color": {
+                    "$ref": "https://backpack.invalid/schema/backpack-theme-1.schema.json#/$defs/color"
+                  }
+                }
+              },
+              "border": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "enabled": {
+                    "type": "boolean"
+                  },
+                  "width": {
+                    "type": "number",
+                    "minimum": 0.5,
+                    "maximum": 16
+                  },
+                  "color": {
+                    "$ref": "https://backpack.invalid/schema/backpack-theme-1.schema.json#/$defs/color"
+                  },
+                  "radius": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "glow": { "type": "number", "minimum": 0, "maximum": 1 }
+                }
+              },
+              "group": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "background": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "enabled": {
+                        "type": "boolean"
+                      },
+                      "color": {
+                        "$ref": "https://backpack.invalid/schema/backpack-theme-1.schema.json#/$defs/color"
+                      },
+                      "material": {
+                        "type": "string",
+                        "enum": ["fill", "clear", "acrylic", "mica"]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "indicator"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "look": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "background": {
+                "$ref": "https://backpack.invalid/schema/backpack-theme-1.schema.json#/$defs/color"
+              },
+              "foreground": {
+                "$ref": "https://backpack.invalid/schema/backpack-theme-1.schema.json#/$defs/color"
+              },
+              "border": {
+                "$ref": "https://backpack.invalid/schema/backpack-theme-1.schema.json#/$defs/color"
+              },
+              "borderWidth": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 16
+              },
+              "radius": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "textSize": {
+                "type": "number",
+                "minimum": 12,
+                "maximum": 160
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "mouse"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "look": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "renderer": {
+                "enum": [
+                  "outline",
+                  "solid",
+                  "retro",
+                  "sketch",
+            "neon"
+                ]
+              },
+              "indicatorBackground": {
+                "$ref": "https://backpack.invalid/schema/backpack-theme-1.schema.json#/$defs/color"
+              },
+              "indicatorMaterial": {
+                "type": "string",
+                "enum": ["fill", "clear", "acrylic", "mica"]
+              },
+              "indicatorForeground": {
+                "$ref": "https://backpack.invalid/schema/backpack-theme-1.schema.json#/$defs/color"
+              },
+              "indicatorAccent": {
+                "$ref": "https://backpack.invalid/schema/backpack-theme-1.schema.json#/$defs/color"
+              },
+              "body": {
+                "$ref": "https://backpack.invalid/schema/backpack-theme-1.schema.json#/$defs/color"
+              },
+              "wheelArrow": {
+                "$ref": "https://backpack.invalid/schema/backpack-theme-1.schema.json#/$defs/color"
+              },
+              "wheelPulseMs": {
+                "type": "integer",
+                "minimum": 100,
+                "maximum": 2000
+              },
+              "outlineWidth": { "type": "number", "minimum": 0.5, "maximum": 6 },
+              "solidOutline": { "$ref": "https://backpack.invalid/schema/backpack-theme-1.schema.json#/$defs/color" },
+              "glow": { "type": "number", "minimum": 0, "maximum": 1 }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

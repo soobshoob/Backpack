@@ -1,6 +1,6 @@
 # Website resources
 
-- **Inter 4.1**, Rasmus Andersson, SIL Open Font License 1.1. The three unmodified TTF files are copies of `lab/src/KeyOverlay.Visual/Fonts/`. Full notice: `public/licenses/Inter-OFL.txt`. Font identification is a design choice, not a claim to identify the reference typeface.
+- **Inter 4.1**, Rasmus Andersson, SIL Open Font License 1.1. The three unmodified TTF files are copies of `lab/src/Backpack.Visual/Fonts/`. Full notice: `public/licenses/Inter-OFL.txt`. Font identification is a design choice, not a claim to identify the reference typeface.
 - **Lucide React 0.468.0**, Lucide Contributors (and Feather contributors). ISC; full supplied notice: `public/licenses/Lucide.txt`. Icons include the outline Backpack used by this website. The custom favicon follows the same outline idea and was authored for this site; no raster logo was extracted.
 - **React / React DOM 19.1.1**, Meta Platforms, Inc. and affiliates. MIT; full notices in `public/licenses/React.txt` and `React-DOM.txt`.
 - **Vite 6.4.1**, MIT, and **TypeScript 5.9.3**, Apache-2.0: development tooling, not shipped as application runtimes. Installed package licenses remain in node_modules.

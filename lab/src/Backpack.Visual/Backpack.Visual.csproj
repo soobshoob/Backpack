@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Переиспользуемый визуальный слой: кейкапы, презентер оверлея, настройки внешнего вида, индикатор раскладки, справка.
+    Не зависит от Backpack.App и от реализации захвата (Backpack.Win32, Backpack.Core).
+  -->
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>Backpack.Visual</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Backpack.Visual.Tests" />
+  </ItemGroup>
+
+  <!-- SDK плагинов: протокол и проверка совместимости на стороне хоста. -->
+  <ItemGroup>
+    <ProjectReference Include="..\..\sdk\Backpack.Sdk\Backpack.Sdk.csproj" />
+  </ItemGroup>
+
+  <!-- Inter 4.1 (SIL OFL 1.1), статические начертания; происхождение — Fonts/README.md. Глобально не устанавливается. -->
+  <ItemGroup>
+    <Resource Include="Fonts\Inter-Regular.ttf" />
+    <Resource Include="Fonts\Inter-SemiBold.ttf" />
+    <Resource Include="Fonts\Inter-Bold.ttf" />
+    <None Include="Fonts\Inter-LICENSE.txt" CopyToOutputDirectory="PreserveNewest" Link="Licenses\Inter-LICENSE.txt" />
+    <!-- Spectral (SIL OFL 1.1), Production Type: Regular, Italic, SemiBold, Bold; происхождение — Fonts/README.md. Глобально не устанавливается. -->
+    <Resource Include="Fonts\Spectral-Regular.ttf" />
+    <Resource Include="Fonts\Spectral-Italic.ttf" />
+    <Resource Include="Fonts\Spectral-SemiBold.ttf" />
+    <Resource Include="Fonts\Spectral-Bold.ttf" />
+    <None Include="Fonts\Spectral-LICENSE.txt" CopyToOutputDirectory="PreserveNewest" Link="Licenses\Spectral-LICENSE.txt" />
+    <!-- Lucide 1.59.0 (ISC; часть иконок — Feather, MIT): геометрия в Icons/LucideIcons.g.cs, текст лицензии — в Licenses пакета. -->
+    <None Include="Icons\Lucide-LICENSE.txt" CopyToOutputDirectory="PreserveNewest" Link="Licenses\Lucide-LICENSE.txt" />
+  </ItemGroup>
+
+  <!-- Единый источник справки: docs/help репозитория встраивается в сборку без копирования. -->
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\..\docs\help\**\*.md;..\..\..\docs\help\**\*.png" LogicalName="help/%(RecursiveDir)%(Filename)%(Extension)" Link="Help\docs\%(RecursiveDir)%(Filename)%(Extension)" />
+  </ItemGroup>
+
+</Project>

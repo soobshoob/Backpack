@@ -37,4 +37,4 @@ Only a request for the list of releases goes to GitHub. Settings, profiles and i
 
 - **Update:** quit Backpack (“Exit Backpack” in the tray menu), replace the program folder with the new one and start `Backpack.exe`. Settings, profiles and styles are in `%APPDATA%\Backpack` and stay.
 - **Portable mode:** if the file `Backpack.portable` lies next to `Backpack.exe`, settings are kept in the `Data` folder next to the program (when the folder can be written). Copy `Data` to the new folder when updating.
-- **Remove:** quit Backpack and delete the program folder. To remove the settings too, delete `%APPDATA%\Backpack` (or `Data` in portable mode). Backpack writes nothing to the registry and does not start with Windows.
+- **Remove:** quit Backpack and delete the program folder. To remove the settings too, delete `%APPDATA%\Backpack` (or `Data` in portable mode). Backpack writes to the registry only when “Start with Windows” is on (one value in `HKCU\Software\Microsoft\Windows\CurrentVersion\Run`); turn it off before deleting the folder.
