@@ -30,6 +30,23 @@ Three independent commands, each with its own hotkey — there is no mode to cho
 
 “Focus: dim around an area / off” — select an area; the rest of the monitor (or all monitors, as set) is dimmed. The area itself is unchanged: it is not magnified and not a screenshot.
 
+## Snapshot overlay
+
+The “Snapshot Overlay” plugin keeps a **still picture** of part of the screen on top of your other windows — for example a technical drawing next to a CAD model on a single monitor. It is not a live mirror: the picture does not change until you capture a new one.
+
+| Command (default hotkey) | Action |
+|---|---|
+| “Snapshot Overlay: capture an area / replace” (Ctrl+Alt+Shift+S) | select an area with the mouse; the picture appears at once. With a snapshot open, the new one replaces it |
+| “Snapshot Overlay: expand / collapse” (Ctrl+Alt+Shift+E, only while a snapshot exists) | expand almost to the full screen and back |
+| “Snapshot Overlay: show / hide”, “clear the snapshot”, “show controls”, “reset settings and position” | no hotkey by default — assign one on the plugin page |
+
+- **Select:** drag a rectangle; a click without dragging takes the default size; Esc or right click cancels (an older snapshot stays). The selection window and the current snapshot are hidden before the picture is taken, so they are not in it. The picture keeps the full resolution of the captured pixels.
+- **Move and resize:** drag the picture itself or the handle above it; the corner handle changes the size and keeps the proportions. Handles and the buttons “Expand”, “Replace”, “Hide” and “Clear” appear on hover, as with the lens. The place and size are remembered.
+- **Expand:** double-click the picture, press **Space while the pointer is over it**, use the hotkey or the button. The picture fills about 90–95 % of the monitor's work area in its own proportions. Collapse the same way, with Esc, by clicking outside it or by switching to another window — it returns exactly to its previous place and size.
+- **Space** is taken only while the pointer is over the snapshot, no mouse button is held and no text is being typed in the active window; otherwise Space stays with your apps. If that is in the way, turn “Space over the snapshot” off and use the hotkey.
+- The picture does not take keyboard focus, and clicks outside it reach the app below. “Clicks pass through the snapshot” makes the picture itself click-through too.
+- The picture is kept **only in memory**: it is never saved to disk or passed to the plugin. It disappears when you clear it, turn the plugin off or exit Backpack (and, if you choose so, when Windows is locked).
+
 ## Controls on hover
 
 Buttons, labels and move and resize handles of the lens, focus and timer are hidden by default — only the content is visible (the magnified picture, the frame, the digits).

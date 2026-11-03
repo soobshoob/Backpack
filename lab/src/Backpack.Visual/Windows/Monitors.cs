@@ -255,8 +255,14 @@ public static class PhysicalPlacement
 
     public static PixelRect? TargetOf(Window w) => (PixelRect?)w.GetValue(TargetProperty);
 
-    public static void Place(Window w, PixelRect r)
+    private static readonly DependencyProperty NotTopmostProperty = DependencyProperty.RegisterAttached("PhysicalNotTopmost", typeof(bool), typeof(PhysicalPlacement));
+
+    public static void Place(Window w, PixelRect r) => Place(w, r, topmost: true);
+
+    /// <summary>То же с выбором слоя: <paramref name="topmost"/> = false — обычное окно (поверх него встают активируемые окна программ).</summary>
+    public static void Place(Window w, PixelRect r, bool topmost)
     {
+        w.SetValue(NotTopmostProperty, !topmost);
         w.SetValue(TargetProperty, r);
         if (!(bool)w.GetValue(HookedProperty))
         {
@@ -275,7 +281,8 @@ public static class PhysicalPlacement
         }
 
         nint hwnd = new WindowInteropHelper(w).EnsureHandle();
-        SetWindowPos(hwnd, -1 /* HWND_TOPMOST */, r.Left, r.Top, r.Width, r.Height, 0x0010 /* NOACTIVATE */ | 0x0200 /* NOOWNERZORDER */);
+        bool normal = (bool)w.GetValue(NotTopmostProperty);
+        SetWindowPos(hwnd, normal ? -2 /* HWND_NOTOPMOST */ : -1 /* HWND_TOPMOST */, r.Left, r.Top, r.Width, r.Height, 0x0010 /* NOACTIVATE */ | 0x0200 /* NOOWNERZORDER */);
     }
 
     [DllImport("user32.dll")]

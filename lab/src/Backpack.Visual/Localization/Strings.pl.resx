@@ -1018,4 +1018,12 @@ W Ustawienia → Aplikacja możesz sprawić, że × zakończy program.</value></
   <data name="Draw.Hint.SmartPen" xml:space="preserve"><value>Rozpoznawane są linie, kształty, łuki i kąty; wielkość kąta jest widoczna, gdy przycisk jest przytrzymany</value></data>
   <data name="Help.NotTranslated" xml:space="preserve"><value>Pomoc nie jest jeszcze przetłumaczona na ten język; wyświetlana jest pomoc w języku angielskim.</value></data>
   <data name="About.MadeIn" xml:space="preserve"><value>Wyprodukowano w Ukrainie</value></data>
+  <data name="Snapshot.SelectHint" xml:space="preserve"><value>Przeciągnij prostokąt do przechwycenia. Kliknięcie — rozmiar domyślny. Esc lub prawy przycisk — anuluj.</value></data>
+  <data name="Snapshot.Grip.Move" xml:space="preserve"><value>Zrzut</value></data>
+  <data name="Snapshot.Button.Expand" xml:space="preserve"><value>Powiększ (dwuklik lub spacja)</value></data>
+  <data name="Snapshot.Button.Collapse" xml:space="preserve"><value>Zwiń do poprzedniego miejsca i rozmiaru</value></data>
+  <data name="Snapshot.Button.Replace" xml:space="preserve"><value>Zastąp: przechwyć nowy obszar</value></data>
+  <data name="Snapshot.Button.Hide" xml:space="preserve"><value>Ukryj (zrzut pozostaje w pamięci)</value></data>
+  <data name="Snapshot.Button.Clear" xml:space="preserve"><value>Usuń zrzut</value></data>
+  <data name="Plugins.Cap.overlay.snapshot" xml:space="preserve"><value>zrzut obszaru ekranu rysowany przez Backpack (wtyczka nie dostaje obrazu)</value></data>
 </root>

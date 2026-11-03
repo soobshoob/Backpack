@@ -1018,4 +1018,12 @@
   <data name="Draw.Hint.SmartPen" xml:space="preserve"><value>Распознаются линии, фигуры, дуги и углы; величина угла видна, пока кнопка нажата</value></data>
   <data name="Help.NotTranslated" xml:space="preserve"><value>Справка на этом языке ещё не переведена; показана английская.</value></data>
   <data name="About.MadeIn" xml:space="preserve"><value>Сделано в Украине</value></data>
+  <data name="Snapshot.SelectHint" xml:space="preserve"><value>Протяните прямоугольник, чтобы снять область. Щелчок — размер по умолчанию. Esc или правая кнопка — отмена.</value></data>
+  <data name="Snapshot.Grip.Move" xml:space="preserve"><value>Снимок</value></data>
+  <data name="Snapshot.Button.Expand" xml:space="preserve"><value>Развернуть (двойной щелчок или пробел)</value></data>
+  <data name="Snapshot.Button.Collapse" xml:space="preserve"><value>Свернуть на прежнее место и размер</value></data>
+  <data name="Snapshot.Button.Replace" xml:space="preserve"><value>Заменить: снять новую область</value></data>
+  <data name="Snapshot.Button.Hide" xml:space="preserve"><value>Скрыть (снимок остаётся в памяти)</value></data>
+  <data name="Snapshot.Button.Clear" xml:space="preserve"><value>Удалить снимок</value></data>
+  <data name="Plugins.Cap.overlay.snapshot" xml:space="preserve"><value>Снимок области экрана, который рисует Backpack (плагин не получает изображения)</value></data>
 </root>

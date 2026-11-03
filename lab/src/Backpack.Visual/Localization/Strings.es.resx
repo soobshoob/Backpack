@@ -1018,4 +1018,12 @@ Puede hacer que × cierre la aplicación en Configuración → Aplicación.</val
   <data name="Draw.Hint.SmartPen" xml:space="preserve"><value>Se reconocen líneas, formas, arcos y ángulos; el tamaño del ángulo se muestra mientras se mantiene el botón</value></data>
   <data name="Help.NotTranslated" xml:space="preserve"><value>La ayuda aún no está traducida a este idioma; se muestra la ayuda en inglés.</value></data>
   <data name="About.MadeIn" xml:space="preserve"><value>Hecho en Ucrania</value></data>
+  <data name="Snapshot.SelectHint" xml:space="preserve"><value>Arrastre un rectángulo para capturar. Clic — tamaño predeterminado. Esc o clic derecho — cancelar.</value></data>
+  <data name="Snapshot.Grip.Move" xml:space="preserve"><value>Captura</value></data>
+  <data name="Snapshot.Button.Expand" xml:space="preserve"><value>Ampliar (doble clic o Espacio)</value></data>
+  <data name="Snapshot.Button.Collapse" xml:space="preserve"><value>Reducir a la posición y tamaño anteriores</value></data>
+  <data name="Snapshot.Button.Replace" xml:space="preserve"><value>Reemplazar: capturar una zona nueva</value></data>
+  <data name="Snapshot.Button.Hide" xml:space="preserve"><value>Ocultar (la captura permanece en memoria)</value></data>
+  <data name="Snapshot.Button.Clear" xml:space="preserve"><value>Borrar la captura</value></data>
+  <data name="Plugins.Cap.overlay.snapshot" xml:space="preserve"><value>captura de una zona de la pantalla dibujada por Backpack (el complemento no recibe la imagen)</value></data>
 </root>

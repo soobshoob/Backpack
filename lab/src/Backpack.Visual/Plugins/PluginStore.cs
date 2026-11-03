@@ -400,6 +400,11 @@ public sealed class PluginStore
             {
                 File.Delete(PanelPath(id));
             }
+
+            foreach (var tool in Directory.Exists(_root) ? Directory.GetFiles(_root, id + ".tool.*.json") : [])
+            {
+                File.Delete(tool);
+            }
         }
         catch (Exception ex) when (ex is IOException or UnauthorizedAccessException)
         {
@@ -421,12 +426,44 @@ public sealed class PluginStore
 
     private string PanelPath(string id) => Path.Combine(_root, id + ".panel.json");
 
+    /// <summary>Место окна инструмента хоста (SDK 1.3: снимок) — рядом с пакетами, как место панели; только геометрия, без изображения.</summary>
+    private string ToolPath(string id, string toolId) => Path.Combine(_root, id + ".tool." + toolId + ".json");
+
+    /// <summary>Сохранённое место и размер окна инструмента (физические пиксели); null — нет, повреждено или неверный ID.</summary>
+    public Presentation.PixelRect? LoadToolBounds(string id, string toolId) =>
+        PluginManifest.IsValidId(id) && PluginToolParser.IsValidToolId(toolId) ? LoadBounds(ToolPath(id, toolId)) : null;
+
+    /// <summary>Сохранить место окна инструмента; null — удалить сохранённое.</summary>
+    public void SaveToolBounds(string id, string toolId, Presentation.PixelRect? r)
+    {
+        if (!PluginManifest.IsValidId(id) || !PluginToolParser.IsValidToolId(toolId))
+        {
+            return;
+        }
+
+        if (r is { } rect)
+        {
+            SaveBounds(ToolPath(id, toolId), rect);
+            return;
+        }
+
+        try
+        {
+            File.Delete(ToolPath(id, toolId));
+        }
+        catch (Exception ex) when (ex is IOException or UnauthorizedAccessException)
+        {
+        }
+    }
+
     /// <summary>Сохранённое место и размер панели плагина (физические пиксели); null — не сохранялось или повреждено.</summary>
-    public Presentation.PixelRect? LoadPanelBounds(string id)
+    public Presentation.PixelRect? LoadPanelBounds(string id) => LoadBounds(PanelPath(id));
+
+    private static Presentation.PixelRect? LoadBounds(string path)
     {
         try
         {
-            if (File.Exists(PanelPath(id)) && JsonNode.Parse(File.ReadAllText(PanelPath(id))) is JsonObject o
+            if (File.Exists(path) && JsonNode.Parse(File.ReadAllText(path)) is JsonObject o
                 && (int?)o["left"] is { } l && (int?)o["top"] is { } t && (int?)o["width"] is { } w && (int?)o["height"] is { } h && w is > 40 and < 20000 && h is > 20 and < 20000)
             {
                 return new Presentation.PixelRect(l, t, w, h);
@@ -439,11 +476,13 @@ public sealed class PluginStore
         return null;
     }
 
-    public void SavePanelBounds(string id, Presentation.PixelRect r)
+    public void SavePanelBounds(string id, Presentation.PixelRect r) => SaveBounds(PanelPath(id), r);
+
+    private static void SaveBounds(string path, Presentation.PixelRect r)
     {
         try
         {
-            AtomicFile.Write(PanelPath(id), new JsonObject { ["left"] = r.Left, ["top"] = r.Top, ["width"] = r.Width, ["height"] = r.Height }.ToJsonString());
+            AtomicFile.Write(path, new JsonObject { ["left"] = r.Left, ["top"] = r.Top, ["width"] = r.Width, ["height"] = r.Height }.ToJsonString());
         }
         catch (Exception ex) when (ex is IOException or UnauthorizedAccessException)
         {

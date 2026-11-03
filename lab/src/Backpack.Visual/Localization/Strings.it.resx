@@ -1018,4 +1018,12 @@ Puoi fare in modo che × esca in Impostazioni → Applicazione.</value></data>
   <data name="Draw.Hint.SmartPen" xml:space="preserve"><value>Linee, forme, archi e angoli vengono riconosciuti; l’ampiezza dell’angolo appare mentre il pulsante è premuto</value></data>
   <data name="Help.NotTranslated" xml:space="preserve"><value>La guida non è ancora tradotta in questa lingua; viene mostrata la guida in inglese.</value></data>
   <data name="About.MadeIn" xml:space="preserve"><value>Realizzato in Ucraina</value></data>
+  <data name="Snapshot.SelectHint" xml:space="preserve"><value>Trascina un rettangolo da catturare. Clic — dimensione predefinita. Esc o clic destro — annulla.</value></data>
+  <data name="Snapshot.Grip.Move" xml:space="preserve"><value>Istantanea</value></data>
+  <data name="Snapshot.Button.Expand" xml:space="preserve"><value>Ingrandisci (doppio clic o Spazio)</value></data>
+  <data name="Snapshot.Button.Collapse" xml:space="preserve"><value>Riduci a posizione e dimensione precedenti</value></data>
+  <data name="Snapshot.Button.Replace" xml:space="preserve"><value>Sostituisci: cattura una nuova area</value></data>
+  <data name="Snapshot.Button.Hide" xml:space="preserve"><value>Nascondi (l’istantanea resta in memoria)</value></data>
+  <data name="Snapshot.Button.Clear" xml:space="preserve"><value>Elimina l’istantanea</value></data>
+  <data name="Plugins.Cap.overlay.snapshot" xml:space="preserve"><value>istantanea di un’area dello schermo disegnata da Backpack (il plugin non riceve l’immagine)</value></data>
 </root>

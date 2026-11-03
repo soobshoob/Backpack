@@ -15,6 +15,8 @@ namespace Backpack.Visual.Plugins;
 /// </list>
 /// Плагину не передаются ни изображение, ни координаты: только событие закрытия. Повторный запрос с тем же ID обновляет
 /// параметры открытой сессии (без второго окна). Не более <see cref="PluginToolParser.MaxToolsPerPlugin"/> сессий на плагин.
+/// SDK 1.3: снимок области экрана — свой <see cref="SnapshotController"/> на сессию; изображение остаётся в Backpack, место окна
+/// хранит хост (<see cref="LoadPlace"/>, <see cref="SavePlace"/>).
 /// </summary>
 public sealed class PluginToolEngine : IPluginToolHost, IDisposable
 {
@@ -40,6 +42,18 @@ public sealed class PluginToolEngine : IPluginToolHost, IDisposable
     public Func<bool> Animate { get; set; } = () => System.Windows.SystemParameters.ClientAreaAnimation;
 
     public int Count => _sessions.Count;
+
+    /// <summary>Окружение снимков (мониторы, наблюдение, захват); тесты подменяют.</summary>
+    public SnapshotEnvironment? SnapshotEnvironment { get; set; }
+
+    /// <summary>Сохранённое место снимка (плагин, инструмент) → физические пиксели или null.</summary>
+    public Func<string, string, PixelRect?>? LoadPlace { get; set; }
+
+    /// <summary>Сохранить место снимка (null — забыть).</summary>
+    public Action<string, string, PixelRect?>? SavePlace { get; set; }
+
+    /// <summary>Снимок сессии (для проверок и самопроверки).</summary>
+    public SnapshotController? SnapshotOf(string pluginId, string toolId) => Find(pluginId, toolId)?.Snapshot;
 
     /// <summary>Сессии плагина (для проверок).</summary>
     public IReadOnlyList<(string Tool, CursorMagnifier? Cursor, FocusController? Focus)> SessionsOf(string pluginId) =>
@@ -80,9 +94,30 @@ public sealed class PluginToolEngine : IPluginToolHost, IDisposable
 
     public void Action(string pluginId, string toolId, string action)
     {
-        if (Find(pluginId, toolId) is { Draw: not null })
+        var session = Find(pluginId, toolId);
+        if (session is { Draw: not null })
         {
             _drawing?.Action(pluginId, toolId, action);
+            return;
+        }
+
+        if (session?.Snapshot is { } snap)
+        {
+            switch (action)
+            {
+                case SnapshotActions.Capture: snap.StartCapture(); break;
+                case SnapshotActions.Show: snap.Show(); break;
+                case SnapshotActions.Hide: snap.Hide(); break;
+                case SnapshotActions.ToggleVisible: snap.ToggleVisible(); break;
+                case SnapshotActions.Expand: snap.Expand(); break;
+                case SnapshotActions.Collapse: snap.Collapse(); break;
+                case SnapshotActions.ToggleExpand: snap.ToggleExpand(); break;
+                case SnapshotActions.ResetPlace: snap.ResetPlace(); break;
+            }
+        }
+        else if (session is null && action == SnapshotActions.ResetPlace)
+        {
+            SavePlace?.Invoke(pluginId, toolId, null); // сброс места и без открытого снимка (действие проверено по overlay.snapshot)
         }
     }
 
@@ -91,6 +126,12 @@ public sealed class PluginToolEngine : IPluginToolHost, IDisposable
         if (request.Draw is { } draw)
         {
             OpenDrawing(pluginId, request.ToolId, draw);
+            return;
+        }
+
+        if (request.Snapshot is { } snapshot)
+        {
+            OpenSnapshot(pluginId, request.ToolId, snapshot);
             return;
         }
 
@@ -143,6 +184,52 @@ public sealed class PluginToolEngine : IPluginToolHost, IDisposable
         Changed?.Invoke();
     }
 
+    /// <summary>
+    /// Снимок: новый ID — новая сессия и выбор области; повтор — новые параметры открытого снимка (без нового захвата). Новый
+    /// захват того же снимка — действие <see cref="SnapshotActions.Capture"/>.
+    /// </summary>
+    private void OpenSnapshot(string pluginId, string toolId, SnapshotRequest request)
+    {
+        if (Find(pluginId, toolId) is { } existing)
+        {
+            if (existing.Snapshot is { } open)
+            {
+                existing.SnapshotRequest = request;
+                open.ApplySettings();
+            }
+
+            return;
+        }
+
+        if (_sessions.Count(s => s.Plugin == pluginId) >= PluginToolParser.MaxToolsPerPlugin)
+        {
+            return;
+        }
+
+        var session = new Session(pluginId, toolId) { SnapshotRequest = request, Order = ++_order };
+        var env = SnapshotEnvironment ?? new SnapshotEnvironment { Monitors = _monitors, Animate = Animate };
+        var snap = new SnapshotController(() => session.SnapshotRequest ?? new SnapshotRequest(), env, LoadPlace?.Invoke(pluginId, toolId));
+        session.Snapshot = snap;
+        _sessions.Add(session);
+        snap.PlaceChanged += r => SavePlace?.Invoke(pluginId, toolId, r);
+        snap.StateChanged += state =>
+        {
+            if (state is SnapshotState.Selecting or SnapshotState.Expanded)
+            {
+                session.Order = ++_order; // Esc относится к снимку, с которым только что работали
+            }
+        };
+        snap.Closed += reason =>
+        {
+            if (_sessions.Contains(session))
+            {
+                Remove(session, reason, notify: true);
+            }
+        };
+        Changed?.Invoke();
+        snap.StartCapture();
+    }
+
     /// <summary>Холст рисования: один на всех; повторный запрос владельца обновляет параметры, чужой — отклоняется (busy).</summary>
     private void OpenDrawing(string pluginId, string toolId, DrawRequest draw)
     {
@@ -182,7 +269,12 @@ public sealed class PluginToolEngine : IPluginToolHost, IDisposable
         }
     }
 
-    public void Edit(string pluginId, string toolId) => Find(pluginId, toolId)?.Focus?.RevealControls();
+    public void Edit(string pluginId, string toolId)
+    {
+        var s = Find(pluginId, toolId);
+        s?.Focus?.RevealControls();
+        s?.Snapshot?.RevealControls();
+    }
 
     public void CloseAll(string pluginId)
     {
@@ -198,11 +290,17 @@ public sealed class PluginToolEngine : IPluginToolHost, IDisposable
     /// </summary>
     public bool Escape()
     {
-        // Холст рисования обрабатывает Esc сам (текст, радиальное меню, выход) — здесь только увеличение и затемнение.
-        var top = _sessions.Where(s => s.Draw is null).OrderByDescending(s => s.Order).FirstOrDefault();
+        // Холст рисования обрабатывает Esc сам (текст, радиальное меню, выход) — здесь только увеличение и затемнение. Снимок
+        // участвует, только пока идёт выбор области или он развёрнут: в обычном виде Esc (частая клавиша в CAD) снимок не удаляет.
+        var top = _sessions.Where(s => s.Draw is null && (s.Snapshot is null || s.Snapshot.WantsEscape)).OrderByDescending(s => s.Order).FirstOrDefault();
         if (top is null)
         {
             return false;
+        }
+
+        if (top.Snapshot is { } snap)
+        {
+            return snap.Escape();
         }
 
         if (top.Focus is { State: FocusState.Editing } f)
@@ -216,11 +314,26 @@ public sealed class PluginToolEngine : IPluginToolHost, IDisposable
         return true;
     }
 
-    /// <summary>Блокировка, смена рабочего стола, сон, выход: всё закрывается, плагинам — «system».</summary>
-    public void CloseAllSystem(string reason = "system")
+    /// <summary>
+    /// Блокировка, смена рабочего стола, сон, выход: всё закрывается, плагинам — «system». Снимок при «system» остаётся (выбор
+    /// отменяется, развёрнутый сворачивается), если его политика хранения не «unlocked». <paramref name="keepSnapshots"/> — скрыть
+    /// снимки, не удаляя изображение (скрытие отображения Backpack).
+    /// </summary>
+    public void CloseAllSystem(string reason = "system", bool keepSnapshots = false)
     {
         foreach (var s in _sessions.ToList())
         {
+            if (s.Snapshot is { } snap && (keepSnapshots || (reason == "system" && s.SnapshotRequest?.Keep != "unlocked")) && snap.Image is not null)
+            {
+                snap.Suspend();
+                if (keepSnapshots)
+                {
+                    snap.Hide();
+                }
+
+                continue;
+            }
+
             Remove(s, reason, notify: true);
         }
     }
@@ -245,6 +358,8 @@ public sealed class PluginToolEngine : IPluginToolHost, IDisposable
             s.ClosingReason ??= reason ?? "host";
             f.Dispose();
         }
+
+        s.Snapshot?.Dispose(); // изображение освобождается вместе с окнами
 
         Changed?.Invoke();
         if (notify)
@@ -290,6 +405,10 @@ public sealed class PluginToolEngine : IPluginToolHost, IDisposable
 
         public DrawRequest? Draw { get; set; }
 
+        public SnapshotRequest? SnapshotRequest { get; set; }
+
+        public SnapshotController? Snapshot { get; set; }
+
         public bool DrawClosed { get; set; }
 
         public CursorMagnifier? Cursor { get; set; }
@@ -329,6 +448,15 @@ public sealed class PluginToolEngine : IPluginToolHost, IDisposable
                 if (f.SourceOutlineWindow is { Hwnd: not 0 } o)
                 {
                     yield return o.Hwnd;
+                }
+            }
+
+            // Снимок сам виден «Линзе» (его можно рассмотреть), исключаются только его ручки и кнопки.
+            if (Snapshot is { } snap)
+            {
+                foreach (var h in snap.ControlHandles())
+                {
+                    yield return h;
                 }
             }
         }

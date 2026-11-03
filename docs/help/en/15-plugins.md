@@ -12,7 +12,7 @@
 | Remove | the trash icon, kept apart (asks for confirmation; settings are removed too) |
 | Show in the side menu | the “In the menu” star — it does not turn the plugin on or remove it |
 
-Keys and the mouse next to the pointer are part of Backpack. Everything else is a plugin: **Drawing, Layout indicator, Cursor magnifier, Lens, Focus and Timer** come with Backpack as **plugins from the creator**. On start Backpack adds them to the catalog turned off, without running their code; you do not need to look for the packages. They carry the **From the creator** mark: the installed package matches the delivery index of this Backpack version by its SHA-256 checksum. The mark is not based on the author name in the manifest and is not a cryptographic publisher signature; a package you import yourself has no mark.
+Keys and the mouse next to the pointer are part of Backpack. Everything else is a plugin: **Drawing, Layout indicator, Cursor magnifier, Lens, Focus, Timer and Snapshot overlay** come with Backpack as **plugins from the creator**. On start Backpack adds them to the catalog turned off, without running their code; you do not need to look for the packages. They carry the **From the creator** mark: the installed package matches the delivery index of this Backpack version by its SHA-256 checksum. The mark is not based on the author name in the manifest and is not a cryptographic publisher signature; a package you import yourself has no mark.
 
 When you update from an earlier version, the settings, hotkeys and menu items of the former built-in tools move to these plugins, a note says so, and the plugins stay off until you turn them on. A plugin you had turned on stays on after an update delivered with Backpack. A plugin from the creator that you removed is not added back by itself: the “Plugins from the creator that are not installed” card has “Add back”.
 
@@ -40,7 +40,7 @@ Importing a profile never installs, trusts or starts a plugin.
 
 ## Creating a plugin
 
-You need the .NET 10 SDK. The examples are the six plugins from the creator: sources in `lab/samples` (the `Samples` folder in the Backpack package), ready packages in `Plugins`:
+You need the .NET 10 SDK. The examples are the seven plugins from the creator: sources in `lab/samples` (the `Samples` folder in the Backpack package), ready packages in `Plugins`:
 
 | Sample | What it shows |
 |---|---|
@@ -50,6 +50,7 @@ You need the .NET 10 SDK. The examples are the six plugins from the creator: sou
 | `Lens` | `overlay.magnifier` with a separate source area |
 | `Focus` | `overlay.dim` — dimming around an area |
 | `PresentationTimer` | `overlay.panel` with buttons, a state and a movable panel |
+| `SnapshotOverlay` | `overlay.snapshot` (SDK 1.3) — a still snapshot of a screen area in a floating window, `whileTool` commands, `UpdateSettings` for “reset” |
 
 ```powershell
 dotnet build lab/samples/Drawing/Drawing.csproj -c Release
@@ -77,7 +78,7 @@ A plugin is a .NET class library that references `Backpack.Sdk` (not copied into
 
 ### Host tools (SDK 1.1 and 1.2)
 
-`Context.OpenMagnifier(id, request)` opens a magnifier that Backpack draws: at the pointer, pinned or with a source area (`overlay.magnifier`); `Context.OpenDim(id, request)` dims around an area (`overlay.dim`). SDK 1.2 adds `Context.OpenDrawing(id, request)` and `Context.DrawAction(id, action)` — the drawing canvas with the toolbar, radial menu, shapes, smart pen, text, numbers, colours, undo and screenshots (`overlay.draw`, one canvas at a time) — and `Context.ShowIndicator(request)` — a short code with a second line, drawn in the keycap look or the indicator style (`overlay.indicator`). `Context.EditTool(id)` shows a tool's controls and `Context.CloseTool(id)` closes it. **The plugin receives neither a screen image, nor drawings, nor pointer coordinates** — only a message when the tool closes or the user changes its parameters. The panel (`overlay.panel`) can have buttons, a state (`normal`, `warning`, `finished`), an accent and can be moved; buttons and handles appear on hover through the shared host mechanism.
+`Context.OpenMagnifier(id, request)` opens a magnifier that Backpack draws: at the pointer, pinned or with a source area (`overlay.magnifier`); `Context.OpenDim(id, request)` dims around an area (`overlay.dim`). SDK 1.2 adds `Context.OpenDrawing(id, request)` and `Context.DrawAction(id, action)` — the drawing canvas with the toolbar, radial menu, shapes, smart pen, text, numbers, colours, undo and screenshots (`overlay.draw`, one canvas at a time) — and `Context.ShowIndicator(request)` — a short code with a second line, drawn in the keycap look or the indicator style (`overlay.indicator`). SDK 1.3 adds `Context.OpenSnapshot(id, request)` and `Context.SnapshotAction(id, action)` — a still snapshot of an area the user selects, shown in a movable, resizable window on top that can be expanded for a moment (`overlay.snapshot`); the picture stays in Backpack's memory. `Context.EditTool(id)` shows a tool's controls and `Context.CloseTool(id)` closes it. **The plugin receives neither a screen image, nor drawings, nor pointer coordinates** — only a message when the tool closes or the user changes its parameters. The panel (`overlay.panel`) can have buttons, a state (`normal`, `warning`, `finished`), an accent and can be moved; buttons and handles appear on hover through the shared host mechanism.
 
 ### manifest.json
 
@@ -89,7 +90,7 @@ A plugin is a .NET class library that references `Backpack.Sdk` (not copied into
 | `author`, `version` | version — `1.2.3` or `1.2.3-beta` |
 | `sdk` | SDK version the plugin needs, e.g. `1.2` |
 | `entry`, `type` | path to the assembly inside the package and the class name |
-| `capabilities` | `commands`, `settings`, `overlay.panel`, `overlay.magnifier`, `overlay.dim`, `overlay.draw`, `overlay.indicator`, `input.layout`, `input.visible`, `screen` |
+| `capabilities` | `commands`, `settings`, `overlay.panel`, `overlay.magnifier`, `overlay.dim`, `overlay.draw`, `overlay.indicator`, `overlay.snapshot`, `input.layout`, `input.visible`, `screen` |
 | `dependencies`, `resources`, `locales`, `license` | other assemblies, files in the package, languages, license text |
 | `icon` | optional: a `.png` inside the package (listed in `resources`, up to 256 KB) shown on the plugin card |
 | `commands` | `{ "id", "title" }` — in “Commands and hotkeys” as `plugin.<id>.<command>`; optional `hold`, and in SDK 1.2 `whileTool` (the hotkey works only while a tool of the plugin is open), `hotkey` (default) and `icon` |
@@ -100,6 +101,6 @@ Capabilities are checked by Backpack on every message: a panel from a plugin wit
 
 ### Compatibility
 
-The host accepts a plugin when the major SDK number matches and the minor number is not newer than Backpack's (SDK 1.2 now): plugins built for 1.0 and 1.1 keep working. Packages: up to 64 MB, 500 files, no paths with `..`, drive letters or links.
+The host accepts a plugin when the major SDK number matches and the minor number is not newer than Backpack's (SDK 1.3 now): plugins built for 1.0, 1.1 and 1.2 keep working. Packages: up to 64 MB, 500 files, no paths with `..`, drive letters or links.
 
 **Limits on the samples.** Backpack itself is under MPL 2.0, but the SDK and the samples are not: their own terms are proposed and await the owner's decision (see `docs/release/LICENSE-STATUS.md`). Until then PolyForm Strict 1.0.0 applies to them: you may study and use the samples for noncommercial purposes, but this license does not permit changing them or passing on changed copies. A plugin you write from scratch is your code under your license.

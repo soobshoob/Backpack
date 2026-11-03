@@ -106,16 +106,18 @@ public sealed class LensSelectionWindow : InteractiveOverlayWindow
     private readonly Size _defaultSize;
     private Point? _start;
 
-    public LensSelectionWindow(PixelRect bounds, double scale, Size defaultSizeDip) : base(bounds, scale)
+    /// <param name="hint">Подсказка вверху экрана (по умолчанию — подсказка линзы).</param>
+    /// <param name="dim">Слегка затемнять экран во время выбора (иначе фон почти прозрачен и только принимает мышь).</param>
+    public LensSelectionWindow(PixelRect bounds, double scale, Size defaultSizeDip, string? hint = null, bool dim = true) : base(bounds, scale)
     {
         Title = "Backpack — lens selection";
         _defaultSize = defaultSizeDip;
-        Background = new SolidColorBrush(Color.FromArgb(0x26, 0, 0, 0));
+        Background = new SolidColorBrush(Color.FromArgb(dim ? (byte)0x26 : (byte)0x01, 0, 0, 0));
         Cursor = Cursors.Cross;
         var grid = new Grid();
         _canvas.Children.Add(_rect);
         grid.Children.Add(_canvas);
-        grid.Children.Add(Hint(Loc.T("Lens.SelectHint")));
+        grid.Children.Add(Hint(hint ?? Loc.T("Lens.SelectHint")));
         Content = grid;
         MouseLeftButtonDown += (_, e) =>
         {

@@ -1018,4 +1018,12 @@ Du kan få × til at afslutte i stedet under Indstillinger → Program.</value><
   <data name="Draw.Hint.SmartPen" xml:space="preserve"><value>Linjer, figurer, buer og vinkler genkendes; vinkelstørrelsen vises, mens knappen holdes nede</value></data>
   <data name="Help.NotTranslated" xml:space="preserve"><value>Hjælpen er endnu ikke oversat til dette sprog; den engelske hjælp vises.</value></data>
   <data name="About.MadeIn" xml:space="preserve"><value>Fremstillet i Ukraine</value></data>
+  <data name="Snapshot.SelectHint" xml:space="preserve"><value>Træk et rektangel, der skal fanges. Klik — standardstørrelse. Esc eller højreklik — annuller.</value></data>
+  <data name="Snapshot.Grip.Move" xml:space="preserve"><value>Klip</value></data>
+  <data name="Snapshot.Button.Expand" xml:space="preserve"><value>Forstør (dobbeltklik eller mellemrum)</value></data>
+  <data name="Snapshot.Button.Collapse" xml:space="preserve"><value>Gendan til tidligere placering og størrelse</value></data>
+  <data name="Snapshot.Button.Replace" xml:space="preserve"><value>Erstat: fang et nyt område</value></data>
+  <data name="Snapshot.Button.Hide" xml:space="preserve"><value>Skjul (klippet bliver i hukommelsen)</value></data>
+  <data name="Snapshot.Button.Clear" xml:space="preserve"><value>Slet klippet</value></data>
+  <data name="Plugins.Cap.overlay.snapshot" xml:space="preserve"><value>klip af et skærmområde tegnet af Backpack (pluginnet får intet billede)</value></data>
 </root>

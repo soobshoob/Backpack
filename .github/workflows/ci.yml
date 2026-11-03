@@ -39,7 +39,7 @@ jobs:
       - name: Build the plugins from the creator
         shell: pwsh
         run: |
-          foreach ($p in 'Drawing','LayoutIndicator','CursorZoom','Lens','Focus','PresentationTimer') {
+          foreach ($p in 'Drawing','LayoutIndicator','CursorZoom','Lens','Focus','PresentationTimer','SnapshotOverlay') {
             dotnet build "lab/samples/$p/$p.csproj" -c Release
             if ($LASTEXITCODE -ne 0) { throw "$p" }
           }

@@ -1018,4 +1018,12 @@ A Beállítások → Alkalmazás alatt beállíthatja, hogy a × kilépjen.</val
   <data name="Draw.Hint.SmartPen" xml:space="preserve"><value>A vonalakat, alakzatokat, íveket és szögeket felismeri; a szögérték a gomb nyomva tartása alatt látszik</value></data>
   <data name="Help.NotTranslated" xml:space="preserve"><value>A súgó még nincs lefordítva erre a nyelvre; az angol súgó jelenik meg.</value></data>
   <data name="About.MadeIn" xml:space="preserve"><value>Ukrajnában készült</value></data>
+  <data name="Snapshot.SelectHint" xml:space="preserve"><value>Húzzon egy téglalapot a rögzítéshez. Kattintás — alapméret. Esc vagy jobb kattintás — mégse.</value></data>
+  <data name="Snapshot.Grip.Move" xml:space="preserve"><value>Pillanatkép</value></data>
+  <data name="Snapshot.Button.Expand" xml:space="preserve"><value>Nagyítás (dupla kattintás vagy szóköz)</value></data>
+  <data name="Snapshot.Button.Collapse" xml:space="preserve"><value>Visszaállítás az előző helyre és méretre</value></data>
+  <data name="Snapshot.Button.Replace" xml:space="preserve"><value>Csere: új terület rögzítése</value></data>
+  <data name="Snapshot.Button.Hide" xml:space="preserve"><value>Elrejtés (a pillanatkép a memóriában marad)</value></data>
+  <data name="Snapshot.Button.Clear" xml:space="preserve"><value>Pillanatkép törlése</value></data>
+  <data name="Plugins.Cap.overlay.snapshot" xml:space="preserve"><value>a Backpack által rajzolt képernyőterület-pillanatkép (a bővítmény nem kapja meg a képet)</value></data>
 </root>

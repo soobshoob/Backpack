@@ -1018,4 +1018,12 @@ Du kan låta × avsluta i stället under Inställningar → Program.</value></da
   <data name="Draw.Hint.SmartPen" xml:space="preserve"><value>Linjer, former, bågar och vinklar känns igen; vinkelstorleken visas medan knappen hålls ned</value></data>
   <data name="Help.NotTranslated" xml:space="preserve"><value>Hjälpen är ännu inte översatt till det här språket; den engelska hjälpen visas.</value></data>
   <data name="About.MadeIn" xml:space="preserve"><value>Tillverkat i Ukraina</value></data>
+  <data name="Snapshot.SelectHint" xml:space="preserve"><value>Dra en rektangel att fånga. Klick — standardstorlek. Esc eller högerklick — avbryt.</value></data>
+  <data name="Snapshot.Grip.Move" xml:space="preserve"><value>Klipp</value></data>
+  <data name="Snapshot.Button.Expand" xml:space="preserve"><value>Förstora (dubbelklick eller mellanslag)</value></data>
+  <data name="Snapshot.Button.Collapse" xml:space="preserve"><value>Återställ till tidigare plats och storlek</value></data>
+  <data name="Snapshot.Button.Replace" xml:space="preserve"><value>Ersätt: fånga ett nytt område</value></data>
+  <data name="Snapshot.Button.Hide" xml:space="preserve"><value>Dölj (klippet finns kvar i minnet)</value></data>
+  <data name="Snapshot.Button.Clear" xml:space="preserve"><value>Ta bort klippet</value></data>
+  <data name="Plugins.Cap.overlay.snapshot" xml:space="preserve"><value>klipp av ett skärmområde som Backpack ritar (tillägget får ingen bild)</value></data>
 </root>

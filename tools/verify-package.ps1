@@ -43,7 +43,7 @@ Pass "распаковано в путь с пробелами: $app"
 
 $exe = Join-Path $app 'Backpack.exe'
 foreach ($f in 'Backpack.exe', 'Backpack.Sdk.dll', 'PLUGINS-TRUST.md', 'Plugins\bundled.json', 'Plugins\com.example.drawing-1.0.1.bppkg', 'Plugins\com.example.layout-indicator-1.0.1.bppkg', 'Samples\Drawing\DrawingPlugin.cs', 'Samples\LayoutIndicator\LayoutIndicatorPlugin.cs', 'Plugins\com.example.cursor-zoom-1.0.1.bppkg', 'Plugins\com.example.lens-1.0.1.bppkg',
-        'Plugins\com.example.focus-1.0.1.bppkg', 'Plugins\com.example.presentation-timer-2.0.1.bppkg', 'Samples\README.md', 'Samples\Focus\Focus.csproj',
+        'Plugins\com.example.focus-1.0.1.bppkg', 'Plugins\com.example.presentation-timer-2.0.1.bppkg', 'Plugins\com.example.snapshot-overlay-1.0.0.bppkg', 'Samples\SnapshotOverlay\SnapshotPlugin.cs', 'Samples\README.md', 'Samples\Focus\Focus.csproj',
         'Samples\Focus\manifest.json', 'Samples\CursorZoom\CursorZoomPlugin.cs', 'Samples\Lens\LensPlugin.cs', 'Samples\PresentationTimer\TimerPlugin.cs', 'hostfxr.dll', 'coreclr.dll', 'PresentationFramework.dll', 'README.txt', 'RELEASE-NOTES.md', 'Licenses\Inter-LICENSE.txt', 'Licenses\Spectral-LICENSE.txt', 'Licenses\Lucide-LICENSE.txt', 'Licenses\dotnet-LICENSE.txt', 'LICENSE.txt', 'NOTICE.txt') {
     if (Test-Path (Join-Path $app $f)) { Pass "есть $f" } else { Fail "нет $f" }
 }

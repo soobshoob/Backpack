@@ -1018,4 +1018,12 @@ Vous pouvez faire en sorte que × quitte l’application dans Paramètres → Ap
   <data name="Draw.Hint.SmartPen" xml:space="preserve"><value>Les lignes, formes, arcs et angles sont reconnus ; la taille de l’angle s’affiche tant que le bouton est maintenu</value></data>
   <data name="Help.NotTranslated" xml:space="preserve"><value>L’aide n’est pas encore traduite dans cette langue ; l’aide en anglais est affichée.</value></data>
   <data name="About.MadeIn" xml:space="preserve"><value>Fabriqué en Ukraine</value></data>
+  <data name="Snapshot.SelectHint" xml:space="preserve"><value>Tracez un rectangle à capturer. Clic — taille par défaut. Échap ou clic droit — annuler.</value></data>
+  <data name="Snapshot.Grip.Move" xml:space="preserve"><value>Capture</value></data>
+  <data name="Snapshot.Button.Expand" xml:space="preserve"><value>Agrandir (double-clic ou Espace)</value></data>
+  <data name="Snapshot.Button.Collapse" xml:space="preserve"><value>Réduire à la position et taille précédentes</value></data>
+  <data name="Snapshot.Button.Replace" xml:space="preserve"><value>Remplacer : capturer une nouvelle zone</value></data>
+  <data name="Snapshot.Button.Hide" xml:space="preserve"><value>Masquer (la capture reste en mémoire)</value></data>
+  <data name="Snapshot.Button.Clear" xml:space="preserve"><value>Effacer la capture</value></data>
+  <data name="Plugins.Cap.overlay.snapshot" xml:space="preserve"><value>capture d’une zone de l’écran dessinée par Backpack (le plugin ne reçoit aucune image)</value></data>
 </root>

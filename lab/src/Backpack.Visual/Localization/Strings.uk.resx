@@ -1018,4 +1018,12 @@
   <data name="Draw.Hint.SmartPen" xml:space="preserve"><value>Розпізнаються лінії, фігури, дуги й кути; величина кута видна, поки кнопку натиснуто</value></data>
   <data name="Help.NotTranslated" xml:space="preserve"><value>Довідку цією мовою ще не перекладено; показано англійську.</value></data>
   <data name="About.MadeIn" xml:space="preserve"><value>Виготовлено в Україні</value></data>
+  <data name="Snapshot.SelectHint" xml:space="preserve"><value>Протягніть прямокутник, щоб зняти ділянку. Клацання — розмір за замовчуванням. Esc або права кнопка — скасувати.</value></data>
+  <data name="Snapshot.Grip.Move" xml:space="preserve"><value>Знімок</value></data>
+  <data name="Snapshot.Button.Expand" xml:space="preserve"><value>Розгорнути (подвійне клацання або пробіл)</value></data>
+  <data name="Snapshot.Button.Collapse" xml:space="preserve"><value>Згорнути на попереднє місце і розмір</value></data>
+  <data name="Snapshot.Button.Replace" xml:space="preserve"><value>Замінити: зняти нову ділянку</value></data>
+  <data name="Snapshot.Button.Hide" xml:space="preserve"><value>Сховати (знімок лишається в пам'яті)</value></data>
+  <data name="Snapshot.Button.Clear" xml:space="preserve"><value>Видалити знімок</value></data>
+  <data name="Plugins.Cap.overlay.snapshot" xml:space="preserve"><value>Знімок ділянки екрана, який малює Backpack (плагін не отримує зображення)</value></data>
 </root>

@@ -19,6 +19,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Backpack.Visual\Backpack.Visual.csproj" />
+    <!-- Плагин «Снимок поверх окон»: тесты гоняют его через настоящий цикл сообщений SDK (PluginRunner) без отдельного процесса. -->
+    <ProjectReference Include="..\..\samples\SnapshotOverlay\SnapshotOverlay.csproj" />
   </ItemGroup>
 
 </Project>

@@ -4,8 +4,8 @@ using Backpack.Sdk;
 
 namespace Backpack.Visual.Plugins;
 
-/// <summary>Проверенный запрос инструмента плагина: увеличение, затемнение или холст рисования (ровно одно).</summary>
-public sealed record PluginToolRequest(string ToolId, MagnifierRequest? Magnifier, DimRequest? Dim, DrawRequest? Draw = null);
+/// <summary>Проверенный запрос инструмента плагина: увеличение, затемнение, холст рисования или снимок (ровно одно).</summary>
+public sealed record PluginToolRequest(string ToolId, MagnifierRequest? Magnifier, DimRequest? Dim, DrawRequest? Draw = null, SnapshotRequest? Snapshot = null);
 
 /// <summary>Проверенная панель плагина (SDK 1.1): значения ограничены, кнопки — только из допустимых ID и иконок.</summary>
 public sealed record PluginPanelSpec(string Title, string Text, double? Progress, double FontSize, double Opacity, string? Accent, string State, IReadOnlyList<PanelButton> Buttons, bool Movable)
@@ -139,8 +139,53 @@ public static partial class PluginToolParser
             return new PluginToolRequest(id!, null, null, r);
         }
 
+        if (kind == "snapshot")
+        {
+            return new PluginToolRequest(id!, null, null, null, ParseSnapshot(msg));
+        }
+
         return null;
     }
+
+    /// <summary>Параметры снимка (SDK 1.3): строки — только из допустимых значений, числа и цвета — в пределах.</summary>
+    public static SnapshotRequest ParseSnapshot(JsonObject msg)
+    {
+        static string One(JsonObject o, string key, string fallback, params string[] allowed) =>
+            (string?)o[key] is { } s && allowed.Contains(s) ? s : fallback;
+        return new SnapshotRequest(
+            One(msg, "place", "last", "last", "corner", "capture"),
+            One(msg, "corner", "topRight", "topRight", "topLeft", "bottomRight", "bottomLeft"),
+            Num(msg, "startSize", 420, 80, 2400),
+            Bool(msg, "selectionDim", true),
+            One(msg, "aspect", "keep", "keep", "fit", "stretch"),
+            Color(msg, "background", "#111513"),
+            Num(msg, "minSize", 120, 48, 600),
+            Num(msg, "maxSize", 0.9, 0.2, 1),
+            Num(msg, "edgeMargin", 24, 0, 200),
+            Bool(msg, "topmost", true),
+            Num(msg, "opacity", 1, 0.2, 1),
+            Bool(msg, "doubleClick", true),
+            Bool(msg, "spaceHover", true),
+            Bool(msg, "autoCollapse", true),
+            Num(msg, "expandMargin", 48, 0, 400),
+            Bool(msg, "upscale", true),
+            Bool(msg, "clickThrough", false),
+            Num(msg, "radius", 16, 0, 64),
+            Num(msg, "borderWidth", 2, 0, 12),
+            Color(msg, "borderColor", "#D4D4D4"),
+            Num(msg, "borderOpacity", 1, 0, 1),
+            Bool(msg, "glow", false),
+            Bool(msg, "shadow", true),
+            Color(msg, "shadowColor", "#000000"),
+            Num(msg, "shadowBlur", 16, 0, 60),
+            Num(msg, "shadowOpacity", 0.55, 0, 1),
+            One(msg, "expandMonitor", "snapshot", "snapshot", "pointer", "primary"),
+            Bool(msg, "keepDip", true),
+            One(msg, "keep", "session", "session", "unlocked"));
+    }
+
+    /// <summary>Действие снимка (SDK 1.3): одно из <see cref="SnapshotActions.All"/>; null — неизвестное.</summary>
+    public static string? ParseSnapshotAction(string? action) => action is not null && SnapshotActions.All.Contains(action) ? action : null;
 
     /// <summary>Имена инструментов рисования в протоколе (SDK 1.2).</summary>
     public static readonly string[] DrawToolNames = ["select", "smartpen", "pen", "line", "arrow", "rectangle", "roundrect", "ellipse", "polygon", "text", "marker"];
