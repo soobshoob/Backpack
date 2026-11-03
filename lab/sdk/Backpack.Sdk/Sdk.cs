@@ -106,6 +106,17 @@ public static class Capabilities
 }
 
 /// <summary>
+/// Общие значения оформления инструментов, которые рисует хост, и плагинов от создателя: одно место для цвета рамки по
+/// умолчанию «Фокуса», «Линзы» и «Снимка поверх окон» (изумрудный Backpack, как у увеличения у курсора). Константа
+/// подставляется при компиляции — плагину с ней не нужна новая версия SDK во время работы.
+/// </summary>
+public static class ToolDefaults
+{
+    /// <summary>Цвет рамки по умолчанию (#RRGGBB).</summary>
+    public const string BorderColor = "#31C99A";
+}
+
+/// <summary>
 /// Параметры холста рисования (SDK 1.2). Строковые значения — имена из перечислений ниже; неизвестные хост заменяет значением по
 /// умолчанию, числа ограничивает допустимыми диапазонами.
 /// </summary>
@@ -188,7 +199,7 @@ public sealed record MagnifierRequest(
     bool Round = false,
     double Radius = 16,
     double BorderWidth = 2,
-    string BorderColor = "#31C99A",
+    string BorderColor = ToolDefaults.BorderColor,
     bool Shadow = true,
     bool Glow = false,
     bool ShowSource = true,
@@ -202,7 +213,7 @@ public sealed record DimRequest(
     double Height = 220,
     double Radius = 16,
     double BorderWidth = 2,
-    string BorderColor = "#D4D4D4",
+    string BorderColor = ToolDefaults.BorderColor,
     bool Glow = false,
     double Softness = 0,
     int AppearMs = 150,
@@ -210,7 +221,7 @@ public sealed record DimRequest(
 
 /// <summary>
 /// Снимок области экрана (SDK 1.3, overlay.snapshot). Размеры — DIP монитора, доли — 0…1, цвета — #RRGGBB. Неизвестные строки хост
-/// заменяет значением по умолчанию, числа ограничивает. Оформление по умолчанию — как у «Фокуса» и «Линзы».
+/// заменяет значением по умолчанию, числа ограничивает. Оформление по умолчанию — как у «Фокуса» и «Линзы» (рамка <see cref="ToolDefaults.BorderColor"/>).
 /// </summary>
 /// <param name="Place">Где появляется новый снимок: last (на месте прежнего; в первый раз — в углу), corner (в углу), capture (поверх
 /// снятой области, 1:1).</param>
@@ -250,7 +261,7 @@ public sealed record SnapshotRequest(
     bool ClickThrough = false,
     double Radius = 16,
     double BorderWidth = 2,
-    string BorderColor = "#D4D4D4",
+    string BorderColor = ToolDefaults.BorderColor,
     double BorderOpacity = 1,
     bool Glow = false,
     bool Shadow = true,

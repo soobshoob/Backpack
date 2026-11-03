@@ -91,7 +91,10 @@ Manifest additions:
   shown as a conflict), `"icon"` (Lucide icon for menus); on a setting `"hidden": true` (stored and checked, not shown —
   for values the plugin writes itself); preview scenes `drawing` and `indicator`.
 
-- SDK 1.3: capability `overlay.snapshot` (`SnapshotRequest`, `SnapshotActions`). `SettingValues.Number` also reads values the plugin
+- SDK 1.3: capability `overlay.snapshot` (`SnapshotRequest`, `SnapshotActions`); `ToolDefaults.BorderColor` (`#31C99A`) — the
+  shared default frame colour of Focus, Lens and Snapshot Overlay. Backpack 0.4.0-preview.8: a setting may list
+  `"previousDefaults"` — a value saved by an older Backpack that equals one of them is treated as not chosen by the user
+  and replaced by the current default (values saved from this version on are always kept). `SettingValues.Number` also reads values the plugin
   itself wrote as integers through `UpdateSettings`.
 
 - Backpack 0.4.0-preview.6 (no SDK change): top-level `"symbol"` — the plugin icon in the side menu (compact and full),

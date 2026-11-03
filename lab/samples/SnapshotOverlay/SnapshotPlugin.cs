@@ -29,7 +29,7 @@ public sealed class SnapshotPlugin : BackpackPlugin
         ["place"] = "last", ["corner"] = "topRight", ["startSize"] = 420.0, ["selectionDim"] = true,
         ["aspect"] = "keep", ["background"] = "#111513", ["minSize"] = 120.0, ["maxSize"] = 90.0, ["edgeMargin"] = 24.0, ["topmost"] = true,
         ["doubleClick"] = true, ["spaceHover"] = true, ["autoCollapse"] = true, ["expandMargin"] = 48.0, ["upscale"] = true, ["clickThrough"] = false,
-        ["radius"] = 16.0, ["borderWidth"] = 2.0, ["borderColor"] = "#D4D4D4", ["borderOpacity"] = 100.0, ["glow"] = false, ["opacity"] = 100.0,
+        ["radius"] = 16.0, ["borderWidth"] = 2.0, ["borderColor"] = ToolDefaults.BorderColor, ["borderOpacity"] = 100.0, ["glow"] = false, ["opacity"] = 100.0,
         ["shadow"] = true, ["shadowColor"] = "#000000", ["shadowBlur"] = 16.0, ["shadowOpacity"] = 55.0,
         ["expandMonitor"] = "snapshot", ["keepDip"] = true, ["keep"] = "session",
     };
@@ -131,7 +131,7 @@ public sealed class SnapshotPlugin : BackpackPlugin
             ClickThrough: s.Flag("clickThrough", false),
             Radius: s.Number("radius", 16),
             BorderWidth: s.Number("borderWidth", 2),
-            BorderColor: s.Text("borderColor", "#D4D4D4"),
+            BorderColor: s.Text("borderColor", ToolDefaults.BorderColor),
             BorderOpacity: s.Number("borderOpacity", 100) / 100,
             Glow: s.Flag("glow", false),
             Shadow: s.Flag("shadow", true),

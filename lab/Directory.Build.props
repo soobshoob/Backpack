@@ -15,7 +15,7 @@
       Репозиторий обновлений («владелец/репозиторий» GitHub) задаёт владелец; пустой — «источник обновлений не настроен».
     -->
     <VersionPrefix>0.4.0</VersionPrefix>
-    <VersionSuffix>preview.7</VersionSuffix>
+    <VersionSuffix>preview.8</VersionSuffix>
     <BackpackChannel>Preview</BackpackChannel>
     <BackpackReleaseDate></BackpackReleaseDate>
     <BackpackUpdateRepository></BackpackUpdateRepository>

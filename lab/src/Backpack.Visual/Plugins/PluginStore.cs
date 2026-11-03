@@ -498,6 +498,14 @@ public sealed class PluginStore
 
     public Action<string, JsonObject>? ProfileSave { get; set; }
 
+    /// <summary>
+    /// Отметка в сохранённых значениях: их записал Backpack, который знает <see cref="PluginSetting.PreviousDefaults"/>. Без неё
+    /// значение, равное прежнему значению по умолчанию, — это не выбор пользователя (прежние версии сохраняли все поля страницы,
+    /// включая нетронутые), и оно заменяется новым значением по умолчанию. С отметкой любое сохранённое значение — выбор
+    /// пользователя и не меняется (в том числе специально выбранный прежний цвет).
+    /// </summary>
+    public const string ExplicitMarker = "$explicit";
+
     /// <summary>Значения настроек плагина (по схеме manifest; неизвестные ключи отбрасываются, отсутствующие — значение по умолчанию).</summary>
     public JsonObject LoadSettings(PluginManifest m)
     {
@@ -513,14 +521,26 @@ public sealed class PluginStore
         {
         }
 
+        bool explicitValues = saved[ExplicitMarker] is JsonValue mark && mark.TryGetValue(out bool isExplicit) && isExplicit;
         var result = new JsonObject();
         foreach (var f in m.Settings)
         {
-            result[f.Key] = Sanitize(f, saved[f.Key]) ?? f.Default?.DeepClone();
+            var value = Sanitize(f, saved[f.Key]);
+            if (value is not null && !explicitValues && IsPreviousDefault(f, value))
+            {
+                value = null; // прежнее значение по умолчанию, сохранённое прежней версией, — не выбор пользователя
+            }
+
+            result[f.Key] = value ?? f.Default?.DeepClone();
         }
 
         return result;
     }
+
+    /// <summary>Значение совпадает с одним из прежних значений по умолчанию (после той же проверки и нормализации, например цвета).</summary>
+    public static bool IsPreviousDefault(PluginSetting f, JsonNode value) =>
+        f.PreviousDefaults is { Count: > 0 } previous
+        && previous.Any(p => Sanitize(f, p) is { } clean && clean.ToJsonString() == value.ToJsonString());
 
     public void SaveSettings(PluginManifest m, JsonObject values)
     {
@@ -529,6 +549,8 @@ public sealed class PluginStore
         {
             clean[f.Key] = Sanitize(f, values[f.Key]) ?? f.Default?.DeepClone();
         }
+
+        clean[ExplicitMarker] = true; // записано этой версией: значения — выбор пользователя (см. LoadSettings)
 
         if (ProfileSave is { } save)
         {

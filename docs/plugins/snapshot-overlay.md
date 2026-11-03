@@ -123,7 +123,7 @@ settings cannot contain action buttons.
 | | Expanded snapshot may be larger than the original | on | off: at most 1:1 (but not smaller than the normal view) |
 | | Clicks pass through the snapshot | off | on: use hover controls, Space or hotkeys; double-click is off |
 | Appearance | Opacity | 100 % | normal view; expanded is always opaque |
-| | Corner radius, Border, Border colour, Glow | 16 DIP, 2 DIP, #D4D4D4, off | **the same defaults as Focus** |
+| | Corner radius, Border, Border colour, Glow | 16 DIP, 2 DIP, #31C99A, off | **the same defaults as Focus and Lens** (`ToolDefaults.BorderColor`) |
 | | Border opacity | 100 % | |
 | | Shadow, Shadow colour, Shadow blur, Shadow opacity | on, #000000, 16 DIP, 55 % | the shadow of the Lens/Focus frame (`MagnifierFrame`); Glow replaces it |
 | Advanced | Monitor for the expanded view | Snapshot's monitor | or *Under the pointer*, *Primary* |

@@ -62,6 +62,6 @@ public sealed class FocusPlugin : BackpackPlugin
         var s = Context.Settings;
         string monitors = s.Text("monitors", "selected") switch { "primary" => "primary", "multiple" => "all", _ => "selection" };
         return new DimRequest(s.Number("opacity", 70) / 100, s.Number("width", 360), s.Number("height", 220), s.Number("radius", 16),
-            s.Number("borderWidth", 2), s.Text("borderColor", "#D4D4D4"), s.Flag("glow", false), s.Number("softness", 0), (int)s.Number("appearMs", 150), monitors);
+            s.Number("borderWidth", 2), s.Text("borderColor", ToolDefaults.BorderColor), s.Flag("glow", false), s.Number("softness", 0), (int)s.Number("appearMs", 150), monitors);
     }
 }

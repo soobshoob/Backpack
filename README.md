@@ -69,16 +69,24 @@ codes, key sequences, pointer positions or screen content. Backpack needs no adm
 and never downloads or runs updates by itself. Plugins are programs: turn on only plugins you trust
 ([ADR-0001](docs/plugins/ADR-0001-plugin-trust.md)).
 
-## Run
+## Install
+
+**Installer** (from 0.4.0-preview.8): download `Backpack-<version>-win-x64-setup.exe` from
+[Releases](https://github.com/soobshoob/Backpack/releases) and run it. It installs for your user without administrator
+rights (`%LOCALAPPDATA%\Programs\Backpack`), adds a Start menu entry and keeps your settings when you update or uninstall.
+Compare its SHA-256 with the `.sha256` file next to it if you like.
+
+**Portable**:
 
 1. Download the newest `Backpack-<version>-win-x64.zip` from [Releases](https://github.com/soobshoob/Backpack/releases)
    and check its SHA-256 against `SHA256SUMS.txt` attached to the same release. Current versions are **prereleases**.
 2. Unpack it anywhere and run `Backpack.exe`. The .NET runtime is included; nothing else needs to be installed.
-3. The package is **not digitally signed**, so Windows SmartScreen may show a warning.
+
+Neither is **digitally signed**, so Windows SmartScreen may show a warning (“More info” → “Run anyway”).
 
 Settings are kept in `%APPDATA%\Backpack`. For portable mode put an empty file `Backpack.portable` next to `Backpack.exe`.
 Start without plugins: `Backpack.exe --no-plugins`. Settings of 0.4.0-preview.6 and earlier are not read by
-0.4.0-preview.7 and later; see the [release notes](docs/release/RELEASE-NOTES-0.4.0-preview.7.md).
+0.4.0-preview.7 and later; see the [release notes](docs/release/RELEASE-NOTES-0.4.0-preview.8.md).
 
 ## Build from source
 

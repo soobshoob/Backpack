@@ -36,11 +36,13 @@ public enum PluginSettingType { Toggle, Number, Text, Choice, Color }
 /// <see cref="Hint"/> — короткое пояснение; <see cref="ShowWhen"/> — поле видно, только когда другая настройка имеет одно из
 /// значений (скрытое значение сохраняется); <see cref="ChoiceTitles"/> — подписи вариантов выбора. <see cref="Hidden"/> (SDK 1.2) —
 /// значение хранится и проверяется, но на странице не показывается (например, место перетащенной панели, которое плагин
-/// записывает сам через UpdateSettings).
+/// записывает сам через UpdateSettings). <see cref="PreviousDefaults"/> (Backpack 0.4.0-preview.8) — прежние значения по
+/// умолчанию: значение, сохранённое прежней версией Backpack и равное одному из них, считается не выбранным пользователем и
+/// заменяется новым значением по умолчанию (см. <see cref="PluginStore.LoadSettings"/>).
 /// </summary>
 public sealed record PluginSetting(string Key, PluginSettingType Type, LocalizedText Title, JsonNode? Default, double Min, double Max, IReadOnlyList<string> Choices,
     LocalizedText? Group = null, LocalizedText? Hint = null, double Step = 1, string? Unit = null, (string Key, IReadOnlyList<string> Values)? ShowWhen = null,
-    IReadOnlyList<LocalizedText>? ChoiceTitles = null, bool Hidden = false);
+    IReadOnlyList<LocalizedText>? ChoiceTitles = null, bool Hidden = false, IReadOnlyList<JsonNode>? PreviousDefaults = null);
 
 /// <summary>
 /// Демонстрация на странице плагина (SDK 1.1): сцена, которую рисует хост, и привязка параметров сцены к ключам настроек.
@@ -234,7 +236,8 @@ public sealed record PluginManifest(
                     settings.Add(new PluginSetting(key, st, Text(f["title"], "settings.title", errors), f["default"]?.DeepClone(), min, max, Strings(f["choices"], 16, 64),
                         f["group"] is null ? null : Text(f["group"], "settings.group", errors), f["hint"] is null ? null : Text(f["hint"], "settings.hint", errors),
                         (double?)f["step"] is { } step && step > 0 ? step : 1, (string?)f["unit"] is { Length: <= 8 } unit ? unit : null, when, choiceTitles,
-                        f["hidden"] is JsonValue hv2 && hv2.TryGetValue(out bool hidden) && hidden));
+                        f["hidden"] is JsonValue hv2 && hv2.TryGetValue(out bool hidden) && hidden,
+                        f["previousDefaults"] is JsonArray pd ? pd.Take(8).OfType<JsonValue>().Select(x => (JsonNode)x.DeepClone()).ToList() : null));
                 }
                 else
                 {

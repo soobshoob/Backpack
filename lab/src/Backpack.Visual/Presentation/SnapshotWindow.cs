@@ -11,7 +11,8 @@ using Backpack.Visual.Windows;
 namespace Backpack.Visual.Presentation;
 
 /// <summary>
-/// Оформление снимка (DIP; доли 0…1). Значения по умолчанию — как у «Фокуса» и «Линзы»: скругление 16, рамка 2 цвета #D4D4D4, без
+/// Оформление снимка (DIP; доли 0…1). Значения по умолчанию — как у «Фокуса» и «Линзы»: скругление 16, рамка 2 цвета
+/// <see cref="Backpack.Sdk.ToolDefaults.BorderColor"/> (#31C99A), без
 /// свечения; тень — как у рамки линзы (<see cref="MagnifierFrame"/>): чёрная, размытие 16, смещение 2, непрозрачность 55 %.
 /// </summary>
 public sealed record SnapshotStyle(double Radius, double BorderWidth, string BorderColor, double BorderOpacity, bool Glow, bool Shadow, string ShadowColor,

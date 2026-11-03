@@ -1619,7 +1619,7 @@
         "lt": "Rėmelio spalva",
         "el": "Χρώμα περιγράμματος"
       },
-      "default": "#D4D4D4"
+      "default": "#31C99A"
     },
     {
       "key": "borderOpacity",

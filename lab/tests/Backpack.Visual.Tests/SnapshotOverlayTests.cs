@@ -249,7 +249,7 @@ public class SnapshotOverlayTests
         Assert.Equal(("last", "topRight", "keep", "snapshot", "session"), (r.Place, r.Corner, r.Aspect, r.ExpandMonitor, r.Keep));
         Assert.Equal((2400.0, 48.0, 1.0, 0.2), (r.StartSize, r.MinSize, r.MaxSize, r.Opacity));
         Assert.Equal((64.0, 0.0, 1.0, 60.0), (r.Radius, r.BorderWidth, r.BorderOpacity, r.ShadowBlur));
-        Assert.Equal(("#111513", "#D4D4D4"), (r.Background, r.BorderColor));
+        Assert.Equal(("#111513", ToolDefaults.BorderColor), (r.Background, r.BorderColor));
         Assert.Equal(new SnapshotRequest(), PluginToolParser.Parse(Protocol.ToJson("snapshot", new SnapshotRequest()), out _)!.Snapshot);
         Assert.Null(PluginToolParser.ParseSnapshotAction("undo"));
         Assert.Null(PluginToolParser.ParseSnapshotAction(null));

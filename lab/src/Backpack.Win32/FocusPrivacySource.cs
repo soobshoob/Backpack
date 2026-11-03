@@ -13,6 +13,10 @@ namespace Backpack.Win32;
 ///       <c>UIA_IsPasswordPropertyId</c> через <c>GetCurrentPropertyValueEx(…, ignoreDefaultValue: TRUE)</c> — так отсутствие
 ///       свойства у провайдера отличается от false. Value, TextPattern, Name, буфер обмена и содержимое поля не читаются.</item>
 /// </list>
+/// Проверки — только по событиям (<see cref="FocusProbePolicy"/>): после смены фокуса не больше одной проверки с подтверждением и
+/// трёх перепроверок, затем ожидание следующего события; периодического опроса программы нет. Повторные уведомления о фокусе на
+/// том же элементе в пределах секунды отсеиваются (<see cref="FocusNoiseFilter"/>). Ввод этот источник не перехватывает и не
+/// подавляет: WinEvent-хуки вне контекста только наблюдают, UIA только читает IsPassword и метаданные.
 /// Запросы не копятся: рабочий поток берёт только последнюю запрошенную версию. Если UIA зависла (целевое приложение не отвечает),
 /// поток остаётся занятым одной проверкой до внутреннего таймаута UIA, новые запросы ждут её окончания, а таймаут ожидания
 /// результата в <see cref="PrivacyGate"/> закрывает показ («нет данных»). Других потоков не создаётся.
@@ -31,14 +35,10 @@ public sealed unsafe class FocusPrivacySource : MessageThreadHost
     private static readonly Guid ClsidCuiAutomation = new("FF48DBA4-60EF-4201-AA87-54103EEF594E");
     private static readonly Guid IidIuiAutomation = new("30CBE57D-D9D0-452A-AB13-7AC5AC4825EE");
 
-    /// <summary>Задержки перепроверки запрещающего ответа той же версии, мс.</summary>
-    private static readonly int[] RetryDelays = [120, 400, 1200];
-
-    /// <summary>Интервал редкой перепроверки ответа «нет данных» той же версии, мс.</summary>
-    public const int IdleRecheckMs = 1500;
-
     /// <summary>Пауза перед подтверждающей пробой разрешающего ответа, мс (только рабочий поток UIA).</summary>
-    public const int ConfirmDelayMs = 80;
+    public const int ConfirmDelayMs = FocusProbePolicy.ConfirmDelayMs;
+
+    private static readonly System.Diagnostics.Stopwatch s_clock = System.Diagnostics.Stopwatch.StartNew();
 
     private readonly Action<long, ProbeVerdict> _result;
     private readonly Action _focusChanged;
@@ -62,6 +62,9 @@ public sealed unsafe class FocusPrivacySource : MessageThreadHost
         _worker = new Thread(WorkerMain) { IsBackground = true, Name = "Backpack.Privacy.Uia" };
     }
 
+    /// <summary>Отсев повторных уведомлений о фокусе на том же элементе (для диагностики — число пропущенных).</summary>
+    public FocusNoiseFilter Noise { get; } = new();
+
     /// <summary>Растёт при каждом событии фокуса или смены активного окна. Читается синхронно перед применением ввода.</summary>
     public long FocusSerial => Interlocked.Read(ref _focusSerial);
 
@@ -83,8 +86,19 @@ public sealed unsafe class FocusPrivacySource : MessageThreadHost
     public void BumpSerial() => Bump();
 
     /// <summary>Смена фокуса из другого источника (событие фокуса UI Automation): как событие WinEvent — счётчик и сигнал.</summary>
-    public void SignalFocusChanged()
+    public void SignalFocusChanged() => SignalFocusChanged(null);
+
+    /// <summary>
+    /// Событие фокуса UI Automation на элементе с ключом <paramref name="elementKey"/> (<see cref="FocusNoiseFilter.RuntimeIdKey"/>;
+    /// null — неизвестен). Повтор того же элемента в пределах окна шума не начинает новую проверку.
+    /// </summary>
+    public void SignalFocusChanged(string? elementKey)
     {
+        if (!Noise.Accept(FocusSource.UiAutomation, elementKey, s_clock.Elapsed))
+        {
+            return;
+        }
+
         Bump();
         _focusChanged();
     }
@@ -167,6 +181,15 @@ public sealed unsafe class FocusPrivacySource : MessageThreadHost
                 return;
             }
 
+            if (evt == EventSystemForeground)
+            {
+                self.Noise.OnForegroundChanged();
+            }
+            else if (!self.Noise.Accept(FocusSource.WinEvent, FocusNoiseFilter.WinEventKey(hwnd, idObject, idChild), s_clock.Elapsed))
+            {
+                return; // повтор фокуса на том же элементе — контекст не менялся, проверять нечего
+            }
+
             self.Bump();
             self._focusChanged();
         }
@@ -195,14 +218,14 @@ public sealed unsafe class FocusPrivacySource : MessageThreadHost
 
             long lastVersion = -1;
             int retries = 0;
-            var lastVerdict = ProbeVerdict.NotPassword;
+            int maxRetries = FocusProbePolicy.RetryDelaysMs.Count;
             while (!_stopping)
             {
-                // Запрещающий ответ перепроверяется той же версией (RetryDelays): UIA может ещё отдавать прежний элемент в момент
-                // события фокуса. Ответ «нет данных» после этого перепроверяется редко (IdleRecheckMs), пока не придёт новая
-                // версия: неопределённое состояние не «залипает» до перехода в другое окно, если элемент начал отвечать.
+                // Запрещающий ответ перепроверяется той же версией несколько раз (FocusProbePolicy): UIA может ещё отдавать прежний
+                // элемент в момент события фокуса. После этого — только следующее событие: «нет данных» (например, 3D-вид CAD без
+                // IsPassword) больше не опрашивается периодически, чтобы не обращаться к UI-потоку программы, пока в ней работают.
                 // Перепроверка может только открыть показ позже; скрытое раньше не возвращается.
-                int wait = retries < RetryDelays.Length ? RetryDelays[retries] : lastVerdict == ProbeVerdict.NoData ? IdleRecheckMs : Timeout.Infinite;
+                int wait = FocusProbePolicy.NextWaitMs(retries);
                 bool woke = _wake.WaitOne(wait);
                 if (_stopping)
                 {
@@ -212,11 +235,11 @@ public sealed unsafe class FocusPrivacySource : MessageThreadHost
                 long version = Interlocked.Read(ref _requested);
                 if (!woke && version != lastVersion)
                 {
-                    retries = RetryDelays.Length;
+                    retries = maxRetries;
                     continue;
                 }
 
-                retries = woke && version != lastVersion ? 0 : Math.Min(retries + 1, RetryDelays.Length);
+                retries = woke && version != lastVersion ? 0 : Math.Min(retries + 1, maxRetries);
                 lastVersion = version;
                 long serialAtRequest = Interlocked.Read(ref _requestedSerial);
                 Volatile.Write(ref _busy, 1);
@@ -255,10 +278,9 @@ public sealed unsafe class FocusPrivacySource : MessageThreadHost
                     continue;
                 }
 
-                lastVerdict = verdict;
                 if (verdict == ProbeVerdict.NotPassword)
                 {
-                    retries = RetryDelays.Length; // открыто — перепроверять нечего
+                    retries = maxRetries; // открыто — перепроверять нечего
                 }
 
                 try

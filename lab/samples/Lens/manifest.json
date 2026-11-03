@@ -46,7 +46,7 @@
   },
   "author": "Backpack",
   "symbol": "scan-search",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "sdk": "1.1",
   "entry": "lib/Lens.dll",
   "type": "Lens.LensPlugin",
@@ -452,7 +452,10 @@
         "lt": "Rėmelio spalva",
         "el": "Χρώμα περιγράμματος"
       },
-      "default": "#D4D4D4"
+      "default": "#31C99A",
+      "previousDefaults": [
+        "#D4D4D4"
+      ]
     },
     {
       "key": "shadow",

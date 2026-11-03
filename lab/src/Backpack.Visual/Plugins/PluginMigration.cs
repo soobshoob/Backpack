@@ -65,7 +65,8 @@ public static class PluginMigration
                     value = JsonValue.Create(Math.Round(d * factor, 6));
                 }
 
-                if (PluginStore.Sanitize(f, value?.DeepClone()) is { } clean)
+                // Прежнее значение по умолчанию встроенного инструмента — не выбор пользователя: остаётся новое значение плагина.
+                if (PluginStore.Sanitize(f, value?.DeepClone()) is { } clean && !PluginStore.IsPreviousDefault(f, clean))
                 {
                     settings ??= new JsonObject();
                     settings[key] = clean;

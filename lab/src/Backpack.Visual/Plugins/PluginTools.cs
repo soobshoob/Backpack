@@ -99,7 +99,7 @@ public static partial class PluginToolParser
             var r = new MagnifierRequest(mode.Value,
                 Num(msg, "zoom", 1.5, 1, 4), Num(msg, "width", 220, 60, 1600), Num(msg, "height", 220, 60, 1200),
                 Bool(msg, "round", false), Num(msg, "radius", 16, 0, 64), Num(msg, "borderWidth", 2, 0, 12),
-                Color(msg, "borderColor", "#31C99A"), Bool(msg, "shadow", true), Bool(msg, "glow", false), Bool(msg, "showSource", true),
+                Color(msg, "borderColor", ToolDefaults.BorderColor), Bool(msg, "shadow", true), Bool(msg, "glow", false), Bool(msg, "showSource", true),
                 (int)Num(msg, "smoothingMs", 50, 0, 500), Bool(msg, "hideMouseIcon", false));
             return new PluginToolRequest(id!, r, null);
         }
@@ -108,7 +108,7 @@ public static partial class PluginToolParser
         {
             string monitors = (string?)msg["monitors"] is "primary" or "all" ? (string)msg["monitors"]! : "selection";
             var r = new DimRequest(Num(msg, "opacity", 0.7, 0, 0.95), Num(msg, "width", 360, 60, 1600), Num(msg, "height", 220, 60, 1200),
-                Num(msg, "radius", 16, 0, 64), Num(msg, "borderWidth", 2, 0, 12), Color(msg, "borderColor", "#D4D4D4"), Bool(msg, "glow", false),
+                Num(msg, "radius", 16, 0, 64), Num(msg, "borderWidth", 2, 0, 12), Color(msg, "borderColor", ToolDefaults.BorderColor), Bool(msg, "glow", false),
                 Num(msg, "softness", 0, 0, 60), (int)Num(msg, "appearMs", 150, 0, 1000), monitors);
             return new PluginToolRequest(id!, null, r);
         }
@@ -172,7 +172,7 @@ public static partial class PluginToolParser
             Bool(msg, "clickThrough", false),
             Num(msg, "radius", 16, 0, 64),
             Num(msg, "borderWidth", 2, 0, 12),
-            Color(msg, "borderColor", "#D4D4D4"),
+            Color(msg, "borderColor", ToolDefaults.BorderColor),
             Num(msg, "borderOpacity", 1, 0, 1),
             Bool(msg, "glow", false),
             Bool(msg, "shadow", true),

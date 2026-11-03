@@ -64,7 +64,8 @@
           "choices": { "type": "array", "maxItems": 16, "items": { "type": "string", "maxLength": 64 } },
           "choiceTitles": { "type": "array", "maxItems": 16, "items": { "$ref": "#/$defs/text" } },
           "showWhen": { "type": "object", "minProperties": 1, "maxProperties": 1 },
-          "hidden": { "type": "boolean" }
+          "hidden": { "type": "boolean" },
+          "previousDefaults": { "type": "array", "maxItems": 8, "description": "Earlier default values (Backpack 0.4.0-preview.8): a value saved by an older Backpack that equals one of them is treated as not chosen by the user and replaced by the current default." }
         }
       }
     },
