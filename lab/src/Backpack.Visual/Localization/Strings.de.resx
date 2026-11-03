@@ -1018,4 +1018,12 @@ Unter Einstellungen → Anwendung können Sie festlegen, dass × stattdessen bee
   <data name="Draw.Hint.SmartPen" xml:space="preserve"><value>Linien, Formen, Bögen und Winkel werden erkannt; die Winkelgröße erscheint, solange die Taste gehalten wird</value></data>
   <data name="Help.NotTranslated" xml:space="preserve"><value>Die Hilfe ist noch nicht in diese Sprache übersetzt; es wird die englische Hilfe angezeigt.</value></data>
   <data name="About.MadeIn" xml:space="preserve"><value>Hergestellt in der Ukraine</value></data>
+  <data name="Snapshot.SelectHint" xml:space="preserve"><value>Ziehen Sie ein Rechteck für die Aufnahme. Klick — Standardgröße. Esc oder Rechtsklick — abbrechen.</value></data>
+  <data name="Snapshot.Grip.Move" xml:space="preserve"><value>Aufnahme</value></data>
+  <data name="Snapshot.Button.Expand" xml:space="preserve"><value>Vergrößern (Doppelklick oder Leertaste)</value></data>
+  <data name="Snapshot.Button.Collapse" xml:space="preserve"><value>Auf vorherige Position und Größe verkleinern</value></data>
+  <data name="Snapshot.Button.Replace" xml:space="preserve"><value>Ersetzen: neuen Bereich aufnehmen</value></data>
+  <data name="Snapshot.Button.Hide" xml:space="preserve"><value>Ausblenden (die Aufnahme bleibt im Speicher)</value></data>
+  <data name="Snapshot.Button.Clear" xml:space="preserve"><value>Aufnahme löschen</value></data>
+  <data name="Plugins.Cap.overlay.snapshot" xml:space="preserve"><value>von Backpack gezeichnete Aufnahme eines Bildschirmbereichs (das Plugin erhält kein Bild)</value></data>
 </root>

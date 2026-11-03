@@ -1018,4 +1018,12 @@ V Nastavení → Aplikace můžete nastavit, aby × aplikaci ukončilo.</value><
   <data name="Draw.Hint.SmartPen" xml:space="preserve"><value>Rozpoznávají se čáry, tvary, oblouky a úhly; velikost úhlu se zobrazuje, dokud je tlačítko drženo</value></data>
   <data name="Help.NotTranslated" xml:space="preserve"><value>Nápověda zatím není do tohoto jazyka přeložena; zobrazuje se anglická nápověda.</value></data>
   <data name="About.MadeIn" xml:space="preserve"><value>Vyrobeno na Ukrajině</value></data>
+  <data name="Snapshot.SelectHint" xml:space="preserve"><value>Táhněte obdélník k zachycení. Kliknutí — výchozí velikost. Esc nebo pravé tlačítko — zrušit.</value></data>
+  <data name="Snapshot.Grip.Move" xml:space="preserve"><value>Snímek</value></data>
+  <data name="Snapshot.Button.Expand" xml:space="preserve"><value>Zvětšit (dvojklik nebo mezerník)</value></data>
+  <data name="Snapshot.Button.Collapse" xml:space="preserve"><value>Zmenšit na předchozí místo a velikost</value></data>
+  <data name="Snapshot.Button.Replace" xml:space="preserve"><value>Nahradit: zachytit novou oblast</value></data>
+  <data name="Snapshot.Button.Hide" xml:space="preserve"><value>Skrýt (snímek zůstane v paměti)</value></data>
+  <data name="Snapshot.Button.Clear" xml:space="preserve"><value>Smazat snímek</value></data>
+  <data name="Plugins.Cap.overlay.snapshot" xml:space="preserve"><value>snímek oblasti obrazovky vykreslený Backpackem (plugin obrázek nedostane)</value></data>
 </root>

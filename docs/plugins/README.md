@@ -1,4 +1,4 @@
-# Backpack plugins: SDK 1.2 and the plugins from the creator
+# Backpack plugins: SDK 1.3 and the plugins from the creator
 
 A Backpack plugin is a .NET 10 class library that references `Backpack.Sdk` and contains one class derived from
 `BackpackPlugin`. Backpack runs it in a separate process (`Backpack.exe --plugin-host`) and talks to it through a
@@ -15,6 +15,7 @@ limited JSON protocol. A separate process is **not a sandbox**: see `ADR-0001-pl
 | `Lens` | `com.example.lens` | `overlay.magnifier` in `region` mode: a movable lens with a separate source area |
 | `Focus` | `com.example.focus` | `overlay.dim`: dimming around an area the user selects |
 | `PresentationTimer` | `com.example.presentation-timer` | `overlay.panel` with buttons, states, a movable panel; a clock-based countdown |
+| `SnapshotOverlay` | `com.example.snapshot-overlay` | `overlay.snapshot` (SDK 1.3): a still snapshot of a selected area in a floating window on top, temporary expansion, `whileTool` commands, `UpdateSettings` for “reset” — see [snapshot-overlay.md](snapshot-overlay.md) |
 
 In the repository the sources are in `lab/samples`; in the Backpack package they are in `Samples\` and the ready
 packages are in `Plugins\` together with the delivery index `bundled.json` (file, plugin ID, version, SHA-256 of each
@@ -59,7 +60,7 @@ Backpack → **Plugins** → **Import a plugin** → choose the `.bppkg` file. I
 | `OnCommand(id)` | 1.0 | a command from the manifest was run (hotkey, menu, tray, radial menu) |
 | `OnCommandReleased(id)` | 1.1 | the hotkey of a `"hold": true` command was released (the host polls it, at most 5 minutes) |
 | `OnSettingsChanged()` | 1.0 | values in `Context.Settings` changed (the settings page is drawn by Backpack from the manifest) |
-| `OnToolClosed(id, reason)` | 1.1 | a host tool closed: `cancelled`, `escape`, `system`, `host`, `busy` (canvas used by another plugin), `unavailable` |
+| `OnToolClosed(id, reason)` | 1.1 | a host tool closed: `cancelled`, `escape`, `system`, `host`, `busy` (canvas used by another plugin), `unavailable`; SDK 1.3 snapshot also `cleared` (the user removed it with its button) |
 | `OnPanelButton(id)` | 1.1 | a panel button was pressed |
 | `OnLayoutChanged(e)` | 1.2 | the keyboard layout of the active window changed (`input.layout`): code, name, reason `switch` or `window` |
 | `OnToolState(id, values)` | 1.2 | the user changed the open tool itself (drawing: tool, colour, thickness, stroke, toolbar place) |
@@ -69,10 +70,12 @@ Backpack → **Plugins** → **Import a plugin** → choose the `.bppkg` file. I
 | `Context.DrawAction(id, action)` | 1.2 | `undo`, `redo`, `clear`, `screenshot`, `radial`, `markers.reset`, `tool:<name>` |
 | `Context.ShowIndicator(request)` / `HideIndicator()` | 1.2 | the indicator drawn by the host (`overlay.indicator`): code, second line, duration, animation, place, look |
 | `Context.UpdateSettings(values)` | 1.2 | write your own setting values (checked against the manifest schema) |
+| `Context.OpenSnapshot(id, request)` | 1.3 | a still snapshot drawn by the host (`overlay.snapshot`): a new ID starts the area selection, a repeat updates the parameters of the open snapshot |
+| `Context.SnapshotAction(id, action)` | 1.3 | `capture` (replace), `show`, `hide`, `toggleVisible`, `expand`, `collapse`, `toggleExpand`, `resetPlace` (also without an open snapshot) |
 | `Context.EditTool(id)` / `CloseTool(id)` | 1.1 | show the controls of a tool or panel without hover / close it |
 | `Context.ShowPanel(...)` / `HidePanel()` | 1.0/1.1 | host-drawn panel: title, text, progress, buttons, state, accent, movable (`overlay.panel`) |
 
-**What a plugin never receives:** screen images (the `screen` capability is declared but not granted), drawings, pointer
+**What a plugin never receives:** screen images (the `screen` capability is declared but not granted; an `overlay.snapshot` picture stays in Backpack's memory and is never sent to the plugin or written to disk), drawings, pointer
 coordinates, input hidden by dynamic privacy, raw keyboard hooks, field contents, window titles. `input.layout` sends
 only the layout code and name — no key presses. Starting Backpack, unlocking and waking from sleep are not layout
 changes. Tool windows, their hover controls (`HoverReveal`), Esc handling and closing on lock, disable, removal or a
@@ -88,6 +91,12 @@ Manifest additions:
   shown as a conflict), `"icon"` (Lucide icon for menus); on a setting `"hidden": true` (stored and checked, not shown —
   for values the plugin writes itself); preview scenes `drawing` and `indicator`.
 
+- SDK 1.3: capability `overlay.snapshot` (`SnapshotRequest`, `SnapshotActions`); `ToolDefaults.BorderColor` (`#31C99A`) — the
+  shared default frame colour of Focus, Lens and Snapshot Overlay. Backpack 0.4.0-preview.8: a setting may list
+  `"previousDefaults"` — a value saved by an older Backpack that equals one of them is treated as not chosen by the user
+  and replaced by the current default (values saved from this version on are always kept). `SettingValues.Number` also reads values the plugin
+  itself wrote as integers through `UpdateSettings`.
+
 - Backpack 0.4.0-preview.6 (no SDK change): top-level `"symbol"` — the plugin icon in the side menu (compact and full),
   on the plugin card and in the page header, for example `"symbol": "pen-tool"`. It is the **name** of an icon from the
   Lucide catalog built into Backpack (lower-case letters, digits and hyphens, up to 40 characters; the catalog with
@@ -99,9 +108,9 @@ Manifest additions:
   A PNG `"icon"` (SDK 1.1 card picture) is still shown for plugins without `"symbol"`.
 
 Icons of the plugins from the creator: Drawing `pen-tool`, Layout indicator `globe`, Lens `scan-search`, Focus `focus`,
-Cursor magnifier `zoom-in`, Presentation timer `timer`.
+Cursor magnifier `zoom-in`, Presentation timer `timer`, Snapshot overlay `image`.
 
-A plugin built for SDK 1.0 or 1.1 keeps working; a plugin that needs 1.2 is rejected by an older Backpack.
+A plugin built for SDK 1.0, 1.1 or 1.2 keeps working; a plugin that needs 1.3 is rejected by an older Backpack.
 
 ## Limits on using the SDK and the samples
 

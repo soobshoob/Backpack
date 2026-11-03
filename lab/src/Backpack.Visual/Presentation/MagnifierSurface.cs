@@ -14,7 +14,7 @@ public enum MagnifierShape { RoundedRect, Ellipse }
 /// <summary>Оформление рамки окна вывода (DIP монитора окна; цвет — #RRGGBB / #AARRGGBB).</summary>
 public sealed record MagnifierFrameStyle(double Radius, double BorderWidth, string BorderColor, bool Shadow, bool Glow, bool Crosshair, string? Label = null)
 {
-    public static MagnifierFrameStyle Default { get; } = new(16, 2, "#D4D4D4", true, false, false);
+    public static MagnifierFrameStyle Default { get; } = new(16, 2, Backpack.Sdk.ToolDefaults.BorderColor, true, false, false);
 }
 
 /// <summary>

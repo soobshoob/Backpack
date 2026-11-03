@@ -1018,4 +1018,12 @@ Pode fazer com que × saia da aplicação em Definições → Aplicação.</valu
   <data name="Draw.Hint.SmartPen" xml:space="preserve"><value>São reconhecidas linhas, formas, arcos e ângulos; a amplitude do ângulo aparece enquanto o botão está premido</value></data>
   <data name="Help.NotTranslated" xml:space="preserve"><value>A ajuda ainda não está traduzida para este idioma; é mostrada a ajuda em inglês.</value></data>
   <data name="About.MadeIn" xml:space="preserve"><value>Feito na Ucrânia</value></data>
+  <data name="Snapshot.SelectHint" xml:space="preserve"><value>Arraste um retângulo para capturar. Clique — tamanho predefinido. Esc ou clique direito — cancelar.</value></data>
+  <data name="Snapshot.Grip.Move" xml:space="preserve"><value>Captura</value></data>
+  <data name="Snapshot.Button.Expand" xml:space="preserve"><value>Ampliar (duplo clique ou Espaço)</value></data>
+  <data name="Snapshot.Button.Collapse" xml:space="preserve"><value>Reduzir à posição e tamanho anteriores</value></data>
+  <data name="Snapshot.Button.Replace" xml:space="preserve"><value>Substituir: capturar uma nova área</value></data>
+  <data name="Snapshot.Button.Hide" xml:space="preserve"><value>Ocultar (a captura fica na memória)</value></data>
+  <data name="Snapshot.Button.Clear" xml:space="preserve"><value>Apagar a captura</value></data>
+  <data name="Plugins.Cap.overlay.snapshot" xml:space="preserve"><value>captura de uma área do ecrã desenhada pelo Backpack (o plugin não recebe a imagem)</value></data>
 </root>

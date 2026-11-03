@@ -253,6 +253,9 @@ public partial class App : Application
             ProfileLoad = id => _store!.Current.PluginsOrEmpty.Get(id),
             ProfileSave = (id, values) => _store!.Update(x => x with { Plugins = x.PluginsOrEmpty.With(id, values) }),
         };
+        // Снимок (overlay.snapshot): место окна хранится рядом с пакетами, как место панели; изображение — только в памяти.
+        _tools.LoadPlace = pluginStore.LoadToolBounds;
+        _tools.SavePlace = pluginStore.SaveToolBounds;
         _plugins = new PluginManager(pluginStore, _commands, Dispatcher, Environment.ProcessPath ?? "Backpack.exe", () => Loc.Code, _options.NoPlugins, _tools)
         {
             IsHeld = HotkeyHeld,
@@ -539,7 +542,7 @@ public partial class App : Application
         else
         {
             _presentation?.Execute(PresentationCommand.ExitAll);
-            _tools?.CloseAllSystem("host");
+            _tools?.CloseAllSystem("host", keepSnapshots: true); // снимки скрываются, изображение остаётся (показать — командой снимка)
         }
 
         _controller.SetOverlayVisible((visible || !parts.HasFlag(DisplayParts.Keycaps)) && _prefs.Current.ToolsOrDefault.Keycaps);

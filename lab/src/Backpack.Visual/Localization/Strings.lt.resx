@@ -1018,4 +1018,12 @@ Nustatymuose → Programa galite nustatyti, kad × užvertų programą.</value><
   <data name="Draw.Hint.SmartPen" xml:space="preserve"><value>Atpažįstamos linijos, figūros, lankai ir kampai; kampo dydis rodomas, kol laikomas mygtukas</value></data>
   <data name="Help.NotTranslated" xml:space="preserve"><value>Žinynas į šią kalbą dar neišverstas; rodomas žinynas anglų kalba.</value></data>
   <data name="About.MadeIn" xml:space="preserve"><value>Pagaminta Ukrainoje</value></data>
+  <data name="Snapshot.SelectHint" xml:space="preserve"><value>Nubrėžkite stačiakampį, kurį norite užfiksuoti. Spustelėjimas — numatytasis dydis. Esc arba dešinysis spustelėjimas — atšaukti.</value></data>
+  <data name="Snapshot.Grip.Move" xml:space="preserve"><value>Nuotrauka</value></data>
+  <data name="Snapshot.Button.Expand" xml:space="preserve"><value>Išskleisti (dukart spustelėkite arba tarpas)</value></data>
+  <data name="Snapshot.Button.Collapse" xml:space="preserve"><value>Suskleisti į ankstesnę vietą ir dydį</value></data>
+  <data name="Snapshot.Button.Replace" xml:space="preserve"><value>Pakeisti: užfiksuoti naują sritį</value></data>
+  <data name="Snapshot.Button.Hide" xml:space="preserve"><value>Slėpti (nuotrauka lieka atmintyje)</value></data>
+  <data name="Snapshot.Button.Clear" xml:space="preserve"><value>Ištrinti nuotrauką</value></data>
+  <data name="Plugins.Cap.overlay.snapshot" xml:space="preserve"><value>Backpack piešiama ekrano srities nuotrauka (papildinys negauna vaizdo)</value></data>
 </root>

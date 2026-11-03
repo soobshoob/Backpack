@@ -11,8 +11,10 @@ public static class SdkInfo
     /// 1.1 (Phase 4G): инструменты увеличения и затемнения, которые рисует хост; удерживаемые команды; панель с кнопками.
     /// 1.2 (Phase 4H): холст рисования и индикатор, которые рисует хост; события смены раскладки; запись своих настроек;
     /// команды, действующие только пока открыт инструмент плагина; сочетание команды по умолчанию.
+    /// 1.3: статичный снимок области экрана, который рисует хост (overlay.snapshot): выделение, захват в память, плавающее окно
+    /// поверх остальных с временным развёртыванием; действия снимка (<see cref="SnapshotActions"/>).
     /// </summary>
-    public const string Version = "1.2";
+    public const string Version = "1.3";
 
     /// <summary>Совместим ли плагин, собранный для <paramref name="pluginSdk"/>, с хостом версии <paramref name="hostSdk"/>.</summary>
     public static bool IsCompatible(string? pluginSdk, string hostSdk = Version)
@@ -92,8 +94,26 @@ public static class Capabilities
     /// </summary>
     public const string InputLayout = "input.layout";
 
+    /// <summary>
+    /// Статичный снимок области экрана, который рисует хост (SDK 1.3): пользователь выделяет область, хост копирует её в память и
+    /// показывает в перемещаемом окне поверх остальных; двойной щелчок, Space над снимком или команда временно развёртывают его
+    /// почти на весь экран. Изображение, координаты области и окна плагину не передаются и на диск не записываются.
+    /// </summary>
+    public const string OverlaySnapshot = "overlay.snapshot";
+
     public static readonly IReadOnlySet<string> Known = new HashSet<string>([Commands, Settings, OverlayPanel, InputVisible, Screen, OverlayMagnifier, OverlayDim,
-        OverlayDraw, OverlayIndicator, InputLayout], StringComparer.Ordinal);
+        OverlayDraw, OverlayIndicator, InputLayout, OverlaySnapshot], StringComparer.Ordinal);
+}
+
+/// <summary>
+/// Общие значения оформления инструментов, которые рисует хост, и плагинов от создателя: одно место для цвета рамки по
+/// умолчанию «Фокуса», «Линзы» и «Снимка поверх окон» (изумрудный Backpack, как у увеличения у курсора). Константа
+/// подставляется при компиляции — плагину с ней не нужна новая версия SDK во время работы.
+/// </summary>
+public static class ToolDefaults
+{
+    /// <summary>Цвет рамки по умолчанию (#RRGGBB).</summary>
+    public const string BorderColor = "#31C99A";
 }
 
 /// <summary>
@@ -179,7 +199,7 @@ public sealed record MagnifierRequest(
     bool Round = false,
     double Radius = 16,
     double BorderWidth = 2,
-    string BorderColor = "#31C99A",
+    string BorderColor = ToolDefaults.BorderColor,
     bool Shadow = true,
     bool Glow = false,
     bool ShowSource = true,
@@ -193,11 +213,83 @@ public sealed record DimRequest(
     double Height = 220,
     double Radius = 16,
     double BorderWidth = 2,
-    string BorderColor = "#D4D4D4",
+    string BorderColor = ToolDefaults.BorderColor,
     bool Glow = false,
     double Softness = 0,
     int AppearMs = 150,
     string Monitors = "selection");
+
+/// <summary>
+/// Снимок области экрана (SDK 1.3, overlay.snapshot). Размеры — DIP монитора, доли — 0…1, цвета — #RRGGBB. Неизвестные строки хост
+/// заменяет значением по умолчанию, числа ограничивает. Оформление по умолчанию — как у «Фокуса» и «Линзы» (рамка <see cref="ToolDefaults.BorderColor"/>).
+/// </summary>
+/// <param name="Place">Где появляется новый снимок: last (на месте прежнего; в первый раз — в углу), corner (в углу), capture (поверх
+/// снятой области, 1:1).</param>
+/// <param name="Corner">topRight, topLeft, bottomRight, bottomLeft.</param>
+/// <param name="StartSize">Длинная сторона нового снимка (DIP); больше исходного размера снимок при появлении не растягивается.</param>
+/// <param name="SelectionDim">Слегка затемнять экран во время выделения.</param>
+/// <param name="Aspect">keep (окно в пропорциях снимка), fit (свободное окно, снимок целиком на фоне <paramref name="Background"/>),
+/// stretch (свободное окно, снимок растянут).</param>
+/// <param name="MaxSize">Наибольший размер окна в обычном виде — доля рабочей области монитора.</param>
+/// <param name="EdgeMargin">Отступ от края экрана при размещении в углу (DIP).</param>
+/// <param name="Opacity">Непрозрачность окна в обычном виде (развёрнутый снимок всегда непрозрачен).</param>
+/// <param name="SpaceHover">Space развёртывает и сворачивает снимок, пока указатель над ним (и не идёт ввод текста).</param>
+/// <param name="AutoCollapse">Сворачивать по щелчку вне развёрнутого снимка или при переключении окон.</param>
+/// <param name="ExpandMargin">Отступ развёрнутого снимка от краёв рабочей области (DIP).</param>
+/// <param name="Upscale">Развёрнутый снимок может быть больше исходного размера.</param>
+/// <param name="ClickThrough">Щелчки по снимку проходят к программе под ним (управление — ручками и кнопками при наведении).</param>
+/// <param name="ExpandMonitor">Монитор развёрнутого снимка: snapshot (где снимок), pointer (под указателем), primary.</param>
+/// <param name="KeepDip">При переносе на монитор с другим масштабом сохранять размер в DIP (иначе — в физических пикселях).</param>
+/// <param name="Keep">session — снимок в памяти до выхода из Backpack; unlocked — также удаляется при блокировке и сне.</param>
+public sealed record SnapshotRequest(
+    string Place = "last",
+    string Corner = "topRight",
+    double StartSize = 420,
+    bool SelectionDim = true,
+    string Aspect = "keep",
+    string Background = "#111513",
+    double MinSize = 120,
+    double MaxSize = 0.9,
+    double EdgeMargin = 24,
+    bool Topmost = true,
+    double Opacity = 1,
+    bool DoubleClick = true,
+    bool SpaceHover = true,
+    bool AutoCollapse = true,
+    double ExpandMargin = 48,
+    bool Upscale = true,
+    bool ClickThrough = false,
+    double Radius = 16,
+    double BorderWidth = 2,
+    string BorderColor = ToolDefaults.BorderColor,
+    double BorderOpacity = 1,
+    bool Glow = false,
+    bool Shadow = true,
+    string ShadowColor = "#000000",
+    double ShadowBlur = 16,
+    double ShadowOpacity = 0.55,
+    string ExpandMonitor = "snapshot",
+    bool KeepDip = true,
+    string Keep = "session");
+
+/// <summary>
+/// Действия снимка (<see cref="IPluginContext.SnapshotAction"/>, SDK 1.3). Удалить снимок — <see cref="IPluginContext.CloseTool"/>;
+/// показать ручки — <see cref="IPluginContext.EditTool"/>. <see cref="ResetPlace"/> действует и без открытого снимка.
+/// </summary>
+public static class SnapshotActions
+{
+    /// <summary>Выделить новую область; готовый снимок заменяет прежний (отмена Esc оставляет прежний).</summary>
+    public const string Capture = "capture";
+
+    public const string Show = "show", Hide = "hide", ToggleVisible = "toggleVisible";
+
+    public const string Expand = "expand", Collapse = "collapse", ToggleExpand = "toggleExpand";
+
+    /// <summary>Забыть сохранённое место и размер окна: снимок возвращается в угол по настройкам.</summary>
+    public const string ResetPlace = "resetPlace";
+
+    public static readonly IReadOnlySet<string> All = new HashSet<string>([Capture, Show, Hide, ToggleVisible, Expand, Collapse, ToggleExpand, ResetPlace], StringComparer.Ordinal);
+}
 
 /// <summary>Кнопка управления панели (иконка Lucide из набора хоста; неизвестная — заменяется). Появляется при наведении.</summary>
 public sealed record PanelButton(string Id, string Icon, string Title);
@@ -263,6 +355,15 @@ public interface IPluginContext
     /// поля не меняются. Например, запомнить последний цвет. <see cref="BackpackPlugin.OnSettingsChanged"/> не вызывается.
     /// </summary>
     void UpdateSettings(IReadOnlyDictionary<string, JsonNode?> values);
+
+    /// <summary>
+    /// Открыть снимок области экрана (SDK 1.3; нужна overlay.snapshot): новый ID начинает выделение области, повтор с тем же ID
+    /// только обновляет параметры. Снимок закрывается <see cref="CloseTool"/> (изображение освобождается).
+    /// </summary>
+    void OpenSnapshot(string id, SnapshotRequest request);
+
+    /// <summary>Действие снимка (<see cref="SnapshotActions"/>); неизвестный или закрытый снимок — ничего не происходит.</summary>
+    void SnapshotAction(string id, string action);
 }
 
 /// <summary>
@@ -292,7 +393,8 @@ public abstract class BackpackPlugin
 
     /// <summary>
     /// Инструмент закрыт не плагином: <paramref name="reason"/> — escape (Esc), cancelled (отмена выделения), system
-    /// (блокировка, смена рабочего стола, сон), host (выход Backpack).
+    /// (блокировка, смена рабочего стола, сон), host (выход Backpack); у снимка (SDK 1.3) также cleared (пользователь удалил снимок
+    /// кнопкой) и unavailable (область не удалось снять).
     /// </summary>
     public virtual void OnToolClosed(string toolId, string reason)
     {
@@ -388,6 +490,17 @@ public static class Protocol
         ["angleLabels"] = r.AngleLabels,
     };
 
+    public static JsonObject ToJson(string id, SnapshotRequest r) => new()
+    {
+        ["t"] = ToolOpen, ["id"] = id, ["kind"] = "snapshot", ["place"] = r.Place, ["corner"] = r.Corner, ["startSize"] = r.StartSize,
+        ["selectionDim"] = r.SelectionDim, ["aspect"] = r.Aspect, ["background"] = r.Background, ["minSize"] = r.MinSize, ["maxSize"] = r.MaxSize,
+        ["edgeMargin"] = r.EdgeMargin, ["topmost"] = r.Topmost, ["opacity"] = r.Opacity, ["doubleClick"] = r.DoubleClick, ["spaceHover"] = r.SpaceHover,
+        ["autoCollapse"] = r.AutoCollapse, ["expandMargin"] = r.ExpandMargin, ["upscale"] = r.Upscale, ["clickThrough"] = r.ClickThrough,
+        ["radius"] = r.Radius, ["borderWidth"] = r.BorderWidth, ["borderColor"] = r.BorderColor, ["borderOpacity"] = r.BorderOpacity, ["glow"] = r.Glow,
+        ["shadow"] = r.Shadow, ["shadowColor"] = r.ShadowColor, ["shadowBlur"] = r.ShadowBlur, ["shadowOpacity"] = r.ShadowOpacity,
+        ["expandMonitor"] = r.ExpandMonitor, ["keepDip"] = r.KeepDip, ["keep"] = r.Keep,
+    };
+
     public static JsonObject ToJson(IndicatorRequest r) => new()
     {
         ["t"] = Indicator, ["code"] = Trim(r.Code, 12), ["detail"] = r.Detail is { } d ? Trim(d, 80) : null, ["durationMs"] = r.DurationMs,
@@ -407,8 +520,11 @@ public static class Protocol
 /// <summary>Чтение значений настроек плагина (числа, флаги, строки) с запасным значением.</summary>
 public static class SettingValues
 {
+    /// <remarks>Число может быть записано плагином как целое (<see cref="IPluginContext.UpdateSettings"/>): читается через текст JSON.</remarks>
     public static double Number(this IReadOnlyDictionary<string, JsonNode?> s, string key, double fallback) =>
-        s.TryGetValue(key, out var v) && v is JsonValue jv && jv.GetValueKind() == JsonValueKind.Number ? (double)jv : fallback;
+        s.TryGetValue(key, out var v) && v is JsonValue jv && jv.GetValueKind() == JsonValueKind.Number
+            ? jv.TryGetValue(out double d) ? d : double.Parse(jv.ToJsonString(), NumberStyles.Float, CultureInfo.InvariantCulture)
+            : fallback;
 
     public static bool Flag(this IReadOnlyDictionary<string, JsonNode?> s, string key, bool fallback) =>
         s.TryGetValue(key, out var v) && v is JsonValue jv && jv.TryGetValue(out bool b) ? b : fallback;
@@ -535,6 +651,10 @@ public static class PluginRunner
         public void ShowIndicator(IndicatorRequest request) => Send(Protocol.ToJson(request));
 
         public void HideIndicator() => Send(new JsonObject { ["t"] = Protocol.IndicatorHide });
+
+        public void OpenSnapshot(string id, SnapshotRequest request) => Send(Protocol.ToJson(id, request));
+
+        public void SnapshotAction(string id, string action) => Send(new JsonObject { ["t"] = Protocol.ToolAction, ["id"] = id, ["action"] = Protocol.Trim(action, 48) });
 
         public void UpdateSettings(IReadOnlyDictionary<string, JsonNode?> values)
         {

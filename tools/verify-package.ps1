@@ -42,8 +42,8 @@ Expand-Archive $Zip -DestinationPath $app
 Pass "распаковано в путь с пробелами: $app"
 
 $exe = Join-Path $app 'Backpack.exe'
-foreach ($f in 'Backpack.exe', 'Backpack.Sdk.dll', 'PLUGINS-TRUST.md', 'Plugins\bundled.json', 'Plugins\com.example.drawing-1.0.1.bppkg', 'Plugins\com.example.layout-indicator-1.0.1.bppkg', 'Samples\Drawing\DrawingPlugin.cs', 'Samples\LayoutIndicator\LayoutIndicatorPlugin.cs', 'Plugins\com.example.cursor-zoom-1.0.1.bppkg', 'Plugins\com.example.lens-1.0.1.bppkg',
-        'Plugins\com.example.focus-1.0.1.bppkg', 'Plugins\com.example.presentation-timer-2.0.1.bppkg', 'Samples\README.md', 'Samples\Focus\Focus.csproj',
+foreach ($f in 'Backpack.exe', 'Backpack.Sdk.dll', 'PLUGINS-TRUST.md', 'Plugins\bundled.json', 'Plugins\com.example.drawing-1.0.1.bppkg', 'Plugins\com.example.layout-indicator-1.0.1.bppkg', 'Samples\Drawing\DrawingPlugin.cs', 'Samples\LayoutIndicator\LayoutIndicatorPlugin.cs', 'Plugins\com.example.cursor-zoom-1.0.1.bppkg', 'Plugins\com.example.lens-1.0.2.bppkg',
+        'Plugins\com.example.focus-1.0.2.bppkg', 'Plugins\com.example.presentation-timer-2.0.1.bppkg', 'Plugins\com.example.snapshot-overlay-1.0.0.bppkg', 'Samples\SnapshotOverlay\SnapshotPlugin.cs', 'Samples\README.md', 'Samples\Focus\Focus.csproj',
         'Samples\Focus\manifest.json', 'Samples\CursorZoom\CursorZoomPlugin.cs', 'Samples\Lens\LensPlugin.cs', 'Samples\PresentationTimer\TimerPlugin.cs', 'hostfxr.dll', 'coreclr.dll', 'PresentationFramework.dll', 'README.txt', 'RELEASE-NOTES.md', 'Licenses\Inter-LICENSE.txt', 'Licenses\Spectral-LICENSE.txt', 'Licenses\Lucide-LICENSE.txt', 'Licenses\dotnet-LICENSE.txt', 'LICENSE.txt', 'NOTICE.txt') {
     if (Test-Path (Join-Path $app $f)) { Pass "есть $f" } else { Fail "нет $f" }
 }
@@ -71,12 +71,12 @@ if ($noLicense.Count -eq 0) { Pass 'каждый .bppkg содержит LICENSE
 $bad = Get-ChildItem $app -Recurse | Where-Object { $_.Extension -eq '.pdb' -or $_.Name -like 'Screenshot*' -or $_.Name -in 'references', 'research' -or $_.Name -like 'backpack-lab-*.json' }
 if ($bad) { Fail "лишние файлы: $($bad.Name -join ', ')" } else { Pass 'нет .pdb, снимков экрана, references/research и экспортов диагностики' }
 
-# Phase 4H: индекс поставки — шесть пакетов, SHA-256 каждого совпадает с файлом (основа отметки «От создателя»).
+# Phase 4H: индекс поставки — семь пакетов (с 0.4.0-preview.8 — со «Снимком поверх окон»), SHA-256 каждого совпадает с файлом (основа отметки «От создателя»).
 $indexPath = Join-Path $app 'Plugins\bundled.json'
 if (Test-Path $indexPath) {
     $index = Get-Content $indexPath -Raw | ConvertFrom-Json
-    $okIndex = @($index.packages).Count -eq 6 -and -not (@($index.packages) | Where-Object { (Get-FileHash (Join-Path $app "Plugins\$($_.file)") -Algorithm SHA256).Hash.ToLowerInvariant() -ne $_.sha256 })
-    if ($okIndex) { Pass 'bundled.json: шесть пакетов, SHA-256 совпадают' } else { Fail 'bundled.json: не шесть пакетов или хеш не совпадает' }
+    $okIndex = @($index.packages).Count -eq 7 -and -not (@($index.packages) | Where-Object { (Get-FileHash (Join-Path $app "Plugins\$($_.file)") -Algorithm SHA256).Hash.ToLowerInvariant() -ne $_.sha256 })
+    if ($okIndex) { Pass 'bundled.json: семь пакетов, SHA-256 совпадают' } else { Fail 'bundled.json: не семь пакетов или хеш не совпадает' }
 }
 
 $runtimeConfig = Get-Content (Join-Path $app 'Backpack.runtimeconfig.json') -Raw | ConvertFrom-Json

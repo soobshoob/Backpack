@@ -1018,4 +1018,12 @@ Puteți face ca × să închidă aplicația în Setări → Aplicație.</value><
   <data name="Draw.Hint.SmartPen" xml:space="preserve"><value>Sunt recunoscute linii, forme, arce și unghiuri; mărimea unghiului apare cât timp butonul este ținut</value></data>
   <data name="Help.NotTranslated" xml:space="preserve"><value>Ajutorul nu este încă tradus în această limbă; se afișează ajutorul în engleză.</value></data>
   <data name="About.MadeIn" xml:space="preserve"><value>Fabricat în Ucraina</value></data>
+  <data name="Snapshot.SelectHint" xml:space="preserve"><value>Trageți un dreptunghi de capturat. Clic — dimensiune implicită. Esc sau clic dreapta — anulare.</value></data>
+  <data name="Snapshot.Grip.Move" xml:space="preserve"><value>Captură</value></data>
+  <data name="Snapshot.Button.Expand" xml:space="preserve"><value>Mărire (dublu clic sau Spațiu)</value></data>
+  <data name="Snapshot.Button.Collapse" xml:space="preserve"><value>Restrânge la poziția și dimensiunea anterioare</value></data>
+  <data name="Snapshot.Button.Replace" xml:space="preserve"><value>Înlocuire: capturați o zonă nouă</value></data>
+  <data name="Snapshot.Button.Hide" xml:space="preserve"><value>Ascundere (captura rămâne în memorie)</value></data>
+  <data name="Snapshot.Button.Clear" xml:space="preserve"><value>Ștergere captură</value></data>
+  <data name="Plugins.Cap.overlay.snapshot" xml:space="preserve"><value>captură a unei zone de ecran desenată de Backpack (pluginul nu primește imaginea)</value></data>
 </root>

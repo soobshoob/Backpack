@@ -1,7 +1,9 @@
 # Выпуск по тегу vMAJOR.MINOR.PATCH[-suffix]. Сборка и проверки — без прав записи; публикация — отдельной задачей с правом
 # contents: write в окружении `release` (владелец может требовать ручное одобрение в настройках окружения).
-# Выпуск создаётся черновиком: владелец просматривает файлы и публикует его сам. Существующие выпуски не перезаписываются.
-# Пакет не подписан — это указано в заметках к выпуску.
+# Файлы выпуска: portable-пакет (zip) и установщик Inno Setup (setup.exe), оба из одной проверенной сборки, с контрольными
+# суммами. С 0.4.0-preview.8 выпуск публикуется сразу (владелец разрешил публикацию проверенной сборки); переменная
+# репозитория RELEASE_AS_DRAFT=true возвращает прежний порядок — черновик, который владелец публикует сам.
+# Существующие выпуски не перезаписываются. Пакет и установщик не подписаны — это указано в заметках к выпуску.
 name: Release
 
 on:
@@ -66,6 +68,23 @@ jobs:
         shell: pwsh
         run: ./tools/verify-package.ps1 -AllowElevated -Zip "$env:RUNNER_TEMP/release/Backpack-${{ steps.version.outputs.version }}-win-x64.zip"
 
+      # Установщик — из того же проверенного zip (тот же состав файлов); проверка: тихая установка, состав, тихое удаление.
+      - name: Build and verify the Windows installer
+        shell: pwsh
+        run: >
+          ./tools/build-installer.ps1 -InstallInnoSetup -Verify
+          -Zip "$env:RUNNER_TEMP/release/Backpack-${{ steps.version.outputs.version }}-win-x64.zip"
+          -Output "$env:RUNNER_TEMP/release"
+
+      - name: Installer exists and is not empty
+        shell: pwsh
+        run: |
+          $setup = "$env:RUNNER_TEMP/release/Backpack-${{ steps.version.outputs.version }}-win-x64-setup.exe"
+          if (-not (Test-Path $setup)) { throw "Missing $setup" }
+          $len = (Get-Item $setup).Length
+          if ($len -le 0) { throw "Empty $setup" }
+          Write-Host ("{0}: {1:N0} bytes" -f (Split-Path $setup -Leaf), $len)
+
       - name: Collect release files
         shell: pwsh
         run: |
@@ -73,6 +92,8 @@ jobs:
           $out = New-Item -ItemType Directory -Force "$env:RUNNER_TEMP/upload"
           $zip = "$env:RUNNER_TEMP/release/Backpack-$v-win-x64.zip"
           Copy-Item $zip $out
+          Copy-Item "$env:RUNNER_TEMP/release/Backpack-$v-win-x64-setup.exe" $out
+          Copy-Item "$env:RUNNER_TEMP/release/Backpack-$v-win-x64-setup.exe.sha256" $out
           # SHA256SUMS.txt выпуска — только строка этого ZIP (точное имя файла), как ожидает сайт.
           $hash = (Get-FileHash $zip -Algorithm SHA256).Hash.ToLowerInvariant()
           "$hash  Backpack-$v-win-x64.zip" | Set-Content "$out/SHA256SUMS.txt" -Encoding ascii -NoNewline
@@ -105,16 +126,32 @@ jobs:
           TAG: ${{ github.ref_name }}
           VERSION: ${{ needs.build.outputs.version }}
           PRERELEASE: ${{ needs.build.outputs.prerelease }}
+          AS_DRAFT: ${{ vars.RELEASE_AS_DRAFT }}
         run: |
           set -euo pipefail
           if gh release view "$TAG" >/dev/null 2>&1; then
             echo "Release $TAG already exists: it is not changed. Create a new version instead." >&2
             exit 1
           fi
+          setup="Backpack-$VERSION-win-x64-setup.exe"
+          test -s "upload/$setup" || { echo "Installer missing or empty: $setup" >&2; exit 1; }
           {
             cat upload/RELEASE-NOTES.md
-            printf '\n\n---\nPortable package for Windows x64: `Backpack-%s-win-x64.zip`. **Not digitally signed**: Windows SmartScreen may warn. Check the SHA-256 in `SHA256SUMS.txt`.\n' "$VERSION"
+            printf '\n\n---\nWindows x64: installer `%s` (recommended) or portable package `Backpack-%s-win-x64.zip`. **Not digitally signed**: Windows SmartScreen may warn. SHA-256: `SHA256SUMS.txt` (zip) and `%s.sha256` (installer).\n' "$setup" "$VERSION" "$setup"
           } > notes.md
-          flags=(--draft --verify-tag --title "Backpack $VERSION" --notes-file notes.md)
+          flags=(--verify-tag --title "Backpack $VERSION" --notes-file notes.md)
+          if [ "$AS_DRAFT" = "true" ]; then flags+=(--draft); fi
           if [ "$PRERELEASE" = "true" ]; then flags+=(--prerelease); fi
-          gh release create "$TAG" "upload/Backpack-$VERSION-win-x64.zip" upload/SHA256SUMS.txt "${flags[@]}"
+          gh release create "$TAG" "upload/$setup" "upload/$setup.sha256" "upload/Backpack-$VERSION-win-x64.zip" upload/SHA256SUMS.txt "${flags[@]}"
+
+      - name: The installer is attached to the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          TAG: ${{ github.ref_name }}
+          VERSION: ${{ needs.build.outputs.version }}
+        run: |
+          set -euo pipefail
+          size=$(gh release view "$TAG" --json assets --jq ".assets[] | select(.name == \"Backpack-$VERSION-win-x64-setup.exe\") | .size")
+          test -n "$size" && test "$size" -gt 0 || { echo "Installer asset is missing on release $TAG" >&2; exit 1; }
+          echo "Installer asset on $TAG: $size bytes"

@@ -1018,4 +1018,12 @@
   <data name="Draw.Hint.SmartPen" xml:space="preserve"><value>Αναγνωρίζονται γραμμές, σχήματα, τόξα και γωνίες· το μέγεθος της γωνίας εμφανίζεται όσο κρατιέται το κουμπί</value></data>
   <data name="Help.NotTranslated" xml:space="preserve"><value>Η βοήθεια δεν έχει μεταφραστεί ακόμη σε αυτή τη γλώσσα· εμφανίζεται η αγγλική βοήθεια.</value></data>
   <data name="About.MadeIn" xml:space="preserve"><value>Κατασκευάστηκε στην Ουκρανία</value></data>
+  <data name="Snapshot.SelectHint" xml:space="preserve"><value>Σύρετε ένα ορθογώνιο για λήψη. Κλικ — προεπιλεγμένο μέγεθος. Esc ή δεξί κλικ — ακύρωση.</value></data>
+  <data name="Snapshot.Grip.Move" xml:space="preserve"><value>Στιγμιότυπο</value></data>
+  <data name="Snapshot.Button.Expand" xml:space="preserve"><value>Μεγέθυνση (διπλό κλικ ή κενό)</value></data>
+  <data name="Snapshot.Button.Collapse" xml:space="preserve"><value>Σύμπτυξη στην προηγούμενη θέση και μέγεθος</value></data>
+  <data name="Snapshot.Button.Replace" xml:space="preserve"><value>Αντικατάσταση: λήψη νέας περιοχής</value></data>
+  <data name="Snapshot.Button.Hide" xml:space="preserve"><value>Απόκρυψη (το στιγμιότυπο μένει στη μνήμη)</value></data>
+  <data name="Snapshot.Button.Clear" xml:space="preserve"><value>Διαγραφή στιγμιότυπου</value></data>
+  <data name="Plugins.Cap.overlay.snapshot" xml:space="preserve"><value>στιγμιότυπο περιοχής οθόνης που σχεδιάζει το Backpack (το πρόσθετο δεν λαμβάνει την εικόνα)</value></data>
 </root>

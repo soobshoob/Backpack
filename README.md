@@ -1,7 +1,7 @@
 # Backpack
 
 Backpack is a toolkit for clear presentations, tutorial videos and screen demos on Windows 10 and 11 (x64): it shows the
-keys and mouse buttons you press, and its plugins add drawing, a lens, focus, a cursor magnifier and a timer.
+keys and mouse buttons you press, and its plugins add drawing, a lens, focus, a cursor magnifier, a timer and a floating screen snapshot.
 
 ![Backpack main window, Home page, in the default Backpack Neon Emerald look](docs/images/main-window.png)
 
@@ -36,7 +36,7 @@ overwrites the theme, fonts, styles or profiles you saved.
 
 ![Appearance page with the default settings](docs/images/interface-theme.png)
 
-## The six plugins from the creator
+## The seven plugins from the creator
 
 They ship with Backpack turned off (Plugins → turn on) and are also the SDK samples (`lab/samples`).
 
@@ -48,6 +48,7 @@ They ship with Backpack turned off (Plugins → turn on) and are also the SDK sa
 | **Focus** | dims everything except the area you choose |
 | **Cursor magnifier** | magnifies the area around the pointer while a hotkey is held, following the pointer, or pinned |
 | **Presentation timer** | a countdown panel for talks |
+| **Snapshot overlay** | a still snapshot of a screen area in a floating window on top: move, resize, double-click or Space to expand it almost to full screen and back — e.g. a drawing next to your CAD model on one monitor ([details](docs/plugins/snapshot-overlay.md)) |
 
 ![Plugins page with the six plugins from the creator](docs/images/plugins.png)
 
@@ -68,16 +69,24 @@ codes, key sequences, pointer positions or screen content. Backpack needs no adm
 and never downloads or runs updates by itself. Plugins are programs: turn on only plugins you trust
 ([ADR-0001](docs/plugins/ADR-0001-plugin-trust.md)).
 
-## Run
+## Install
+
+**Installer** (from 0.4.0-preview.8): download `Backpack-<version>-win-x64-setup.exe` from
+[Releases](https://github.com/soobshoob/Backpack/releases) and run it. It installs for your user without administrator
+rights (`%LOCALAPPDATA%\Programs\Backpack`), adds a Start menu entry and keeps your settings when you update or uninstall.
+Compare its SHA-256 with the `.sha256` file next to it if you like.
+
+**Portable**:
 
 1. Download the newest `Backpack-<version>-win-x64.zip` from [Releases](https://github.com/soobshoob/Backpack/releases)
    and check its SHA-256 against `SHA256SUMS.txt` attached to the same release. Current versions are **prereleases**.
 2. Unpack it anywhere and run `Backpack.exe`. The .NET runtime is included; nothing else needs to be installed.
-3. The package is **not digitally signed**, so Windows SmartScreen may show a warning.
+
+Neither is **digitally signed**, so Windows SmartScreen may show a warning (“More info” → “Run anyway”).
 
 Settings are kept in `%APPDATA%\Backpack`. For portable mode put an empty file `Backpack.portable` next to `Backpack.exe`.
 Start without plugins: `Backpack.exe --no-plugins`. Settings of 0.4.0-preview.6 and earlier are not read by
-0.4.0-preview.7 and later; see the [release notes](docs/release/RELEASE-NOTES-0.4.0-preview.7.md).
+0.4.0-preview.7 and later; see the [release notes](docs/release/RELEASE-NOTES-0.4.0-preview.8.md).
 
 ## Build from source
 
@@ -114,7 +123,7 @@ The **Backpack core** is licensed under the [Mozilla Public License 2.0](https:/
 [LICENSING.md](LICENSING.md). Packages released earlier (up to 0.4.0-preview.5) were released under the PolyForm Strict
 License 1.0.0 and keep those terms.
 
-The **plugin SDK** (`lab/sdk`) and the **six plugins from the creator** (`lab/samples`) are not covered by the MPL: they
+The **plugin SDK** (`lab/sdk`) and the **plugins from the creator** (`lab/samples`) are not covered by the MPL: they
 have their own `LICENSE` files and are under the PolyForm Strict License 1.0.0 until the owner decides on their terms
 ([proposal](docs/release/LICENSING-PROPOSAL.md)). Plugins by other authors have their own licenses. Third-party components
 keep theirs: [THIRD-PARTY-NOTICES](docs/release/THIRD-PARTY-NOTICES.md).

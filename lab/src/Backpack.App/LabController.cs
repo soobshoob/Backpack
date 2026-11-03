@@ -406,7 +406,7 @@ public sealed class LabController
 
         _focus = f;
         _uiaFocus = new UiaFocusEvents(f.SignalFocusChanged);
-        _uiaFocus.ReadyChanged += f.SignalFocusChanged; // готова — проверить текущий элемент заново (новая версия)
+        _uiaFocus.ReadyChanged += () => f.SignalFocusChanged(null); // готова — проверить текущий элемент заново (новая версия)
         _uiaFocus.Start();
         _seenFocusSerial = -1;
         _seenFocusWindow = -1;

@@ -126,7 +126,7 @@ public class Phase4IPluginSymbolTests : IDisposable
         var expected = new Dictionary<string, string>
         {
             ["Drawing"] = "pen-tool", ["LayoutIndicator"] = "globe", ["Lens"] = "scan-search", ["Focus"] = "focus",
-            ["CursorZoom"] = "zoom-in", ["PresentationTimer"] = "timer",
+            ["CursorZoom"] = "zoom-in", ["PresentationTimer"] = "timer", ["SnapshotOverlay"] = "image",
         };
         foreach (var (folder, symbol) in expected)
         {

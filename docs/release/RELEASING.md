@@ -25,10 +25,23 @@ The output in `artifacts/release/`:
 | File | Purpose |
 |---|---|
 | `Backpack-<version>-win-x64.zip` | the portable, self-contained package |
+| `Backpack-<version>-win-x64-setup.exe` (+ `.sha256`) | the installer (Inno Setup 6), built from the same zip by `tools/build-installer.ps1` |
 | `SHA256SUMS.txt` | SHA-256 of the zip |
 | `Backpack-<version>-win-x64.files.sha256` | SHA-256 of every file in the package |
 
 The package contains `Backpack.exe` with the .NET runtime, `LICENSE.txt`, `NOTICE.txt`, `README.txt`, `RELEASE-NOTES.md`, `THIRD-PARTY-NOTICES.md`, `LICENSE-STATUS.md` and `Licenses\` (third-party license texts). It never contains `.pdb` files, diagnostic exports, `references/`, `research/` or screenshots.
+
+## Build the installer
+
+```powershell
+pwsh tools/build-installer.ps1 -Zip artifacts/release/Backpack-<version>-win-x64.zip -Verify
+```
+
+Requires Inno Setup 6 (`-InstallInnoSetup` installs it with Chocolatey, as on GitHub Actions). `-Verify` installs silently
+into a temporary folder for the current user, checks the files and the bundled plugins, and uninstalls again. The installer
+is per-user by default (no administrator rights), keeps `%APPDATA%\Backpack` on update and uninstall, replaces `Plugins\`
+and `Samples\` on update, and removes the autostart entry only if it points to the installed copy. Every pull request
+builds and verifies the zip and the installer in CI (artifact `installer-<version>-unreleased`, not published).
 
 ## GitHub Releases structure
 
@@ -38,14 +51,16 @@ The package contains `Backpack.exe` with the .NET runtime, `LICENSE.txt`, `NOTIC
 | Title | `Backpack <version>` |
 | Pre-release flag | set for versions with a suffix (`-preview.N`); the program's Preview channel sees them, Stable does not |
 | Body | the release notes for this version |
-| Assets | `Backpack-<version>-win-x64.zip`, `SHA256SUMS.txt` |
+| Assets | `Backpack-<version>-win-x64-setup.exe`, `Backpack-<version>-win-x64-setup.exe.sha256`, `Backpack-<version>-win-x64.zip`, `SHA256SUMS.txt` |
 
 The update check in the program reads the public list of releases of the configured repository, compares SemVer versions and links to the release page. It never downloads or runs anything.
 
 ## Not done automatically
 
 - Code signing (the package is unsigned until the owner provides a certificate).
-- Creating the tag, the release or making the repository public.
+- Creating the tag. The release itself is created by `release.yml` from the tag and published directly (from 0.4.0-preview.8;
+  set the repository variable `RELEASE_AS_DRAFT=true` to get a draft for manual review instead). Existing releases are
+  never overwritten.
 
 ## Current package and desktop verification
 

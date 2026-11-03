@@ -1018,4 +1018,12 @@ You can make × exit instead in Settings → Application.</value></data>
   <data name="Draw.Hint.SmartPen" xml:space="preserve"><value>Lines, shapes, arcs and angles are recognized; the angle size shows while the button is held</value></data>
   <data name="Help.NotTranslated" xml:space="preserve"><value>The help is not translated into this language yet; the English help is shown.</value></data>
   <data name="About.MadeIn" xml:space="preserve"><value>Made in Ukraine</value></data>
+  <data name="Snapshot.SelectHint" xml:space="preserve"><value>Drag a rectangle to capture. Click — default size. Esc or right click — cancel.</value></data>
+  <data name="Snapshot.Grip.Move" xml:space="preserve"><value>Snapshot</value></data>
+  <data name="Snapshot.Button.Expand" xml:space="preserve"><value>Expand (double-click or Space)</value></data>
+  <data name="Snapshot.Button.Collapse" xml:space="preserve"><value>Collapse to the previous place and size</value></data>
+  <data name="Snapshot.Button.Replace" xml:space="preserve"><value>Replace: capture a new area</value></data>
+  <data name="Snapshot.Button.Hide" xml:space="preserve"><value>Hide (the snapshot stays in memory)</value></data>
+  <data name="Snapshot.Button.Clear" xml:space="preserve"><value>Clear the snapshot</value></data>
+  <data name="Plugins.Cap.overlay.snapshot" xml:space="preserve"><value>Snapshot of a screen area drawn by Backpack (the plugin gets no image)</value></data>
 </root>

@@ -22,7 +22,10 @@ local package of the same commit is checked with `verify-package.ps1 -SelfTestUi
 published once after its ZIP and `SHA256SUMS.txt` were downloaded and compared.
 
 For subsequent `v*` tags, `release.yml` checks that the tag matches `lab/Directory.Build.props`, builds/tests/packages on
-Windows, verifies the package and creates a **draft** release. The build has read-only permissions; only the publish job
+Windows, verifies the package, builds and silently installs/uninstalls the installer, and creates the release with the
+installer, the zip and their checksums. From 0.4.0-preview.8 (owner's authorization) the release is **published directly**;
+the repository variable `RELEASE_AS_DRAFT=true` restores the draft-then-review path described below for earlier versions.
+Up to 0.4.0-preview.7 the workflow created a **draft** release. The build has read-only permissions; only the publish job
 has `contents: write`. Existing releases are not overwritten. Review the draft and publish it once; do not also run a
 separate manual release creation for that tag. A preview suffix always means prerelease, never stable.
 

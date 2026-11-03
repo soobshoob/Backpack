@@ -83,7 +83,7 @@ Copy-Item (Join-Path $repo 'NOTICE') (Join-Path $stage 'NOTICE.txt')
 # SDK и плагины от создателя — отдельные условия (до решения владельца PolyForm Strict 1.0.0): корневая MPL их не покрывает.
 Copy-Item (Join-Path $repo 'lab\sdk\LICENSE') (Join-Path $licenses 'Backpack.Sdk-LICENSE.txt')
 Copy-Item (Join-Path $repo 'lab\samples\LICENSE') (Join-Path $licenses 'PolyForm-Strict-1.0.0.txt')
-# Phase 4G/4H: шесть плагинов от создателя. Plugins\ — готовые пакеты .bppkg и индекс поставки bundled.json (SHA-256:
+# Phase 4G/4H: плагины от создателя (семь, со «Снимком поверх окон»). Plugins\ — готовые пакеты .bppkg и индекс поставки bundled.json (SHA-256:
 # при запуске Backpack ставит их в каталог выключенными, код не запускается; по индексу — отметка «От создателя»),
 # Samples\ — исходники с инструкцией. В исходниках ссылка на проект SDK заменяется
 # ссылкой на Backpack.Sdk.dll рядом с Backpack.exe, чтобы пример собирался прямо из папки пакета.
@@ -91,7 +91,7 @@ $plugins = Join-Path $stage 'Plugins'
 $samples = Join-Path $stage 'Samples'
 New-Item -ItemType Directory -Force $plugins, $samples | Out-Null
 Copy-Item (Join-Path $repo 'lab\samples\LICENSE') (Join-Path $samples 'LICENSE.txt')
-foreach ($sample in 'Drawing', 'LayoutIndicator', 'CursorZoom', 'Lens', 'Focus', 'PresentationTimer') {
+foreach ($sample in 'Drawing', 'LayoutIndicator', 'CursorZoom', 'Lens', 'Focus', 'PresentationTimer', 'SnapshotOverlay') {
     $src = Join-Path $repo "lab\samples\$sample"
     & (Join-Path $repo 'tools\pack-plugin.ps1') -Project (Join-Path $src "$sample.csproj") -Out $plugins | Out-Host
     $dst = Join-Path $samples $sample
@@ -103,7 +103,7 @@ foreach ($sample in 'Drawing', 'LayoutIndicator', 'CursorZoom', 'Lens', 'Focus',
     $csproj.Replace($sdkRef, '<Reference Include="Backpack.Sdk"><HintPath>..\..\Backpack.Sdk.dll</HintPath><Private>false</Private></Reference>') |
         Set-Content (Join-Path $dst "$sample.csproj") -Encoding utf8
 }
-if (@(Get-ChildItem $plugins -Filter *.bppkg).Count -ne 6) { throw 'В Plugins должно быть шесть пакетов.' }
+if (@(Get-ChildItem $plugins -Filter *.bppkg).Count -ne 7) { throw 'В Plugins должно быть семь пакетов.' }
 & (Join-Path $repo 'tools\write-bundled-index.ps1') -Dir $plugins | Out-Host
 Copy-Item (Join-Path $repo 'docs\plugins\README.md') (Join-Path $samples 'README.md')
 Copy-Item (Join-Path $repo 'docs\plugins\ADR-0001-plugin-trust.md') (Join-Path $stage 'PLUGINS-TRUST.md')

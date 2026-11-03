@@ -1018,4 +1018,12 @@ Voit asettaa × lopettamaan sovelluksen kohdassa Asetukset → Sovellus.</value>
   <data name="Draw.Hint.SmartPen" xml:space="preserve"><value>Viivat, muodot, kaaret ja kulmat tunnistetaan; kulman suuruus näkyy, kun painiketta pidetään pohjassa</value></data>
   <data name="Help.NotTranslated" xml:space="preserve"><value>Ohjetta ei ole vielä käännetty tälle kielelle; näytetään englanninkielinen ohje.</value></data>
   <data name="About.MadeIn" xml:space="preserve"><value>Valmistettu Ukrainassa</value></data>
+  <data name="Snapshot.SelectHint" xml:space="preserve"><value>Vedä kaapattava suorakulmio. Napsautus — oletuskoko. Esc tai hiiren oikea painike — peruuta.</value></data>
+  <data name="Snapshot.Grip.Move" xml:space="preserve"><value>Kaappaus</value></data>
+  <data name="Snapshot.Button.Expand" xml:space="preserve"><value>Suurenna (kaksoisnapsautus tai välilyönti)</value></data>
+  <data name="Snapshot.Button.Collapse" xml:space="preserve"><value>Palauta edelliseen paikkaan ja kokoon</value></data>
+  <data name="Snapshot.Button.Replace" xml:space="preserve"><value>Korvaa: kaappaa uusi alue</value></data>
+  <data name="Snapshot.Button.Hide" xml:space="preserve"><value>Piilota (kaappaus jää muistiin)</value></data>
+  <data name="Snapshot.Button.Clear" xml:space="preserve"><value>Poista kaappaus</value></data>
+  <data name="Plugins.Cap.overlay.snapshot" xml:space="preserve"><value>Backpackin piirtämä kaappaus näytön alueesta (laajennus ei saa kuvaa)</value></data>
 </root>

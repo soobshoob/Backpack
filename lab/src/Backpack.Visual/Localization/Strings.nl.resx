@@ -1018,4 +1018,12 @@ U kunt × laten afsluiten via Instellingen → Toepassing.</value></data>
   <data name="Draw.Hint.SmartPen" xml:space="preserve"><value>Lijnen, vormen, bogen en hoeken worden herkend; de hoekgrootte verschijnt zolang de knop is ingedrukt</value></data>
   <data name="Help.NotTranslated" xml:space="preserve"><value>De help is nog niet in deze taal vertaald; de Engelse help wordt getoond.</value></data>
   <data name="About.MadeIn" xml:space="preserve"><value>Gemaakt in Oekraïne</value></data>
+  <data name="Snapshot.SelectHint" xml:space="preserve"><value>Sleep een rechthoek om vast te leggen. Klik — standaardgrootte. Esc of rechtsklik — annuleren.</value></data>
+  <data name="Snapshot.Grip.Move" xml:space="preserve"><value>Afbeelding</value></data>
+  <data name="Snapshot.Button.Expand" xml:space="preserve"><value>Vergroten (dubbelklikken of spatie)</value></data>
+  <data name="Snapshot.Button.Collapse" xml:space="preserve"><value>Verkleinen naar vorige plek en grootte</value></data>
+  <data name="Snapshot.Button.Replace" xml:space="preserve"><value>Vervangen: nieuw gebied vastleggen</value></data>
+  <data name="Snapshot.Button.Hide" xml:space="preserve"><value>Verbergen (de afbeelding blijft in het geheugen)</value></data>
+  <data name="Snapshot.Button.Clear" xml:space="preserve"><value>Afbeelding wissen</value></data>
+  <data name="Plugins.Cap.overlay.snapshot" xml:space="preserve"><value>door Backpack getekende afbeelding van een schermgebied (de plug-in krijgt geen beeld)</value></data>
 </root>

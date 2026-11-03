@@ -420,6 +420,7 @@ public sealed class PluginProcess : IDisposable
                     "magnifier" => _manifest.Has(Capabilities.OverlayMagnifier),
                     "dim" => _manifest.Has(Capabilities.OverlayDim),
                     "draw" => _manifest.Has(Capabilities.OverlayDraw),
+                    "snapshot" => _manifest.Has(Capabilities.OverlaySnapshot),
                     _ => false,
                 };
                 if (request is null || !allowed)
@@ -451,9 +452,13 @@ public sealed class PluginProcess : IDisposable
             case Protocol.PanelHide when State == PluginRunState.Running && _manifest.Has(Capabilities.OverlayPanel):
                 PanelChanged?.Invoke(null);
                 break;
-            case Protocol.ToolAction when State == PluginRunState.Running && _manifest.Has(Capabilities.OverlayDraw):
+            case Protocol.ToolAction when State == PluginRunState.Running && (_manifest.Has(Capabilities.OverlayDraw) || _manifest.Has(Capabilities.OverlaySnapshot)):
                 string? actionTool = (string?)msg!["id"];
-                if (!PluginToolParser.IsValidToolId(actionTool) || PluginToolParser.ParseDrawAction((string?)msg["action"]) is not { } action)
+                string? rawAction = (string?)msg["action"];
+                // Действия холста — только с overlay.draw, действия снимка — только с overlay.snapshot (имена не пересекаются).
+                string? action = (_manifest.Has(Capabilities.OverlayDraw) ? PluginToolParser.ParseDrawAction(rawAction) : null)
+                    ?? (_manifest.Has(Capabilities.OverlaySnapshot) ? PluginToolParser.ParseSnapshotAction(rawAction) : null);
+                if (!PluginToolParser.IsValidToolId(actionTool) || action is null)
                 {
                     Violation();
                     return;
@@ -492,7 +497,7 @@ public sealed class PluginProcess : IDisposable
     }
 
     private bool HasToolCapability() => _manifest.Has(Capabilities.OverlayMagnifier) || _manifest.Has(Capabilities.OverlayDim) || _manifest.Has(Capabilities.OverlayPanel)
-        || _manifest.Has(Capabilities.OverlayDraw);
+        || _manifest.Has(Capabilities.OverlayDraw) || _manifest.Has(Capabilities.OverlaySnapshot);
 
     /// <summary>Тесты: состояние «ожидание рукопожатия» без запуска процесса.</summary>
     internal void BeginForTest() => State = PluginRunState.Starting;

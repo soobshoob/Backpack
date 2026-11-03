@@ -1018,4 +1018,12 @@ Du kan la × avslutte i stedet under Innstillinger → Program.</value></data>
   <data name="Draw.Hint.SmartPen" xml:space="preserve"><value>Linjer, figurer, buer og vinkler gjenkjennes; vinkelstørrelsen vises mens knappen holdes nede</value></data>
   <data name="Help.NotTranslated" xml:space="preserve"><value>Hjelpen er ennå ikke oversatt til dette språket; den engelske hjelpen vises.</value></data>
   <data name="About.MadeIn" xml:space="preserve"><value>Laget i Ukraina</value></data>
+  <data name="Snapshot.SelectHint" xml:space="preserve"><value>Dra et rektangel som skal fanges. Klikk — standardstørrelse. Esc eller høyreklikk — avbryt.</value></data>
+  <data name="Snapshot.Grip.Move" xml:space="preserve"><value>Klipp</value></data>
+  <data name="Snapshot.Button.Expand" xml:space="preserve"><value>Forstørr (dobbeltklikk eller mellomrom)</value></data>
+  <data name="Snapshot.Button.Collapse" xml:space="preserve"><value>Gjenopprett til forrige plassering og størrelse</value></data>
+  <data name="Snapshot.Button.Replace" xml:space="preserve"><value>Erstatt: fang et nytt område</value></data>
+  <data name="Snapshot.Button.Hide" xml:space="preserve"><value>Skjul (klippet blir i minnet)</value></data>
+  <data name="Snapshot.Button.Clear" xml:space="preserve"><value>Slett klippet</value></data>
+  <data name="Plugins.Cap.overlay.snapshot" xml:space="preserve"><value>klipp av et skjermområde tegnet av Backpack (tillegget får ikke bildet)</value></data>
 </root>

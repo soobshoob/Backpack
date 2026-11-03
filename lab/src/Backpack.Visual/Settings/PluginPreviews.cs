@@ -33,14 +33,14 @@ public static class PluginPreviews
             {
                 var v = values();
                 return new FocusSettings(FocusMode.Lens, Zoom: N(v, "zoom", 1.5), Radius: N(v, "radius", 16), BorderWidth: N(v, "borderWidth", 2),
-                    BorderColor: S(v, "borderColor", "#D4D4D4"), Shadow: B(v, "shadow", true), Glow: B(v, "glow", false), ShowSource: B(v, "showSource", true),
+                    BorderColor: S(v, "borderColor", Backpack.Sdk.ToolDefaults.BorderColor), Shadow: B(v, "shadow", true), Glow: B(v, "glow", false), ShowSource: B(v, "showSource", true),
                     Preset: FocusPreset.Custom);
             }, animate),
             "dim" => LivePreview.Focus(() =>
             {
                 var v = values();
                 return new FocusSettings(FocusMode.Dim, DimOpacity: N(v, "opacity", 70) / 100, Radius: N(v, "radius", 16), BorderWidth: N(v, "borderWidth", 2),
-                    BorderColor: S(v, "borderColor", "#D4D4D4"), Glow: B(v, "glow", false), EdgeSoftness: N(v, "softness", 0), Preset: FocusPreset.Custom);
+                    BorderColor: S(v, "borderColor", Backpack.Sdk.ToolDefaults.BorderColor), Glow: B(v, "glow", false), EdgeSoftness: N(v, "softness", 0), Preset: FocusPreset.Custom);
             }, animate),
             "panel" => LivePreview.Panel(() =>
             {

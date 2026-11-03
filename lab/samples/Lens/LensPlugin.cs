@@ -61,7 +61,7 @@ public sealed class LensPlugin : BackpackPlugin
     {
         var s = Context.Settings;
         return new MagnifierRequest(MagnifierMode.Region, s.Number("zoom", 1.5), s.Number("width", 360), s.Number("height", 220), Round: false,
-            s.Number("radius", 16), s.Number("borderWidth", 2), s.Text("borderColor", "#D4D4D4"), s.Flag("shadow", true), s.Flag("glow", false),
+            s.Number("radius", 16), s.Number("borderWidth", 2), s.Text("borderColor", ToolDefaults.BorderColor), s.Flag("shadow", true), s.Flag("glow", false),
             s.Flag("showSource", true));
     }
 }
