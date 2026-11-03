@@ -71,12 +71,12 @@ if ($noLicense.Count -eq 0) { Pass 'каждый .bppkg содержит LICENSE
 $bad = Get-ChildItem $app -Recurse | Where-Object { $_.Extension -eq '.pdb' -or $_.Name -like 'Screenshot*' -or $_.Name -in 'references', 'research' -or $_.Name -like 'backpack-lab-*.json' }
 if ($bad) { Fail "лишние файлы: $($bad.Name -join ', ')" } else { Pass 'нет .pdb, снимков экрана, references/research и экспортов диагностики' }
 
-# Phase 4H: индекс поставки — шесть пакетов, SHA-256 каждого совпадает с файлом (основа отметки «От создателя»).
+# Phase 4H: индекс поставки — семь пакетов (с 0.4.0-preview.8 — со «Снимком поверх окон»), SHA-256 каждого совпадает с файлом (основа отметки «От создателя»).
 $indexPath = Join-Path $app 'Plugins\bundled.json'
 if (Test-Path $indexPath) {
     $index = Get-Content $indexPath -Raw | ConvertFrom-Json
-    $okIndex = @($index.packages).Count -eq 6 -and -not (@($index.packages) | Where-Object { (Get-FileHash (Join-Path $app "Plugins\$($_.file)") -Algorithm SHA256).Hash.ToLowerInvariant() -ne $_.sha256 })
-    if ($okIndex) { Pass 'bundled.json: шесть пакетов, SHA-256 совпадают' } else { Fail 'bundled.json: не шесть пакетов или хеш не совпадает' }
+    $okIndex = @($index.packages).Count -eq 7 -and -not (@($index.packages) | Where-Object { (Get-FileHash (Join-Path $app "Plugins\$($_.file)") -Algorithm SHA256).Hash.ToLowerInvariant() -ne $_.sha256 })
+    if ($okIndex) { Pass 'bundled.json: семь пакетов, SHA-256 совпадают' } else { Fail 'bundled.json: не семь пакетов или хеш не совпадает' }
 }
 
 $runtimeConfig = Get-Content (Join-Path $app 'Backpack.runtimeconfig.json') -Raw | ConvertFrom-Json
